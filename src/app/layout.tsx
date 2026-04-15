@@ -19,10 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: `${siteName} — Free Roblox codes`,
-    template: `%s | ${siteName}`,
+    default: "Free Roblox Codes 2026 – Updated Daily (Working Codes)",
+    template: "%s | RobloxCodesHQ",
   },
-  description: siteDescription,
+  description:
+    "Get the latest working Roblox codes for 2026. Updated daily with new rewards, free items, and exclusive in-game bonuses across top Roblox games.",
   keywords: [
     "Roblox",
     "codes",
@@ -44,12 +45,8 @@ export const metadata: Metadata = {
     description: siteDescription,
   },
   icons: {
-    icon: [
-      { url: "/brand.ico" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
 };

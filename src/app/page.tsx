@@ -14,16 +14,16 @@ import type { GameListItem } from "@/types/game-list";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Free Roblox Codes 2026 – Updated Daily (Working Codes)",
   description:
-    "Discover active Roblox codes, trusted redemption tips, trending games, and practical guides in one place.",
-  alternates: { canonical: "/" },
+    "Get the latest working Roblox codes for 2026. Updated daily with new rewards, free items, and exclusive in-game bonuses across top Roblox games.",
+  alternates: { canonical: "https://www.robloxcodeshq.com/" },
   openGraph: {
-    title: `${siteName} | Roblox Codes and Guides`,
+    title: "Free Roblox Codes 2026 – Updated Daily (Working Codes)",
     description:
-      "Active Roblox code lists plus practical guides and redemption help.",
+      "Get the latest working Roblox codes for 2026. Updated daily with new rewards, free items, and exclusive in-game bonuses across top Roblox games.",
     type: "website",
-    url: "/",
+    url: "https://www.robloxcodeshq.com/",
   },
 };
 
@@ -68,6 +68,12 @@ export default async function Home() {
         name: siteName,
         description: siteDescription,
         inLanguage: "en-US",
+      },
+      {
+        "@type": "Organization",
+        name: "RobloxCodesHQ",
+        url: "https://www.robloxcodeshq.com",
+        logo: "https://www.robloxcodeshq.com/favicon.ico",
       },
       ...(trending.length > 0
         ? [

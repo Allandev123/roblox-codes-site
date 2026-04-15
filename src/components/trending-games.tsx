@@ -34,7 +34,7 @@ export function TrendingGames({
           <div>
             <h2 className="text-2xl font-black tracking-tight text-white sm:text-3xl">
               <span className="bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent">
-                Trending games
+                Popular Games
               </span>
             </h2>
             <p className="mt-2 max-w-xl text-sm text-zinc-400">
@@ -54,7 +54,7 @@ export function TrendingGames({
             href="/codes"
             className="btn-outline-neon inline-flex shrink-0 items-center justify-center rounded-xl border border-blue-400/35 bg-blue-600/15 px-5 py-2.5 text-sm font-bold text-blue-100 shadow-[0_0_24px_rgba(59,130,246,0.2)] hover:border-blue-300/55 hover:bg-blue-600/25"
           >
-            View all games →
+            View all Roblox game codes →
           </Link>
         </div>
 

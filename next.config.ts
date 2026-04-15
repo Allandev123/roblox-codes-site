@@ -5,6 +5,7 @@ import type { NextConfig } from "next";
 loadEnvConfig(process.cwd());
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
   images: {
     remotePatterns: [
       {

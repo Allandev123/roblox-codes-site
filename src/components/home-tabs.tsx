@@ -62,7 +62,7 @@ export function HomeTabs({ latestCodes }: Props) {
             className="mt-3 text-2xl font-black tracking-tight text-white sm:text-3xl md:text-4xl"
           >
             <span className="bg-gradient-to-r from-red-200 via-white to-red-100 bg-clip-text text-transparent">
-              Latest &amp; help
+              Latest Roblox Codes
             </span>
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm text-zinc-400 sm:text-base">
@@ -130,7 +130,7 @@ export function HomeTabs({ latestCodes }: Props) {
                     href="/codes"
                     className="btn-outline-neon mt-5 inline-flex items-center justify-center rounded-xl border border-blue-400/35 bg-blue-600/20 px-5 py-2.5 text-sm font-bold text-blue-100 hover:bg-blue-600/30"
                   >
-                    Browse all games →
+                    Browse all Roblox game codes →
                   </Link>
                 </div>
               ) : (

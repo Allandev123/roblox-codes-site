@@ -68,9 +68,9 @@ export function HomeSeoSection() {
             </div>
 
             <div className="mt-12 rounded-2xl border border-white/10 bg-black/30 p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-white sm:text-xl">
-                How to redeem Roblox codes
-              </h3>
+              <h2 className="text-lg font-bold text-white sm:text-xl">
+                How to Redeem Codes
+              </h2>
               <p className="mt-2 text-sm text-zinc-500">
                 Flow varies slightly by game, but this pattern covers most
                 experiences — from Blox Fruits and Anime Fighters to Pet

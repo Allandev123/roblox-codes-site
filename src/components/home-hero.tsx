@@ -16,9 +16,9 @@ export function HomeHero() {
           <span className="h-2 w-2 rounded-full bg-red-500 shadow-[0_0_12px_rgba(239,68,68,0.9)]" />
           Live-style layout · verify codes in-game
         </div>
-        <h1 className="animate-fade-up mt-6 max-w-4xl text-4xl font-black tracking-tight text-white sm:text-6xl sm:leading-[1.05] md:text-7xl">
+        <h1 className="animate-fade-up mt-6 max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-6xl sm:leading-[1.05] md:text-7xl">
           <span className="block bg-gradient-to-r from-red-400 via-white to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(239,68,68,0.35)]">
-            Free Roblox Codes 2026
+            Free Roblox Codes 2026 (Updated Daily)
           </span>
         </h1>
         <p className="animate-fade-up animation-delay-1 mt-5 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
@@ -30,7 +30,7 @@ export function HomeHero() {
             href="/codes"
             className="btn-glow-red inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm font-bold text-white"
           >
-            All game codes
+            View all Roblox codes
           </Link>
           <Link
             href="#trending"
