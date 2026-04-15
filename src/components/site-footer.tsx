@@ -10,6 +10,7 @@ const legalLinks = [
 
 const contentLinks = [
   { href: "/guides", label: "Guides" },
+  { href: "/about", label: "About" },
   { href: "/codes", label: "All Codes" },
 ] as const;
 
