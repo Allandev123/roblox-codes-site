@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteToast } from "@/components/site-toast";
-import { getSiteUrl, siteDescription, siteName, withFaviconCacheBust } from "@/lib/site";
+import { getSiteUrl, siteDescription, siteName } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -45,26 +45,11 @@ export const metadata: Metadata = {
     description: siteDescription,
   },
   icons: {
-    icon: [
-      {
-        url: withFaviconCacheBust("/favicon.ico"),
-        sizes: "any",
-      },
-      {
-        url: withFaviconCacheBust("/favicon-32x32.png"),
-        sizes: "32x32",
-        type: "image/png",
-      },
-      {
-        url: withFaviconCacheBust("/favicon-16x16.png"),
-        sizes: "16x16",
-        type: "image/png",
-      },
-    ],
-    shortcut: withFaviconCacheBust("/favicon.ico"),
-    apple: withFaviconCacheBust("/apple-touch-icon.png"),
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
-  manifest: withFaviconCacheBust("/site.webmanifest"),
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -77,6 +62,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="min-h-full flex flex-col bg-[#05070c] font-sans text-zinc-100">
         <div
           className="pointer-events-none fixed inset-0 -z-10 opacity-[0.35]"

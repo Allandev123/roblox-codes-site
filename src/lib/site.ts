@@ -1,13 +1,5 @@
 export const siteName = "RobloxCodes 2026";
 
-/** Bump when favicon or PWA icons change (browsers + CDN cache). Keep `public/site.webmanifest` icon `src` query strings in sync. */
-export const FAVICON_CACHE_VERSION = "2";
-
-export function withFaviconCacheBust(path: string): string {
-  const clean = path.startsWith("/") ? path : `/${path}`;
-  return `${clean}?v=${FAVICON_CACHE_VERSION}`;
-}
-
 export const siteDescription =
   "Free Roblox codes, redemption help, and practical game guides for popular Roblox experiences.";
 

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { siteName, withFaviconCacheBust } from "@/lib/site";
+import { siteName } from "@/lib/site";
 
 const links = [
   { href: "/", label: "Home" },
@@ -25,7 +25,7 @@ export function SiteHeader() {
             />
             <span className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-[10px] bg-[#080d16]">
               <img
-                src={withFaviconCacheBust("/favicon-32x32.png")}
+                src="/favicon-32x32.png"
                 alt={`${siteName} logo`}
                 width={32}
                 height={32}
