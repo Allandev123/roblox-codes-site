@@ -412,7 +412,9 @@ function mapCodeRowToGameCode(row: unknown): GameCode | null {
       typeof r.description === "string" ? r.description : undefined,
     ) ??
     "Reward";
-  return { code, reward };
+  const description =
+    typeof r.description === "string" ? r.description.trim() : "";
+  return { code, reward, description: description || undefined };
 }
 
 function dbRowToGame(

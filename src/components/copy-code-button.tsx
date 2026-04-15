@@ -15,6 +15,11 @@ export function CopyCodeButton({ code, variant = "inline" }: Props) {
     try {
       await navigator.clipboard.writeText(code);
       setCopied(true);
+      window.dispatchEvent(
+        new CustomEvent("site:toast", {
+          detail: { message: "Code copied to clipboard" },
+        }),
+      );
       window.setTimeout(() => setCopied(false), 2000);
     } catch {
       setCopied(false);

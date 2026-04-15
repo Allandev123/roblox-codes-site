@@ -93,6 +93,20 @@ export default async function GameCodesPage({ params }: PageProps) {
   const dateModified =
     game.lastUpdatedIso?.trim() ||
     new Date().toISOString().slice(0, 10);
+  const longDescription =
+    game.description?.trim() ||
+    `${game.title} is a popular Roblox experience with regular live updates, events, and code drops. Use this page to find rewards quickly and redeem them in-game before they expire.`;
+  const redeemSteps = [
+    `Open ${game.title} in Roblox and wait until your profile has loaded.`,
+    "Find the in-game Codes, Gift, Shop, or Settings icon.",
+    "Copy a code from this page and paste it exactly as shown.",
+    "Press Redeem and confirm your reward in inventory or boosts.",
+  ];
+  const tips = [
+    "Redeem new codes immediately after updates, since many expire quickly.",
+    "Avoid unofficial generators; valid codes are always redeemed in-game for free.",
+    "Stack boosts from codes during long farming sessions for better value.",
+  ];
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -247,7 +261,7 @@ export default async function GameCodesPage({ params }: PageProps) {
                         {game.playingLabel} playing
                       </span>
                       <span className="text-xs font-medium text-zinc-500">
-                        Updated {game.lastUpdated}
+                        Last updated {game.lastUpdated}
                       </span>
                     </div>
                   </div>
@@ -299,10 +313,49 @@ export default async function GameCodesPage({ params }: PageProps) {
                   key={`${row.code}-${index}`}
                   code={row.code}
                   reward={row.reward}
+                  description={row.description}
                   index={index}
                 />
               ))}
             </div>
+          </section>
+
+          <section className="grid gap-6 lg:grid-cols-3">
+            <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+              <h2 className="text-xl font-black text-white">About {game.title}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-zinc-300">
+                {longDescription}
+              </p>
+              <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-500">
+                Last content review: {dateModified}
+              </p>
+            </article>
+
+            <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+              <h2 className="text-xl font-black text-white">
+                How to redeem codes
+              </h2>
+              <ol className="mt-3 space-y-2 text-sm leading-relaxed text-zinc-300">
+                {redeemSteps.map((step) => (
+                  <li key={step} className="flex gap-2">
+                    <span className="mt-[0.15rem] text-red-300">•</span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+            </article>
+
+            <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
+              <h2 className="text-xl font-black text-white">Tips &amp; tricks</h2>
+              <ul className="mt-3 space-y-2 text-sm leading-relaxed text-zinc-300">
+                {tips.map((tip) => (
+                  <li key={tip} className="flex gap-2">
+                    <span className="mt-[0.15rem] text-blue-300">•</span>
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
           </section>
 
           <footer className="rounded-2xl border border-white/10 bg-gradient-to-r from-white/[0.03] to-white/[0.01] px-5 py-5 text-center text-xs text-zinc-500 shadow-inner shadow-black/20">

@@ -2,15 +2,30 @@ import { HomeHero } from "@/components/home-hero";
 import { HomeSeoSection } from "@/components/home-seo-section";
 import { JsonLd } from "@/components/json-ld";
 import { HomeTabs } from "@/components/home-tabs";
+import { LatestGuides } from "@/components/latest-guides";
 import { TrendingGames } from "@/components/trending-games";
 import { getGames, getLatestCodesForHome } from "@/lib/api";
 import { isSupabasePublicEnvMissing } from "@/lib/env/supabase-public";
 import { getSiteUrl, siteDescription, siteName } from "@/lib/site";
+import type { Metadata } from "next";
 import type { PostgrestError } from "@supabase/supabase-js";
 import type { LatestCodeHome } from "@/types/latest-code-home";
 import type { GameListItem } from "@/types/game-list";
 
 export const dynamic = "force-dynamic";
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "Discover active Roblox codes, trusted redemption tips, trending games, and practical guides in one place.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: `${siteName} | Roblox Codes and Guides`,
+    description:
+      "Active Roblox code lists plus practical guides and redemption help.",
+    type: "website",
+    url: "/",
+  },
+};
 
 const TRENDING_FOR_SCHEMA = 6;
 
@@ -78,11 +93,22 @@ export default async function Home() {
       <JsonLd data={structuredData} />
       <div className="flex flex-1 flex-col">
         <HomeHero />
+        <section className="px-4 pb-6 sm:px-6 sm:pb-8">
+          <div className="mx-auto max-w-6xl rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-5 text-sm leading-relaxed text-zinc-300 sm:px-6 sm:text-base">
+            <p>
+              {siteName} is a content-first Roblox resource with current code
+              lists, redemption help, and game-specific tips. We focus on useful
+              context, clear update signals, and safe in-game redemption
+              practices.
+            </p>
+          </div>
+        </section>
         <TrendingGames
           games={games}
           fetchError={fetchErrorMessage}
           showSupabaseEnvHint={showSupabaseEnvHint}
         />
+        <LatestGuides />
         <HomeTabs latestCodes={latestCodes} />
         <HomeSeoSection />
       </div>

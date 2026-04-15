@@ -38,8 +38,8 @@ export function TrendingGames({
               </span>
             </h2>
             <p className="mt-2 max-w-xl text-sm text-zinc-400">
-              Popular picks players are redeeming right now. Open a game for the
-              full code list and copy buttons.
+              Popular picks players are redeeming right now. Open any game for
+              full code lists, redemption steps, and fresh update timestamps.
             </p>
             {fetchError ? (
               <p

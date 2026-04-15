@@ -1,7 +1,7 @@
 export const siteName = "RobloxCodes 2026";
 
 export const siteDescription =
-  "Free Roblox codes for popular games — updated lists, instant copy, and play links. Sample content for demo.";
+  "Free Roblox codes, redemption help, and practical game guides for popular Roblox experiences.";
 
 const DEFAULT_SITE = "http://localhost:3000";
 

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteToast } from "@/components/site-toast";
 import { getSiteUrl, siteDescription, siteName } from "@/lib/site";
 import "./globals.css";
 
@@ -41,6 +43,16 @@ export const metadata: Metadata = {
     title: siteName,
     description: siteDescription,
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    shortcut: ["/favicon.ico"],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -67,6 +79,8 @@ export default function RootLayout({
         />
         <SiteHeader />
         <div className="flex flex-1 flex-col">{children}</div>
+        <SiteFooter />
+        <SiteToast />
       </body>
     </html>
   );

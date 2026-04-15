@@ -3,6 +3,7 @@ import { ROBLOX_DEFAULT_GAME_ICON } from "@/lib/roblox-image-defaults";
 export type GameCode = {
   code: string;
   reward: string;
+  description?: string;
 };
 
 export type Game = {
@@ -34,9 +35,21 @@ export const games: Game[] = [
     lastUpdated: "April 15, 2026",
     lastUpdatedIso: "2026-04-15",
     codes: [
-      { code: "PS99BOOST", reward: "3x Luck (30 min)" },
-      { code: "HATCHDAY", reward: "250 Coins" },
-      { code: "UPDATE2026", reward: "Mystery Egg" },
+      {
+        code: "PS99BOOST",
+        reward: "3x Luck (30 min)",
+        description: "Best used before opening event eggs or lucky blocks.",
+      },
+      {
+        code: "HATCHDAY",
+        reward: "250 Coins",
+        description: "Great for early progression and shop refreshes.",
+      },
+      {
+        code: "UPDATE2026",
+        reward: "Mystery Egg",
+        description: "Claim after patch releases for bonus hatch value.",
+      },
     ],
   },
   {
@@ -51,8 +64,16 @@ export const games: Game[] = [
     lastUpdated: "April 14, 2026",
     lastUpdatedIso: "2026-04-14",
     codes: [
-      { code: "SEAEVENT", reward: "2x EXP (20 min)" },
-      { code: "FRUITROLL", reward: "Stat Reset" },
+      {
+        code: "SEAEVENT",
+        reward: "2x EXP (20 min)",
+        description: "Pair this boost with quests for faster level gains.",
+      },
+      {
+        code: "FRUITROLL",
+        reward: "Stat Reset",
+        description: "Useful when switching from grind to PvP builds.",
+      },
     ],
   },
   {
@@ -67,9 +88,21 @@ export const games: Game[] = [
     lastUpdated: "April 12, 2026",
     lastUpdatedIso: "2026-04-12",
     codes: [
-      { code: "SUMMONS", reward: "Gems x500" },
-      { code: "RAIDREADY", reward: "Raid Token" },
-      { code: "PATCHNOTE", reward: "2x Gold (15 min)" },
+      {
+        code: "SUMMONS",
+        reward: "Gems x500",
+        description: "Spend these gems during limited banner rotations.",
+      },
+      {
+        code: "RAIDREADY",
+        reward: "Raid Token",
+        description: "Save for high-value raid stages and new units.",
+      },
+      {
+        code: "PATCHNOTE",
+        reward: "2x Gold (15 min)",
+        description: "Activate before long farm sessions for better returns.",
+      },
     ],
   },
   {
@@ -84,8 +117,16 @@ export const games: Game[] = [
     lastUpdated: "April 10, 2026",
     lastUpdatedIso: "2026-04-10",
     codes: [
-      { code: "SPRING2026", reward: "$12,500" },
-      { code: "NITRO", reward: "Vehicle Skin" },
+      {
+        code: "SPRING2026",
+        reward: "$12,500",
+        description: "Ideal for early vehicle upgrades and utility gear.",
+      },
+      {
+        code: "NITRO",
+        reward: "Vehicle Skin",
+        description: "Cosmetic unlock with no gameplay requirement.",
+      },
     ],
   },
   {
@@ -100,9 +141,21 @@ export const games: Game[] = [
     lastUpdated: "April 8, 2026",
     lastUpdatedIso: "2026-04-08",
     codes: [
-      { code: "WAVEBONUS", reward: "Crate Key" },
-      { code: "TOWERUP", reward: "$8,000" },
-      { code: "SKIPTICKET", reward: "Skip x1" },
+      {
+        code: "WAVEBONUS",
+        reward: "Crate Key",
+        description: "Open event crates for a chance at stronger towers.",
+      },
+      {
+        code: "TOWERUP",
+        reward: "$8,000",
+        description: "Use this cash to stabilize your mid-game loadout.",
+      },
+      {
+        code: "SKIPTICKET",
+        reward: "Skip x1",
+        description: "Helpful for bypassing slow early waves in farming runs.",
+      },
     ],
   },
   {
@@ -117,8 +170,16 @@ export const games: Game[] = [
     lastUpdated: "April 5, 2026",
     lastUpdatedIso: "2026-04-05",
     codes: [
-      { code: "UPDATE!", reward: "Gems x300" },
-      { code: "KINGLEGACY", reward: "Stat Refund" },
+      {
+        code: "UPDATE!",
+        reward: "Gems x300",
+        description: "Small gem boost for rerolls and utility purchases.",
+      },
+      {
+        code: "KINGLEGACY",
+        reward: "Stat Refund",
+        description: "Reset safely when moving to a new fruit build.",
+      },
     ],
   },
 ];

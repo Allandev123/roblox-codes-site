@@ -3,12 +3,16 @@ import { CopyCodeButton } from "@/components/copy-code-button";
 type Props = {
   code: string;
   reward: string;
+  description?: string;
   index: number;
 };
 
-export function GameCodeCard({ code, reward, index }: Props) {
+export function GameCodeCard({ code, reward, description, index }: Props) {
   const safeCode = code?.trim() || "—";
   const safeReward = reward?.trim() || "—";
+  const safeDescription =
+    description?.trim() ||
+    "Redeem this code in-game as soon as possible before it expires.";
 
   return (
     <article
@@ -56,6 +60,9 @@ export function GameCodeCard({ code, reward, index }: Props) {
             </p>
             <p className="inline-flex max-w-full items-center rounded-xl border border-blue-500/20 bg-blue-500/10 px-4 py-2.5 text-sm font-semibold leading-snug text-blue-100">
               {safeReward}
+            </p>
+            <p className="mt-2 text-xs leading-relaxed text-zinc-400">
+              {safeDescription}
             </p>
           </div>
         </div>
