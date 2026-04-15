@@ -31,7 +31,7 @@ const FAQ_ITEMS = [
 ] as const;
 
 export function HomeTabs({ latestCodes }: Props) {
-  const [tab, setTab] = useState<TabId>("codes");
+  const [tab, setTab] = useState<TabId>("faq");
   const tabListId = useId();
 
   return (

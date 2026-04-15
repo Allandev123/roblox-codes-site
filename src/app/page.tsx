@@ -7,7 +7,12 @@ import { TrendingGames } from "@/components/trending-games";
 import Link from "next/link";
 import { getGames, getLatestCodesForHome } from "@/lib/api";
 import { isSupabasePublicEnvMissing } from "@/lib/env/supabase-public";
-import { getSiteUrl, siteDescription, siteName } from "@/lib/site";
+import {
+  getSiteUrl,
+  siteDescription,
+  siteName,
+  withFaviconCacheBust,
+} from "@/lib/site";
 import type { Metadata } from "next";
 import type { PostgrestError } from "@supabase/supabase-js";
 import type { LatestCodeHome } from "@/types/latest-code-home";
@@ -74,7 +79,7 @@ export default async function Home() {
         "@type": "Organization",
         name: "RobloxCodesHQ",
         url: "https://www.robloxcodeshq.com",
-        logo: "https://www.robloxcodeshq.com/favicon.ico",
+        logo: `${base}${withFaviconCacheBust("/favicon.ico")}`,
       },
       ...(trending.length > 0
         ? [

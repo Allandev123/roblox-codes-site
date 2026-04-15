@@ -7,6 +7,12 @@ import { JsonLd } from "@/components/json-ld";
 import { PlayOnRobloxButton } from "@/components/play-on-roblox-button";
 import { getGameWithCodesBySlug } from "@/lib/api";
 import { getAllSlugs } from "@/lib/games";
+import {
+  getGameAboutParagraphs,
+  getGameCodesFaq,
+  getGameCodesIntroParagraphs,
+  formatGameCodesLastUpdated,
+} from "@/lib/game-codes-page-copy";
 import { getHeroBannerUrlForPlaceId } from "@/lib/roblox-wide-banner";
 import { safeImage } from "@/lib/safe-image";
 import { getSiteUrl, siteName } from "@/lib/site";
@@ -100,9 +106,11 @@ export default async function GameCodesPage({ params }: PageProps) {
   const dateModified =
     game.lastUpdatedIso?.trim() ||
     new Date().toISOString().slice(0, 10);
-  const longDescription =
-    game.description?.trim() ||
-    `${game.title} is a popular Roblox experience with regular live updates, events, and code drops. Use this page to copy codes and redeem them in-game before they expire.`;
+  const introParagraphs = getGameCodesIntroParagraphs(game.title);
+  const aboutParagraphs = getGameAboutParagraphs(game.title, game.description);
+  const faqItems = getGameCodesFaq(game.title);
+  const lastUpdatedLabel = formatGameCodesLastUpdated(dateModified);
+
   const redeemSteps = [
     `Open ${game.title} in Roblox and wait until your profile has loaded.`,
     "Find the in-game Codes, Gift, Shop, or Settings icon.",
@@ -146,12 +154,27 @@ export default async function GameCodesPage({ params }: PageProps) {
         "@type": "WebPage",
         "@id": `${pageUrl}/#webpage`,
         url: pageUrl,
-        name: `${game.title} codes (2026)`,
-        description: game.description ?? "",
+        name: `${game.title} Codes (2026)`,
+        description:
+          introParagraphs[0] ??
+          game.description ??
+          `Working ${game.title} Roblox codes and redemption help.`,
         isPartOf: { "@id": `${base}/#website` },
         breadcrumb: { "@id": `${pageUrl}/#breadcrumb` },
         inLanguage: "en-US",
         dateModified,
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}/#faq`,
+        mainEntity: faqItems.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
       },
       {
         "@type": "VideoGame",
@@ -258,7 +281,7 @@ export default async function GameCodesPage({ params }: PageProps) {
                       <span className="bg-gradient-to-r from-red-300 via-white to-blue-300 bg-clip-text text-transparent">
                         {game.title}
                       </span>{" "}
-                      <span className="text-zinc-300">codes</span>
+                      <span className="text-zinc-300">Codes</span>
                     </h1>
                     <div className="mt-4 flex flex-wrap items-center gap-3">
                       <span className="inline-flex items-center rounded-lg bg-emerald-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-200 ring-1 ring-emerald-500/30">
@@ -275,15 +298,14 @@ export default async function GameCodesPage({ params }: PageProps) {
                       <span className="inline-flex items-center rounded-lg bg-blue-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-200 ring-1 ring-blue-500/30">
                         {game.playingLabel} playing
                       </span>
-                      <span className="text-xs font-medium text-zinc-500">
-                        Last updated {game.lastUpdated}
-                      </span>
                     </div>
                   </div>
 
-                  <p className="max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-                    {game.description ?? ""}
-                  </p>
+                  {game.description?.trim() ? (
+                    <p className="max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+                      {game.description}
+                    </p>
+                  ) : null}
 
                   <div className="flex flex-wrap items-center gap-4 pt-1">
                     <PlayOnRobloxButton game={game} size="lg" />
@@ -295,6 +317,20 @@ export default async function GameCodesPage({ params }: PageProps) {
         </div>
 
         <div className="animate-section-in animate-section-in-delay-1 mx-auto flex w-full max-w-6xl flex-1 flex-col gap-12 px-4 pb-16 pt-12 sm:px-6 sm:pb-20 sm:pt-16">
+          <section
+            aria-label={`Introduction to ${game.title} codes`}
+            className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 shadow-inner shadow-black/20 sm:p-8"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+              Last updated: {lastUpdatedLabel} (checked daily)
+            </p>
+            <div className="mt-5 space-y-4 text-sm leading-relaxed text-zinc-300 sm:text-base">
+              {introParagraphs.map((p, i) => (
+                <p key={`intro-${game.slug}-${i}`}>{p}</p>
+              ))}
+            </div>
+          </section>
+
           <section
             aria-labelledby="codes-heading"
             className="relative"
@@ -373,17 +409,85 @@ export default async function GameCodesPage({ params }: PageProps) {
             ) : null}
           </section>
 
-          <section className="grid gap-6 lg:grid-cols-3">
-            <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
-              <h2 className="text-xl font-black text-white">About {game.title}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-zinc-300">
-                {longDescription}
-              </p>
-              <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-zinc-500">
-                Last content review: {dateModified}
-              </p>
-            </article>
+          <section
+            aria-labelledby="about-heading"
+            className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8"
+          >
+            <h2
+              id="about-heading"
+              className="text-2xl font-black tracking-tight text-white sm:text-3xl"
+            >
+              About {game.title}
+            </h2>
+            <div className="mt-5 space-y-4 text-sm leading-relaxed text-zinc-300 sm:text-base">
+              {aboutParagraphs.map((p, i) => (
+                <p key={`about-${game.slug}-${i}`}>{p}</p>
+              ))}
+            </div>
+          </section>
 
+          <section
+            aria-labelledby="faq-heading"
+            className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8"
+          >
+            <h2
+              id="faq-heading"
+              className="text-2xl font-black tracking-tight text-white sm:text-3xl"
+            >
+              Frequently Asked Questions
+            </h2>
+            <dl className="mt-6 space-y-6">
+              {faqItems.map((item) => (
+                <div
+                  key={item.question}
+                  className="border-b border-white/10 pb-6 last:border-b-0 last:pb-0"
+                >
+                  <dt className="text-base font-bold text-white">
+                    {item.question}
+                  </dt>
+                  <dd className="mt-2 text-sm leading-relaxed text-zinc-300 sm:text-base">
+                    {item.answer}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+
+          <section
+            aria-labelledby="more-codes-heading"
+            className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8"
+          >
+            <h2
+              id="more-codes-heading"
+              className="text-2xl font-black tracking-tight text-white sm:text-3xl"
+            >
+              How to get more {game.title} codes
+            </h2>
+            <div className="mt-5 space-y-4 text-sm leading-relaxed text-zinc-300 sm:text-base">
+              <p>
+                <strong className="text-zinc-200">Follow the developers.</strong>{" "}
+                Watch the studio&apos;s official Roblox group, X (Twitter),
+                YouTube, or TikTok—creators usually announce codes alongside
+                trailers and patch notes. Turn on notifications for posts so you
+                do not miss a limited drop.
+              </p>
+              <p>
+                <strong className="text-zinc-200">Join Discord.</strong> When the
+                team runs an official Discord server, join it for patch
+                announcements, bug-report channels, and sometimes code
+                giveaways. Stick to linked servers from the game page so you stay
+                safe from impersonators.
+              </p>
+              <p>
+                <strong className="text-zinc-200">Bookmark this page.</strong> We
+                refresh this list when new codes appear or old ones expire, so
+                keeping this tab saved is the fastest way to copy working strings
+                without digging through feeds.
+              </p>
+            </div>
+          </section>
+
+          <section className="grid gap-6 lg:grid-cols-2">
             <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
               <h2 className="text-xl font-black text-white">
                 How to redeem codes
@@ -411,14 +515,20 @@ export default async function GameCodesPage({ params }: PageProps) {
             </article>
           </section>
 
-          <footer className="rounded-2xl border border-white/10 bg-gradient-to-r from-white/[0.03] to-white/[0.01] px-5 py-5 text-center text-xs text-zinc-500 shadow-inner shadow-black/20">
-            Want another game?{" "}
-            <Link
-              href="/codes"
-              className="font-bold text-blue-300 underline-offset-2 transition hover:text-blue-200 hover:underline"
-            >
-              Back to all codes
-            </Link>
+          <footer className="rounded-2xl border border-white/10 bg-gradient-to-r from-white/[0.03] to-white/[0.01] px-5 py-6 text-center text-sm text-zinc-400 shadow-inner shadow-black/20 sm:px-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500">
+              Last updated: {lastUpdatedLabel} (checked daily)
+            </p>
+            <p className="mt-3">
+              Looking for more Roblox codes?{" "}
+              <Link
+                href="/codes"
+                className="font-bold text-blue-300 underline-offset-2 transition hover:text-blue-200 hover:underline"
+              >
+                Browse all games
+              </Link>{" "}
+              → <span className="font-mono text-zinc-500">/codes</span>
+            </p>
           </footer>
         </div>
       </article>
