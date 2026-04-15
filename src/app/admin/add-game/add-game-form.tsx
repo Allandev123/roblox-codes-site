@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Link from "next/link";
 import { fetchRobloxGameByPlaceId } from "@/lib/roblox-game-api";
 import { safeImage } from "@/lib/safe-image";
 import {
@@ -163,6 +164,14 @@ export function AddGameForm() {
           </code>
           , then save to Supabase.
         </p>
+        <div className="mt-4">
+          <Link
+            href="/admin/games"
+            className="inline-flex rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-xs font-semibold text-zinc-200 transition hover:bg-white/10"
+          >
+            Open CMS games manager
+          </Link>
+        </div>
       </header>
 
       <section className="rounded-2xl border border-white/10 bg-[#0a0e16]/80 p-6 shadow-inner shadow-black/30 sm:p-8">
@@ -272,7 +281,7 @@ export function AddGameForm() {
           {saveSuccess ? (
             <p className="mb-4 rounded-xl border border-emerald-500/30 bg-emerald-950/30 px-4 py-3 text-sm text-emerald-200">
               Game saved. Slug was generated from the title. You can add another
-              place_id or refresh the homepage.
+              place_id or open the CMS games manager to edit codes.
             </p>
           ) : null}
           <button

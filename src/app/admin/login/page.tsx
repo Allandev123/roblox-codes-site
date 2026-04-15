@@ -37,7 +37,7 @@ export default function AdminLoginPage() {
     supabase.auth.getUser().then(({ data: { user } }) => {
       if (cancelled) return;
       if (user) {
-        router.replace("/admin/add-game");
+        router.replace("/admin/games");
         return;
       }
       setChecking(false);

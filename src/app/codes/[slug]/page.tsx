@@ -29,9 +29,11 @@ export async function generateMetadata({
   if (!game) {
     return { title: "Game not found" };
   }
-  const count = game.codes?.length ?? 0;
+  const allCodes = game.codes ?? [];
+  const activeCount = allCodes.filter((c) => c.status !== "expired").length;
+  const expiredCount = allCodes.filter((c) => c.status === "expired").length;
   const title = `${game.title} Codes (2026)`;
-  const description = `Working ${game.title} Roblox codes for 2026. ${count} sample entries, play link, and instant copy — confirm codes in-game before redeeming.`;
+  const description = `Working ${game.title} Roblox codes for 2026. ${activeCount} active${expiredCount > 0 ? `, ${expiredCount} archived (expired)` : ""} — play link and instant copy. Confirm in-game before redeeming.`;
   const ogImage =
     game.robloxPlaceId > 0
       ? await getHeroBannerUrlForPlaceId(game.robloxPlaceId)
@@ -76,7 +78,12 @@ export default async function GameCodesPage({ params }: PageProps) {
 
   const base = getSiteUrl();
   const pageUrl = `${base}/codes/${game.slug}`;
-  const count = game.codes?.length ?? 0;
+  const allCodes = game.codes ?? [];
+  const activeCodes = allCodes.filter((c) => c.status !== "expired");
+  const expiredCodes = allCodes.filter((c) => c.status === "expired");
+  const activeCount = activeCodes.length;
+  const expiredCount = expiredCodes.length;
+  const count = allCodes.length;
   const heroUrl =
     game.robloxPlaceId > 0
       ? await getHeroBannerUrlForPlaceId(game.robloxPlaceId)
@@ -95,12 +102,12 @@ export default async function GameCodesPage({ params }: PageProps) {
     new Date().toISOString().slice(0, 10);
   const longDescription =
     game.description?.trim() ||
-    `${game.title} is a popular Roblox experience with regular live updates, events, and code drops. Use this page to find rewards quickly and redeem them in-game before they expire.`;
+    `${game.title} is a popular Roblox experience with regular live updates, events, and code drops. Use this page to copy codes and redeem them in-game before they expire.`;
   const redeemSteps = [
     `Open ${game.title} in Roblox and wait until your profile has loaded.`,
     "Find the in-game Codes, Gift, Shop, or Settings icon.",
     "Copy a code from this page and paste it exactly as shown.",
-    "Press Redeem and confirm your reward in inventory or boosts.",
+    "Press Redeem and confirm your items in inventory, currency, or boosts.",
   ];
   const tips = [
     "Redeem new codes immediately after updates, since many expire quickly.",
@@ -254,8 +261,16 @@ export default async function GameCodesPage({ params }: PageProps) {
                       <span className="text-zinc-300">codes</span>
                     </h1>
                     <div className="mt-4 flex flex-wrap items-center gap-3">
-                      <span className="inline-flex items-center rounded-lg bg-red-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-red-200 ring-1 ring-red-500/30">
-                        {count} codes
+                      <span className="inline-flex items-center rounded-lg bg-emerald-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-200 ring-1 ring-emerald-500/30">
+                        {activeCount} active
+                      </span>
+                      {expiredCount > 0 ? (
+                        <span className="inline-flex items-center rounded-lg bg-red-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-red-200 ring-1 ring-red-500/30">
+                          {expiredCount} expired
+                        </span>
+                      ) : null}
+                      <span className="inline-flex items-center rounded-lg bg-zinc-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 ring-1 ring-white/10">
+                        {count} total
                       </span>
                       <span className="inline-flex items-center rounded-lg bg-blue-500/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-200 ring-1 ring-blue-500/30">
                         {game.playingLabel} playing
@@ -308,16 +323,54 @@ export default async function GameCodesPage({ params }: PageProps) {
             </div>
 
             <div className="grid gap-5 lg:grid-cols-2">
-              {(game.codes ?? []).map((row, index) => (
-                <GameCodeCard
-                  key={`${row.code}-${index}`}
-                  code={row.code}
-                  reward={row.reward}
-                  description={row.description}
-                  index={index}
-                />
-              ))}
+              {activeCodes.length === 0 ? (
+                <p className="col-span-full rounded-xl border border-white/10 bg-white/[0.03] px-5 py-8 text-center text-sm text-zinc-400">
+                  No active codes right now. Check archived entries below or
+                  come back after an update.
+                </p>
+              ) : (
+                activeCodes.map((row, index) => (
+                  <GameCodeCard
+                    key={row.id ?? `${row.code}-${index}`}
+                    code={row.code}
+                    description={row.description}
+                    status={row.status}
+                    index={index}
+                  />
+                ))
+              )}
             </div>
+
+            {expiredCodes.length > 0 ? (
+              <details className="group mt-10 rounded-2xl border border-white/10 bg-black/20 p-4 sm:p-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-bold text-zinc-200 marker:content-none [&::-webkit-details-marker]:hidden">
+                  <span>
+                    Expired codes{" "}
+                    <span className="font-mono text-zinc-500">
+                      ({expiredCodes.length})
+                    </span>
+                  </span>
+                  <span className="rounded-md bg-red-500/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-wider text-red-200 ring-1 ring-red-500/35">
+                    Archived
+                  </span>
+                </summary>
+                <p className="mt-2 text-xs text-zinc-500">
+                  These are kept for reference only — they will not redeem in
+                  game.
+                </p>
+                <div className="mt-6 grid gap-5 lg:grid-cols-2">
+                  {expiredCodes.map((row, index) => (
+                    <GameCodeCard
+                      key={row.id ?? `exp-${row.code}-${index}`}
+                      code={row.code}
+                      description={row.description}
+                      status={row.status}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </details>
+            ) : null}
           </section>
 
           <section className="grid gap-6 lg:grid-cols-3">

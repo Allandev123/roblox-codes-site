@@ -1,9 +1,13 @@
+import type { CodeRowStatus } from "@/lib/code-status";
 import { ROBLOX_DEFAULT_GAME_ICON } from "@/lib/roblox-image-defaults";
 
 export type GameCode = {
+  /** Optional DB row id when loaded from Supabase (for stable React keys). */
+  id?: string;
   code: string;
-  reward: string;
-  description?: string;
+  /** What the code grants — maps to DB `description`. */
+  description: string;
+  status: CodeRowStatus;
 };
 
 export type Game = {
@@ -37,18 +41,18 @@ export const games: Game[] = [
     codes: [
       {
         code: "PS99BOOST",
-        reward: "3x Luck (30 min)",
-        description: "Best used before opening event eggs or lucky blocks.",
+        description: "3x Luck (30 min) — best used before opening event eggs.",
+        status: "active",
       },
       {
         code: "HATCHDAY",
-        reward: "250 Coins",
-        description: "Great for early progression and shop refreshes.",
+        description: "250 Coins — great for early progression and shop refreshes.",
+        status: "active",
       },
       {
-        code: "UPDATE2026",
-        reward: "Mystery Egg",
-        description: "Claim after patch releases for bonus hatch value.",
+        code: "OLDDROP",
+        description: "Legacy weekend bonus (no longer redeemable).",
+        status: "expired",
       },
     ],
   },
@@ -56,7 +60,7 @@ export const games: Game[] = [
     slug: "blox-fruits",
     title: "Blox Fruits",
     description:
-      "Sea battles and fruit powers — placeholder rewards for layout preview only.",
+      "Sea battles and fruit powers — placeholder entries for layout preview only.",
     cardImage: ROBLOX_DEFAULT_GAME_ICON,
     bannerImage: ROBLOX_DEFAULT_GAME_ICON,
     robloxPlaceId: 2753915549,
@@ -66,13 +70,13 @@ export const games: Game[] = [
     codes: [
       {
         code: "SEAEVENT",
-        reward: "2x EXP (20 min)",
-        description: "Pair this boost with quests for faster level gains.",
+        description: "2x EXP (20 min) — pair with quests for faster levels.",
+        status: "active",
       },
       {
         code: "FRUITROLL",
-        reward: "Stat Reset",
-        description: "Useful when switching from grind to PvP builds.",
+        description: "Stat Reset — useful when switching from grind to PvP builds.",
+        status: "active",
       },
     ],
   },
@@ -90,18 +94,18 @@ export const games: Game[] = [
     codes: [
       {
         code: "SUMMONS",
-        reward: "Gems x500",
-        description: "Spend these gems during limited banner rotations.",
+        description: "Gems x500 — spend during limited banner rotations.",
+        status: "active",
       },
       {
         code: "RAIDREADY",
-        reward: "Raid Token",
-        description: "Save for high-value raid stages and new units.",
+        description: "Raid Token — save for high-value raid stages.",
+        status: "active",
       },
       {
         code: "PATCHNOTE",
-        reward: "2x Gold (15 min)",
-        description: "Activate before long farm sessions for better returns.",
+        description: "2x Gold (15 min) — activate before long farm sessions.",
+        status: "active",
       },
     ],
   },
@@ -119,13 +123,13 @@ export const games: Game[] = [
     codes: [
       {
         code: "SPRING2026",
-        reward: "$12,500",
-        description: "Ideal for early vehicle upgrades and utility gear.",
+        description: "$12,500 — ideal for early vehicle upgrades.",
+        status: "active",
       },
       {
         code: "NITRO",
-        reward: "Vehicle Skin",
-        description: "Cosmetic unlock with no gameplay requirement.",
+        description: "Vehicle Skin — cosmetic unlock.",
+        status: "active",
       },
     ],
   },
@@ -143,18 +147,18 @@ export const games: Game[] = [
     codes: [
       {
         code: "WAVEBONUS",
-        reward: "Crate Key",
-        description: "Open event crates for a chance at stronger towers.",
+        description: "Crate Key — open event crates for stronger towers.",
+        status: "active",
       },
       {
         code: "TOWERUP",
-        reward: "$8,000",
-        description: "Use this cash to stabilize your mid-game loadout.",
+        description: "$8,000 — stabilize your mid-game loadout.",
+        status: "active",
       },
       {
         code: "SKIPTICKET",
-        reward: "Skip x1",
-        description: "Helpful for bypassing slow early waves in farming runs.",
+        description: "Skip x1 — bypass slow early waves in farming runs.",
+        status: "active",
       },
     ],
   },
@@ -172,13 +176,13 @@ export const games: Game[] = [
     codes: [
       {
         code: "UPDATE!",
-        reward: "Gems x300",
-        description: "Small gem boost for rerolls and utility purchases.",
+        description: "Gems x300 — small boost for rerolls and utility.",
+        status: "active",
       },
       {
         code: "KINGLEGACY",
-        reward: "Stat Refund",
-        description: "Reset safely when moving to a new fruit build.",
+        description: "Stat Refund — reset when moving to a new fruit build.",
+        status: "active",
       },
     ],
   },

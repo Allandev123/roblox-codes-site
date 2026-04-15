@@ -2,6 +2,9 @@
 export type LatestCodeHome = {
   id: string;
   code: string;
+  /** Maps to DB `codes.description` (what the code grants). */
+  description: string;
+  status: "active" | "expired";
   gameTitle: string;
   gameSlug: string;
 };

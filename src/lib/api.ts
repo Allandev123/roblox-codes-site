@@ -8,6 +8,7 @@ import {
   enrichGameWithPlaceIcons,
   fetchPlaceGameIconUrls,
 } from "@/lib/roblox-place-gameicons";
+import { normalizeCodeStatus } from "@/lib/code-status";
 import { createSupabaseServerClient } from "./supabase/server";
 
 export type { LatestCodeHome } from "@/types/latest-code-home";
@@ -106,8 +107,10 @@ export interface CodeRow {
   id?: string;
   game_id?: string | null;
   code?: string | null;
+  /** Legacy column; prefer `description` when present. */
   reward?: string | null;
   description?: string | null;
+  status?: string | null;
 }
 
 export type GetCodesResult = {
@@ -406,15 +409,24 @@ function mapCodeRowToGameCode(row: unknown): GameCode | null {
   const r = row as Record<string, unknown>;
   const code = stringField(r.code);
   if (!code) return null;
-  const reward =
-    stringField(r.reward) ??
-    stringField(
-      typeof r.description === "string" ? r.description : undefined,
-    ) ??
-    "Reward";
-  const description =
-    typeof r.description === "string" ? r.description.trim() : "";
-  return { code, reward, description: description || undefined };
+  const fromDescription = stringField(r.description);
+  const fromLegacyReward = stringField(r.reward);
+  const descriptionText =
+    fromDescription ?? fromLegacyReward ?? "No description yet.";
+  const idRaw = r.id;
+  const id =
+    typeof idRaw === "string" && idRaw.length > 0
+      ? idRaw
+      : typeof idRaw === "number" && Number.isFinite(idRaw)
+        ? String(idRaw)
+        : undefined;
+  const status = normalizeCodeStatus(r.status);
+  return {
+    ...(id ? { id } : {}),
+    code,
+    description: descriptionText,
+    status,
+  };
 }
 
 function dbRowToGame(
@@ -640,6 +652,8 @@ export async function getGames(): Promise<GetGamesResult> {
 type CodeRowWithGame = {
   id?: unknown;
   code?: unknown;
+  description?: unknown;
+  status?: unknown;
   games?: unknown;
 };
 
@@ -666,25 +680,28 @@ function gamesJoinRow(
 export async function getLatestCodesForHome(
   limit = 6,
 ): Promise<LatestCodeHome[]> {
-  const max = Math.min(6, Math.max(4, limit));
+  const want = Math.min(12, Math.max(4, limit));
+  /** Fetch extra rows so we still fill the grid after dropping expired. */
+  const fetchLimit = Math.min(48, want * 6);
   try {
     const supabase = await createSupabaseServerClient();
     if (!supabase) return [];
 
-    const selectCols = "id, code, reward, games!inner(title, slug)";
+    const selectCols =
+      "id, code, description, status, games!inner(title, slug)";
 
     let res = await supabase
       .from("codes")
       .select(selectCols)
       .order("created_at", { ascending: false })
-      .limit(max);
+      .limit(fetchLimit);
 
     if (res.error) {
       res = await supabase
         .from("codes")
         .select(selectCols)
         .order("id", { ascending: false })
-        .limit(max);
+        .limit(fetchLimit);
     }
 
     if (res.error || !Array.isArray(res.data)) {
@@ -693,9 +710,15 @@ export async function getLatestCodesForHome(
 
     const out: LatestCodeHome[] = [];
     for (const row of res.data as CodeRowWithGame[]) {
+      if (out.length >= want) break;
       const id = row.id != null ? String(row.id) : "";
       const code =
         typeof row.code === "string" ? row.code.trim() : "";
+      const status = normalizeCodeStatus(row.status);
+      if (status === "expired") continue;
+      const descRaw =
+        typeof row.description === "string" ? row.description.trim() : "";
+      const description = descRaw.length > 0 ? descRaw : "—";
       const g = gamesJoinRow(row.games);
       const gameTitle =
         typeof g?.title === "string" ? g.title.trim() : "";
@@ -705,6 +728,8 @@ export async function getLatestCodesForHome(
       out.push({
         id: id.length > 0 ? id : `${gameSlug}-${code}`,
         code,
+        description,
+        status,
         gameTitle,
         gameSlug,
       });

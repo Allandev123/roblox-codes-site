@@ -4,6 +4,7 @@ import { siteName } from "@/lib/site";
 const legalLinks = [
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms-of-service", label: "Terms of Service" },
+  { href: "/disclaimer", label: "Disclaimer" },
   { href: "/contact", label: "Contact" },
 ] as const;
 

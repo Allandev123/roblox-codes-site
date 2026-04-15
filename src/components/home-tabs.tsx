@@ -160,12 +160,25 @@ export function HomeTabs({ latestCodes }: Props) {
                               {item.gameTitle}
                             </Link>
                           </div>
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="rounded-md bg-emerald-500/20 px-2 py-0.5 text-[10px] font-black uppercase tracking-wider text-emerald-200 ring-1 ring-emerald-500/40">
+                              Active
+                            </span>
+                          </div>
                           <div>
                             <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
                               Code
                             </p>
                             <p className="mt-1.5 break-all rounded-xl border border-white/10 bg-black/35 px-3 py-2.5 font-mono text-base font-bold tracking-wide text-red-100 sm:text-lg">
                               {item.code}
+                            </p>
+                          </div>
+                          <div>
+                            <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+                              Description
+                            </p>
+                            <p className="mt-1.5 line-clamp-3 text-sm leading-relaxed text-zinc-300">
+                              {item.description}
                             </p>
                           </div>
                           <div className="mt-auto pt-1">

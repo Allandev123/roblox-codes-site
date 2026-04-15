@@ -1,22 +1,23 @@
 import { CopyCodeButton } from "@/components/copy-code-button";
+import type { CodeRowStatus } from "@/lib/code-status";
 
 type Props = {
   code: string;
-  reward: string;
-  description?: string;
+  description: string;
+  status: CodeRowStatus;
   index: number;
 };
 
-export function GameCodeCard({ code, reward, description, index }: Props) {
+export function GameCodeCard({ code, description, status, index }: Props) {
   const safeCode = code?.trim() || "—";
-  const safeReward = reward?.trim() || "—";
-  const safeDescription =
-    description?.trim() ||
-    "Redeem this code in-game as soon as possible before it expires.";
+  const safeDescription = description?.trim() || "No description yet.";
+  const expired = status === "expired";
 
   return (
     <article
-      className="group animate-fade-up relative overflow-hidden rounded-2xl border border-white/[0.08] bg-gradient-to-br from-[#121a28] via-[#0c1018] to-[#0a1628] shadow-[0_4px_40px_-12px_rgba(0,0,0,0.85)] transition-all duration-[250ms] ease-out will-change-transform hover:z-[1] hover:scale-[1.03] hover:border-[rgba(255,100,140,0.4)] hover:shadow-[0_0_25px_rgba(255,60,120,0.25),0_0_0_1px_rgba(239,68,68,0.2),0_20px_50px_-20px_rgba(239,68,68,0.2)] active:scale-[0.99]"
+      className={`group animate-fade-up relative overflow-hidden rounded-2xl border border-white/[0.08] bg-gradient-to-br from-[#121a28] via-[#0c1018] to-[#0a1628] shadow-[0_4px_40px_-12px_rgba(0,0,0,0.85)] transition-all duration-[250ms] ease-out will-change-transform hover:z-[1] hover:scale-[1.03] hover:border-[rgba(255,100,140,0.4)] hover:shadow-[0_0_25px_rgba(255,60,120,0.25),0_0_0_1px_rgba(239,68,68,0.2),0_20px_50px_-20px_rgba(239,68,68,0.2)] active:scale-[0.99] ${
+        expired ? "opacity-[0.62] saturate-[0.85]" : ""
+      }`}
       style={{ animationDelay: `${Math.min(index * 70, 420)}ms` }}
     >
       <div
@@ -35,6 +36,15 @@ export function GameCodeCard({ code, reward, description, index }: Props) {
       <div className="relative flex flex-col gap-5 p-5 pl-6 sm:flex-row sm:items-stretch sm:justify-between sm:gap-6 sm:p-6 sm:pl-7">
         <div className="min-w-0 flex-1 space-y-4">
           <div className="flex flex-wrap items-center gap-2">
+            <span
+              className={`rounded-md px-2 py-0.5 text-[10px] font-black uppercase tracking-widest ring-1 ${
+                expired
+                  ? "bg-red-500/20 text-red-200 ring-red-500/40"
+                  : "bg-emerald-500/20 text-emerald-200 ring-emerald-500/40"
+              }`}
+            >
+              {expired ? "Expired" : "Active"}
+            </span>
             <span className="rounded-md bg-blue-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-widest text-blue-300/95 ring-1 ring-blue-400/25">
               Redeem code
             </span>
@@ -56,12 +66,9 @@ export function GameCodeCard({ code, reward, description, index }: Props) {
 
           <div>
             <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-zinc-500">
-              Reward
+              Description
             </p>
-            <p className="inline-flex max-w-full items-center rounded-xl border border-blue-500/20 bg-blue-500/10 px-4 py-2.5 text-sm font-semibold leading-snug text-blue-100">
-              {safeReward}
-            </p>
-            <p className="mt-2 text-xs leading-relaxed text-zinc-400">
+            <p className="rounded-xl border border-blue-500/20 bg-blue-500/10 px-4 py-2.5 text-sm font-medium leading-snug text-blue-100">
               {safeDescription}
             </p>
           </div>

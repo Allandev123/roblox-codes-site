@@ -37,7 +37,7 @@ export function LoginForm() {
         setError(signError.message);
         return;
       }
-      router.replace("/admin/add-game");
+      router.replace("/admin/games");
       router.refresh();
     } catch {
       setError("Something went wrong. Try again.");
