@@ -1,0 +1,184 @@
+{
+  "slug": "prospecting",
+  "name": "Prospecting!",
+  "robloxName": "Prospecting! 💎",
+  "placeId": 129827112113663,
+  "universeId": 7629331599,
+  "gameUrl": "https://www.roblox.com/games/129827112113663/Prospecting",
+  "creator": "Prospecting!",
+  "genre": "Simulation",
+  "subgenre": "",
+  "icon": "prospecting-icon.webp",
+  "thumb": "prospecting-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Open Prospecting! on Roblox and wait for your character to load in by the river.",
+    "Click the Settings gear button at the top of the screen.",
+    "Find the Enter Code box in the Settings menu and type the code in lowercase, exactly as shown.",
+    "Press Claim to get your Cash, Meteor Shards, and boosts."
+  ],
+  "notes": "Prospecting! is a gold panning game from the Prospecting! Group. You scoop dirt into your pan, shake it out in the river, and find gold, gems, and rare minerals that you sell for cash. That cash buys better pans, shovels, and gear, and new areas like caves and old mining sites hold rarer finds. Sluices keep working while you are away, so you can still earn a little offline.\n\nCodes give Cash, Meteor Shards, and timed boosts such as 2x Luck or a Sell Boost. The 2x Luck boost is the most valuable because it raises your chances of rare finds, so redeem it right before a long panning session. New codes usually come with updates, visit milestones, and holiday events, and the developers post them in the official Discord and the Roblox group.",
+  "codes": [
+    {
+      "code": "stuff",
+      "reward": "10,000 Cash, 200 Meteor Shards, and 2x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://prospecting.miraheze.org/wiki/Codes",
+        "https://robloxden.com/game-codes/prospecting"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "delay",
+      "reward": "250 Meteor Shards and 2x Luck for 3 hours",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://prospecting.miraheze.org/wiki/Codes",
+        "https://robloxden.com/game-codes/prospecting",
+        "https://allthings.how/prospecting-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "rebuild",
+      "reward": "20,000 Cash, 200 Meteor Shards, and 2x Luck for 1 hour",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://prospecting.miraheze.org/wiki/Codes",
+        "https://robloxden.com/game-codes/prospecting",
+        "https://www.pockettactics.com/prospecting-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "oneyear",
+      "reward": "50,000 Cash, 400 Meteor Shards, plus 2x Luck and a 1.5x Sell Boost for 2 hours",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://prospecting.miraheze.org/wiki/Codes",
+        "https://robloxden.com/game-codes/prospecting",
+        "https://www.pockettactics.com/prospecting-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "starfall",
+      "reward": "20,000 Cash, 200 Meteor Shards, and 2x Luck for 1 hour",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://prospecting.miraheze.org/wiki/Codes",
+        "https://robloxden.com/game-codes/prospecting",
+        "https://www.pockettactics.com/prospecting-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "egghunt",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "stacks",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "200mvisits",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "infinity",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "modlock",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "anothercode",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "qolqolqol",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "morestuff",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 5957,
+    "visits": 264920990,
+    "favorites": 474518,
+    "updated": "2026-09-29T04:02:49.4000994Z",
+    "created": "2025-05-02T00:57:31.01Z"
+  },
+  "added": "2026-09-29T18:36:02.616Z",
+  "lastChecked": "2026-09-29T18:36:02.616Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where do I enter codes in Prospecting!?",
+      "a": "Click the Settings gear at the top of the screen. The Enter Code box is inside that menu, and you press Claim after typing the code."
+    },
+    {
+      "q": "When should I redeem a luck code like delay?",
+      "a": "Claim it when you have time for a long session, since the boost is timed. delay gives 2x Luck for 3 hours, the longest boost on the current list."
+    },
+    {
+      "q": "Why did egghunt stop working?",
+      "a": "It was tied to an egg hunt event and expired after it ended. Seasonal and event codes in Prospecting! usually stop working once the event is over."
+    }
+  ],
+  "aliases": [
+    "prospecting"
+  ],
+  "codeChannels": "The official Prospecting! Discord server, the Prospecting! Roblox group, and the official Prospecting! wiki codes page"
+}

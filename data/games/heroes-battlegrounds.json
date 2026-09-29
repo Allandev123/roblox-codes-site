@@ -1,0 +1,175 @@
+{
+  "slug": "heroes-battlegrounds",
+  "name": "Heroes Battlegrounds",
+  "robloxName": "[💥] Heroes Battlegrounds",
+  "placeId": 13076380114,
+  "universeId": 4568630521,
+  "gameUrl": "https://www.roblox.com/games/13076380114/Heroes-Battlegrounds",
+  "creator": "more awesome games yo",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "heroes-battlegrounds-icon.webp",
+  "thumb": "heroes-battlegrounds-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Heroes Battlegrounds on Roblox and load into the map.",
+    "Open the chat window with the chat icon in the top-left corner.",
+    "Type !code, then a space, then the code. For example: !code WELOVEDELAYSITHINK",
+    "Press Enter to send it and the reward is added to your account."
+  ],
+  "notes": "Heroes Battlegrounds is a fighting game from the group more awesome games yo, based on superhero anime. You pick a hero or villain, each with their own set of moves and an ultimate, then drop into a shared map to punch, dash and combo other players. Fighting bosses and playing a character raises its mastery, which unlocks a stronger mastered version of that fighter.\n\nCodes here give either free emotes or mastery progress. Mastery progress is the better reward, because it speeds up unlocking a mastered character, while emotes are just for fun. New codes usually drop when a new mastered character comes out, after maintenance or delays, and around holidays. The developers post them in the Discord and on the Trello board.",
+  "codes": [
+    {
+      "code": "EXPLOSIONHEROMASTERYRELEASE",
+      "reward": "5 Mastery Progress",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/heroes-battlegrounds",
+        "https://techwiser.com/roblox-heroes-battlegrounds-codes/",
+        "https://nerdschalk.com/heroes-battlegrounds-codes/",
+        "https://allthings.how/heroes-battlegrounds-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "WELOVEDELAYSITHINK",
+      "reward": "3 free emotes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/heroes-battlegrounds",
+        "https://techwiser.com/roblox-heroes-battlegrounds-codes/",
+        "https://nerdschalk.com/heroes-battlegrounds-codes/",
+        "https://allthings.how/heroes-battlegrounds-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "SORRYFORMAINTENANCE",
+      "reward": "5 free emotes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/heroes-battlegrounds",
+        "https://beebom.com/heroes-battlegrounds-codes/",
+        "https://techwiser.com/roblox-heroes-battlegrounds-codes/",
+        "https://nerdschalk.com/heroes-battlegrounds-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "WINGEDASSASSINULT",
+      "reward": "5 free emotes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/heroes-battlegrounds",
+        "https://beebom.com/heroes-battlegrounds-codes/",
+        "https://techwiser.com/roblox-heroes-battlegrounds-codes/",
+        "https://nerdschalk.com/heroes-battlegrounds-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "LOVESICKKILLERULT",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AZUREMASTERYULT",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "MOREDELAYSPLEASEPLEASE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "chunchieparty",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "chunchiepartycontinued",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "flamesmastery",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NEWYEARSEVE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2025CHRISTMAS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 4805,
+    "visits": 1742565920,
+    "favorites": 1617392,
+    "updated": "2026-09-29T02:58:47.4130933Z",
+    "created": "2023-04-11T02:16:49.137Z"
+  },
+  "added": "2026-09-29T18:35:54.269Z",
+  "lastChecked": "2026-09-29T18:35:54.269Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where do I type Heroes Battlegrounds codes?",
+      "a": "There is no code box. Type the code into the Roblox chat with !code in front of it, like !code WELOVEDELAYSITHINK, then press Enter."
+    },
+    {
+      "q": "Why did my code not work in chat?",
+      "a": "Check that there is a space after !code and that the code is in capital letters. Older codes like AZUREMASTERYULT and LOVESICKKILLERULT have been reported as expired."
+    },
+    {
+      "q": "What does mastery progress do?",
+      "a": "It fills a character's mastery bar, and a full bar unlocks the mastered version of that character with stronger moves. EXPLOSIONHEROMASTERYRELEASE gives 5 progress."
+    }
+  ],
+  "aliases": [
+    "hbg"
+  ],
+  "codeChannels": "The official Heroes Battlegrounds Discord server and the official Trello board",
+  "requirement": "Codes are typed into the chat and must start with !code followed by a space."
+}

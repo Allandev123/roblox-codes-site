@@ -1,0 +1,138 @@
+{
+  "slug": "jujutsu-zero",
+  "name": "Jujutsu: Zero",
+  "robloxName": "[🎞️ PROJECTION] Jujutsu: Zero",
+  "placeId": 128451689942376,
+  "universeId": 6760085372,
+  "gameUrl": "https://www.roblox.com/games/128451689942376/Jujutsu-Zero",
+  "creator": "Studio Resonance",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "jujutsu-zero-icon.webp",
+  "thumb": "jujutsu-zero-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Jujutsu: Zero on Roblox and finish the opening tutorial if you have not done it yet.",
+    "On the main menu, before you load into the world, click Codes, the fourth option in the list.",
+    "Type or paste the code into the Enter Codes Here box in the middle of the screen, matching the capital letters.",
+    "Press Redeem to add the Cursed Crystals, Lumens, and Clan Rolls to your account."
+  ],
+  "notes": "Jujutsu: Zero is an action RPG from Studio Resonance based on the Jujutsu Kaisen anime. You roam an open world, fight cursed spirits and sorcerers, collect cursed objects, and train your cursed technique as you level up. Your clan gives passive bonuses, so many players reroll it hunting for a better one, and later content includes raids and awakenings like the new Awakened Projection.\n\nCodes give Cursed Crystals, Lumens, and Clan Rolls. Clan Rolls are the best reward for most players, since a strong clan helps for the whole game, and the game boosts clan luck on weekends, so saving rolls until then is smart. New codes arrive with each update and whenever the game reaches a like goal, and the developers list the current ones in the game description on Roblox.",
+  "codes": [
+    {
+      "code": "PROJECTION",
+      "reward": "1,000 Cursed Crystals, 5,000 Lumens and 50 Clan Rolls",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:55.871Z",
+      "lastSeen": "2026-09-29T18:35:55.871Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:22.148Z"
+    },
+    {
+      "code": "220KLIKES",
+      "reward": "500 Cursed Crystals, 5,000 Lumens, and 50 Clan Rolls",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.roblox.com/games/128451689942376/Jujutsu-Zero",
+        "https://www.destructoid.com/jujutsu-zero-codes/",
+        "https://techwiser.com/roblox-jujutsu-zero-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "210KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CLOUD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LASTCODE!",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TENSUMMON",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AWAKENED",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CALAMITY",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "190KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 6304,
+    "visits": 124766638,
+    "favorites": 208554,
+    "updated": "2026-09-29T15:17:12.4881665Z",
+    "created": "2024-11-04T17:58:40.07Z"
+  },
+  "added": "2026-09-29T18:35:55.871Z",
+  "lastChecked": "2026-09-29T18:35:55.871Z",
+  "lastChanged": "2026-09-29T18:36:22.148Z",
+  "faq": [
+    {
+      "q": "Why can't I find the Codes button in Jujutsu: Zero?",
+      "a": "You need to finish the opening tutorial first. After that, Codes is the fourth option on the main menu, which shows up before you load into the world."
+    },
+    {
+      "q": "When is the best time to use Clan Rolls from codes?",
+      "a": "Try to spend them on a weekend, when the game runs boosted clan luck. You get a better shot at a rare clan from the same number of rolls."
+    },
+    {
+      "q": "Why does CLOUD or 210KLIKES say expired?",
+      "a": "Jujutsu: Zero usually retires older codes when a new update or like goal code goes live. The Roblox game description always shows the newest codes, so check it if a code fails."
+    }
+  ],
+  "aliases": [
+    "jujutsu zero",
+    "jjz",
+    "jj zero"
+  ],
+  "codeChannels": "The game's Roblox description, the Studio Resonance Roblox group, and the official Jujutsu: Zero Discord server",
+  "requirement": "You must finish the opening tutorial before codes can be redeemed."
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "dragon-adventures",
+  "name": "Dragon Adventures",
+  "robloxName": "[REBUILD🚧] Dragon Adventures 🐉",
+  "placeId": 3475397644,
+  "universeId": 1235188606,
+  "gameUrl": "https://www.roblox.com/games/3475397644/Dragon-Adventures",
+  "creator": "Sonar Studios",
+  "genre": "RPG",
+  "subgenre": "",
+  "icon": "dragon-adventures-icon.webp",
+  "thumb": "dragon-adventures-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Dragon Adventures on Roblox and finish the tutorial if you are new.",
+    "Press the Rewards button on the right side of the screen, or open the Menu in the bottom right and pick Rewards (this tab used to be called Gift Codes).",
+    "Type a code into the box at the bottom of the Rewards window.",
+    "Press Redeem! and the potion is sent to your inventory."
+  ],
+  "notes": "Dragon Adventures is a dragon-taming RPG from Sonar Studios. You find and hatch eggs, raise baby dragons into adults, and ride them around several open worlds while collecting food and resources. There are more than 200 dragon species to discover, and you can build your own lair to keep them in, fight enemies, and fly or run across each map.\n\nMost codes give potions, food, coins or event items, and they usually only last about a week. The five working right now are YouTuber codes that each give a preset potion, which recolors a dragon in that creator's color style, and these do not expire. Use them on a dragon you plan to keep. New limited codes usually come from Sonar Studios on X and Instagram during events, birthdays and big updates.",
+  "codes": [
+    {
+      "code": "SHAMEWING",
+      "reward": "1 Shamewing Preset Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://dragon-adventures.fandom.com/wiki/Codes",
+        "https://robloxden.com/game-codes/dragon-adventures",
+        "https://techwiser.com/roblox-dragon-adventures-codes/",
+        "https://www.pocketgamer.com/roblox/dragon-adventures-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "GALIFRAN",
+      "reward": "1 Galifran Preset Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://dragon-adventures.fandom.com/wiki/Codes",
+        "https://robloxden.com/game-codes/dragon-adventures",
+        "https://techwiser.com/roblox-dragon-adventures-codes/",
+        "https://www.pocketgamer.com/roblox/dragon-adventures-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "FLUFFY",
+      "reward": "1 FluffyTSG Preset Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://dragon-adventures.fandom.com/wiki/Codes",
+        "https://robloxden.com/game-codes/dragon-adventures",
+        "https://techwiser.com/roblox-dragon-adventures-codes/",
+        "https://www.pocketgamer.com/roblox/dragon-adventures-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "AESUBREALM",
+      "reward": "1 SubRealm Preset Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://dragon-adventures.fandom.com/wiki/Codes",
+        "https://robloxden.com/game-codes/dragon-adventures",
+        "https://techwiser.com/roblox-dragon-adventures-codes/",
+        "https://www.pocketgamer.com/roblox/dragon-adventures-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "JUSTYBLOX",
+      "reward": "1 Justyblox Preset Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://dragon-adventures.fandom.com/wiki/Codes",
+        "https://robloxden.com/game-codes/dragon-adventures",
+        "https://techwiser.com/roblox-dragon-adventures-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "RIA2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SeasonXP2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DA7THBIRTHDAY2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SOCIALCELEBRATION",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Stormthunder",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SeasonXP",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Supercharged",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "RIA2025",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 6492,
+    "visits": 1725746322,
+    "favorites": 14534786,
+    "updated": "2026-09-29T18:03:46.1924203Z",
+    "created": "2019-07-15T16:19:10.623Z"
+  },
+  "added": "2026-09-29T18:35:47.562Z",
+  "lastChecked": "2026-09-29T18:35:47.562Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where did the Gift Codes button go in Dragon Adventures?",
+      "a": "In November 2025 the Gift Codes tab was renamed to Rewards. You can open it from the Menu or from the Rewards button on the right side of the screen."
+    },
+    {
+      "q": "Are Dragon Adventures codes case-sensitive?",
+      "a": "No, the game accepts codes in any mix of capital and lowercase letters. Each code still only works once per account."
+    },
+    {
+      "q": "Why do so many Dragon Adventures codes stop working fast?",
+      "a": "Event and milestone codes from Sonar Studios normally expire after about a week. Only the content creator preset potion codes stay active long term, so redeem event codes as soon as you see them."
+    }
+  ],
+  "aliases": [
+    "da",
+    "dragon adventure"
+  ],
+  "codeChannels": "Sonar Studios on X (@Sonar_Games) and Instagram, plus the Dragon Adventures Discord server",
+  "requirement": "You need to finish the tutorial before you can redeem codes."
+}

@@ -1,0 +1,351 @@
+{
+  "slug": "deep-fishing",
+  "name": "Deep Fishing",
+  "robloxName": "Deep Fishing🎣",
+  "placeId": 132239307080610,
+  "universeId": 10526853622,
+  "gameUrl": "https://www.roblox.com/games/132239307080610/Deep-Fishing",
+  "creator": "LazyGames.",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "deep-fishing-icon.webp",
+  "thumb": "deep-fishing-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Deep Fishing on Roblox and finish the short casting tutorial.",
+    "Click the Shop button in the menu at the top of the screen.",
+    "Scroll to the bottom of the Shop window to find the Type Code Here box.",
+    "Type a code exactly as shown, since some start with a capital letter and some do not.",
+    "Press Redeem and the bait, cash or potion is added to your inventory."
+  ],
+  "notes": "Deep Fishing is a casting game from LazyGames. that launched on Roblox in July 2026. You hold and release to throw your line, and the farther it lands, the deeper and rarer the water you reach. One cast can hook several fish at once, which you sell for cash. That cash goes into Strength upgrades so you can throw even farther and unlock new areas like Frostmere.\n\nCodes give Meadow Bait, Tide Bait, cash and Luck Potions. The update codes are the best value because Tide Bait and a Luck Potion together raise your odds of pulling a rare fish. A new code has come with almost every numbered update, and extra ones show up for new features such as skins, keys and the kraken, all posted in the game's Discord.",
+  "codes": [
+    {
+      "code": "update8",
+      "reward": "3 Tide Bait and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "keys",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "kraken",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/",
+        "https://robloxden.com/game-codes/deep-fishing",
+        "https://allthings.how/deep-fishing-codes/",
+        "https://nerdschalk.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update7",
+      "reward": "3 Tide Bait and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://www.destructoid.com/deep-fishing-codes/",
+        "https://robloxden.com/game-codes/deep-fishing",
+        "https://allthings.how/deep-fishing-codes/",
+        "https://nerdschalk.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "skins",
+      "reward": "3 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/",
+        "https://robloxden.com/game-codes/deep-fishing",
+        "https://gamertweak.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "pond",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/",
+        "https://robloxden.com/game-codes/deep-fishing",
+        "https://gamertweak.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update4",
+      "reward": "3 Tide Bait and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://www.destructoid.com/deep-fishing-codes/",
+        "https://robloxden.com/game-codes/deep-fishing",
+        "https://gamertweak.com/deep-fishing-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Update6",
+      "reward": "3 Tide Bait and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Update5",
+      "reward": "3 Tide Bait and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Update3",
+      "reward": "2,500 Cash and 3 Tide Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Update2",
+      "reward": "2,500 Cash and 3 Tide Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Frostmere",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Mutations",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Gifting",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "BigFish",
+      "reward": "3 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Fishing",
+      "reward": "5 Meadow Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "ThanksforPlaying",
+      "reward": "5,000 Cash and 1 Luck Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "Release",
+      "reward": "1,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox/deep-fishing-codes",
+        "https://gamerant.com/deep-fishing-codes-roblox/",
+        "https://robloxden.com/game-codes/deep-fishing"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "tidal1000",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "update1",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 6467,
+    "visits": 5634931,
+    "favorites": 115090,
+    "updated": "2026-09-29T13:20:36.6930666Z",
+    "created": "2026-07-18T22:34:37.651Z"
+  },
+  "added": "2026-09-29T18:35:44.339Z",
+  "lastChecked": "2026-09-29T18:35:44.339Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Why does a Deep Fishing code say invalid?",
+      "a": "Deep Fishing codes are case-sensitive and they do not all use the same case. For example update4 is all lowercase but Update5 starts with a capital U, so copy each one exactly."
+    },
+    {
+      "q": "Which Deep Fishing codes should I use first?",
+      "a": "Start with the update codes like update8 and update7. They give Tide Bait plus a Luck Potion, which is the best combo for catching rare fish."
+    },
+    {
+      "q": "Does the tidal1000 code still work in Deep Fishing?",
+      "a": "It used to give a Tidal rod skin, but the most recent checks list it as expired. If it still works for you, that is a bonus."
+    }
+  ],
+  "aliases": [
+    "deep fishing roblox"
+  ],
+  "codeChannels": "The patch notes and codes channels in the official Deep Fishing Discord server, plus the LazyGames. Roblox group",
+  "requirement": "Finish the opening tutorial before trying codes."
+}

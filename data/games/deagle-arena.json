@@ -1,0 +1,83 @@
+{
+  "slug": "deagle-arena",
+  "name": "Deagle Arena",
+  "robloxName": "Deagle Arena",
+  "placeId": 84556640895285,
+  "universeId": 10057403337,
+  "gameUrl": "https://www.roblox.com/games/84556640895285/Deagle-Arena",
+  "creator": "Deagle Arena",
+  "genre": "Shooter",
+  "subgenre": "Deathmatch Shooter",
+  "icon": "deagle-arena-icon.webp",
+  "thumb": "deagle-arena-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Open Deagle Arena on Roblox and wait in the main lobby until everything has loaded.",
+    "Find the gift box with CODES written on it in the spawn area, close to the leaderboards.",
+    "Walk up to the box and press E on PC, or tap the prompt that pops up on mobile.",
+    "Type the code into the ENTER CODE HERE box using the same capital letters, then press the green Claim button."
+  ],
+  "notes": "Deagle Arena is a free-for-all shooter from the Deagle Arena Group where every player uses the same Desert Eagle pistol. Rounds are short deathmatches, so you win by aiming well and moving fast, sliding with C or Ctrl on PC to dodge shots. Kills earn Cash, you level up for rewards, and a ranked mode lets you climb the leaderboards while you chase rare weapon skins.\n\nIts codes so far have given Cash and a second currency called Greekpoints. Cash is the more useful one for most players because it goes straight toward skins and unlocks. The developers post new codes in the codes channel of the official Deagle Arena Discord, usually when an update goes live, so it is worth checking there after each patch.",
+  "codes": [
+    {
+      "code": "GREEKWARRIOR",
+      "reward": "100 Greekpoints",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/deagle-arena",
+        "https://gamerant.com/deagle-arena-codes-roblox/",
+        "https://nerdschalk.com/deagle-arena-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "DISCORD",
+      "reward": "5,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/deagle-arena",
+        "https://gamerant.com/deagle-arena-codes-roblox/",
+        "https://nerdschalk.com/deagle-arena-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 7956,
+    "visits": 224077403,
+    "favorites": 8553121,
+    "updated": "2026-09-29T16:04:17.5205433Z",
+    "created": "2026-04-19T14:40:37.58Z"
+  },
+  "added": "2026-09-29T18:35:41.154Z",
+  "lastChecked": "2026-09-29T18:35:41.154Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where is the codes box in Deagle Arena?",
+      "a": "It is a gift box labeled CODES in the main lobby, next to the leaderboards. Walk up to it and press E on PC, or tap the prompt on mobile, to open the code window."
+    },
+    {
+      "q": "Why does my Deagle Arena code say it is invalid?",
+      "a": "Capital letters matter, so GREEKWARRIOR and DISCORD must be typed in all caps. Also check that no extra space got copied at the start or end of the code."
+    },
+    {
+      "q": "Where do new Deagle Arena codes get posted first?",
+      "a": "The developers share them in the codes channel of the official Deagle Arena Discord server, often on the same day as an update."
+    }
+  ],
+  "aliases": [
+    "deagle arena"
+  ],
+  "codeChannels": "The codes channel in the official Deagle Arena Discord server"
+}

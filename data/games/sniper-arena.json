@@ -1,0 +1,161 @@
+{
+  "slug": "sniper-arena",
+  "name": "Sniper Arena",
+  "robloxName": "[🔥NEW SCRT] Sniper Arena",
+  "placeId": 122446657157717,
+  "universeId": 9534705677,
+  "gameUrl": "https://www.roblox.com/games/122446657157717/Sniper-Arena",
+  "creator": "9D GAME CLUB",
+  "genre": "Shooter",
+  "subgenre": "Deathmatch Shooter",
+  "icon": "sniper-arena-icon.webp",
+  "thumb": "sniper-arena-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Sniper Arena on Roblox and wait in the lobby.",
+    "Click the gear (settings) icon in the top-left corner, next to the chat button.",
+    "Choose Redeem Code from the settings menu.",
+    "Paste a code into the box, keeping lowercase letters lowercase, and press the green Redeem button."
+  ],
+  "notes": "Sniper Arena is a free-for-all shooter from 9D GAME CLUB where every player fights with a sniper rifle. Matches have quick respawns, and you can also queue for Ranked matches that pay out better rewards. You earn credits in each match to unlock new snipers and open crates, and every skin is cosmetic only, so no gun shoots better than another.\n\nCodes here hand out cases and knife skins instead of currency. The Secret Case from 20000ccu is the one to open first, because it has a shot at rarer skins that you can sell on the player market for cash. New codes usually appear when the game hits milestones such as player counts, visits or like goals, and they go up in the Discord codes channel.",
+  "codes": [
+    {
+      "code": "20000ccu",
+      "reward": "1 Secret Case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/sniper-arena-codes/",
+        "https://robloxden.com/game-codes/sniper-arena",
+        "https://techwiser.com/roblox-sniper-arena-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "FREELIKE5",
+      "reward": "1 random Mystic Knife",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/sniper-arena/codes",
+        "https://beebom.com/sniper-arena-codes/",
+        "https://www.destructoid.com/sniper-arena-codes/",
+        "https://robloxden.com/game-codes/sniper-arena",
+        "https://techwiser.com/roblox-sniper-arena-codes/",
+        "https://www.gamingdose.com/en/guide/sniper-arena-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "freecase",
+      "reward": "1 Release Case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/sniper-arena/codes",
+        "https://beebom.com/sniper-arena-codes/",
+        "https://www.destructoid.com/sniper-arena-codes/",
+        "https://robloxden.com/game-codes/sniper-arena",
+        "https://techwiser.com/roblox-sniper-arena-codes/",
+        "https://www.gamingdose.com/en/guide/sniper-arena-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "FREELIKE4",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "newscrtcase",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FREELIKE3",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FREELIKE2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FREELIKE1",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "140mvisit",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "weaponfix",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EASTER2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 12617,
+    "visits": 288534270,
+    "favorites": 2660532,
+    "updated": "2026-09-29T18:27:37.9549763Z",
+    "created": "2026-01-10T05:55:56.67Z"
+  },
+  "added": "2026-09-29T18:36:09.431Z",
+  "lastChecked": "2026-09-29T18:36:09.431Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Why does the Sniper Arena code freecase say invalid?",
+      "a": "Codes in this game are case-sensitive, and some are all lowercase. Type freecase and 20000ccu in lowercase, and FREELIKE5 in capitals."
+    },
+    {
+      "q": "Where is the redeem button in Sniper Arena?",
+      "a": "It is inside the settings menu. Click the gear icon in the top-left of the lobby, then pick Redeem Code."
+    },
+    {
+      "q": "Can I sell skins I get from Sniper Arena codes?",
+      "a": "Yes, most skins can be listed on the in-game player market for cash, which you can then use on premium skins. Some special case rewards are marked untradeable, so check the item first."
+    }
+  ],
+  "aliases": [
+    "sniper arena roblox"
+  ],
+  "codeChannels": "The codes channel in the official Sniper Arena Discord server (discord.gg/G4udTjk7Wf) and the 9D GAME CLUB Roblox group"
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "build-the-pyramid",
+  "name": "Build the Pyramid!",
+  "robloxName": "Build the Pyramid!",
+  "placeId": 123720558354386,
+  "universeId": 10765012427,
+  "gameUrl": "https://www.roblox.com/games/123720558354386/Build-the-Pyramid",
+  "creator": "Janitors Studios",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "build-the-pyramid-icon.webp",
+  "thumb": "build-the-pyramid-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Build the Pyramid! on Roblox and wait until you spawn in the desert with the other players.",
+    "Look at the top-left corner of the screen and click the ticket (codes) icon.",
+    "Type or paste a code into the text box that pops up, using all capital letters.",
+    "Press Redeem, then check your Coins, Speed and Strength to see the reward."
+  ],
+  "notes": "Build the Pyramid! is a co-op game from Janitors Studios that came out on Roblox in September 2026. Everyone in the server works on the same pyramid: you pick up stone blocks, carry them over, and drop them in place. Between trips you train to raise your Speed, so you walk faster, and your Strength, so you can carry heavier loads. Each finished pyramid makes you stronger for the next one.\n\nCodes give Coins, Speed and Strength. UPDATE15 is the one to grab first because it adds 25,000 Speed and 25,000 Strength on top of 50,000 Coins, which skips a lot of early training. New codes have come with updates and after bug fixes, like the apology code SORRYFORUPDATEBUG, and the developers post them in their Discord.",
+  "codes": [
+    {
+      "code": "UPDATE15",
+      "reward": "50,000 Coins, 25,000 Speed and 25,000 Strength",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/build-the-pyramid-codes-3411170/",
+        "https://gamerant.com/build-pyramid-codes-roblox/",
+        "https://www.pcgamesn.com/roblox/build-the-pyramid-codes",
+        "https://www.pockettactics.com/build-the-pyramid-codes",
+        "https://techwiser.com/roblox-build-the-pyramid-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "SORRYFORUPDATEBUG",
+      "reward": "2,500 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/build-the-pyramid-codes-3411170/",
+        "https://gamerant.com/build-pyramid-codes-roblox/",
+        "https://www.pcgamesn.com/roblox/build-the-pyramid-codes",
+        "https://www.pockettactics.com/build-the-pyramid-codes",
+        "https://techwiser.com/roblox-build-the-pyramid-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "FREECODE",
+      "reward": "500 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/build-the-pyramid-codes-3411170/",
+        "https://gamerant.com/build-pyramid-codes-roblox/",
+        "https://www.pcgamesn.com/roblox/build-the-pyramid-codes",
+        "https://www.pockettactics.com/build-the-pyramid-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "WELCOME",
+      "reward": "500 Speed and 500 Strength",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/build-the-pyramid-codes-3411170/",
+        "https://gamerant.com/build-pyramid-codes-roblox/",
+        "https://www.pcgamesn.com/roblox/build-the-pyramid-codes",
+        "https://www.pockettactics.com/build-the-pyramid-codes",
+        "https://techwiser.com/roblox-build-the-pyramid-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "UPGRADES5K",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DISCORD2K",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 20528,
+    "visits": 14477841,
+    "favorites": 75573,
+    "updated": "2026-09-25T06:53:08.496Z",
+    "created": "2026-09-03T20:26:45.061Z"
+  },
+  "added": "2026-09-29T18:35:37.952Z",
+  "lastChecked": "2026-09-29T18:35:37.952Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Which Build the Pyramid code should I redeem first?",
+      "a": "Use UPDATE15 first. It gives 50,000 Coins plus 25,000 Speed and 25,000 Strength, so you can carry heavier blocks and move faster right away."
+    },
+    {
+      "q": "Why does UPGRADES5K say invalid in Build the Pyramid?",
+      "a": "UPGRADES5K and DISCORD2K were older codes that have now expired. Stick to the four codes in the active list, and type them in all capital letters."
+    },
+    {
+      "q": "What do Speed and Strength do in Build the Pyramid?",
+      "a": "Speed makes you walk faster between the block pile and the pyramid. Strength lets you carry heavier blocks, so each trip adds more to the build."
+    }
+  ],
+  "aliases": [
+    "btp",
+    "build a pyramid",
+    "build the pyramid roblox"
+  ],
+  "codeChannels": "The official Build the Pyramid Discord server"
+}

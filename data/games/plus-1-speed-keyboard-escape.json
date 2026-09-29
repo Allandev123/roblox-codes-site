@@ -1,0 +1,78 @@
+{
+  "slug": "plus-1-speed-keyboard-escape",
+  "name": "+1 Speed Keyboard Escape",
+  "robloxName": "+1 Speed Keyboard Escape | Candy & Chocolate",
+  "placeId": 95082159892680,
+  "universeId": 9584852943,
+  "gameUrl": "https://www.roblox.com/games/95082159892680/1-Speed-Keyboard-Escape-Candy-Chocolate",
+  "creator": "SecretVerse Studio",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-speed-keyboard-escape-icon.webp",
+  "thumb": "plus-1-speed-keyboard-escape-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 Speed Keyboard Escape on Roblox and wait until you spawn on the map.",
+    "Click the Code button in the top left corner of the screen.",
+    "Type or paste the code into the box. BYP4SS1 uses a zero in the middle and a one at the end.",
+    "Press OK to add the Speed to your character."
+  ],
+  "notes": "+1 Speed Keyboard Escape is a speed obby from SecretVerse Studio set on giant keyboard keys, with a candy and chocolate theme in its current version. Every step you take adds 1 to your Speed, so the more you move the faster you get. You use that speed to run and jump across the key paths, but one bad jump drops you back to the start. Rebirths and multipliers help you gain speed faster, and you race other players on the server.\n\nCodes in this game give raw Speed, which is the main stat you are always grinding. Besides the public code, the SecretVerse Discord has a #social-code channel where a Get Code button makes a one-time personal code worth 15,000 Speed, and it only lasts about 15 minutes. Liking the game and joining the group also unlocks a free gift. Public codes are rare and tend to show up with updates and events.",
+  "codes": [
+    {
+      "code": "BYP4SS1",
+      "reward": "15,000 Speed",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/plus-1-speed-keyboard-escape-codes/",
+        "https://www.pcgamesn.com/speed-keyboard-escape/codes",
+        "https://insider-gaming.com/roblox-1-speed-keyboard-escape-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "CHOCO2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 97859,
+    "visits": 6174587483,
+    "favorites": 6822584,
+    "updated": "2026-09-29T16:14:43.1807015Z",
+    "created": "2026-01-18T17:49:45.993Z"
+  },
+  "added": "2026-09-29T18:35:28.379Z",
+  "lastChecked": "2026-09-29T18:35:28.379Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "How do I get the social code in +1 Speed Keyboard Escape?",
+      "a": "Join the SecretVerse Studio Discord, link your Roblox account, and press Get Code in the #social-code channel. The code is only for you, so redeem it in the game within about 15 minutes."
+    },
+    {
+      "q": "Why does BYP4SS1 say invalid in +1 Speed Keyboard Escape?",
+      "a": "Check the characters. It is B Y P, the number 4, S S, and the number 1 at the end, all in capitals. If it still fails, you have probably already used it on this account."
+    },
+    {
+      "q": "Is it better to use the Speed code before or after a rebirth?",
+      "a": "Speed from codes is a flat amount, so it helps most early on when your own speed is low. Using it on a fresh account gets you across the first sections much faster."
+    }
+  ],
+  "aliases": [
+    "keyboard escape",
+    "speed keyboard escape",
+    "+1 speed keyboard"
+  ],
+  "codeChannels": "The SecretVerse Studio Discord server (#social-code channel) and the SecretVerse Studio Roblox group"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "search-for-the-needle",
+  "name": "Search For The Needle",
+  "robloxName": "[CHAPTER 3] Search For The Needle",
+  "placeId": 77108422251420,
+  "universeId": 10756011174,
+  "gameUrl": "https://www.roblox.com/games/77108422251420/Search-For-The-Needle",
+  "creator": "Garage Games",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "search-for-the-needle-icon.webp",
+  "thumb": "search-for-the-needle-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Search For The Needle on Roblox and wait until you spawn next to the haystack.",
+    "Click the Codes button on the right side of the screen.",
+    "Type the code in capitals into the \"Type code here\" box.",
+    "Press the green Redeem button to get your Gems."
+  ],
+  "notes": "Search For The Needle is a farm game from Garage Games where a needle is hidden somewhere under a huge pile of hay. You grab flakes of hay, feed them to the cow to earn cash, and spend that cash in the barn on better tools like the Pitchfork, Vacuum and Dynamite. Dig deep enough and the needle shows up, and you try to find it faster each time. The game has added chapters, pets, clans and weather since it came out in August 2026.\n\nCodes in this game give Gems, sometimes with a luck boost or event coins added. Gems are the most useful reward because you spend them to roll classes, and the rarer ones like Prospector or Drone Specialist give big bonuses to clearing hay. New codes are usually named after the update they came with, such as PETS, CLANS and RANCH, and they appear in the Garage Games Discord.",
+  "codes": [
+    {
+      "code": "RANCH",
+      "reward": "120 Gems",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/search-for-the-needle-codes/",
+        "https://techwiser.com/roblox-search-for-the-needle-codes/",
+        "https://www.destructoid.com/search-for-the-needle-codes/",
+        "https://www.pcgamesn.com/roblox/search-for-the-needle-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "PETS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CLANS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "WEATHER",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ALIEN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SOON",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 26211,
+    "visits": 78913629,
+    "favorites": 191005,
+    "updated": "2026-09-29T18:32:30.6205526Z",
+    "created": "2026-08-23T09:25:26.774Z"
+  },
+  "added": "2026-09-29T18:36:06.094Z",
+  "lastChecked": "2026-09-29T18:36:06.094Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "What should I spend Gems on in Search For The Needle?",
+      "a": "Use them to roll for a better class. Even a mid-tier class like Pack Mule or Hay Merchant speeds up how fast you clear the pile and earn cash."
+    },
+    {
+      "q": "Why does the PETS code not work in Search For The Needle anymore?",
+      "a": "PETS was tied to the pets update and has now expired, like CLANS, WEATHER and ALIEN before it. Each update usually brings a new code that replaces the last one."
+    },
+    {
+      "q": "Does the rainbow hay in Search For The Needle matter?",
+      "a": "Yes. Glowing rainbow flakes count as several flakes when you pick them up and sell for double, so grab them first to earn cash faster."
+    }
+  ],
+  "aliases": [
+    "find the needle",
+    "needle in a haystack roblox",
+    "sftn"
+  ],
+  "codeChannels": "The Garage Games Discord server (Codes channel under Information)"
+}

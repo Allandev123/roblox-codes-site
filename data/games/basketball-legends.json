@@ -1,0 +1,174 @@
+{
+  "slug": "basketball-legends",
+  "name": "Basketball Legends",
+  "robloxName": "[UPD]🏀Basketball Legends🏀",
+  "placeId": 14259168147,
+  "universeId": 4931927012,
+  "gameUrl": "https://www.roblox.com/games/14259168147/Basketball-Legends",
+  "creator": "InfinitySports",
+  "genre": "Sports & Racing",
+  "subgenre": "Sports",
+  "icon": "basketball-legends-icon.webp",
+  "thumb": "basketball-legends-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Join the InfinitySports group on Roblox.",
+    "Launch Basketball Legends and press Play Now.",
+    "Click Settings on the left side of the screen and choose Redeem Code.",
+    "Type a code into the box and press CLAIM."
+  ],
+  "notes": "Basketball Legends is a basketball game from InfinitySports. You can jump into quick pickup games at the park or play full 5v5 matches, using simple controls to shoot, pass, dribble and block. Playing earns coins, which you spend on skins, effects and other cosmetics for your player, and there are ranked games and clans for players who want more of a challenge.\n\nCodes give coins or cosmetic cases, like Summer Skin Cases and Summer Effect Cases. Coins are the most useful, because you choose exactly what to buy, while cases are random. Most codes are like-goal codes named after the like count, such as 650KLIKES, so a new one tends to show up every time the game gains another 10,000 likes. Update codes are shared in the InfinitySports Discord.",
+  "codes": [
+    {
+      "code": "EMOTESFX",
+      "reward": "1 Summer Effect Case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/basketball-legends/codes",
+        "https://www.pcgamesn.com/basketball-legends/codes",
+        "https://urgametips.com/basketball-legends-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "QOL",
+      "reward": "1 Summer Skin Case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/basketball-legends/codes",
+        "https://www.pcgamesn.com/basketball-legends/codes",
+        "https://urgametips.com/basketball-legends-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "650KLIKES",
+      "reward": "1,000 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/basketball-legends/codes",
+        "https://urgametips.com/basketball-legends-codes/",
+        "https://allthings.how/basketball-legends-codes/",
+        "https://nerdschalk.com/basketball-legends-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "640KLIKES",
+      "reward": "1,000 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/basketball-legends/codes",
+        "https://urgametips.com/basketball-legends-codes/",
+        "https://allthings.how/basketball-legends-codes/",
+        "https://beebom.com/roblox-basketball-legends-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "630KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "620KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "610KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GAUNTLET",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NEWSZN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BOTS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "MAGIC",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "PARKHELMETS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 2190,
+    "visits": 765980834,
+    "favorites": 692977,
+    "updated": "2026-09-23T23:08:08.613Z",
+    "created": "2023-07-31T07:11:02.877Z"
+  },
+  "added": "2026-09-29T18:35:33.123Z",
+  "lastChecked": "2026-09-29T18:35:33.123Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Why do Basketball Legends codes say invalid?",
+      "a": "You have to join the InfinitySports group on Roblox first. Also type codes in capital letters, and remember that older like-goal codes expire quickly."
+    },
+    {
+      "q": "Where is the redeem code option in Basketball Legends?",
+      "a": "Press Play Now, then open Settings on the left side of the screen and pick Redeem Code."
+    },
+    {
+      "q": "How often do new Basketball Legends like codes come out?",
+      "a": "A new 1,000 coin code usually appears each time the game reaches another 10,000 likes, so check back when the like count gets close."
+    }
+  ],
+  "aliases": [
+    "bl",
+    "bball legends"
+  ],
+  "codeChannels": "The InfinitySports Discord server (codes-and-info channel) and like-goals on the game's Roblox page",
+  "requirement": "You must join the InfinitySports Roblox group before codes will work."
+}

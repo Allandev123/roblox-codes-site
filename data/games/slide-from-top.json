@@ -1,0 +1,93 @@
+{
+  "slug": "slide-from-top",
+  "name": "Slide From Top",
+  "robloxName": "Slide From Top",
+  "placeId": 129387272668680,
+  "universeId": 9966428542,
+  "gameUrl": "https://www.roblox.com/games/129387272668680/Slide-From-Top",
+  "creator": "Tower GamesZ",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "slide-from-top-icon.webp",
+  "thumb": "slide-from-top-thumb.webp",
+  "autoApprove": false,
+  "draft": true,
+  "redeem": [
+    "Launch Slide From Top on Roblox and let your character spawn at the bottom of the slide.",
+    "Look along the sides of the screen for the Codes button and press it to open the code box.",
+    "Type a code exactly as shown, including the underscore, for example NEW_PLAYER.",
+    "Press the redeem or claim button to collect your reward."
+  ],
+  "notes": "Slide From Top is a Roblox slide game from the Tower GamesZ group. You climb up to the top of a tall mountain, jump on the slide, and ride all the way down as fast as you can. Coins are scattered along the path, and you spend them on gear upgrades that make every run quicker than the last. You can also collect pets that give you boosts while you slide.\n\nThe codes for this game are posted right in its Roblox description, so they come straight from the developers. NEW_PLAYER is meant for people just starting out, so it is the best one to use on your first visit. The other three are named after like goals (100, 500 and 1,000 likes), which means new codes usually arrive when the game hits its next like milestone.",
+  "codes": [
+    {
+      "code": "NEW_PLAYER",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:07.777Z",
+      "lastSeen": "2026-09-29T18:36:07.777Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+    },
+    {
+      "code": "LIKES_100",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:07.777Z",
+      "lastSeen": "2026-09-29T18:36:07.777Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+    },
+    {
+      "code": "LIKES_500",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:07.777Z",
+      "lastSeen": "2026-09-29T18:36:07.777Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+    },
+    {
+      "code": "LIKES_1K",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:07.777Z",
+      "lastSeen": "2026-09-29T18:36:07.777Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 4479,
+    "visits": 20205818,
+    "favorites": 37729,
+    "updated": "2026-09-08T18:48:02.218Z",
+    "created": "2026-03-31T02:36:30.149Z"
+  },
+  "added": "2026-09-29T18:36:07.777Z",
+  "lastChecked": "2026-09-29T18:36:07.777Z",
+  "lastChanged": "2026-09-29T18:36:07.777Z",
+  "faq": [
+    {
+      "q": "Where do Slide From Top codes come from?",
+      "a": "The developers list every code in the game's description on its Roblox page. When the game reaches a new like goal, a new LIKES code is usually added there."
+    },
+    {
+      "q": "Why is my Slide From Top code not working?",
+      "a": "Make sure you typed the underscore and used all capital letters, like LIKES_1K. Each code can also only be claimed once per account."
+    },
+    {
+      "q": "What should I spend coins on first in Slide From Top?",
+      "a": "Gear upgrades are the best early buy, since they make you slide faster and let you pick up more coins on each run. Pets are good after that for extra boosts."
+    }
+  ],
+  "aliases": [
+    "slide from the top"
+  ],
+  "codeChannels": "The game's Roblox description and the Tower GamesZ Roblox group"
+}

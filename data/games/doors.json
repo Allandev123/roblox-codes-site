@@ -1,0 +1,591 @@
+{
+  "slug": "doors",
+  "name": "DOORS",
+  "robloxName": "DOORS 👔",
+  "placeId": 6516141723,
+  "universeId": 2440500124,
+  "gameUrl": "https://www.roblox.com/games/6516141723/DOORS",
+  "creator": "LSPLASH",
+  "genre": "Survival",
+  "subgenre": "Escape",
+  "icon": "doors-icon.webp",
+  "thumb": "doors-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch DOORS on Roblox and wait in the lobby (you do not need to start a run).",
+    "Open the Shop using the button on the left side of the lobby screen.",
+    "Click the \"Enter code here\" box at the top of the Shop window and type or paste a code, including any spaces.",
+    "Press the check mark button to claim the Knobs, Stardust or Revives."
+  ],
+  "notes": "DOORS is a co-op horror game from LSPLASH where you and up to three friends push through a haunted hotel one numbered door at a time. Each room can hide an entity like Rush, Ambush, Screech or Seek, and you survive by listening for sounds, hiding in closets, and grabbing keys, books and levers to open the way forward. Runs can go into the Mines, the Backdoor and other floors, and one wrong move sends you back to the lobby.\n\nMost DOORS codes give Knobs, the shop currency you spend on items and Revives before a run, plus a few that give Stardust. The 50 Knob LAZYDEVS code and the 33 Knob 3rd code are the best ones to grab first. LSPLASH usually drops new codes with big updates, visit milestones and collaborations, and the bigger ones that include a Revive tend to expire within a few weeks.",
+  "codes": [
+    {
+      "code": "LAZYDEVS",
+      "reward": "50 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "3rd",
+      "reward": "33 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "SCREECHSUCKS",
+      "reward": "25 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "CRUSADERS",
+      "reward": "5 Stardust",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "FE4R_RBX",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "NO_DATA",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "8BITRYAN",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "BIJUU MIKE",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "DANTDM",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "FIND THE TROLLFACES",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "ISHOWSPEED",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "KREEKCRAFT",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "KUBZ SCOUTS",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "LORE",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "PENGUINZ0",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "RAGDOLL MAYHEM",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "RAGDOLL UNIVERSE",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "THINKNOODLES",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "W",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "XQC",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "41",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "54",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "67",
+      "reward": "5 Knobs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "JUMP OVER THE BRICK",
+      "reward": "1 Stardust",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "PATHSWAP",
+      "reward": "1 Stardust",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "RAGDOLL COMBAT",
+      "reward": "1 Stardust",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "VOCAB HAVOC",
+      "reward": "1 Stardust",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "CHEDDAR BALLS",
+      "reward": "1 Knob",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-doors-codes/",
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "/E FREE",
+      "reward": "1 Knob",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/doors/codes",
+        "https://www.pockettactics.com/roblox/doors-codes",
+        "https://www.dexerto.com/roblox/roblox-doors-codes-3236329/",
+        "https://playpatch.org/roblox/doors/codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "777",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GRACE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DOORS2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SIX2025",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "5B",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "4B",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "THEHUNT",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "1000",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 43329,
+    "visits": 7791108743,
+    "favorites": 8213414,
+    "updated": "2026-09-16T22:07:49.069Z",
+    "created": "2021-03-14T02:20:27.43Z"
+  },
+  "added": "2026-09-29T18:35:45.945Z",
+  "lastChecked": "2026-09-29T18:35:45.945Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Do DOORS codes need spaces and capital letters?",
+      "a": "Type codes like BIJUU MIKE and JUMP OVER THE BRICK with the spaces in them. Some players report capitals do not matter in DOORS, but copying the code exactly is the safest way to avoid an error."
+    },
+    {
+      "q": "Why did the 777 code stop working in DOORS?",
+      "a": "777 was a limited code that gave 777 Knobs, 7 Stardust and a Revive, and it has now expired along with older ones like SIX2025 and 5B. Big codes with a Revive usually only last a few weeks."
+    },
+    {
+      "q": "Can I get a free Revive in DOORS without a code?",
+      "a": "Yes. The game page says joining the LSPLASH Roblox group gives you one free Revive, which is worth doing before a hard run like the Mines."
+    }
+  ],
+  "aliases": [
+    "doors roblox",
+    "roblox doors"
+  ],
+  "codeChannels": "LSPLASH on X, the official DOORS Discord server, and the LSPLASH Roblox group"
+}

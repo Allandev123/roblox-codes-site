@@ -1,0 +1,86 @@
+{
+  "slug": "drive-a-kukirin",
+  "name": "Drive A Kukirin!",
+  "robloxName": "(BETA) Drive A Kukirin!",
+  "placeId": 71704434889758,
+  "universeId": 10634461028,
+  "gameUrl": "https://www.roblox.com/games/71704434889758/Drive-A-Kukirin",
+  "creator": "Gogos Games Studios",
+  "genre": "Simulation",
+  "subgenre": "Vehicle Sim",
+  "icon": "drive-a-kukirin-icon.webp",
+  "thumb": "drive-a-kukirin-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Drive A Kukirin! on Roblox and wait until you spawn and can move your scooter.",
+    "Click the Settings gear icon in the top-right corner of the screen.",
+    "Find the code box in the Settings menu and type or paste a code in all capital letters.",
+    "Press Redeem and check your cash total."
+  ],
+  "notes": "Drive A Kukirin! is an electric scooter simulator from Gogos Games Studios that is still in early beta. You ride around an open town on scooters based on real brands like KuKirin, Dualtron and Segway, pull skill-based wheelies, switch to first-person view and keep away from the police. Riding earns cash, which you spend on faster scooters, helmets and later on a house.\n\nEvery code so far has given 1,000 Cash, so both current codes are equally useful. Put the money toward a better scooter first, since a faster ride helps you earn more on each trip. Codes have come out alongside patches and updates, and the developers share them in their Discord server.",
+  "codes": [
+    {
+      "code": "PATCH",
+      "reward": "1,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/drive-a-kukirin-codes",
+        "https://gamerant.com/drive-kukirin-codes-roblox/",
+        "https://urgametips.com/drive-a-kukirin-codes/",
+        "https://rogamecodes.com/drive-a-kukirin-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "UPDATE",
+      "reward": "1,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/drive-a-kukirin-codes",
+        "https://urgametips.com/drive-a-kukirin-codes/",
+        "https://rogamecodes.com/drive-a-kukirin-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 23410,
+    "visits": 58833567,
+    "favorites": 75817,
+    "updated": "2026-09-24T17:29:54.113Z",
+    "created": "2026-08-05T07:47:02.18Z"
+  },
+  "added": "2026-09-29T18:35:49.257Z",
+  "lastChecked": "2026-09-29T18:35:49.257Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where is the code box in Drive A Kukirin?",
+      "a": "It is inside the Settings menu. Click the gear icon at the top-right of the screen after you spawn and you will see the box to enter codes."
+    },
+    {
+      "q": "Why did the UPDATE code not work for me in Drive A Kukirin?",
+      "a": "UPDATE stopped working for a short time in September 2026 and was turned back on later. If it fails, join a new server and try again, and make sure it is typed in all capital letters."
+    },
+    {
+      "q": "What should I spend code cash on in Drive A Kukirin?",
+      "a": "A faster scooter is usually the best first buy, since it helps you get around town and earn cash more quickly. Save helmets and extras for later."
+    }
+  ],
+  "aliases": [
+    "dak",
+    "kukirin",
+    "drive a scooter"
+  ],
+  "codeChannels": "The official Gogos Games Studios Discord server and Roblox group"
+}

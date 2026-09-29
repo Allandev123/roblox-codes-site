@@ -1,0 +1,195 @@
+{
+  "slug": "murder-duels",
+  "name": "Murder Duels",
+  "robloxName": "[🎵] Murder Duels",
+  "placeId": 120851538706364,
+  "universeId": 9561553764,
+  "gameUrl": "https://www.roblox.com/games/120851538706364/Murder-Duels",
+  "creator": "Breakfast",
+  "genre": "Shooter",
+  "subgenre": "Deathmatch Shooter",
+  "icon": "murder-duels-icon.webp",
+  "thumb": "murder-duels-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Join the Breakfast group on Roblox and like the Murder Duels game page.",
+    "Launch Murder Duels and win duels until you reach level 5.",
+    "Click the Shop button at the bottom of the screen and scroll down to the codes box.",
+    "Type or paste a code exactly as written and press Redeem. The reward goes straight to your inventory."
+  ],
+  "notes": "Murder Duels is a first-person dueling game from the Breakfast group that is still in beta. You step on a pad to start a match, from 1v1 up to 4v4, and every player gets both a knife and a revolver, each with its own special abilities. The first side to win five rounds takes the duel, and wins earn XP that raises your level and unlocks new knife and revolver skins.\n\nCodes mostly give free cases, which you open for cosmetic skins you can keep or trade with other players. The 100MOG code is the one to grab first, since its OG Knife is exclusive and cannot be unboxed from cases. New codes arrive almost every time the game passes another 10,000 likes, and they are posted in the Discord and on code trackers soon after.",
+  "codes": [
+    {
+      "code": "230KLIKES",
+      "reward": "1 free case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/murder-duels/codes",
+        "https://allthings.how/murder-duels-codes/",
+        "https://urgametips.com/murder-duels-codes/",
+        "https://robloxden.com/game-codes/murder-duels"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "LATE",
+      "reward": "1 free case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/murder-duels/codes",
+        "https://allthings.how/murder-duels-codes/",
+        "https://urgametips.com/murder-duels-codes/",
+        "https://beebom.com/murder-duels-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "100MOG",
+      "reward": "Exclusive OG Knife",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/murder-duels/codes",
+        "https://allthings.how/murder-duels-codes/",
+        "https://urgametips.com/murder-duels-codes/",
+        "https://beebom.com/murder-duels-codes/",
+        "https://www.dexerto.com/roblox/murder-duels-codes-3369608/",
+        "https://robloxden.com/game-codes/murder-duels"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "MATCHMAKINGDELAY",
+      "reward": "1 free case",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/murder-duels/codes",
+        "https://allthings.how/murder-duels-codes/",
+        "https://urgametips.com/murder-duels-codes/",
+        "https://beebom.com/murder-duels-codes/",
+        "https://www.dexerto.com/roblox/murder-duels-codes-3369608/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "A free case (some lists say 1,000 Coins)",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/murder-duels/codes",
+        "https://allthings.how/murder-duels-codes/",
+        "https://urgametips.com/murder-duels-codes/",
+        "https://beebom.com/murder-duels-codes/",
+        "https://www.dexerto.com/roblox/murder-duels-codes-3369608/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "220KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "210KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "190KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "180KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LMAD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 11484,
+    "visits": 252418148,
+    "favorites": 214288,
+    "updated": "2026-09-25T21:44:30.32Z",
+    "created": "2026-01-14T22:16:21.543Z"
+  },
+  "added": "2026-09-29T18:36:00.851Z",
+  "lastChecked": "2026-09-29T18:36:00.851Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Why do Murder Duels codes not work for me?",
+      "a": "You need to be in the Breakfast Roblox group and be level 5 or higher. If both are true, check that the code is in capital letters with no spaces."
+    },
+    {
+      "q": "When does the next Murder Duels code come out?",
+      "a": "New codes are tied to like goals, usually one for every 10,000 extra likes. Liking the game helps it reach the next goal sooner, and the code is shared in the Discord when it does."
+    },
+    {
+      "q": "Why did 220KLIKES stop working in Murder Duels?",
+      "a": "Older like-milestone codes are usually switched off after a newer one comes out. Use 230KLIKES instead, along with the other active codes."
+    }
+  ],
+  "aliases": [
+    "murder duels roblox"
+  ],
+  "codeChannels": "The official Murder Duels Discord server and the Breakfast Roblox group",
+  "requirement": "You must be in the Breakfast Roblox group and at least level 5."
+}

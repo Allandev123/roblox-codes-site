@@ -1,0 +1,826 @@
+{
+  "slug": "bubble-gum-simulator-infinity",
+  "name": "Bubble Gum Simulator Infinity",
+  "robloxName": "[🍁SEASON] Bubble Gum Simulator INFINITY",
+  "placeId": 85896571713843,
+  "universeId": 6504986360,
+  "gameUrl": "https://www.roblox.com/games/85896571713843/Bubble-Gum-Simulator-INFINITY",
+  "creator": "Rumble Studios",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "bubble-gum-simulator-infinity-icon.webp",
+  "thumb": "bubble-gum-simulator-infinity-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Bubble Gum Simulator Infinity on Roblox and wait for your island to load.",
+    "Click the Codes button on the left side of the screen.",
+    "Type or paste a code into the text box exactly as it is written.",
+    "Press the blue Redeem button and the reward goes straight into your inventory."
+  ],
+  "notes": "Bubble Gum Simulator Infinity is a clicker and pet game from Rumble Studios. You blow bubble gum to grow a bigger bubble, then use it to float higher and reach new islands in the sky. Along the way you sell bubbles for coins, hatch eggs for pets, and build a pet team that boosts your bubble size, coins and luck.\n\nAlmost every code gives potions called Elixirs, and Infinity Elixirs show up the most. An Infinity Elixir stacks several boosts at once, so it works best right before a long egg-hatching session. The game updates every Friday, and new codes tend to come with bigger updates, seasonal events and visit milestones. Rumble Studios shares them in its Discord and update notes.",
+  "codes": [
+    {
+      "code": "600M",
+      "reward": "5 Infinity Elixirs and a 600M Visits Elixir",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "summer",
+      "reward": "5 Infinity Elixirs and 3 Summer Elixir IV",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "anniversary",
+      "reward": "11 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "7egg7",
+      "reward": "1 Translator",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "spring",
+      "reward": "5 Egg Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "flowers",
+      "reward": "5 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "valentine",
+      "reward": "3 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "hell",
+      "reward": "3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "heaven",
+      "reward": "3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "circus",
+      "reward": "3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "2xinfinity",
+      "reward": "10 Ultra Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "elf",
+      "reward": "3 Festive Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "jolly",
+      "reward": "5 Festive Elixir III",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "sorryshutdown",
+      "reward": "10 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "christmas",
+      "reward": "3 Festive Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "ogbgs",
+      "reward": "3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "adminabuse",
+      "reward": "5 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "ripsoulofplant",
+      "reward": "5 Halloween Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "maidnert",
+      "reward": "5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "halloween",
+      "reward": "3 Halloween Elixir II, 2 Infinity Elixirs and 5 Halloween Spin Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "superpuff",
+      "reward": "10 Secret Elixirs and 3 each of Lucky, Speed, Coins and Mythic Infinity",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "cornmaze",
+      "reward": "2 Infinity Elixirs, 5 Fall Mystery Boxes and 5 Fall Spin Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "autumn",
+      "reward": "2 Infinity Elixirs, 5 Fall Mystery Boxes and 5 Fall Spin Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "retroslop",
+      "reward": "10 Secret Elixirs and 3 each of Lucky, Speed, Coins and Mythic Infinity",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "obby",
+      "reward": "10 Easy Obby Keys, 5 Medium Obby Keys, 3 Hard Obby Keys and 5 Classic Crates",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "milestones",
+      "reward": "Secret Elixirs and Infinity potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "plasma",
+      "reward": "1 Speed Infinity and 5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "season7",
+      "reward": "1 Mythic Infinity and 5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "bugfix",
+      "reward": "3 each of Lucky, Mythic, Speed and Coins Infinity, plus 10 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update16",
+      "reward": "1 each of Normal, Silver, Golden, Diamond, Galaxy and Chromatic Bait",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "season6",
+      "reward": "1 Mythic Infinity and 5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "fishfix",
+      "reward": "10 Secret Elixirs and 3 each of Coins, Mythic, Lucky and Speed Infinity",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "world3",
+      "reward": "1 Mythic Infinity and 5 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update15",
+      "reward": "1 Lucky Infinity and 5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "fishe",
+      "reward": "1 Speed Infinity and 5 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "onemorebonus",
+      "reward": "1 of each Infinity potion and 5 Secret Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update13",
+      "reward": "1 Lucky Infinity and 10 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update12",
+      "reward": "1 Lucky Infinity",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update11",
+      "reward": "10 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update10",
+      "reward": "12 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update9",
+      "reward": "3 Light Boxes, 3 Infinity Elixirs and 3 Egg Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update8",
+      "reward": "3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update7",
+      "reward": "2 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update6",
+      "reward": "2 Infinity Elixirs and 3 Ancient Tokens",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update5",
+      "reward": "2 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update4",
+      "reward": "2 Infinity Elixirs and 5 Mythic Evolved potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update3",
+      "reward": "2 Dice and 2 Giant Dice",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "sylentlyssorry",
+      "reward": "4 Dice, 2 Giant Dice, 1 Golden Dice and 3 Infinity Elixirs",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "easter",
+      "reward": "4 Mystery Boxes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "update2",
+      "reward": "Mystery Boxes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "release",
+      "reward": "500 Coins and 1 Mystery Box",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "lucky",
+      "reward": "1 Lucky V potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.dexerto.com/roblox/bubble-gum-simulator-infinity-codes-3354733/",
+        "https://robloxden.com/game-codes/bubble-gum-simulator-infinity"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "update20",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "update18",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "update17",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "throwback",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "whoops",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "thanks",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 5643,
+    "visits": 607673588,
+    "favorites": 292718,
+    "updated": "2026-09-29T18:27:52.0379922Z",
+    "created": "2024-09-02T20:33:13.033Z"
+  },
+  "added": "2026-09-29T18:35:36.401Z",
+  "lastChecked": "2026-09-29T18:35:36.401Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Do the old update codes like update3 still work?",
+      "a": "Many of them do, so a new player can claim a big pile of Elixirs and Dice in one go. A few, like update17 and update18, have been switched off."
+    },
+    {
+      "q": "When should I use my Infinity Elixirs?",
+      "a": "Drink them right before you plan to hatch a lot of eggs or chase a rare pet. The boost only lasts a set time, so do not waste it while you are idle."
+    },
+    {
+      "q": "When do new Bubble Gum Simulator Infinity codes come out?",
+      "a": "The game updates every Friday at 2PM EST. New codes usually arrive with the bigger updates, holiday events and visit milestones."
+    }
+  ],
+  "aliases": [
+    "bgsi",
+    "bgs infinity",
+    "bgs"
+  ],
+  "codeChannels": "The Rumble Studios Discord server and the game's weekly update notes"
+}

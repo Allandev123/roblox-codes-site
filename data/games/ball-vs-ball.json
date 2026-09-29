@@ -1,0 +1,129 @@
+{
+  "slug": "ball-vs-ball",
+  "name": "Ball VS Ball",
+  "robloxName": "Ball VS Ball",
+  "placeId": 96510596525082,
+  "universeId": 10685282333,
+  "gameUrl": "https://www.roblox.com/games/96510596525082/Ball-VS-Ball",
+  "creator": "ATYS 3",
+  "genre": "Party & Casual",
+  "subgenre": "",
+  "icon": "ball-vs-ball-icon.webp",
+  "thumb": "ball-vs-ball-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Ball VS Ball on Roblox and wait for the arena to load.",
+    "Click the present (gift) icon in the top left corner of the screen.",
+    "Pick Codes from the menu that drops down.",
+    "Type or paste a code in capitals, like UPD5, into the box and press Redeem."
+  ],
+  "notes": "Ball VS Ball is an arena battler from ATYS 3 that came out on Roblox in August 2026. Every player is a ball, and when a round starts you get a random ball to fight with. If you do not like it you can reroll mid-battle for a different one. You fight other players in the arena to be the last ball standing, and each win pays out coins.\n\nThe codes in this game all give coins, 100 per code, so the five update codes add up to 500 coins. Coins are spent in the shop and on the coin gacha to unlock new balls for your collection, so a new player can use code coins to get a few extra balls right away. So far a new code has come out with every numbered update (UPD1 through UPD5), and the developers post them in the game's Discord.",
+  "codes": [
+    {
+      "code": "UPD5",
+      "reward": "100 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/ball-vs-ball-codes/",
+        "https://www.pcgamesn.com/roblox/ball-vs-ball-codes",
+        "https://gamertweak.com/ball-vs-ball-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "UPD4",
+      "reward": "100 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/ball-vs-ball-codes/",
+        "https://www.pcgamesn.com/roblox/ball-vs-ball-codes",
+        "https://gamertweak.com/ball-vs-ball-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "UPD3",
+      "reward": "100 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/ball-vs-ball-codes/",
+        "https://www.pcgamesn.com/roblox/ball-vs-ball-codes",
+        "https://gamertweak.com/ball-vs-ball-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "UPD2",
+      "reward": "100 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/ball-vs-ball-codes/",
+        "https://www.pcgamesn.com/roblox/ball-vs-ball-codes",
+        "https://gamertweak.com/ball-vs-ball-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    },
+    {
+      "code": "UPD1",
+      "reward": "100 Coins",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:35:26.812Z",
+      "lastSeen": "2026-09-29T18:35:26.812Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/ball-vs-ball-codes/",
+        "https://www.pcgamesn.com/roblox/ball-vs-ball-codes",
+        "https://gamertweak.com/ball-vs-ball-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:35:26.812Z"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 26174,
+    "visits": 49860335,
+    "favorites": 91250,
+    "updated": "2026-09-28T16:06:20.7208309Z",
+    "created": "2026-08-12T02:57:56.96Z"
+  },
+  "added": "2026-09-29T18:35:31.549Z",
+  "lastChecked": "2026-09-29T18:35:31.549Z",
+  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "faq": [
+    {
+      "q": "Where is the codes button in Ball VS Ball?",
+      "a": "It is hidden inside the present icon in the top left corner. Click the present, then choose Codes from the list to open the text box."
+    },
+    {
+      "q": "What should I spend Ball VS Ball code coins on?",
+      "a": "Use them on the coin gacha or the shop to unlock new balls. Each ball plays differently, so having more of them gives you better options when you reroll in a match."
+    },
+    {
+      "q": "When will the next Ball VS Ball code come out?",
+      "a": "Every code so far has been tied to an update, from UPD1 to UPD5. New ones tend to arrive with the next update, so check the Discord announcements channel when the game gets new content."
+    }
+  ],
+  "aliases": [
+    "bvb",
+    "ball vs ball roblox"
+  ],
+  "codeChannels": "The official Ball VS Ball Discord server (announcements channel, which you may need to turn on under Channels and Roles)"
+}
