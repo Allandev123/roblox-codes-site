@@ -56,6 +56,18 @@
     {
       "q": "Do you need anything before redeeming Beatball codes?",
       "a": "Finish the tutorial first. The Codes button in the lobby doesn't accept codes until you have played through it."
+    },
+    {
+      "q": "Do Beatball codes help you win matches?",
+      "a": "No. Codes only give cosmetics like goal sounds, ball trails, banners and discs, and some add cash for buying skins. None of them change how the ball plays."
+    },
+    {
+      "q": "What do LIKETHEGAME and FUNNYBUBBLE give in Beatball?",
+      "a": "LIKETHEGAME unlocks the Melodia de Verão goal sound, and FUNNYBUBBLE gives a comic-themed cosmetic. Both codes are listed in the CODES section of the game's Roblox description."
+    },
+    {
+      "q": "Where does Beatball post new codes?",
+      "a": "In the CODES section of the Beatball description on Roblox and on the Lucentum Games Discord. New codes tend to arrive with new seasons, and the game's description currently announces Season 4."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

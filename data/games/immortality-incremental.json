@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:44.702Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Where do I enter codes in Immortality Incremental?",
+      "a": "Click the Shop button on the left side of the screen and scroll down to the Codes section. Type the code into the Input Code Here! box and click Use."
+    },
+    {
+      "q": "Where does the Immortality Incremental developer post codes?",
+      "a": "The game description tells players to join the community server to redeem secret codes. Some codes, like RELEASE, are also listed in the description itself. New codes usually arrive with world updates and visit milestones."
+    },
+    {
+      "q": "What do Immortality Incremental codes usually give?",
+      "a": "Codes usually give potions (such as Path, Mark, Weather and Ore potions), Tickets and Jade. These speed up breakthroughs and let you get further before each reset."
+    }
+  ]
 }

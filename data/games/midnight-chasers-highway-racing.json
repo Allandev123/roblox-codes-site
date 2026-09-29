@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:42.003Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "When is the next Midnight Chasers code coming out?",
+      "a": "The game description says the next code arrives at 1 million likes. New codes usually come at like milestones and are named after the count, like ThanksFor980k."
+    },
+    {
+      "q": "Where is the code box in Midnight Chasers?",
+      "a": "Click the yellow Store button in the bottom-left corner, just under the Spawn button, then open the Codes tab at the top of the Store window."
+    },
+    {
+      "q": "Is there a way to earn more cash on top of codes?",
+      "a": "Yes. Joining the game's Roblox group, Midnight In-dev, gives a 25% cash boost, and the VIP gamepass gives a 50% cash boost."
+    }
+  ]
 }

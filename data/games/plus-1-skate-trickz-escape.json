@@ -52,5 +52,19 @@
   "added": "2026-09-29T16:13:52.325Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What are Race Points in +1 Skate Trickz Escape?",
+      "a": "Race Points are the reward currency for the racing mode added in Update 2. The 1MPLAYS code gives 250 Race Points, while the other active code, 2500CCU, gives 2,500 Wins."
+    },
+    {
+      "q": "Where does the +1 Skate Trickz Escape developer post new codes?",
+      "a": "Codes are listed in the game's Roblox description and shared in the +1 Skateboard Trickz group and Discord server. The current codes are tied to milestones: 1MPLAYS for 1 million plays and 2500CCU for 2,500 concurrent players."
+    },
+    {
+      "q": "Do I need to like the game or join the group to get rewards?",
+      "a": "The description asks players to like the game and join the +1 Skateboard Trickz group for big rewards. It does not say either one is required to redeem codes."
+    }
+  ]
 }

@@ -66,6 +66,18 @@
     {
       "q": "Do you need anything before redeeming Dog Race codes?",
       "a": "Finish the tutorial first; until then its Race for Wins banner can cover the code box. Enter codes exactly as shown, since they can be case-sensitive."
+    },
+    {
+      "q": "What do the potions from Dog Race codes do?",
+      "a": "Each code gives one potion, not currency. Double Win potions boost the wins you earn from races, Double Power potions speed up training, and Golden potions raise your chance of golden rewards."
+    },
+    {
+      "q": "Where does the Dog Race developer post new codes?",
+      "a": "Zoo Race Club posts new codes in the game's Roblox description and in a codes channel on its Discord. The description also tells players to like the game to get free codes."
+    },
+    {
+      "q": "Does joining the Dog Race group give rewards?",
+      "a": "The game description says joining the group gives special rewards, but it does not say what they are."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

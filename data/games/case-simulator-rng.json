@@ -46,6 +46,18 @@
     {
       "q": "Do you need anything before redeeming Case Simulator RNG codes?",
       "a": "Your account has to reach Level 10 before the code box accepts anything, so open some cases first."
+    },
+    {
+      "q": "When is the next Case Simulator RNG code coming?",
+      "a": "The game description says a new code will be released when the game reaches 140k likes. The current code, 120KLIKES, is named after the 120k likes milestone."
+    },
+    {
+      "q": "What do Case Simulator RNG codes usually give?",
+      "a": "Mostly trait rerolls (usually 15 to 25) and timed luck boosts, such as +25% or 2x Luck for 20 minutes. The luck boosts raise your chances at rare skin drops. The current code, 120KLIKES, gives trait rolls."
+    },
+    {
+      "q": "How do I get the Group Case in Case Simulator RNG?",
+      "a": "The game description says to like the game and join the Roblox group linked there to unlock the Group Case. It does not come from a code."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

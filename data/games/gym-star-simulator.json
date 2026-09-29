@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:35.455Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Where is the code box in Gym Star Simulator?",
+      "a": "It is inside the Shop. Click the Shop button on the left side of the screen, select the Code tab at the top of the Shop menu, then type the code and press Redeem."
+    },
+    {
+      "q": "What are Enchant Crystals used for in Gym Star Simulator?",
+      "a": "Enchant Crystals are used to upgrade belts and other gear. They are one of the common code rewards, alongside Gym Tokens, wheel spins and consumables like protein bars and energy drinks."
+    },
+    {
+      "q": "Where does the Gym Star Simulator developer post new codes?",
+      "a": "Gym Simulator Club shares codes in the game description on Roblox and in their Discord. The current code, SPACEFORCE, is listed in the description alongside the Space Force season update, and new codes tend to arrive with seasons, holidays and visit milestones."
+    }
+  ]
 }

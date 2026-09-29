@@ -62,5 +62,19 @@
   "added": "2026-09-29T16:14:03.031Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What is Tix used for in Retro Tower Defense?",
+      "a": "Tix is the game's main currency. You earn it by winning rounds and spend it on new towers. Most codes give Tix, and some older codes also gave a one-hour Tix boost that increases how much you earn."
+    },
+    {
+      "q": "Where does Plaything Games post new Retro Tower Defense codes?",
+      "a": "The game's Roblox description lists current codes. Right now it names RETRO, FREETIX and NEW. New codes usually arrive with updates, events and holidays, and the developers announce them on their Discord."
+    },
+    {
+      "q": "Can Retro Tower Defense codes give rewards other than Tix?",
+      "a": "Yes. Some past codes have been reported to give tower skins, revives, XP, 3x luck summons or trait rerolls. Reported skin codes include 1stBirthday for a Birthday 1x1x1x1 skin and MOSSY for a Mossy skin."
+    }
+  ]
 }

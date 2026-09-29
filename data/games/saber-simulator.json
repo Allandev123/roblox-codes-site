@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:14:11.984Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Where do I enter codes in Saber Simulator?",
+      "a": "After your character loads, click the blue Twitter/X bird button on the right side of the screen, just below Settings. Type the code into the Enter Codes Here box and press Redeem."
+    },
+    {
+      "q": "What are Shiny, Rainbow and Void Charms for in Saber Simulator?",
+      "a": "Charms are used to power up your pets. Most Saber Simulator codes reward them, and the FALL26 code gives 35 Shiny, Rainbow and Void Charms."
+    },
+    {
+      "q": "Where does HD Games post new Saber Simulator codes?",
+      "a": "New codes are listed in the change log in the game's Roblox description, with more detail in the #change-logs channel of the HD Games community. Joining the HD Games. Roblox group also gives a separate in-game reward: 20% extra Coins, a Chat Tag and a Name Tag."
+    }
+  ]
 }

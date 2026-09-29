@@ -106,6 +106,18 @@
     {
       "q": "Do you need anything before redeeming Roll a Fisherman codes?",
       "a": "Finish the short tutorial first. The code box in the Shop only works after it."
+    },
+    {
+      "q": "Is the Roll a Fisherman code SEAL or SEALS?",
+      "a": "The game's Roblox description lists it as SEAL, worth 3 spins. The game's title shows [SEALS] and some sites list the code as SEALS, so if SEAL doesn't work, try SEALS."
+    },
+    {
+      "q": "What are cash, gold and spins in Roll a Fisherman?",
+      "a": "Cash comes from the fish your fishermen catch, and you spend it on upgrades and more rolls. Gold is the game's second currency. Spins are extra rolls for fishermen, which makes them the most useful code reward early on, since they give you more chances at better fishermen."
+    },
+    {
+      "q": "Where does the Roll a Fisherman developer post new codes?",
+      "a": "FISH X SPEEDI lists codes on the game's Roblox page and in their Discord. New codes have tended to arrive with each numbered update, like UPDATE1 and UPDATE2."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

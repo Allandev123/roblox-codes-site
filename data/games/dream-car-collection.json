@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:28.540Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What does the LARP code give in Dream Car Collection, and when should I use it?",
+      "a": "LARP gives 3 Crate Luck Potions. Use them right before you open a run of expensive crates so the luck boost counts the most."
+    },
+    {
+      "q": "I can't find the codes button in Dream Car Collection. Where is it?",
+      "a": "Once your lot has loaded, look for the small purple codes button in the bottom-right corner of the screen. If it isn't there, open the Store and scroll down to the codes field at the bottom."
+    },
+    {
+      "q": "Where does the Dream Car Collection developer post new codes?",
+      "a": "New codes are posted in the codes channel of the game's Discord and in the game's Roblox description. The LARP code, for example, appears in the description."
+    }
+  ]
 }

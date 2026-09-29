@@ -46,6 +46,14 @@
     {
       "q": "Do you need anything before redeeming Blue Lock Farm codes?",
       "a": "No. You don't have to join the group; the code box in the Shop works for everyone."
+    },
+    {
+      "q": "What are Grade Tokens and Trait Tokens used for in Blue Lock Farm?",
+      "a": "They let you reroll your characters for better grades and traits without spending Robux. Blue Lock Farm codes typically give these tokens, sometimes with Variant or Jackpot tokens and potions."
+    },
+    {
+      "q": "Where does Blue Lock Farm post new codes?",
+      "a": "The game description tells players to join the community for more exclusive codes, and the developers post new codes in their Discord server. New codes tend to arrive with updates, such as the weather and traits patches."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

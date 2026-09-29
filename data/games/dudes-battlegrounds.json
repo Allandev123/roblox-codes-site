@@ -72,5 +72,15 @@
   "added": "2026-09-29T16:13:54.726Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What are Vialites used for in Dudes Battlegrounds?",
+      "a": "Vialites are the premium currency in Dudes Battlegrounds, spent on characters and cosmetics. Codes usually give 500 to 1,000 Vialites. Other codes give update Tokens or Fortune Wheel spins instead."
+    },
+    {
+      "q": "How are new Dudes Battlegrounds codes named?",
+      "a": "Fantastic! Games usually releases one code per numbered update, named after the update number. For example, UPD72 gives 72 Tokens. Extra codes come out when the game hits like, favorite and group-member milestones, such as 190KLIKES, 2MFAVS and 2MGROUP. Current codes are also listed on the CODES line of the Roblox game description."
+    }
+  ]
 }

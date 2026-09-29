@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:15.443Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "When is the next big Squid Game X code coming out?",
+      "a": "The game's description says the next big code will drop when Squid Game X reaches 1.4M likes."
+    },
+    {
+      "q": "What do I get for joining the redifi Roblox group?",
+      "a": "The developers say group members get bonus daily rewards and codes, plus a FAN tag in the game."
+    },
+    {
+      "q": "What are Coins from Squid Game X codes used for?",
+      "a": "Coins can be spent on boosts, such as sprint or damage upgrades, that improve your odds in the harder games."
+    }
+  ]
 }

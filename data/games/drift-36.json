@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:58.046Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Where is the codes menu in Drift 36?",
+      "a": "Once you spawn into the city, tap the small arrow button in the top-left corner next to the chat icon and pick Codes from the menu that drops down. Type the code into the Enter Code box and press Redeem Code."
+    },
+    {
+      "q": "What do Drift 36 codes give you?",
+      "a": "Drift 36 codes give in-game cash. Past codes paid between $15,000 and $50,000 each, and the current code 75MVISIT gives $40,000. You can spend the cash on more than 80 cars and over 30 modifications."
+    },
+    {
+      "q": "When does AutoBlox Games release new Drift 36 codes?",
+      "a": "New codes tend to come out when the game reaches visit, like or group-member milestones, as with 75MVISIT, 120KLIKES and 1MGROUPMEMBER. AutoBlox posts them in the game description on Roblox and on its Discord."
+    }
+  ]
 }

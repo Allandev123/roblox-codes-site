@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:30.684Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Where do the Anime Fighting Simulator developers post new codes?",
+      "a": "New codes are posted in the developers' Discord and on the game's Roblox page. They usually come out with updates, member milestones, or as compensation after downtime."
+    },
+    {
+      "q": "What do Anime Fighting Simulator codes usually give?",
+      "a": "Codes usually give large bundles of Chikara and Tensei Shards, along with stat, yen and training boosts, trait rerolls, and event tokens such as Clover Tokens. These rewards shorten the long stat grind and help pay for rerolls."
+    },
+    {
+      "q": "Is there a code in the Anime Fighting Simulator game description?",
+      "a": "Yes. The game's Roblox description tells players to use CLOVERPASS. It gives 1k Clover Tokens, 1k Tensei Shards and 2.5k Chikara Shards."
+    }
+  ]
 }

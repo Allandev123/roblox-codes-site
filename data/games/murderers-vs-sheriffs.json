@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:12.153Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What does the 1BVISITS code give in Murderers VS Sheriffs?",
+      "a": "1BVISITS gives you the 1B Knife, a free knife skin. The developers added it to celebrate the game passing one billion visits."
+    },
+    {
+      "q": "Where do the Murderers VS Sheriffs developers post new codes?",
+      "a": "The developers post new codes in the codes channel of their Discord server, usually around visit milestones and updates. The current code is also listed in the game's Roblox description."
+    },
+    {
+      "q": "What do code rewards and coins get you in Murderers VS Sheriffs?",
+      "a": "Codes usually give knife or gun skins, or coins. Coins buy cosmetic knife and gun skins, so these rewards change how your weapons look, not how they perform."
+    }
+  ]
 }

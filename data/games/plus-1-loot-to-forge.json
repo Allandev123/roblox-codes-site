@@ -46,6 +46,18 @@
     {
       "q": "Do you need anything before redeeming +1 Loot To Forge codes?",
       "a": "Finish the tutorial first. The Shop and its code box unlock after it."
+    },
+    {
+      "q": "How does +1 Loot To Forge usually release new codes?",
+      "a": "New codes have been tied to concurrent player milestones such as 20,000, 30,000 and 50,000 players online, and are named after them, like 50000CCU. The developer posts them on the game page and in the Discord server."
+    },
+    {
+      "q": "What are Ember Stones, race rerolls and Power Potions good for?",
+      "a": "They speed up forging and let you chase a stronger race without grinding. Your race gives bonus stats, so a reroll can land you better damage modifiers."
+    },
+    {
+      "q": "Where is the code box in +1 Loot To Forge?",
+      "a": "Open the Shop with the trolley icon on the left side of the screen, then scroll to the very bottom of the Shop window."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

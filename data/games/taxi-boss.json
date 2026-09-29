@@ -52,5 +52,19 @@
   "added": "2026-09-29T16:13:23.503Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "When will the next Taxi Boss code be released?",
+      "a": "The game description says the next code will drop when Taxi Boss reaches 800K likes. The current like-milestone code, THX600K, was released to celebrate 600K likes."
+    },
+    {
+      "q": "Where do I enter codes in Taxi Boss?",
+      "a": "Click the shopping cart Shop button in the bottom-left corner, then click the Enter Code box. Type the code with the exact capitalization and press the gray Enter button."
+    },
+    {
+      "q": "What can I spend Taxi Boss code cash on?",
+      "a": "Cash buys new cars, performance parts and visual mods such as wheels, spoilers, lights and paint. Customers pay more the quicker you get them to their destination, so faster cars earn bigger fares."
+    }
+  ]
 }

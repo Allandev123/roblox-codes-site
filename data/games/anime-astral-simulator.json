@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:17.066Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What are F2P Tickets used for in Anime Astral Simulator?",
+      "a": "F2P Tickets give you extra rolls to try for rarer or secret fighters. Most codes give F2P Tickets along with potions."
+    },
+    {
+      "q": "What kinds of potions do Anime Astral Simulator codes give?",
+      "a": "Codes usually give damage, luck, power, XP and yen potions. Some also include a tower cooldown reset."
+    },
+    {
+      "q": "Where does the Astral Team post new Anime Astral Simulator codes?",
+      "a": "The developers, StarX Inc (credited in game as the Astral Team), share new codes in their Discord server. New batches come with each numbered update and when the game reaches visit, like, favourite or player-count milestones."
+    }
+  ]
 }

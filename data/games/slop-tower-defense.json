@@ -46,6 +46,18 @@
     {
       "q": "Do you need anything before redeeming Slop Tower Defense! codes?",
       "a": "Yes: you need at least 10 wins before the game accepts any code. Play a few matches first, then redeem."
+    },
+    {
+      "q": "Where does Slop Tower Defense! post new codes?",
+      "a": "The game's description sends players to its community server, the Slop TD! Discord, for codes, leaks and news. New codes usually come with visit, player-count and community server milestones, and with updates or data wipes."
+    },
+    {
+      "q": "Do spaces matter when typing a Slop Tower Defense! code?",
+      "a": "Yes. Some reported codes, such as DATA WIPE 3, contain spaces. Type or paste each code exactly as written, spaces included, then press Redeem in the Settings menu."
+    },
+    {
+      "q": "What are the Gems, Cash and Stars from codes used for?",
+      "a": "Cash, Gems and event currencies like Stars pay for more summons and stronger crafts, which build a better unit lineup. Some codes give you a specific unit directly instead."
     }
   ],
   "published": "2026-09-29T16:27:49.271Z"

@@ -42,5 +42,19 @@
   "added": "2026-09-29T16:13:37.053Z",
   "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
-  "published": "2026-09-29T16:27:49.271Z"
+  "published": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "What does the AA2026 code give in +1 DMG FPS?",
+      "a": "AA2026 gives one random Buddy, a companion that supports your build. The developer posts it in the game's Roblox description as an exclusive gift."
+    },
+    {
+      "q": "Where do I enter codes in +1 DMG FPS?",
+      "a": "Click the Rewards button in the menu on the left side of the screen, then pick the Code option with the 123 icon. Type the code into the Enter code box and press Enter."
+    },
+    {
+      "q": "Where does the +1 DMG FPS developer post new codes?",
+      "a": "Mappy Tappy announces codes in its Discord and Roblox group, often around updates and player count milestones. Codes can also show up in the game's Roblox description, which is where AA2026 was posted."
+    }
+  ]
 }
