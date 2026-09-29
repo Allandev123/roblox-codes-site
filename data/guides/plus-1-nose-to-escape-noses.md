@@ -6,9 +6,10 @@ description: Every nose in +1 Nose to Escape, from Wooden to Rainbow: how many W
 summary: Every nose from Wooden to Rainbow with its Wins cost and Nose per second, plus all 7 Blooms and what they multiply.
 published: 2026-09-29
 updated: 2026-09-29
+series: +1 Nose to Escape
 order: 12
-image: plus-1-nose-to-escape.webp
-imageAlt: A stretched rainbow nose with leafy twigs in +1 Nose to Escape
+image: nose-shop.webp
+imageAlt: The Nose Shop in +1 Nose to Escape with a row of nose pads
 ---
 In [+1 Nose to Escape](/guides/plus-1-nose-to-escape/) there are two things you buy with Wins to train faster: **noses** and **Blooms**. This page lists all of them, using the numbers from the game's settings. I made the game, so these are the real values, not estimates.
 
@@ -43,6 +44,8 @@ Each nose sets how much Nose you get per second of training. Rebirths, Blooms, b
 | Void | 1,200,000 | +180 |
 | Rainbow | 4,000,000 | +200 |
 
+![Wearing a new nose in front of the Nose Shop. Every nose has its own pad with its name and price.](nose-shop-wearing.webp)
+
 The **Cosmic** nose (+250) isn't on this list because it isn't bought with Wins. It's a Robux gamepass on its own podium at the end of the shop. You don't need it to finish the game.
 
 The later noses also look different. Ruby, Emerald and Void glow, Crystal, Lightning, Golden and Galaxy sparkle, Lava and Fire burn, and Rainbow cycles through every colour.
@@ -50,6 +53,8 @@ The later noses also look different. Ruby, Emerald and Void glow, Crystal, Light
 ## Which nose to buy next
 
 Buy the next nose as soon as you can afford it. The first few cost almost nothing next to what you earn on the stages, and Carrot doubles your Nose for just 1 Win. Later, the price goes up faster than the gain, so it's worth mixing in Blooms.
+
+![The Cosmic nose sits on its own podium at the end of the shop.](nose-cosmic.webp)
 
 ## Blooms
 

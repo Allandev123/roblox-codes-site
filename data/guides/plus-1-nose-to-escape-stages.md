@@ -6,9 +6,10 @@ description: Every stage in +1 Nose to Escape: the Level you need, the Wins on e
 summary: The Level you need for each of the 11 stages, the Wins on every win pad, and where the secret chests are.
 published: 2026-09-29
 updated: 2026-09-29
+series: +1 Nose to Escape
 order: 13
-image: plus-1-nose-to-escape.webp
-imageAlt: Stone platforms over a lava lake in +1 Nose to Escape
+image: nose-stages.webp
+imageAlt: A row of stone platforms over lava in +1 Nose to Escape
 ---
 [+1 Nose to Escape](/guides/plus-1-nose-to-escape/) has 11 stages in its first world. Each one is a row of stone platforms over lava, and you cross it by stretching your nose from platform to platform. These are the real numbers from the game's settings (I'm the one making it).
 
@@ -41,11 +42,15 @@ Your nose reaches **36 studs at Level 1** and grows **7 studs every Level**. Eac
 | 10 | 76 | 11,000 | Narrow sliding platforms, secret chest |
 | 11 | 96 | 35,000 | The narrowest platforms, everything moves |
 
+![The gate to Stage 3. Every stage sign shows its recommended Level.](nose-stage-gate.webp)
+
 The pad Wins above are before any boosts. Your Wins multiplier, a 2x Wins boost and the VIP pad all make them bigger.
 
 ## Stage tips
 
 **Stages 1 to 2.** These are for learning to aim. Point your camera at the top of the next platform before you hold.
+
+![Crossing a gap on Stage 3, with a balloon floating in the gap for bonus Wins.](nose-ride-balloons.webp)
 
 **Stage 3.** From here on the platforms don't line up, so turn your camera toward each one before you stretch. Stretch through the speed rings: each one gives a short speed boost and bonus Wins.
 
@@ -64,6 +69,8 @@ The pad Wins above are before any boosts. Your Wins multiplier, a 2x Wins boost 
 ## Secret chests
 
 Stages **6, 8 and 10** each hide a cave behind their lavafall. Walk through the fall at the right spot and you'll find a chest worth **5 times that stage's pad Wins**. Each chest opens for you once every 12 hours.
+
+![Stepping on a win pad: the Wins fly up into the counter at the top of the screen.](nose-wins.webp)
 
 ## If you fall in the lava
 

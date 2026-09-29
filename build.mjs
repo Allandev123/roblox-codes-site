@@ -13,7 +13,7 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody } from './templates/pages.mjs';
+import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
@@ -165,28 +165,38 @@ async function og(key, opts, rel) {
 
 // ---------------------------------------------------------------- guides (loaded before game pages, which link to them)
 
-const GUIDES_DIR = path.join(ROOT, 'data', 'guides');
+// Articles: code guides in data/guides (/guides/...) and dev-blog posts in
+// data/blog (/blog/...). Same Markdown format; pictures live in data/images/guides.
 const GUIDE_IMAGES = path.join(IMAGES_DIR, 'guides');
 if (fs.existsSync(GUIDE_IMAGES)) for (const f of fs.readdirSync(GUIDE_IMAGES)) copy(path.join(GUIDE_IMAGES, f), `img/guides/${f}`);
-const guides = (fs.existsSync(GUIDES_DIR) ? fs.readdirSync(GUIDES_DIR) : [])
-  .filter(f => f.endsWith('.md'))
-  .map(f => {
-    const { meta, body } = parseFrontMatter(fs.readFileSync(path.join(GUIDES_DIR, f), 'utf8'));
-    const r = renderMarkdown(body);
-    const slug = f.replace(/\.md$/, '');
-    const list = k => (meta[k] ?? '').split(',').map(s => s.trim()).filter(Boolean);
-    return {
-      slug, path: `/guides/${slug}/`, ...meta,
-      updated: meta.updated ?? meta.published, published: meta.published,
-      games: list('games'), order: Number(meta.order ?? 99),
-      onGamePages: meta.onGamePages === 'true', draft: meta.draft === 'true',
-      html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
-    };
-  })
-  .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
-  .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+const thumbOf = new Map(views.map(v => [v.g.slug, v.thumb]));
+function loadArticles(section) {
+  const dir = path.join(ROOT, 'data', section);
+  return (fs.existsSync(dir) ? fs.readdirSync(dir) : [])
+    .filter(f => f.endsWith('.md'))
+    .map(f => {
+      const { meta, body } = parseFrontMatter(fs.readFileSync(path.join(dir, f), 'utf8'));
+      const r = renderMarkdown(body);
+      const slug = f.replace(/\.md$/, '');
+      const list = k => (meta[k] ?? '').split(',').map(s => s.trim()).filter(Boolean);
+      const games = list('games');
+      return {
+        slug, section, path: `/${section}/${slug}/`, ...meta,
+        updated: meta.updated ?? meta.published, published: meta.published,
+        games, order: Number(meta.order ?? 99),
+        // card picture: the article's own image, else the first game's thumbnail
+        cover: meta.image ? `/img/guides/${meta.image}` : thumbOf.get(meta.cover ?? games[0]) ?? null,
+        onGamePages: meta.onGamePages === 'true', draft: meta.draft === 'true',
+        html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
+      };
+    })
+    .filter(gd => !gd.draft && gd.title && gd.description && gd.published);
+}
+const guides = loadArticles('guides').sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+const posts = loadArticles('blog').sort((a, b) => b.published.localeCompare(a.published) || a.order - b.order);
 const gameGuides = guides.filter(gd => gd.onGamePages).slice(0, 3);
 site.hasGuides = guides.length > 0;
+site.hasBlog = posts.length > 0;
 
 const lastCheck = all.reduce((m, g) => (g.lastChecked > m ? g.lastChecked : m), '');
 const totalCodes = views.reduce((n, v) => n + v.live.length, 0);
@@ -251,49 +261,64 @@ write('index.html', layout({
   }],
   ads: true,
   nav: 'games',
-  body: homeBody({ site, views, guides, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
+  body: homeBody({ site, views, guides, posts, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
 }));
 pages.unshift({ path: '/', lastmod: homeLastmod });
 
-// ---------------------------------------------------------------- guide pages
+// ---------------------------------------------------------------- guide and blog pages
 
 const byslug = new Map(views.map(v => [v.g.slug, v]));
-for (const gd of guides) {
-  const url = site.url + gd.path;
-  await og(`guide-${gd.slug}`, { background: gd.image ? path.join(GUIDE_IMAGES, gd.image) : null, title: gd.short ?? gd.title, kicker: 'GUIDE', sub: `By ${AUTHOR.name} · ${gd.minutes} min read` }, `og/guide-${gd.slug}.jpg`);
-  write(`guides/${gd.slug}/index.html`, layout({
-    site, assets, path: gd.path,
-    title: gd.seoTitle ?? gd.title, description: gd.description,
-    ogImage: `${site.url}/og/guide-${gd.slug}.jpg`, ogType: 'article',
-    jsonld: [
-      {
-        '@context': 'https://schema.org', '@type': 'Article',
-        headline: gd.title, description: gd.description,
-        image: [`${site.url}/og/guide-${gd.slug}.jpg`],
-        datePublished: gd.published, dateModified: gd.updated,
-        author: PERSON, publisher: ORG,
-        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-      },
-      {
-        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: site.url + '/' },
-          { '@type': 'ListItem', position: 2, name: 'Guides', item: site.url + '/guides/' },
-          { '@type': 'ListItem', position: 3, name: gd.short ?? gd.title, item: url },
-        ],
-      },
-    ],
-    ads: true,
-    nav: 'guides',
-    body: guideBody({ site, gd, games: gd.games.map(s => byslug.get(s)).filter(Boolean).slice(0, 6), more: guides.filter(o => o !== gd).slice(0, 3) }),
-  }));
-  pages.push({ path: gd.path, lastmod: new Date(gd.updated).toISOString() });
+const SECTIONS = {
+  guides: { name: 'Guides', kicker: 'GUIDE', list: guides },
+  blog: { name: 'Blog', kicker: 'DEVLOG', list: posts },
+};
+for (const [key, sec] of Object.entries(SECTIONS)) {
+  for (const gd of sec.list) {
+    const url = site.url + gd.path;
+    const cover = gd.image ? path.join(GUIDE_IMAGES, gd.image) : gd.cover ? path.join(IMAGES_DIR, gd.cover.replace(/^\/img\//, '')) : null;
+    await og(`${key === 'blog' ? 'blog' : 'guide'}-${gd.slug}`, { background: cover, title: gd.short ?? gd.title, kicker: sec.kicker, sub: `By ${AUTHOR.name} · ${gd.minutes} min read` }, `og/${key === 'blog' ? 'blog' : 'guide'}-${gd.slug}.jpg`);
+    const ogUrl = `${site.url}/og/${key === 'blog' ? 'blog' : 'guide'}-${gd.slug}.jpg`;
+    const related = sec.list.filter(o => o !== gd);
+    write(`${key}/${gd.slug}/index.html`, layout({
+      site, assets, path: gd.path,
+      title: gd.seoTitle ?? gd.title, description: gd.description,
+      ogImage: ogUrl, ogType: 'article',
+      preload: gd.image ? [`/img/guides/${gd.image}`] : [],
+      jsonld: [
+        {
+          '@context': 'https://schema.org', '@type': key === 'blog' ? 'BlogPosting' : 'Article',
+          headline: gd.title, description: gd.description,
+          image: [gd.image ? `${site.url}/img/guides/${gd.image}` : ogUrl],
+          datePublished: gd.published, dateModified: gd.updated,
+          author: PERSON, publisher: ORG,
+          mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        },
+        {
+          '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: site.url + '/' },
+            { '@type': 'ListItem', position: 2, name: sec.name, item: `${site.url}/${key}/` },
+            { '@type': 'ListItem', position: 3, name: gd.short ?? gd.title, item: url },
+          ],
+        },
+      ],
+      ads: true,
+      nav: key,
+      body: guideBody({
+        site, gd, section: sec.name,
+        games: gd.games.map(s => byslug.get(s)).filter(Boolean).slice(0, 6),
+        // same series first, then the rest
+        more: [...related.filter(o => o.series && o.series === gd.series), ...related.filter(o => !o.series || o.series !== gd.series)].slice(0, 3),
+      }),
+    }));
+    pages.push({ path: gd.path, lastmod: new Date(gd.updated).toISOString() });
+  }
 }
 if (guides.length) {
   write('guides/index.html', layout({
     site, assets, path: '/guides/',
     title: `Roblox Codes Guides - ${site.siteName}`,
-    description: clip(`Guides to Roblox game codes: how to redeem them on every device, why codes fail, where developers post new ones, and how to avoid code scams.`, 155),
+    description: clip(`Guides to Roblox game codes: how to redeem them on every device, why codes fail and how to avoid scams, plus guides to +1 Nose to Escape.`, 155),
     jsonld: [{
       '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox codes guides', url: site.url + '/guides/',
       hasPart: guides.map(gd => ({ '@type': 'Article', headline: gd.title, url: site.url + gd.path })),
@@ -302,6 +327,21 @@ if (guides.length) {
     body: guidesIndexBody({ site, guides }),
   }));
   pages.push({ path: '/guides/', lastmod: new Date(guides.map(g => g.updated).sort().pop()).toISOString() });
+}
+if (posts.length) {
+  write('blog/index.html', layout({
+    site, assets, path: '/blog/',
+    title: `Dev Blog: Making +1 Nose to Escape - ${site.siteName}`,
+    description: clip(`${AUTHOR.name}'s dev blog about making the Roblox game +1 Nose to Escape: what I built, what testing changed, and how the thumbnail and trailer were made.`, 155),
+    jsonld: [{
+      '@context': 'https://schema.org', '@type': 'Blog', name: `${site.siteName} dev blog`, url: site.url + '/blog/',
+      author: PERSON,
+      blogPost: posts.map(p => ({ '@type': 'BlogPosting', headline: p.title, url: site.url + p.path, datePublished: p.published })),
+    }],
+    nav: 'blog',
+    body: blogIndexBody({ site, posts }),
+  }));
+  pages.push({ path: '/blog/', lastmod: new Date(posts.map(g => g.updated).sort().pop()).toISOString() });
 }
 
 // ---------------------------------------------------------------- static pages

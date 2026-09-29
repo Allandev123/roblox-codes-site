@@ -6,9 +6,10 @@ description: How rebirths work in +1 Nose to Escape: the Level each rebirth need
 summary: The Level each rebirth needs, the multiplier it gives, what you keep and lose, and which treadmills rebirths unlock.
 published: 2026-09-29
 updated: 2026-09-29
+series: +1 Nose to Escape
 order: 14
-image: plus-1-nose-to-escape.webp
-imageAlt: A player zipping along a rainbow nose in +1 Nose to Escape
+image: nose-treadmills.webp
+imageAlt: The treadmill row in +1 Nose to Escape with flowers on each one
 ---
 Rebirths are how you keep getting stronger in [+1 Nose to Escape](/guides/plus-1-nose-to-escape/) after the first few stages. I made the game, so the numbers below come from its settings.
 
@@ -51,6 +52,8 @@ The short answer: **as soon as you can.** The Level cap stops you anyway, and yo
 ## Treadmills unlocked by rebirths
 
 The better treadmills in the lobby open up as you rebirth:
+
+![Training on a treadmill with a high rebirth multiplier. Your reach, total Nose and rebirth bonus are shown above the Level bar.](nose-training.webp)
 
 | Treadmill | Nose multiplier | Unlocks at |
 |---|---|---|

@@ -6,6 +6,7 @@ description: Game codes go in the code box inside each game. Promo codes and gif
 summary: Which box each kind of Roblox code goes in, with steps for phone, tablet, PC and console.
 published: 2026-09-29
 updated: 2026-09-29
+cover: blox-fruits
 order: 4
 games: taxi-boss, dog-race
 onGamePages: true

@@ -27,6 +27,14 @@
   sync();
   mq.addEventListener?.('change', sync);
 
+  // ---------------------------------------------------------------- phone menu
+  const menuBtn = $('.menu-toggle');
+  const links = $('#nav-links');
+  const setMenu = open => { menuBtn.setAttribute('aria-expanded', String(open)); links.classList.toggle('open', open); };
+  menuBtn?.addEventListener('click', () => setMenu(menuBtn.getAttribute('aria-expanded') !== 'true'));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && links?.classList.contains('open')) { setMenu(false); menuBtn.focus(); } });
+  document.addEventListener('click', e => { if (links?.classList.contains('open') && !e.target.closest('.nav')) setMenu(false); });
+
   // ---------------------------------------------------------------- times
   // "2 hours ago" from <time datetime>; the HTML holds an absolute date
   const UNITS = [['year', 31536e6, 'yr'], ['month', 2592e6, 'mo'], ['week', 6048e5, 'wk'], ['day', 864e5, 'day'], ['hour', 36e5, 'hr'], ['minute', 6e4, 'min']];

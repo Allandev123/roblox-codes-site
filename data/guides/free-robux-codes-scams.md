@@ -6,6 +6,7 @@ description: No code gives free Robux. How generator, fake giveaway and fake adm
 summary: No code gives free Robux. How the common scams work, the red flags, and what to do if you typed your password.
 published: 2026-09-29
 updated: 2026-09-29
+cover: 99-nights-in-the-forest
 order: 3
 games: taxi-boss, tower-defense-simulator, bubble-gum-simulator, retro-tower-defense, beatball, plus-1-power-per-click
 onGamePages: true

@@ -76,11 +76,15 @@ ${ads ? adsense(site.adsense?.client) : ''}
   <div class="wrap">
     <a class="brand" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
     <nav class="nav" aria-label="Main">
-      <a href="/#games" class="opt"${cur('games')}>Games</a>
-      ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
-      <a href="/about/" class="opt"${cur('about')}>About</a>
-      <a href="/contact/"${cur('contact')}>Contact</a>
+      <div class="nav-links" id="nav-links">
+        <a href="/#games"${cur('games')}>Games</a>
+        ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
+        ${site.hasBlog ? `<a href="/blog/"${cur('blog')}>Blog</a>` : ''}
+        <a href="/about/"${cur('about')}>About</a>
+        <a href="/contact/"${cur('contact')}>Contact</a>
+      </div>
       <button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false">${ICONS.moon}${ICONS.sun}</button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="bars" aria-hidden="true"></span>Menu</button>
     </nav>
   </div>
 </header>
@@ -95,6 +99,7 @@ ${body}
     <nav aria-label="Footer">
       <a href="/#games">All games</a>
       ${site.hasGuides ? '<a href="/guides/">Guides</a>' : ''}
+      ${site.hasBlog ? '<a href="/blog/">Dev blog</a>' : ''}
       <a href="/how-we-check-codes/">How I check codes</a>
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>

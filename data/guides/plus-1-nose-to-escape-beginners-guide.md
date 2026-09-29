@@ -6,9 +6,10 @@ description: How to start +1 Nose to Escape: the tutorial, how to aim your nose,
 summary: The tutorial, how to aim and zip your nose, your first Wins and noses, and the mistakes that drop new players in the lava.
 published: 2026-09-29
 updated: 2026-09-29
+series: +1 Nose to Escape
 order: 11
-image: plus-1-nose-to-escape.webp
-imageAlt: Riding a stretched rainbow nose over lava in +1 Nose to Escape
+image: nose-lobby.webp
+imageAlt: The +1 Nose to Escape lobby with the Nose Shop, treadmills and the Stage 1 gate
 ---
 I made [+1 Nose to Escape](/guides/plus-1-nose-to-escape/), and I've watched a lot of testers play their first few minutes. This guide covers what the tutorial doesn't say out loud, plus the mistakes I saw the most.
 
@@ -27,6 +28,8 @@ After that, the game still points you to the next thing to do, like a new nose y
 
 The nose always starts growing a little upward and then bends toward where your **camera** is looking, not where your character is facing. That trips up almost everyone at first.
 
+![Stretching toward the next platform. Aim your camera at the top of the platform, not at the lava.](nose-stretch.webp)
+
 - **Point your camera at the top of the next platform** before you hold. Aiming slightly above the edge is better than aiming at it.
 - **Let go when the tip is over the platform.** If the tip hits the floor, you land there. If it hits the side of the platform, you still pull yourself up onto it, so a slightly low aim is fine.
 - **Don't let go over lava.** If you release while the tip is in the air, you drop straight down.
@@ -44,6 +47,8 @@ The [stages guide](/guides/plus-1-nose-to-escape-stages/) lists the recommended 
 - **Better treadmills unlock with rebirths.** The Golden treadmill (2x) opens at 2 rebirths, Diamond (3x) at 4, and Neon (5x) at 7.
 - **Play with friends.** Every friend in your server gives +10% Nose, up to +50%.
 
+![The treadmill row. Each one shows its Nose multiplier and how many rebirths it needs.](nose-treadmills.webp)
+
 ## Spend your Wins on noses first
 
 Every nose in the Nose Shop gives more Nose per second than the one before, and they unlock in order. Early on, a new nose is the best thing you can buy with Wins. Blooms (flowers that grow along your nose) are also good, but they cost more Wins for a smaller jump at the start. The [noses guide](/guides/plus-1-nose-to-escape-noses/) has every cost.
@@ -53,6 +58,8 @@ Every nose in the Nose Shop gives more Nose per second than the one before, and 
 - **Balloons** float over the gaps on Stages 3 to 5. Stretch through one for bonus Wins.
 - **Speed rings** start on Stage 3. Go through one for a short speed boost and bonus Wins.
 - **The teal pad** next to the normal win pad is the VIP pad. It pays 3x Wins but needs the VIP pass. The normal pad is fine.
+
+![The teal VIP pad pays 3x Wins. The normal pad next to it is fine without the pass.](nose-vip-pad.webp)
 
 ## When you hit "MAX"
 

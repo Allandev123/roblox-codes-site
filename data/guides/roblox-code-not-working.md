@@ -6,6 +6,7 @@ description: Why a Roblox game code says invalid, and how to fix it: expired cod
 summary: Why a Roblox code says invalid, from capital letters to old servers, and the quick fix for each reason.
 published: 2026-09-29
 updated: 2026-09-29
+cover: rivals
 order: 2
 games: tower-defense-simulator, slop-tower-defense, blockspin, case-simulator-rng, bubble-gum-simulator, roll-a-fisherman, taxi-boss, midnight-chasers-highway-racing, saber-simulator, anime-astral-simulator, untitled-boxing-game, squid-game-x, retro-tower-defense, beatball, plus-1-loot-to-forge, 2-player-raid-tycoon, plus-1-power-per-click
 onGamePages: true

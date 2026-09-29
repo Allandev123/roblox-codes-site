@@ -44,7 +44,7 @@ function gameTile(v, { lazy = true } = {}) {
 </a></li>`;
 }
 
-export function homeBody({ site, views, guides = [], lastCheck }) {
+export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   const a = site.author;
   const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
   const recent = views.slice(0, 6);
@@ -104,6 +104,13 @@ ${guides.length ? `<section id="guides" class="sec" aria-labelledby="guides-h">
   <div class="sec-head"><h2 id="guides-h">Help with codes</h2><a class="aside" href="/guides/">All guides</a></div>
   <ul class="guide-cards">
 ${guides.slice(0, 4).map(gd => `    <li><a href="${gd.path}"><b>${esc(gd.short ?? gd.title)}</b><span>${esc(gd.summary)}</span></a></li>`).join('\n')}
+  </ul>
+</section>` : ''}
+
+${posts.length ? `<section id="blog" class="sec" aria-labelledby="blog-h">
+  <div class="sec-head"><h2 id="blog-h">From my dev blog</h2><a class="aside" href="/blog/">All posts</a></div>
+  <ul class="cards">
+${posts.slice(0, 3).map(p => articleCard(p, { date: true })).join('\n')}
   </ul>
 </section>` : ''}
 
@@ -293,23 +300,69 @@ ${[...views].sort(byName).map(v => gameRow(v)).join('\n')}
 </ul>`;
 }
 
-// ---------------------------------------------------------------- guides
+// ---------------------------------------------------------------- guides and blog
+
+// A picture card for an article (guide or blog post)
+export function articleCard(gd, { lazy = true, date = false } = {}) {
+  return `<li><a class="card" href="${gd.path}">
+    ${gd.cover ? `<img src="${esc(gd.cover)}" alt="" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    <span class="card-text">
+      ${gd.series ? `<span class="kicker">${esc(gd.series)}</span>` : ''}
+      <h3>${esc(gd.title)}</h3>
+      <span class="card-sum">${esc(gd.summary)}</span>
+      <span class="card-meta">${date ? `${dateLong(gd.published)} · ` : ''}${gd.minutes} min read</span>
+    </span>
+  </a></li>`;
+}
 
 export function guidesIndexBody({ site, guides }) {
+  const groups = new Map();
+  for (const gd of guides) {
+    const k = gd.series ?? 'Getting codes to work';
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(gd);
+  }
+  let n = 0;
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Guides</li></ol></nav>
-<h1>Roblox codes guides</h1>
-<p class="dek">Short, practical guides for getting codes to work: where to type them, why a code gets rejected, and how to avoid the scams that pretend to be codes. By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a>.</p>
-<ul class="ruled guides sec">
-${guides.map(guideRow).join('\n')}
+<header class="index-head">
+<h1>Guides</h1>
+<p class="dek">Practical guides for getting Roblox codes to work, plus guides to +1 Nose to Escape, the game I'm making. By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a>.</p>
+</header>
+${[...groups].map(([name, list]) => `<section class="sec" aria-label="${esc(name)}">
+  <div class="sec-head"><h2>${esc(name)}</h2><span class="aside">${plural(list.length, 'guide')}</span></div>
+  <ul class="cards">
+${list.map(gd => articleCard({ ...gd, series: null }, { lazy: n++ > 2 })).join('\n')}
+  </ul>
+</section>`).join('\n')}`;
+}
+
+export function blogIndexBody({ site, posts }) {
+  const a = site.author;
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Blog</li></ol></nav>
+<header class="index-head">
+<h1>Dev blog</h1>
+<p class="dek">I'm making a Roblox game called +1 Nose to Escape. This is where I write about building it: what I tried, what testing changed, and how the thumbnail and trailer got made.</p>
+</header>
+<div class="run-by sec">
+  <img src="/img/${esc(a.image)}" alt="" width="56" height="56">
+  <p>Written by <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a>, who plays Roblox, makes YouTube videos about it, and is now building a game. For how the game plays, see the <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape guides</a>.</p>
+</div>
+<ul class="cards sec">
+${posts.map((p, i) => articleCard(p, { lazy: i > 2, date: true })).join('\n')}
 </ul>`;
 }
 
-export function guideBody({ site, gd, games, more }) {
+export function guideBody({ site, gd, games, more, section = 'Guides' }) {
   const toc = gd.headings.filter(h => h.level === 2);
-  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/guides/">Guides</a></li><li aria-current="page">${esc(gd.short ?? gd.title)}</li></ol></nav>
+  const base = section === 'Blog' ? '/blog/' : '/guides/';
+  const when = section === 'Blog'
+    ? `${dateLong(gd.published)}${gd.updated !== gd.published ? ` · updated ${dateShort(gd.updated)}` : ''}`
+    : `updated ${dateShort(gd.updated)}`;
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="${base}">${section}</a></li><li aria-current="page">${esc(gd.short ?? gd.title)}</li></ol></nav>
 <article class="prose">
+  ${gd.series ? `<p class="kicker">${esc(gd.series)}</p>` : ''}
   <h1>${esc(gd.title)}</h1>
-  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a> · updated ${dateShort(gd.updated)} · ${gd.minutes} min read</span></p>
+  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a> · ${when} · ${gd.minutes} min read</span></p>
   ${gd.image ? `<figure class="shot lead"><img src="/img/guides/${esc(gd.image)}" alt="${esc(gd.imageAlt ?? '')}" width="1280" height="720" decoding="async" fetchpriority="high"></figure>` : ''}
   ${toc.length >= 4 ? `<nav class="toc" aria-label="On this page"><p>On this page</p><ol>${toc.map(h => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></nav>` : ''}
 ${gd.html}
@@ -322,9 +375,9 @@ ${games.map(v => gameRow(v)).join('\n')}
   </ul>
 </section>` : ''}
 ${more.length ? `<section class="sec" aria-labelledby="more-guides-h">
-  <h2 id="more-guides-h">More guides</h2>
-  <ul class="ruled guides">
-${more.map(guideRow).join('\n')}
+  <h2 id="more-guides-h">${section === 'Blog' ? 'More from the blog' : 'More guides'}</h2>
+  <ul class="cards">
+${more.map(o => articleCard(o, { date: section === 'Blog' })).join('\n')}
   </ul>
 </section>` : ''}`;
 }

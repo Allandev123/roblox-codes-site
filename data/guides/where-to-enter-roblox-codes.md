@@ -6,6 +6,7 @@ description: The code box is inside each game, most often in the Shop, in Settin
 summary: The code box is usually in the Shop, in Settings or behind a Codes button. Here's where it is in 30 Roblox games.
 published: 2026-09-29
 updated: 2026-09-29
+cover: grow-a-garden
 order: 1
 games: 2-player-raid-tycoon, anime-astral-simulator, anime-fighting-simulator, beatball, blockspin, blue-lock-farm, bubble-gum-simulator, case-simulator-rng, dog-race, drag-drive-simulator, dream-car-collection, drift-36, dudes-battlegrounds, gym-star-simulator, immortality-incremental, merge-a-nuke, midnight-chasers-highway-racing, murderers-vs-sheriffs, plus-1-dmg-fps, plus-1-loot-to-forge, plus-1-power-per-click, plus-1-skate-trickz-escape, retro-tower-defense, roll-a-fisherman, saber-simulator, slop-tower-defense, squid-game-x, taxi-boss, tower-defense-simulator, untitled-boxing-game
 onGamePages: false

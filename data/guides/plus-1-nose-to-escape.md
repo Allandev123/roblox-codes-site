@@ -6,6 +6,7 @@ description: +1 Nose to Escape is my upcoming Roblox game: grow a Pinocchio nose
 summary: My upcoming Roblox game, where you grow a Pinocchio nose and zip across lava. How it plays, the launch codes and what's coming.
 published: 2026-09-29
 updated: 2026-09-29
+series: +1 Nose to Escape
 order: 10
 image: plus-1-nose-to-escape.webp
 imageAlt: A Roblox player riding a long rainbow nose across a lava lake in +1 Nose to Escape
@@ -18,11 +19,15 @@ I'm Allan, and I run this site. I'm also making a Roblox game called **+1 Nose t
 
 It's a "+1" game, the kind where you grow a stat a little at a time and use it to get further. In this one the stat is your nose. You're Pinocchio, and every lie makes your nose longer.
 
+![The lobby: the Nose Shop on the left, the treadmills on the right, and the gate to Stage 1 at the end of the runway.](nose-lobby.webp)
+
 The map is a lava canyon split into stages. Each stage is a row of stone platforms with lava in between, and the gaps get wider as you go. You get across by stretching your nose to the next platform and letting it pull you over.
 
 ## How the nose works
 
 This is the part I spent the most time on, because I wanted it to feel different from other +1 games.
+
+![Riding my nose across a gap on Stage 3. The balloons on the left are worth bonus Wins.](nose-ride.webp)
 
 - **Hold** (click, Space, or the NOSE button on a phone) and Pinocchio starts telling lies like "I never lie!" or "I did my homework!". While you hold, your wooden nose grows toward where your camera is looking.
 - **Let go** and the nose snaps back, yanking you face-first to the tip.
@@ -33,6 +38,8 @@ How far your nose can reach depends on your Level. At Level 1 it reaches 36 stud
 ## How you get stronger
 
 You grow your nose on the treadmills in the lobby. Every second on a treadmill gives you Nose, and your total Nose is also what fills your Level bar. Tissue boxes pop up on screen while you train. Tap one before it shrinks away and your next gain is worth up to 1.5 times more.
+
+![Training on a treadmill. The little tissue boxes that pop up give a bonus if you tap them in time.](nose-training.webp)
 
 When you cross a stage and step on its **win pad**, you get **Wins**. Wins buy new noses in the Nose Shop, and every new nose gives more Nose per second. Later on you **rebirth**, which starts your Level again but makes all your future Nose worth more for good.
 
@@ -60,6 +67,8 @@ The `GROUP` code only works if you've joined the game's Roblox group, [Group ins
 ## Free rewards without codes
 
 I didn't want codes to be the only free stuff, so there's a lot to collect just by playing:
+
+![The Spin the Wheel board in the lobby, next to the Top Nose leaderboard.](nose-wheel.webp)
 
 - **Daily rewards** for 7 days in a row, like 2x Nose boosts and free rebirths.
 - **Playtime gifts** that unlock as you play: 9 of them, from 2 to 90 minutes.
