@@ -110,7 +110,7 @@ ${guides.slice(0, 4).map(gd => `    <li><a href="${gd.path}"><b>${esc(gd.short ?
 ${posts.length ? `<section id="blog" class="sec" aria-labelledby="blog-h">
   <div class="sec-head"><h2 id="blog-h">From my dev blog</h2><a class="aside" href="/blog/">All posts</a></div>
   <ul class="cards">
-${posts.slice(0, 3).map(p => articleCard(p, { date: true })).join('\n')}
+${posts.slice(0, 3).map(p => articleCard(p, {})).join('\n')}
   </ul>
 </section>` : ''}
 
@@ -369,7 +369,7 @@ export function blogIndexBody({ site, posts }) {
   <p>Written by <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a>, who plays Roblox, makes YouTube videos about it, and is now building a game. For how the game plays, see the <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape guides</a>.</p>
 </div>
 <ul class="cards sec">
-${posts.map((p, i) => articleCard(p, { lazy: i > 2, date: true })).join('\n')}
+${posts.map((p, i) => articleCard(p, { lazy: i > 2 })).join('\n')}
 </ul>`;
 }
 
@@ -398,7 +398,7 @@ ${games.map(v => gameRow(v)).join('\n')}
 ${more.length ? `<section class="sec" aria-labelledby="more-guides-h">
   <h2 id="more-guides-h">${section === 'Blog' ? 'More from the blog' : 'More guides'}</h2>
   <ul class="cards">
-${more.map(o => articleCard(o, { date: section === 'Blog' })).join('\n')}
+${more.map(o => articleCard(o, {})).join('\n')}
   </ul>
 </section>` : ''}`;
 }
