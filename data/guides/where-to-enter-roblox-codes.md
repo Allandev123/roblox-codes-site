@@ -148,6 +148,3 @@ If you found the box but the code won't go through, see [why a Roblox code isn't
 
 The box at [roblox.com/redeem](https://www.roblox.com/redeem) is for Roblox gift cards and Roblox promo codes ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/360029650831-How-Do-I-Redeem-a-Promo-Code)). Game codes come from each game's developer, and Roblox's rules say those rewards can only be used in that game, so you enter them in the game's own code box.
 
-> A real code box never asks for your password. Roblox says to type your password only on the roblox.com login page or the login screen of the Roblox app, and to leave any game that asks for it ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/203313380-Keep-Your-Account-Safe)). If a "code" site asks for your password or tells you to download something, close it.
-
-Roblox says there's no such thing as a free Robux code ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators)). Here's [how to spot those scams](/guides/free-robux-codes-scams/).

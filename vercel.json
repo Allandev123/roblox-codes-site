@@ -95,6 +95,11 @@
       "source": "/hello-world/",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/guides/free-robux-codes-scams/",
+      "destination": "/guides/",
+      "permanent": true
     }
   ],
   "headers": [

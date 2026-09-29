@@ -12,7 +12,7 @@ order: 21
 games: rivals
 onGamePages: true
 ---
-Keys are the main currency in RIVALS. You spend them on new weapons, and on most things in the shop: cases, wraps, charms and more. You never have to pay Robux for them, but you do have to know where the free ones are. This guide lists every way to earn Keys that I could confirm for Update 22 (September 2026), then which weapons are worth your first Keys.
+Keys are the main currency in RIVALS. You spend them on new weapons, and on most things in the shop: cases, wraps, charms and more. You never have to pay for them, but you do have to know where the free ones are. This guide lists every way to earn Keys that I could confirm for Update 22 (September 2026), then which weapons are worth your first Keys.
 
 ## What Keys are for
 
@@ -54,9 +54,9 @@ Update 22 added a Prize Wheel you can spin up to 5 times a week. It can land on 
 
 Logging in regularly gives rewards every few days, and the free track of the Season Pass has some Key rewards on it too. You move up the pass by playing and winning rounds.
 
-### Robux (if you want to)
+### Buying Keys
 
-You can also buy Keys with Robux in the Keys tab of the Shop. You don't need to: the free ways above are enough to unlock a full starter loadout.
+The Keys tab in the Shop also sells Keys. You don't need to buy any: the free ways above are enough to unlock a full starter loadout.
 
 ## What to spend your first Keys on
 

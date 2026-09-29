@@ -21,8 +21,8 @@ Three different things all get called "Roblox codes". That makes it easy to type
 | Kind of code | Cost | Where you type it | What you get |
 |---|---|---|---|
 | In-game code | Free | The code box inside that one game | Cash, boosts or items for that game only |
-| Roblox promo code | Free | roblox.com/redeem, in a web browser | A virtual item, Robux or Credit, depending on the code |
-| Gift card | Paid | roblox.com/redeem, in a web browser | Robux or Roblox Credit |
+| Roblox promo code | Free | roblox.com/redeem, in a web browser | A virtual item or Roblox Credit, depending on the code |
+| Gift card | Paid | roblox.com/redeem, in a web browser | Roblox Credit |
 
 ### In-game codes
 
@@ -40,7 +40,7 @@ Roblox says promo codes may expire or only work for a short time, so use yours s
 
 ### Gift cards
 
-Gift cards cost real money. They add Robux or Roblox Credit to your account. Amazon and Party Packs gift cards give Robux only, according to [Roblox's gift card help page](https://en.help.roblox.com/hc/en-us/articles/115005566223-How-to-redeem-and-spend-your-Gift-Card). If you have more than one card, enter them one at a time.
+Gift cards cost real money and add credit to your Roblox account, according to [Roblox's gift card help page](https://en.help.roblox.com/hc/en-us/articles/115005566223-How-to-redeem-and-spend-your-Gift-Card). If you have more than one card, enter them one at a time.
 
 ## Which box does my code go in?
 
@@ -92,19 +92,9 @@ Both use the same page. These are the steps from the [Roblox Help Center](https:
 
 Roblox says you cannot redeem these codes in the standard mobile app or on a console. On a phone, use the phone's web browser instead of the Roblox app. The one exception is the Roblox app on Samsung Galaxy devices. There, open the **More** page and tap the **Redeem** tile.
 
-If you play on Xbox or PlayStation, redeem the code in a browser on a phone or computer. Log in with the same account you use on your console, since [Robux belong to your account](https://en.help.roblox.com/hc/en-us/articles/360029481932-Where-are-my-Robux), not to one device.
+If you play on Xbox or PlayStation, redeem the code in a browser on a phone or computer. Log in with the same account you use on your console, since what you redeem belongs to your account, not to one device.
 
 > Tip: if a gift card code gives an error, Roblox suggests swapping characters that look alike: 0 (zero) and O, 1 (one) and I, 5 and S, or 8 and B.
-
-## Watch out for "free Robux" codes
-
-Roblox's Help Center says: "There is no such thing as free Robux or subscription offers, tricks, or codes." Any person, video, website or game that says otherwise is running a [scam](https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators).
-
-- No real code needs you to share your password. Only type your password on the Roblox login page.
-- A real in-game code is free. If someone asks you to pay, trade or fill in a survey to get a code, do not do it. Roblox says online surveys are one of the most common ways players lose their accounts.
-- Roblox [announces its own promotions](https://en.help.roblox.com/hc/en-us/articles/203313380-Keep-Your-Account-Safe) on its blog, in your Notifications, or with a banner on the Roblox website.
-
-If you see a scam, report it with the Report Abuse button in the app or inside the game. The [free Robux code scams](/guides/free-robux-codes-scams/) guide shows the common tricks.
 
 ## If your code does not work
 

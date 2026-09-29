@@ -18,7 +18,7 @@
     "Scroll all the way to the bottom of the Shop menu to find the code box.",
     "Type or paste the code into the Enter code here box and press Redeem."
   ],
-  "notes": "Blue Lock Farm is a tycoon from the Finding Illusions group, built around the Blue Lock football anime. You open Blue Lockers to pull characters, place them on your plot so they earn money, and then upgrade them or save up for better lockers with higher odds of rare players. Lockers keep opening and cash keeps building while you are offline, so returning players always have something to spend.\n\nCodes typically give Grade Tokens, Trait Tokens, Variant or Jackpot tokens and potions for cash, luck and grading speed. These help you reroll characters for better grades and traits without spending Robux. New codes tend to come with updates such as the weather and traits patches, and the developers post them in the Discord server.",
+  "notes": "Blue Lock Farm is a tycoon from the Finding Illusions group, built around the Blue Lock football anime. You open Blue Lockers to pull characters, place them on your plot so they earn money, and then upgrade them or save up for better lockers with higher odds of rare players. Lockers keep opening and cash keeps building while you are offline, so returning players always have something to spend.\n\nCodes typically give Grade Tokens, Trait Tokens, Variant or Jackpot tokens and potions for cash, luck and grading speed. These help you reroll characters for better grades and traits without paying. New codes tend to come with updates such as the weather and traits patches, and the developers post them in the Discord server.",
   "codes": [
     {
       "code": "WEATHER",
@@ -49,7 +49,7 @@
     },
     {
       "q": "What are Grade Tokens and Trait Tokens used for in Blue Lock Farm?",
-      "a": "They let you reroll your characters for better grades and traits without spending Robux. Blue Lock Farm codes typically give these tokens, sometimes with Variant or Jackpot tokens and potions."
+      "a": "They let you reroll your characters for better grades and traits without paying. Blue Lock Farm codes typically give these tokens, sometimes with Variant or Jackpot tokens and potions."
     },
     {
       "q": "Where does Blue Lock Farm post new codes?",

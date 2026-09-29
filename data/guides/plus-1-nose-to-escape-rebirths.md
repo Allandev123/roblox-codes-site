@@ -62,7 +62,7 @@ The better treadmills in the lobby open up as you rebirth:
 | Diamond | 3x | 4 rebirths |
 | Neon | 5x | 7 rebirths |
 
-There are three more treadmills (Galaxy, Rainbow and Fairy) that are Robux gamepasses. They're faster, but the four above are enough to finish the world.
+There are three more treadmills (Galaxy, Rainbow and Fairy) that are paid gamepasses. They're faster, but the four above are enough to finish the world.
 
 ## Free rebirths
 

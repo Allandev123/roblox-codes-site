@@ -46,7 +46,7 @@ Each nose sets how much Nose you get per second of training. Rebirths, Blooms, b
 
 ![Wearing a new nose in front of the Nose Shop. Every nose has its own pad with its name and price.](nose-shop-wearing.webp)
 
-The **Cosmic** nose (+250) isn't on this list because it isn't bought with Wins. It's a Robux gamepass on its own podium at the end of the shop. You don't need it to finish the game.
+The **Cosmic** nose (+250) isn't on this list because it isn't bought with Wins. It's a paid gamepass on its own podium at the end of the shop. You don't need it to finish the game.
 
 The later noses also look different. Ruby, Emerald and Void glow, Crystal, Lightning, Golden and Galaxy sparkle, Lava and Fire burn, and Rainbow cycles through every colour.
 
@@ -70,7 +70,7 @@ Blooms are flowers that grow along your nose while it's stretched, so everyone c
 | Lightning | 40,000 | 3x |
 | Galaxy | 400,000 | 4x |
 
-Blooms can also be bought with Robux, but every one of them can be earned with Wins just by playing.
+Blooms can also be bought, but every one of them can be earned with Wins just by playing.
 
 ## Noses, Blooms and rebirths together
 

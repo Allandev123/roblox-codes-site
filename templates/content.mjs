@@ -8,7 +8,7 @@ const host = site => esc(site.url.replace(/^https?:\/\//, ''));
 const operator = site => esc(site.operator?.name || `${site.author.name}, the owner of ${site.siteName}`);
 
 export const about = site => `
-<p>Hi, I'm ${esc(site.author.firstName)} — ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games, and nothing else: no scripts, no exploits, no "free Robux". Just the codes each game's developers have released, what they give, and where to type them.</p>
+<p>Hi, I'm ${esc(site.author.firstName)} — ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games, and nothing else: no scripts, no exploits. Just the codes each game's developers have released, what they give, and where to type them.</p>
 
 <h2>Who I am</h2>
 <p>I've played Roblox since ${esc(site.author.robloxSince)}. My favourite back then was Lumber Tycoon 2, and I've loved Roblox ever since. In 2018 I started my <a href="${esc(site.author.youtube)}" rel="noopener">YouTube channel</a>. Most of my videos ended up being about BedWars, and lately Rivals too. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
@@ -69,8 +69,7 @@ export const method = site => `
 
 <h2>8. What I'll never do</h2>
 <ul>
-  <li>Ask for your Roblox password, or send you to a download or "verification" page.</li>
-  <li>Post "free Robux" codes. They don't exist — see <a href="/guides/free-robux-codes-scams/">how to spot those scams</a>.</li>
+  <li>Send you to a download or "verification" page.</li>
   <li>List scripts, exploits or cheats.</li>
 </ul>
 `;
@@ -85,7 +84,7 @@ export const contact = site => `
   <li>For a new game: its Roblox link.</li>
 </ul>
 <p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>${site.author.discord ? ` and in <a href="${esc(site.author.discord)}" rel="noopener">my Discord server</a>` : ''}, but email is the fastest way to get a code fixed.</p>
-<p>I read every message. I can't help with account problems, lost items or purchases — those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers. Never send anyone your password, including me.</p>
+<p>I read every message. I can't help with account problems, lost items or purchases — those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers.</p>
 `;
 
 export const privacy = (site, updated) => {
@@ -162,7 +161,7 @@ export const terms = (site, updated) => `
 <p>Codes are created and controlled by each game's developers, who can change or end them at any time, limit them to new players, or cap how many times they can be used. I check the games' pages often and move codes they stop listing to the expired list, but I can't guarantee any code will work for you. Rewards are described as the developer or game states them and may change.</p>
 
 <h2>Play safe</h2>
-<p>Game codes are only ever redeemed inside the game itself. I will never ask for your Roblox password, and no real code needs you to download anything or visit a "generator". Anything promising free Robux is a scam — <a href="/guides/free-robux-codes-scams/">here's how to spot them</a>.</p>
+<p>Game codes are only ever redeemed inside the game itself. No real code needs you to download anything or visit another website.</p>
 
 <h2>Trademarks and content</h2>
 <p>Roblox and game names, icons and artwork belong to their owners and are used here only to identify the games being described. The text, design and code of this site are mine; please don't copy whole pages. Linking to any page is always welcome.</p>

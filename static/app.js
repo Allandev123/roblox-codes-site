@@ -149,6 +149,7 @@
         li.append(a); ul.append(li);
       }
       mineSec.hidden = false;
+      mineSec.querySelector('.mine-clear')?.addEventListener('click', () => { store.set('rbx:games', '{}'); mineSec.hidden = true; });
     }
   }
 

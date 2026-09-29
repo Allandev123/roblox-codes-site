@@ -64,11 +64,11 @@ const small = u => (/^\/img\/.*\.webp$/.test(u ?? '') ? u.replace(/\.webp$/, '-4
 
 // Home page FAQ. Answers are HTML (they link to other pages).
 export const HOME_FAQ = (site, games) => [
-  { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. It never asks for your Roblox password, there's nothing to download, and there are no sign-ups. If any site asks for your password or a "verification" to give you a code, it's a scam. <a href="/guides/free-robux-codes-scams/">How to spot those scams</a>.` },
+  { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. There's nothing to download, no sign-ups and no account needed. Every code comes from the game's own developers.` },
   { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps, many with my screenshots. <a href="/guides/how-to-redeem-roblox-codes/">The full redeem guide</a>.` },
   { q: "Why isn't a code working for me?", a: `Usually it's a typo, the wrong capital letters, a code you already used, or a game that needs you to reach a level or join its group first. Tap Copy to avoid typos. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
   { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games only post on Discord or X, I add and recheck myself. Codes a game stops listing move to that page's expired list with the date. <a href="/how-we-check-codes/">How I check codes</a>.` },
-  { q: 'Are there codes for free Robux?', a: `No. Game codes give items inside that one game, like gems, boosts, spins or pets. Robux only comes from Roblox itself, by buying it or with Roblox gift cards. Any site offering "free Robux codes" is a scam.` },
+  { q: 'What do Roblox codes give you?', a: `Free items inside that one game, like gems, coins, boosts, spins, pets or skins. Each code on this site shows exactly what it gives, and the developers decide how long it works.` },
   { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place on every device, you just tap instead of click. On a phone, press and hold the box to paste.` },
   { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add more every week, as long as the game has working codes. <a href="/contact/">Send me its name or Roblox link</a>.` },
   { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>. I've played Roblox since ${esc(site.author.robloxSince)}, make Roblox videos on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>, and I'm making my own game. It's an independent fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
@@ -109,7 +109,8 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
 </section>
 
 <section id="mine" class="sec" hidden aria-labelledby="mine-h">
-  <div class="sec-head"><h2 id="mine-h">Your games</h2></div>
+  <div class="sec-head"><h2 id="mine-h">Recently viewed</h2><button type="button" class="aside mine-clear">Clear</button></div>
+  <p class="mine-note">Games you opened on this device. They get a <span class="tag">new</span> tag when codes are added.</p>
   <ul class="mine"></ul>
 </section>
 
@@ -177,7 +178,7 @@ ${HOME_FAQ(site, views.length).map((f, i) => `    <details class="faq"${i === 0 
 
 <section id="how" class="sec run-by">
   <img src="/img/${esc(a.image)}" alt="" width="56" height="56" loading="lazy">
-  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. Nobody needs your password, and free Robux codes don't exist. <a href="/how-we-check-codes/">How I check codes</a></p>
+  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. <a href="/how-we-check-codes/">How I check codes</a></p>
 </section>`;
 }
 

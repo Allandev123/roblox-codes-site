@@ -84,10 +84,6 @@ Some games only accept codes once you've reached a certain point. These are the 
 
 If you've been through everything above and the code still fails, [tell me about it](/contact/). Send the game, the code, the exact message you saw and the device you play on. I'll check the game's Roblox page and fix the listing if the code has ended.
 
-> Redeeming a real game code never needs your password, a download or a visit to another website.
-
-Roblox's rules say a game's code reward can't have any value in Robux or real money ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards)), and Roblox says there are no free Robux codes ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/204262550-Free-Robux-or-Subscription-Generators)). If a site or video promises one, it's a scam. My guide to [free Robux code scams](/guides/free-robux-codes-scams/) shows how to spot them, and Roblox's [scam safety page](https://about.roblox.com/frauds-and-scams) has more.
-
 ## Quick checklist
 
 - The code is still listed on the game's page.
