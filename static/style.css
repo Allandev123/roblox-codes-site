@@ -180,6 +180,14 @@ main { padding: 24px 0 48px; }
 .game-head h1 { margin: 0 0 6px; font-size: clamp(1.5rem, 5vw, 2.25rem); }
 .status { margin: 0; color: var(--muted); font-size: .95rem; }
 .status strong { color: var(--text); }
+.byline { display: flex; align-items: center; gap: 10px; margin: -4px 0 16px; color: var(--muted); font-size: .9rem; }
+.byline img { width: 28px; height: 28px; border-radius: 50%; background: var(--surface-2); flex: none; }
+.byline a { color: var(--text); font-weight: 700; text-decoration: none; }
+.byline a:hover { color: var(--accent-text); text-decoration: underline; }
+.author-head { display: flex; gap: 18px; align-items: center; margin-bottom: 20px; }
+.author-head img { width: 112px; height: 112px; border-radius: 50%; background: var(--surface-2); border: 3px solid var(--accent); flex: none; }
+.author-head h1 { margin-bottom: 4px; }
+.author + .grid { margin-top: 8px; }
 
 .codes { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
 .code-row { display: flex; align-items: center; gap: 12px; padding: 14px 14px 14px 16px; }
@@ -240,7 +248,7 @@ details.expired li code { font: 600 .95rem var(--mono); color: var(--text); text
 
 /* ads: fixed height so nothing below moves when an ad fills */
 .ad-slot { margin: 28px 0; min-height: 280px; display: flex; align-items: center; justify-content: center; background: var(--surface-2); border-radius: var(--radius-sm); overflow: hidden; }
-.ad-slot::before { content: 'Advertisement'; position: absolute; font-size: .7rem; color: var(--muted); }
+.ad-slot::before { content: 'Advertisements'; position: absolute; font-size: .7rem; color: var(--muted); }
 .ad-slot { position: relative; }
 .ad-slot ins { position: relative; width: 100%; }
 

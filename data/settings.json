@@ -8,7 +8,7 @@
   "adsense": {
     "client": "",
     "slots": {
-      "afterCodes": "",
+      "afterRedeem": "",
       "inContent": "",
       "bottom": ""
     }
@@ -19,5 +19,16 @@
   },
   "newCodeDays": 3,
   "relatedCount": 6,
-  "privacyUpdated": "September 29, 2026"
+  "privacyUpdated": "September 29, 2026",
+  "author": {
+    "name": "AllanIsGreasy",
+    "slug": "allanisgreasy",
+    "firstName": "Allan",
+    "image": "author-allanisgreasy.webp",
+    "robloxSince": "2018",
+    "youtube": "https://www.youtube.com/@AllanIsGreasy",
+    "youtubeSubscribers": "nearly 50,000",
+    "youtubeVideos": 238,
+    "roblox": "https://www.roblox.com/users/501341371/profile"
+  }
 }

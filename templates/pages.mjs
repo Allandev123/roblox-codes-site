@@ -63,6 +63,51 @@ ${views.map((v, i) => gameCard(v, { lazy: i > 5 })).join('\n')}
 </div>`;
 }
 
+// ---------------------------------------------------------------- author
+
+export const authorPath = site => `/author/${site.author.slug}/`;
+
+// One line under the heading: who keeps this page and when the list last changed.
+function byline(site, g) {
+  const a = site.author;
+  return `<p class="byline"><img src="/img/${a.image.replace(/\.webp$/, '-64.webp')}" alt="" width="28" height="28"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · Codes updated ${dateLong(g.lastChanged)}</span></p>`;
+}
+
+export function authorBody({ site, views }) {
+  const a = site.author;
+  return `<div class="wrap narrow">
+  <article class="prose author">
+    <header class="author-head">
+      <img src="/img/${a.image}" alt="${esc(a.name)}'s Roblox avatar" width="112" height="112">
+      <div>
+        <h1>${esc(a.name)}</h1>
+        <p class="status">Runs ${esc(site.siteName)} · Roblox player since ${esc(a.robloxSince)} · YouTube creator</p>
+      </div>
+    </header>
+    <p>Hi, I'm ${esc(a.firstName)}. I've played Roblox since ${esc(a.robloxSince)}, and I make Roblox videos on my YouTube channel, <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.name)}</a>, which has ${esc(a.youtubeSubscribers)} subscribers and more than ${Math.floor(a.youtubeVideos / 10) * 10} videos. Most of them are about BedWars — ranked solo queue from Bronze to Nightmare, kit guides and win streaks — plus Rivals and Blade Ball.</p>
+    <p>I started ${esc(site.siteName)} because finding a code that actually works usually means scrolling past pages of expired ones. So this site does one thing: it lists the codes a game's developers are offering right now, what each one gives, and where the code box is in that game.</p>
+
+    <h2>What I do on this site</h2>
+    <ul>
+      <li>Approve every new code before it appears. The site checks each game's Roblox page every few hours, but nothing goes live until I've read the developer's post and confirmed it's a real code.</li>
+      <li>Write the redeem steps for each game — where its Codes button actually is — and the short guide about the game.</li>
+      <li>Fix mistakes. If a code or a step is wrong, <a href="/contact/">tell me</a> and I'll correct it, usually the same day.</li>
+    </ul>
+
+    <h2>Find me elsewhere</h2>
+    <ul>
+      <li>YouTube: <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.youtube.replace('https://www.', ''))}</a></li>
+      <li>Roblox: <a href="${esc(a.roblox)}" rel="me noopener">${esc(a.name)}</a></li>
+    </ul>
+
+    <h2>Games I cover</h2>
+  </article>
+  <div class="grid">
+${views.map(v => gameCard(v)).join('\n')}
+  </div>
+</div>`;
+}
+
 // ---------------------------------------------------------------- game
 
 function codeRow(c, isNew) {
@@ -110,6 +155,7 @@ export function gameBody({ site, v, related }) {
       <p class="status">✅ <strong>${plural(v.live.length, 'working code')}</strong> · Last checked ${ago(g.lastChecked)}</p>
     </div>
   </header>
+  ${byline(site, g)}
 
   <section aria-label="Working codes">
     <ul class="codes">
@@ -117,8 +163,6 @@ ${v.live.map(c => codeRow(c, v.isNew(c))).join('\n')}
     </ul>
     <p class="source-note">${sourceBits.join('; ')}. Codes can be case-sensitive, so the Copy button is the safest way to enter them.</p>
   </section>
-
-  ${adSlot(site, 'afterCodes')}
 
   <section class="block" aria-labelledby="redeem-h">
     <h2 id="redeem-h">How to redeem ${esc(g.name)} codes</h2>
@@ -128,6 +172,8 @@ ${g.redeem.map(s => `        <li>${esc(s)}</li>`).join('\n')}
       </ol>
     </div>
   </section>
+
+  ${adSlot(site, 'afterRedeem')}
 
   <section class="block about-game" aria-labelledby="about-h">
     <h2 id="about-h">About ${esc(g.name)}</h2>

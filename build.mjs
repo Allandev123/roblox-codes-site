@@ -13,8 +13,8 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody } from './templates/pages.mjs';
-import { about, contact, privacy } from './templates/content.mjs';
+import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath } from './templates/pages.mjs';
+import { about, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
 
 const t0 = Date.now();
@@ -122,6 +122,13 @@ function related(v) {
     .slice(0, site.relatedCount ?? 6);
 }
 
+// The person behind the site: bylines, the Article author, the author page.
+const AUTHOR = site.author;
+const PERSON = {
+  '@type': 'Person', name: AUTHOR.name, url: site.url + authorPath(site),
+  image: `${site.url}/img/${AUTHOR.image}`,
+  sameAs: [AUTHOR.youtube, AUTHOR.roblox],
+};
 const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/', logo: { '@type': 'ImageObject', url: `${site.url}/logo-512.png`, width: 512, height: 512 } };
 
 // images: copy only what published pages use, plus a 128px icon for cards
@@ -131,6 +138,10 @@ for (const v of views) {
   }
   if (v.g.icon) write(v.icon.slice(1), await sharp(path.join(IMAGES_DIR, v.g.icon)).resize(128, 128).webp({ quality: 80 }).toBuffer());
 }
+
+// author avatar, full size for the author page and 64px for bylines
+copy(path.join(IMAGES_DIR, AUTHOR.image), `img/${AUTHOR.image}`);
+write(`img/${AUTHOR.image.replace(/.webp$/, '-64.webp')}`, await sharp(path.join(IMAGES_DIR, AUTHOR.image)).resize(64, 64).webp({ quality: 85 }).toBuffer());
 
 // OG images, cached on disk by their inputs so local rebuilds stay fast
 fs.mkdirSync(path.join(CACHE, 'og'), { recursive: true });
@@ -166,7 +177,7 @@ for (const v of views) {
       image: [`${site.url}${v.og}`],
       datePublished: g.published ?? g.added,
       dateModified: g.lastChanged,
-      author: ORG, publisher: ORG,
+      author: PERSON, publisher: ORG,
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
       about: { '@type': 'VideoGame', name: g.name, url: g.gameUrl, gamePlatform: 'Roblox' },
     },
@@ -215,10 +226,29 @@ const STATIC_LASTMOD = '2026-09-29T00:00:00Z';
 for (const [slug, h1, title, description, html] of [
   ['about', `About ${site.siteName}`, `About ${site.siteName}`, `How ${site.siteName} finds, checks and expires Roblox codes: official game pages read every few hours, and every new code reviewed by a person.`, about(site)],
   ['contact', 'Contact', `Contact - ${site.siteName}`, `Report a code that doesn't work, a missing reward, or a Roblox game you want ${site.siteName} to cover.`, contact(site)],
+  ['terms', 'Terms of Use', `Terms of Use - ${site.siteName}`, `The terms for using ${site.siteName}: codes are controlled by each game's developers, how to stay safe from scams, and trademarks.`, terms(site, site.privacyUpdated)],
   ['privacy', 'Privacy Policy', `Privacy Policy - ${site.siteName}`, `What ${site.siteName} collects, how Google Analytics and AdSense cookies are used, and how to opt out.`, privacy(site, site.privacyUpdated)],
 ]) {
   write(`${slug}/index.html`, layout({ site, assets, path: `/${slug}/`, title, description, body: staticBody(h1, html) }));
   pages.push({ path: `/${slug}/`, lastmod: STATIC_LASTMOD });
+}
+
+// author page
+{
+  const p = authorPath(site);
+  write(`${p.slice(1)}index.html`, layout({
+    site, assets, path: p,
+    title: `${AUTHOR.name} - ${site.siteName}`,
+    description: clip(`${AUTHOR.name} runs ${site.siteName}: a Roblox player since ${AUTHOR.robloxSince} and YouTube creator who approves every code and writes the redeem guides.`, 155),
+    ogType: 'profile',
+    jsonld: [{
+      '@context': 'https://schema.org', '@type': 'ProfilePage',
+      dateModified: STATIC_LASTMOD,
+      mainEntity: { ...PERSON, description: `Roblox player since ${AUTHOR.robloxSince} and YouTube creator. Runs ${site.siteName}.` },
+    }],
+    body: authorBody({ site, views }),
+  }));
+  pages.push({ path: p, lastmod: STATIC_LASTMOD });
 }
 
 write('404.html', layout({

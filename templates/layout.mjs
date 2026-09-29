@@ -3,10 +3,19 @@ import { esc, ICONS } from './helpers.mjs';
 // The saved theme is applied before first paint so the page never flashes.
 const THEME_BOOT = `<script>try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>`;
 
+// Consent mode v2: storage is denied by default for the EEA, UK and
+// Switzerland until Google's consent message (set up in AdSense > Privacy &
+// messaging) records a choice. Everywhere else it runs as normal.
+const EEA = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','GB','CH'];
+function consentDefaults(site) {
+  if (!site.analyticsId && !site.adsense?.client) return '';
+  return `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:${JSON.stringify(EEA)}});</script>`;
+}
+
 function analytics(id) {
   if (!id) return '';
   return `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(id)}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(id)}');</script>`;
+<script>gtag('js',new Date());gtag('config','${esc(id)}');</script>`;
 }
 
 function adsense(client) {
@@ -53,6 +62,7 @@ ${preload.map(p => `<link rel="preload" href="${esc(p)}" as="image" fetchpriorit
 <link rel="stylesheet" href="${assets.css}">
 ${THEME_BOOT}
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
+${consentDefaults(site)}
 ${analytics(site.analyticsId)}
 ${adsense(site.adsense?.client)}
 </head>
@@ -78,6 +88,7 @@ ${body}
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
     </nav>
     <p>${esc(site.siteName)} is a fan site and is not affiliated with Roblox Corporation.</p>
     <p>© ${new Date().getUTCFullYear()} ${esc(site.siteName)}</p>
