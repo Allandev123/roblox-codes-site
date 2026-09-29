@@ -109,7 +109,7 @@ ${guides.slice(0, 4).map(gd => `    <li><a href="${gd.path}"><b>${esc(gd.short ?
 
 <section id="how" class="sec run-by">
   <img src="/img/${esc(a.image)}" alt="" width="56" height="56" loading="lazy">
-  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. Nobody needs your password, and free Robux codes don't exist. <a href="/how-we-check-codes/">How I check codes</a></p>
+  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. Nobody needs your password, and free Robux codes don't exist. <a href="/how-we-check-codes/">How I check codes</a></p>
 </section>`;
 }
 
@@ -276,10 +276,14 @@ export function authorBody({ site, views }) {
   </ul>
   <p>The whole process is on <a href="/how-we-check-codes/">How I check codes</a>.</p>
 
+  <h2>The game I'm making</h2>
+  <p>I'm also building my own Roblox game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>, where you grow a Pinocchio nose and stretch it across lava. It's in testing now. I've written guides for it with the real numbers from the game, and its codes will be on this site first.</p>
+
   <h2>Find me elsewhere</h2>
   <ul>
     <li>YouTube: <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.youtube.replace('https://www.', ''))}</a></li>
     <li>Roblox: <a href="${esc(a.roblox)}" rel="me noopener">${esc(a.name)}</a></li>
+    <li>My Roblox group: <a href="https://www.roblox.com/communities/16078632" rel="noopener">Group insane</a></li>
   </ul>
 
   <h2>Games I cover</h2>
@@ -306,6 +310,7 @@ export function guideBody({ site, gd, games, more }) {
 <article class="prose">
   <h1>${esc(gd.title)}</h1>
   <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a> · updated ${dateShort(gd.updated)} · ${gd.minutes} min read</span></p>
+  ${gd.image ? `<figure class="shot lead"><img src="/img/guides/${esc(gd.image)}" alt="${esc(gd.imageAlt ?? '')}" width="1280" height="720" decoding="async" fetchpriority="high"></figure>` : ''}
   ${toc.length >= 4 ? `<nav class="toc" aria-label="On this page"><p>On this page</p><ol>${toc.map(h => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></nav>` : ''}
 ${gd.html}
 </article>

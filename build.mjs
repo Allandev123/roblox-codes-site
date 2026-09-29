@@ -166,6 +166,8 @@ async function og(key, opts, rel) {
 // ---------------------------------------------------------------- guides (loaded before game pages, which link to them)
 
 const GUIDES_DIR = path.join(ROOT, 'data', 'guides');
+const GUIDE_IMAGES = path.join(IMAGES_DIR, 'guides');
+if (fs.existsSync(GUIDE_IMAGES)) for (const f of fs.readdirSync(GUIDE_IMAGES)) copy(path.join(GUIDE_IMAGES, f), `img/guides/${f}`);
 const guides = (fs.existsSync(GUIDES_DIR) ? fs.readdirSync(GUIDES_DIR) : [])
   .filter(f => f.endsWith('.md'))
   .map(f => {
@@ -258,7 +260,7 @@ pages.unshift({ path: '/', lastmod: homeLastmod });
 const byslug = new Map(views.map(v => [v.g.slug, v]));
 for (const gd of guides) {
   const url = site.url + gd.path;
-  await og(`guide-${gd.slug}`, { background: null, title: gd.short ?? gd.title, kicker: 'GUIDE', sub: `By ${AUTHOR.name} · ${gd.minutes} min read` }, `og/guide-${gd.slug}.jpg`);
+  await og(`guide-${gd.slug}`, { background: gd.image ? path.join(GUIDE_IMAGES, gd.image) : null, title: gd.short ?? gd.title, kicker: 'GUIDE', sub: `By ${AUTHOR.name} · ${gd.minutes} min read` }, `og/guide-${gd.slug}.jpg`);
   write(`guides/${gd.slug}/index.html`, layout({
     site, assets, path: gd.path,
     title: gd.seoTitle ?? gd.title, description: gd.description,
