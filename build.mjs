@@ -53,14 +53,17 @@ for (const [key, file] of [['css', 'style.css'], ['js', 'app.js']]) {
 }
 for (const font of fs.readdirSync(path.join(ROOT, 'static', 'fonts')).filter(x => x.endsWith('.woff2'))) copy(path.join(ROOT, 'static', 'fonts', font), `fonts/${font}`);
 
-// Favicons from the logo mark.
-const MARK = (fg, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="${bg}"/><g transform="translate(4 4.5)" fill="none" stroke="${fg}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></g></svg>`;
-const mark = MARK('#ffffff', '#b4461a');
-write('favicon.svg', mark);
-write('favicon-32.png', await sharp(Buffer.from(mark), { density: 300 }).resize(32, 32).png().toBuffer());
-write('apple-touch-icon.png', await sharp(Buffer.from(MARK('#ffffff', '#b4461a').replace('rx="9"', 'rx="0"')), { density: 600 }).resize(180, 180).png().toBuffer());
-write('favicon.ico', await sharp(Buffer.from(mark), { density: 300 }).resize(32, 32).png().toBuffer());
-write('logo-512.png', await sharp(Buffer.from(mark), { density: 1200 }).resize(512, 512).png().toBuffer());
+// Site logo and favicons: the AllanIsGreasy channel picture, as a circle.
+const LOGO_SRC = path.join(IMAGES_DIR, 'site-logo.jpg');
+const circle = n => Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${n}" height="${n}"><circle cx="${n / 2}" cy="${n / 2}" r="${n / 2}"/></svg>`);
+const roundLogo = n => sharp(LOGO_SRC).resize(n, n).composite([{ input: circle(n), blend: 'dest-in' }]).png().toBuffer();
+const logo64 = await roundLogo(64);
+write('favicon.svg', `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64"><image width="64" height="64" href="data:image/png;base64,${logo64.toString('base64')}"/></svg>`);
+write('favicon-32.png', await roundLogo(32));
+write('favicon.ico', await roundLogo(32));
+write('logo-64.png', logo64);
+write('apple-touch-icon.png', await sharp(LOGO_SRC).resize(180, 180).png().toBuffer()); // iOS rounds the corners itself
+write('logo-512.png', await roundLogo(512));
 
 // ---------------------------------------------------------------- games
 
@@ -177,7 +180,7 @@ write(`img/${AUTHOR.image.replace(/.webp$/, '-64.webp')}`, await sharp(path.join
 fs.mkdirSync(path.join(CACHE, 'og'), { recursive: true });
 async function og(key, opts, rel) {
   const bg = opts.background && fs.existsSync(opts.background) ? fs.statSync(opts.background).mtimeMs : 0;
-  const id = hash(JSON.stringify({ ...opts, bg, v: 6 }));
+  const id = hash(JSON.stringify({ ...opts, bg, v: 8 }));
   const cached = path.join(CACHE, 'og', `${key}-${id}.jpg`);
   if (!fs.existsSync(cached)) {
     for (const old of fs.readdirSync(path.join(CACHE, 'og')).filter(f => f.startsWith(`${key}-`))) fs.rmSync(path.join(CACHE, 'og', old));
@@ -274,8 +277,7 @@ await og('default', { background: null, title: 'Working Roblox codes, checked ev
 const homeLastmod = views[0]?.g.lastChanged ?? new Date().toISOString();
 write('index.html', layout({
   site, assets, path: '/',
-  title: `${site.siteName} - Working Roblox Codes, Checked Every Few Hours`.length <= 60
-    ? `${site.siteName} - Working Roblox Codes, Checked Every Few Hours` : `${site.siteName} - Working Roblox Codes`,
+  title: `Roblox Codes (${monthYear(new Date().toISOString())}) - ${site.siteName}`,
   description: clip(`Working codes for ${views.length} Roblox games, read from each game's official page every few hours and approved by hand, with rewards and redeem steps.`, 155),
   preload: views.slice(0, 1).map(v => v.icon),
   jsonld: [{

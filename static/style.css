@@ -68,7 +68,7 @@ p { margin: 0 0 1rem; }
 .masthead .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--sans); font-weight: 800; font-size: 1.25rem; line-height: 1; letter-spacing: -0.01em; text-decoration: none; white-space: nowrap; }
 .brand { gap: 8px; }
-.brand .mark { color: var(--accent); flex: none; margin-top: -2px; }
+.brand .mark { flex: none; border-radius: 50%; }
 .brand b { font-weight: inherit; color: var(--accent); margin-left: .18em; }
 .brand:hover { color: inherit; }
 .nav { display: flex; align-items: center; margin-right: -8px; }
@@ -109,7 +109,7 @@ p { margin: 0 0 1rem; }
   .nav-links a:last-child { border-bottom: 0; }
   .nav-links a[aria-current="page"] { color: var(--accent-text); }
 }
-@media (max-width: 420px) { .brand { font-size: 1.12rem; gap: 6px; } .brand .mark { width: 24px; height: 24px; } }
+@media (max-width: 420px) { .brand { font-size: 1.12rem; gap: 6px; } .brand .mark { width: 28px; height: 28px; } }
 @media (max-width: 374px) { .brand { font-size: 1rem; } }
 
 main.wrap { padding-top: 28px; padding-bottom: 8px; }
@@ -483,3 +483,7 @@ main.wrap:has(.hub-head) { max-width: 1200px; }
 .s-kind { flex: none; color: var(--muted); }
 .s-none { margin: 10px 8px; color: var(--muted); }
 .suggest svg { position: static; transform: none; pointer-events: none; }
+
+/* jump links (Games, All games, How to redeem) glide instead of snapping */
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+section[id], h2[id] { scroll-margin-top: 16px; }

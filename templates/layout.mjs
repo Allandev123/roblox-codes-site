@@ -74,7 +74,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
+    <a class="brand" href="/" aria-label="${esc(site.siteName)} home"><img class="mark" src="/logo-64.png" alt="" width="32" height="32"><span>RBXCodes<b>HQ</b></span></a>
     <nav class="nav" aria-label="Main">
       <div class="nav-links" id="nav-links">
         <a href="/#games"${cur('games')}>Games</a>
