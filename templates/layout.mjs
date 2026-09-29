@@ -76,9 +76,10 @@ ${ads ? adsense(site.adsense?.client) : ''}
   <div class="wrap">
     <a class="brand" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
     <nav class="nav" aria-label="Main">
-      <a href="/#games"${cur('games')}>Games</a>
+      <a href="/#games" class="opt"${cur('games')}>Games</a>
       ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
       <a href="/about/" class="opt"${cur('about')}>About</a>
+      <a href="/contact/"${cur('contact')}>Contact</a>
       <button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false">${ICONS.moon}${ICONS.sun}</button>
     </nav>
   </div>

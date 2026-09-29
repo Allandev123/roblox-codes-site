@@ -83,7 +83,9 @@ p { margin: 0 0 1rem; }
   :root:not([data-theme="light"]) .theme-toggle .sun { display: block; }
   :root:not([data-theme="light"]) .theme-toggle .moon { display: none; }
 }
-@media (max-width: 400px) { .nav .opt { display: none; } }
+@media (max-width: 559px) { .nav .opt { display: none; } .nav a { padding: 0 6px; } }
+@media (max-width: 420px) { .brand { font-size: 1.12rem; gap: 6px; } .brand .mark { width: 24px; height: 24px; } }
+@media (max-width: 374px) { .brand { font-size: 1rem; } .nav a { padding: 0 5px; } }
 
 main.wrap { padding-top: 28px; padding-bottom: 8px; }
 .sec { margin-top: 48px; }
@@ -331,3 +333,4 @@ main.wrap:has(.post-head) { max-width: 760px; }
   .feed > li { grid-template-columns: minmax(0, 15rem) minmax(0, auto) minmax(0, 1fr) auto; grid-template-areas: "game code reward copy"; gap: 16px; }
   .feed-game { color: var(--ink); }
 }
+@media (max-width: 339px) { .brand .mark { display: none; } .nav a { padding: 0 4px; } .theme-toggle { width: 40px; min-width: 40px; } }
