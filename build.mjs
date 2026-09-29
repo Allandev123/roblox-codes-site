@@ -191,7 +191,9 @@ function loadArticles(section) {
         html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
       };
     })
-    .filter(gd => !gd.draft && gd.title && gd.description && gd.published);
+    .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
+    // scheduled: an article with a future "published" date stays hidden until that day
+    .filter(gd => Date.parse(gd.published) <= NOW);
 }
 const guides = loadArticles('guides').sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 const posts = loadArticles('blog').sort((a, b) => b.published.localeCompare(a.published) || a.order - b.order);
