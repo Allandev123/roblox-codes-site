@@ -74,7 +74,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="${esc(site.siteName)} home">RBXCodes<i>HQ</i></a>
+    <a class="brand" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
     <nav class="nav" aria-label="Main">
       <a href="/#games"${cur('games')}>Games</a>
       ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}

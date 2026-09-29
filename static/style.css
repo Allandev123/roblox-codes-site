@@ -67,7 +67,9 @@ p { margin: 0 0 1rem; }
 .masthead { border-bottom: 1px solid var(--rule); background: var(--paper); }
 .masthead .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--sans); font-weight: 800; font-size: 1.25rem; line-height: 1; letter-spacing: -0.01em; text-decoration: none; white-space: nowrap; }
-.brand i { font-style: normal; margin-left: 3px; padding: 3px 6px; border-radius: 6px; background: var(--accent); color: var(--accent-ink); font-size: .8em; }
+.brand { gap: 8px; }
+.brand .mark { color: var(--accent); flex: none; margin-top: -2px; }
+.brand b { font-weight: inherit; color: var(--accent); margin-left: .18em; }
 .brand:hover { color: inherit; }
 .nav { display: flex; align-items: center; margin-right: -8px; }
 .nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 8px; color: var(--muted); text-decoration: none; white-space: nowrap; }
@@ -312,4 +314,20 @@ main.wrap:has(.post-head) { max-width: 760px; }
   .tiles.all .name { font-size: .82rem; }
   .tiles.all .n { font-size: .75rem; }
   .tiles.small .name { font-size: .78rem; }
+}
+
+/* newest codes feed on the home page */
+.feed > li {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "game game" "code copy" "reward copy";
+  gap: 4px 12px; align-items: center; border-bottom: 1px solid var(--rule);
+}
+.feed-game { grid-area: game; display: flex; align-items: center; gap: 10px; min-height: 40px; font-weight: 700; font-size: .95rem; text-decoration: none; color: var(--muted); }
+.feed-game:hover { color: var(--accent-text); }
+.feed-game img { flex: none; width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--rule); }
+.feed .code { grid-area: code; justify-self: start; font-size: 1.1rem; }
+.feed-reward { grid-area: reward; font-size: .95rem; font-weight: 700; }
+.feed .copy { grid-area: copy; }
+@media (min-width: 760px) {
+  .feed > li { grid-template-columns: minmax(0, 15rem) minmax(0, auto) minmax(0, 1fr) auto; grid-template-areas: "game code reward copy"; gap: 16px; }
+  .feed-game { color: var(--ink); }
 }

@@ -31,7 +31,7 @@ export function clip(s, max) {
 }
 
 export const ICONS = {
-  logo: (size = 30) => `<svg width="${size}" height="${size}" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M9 9H23A2 2 0 0 1 25 11V13.2A2.8 2.8 0 0 0 25 18.8V21A2 2 0 0 1 23 23H9A2 2 0 0 1 7 21V18.8A2.8 2.8 0 0 0 7 13.2V11A2 2 0 0 1 9 9Z" fill="var(--accent-ink)"/><path d="M19.5 10.5V21.5" stroke="var(--accent)" stroke-width="1.6" stroke-dasharray="1.8 1.8"/><path d="M11 13.5h5M11 16h5M11 18.5h3" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round"/></svg>`,
+  logo: (size = 28) => `<svg class="mark" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></svg>`,
   search: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>',
   moon: '<svg class="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>',
   sun: '<svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',

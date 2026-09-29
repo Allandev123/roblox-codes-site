@@ -49,6 +49,12 @@ export function homeBody({ site, views, guides = [], lastCheck }) {
   const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
   const recent = views.slice(0, 6);
   const total = views.reduce((n, v) => n + v.live.length, 0);
+  // newest codes across every game, one line each, biggest games first on a tie
+  const playing = v => v.g.stats?.playing ?? 0;
+  const newest = views.flatMap(v => v.live.map(c => ({ v, c })))
+    .sort((x, y) => (y.c.firstSeen > x.c.firstSeen ? 1 : y.c.firstSeen < x.c.firstSeen ? -1 : playing(y.v) - playing(x.v)))
+    .filter((x, i, all) => all.slice(0, i).filter(y => y.v === x.v).length < 2)
+    .slice(0, 10);
   return `<section class="hub-head">
   <h1>Roblox Codes</h1>
   <p class="sub">${total} working codes for ${views.length} games · checked ${ago(lastCheck)}</p>
@@ -68,6 +74,18 @@ export function homeBody({ site, views, guides = [], lastCheck }) {
   <div class="sec-head"><h2 id="recent-h">Just updated</h2></div>
   <ul class="tiles small">
 ${recent.map(v => gameTile(v, { lazy: false }).replace('class="tile"', 'class="tile" data-skip')).join('\n')}
+  </ul>
+</section>
+
+<section id="newest" class="sec" aria-labelledby="newest-h">
+  <div class="sec-head"><h2 id="newest-h">Newest codes</h2><span class="aside">Tap a code to copy it</span></div>
+  <ul class="feed codes">
+${newest.map(({ v, c }) => `    <li>
+      <a class="feed-game" href="${v.path}"><img src="${v.icon}" alt="" width="40" height="40" loading="lazy">${esc(v.g.name)}</a>
+      <code class="code">${esc(c.code)}</code>
+      <span class="feed-reward">${c.reward ? esc(c.reward) : 'Reward not stated'}</span>
+      <button class="copy" type="button" data-code="${esc(c.code)}" aria-label="Copy code ${esc(c.code)} for ${esc(v.g.name)}">${ICONS.check}<span>Copy</span></button>
+    </li>`).join('\n')}
   </ul>
 </section>
 
@@ -109,12 +127,13 @@ function codeRow(c, isNew) {
 
 function dek(v) {
   const n = v.live.length;
+  const lists = v.live.every(c => c.source === 'manual') ? 'The developers have posted' : 'The game lists';
   const top = v.live.find(c => c.reward);
   if (n === 1) {
     const c = v.live[0];
-    return `The game lists one working code right now: <strong>${esc(c.code)}</strong>${c.reward ? `, for ${esc(c.reward)}` : ''}.`;
+    return `${lists} one working code right now: <strong>${esc(c.code)}</strong>${c.reward ? `, for ${esc(c.reward)}` : ''}.`;
   }
-  return `The game lists ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong> for ${esc(top.reward)}.` : ''}`;
+  return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong> for ${esc(top.reward)}.` : ''}`;
 }
 
 export function gameBody({ site, v, related, guides = [], total }) {
@@ -125,7 +144,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
   const one = v.live.length === 1;
   const source = [
     fromDesc ? `${one ? 'From' : fromDesc === v.live.length ? 'All from' : `${fromDesc} from`} the game's Roblox page` : '',
-    manual ? `${manual === v.live.length ? (one ? 'From' : 'All from') : `${manual} from`} the developers' Discord or X` : '',
+    manual ? `${manual === v.live.length ? (one ? 'From' : 'All from') : `${manual} from`} ${g.codeChannels ? `the developers' ${esc(g.codeChannels)}` : "the developers' Discord or X"}` : '',
   ].filter(Boolean).join('; ');
   const stats = g.stats ?? {};
   const notWorking = guides.find(gd => gd.slug === 'roblox-code-not-working');
@@ -137,7 +156,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
     <img src="${v.iconLg}" alt="" width="80" height="80">
   </div>
   <p class="dek">${dek(v)}</p>
-  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · checked ${ago(g.lastChecked)} · <a href="/how-we-check-codes/">how I check</a></span></p>
+  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · ${v.live.every(c => c.source === 'manual') ? `codes updated ${ago(g.lastChanged)}` : `checked ${ago(g.lastChecked)}`} · <a href="/how-we-check-codes/">how I check</a></span></p>
 </header>
 
 <section class="sec" aria-labelledby="codes-h">
@@ -184,7 +203,7 @@ ${g.expired.length ? `<section class="sec">
   <details class="expired">
     <summary><h2>Expired codes</h2><span class="aside">${g.expired.length}</span>${ICONS.down}</summary>
     <ul>
-${g.expired.slice(0, 60).map(e => `      <li><code>${esc(e.code)}</code><span>${e.reason === 'expired' ? 'Expired' : 'No longer listed by the game'} · ${dateShort(e.removed)}</span></li>`).join('\n')}
+${g.expired.slice(0, 60).map(e => `      <li><code>${esc(e.code)}</code><span>${e.reason === 'expired' ? 'Expired' : 'No longer listed by the game'}${e.removed ? ` · ${dateShort(e.removed)}` : ''}</span></li>`).join('\n')}
     </ul>
   </details>
 </section>` : ''}

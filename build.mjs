@@ -54,7 +54,7 @@ for (const [key, file] of [['css', 'style.css'], ['js', 'app.js']]) {
 for (const font of fs.readdirSync(path.join(ROOT, 'static', 'fonts')).filter(x => x.endsWith('.woff2'))) copy(path.join(ROOT, 'static', 'fonts', font), `fonts/${font}`);
 
 // Favicons from the logo mark.
-const MARK = (fg, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="${bg}"/><path d="M9 9H23A2 2 0 0 1 25 11V13.2A2.8 2.8 0 0 0 25 18.8V21A2 2 0 0 1 23 23H9A2 2 0 0 1 7 21V18.8A2.8 2.8 0 0 0 7 13.2V11A2 2 0 0 1 9 9Z" fill="${fg}"/><path d="M19.5 10.5V21.5" stroke="${bg}" stroke-width="1.6" stroke-dasharray="1.8 1.8"/><path d="M11 13.5h5M11 16h5M11 18.5h3" stroke="${bg}" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+const MARK = (fg, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="${bg}"/><g transform="translate(4 4.5)" fill="none" stroke="${fg}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></g></svg>`;
 const mark = MARK('#ffffff', '#b4461a');
 write('favicon.svg', mark);
 write('favicon-32.png', await sharp(Buffer.from(mark), { density: 300 }).resize(32, 32).png().toBuffer());
@@ -154,7 +154,7 @@ write(`img/${AUTHOR.image.replace(/.webp$/, '-64.webp')}`, await sharp(path.join
 fs.mkdirSync(path.join(CACHE, 'og'), { recursive: true });
 async function og(key, opts, rel) {
   const bg = opts.background && fs.existsSync(opts.background) ? fs.statSync(opts.background).mtimeMs : 0;
-  const id = hash(JSON.stringify({ ...opts, bg, v: 5 }));
+  const id = hash(JSON.stringify({ ...opts, bg, v: 6 }));
   const cached = path.join(CACHE, 'og', `${key}-${id}.jpg`);
   if (!fs.existsSync(cached)) {
     for (const old of fs.readdirSync(path.join(CACHE, 'og')).filter(f => f.startsWith(`${key}-`))) fs.rmSync(path.join(CACHE, 'og', old));
