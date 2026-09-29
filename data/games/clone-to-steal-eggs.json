@@ -1,0 +1,84 @@
+{
+  "slug": "clone-to-steal-eggs",
+  "name": "Clone to Steal Eggs",
+  "robloxName": "Clone to Steal Eggs",
+  "placeId": 76943966208523,
+  "universeId": 10766008884,
+  "gameUrl": "https://www.roblox.com/games/76943966208523/Clone-to-Steal-Eggs",
+  "creator": "xFrozen x Dudes",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "clone-to-steal-eggs-icon.webp",
+  "thumb": "clone-to-steal-eggs-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Clone to Steal Eggs on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "Release",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:19.590Z",
+      "lastSeen": "2026-09-29T19:32:19.590Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:19.590Z"
+    },
+    {
+      "code": "Magia",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:19.694Z",
+      "lastSeen": "2026-09-29T19:32:19.694Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:19.694Z"
+    },
+    {
+      "code": "LUCK1",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:19.829Z",
+      "lastSeen": "2026-09-29T19:32:19.829Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:19.829Z"
+    },
+    {
+      "code": "TRAIN1",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:19.960Z",
+      "lastSeen": "2026-09-29T19:32:19.960Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:19.960Z"
+    },
+    {
+      "code": "UPD1",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:20.085Z",
+      "lastSeen": "2026-09-29T19:32:20.085Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:20.085Z"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 6955,
+    "visits": 820097,
+    "favorites": 3777,
+    "updated": "2026-09-29T17:28:33.7599052Z",
+    "created": "2026-09-11T14:24:12.1414262Z"
+  },
+  "added": "2026-09-29T19:32:03.555Z",
+  "lastChecked": "2026-09-29T19:32:03.555Z",
+  "lastChanged": "2026-09-29T19:32:20.085Z"
+}

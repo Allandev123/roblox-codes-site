@@ -13,10 +13,11 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Join the Nosniy Games group on Roblox and follow the developer accounts listed in the game's Rewards menu on X.",
-    "Launch RIVALS and click the Rewards button at the bottom of the lobby screen.",
-    "Scroll down to the code section and enter your username so the game can check that you follow the developers.",
-    "Type or paste a code exactly as shown and press Redeem. Keys and wraps go straight to your inventory."
+    "Launch RIVALS and wait in the lobby.",
+    "Press the red Shop button in the bar at the bottom of the screen.",
+    "In the Shop, press More at the end of the tabs, then press Codes.",
+    "Scroll down past the group and like rewards to the Redeem a code box.",
+    "Type or paste the code and press the green Redeem button."
   ],
   "notes": "RIVALS is a fast competitive shooter where you fight other players in 1v1 up to 5v5 duels. Each round you bring a loadout of a primary weapon, a secondary, a melee and a utility item like a grenade, and the first team to win enough rounds takes the match. You start with basic weapons and unlock new ones with Keys as you play.\n\nCodes in RIVALS mostly give Keys, which unlock new weapons for your loadout, plus Community Wraps, charms, emotes and event items. Keys are the best reward early on because each new weapon opens up a different way to play. The developers drop a new FREE code with a number on it every so often, plus codes for events, community contests and Roblox awards, and they post them on X and in Discord first.",
   "codes": [
@@ -235,6 +236,17 @@
       ],
       "approved": true,
       "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FREE200",
+      "reward": "3 Keys",
+      "where": "shown on the like board in the lobby",
+      "status": "active",
+      "firstSeen": "2026-09-29T19:32:36.997Z",
+      "lastSeen": "2026-09-29T19:32:36.997Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-09-29T19:32:36.997Z"
     }
   ],
   "expired": [
@@ -255,7 +267,7 @@
   },
   "added": "2026-09-29T17:09:03.441Z",
   "lastChecked": "2026-09-29T17:09:03.441Z",
-  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "lastChanged": "2026-09-29T19:32:36.997Z",
   "faq": [
     {
       "q": "Why can't I type a code into the RIVALS code box?",
@@ -275,5 +287,20 @@
     "rivals roblox"
   ],
   "codeChannels": "The developers' X accounts (Nosniy and @Sensei_RBX), the RIVALS Discord game-codes channel and the Nosniy Games Roblox group",
-  "requirement": "You must join the Nosniy Games Roblox group and follow the developers on X, then verify in the Rewards menu before the code box works."
+  "requirement": "Join the Nosniy Games group first. The Codes screen shows it right above the code box, and some codes only work for group members.",
+  "redeemShots": [
+    {
+      "file": "rivals-redeem-1-lobby.webp",
+      "caption": "Step 2: the Shop button in the bar at the bottom of the lobby."
+    },
+    {
+      "file": "rivals-redeem-2-shop.webp",
+      "caption": "Step 3: in the Shop, press More, then Codes."
+    },
+    {
+      "file": "rivals-redeem-3-codes.webp",
+      "caption": "Step 4: scroll down to the Redeem a code box."
+    }
+  ],
+  "checkedInGame": "2026-09-29"
 }

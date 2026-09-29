@@ -141,7 +141,7 @@ const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/',
 
 // images: copy only what published pages use, plus a 128px icon for cards
 for (const v of views) {
-  for (const f of [v.g.icon, v.g.thumb, v.g.redeemImage]) {
+  for (const f of [v.g.icon, v.g.thumb, v.g.redeemImage, ...(v.g.redeemShots ?? []).map(x => x.file)]) {
     if (f) copy(path.join(IMAGES_DIR, f), `img/${f}`);
   }
   if (v.g.icon) write(v.icon.slice(1), await sharp(path.join(IMAGES_DIR, v.g.icon)).resize(128, 128).webp({ quality: 80 }).toBuffer());

@@ -185,6 +185,7 @@ ${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChanne
   <ol class="steps">
 ${g.redeem.map(s => `    <li>${esc(s)}</li>`).join('\n')}
   </ol>
+  ${(g.redeemShots ?? []).map(x => `<figure class="shot"><img src="/img/${esc(x.file)}" alt="${esc(x.caption)}" width="1280" height="720" loading="lazy" decoding="async"><figcaption>${esc(x.caption)} My screenshot${g.checkedInGame ? `, ${dateLong(g.checkedInGame)}` : ''}.</figcaption></figure>`).join('')}
   ${g.redeemImage ? `<figure class="shot"><img src="/img/${esc(g.redeemImage)}" alt="${esc(g.redeemCaption ?? `The code box in ${g.name}`)}" width="1280" height="720" loading="lazy" decoding="async"><figcaption>${esc(g.redeemCaption ?? `The code box in ${g.name}.`)} My screenshot${g.checkedInGame ? `, ${dateLong(g.checkedInGame)}` : ''}.</figcaption></figure>` : ''}
   <p class="tip">On a phone, tap the game's code box, then press and hold and choose Paste.${notWorking ? ` Code not working? <a href="${notWorking.path}">Here's why</a>.` : ''}${g.checkedInGame ? ` I checked these steps in-game on ${dateLong(g.checkedInGame)}.` : ''}</p>
 </section>
