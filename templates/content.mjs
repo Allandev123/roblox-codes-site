@@ -11,7 +11,10 @@ export const about = site => `
 <p>Hi, I'm ${esc(site.author.firstName)} — ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games, and nothing else: no scripts, no exploits, no "free Robux". Just the codes each game's developers have released, what they give, and where to type them.</p>
 
 <h2>Who I am</h2>
-<p>I've played Roblox since ${esc(site.author.robloxSince)} and make Roblox videos on my <a href="${esc(site.author.youtube)}" rel="noopener">YouTube channel</a>, mostly BedWars. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
+<p>I've played Roblox since ${esc(site.author.robloxSince)}. My favourite back then was Lumber Tycoon 2, and I've loved Roblox ever since. In 2018 I started my <a href="${esc(site.author.youtube)}" rel="noopener">YouTube channel</a>. Most of my videos ended up being about BedWars, and lately Rivals too. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
+
+<h2>Why I made this site</h2>
+<p>One thing always annoyed me: how hard it was to find Roblox codes that actually worked, or a quick guide that was easy to read. Too many code lists are full of dead codes, and too many guides take forever to get to the point. So I built this site for exactly that: working codes, short readable guides, and updates on what's new in the games people play.</p>
 
 <h2>How codes get here</h2>
 <ul>
