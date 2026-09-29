@@ -44,10 +44,36 @@ function gameTile(v, { lazy = true } = {}) {
 </a></li>`;
 }
 
+// A magazine-style post row: picture, kicker, title, short intro, byline.
+function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
+  return `<li><a class="post" href="${href}">
+    ${img ? `<img src="${esc(img)}" alt="" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    <span class="post-text">
+      <span class="kicker">${esc(kicker)}</span>
+      <h3>${esc(title)}</h3>
+      <span class="post-sum">${esc(text)}</span>
+      <span class="post-meta">${meta}</span>
+    </span>
+  </a></li>`;
+}
+const firstSentence = t => clipText((t ?? '').split('\n')[0].match(/^.*?[.!?](\s|$)/)?.[0] ?? t ?? '', 170);
+const clipText = (t, n) => (t.length <= n ? t.trim() : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
+
 export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   const a = site.author;
   const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
-  const recent = views.slice(0, 6);
+  // "Latest": newest game pages, with a guide or blog post every few rows
+  const articles = [...posts, ...guides].sort((x, y) => (y.updated ?? '').localeCompare(x.updated ?? ''));
+  const feed = [];
+  views.slice(0, 12).forEach((v, i) => {
+    feed.push({
+      href: v.path, img: v.thumb ?? v.iconLg, kicker: 'Roblox codes', title: v.h1,
+      text: firstSentence(v.g.notes),
+      meta: `${esc(a.name)} · ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'working code')}`,
+    });
+    const art = (i % 4 === 2) && articles.shift();
+    if (art) feed.push({ href: art.path, img: art.cover, kicker: art.section === 'blog' ? 'Devlog' : 'Guide', title: art.title, text: art.summary, meta: `${esc(a.name)} · ${art.minutes} min read` });
+  });
   const total = views.reduce((n, v) => n + v.live.length, 0);
   // newest codes across every game, one line each, biggest games first on a tie
   const playing = v => v.g.stats?.playing ?? 0;
@@ -70,12 +96,35 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   <ul class="mine"></ul>
 </section>
 
-<section id="recent" class="sec" aria-labelledby="recent-h">
-  <div class="sec-head"><h2 id="recent-h">Just updated</h2></div>
-  <ul class="tiles small">
-${recent.map(v => gameTile(v, { lazy: false }).replace('class="tile"', 'class="tile" data-skip')).join('\n')}
-  </ul>
-</section>
+<div class="mag">
+  <section class="mag-main" aria-labelledby="latest-h">
+    <div class="sec-head"><h2 id="latest-h">Latest</h2><a class="aside" href="#games">All ${views.length} games</a></div>
+    <ul class="posts">
+${feed.map((x, i) => postRow({ ...x, lazy: i > 1 })).join('\n')}
+    </ul>
+  </section>
+  <aside class="mag-side" aria-label="More">
+    <section class="side-box" aria-labelledby="ru-h">
+      <h2 id="ru-h">Recently updated</h2>
+      <ul class="side-list">
+${views.slice(0, 10).map(v => `        <li><a href="${v.path}"><b>${esc(v.g.name)} Codes (${esc(v.month)})</b><span>Updated ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'code')}</span></a></li>`).join('\n')}
+      </ul>
+    </section>
+    <section class="side-box" aria-labelledby="pop-h">
+      <h2 id="pop-h">Most played</h2>
+      <ol class="side-pop">
+${byPlayers.slice(0, 8).map(v => `        <li><a href="${v.path}"><img src="${v.icon}" alt="" width="36" height="36" loading="lazy"><span><b>${esc(v.g.name)}</b><span>${compact(v.g.stats?.playing ?? 0)} playing now</span></span></a></li>`).join('\n')}
+      </ol>
+    </section>
+    ${guides.length ? `<section class="side-box" aria-labelledby="sg-h">
+      <h2 id="sg-h">Guides</h2>
+      <ul class="side-list">
+${guides.slice(0, 5).map(gd => `        <li><a href="${gd.path}"><b>${esc(gd.short ?? gd.title)}</b><span>${gd.minutes} min read</span></a></li>`).join('\n')}
+      </ul>
+      <a class="side-more" href="/guides/">All guides</a>
+    </section>` : ''}
+  </aside>
+</div>
 
 <section id="newest" class="sec" aria-labelledby="newest-h">
   <div class="sec-head"><h2 id="newest-h">Newest codes</h2><a class="aside" href="/updates/">All code updates</a></div>
@@ -99,20 +148,6 @@ ${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
     <button type="button" class="btn" id="clear-q">Clear search</button>
   </div>
 </section>
-
-${guides.length ? `<section id="guides" class="sec" aria-labelledby="guides-h">
-  <div class="sec-head"><h2 id="guides-h">Help with codes</h2><a class="aside" href="/guides/">All guides</a></div>
-  <ul class="guide-cards">
-${guides.slice(0, 4).map(gd => `    <li><a href="${gd.path}"><b>${esc(gd.short ?? gd.title)}</b><span>${esc(gd.summary)}</span></a></li>`).join('\n')}
-  </ul>
-</section>` : ''}
-
-${posts.length ? `<section id="blog" class="sec" aria-labelledby="blog-h">
-  <div class="sec-head"><h2 id="blog-h">From my dev blog</h2><a class="aside" href="/blog/">All posts</a></div>
-  <ul class="cards">
-${posts.slice(0, 3).map(p => articleCard(p, {})).join('\n')}
-  </ul>
-</section>` : ''}
 
 <section id="how" class="sec run-by">
   <img src="/img/${esc(a.image)}" alt="" width="56" height="56" loading="lazy">
