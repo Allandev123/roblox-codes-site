@@ -1,0 +1,44 @@
+{
+  "slug": "immortality-incremental",
+  "name": "Immortality Incremental",
+  "robloxName": "[🏋️ WORLD 8 PT. 2] Immortality Incremental",
+  "placeId": 75317862071711,
+  "universeId": 9584946743,
+  "gameUrl": "https://www.roblox.com/games/75317862071711/Immortality-Incremental",
+  "creator": "Immortality Incremental",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "immortality-incremental-icon.webp",
+  "thumb": "immortality-incremental-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Immortality Incremental on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "RELEASE",
+      "reward": "Free Potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:44.702Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 4125,
+    "visits": 37022192,
+    "favorites": 285587,
+    "updated": "2026-09-27T22:08:14.136Z",
+    "created": "2026-01-18T18:09:14.383Z"
+  },
+  "added": "2026-09-29T16:13:44.702Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:44.702Z"
+}

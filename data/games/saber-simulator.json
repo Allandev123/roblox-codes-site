@@ -1,0 +1,44 @@
+{
+  "slug": "saber-simulator",
+  "name": "Saber Simulator",
+  "robloxName": "🩸 Saber Simulator",
+  "placeId": 3823781113,
+  "universeId": 1312971993,
+  "gameUrl": "https://www.roblox.com/games/3823781113/Saber-Simulator",
+  "creator": "HD Games.",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "saber-simulator-icon.webp",
+  "thumb": "saber-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Saber Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "FALL26",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:11.984Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1628,
+    "visits": 644167008,
+    "favorites": 2031908,
+    "updated": "2026-09-27T06:12:51.814Z",
+    "created": "2019-09-07T00:35:42.387Z"
+  },
+  "added": "2026-09-29T16:14:11.984Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:14:11.984Z"
+}

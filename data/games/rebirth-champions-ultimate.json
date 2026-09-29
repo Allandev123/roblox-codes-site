@@ -1,0 +1,44 @@
+{
+  "slug": "rebirth-champions-ultimate",
+  "name": "Rebirth Champions: Ultimate",
+  "robloxName": "[🍁] Rebirth Champions: Ultimate",
+  "placeId": 74260430392611,
+  "universeId": 7178032757,
+  "gameUrl": "https://www.roblox.com/games/74260430392611/Rebirth-Champions-Ultimate",
+  "creator": "Powerful Studio",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "rebirth-champions-ultimate-icon.webp",
+  "thumb": "rebirth-champions-ultimate-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Rebirth Champions: Ultimate on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "release",
+      "reward": "Free Boost in-game",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:38.732Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 5964,
+    "visits": 243856750,
+    "favorites": 152222,
+    "updated": "2026-09-27T13:59:21.405Z",
+    "created": "2025-02-01T08:45:07.927Z"
+  },
+  "added": "2026-09-29T16:13:38.732Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:38.732Z"
+}

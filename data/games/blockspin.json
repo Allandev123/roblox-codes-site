@@ -1,0 +1,44 @@
+{
+  "slug": "blockspin",
+  "name": "BlockSpin",
+  "robloxName": "BlockSpin 🔪 [WEATHER]",
+  "placeId": 104715542330896,
+  "universeId": 6765805766,
+  "gameUrl": "https://www.roblox.com/games/104715542330896/BlockSpin",
+  "creator": "Cinnamon Go!",
+  "genre": "Action",
+  "subgenre": "Open World Action",
+  "icon": "blockspin-icon.webp",
+  "thumb": "blockspin-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch BlockSpin on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "W7C28D",
+      "reward": "$500 free cash if you're a new player",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:13.775Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 20800,
+    "visits": 1259946492,
+    "favorites": 985406,
+    "updated": "2026-09-19T00:32:58.719Z",
+    "created": "2024-11-06T14:19:35.68Z"
+  },
+  "added": "2026-09-29T16:13:13.775Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:13.775Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "rbxcodeshq",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "scrape": "node scripts/scrape.mjs",
+    "review": "node scripts/review.mjs",
+    "publish": "node publish.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0",
+    "sharp": "^0.35.5"
+  }
+}

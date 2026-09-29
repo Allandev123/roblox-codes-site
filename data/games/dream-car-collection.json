@@ -1,0 +1,44 @@
+{
+  "slug": "dream-car-collection",
+  "name": "Dream Car Collection",
+  "robloxName": "[NEW] 💭Dream Car Collection",
+  "placeId": 76841016201110,
+  "universeId": 10667357873,
+  "gameUrl": "https://www.roblox.com/games/76841016201110/Dream-Car-Collection",
+  "creator": "F Students = Inventors",
+  "genre": "Simulation",
+  "subgenre": "Vehicle Sim",
+  "icon": "dream-car-collection-icon.webp",
+  "thumb": "dream-car-collection-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Dream Car Collection on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "LARP",
+      "reward": "Luck boost",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:28.540Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8961,
+    "visits": 5104433,
+    "favorites": 83999,
+    "updated": "2026-09-29T15:47:26.1525394Z",
+    "created": "2026-08-09T20:58:41.401Z"
+  },
+  "added": "2026-09-29T16:13:28.540Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:28.540Z"
+}

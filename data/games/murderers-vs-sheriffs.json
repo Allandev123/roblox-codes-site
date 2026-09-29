@@ -1,0 +1,44 @@
+{
+  "slug": "murderers-vs-sheriffs",
+  "name": "Murderers VS Sheriffs",
+  "robloxName": "[🌌DUELS] Murderers VS Sheriffs",
+  "placeId": 135856908115931,
+  "universeId": 7219654364,
+  "gameUrl": "https://www.roblox.com/games/135856908115931/Murderers-VS-Sheriffs",
+  "creator": "MVS Duels Community",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "murderers-vs-sheriffs-icon.webp",
+  "thumb": "murderers-vs-sheriffs-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Murderers VS Sheriffs on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "1BVISITS",
+      "reward": "Free knife",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:12.153Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 31670,
+    "visits": 1841208999,
+    "favorites": 16668654,
+    "updated": "2026-09-28T16:04:29.5459091Z",
+    "created": "2025-02-09T12:47:47.52Z"
+  },
+  "added": "2026-09-29T16:13:12.153Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:12.153Z"
+}

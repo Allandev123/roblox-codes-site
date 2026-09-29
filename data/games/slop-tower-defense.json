@@ -1,0 +1,44 @@
+{
+  "slug": "slop-tower-defense",
+  "name": "Slop Tower Defense!",
+  "robloxName": "[💀BACKROOMS💀] Slop Tower Defense! 💔",
+  "placeId": 134459712190924,
+  "universeId": 10529769390,
+  "gameUrl": "https://www.roblox.com/games/134459712190924/Slop-Tower-Defense",
+  "creator": "Slop TD!",
+  "genre": "Strategy",
+  "subgenre": "Tower Defense",
+  "icon": "slop-tower-defense-icon.webp",
+  "thumb": "slop-tower-defense-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Slop Tower Defense! on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "SLOP",
+      "reward": "Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:25.213Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 10300,
+    "visits": 17840011,
+    "favorites": 13742,
+    "updated": "2026-09-29T11:49:59.0652015Z",
+    "created": "2026-07-19T09:49:58.806Z"
+  },
+  "added": "2026-09-29T16:13:25.213Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:25.213Z"
+}

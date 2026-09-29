@@ -1,0 +1,44 @@
+{
+  "slug": "collect-all-pets",
+  "name": "Collect All Pets!",
+  "robloxName": "Collect All Pets!",
+  "placeId": 8884433153,
+  "universeId": 3359505957,
+  "gameUrl": "https://www.roblox.com/games/8884433153/Collect-All-Pets",
+  "creator": "TwoZoos",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "collect-all-pets-icon.webp",
+  "thumb": "collect-all-pets-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Collect All Pets! on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "FirstCodeEver",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:46.310Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 3152,
+    "visits": 210075254,
+    "favorites": 328676,
+    "updated": "2026-09-21T05:06:09.026Z",
+    "created": "2022-02-20T17:07:04.26Z"
+  },
+  "added": "2026-09-29T16:13:46.310Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:46.310Z"
+}

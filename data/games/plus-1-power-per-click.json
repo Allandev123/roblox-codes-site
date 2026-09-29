@@ -1,0 +1,94 @@
+{
+  "slug": "plus-1-power-per-click",
+  "name": "+1 Power Per Click",
+  "robloxName": "[X3] +1 Power Per Click ",
+  "placeId": 74889851913797,
+  "universeId": 10485201326,
+  "gameUrl": "https://www.roblox.com/games/74889851913797/1-Power-Per-Click",
+  "creator": "67 POWER",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-power-per-click-icon.webp",
+  "thumb": "plus-1-power-per-click-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 Power Per Click on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "2XALL",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "RIFT",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "JUNGLE",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "TITLELUCK",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "WORLD6",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "TEMPLE",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:50.695Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 2944,
+    "visits": 16998634,
+    "favorites": 513503,
+    "updated": "2026-09-29T16:11:25.0365489Z",
+    "created": "2026-07-11T13:59:06.188Z"
+  },
+  "added": "2026-09-29T16:13:50.695Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:50.695Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "tower-defense-simulator",
+  "name": "Tower Defense Simulator",
+  "robloxName": "[🪓EXE REWORK] Tower Defense Simulator",
+  "placeId": 3260590327,
+  "universeId": 1176784616,
+  "gameUrl": "https://www.roblox.com/games/3260590327/Tower-Defense-Simulator",
+  "creator": "Paradoxum Games",
+  "genre": "Strategy",
+  "subgenre": "Tower Defense",
+  "icon": "tower-defense-simulator-icon.webp",
+  "thumb": "tower-defense-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Tower Defense Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "2MILLION",
+      "reward": "Free Mercenary Pursuit skin",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:21.903Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 12504,
+    "visits": 4991302701,
+    "favorites": 3511073,
+    "updated": "2026-09-25T17:14:47.911Z",
+    "created": "2019-06-05T04:21:45.977Z"
+  },
+  "added": "2026-09-29T16:13:21.903Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:21.903Z"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "2-player-raid-tycoon",
+  "name": "2 Player Raid Tycoon",
+  "robloxName": "[🚀] 2 Player Raid Tycoon",
+  "placeId": 126710589265077,
+  "universeId": 10765167636,
+  "gameUrl": "https://www.roblox.com/games/126710589265077/2-Player-Raid-Tycoon",
+  "creator": "STRAY FRAME",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "2-player-raid-tycoon-icon.webp",
+  "thumb": "2-player-raid-tycoon-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch 2 Player Raid Tycoon on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "TY5500",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:40.375Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "LAUNCH",
+      "reward": "EARLY PERKS",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:40.375Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 5087,
+    "visits": 4058670,
+    "favorites": 25327,
+    "updated": "2026-09-29T13:21:53.1580371Z",
+    "created": "2026-09-05T01:40:15.35Z"
+  },
+  "added": "2026-09-29T16:13:40.375Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:40.375Z"
+}

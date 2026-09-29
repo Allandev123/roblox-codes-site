@@ -1,0 +1,44 @@
+{
+  "slug": "gym-star-simulator",
+  "name": "Gym Star Simulator",
+  "robloxName": "Gym Star Simulator 🏋️",
+  "placeId": 70906625936847,
+  "universeId": 6443367640,
+  "gameUrl": "https://www.roblox.com/games/70906625936847/Gym-Star-Simulator",
+  "creator": "Gym Simulator Club",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "gym-star-simulator-icon.webp",
+  "thumb": "gym-star-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Gym Star Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "SPACEFORCE",
+      "reward": "1250x FREE Gym Tokens",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:35.455Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8032,
+    "visits": 710475699,
+    "favorites": 6928733,
+    "updated": "2026-09-28T10:43:19.1876743Z",
+    "created": "2024-08-20T06:12:32.837Z"
+  },
+  "added": "2026-09-29T16:13:35.455Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:35.455Z"
+}

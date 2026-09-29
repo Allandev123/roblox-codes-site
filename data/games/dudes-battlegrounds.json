@@ -1,0 +1,74 @@
+{
+  "slug": "dudes-battlegrounds",
+  "name": "Dudes Battlegrounds",
+  "robloxName": "Dudes Battlegrounds",
+  "placeId": 14835828495,
+  "universeId": 5112244393,
+  "gameUrl": "https://www.roblox.com/games/14835828495/Dudes-Battlegrounds",
+  "creator": "Fantastic! Games",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "dudes-battlegrounds-icon.webp",
+  "thumb": "dudes-battlegrounds-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Dudes Battlegrounds on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "UPD72",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:54.726Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "2MFAVS",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:54.726Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "190KLIKES",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:54.726Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "2MGROUP",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:54.726Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 2268,
+    "visits": 401695795,
+    "favorites": 2891593,
+    "updated": "2026-09-26T15:52:41.884Z",
+    "created": "2023-09-21T06:28:35.55Z"
+  },
+  "added": "2026-09-29T16:13:54.726Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:54.726Z"
+}

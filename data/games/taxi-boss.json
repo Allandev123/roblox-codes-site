@@ -1,0 +1,54 @@
+{
+  "slug": "taxi-boss",
+  "name": "Taxi Boss",
+  "robloxName": "Taxi Boss 🚖",
+  "placeId": 7305309231,
+  "universeId": 2851381018,
+  "gameUrl": "https://www.roblox.com/games/7305309231/Taxi-Boss",
+  "creator": "Taxi Boss Group",
+  "genre": "Simulation",
+  "subgenre": "Vehicle Sim",
+  "icon": "taxi-boss-icon.webp",
+  "thumb": "taxi-boss-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Taxi Boss on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "THX600K",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:23.503Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "START",
+      "reward": "1000 bucks",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:23.503Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 10619,
+    "visits": 858017617,
+    "favorites": 1434174,
+    "updated": "2026-09-24T14:30:17.193Z",
+    "created": "2021-08-22T14:37:42.743Z"
+  },
+  "added": "2026-09-29T16:13:23.503Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:23.503Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "drag-drive-simulator",
+  "name": "Drag Drive Simulator",
+  "robloxName": "(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator",
+  "placeId": 131378148336503,
+  "universeId": 7089588429,
+  "gameUrl": "https://www.roblox.com/games/131378148336503/Drag-Drive-Simulator",
+  "creator": "ADV Gamers Team",
+  "genre": "Simulation",
+  "subgenre": "Vehicle Sim",
+  "icon": "drag-drive-simulator-icon.webp",
+  "thumb": "drag-drive-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Drag Drive Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "DRAGDRIVESIMULATORSEPTEMBER26",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:20.290Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 12316,
+    "visits": 605491252,
+    "favorites": 3046064,
+    "updated": "2026-09-28T20:46:14.6635053Z",
+    "created": "2025-01-15T08:10:40.233Z"
+  },
+  "added": "2026-09-29T16:13:20.290Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:20.290Z"
+}

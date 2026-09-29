@@ -1,0 +1,44 @@
+{
+  "slug": "anime-fighting-simulator",
+  "name": "Anime Fighting Simulator",
+  "robloxName": "[🍀DIMENSION 3!] Anime Fighting Simulator",
+  "placeId": 100429474155186,
+  "universeId": 10321202755,
+  "gameUrl": "https://www.roblox.com/games/100429474155186/Anime-Fighting-Simulator",
+  "creator": "Anime Fighting Simulator | BZ",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "anime-fighting-simulator-icon.webp",
+  "thumb": "anime-fighting-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Anime Fighting Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "CLOVERPASS",
+      "reward": "FREE rewards",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:30.684Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8638,
+    "visits": 51910594,
+    "favorites": 478744,
+    "updated": "2026-09-29T03:40:34.5553496Z",
+    "created": "2026-06-13T17:13:16.808Z"
+  },
+  "added": "2026-09-29T16:13:30.684Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:30.684Z"
+}

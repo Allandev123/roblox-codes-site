@@ -1,0 +1,44 @@
+{
+  "slug": "squid-game-x",
+  "name": "Squid Game X",
+  "robloxName": "[🪑MUSICAL CHAIRS] Squid Game X",
+  "placeId": 7554888362,
+  "universeId": 2936053166,
+  "gameUrl": "https://www.roblox.com/games/7554888362/Squid-Game-X",
+  "creator": "redifi",
+  "genre": "Party & Casual",
+  "subgenre": "Minigame",
+  "icon": "squid-game-x-icon.webp",
+  "thumb": "squid-game-x-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Squid Game X on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "$1.2M",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:15.443Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 14260,
+    "visits": 2256208187,
+    "favorites": 1849016,
+    "updated": "2026-09-27T20:00:40.475Z",
+    "created": "2021-09-24T23:38:34.723Z"
+  },
+  "added": "2026-09-29T16:13:15.443Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:15.443Z"
+}

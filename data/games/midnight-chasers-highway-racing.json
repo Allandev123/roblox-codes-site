@@ -1,0 +1,44 @@
+{
+  "slug": "midnight-chasers-highway-racing",
+  "name": "Midnight Chasers: Highway Racing",
+  "robloxName": "[🌴NEW MAP]🚗Midnight Chasers: Highway Racing",
+  "placeId": 13822562292,
+  "universeId": 4793836769,
+  "gameUrl": "https://www.roblox.com/games/13822562292/Midnight-Chasers-Highway-Racing",
+  "creator": "Midnight In-dev",
+  "genre": "Simulation",
+  "subgenre": "Vehicle Sim",
+  "icon": "midnight-chasers-highway-racing-icon.webp",
+  "thumb": "midnight-chasers-highway-racing-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Midnight Chasers: Highway Racing on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "ThanksFor980k",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:42.003Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 4310,
+    "visits": 314174792,
+    "favorites": 6615028,
+    "updated": "2026-09-26T21:55:47.788Z",
+    "created": "2023-06-21T21:07:05.223Z"
+  },
+  "added": "2026-09-29T16:13:42.003Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:42.003Z"
+}

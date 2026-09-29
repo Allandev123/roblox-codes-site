@@ -1,0 +1,104 @@
+{
+  "slug": "roll-a-fisherman",
+  "name": "Roll a Fisherman",
+  "robloxName": "[SEALS]🎣 Roll a Fisherman",
+  "placeId": 90920025162454,
+  "universeId": 10636331438,
+  "gameUrl": "https://www.roblox.com/games/90920025162454/Roll-a-Fisherman",
+  "creator": "FISH X SPEEDI",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "roll-a-fisherman-icon.webp",
+  "thumb": "roll-a-fisherman-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Roll a Fisherman on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "RELEASE",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "UPDATE1",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "UPDATE2",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "GOLD",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "UPGRADES",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "FISHING",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "SEAL",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8405,
+    "visits": 4300556,
+    "favorites": 164084,
+    "updated": "2026-09-29T11:32:11.8438396Z",
+    "created": "2026-08-05T14:47:20.106Z"
+  },
+  "added": "2026-09-29T16:13:32.278Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:32.278Z"
+}

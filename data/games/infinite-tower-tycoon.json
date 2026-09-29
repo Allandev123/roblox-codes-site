@@ -1,0 +1,44 @@
+{
+  "slug": "infinite-tower-tycoon",
+  "name": "Infinite Tower Tycoon",
+  "robloxName": "Infinite Tower Tycoon",
+  "placeId": 10272636261,
+  "universeId": 3759884822,
+  "gameUrl": "https://www.roblox.com/games/10272636261/Infinite-Tower-Tycoon",
+  "creator": "azertytrezazerti",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "infinite-tower-tycoon-icon.webp",
+  "thumb": "infinite-tower-tycoon-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Infinite Tower Tycoon on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "premium",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:06.390Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1724,
+    "visits": 139734204,
+    "favorites": 125498,
+    "updated": "2026-09-16T09:45:44.626Z",
+    "created": "2022-07-18T18:56:43.257Z"
+  },
+  "added": "2026-09-29T16:14:06.390Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:14:06.390Z"
+}

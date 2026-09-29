@@ -1,0 +1,44 @@
+{
+  "slug": "merge-a-nuke",
+  "name": "Merge a Nuke!",
+  "robloxName": "[UPD☢️] Merge a Nuke!",
+  "placeId": 128784467030899,
+  "universeId": 10199301628,
+  "gameUrl": "https://www.roblox.com/games/128784467030899/Merge-a-Nuke",
+  "creator": "Nuke The Game",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "merge-a-nuke-icon.webp",
+  "thumb": "merge-a-nuke-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Merge a Nuke! on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "BOOM",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:33.869Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8151,
+    "visits": 431087605,
+    "favorites": 2037305,
+    "updated": "2026-09-26T21:01:13.901Z",
+    "created": "2026-05-21T13:45:07.797Z"
+  },
+  "added": "2026-09-29T16:13:33.869Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:33.869Z"
+}

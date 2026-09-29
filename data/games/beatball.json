@@ -1,0 +1,54 @@
+{
+  "slug": "beatball",
+  "name": "Beatball",
+  "robloxName": "[MAPS] Beatball",
+  "placeId": 105452889569708,
+  "universeId": 10370802481,
+  "gameUrl": "https://www.roblox.com/games/105452889569708/Beatball",
+  "creator": "Lucentum Games",
+  "genre": "Sports & Racing",
+  "subgenre": "Sports",
+  "icon": "beatball-icon.webp",
+  "thumb": "beatball-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Beatball on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "LIKETHEGAME",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:00.591Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "FUNNYBUBBLE",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:00.591Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1981,
+    "visits": 108707893,
+    "favorites": 323291,
+    "updated": "2026-09-28T08:38:18.0679808Z",
+    "created": "2026-06-21T16:53:57.412Z"
+  },
+  "added": "2026-09-29T16:14:00.591Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:14:00.591Z"
+}

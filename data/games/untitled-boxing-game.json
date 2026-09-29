@@ -1,0 +1,84 @@
+{
+  "slug": "untitled-boxing-game",
+  "name": "untitled boxing game",
+  "robloxName": "[DEIMOS👹] untitled boxing game 🥊",
+  "placeId": 13621938427,
+  "universeId": 4730278139,
+  "gameUrl": "https://www.roblox.com/games/13621938427/untitled-boxing-game",
+  "creator": "drowningsome",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "untitled-boxing-game-icon.webp",
+  "thumb": "untitled-boxing-game-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch untitled boxing game on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "deimos",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "terror",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "3years",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "lynn",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "justtakethecash",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 8839,
+    "visits": 1449416267,
+    "favorites": 1362934,
+    "updated": "2026-09-27T01:58:14.813Z",
+    "created": "2023-06-02T00:43:44.32Z"
+  },
+  "added": "2026-09-29T16:13:26.811Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:26.811Z"
+}

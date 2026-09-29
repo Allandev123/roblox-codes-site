@@ -1,0 +1,64 @@
+{
+  "slug": "retro-tower-defense",
+  "name": "Retro Tower Defense",
+  "robloxName": "Retro Tower Defense",
+  "placeId": 98936097545088,
+  "universeId": 7738524573,
+  "gameUrl": "https://www.roblox.com/games/98936097545088/Retro-Tower-Defense",
+  "creator": "Plaything Games",
+  "genre": "Strategy",
+  "subgenre": "Tower Defense",
+  "icon": "retro-tower-defense-icon.webp",
+  "thumb": "retro-tower-defense-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Retro Tower Defense on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "FREETIX",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:03.031Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "RETRO",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: Use RETRO, FREETIX, or NEW"
+    },
+    {
+      "code": "NEW",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": "Codes: Use RETRO, FREETIX, or NEW"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1861,
+    "visits": 173866354,
+    "favorites": 166713,
+    "updated": "2026-09-25T17:05:06.31Z",
+    "created": "2025-05-20T16:48:11.753Z"
+  },
+  "added": "2026-09-29T16:14:03.031Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:14:03.031Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "anime-astral-simulator",
+  "name": "Anime Astral Simulator",
+  "robloxName": "[GUILDS] Anime Astral Simulator",
+  "placeId": 102072869879193,
+  "universeId": 10502841145,
+  "gameUrl": "https://www.roblox.com/games/102072869879193/Anime-Astral-Simulator",
+  "creator": "StarX Inc",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "anime-astral-simulator-icon.webp",
+  "thumb": "anime-astral-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Anime Astral Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "Release",
+      "reward": "FREE Boosts",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:17.066Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 12994,
+    "visits": 98341927,
+    "favorites": 123486,
+    "updated": "2026-09-29T05:57:32.5542405Z",
+    "created": "2026-07-14T15:26:28.559Z"
+  },
+  "added": "2026-09-29T16:13:17.066Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:17.066Z"
+}

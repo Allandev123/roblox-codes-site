@@ -1,0 +1,64 @@
+{
+  "slug": "dog-race",
+  "name": "Dog Race",
+  "robloxName": "[⏰ Event] Dog Race 🐕💨",
+  "placeId": 119609933650338,
+  "universeId": 10350558449,
+  "gameUrl": "https://www.roblox.com/games/119609933650338/Dog-Race",
+  "creator": "Zoo Race Club",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "dog-race-icon.webp",
+  "thumb": "dog-race-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Dog Race on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "DOG",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:09.459Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "WEEKEND",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:14:09.459Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "NEW",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": "New Code: NEW, DOG, WEEKEND"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1713,
+    "visits": 28895390,
+    "favorites": 600955,
+    "updated": "2026-08-14T09:36:54.643Z",
+    "created": "2026-06-18T13:04:08.603Z"
+  },
+  "added": "2026-09-29T16:14:09.459Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:14:09.459Z"
+}

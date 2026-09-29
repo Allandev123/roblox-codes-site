@@ -1,0 +1,44 @@
+{
+  "slug": "blue-lock-farm",
+  "name": "Blue Lock Farm",
+  "robloxName": "[⚽] Blue Lock Farm",
+  "placeId": 132767904294856,
+  "universeId": 10700618962,
+  "gameUrl": "https://www.roblox.com/games/132767904294856/Blue-Lock-Farm",
+  "creator": "Finding Illusions",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "blue-lock-farm-icon.webp",
+  "thumb": "blue-lock-farm-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Blue Lock Farm on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "WEATHER",
+      "reward": "Free loot",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:18.667Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 12886,
+    "visits": 3777881,
+    "favorites": 125024,
+    "updated": "2026-09-28T22:31:05.8976732Z",
+    "created": "2026-08-14T03:23:16.584Z"
+  },
+  "added": "2026-09-29T16:13:18.667Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:18.667Z"
+}

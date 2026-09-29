@@ -1,0 +1,44 @@
+{
+  "slug": "case-simulator-rng",
+  "name": "Case Simulator RNG",
+  "robloxName": "[💎UPD] Case Simulator RNG",
+  "placeId": 125906853713277,
+  "universeId": 8829204428,
+  "gameUrl": "https://www.roblox.com/games/125906853713277/Case-Simulator-RNG",
+  "creator": "games by cool people",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "case-simulator-rng-icon.webp",
+  "thumb": "case-simulator-rng-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Case Simulator RNG on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "120KLIKES",
+      "reward": "Trait rolls (bottom of shop)",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:56.369Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 2245,
+    "visits": 7744770,
+    "favorites": 140671,
+    "updated": "2026-09-28T21:08:01.9810041Z",
+    "created": "2025-09-29T04:42:35.12Z"
+  },
+  "added": "2026-09-29T16:13:56.369Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:56.369Z"
+}

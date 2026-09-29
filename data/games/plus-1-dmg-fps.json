@@ -1,0 +1,44 @@
+{
+  "slug": "plus-1-dmg-fps",
+  "name": "+1 DMG FPS",
+  "robloxName": "+1 DMG FPS",
+  "placeId": 100753254401525,
+  "universeId": 10717002748,
+  "gameUrl": "https://www.roblox.com/games/100753254401525/1-DMG-FPS",
+  "creator": "Mappy Tappy",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-dmg-fps-icon.webp",
+  "thumb": "plus-1-dmg-fps-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 DMG FPS on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "AA2026",
+      "reward": "Exclusive GIFT",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:37.053Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 6389,
+    "visits": 6790611,
+    "favorites": 292853,
+    "updated": "2026-09-29T03:39:46.6445476Z",
+    "created": "2026-08-15T22:24:52.952Z"
+  },
+  "added": "2026-09-29T16:13:37.053Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:37.053Z"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "bubble-gum-simulator",
+  "name": "Bubble Gum Simulator",
+  "robloxName": "[🍁PT2] Bubble Gum Simulator",
+  "placeId": 2512643572,
+  "universeId": 892043755,
+  "gameUrl": "https://www.roblox.com/games/2512643572/Bubble-Gum-Simulator",
+  "creator": "Rumble Studios",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "bubble-gum-simulator-icon.webp",
+  "thumb": "bubble-gum-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Bubble Gum Simulator on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [
+    {
+      "code": "FallPart2",
+      "reward": "4 Hours of 2x Luck & 2x Hatch Speed",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:47.948Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    },
+    {
+      "code": "Wayfarer",
+      "reward": "4 Hours of 2x Luck & 2x Hatch Speed",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:13:47.948Z",
+      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "source": "description",
+      "approved": false,
+      "context": ""
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 3053,
+    "visits": 1251393479,
+    "favorites": 3320256,
+    "updated": "2026-09-25T17:40:18.265Z",
+    "created": "2018-10-23T13:18:21.007Z"
+  },
+  "added": "2026-09-29T16:13:47.948Z",
+  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChanged": "2026-09-29T16:13:47.948Z"
+}

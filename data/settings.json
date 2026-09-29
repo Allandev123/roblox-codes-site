@@ -1,0 +1,23 @@
+{
+  "siteName": "RBXCodesHQ",
+  "url": "https://rbxcodeshq.com",
+  "tagline": "Working Roblox codes, checked every few hours",
+  "description": "Working Roblox game codes, checked against each game's official page every few hours. New codes show up here within hours, with rewards and redeem steps.",
+  "contactEmail": "hello@rbxcodeshq.com",
+  "analyticsId": "",
+  "adsense": {
+    "client": "",
+    "slots": {
+      "afterCodes": "",
+      "inContent": "",
+      "bottom": ""
+    }
+  },
+  "indexnow": {
+    "enabled": false,
+    "key": "27c006929c2dfd6831bd7e62bdcc91c5"
+  },
+  "newCodeDays": 3,
+  "relatedCount": 6,
+  "privacyUpdated": "September 29, 2026"
+}
