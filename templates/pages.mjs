@@ -165,7 +165,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
 ${v.live.map(c => codeRow(c, v.isNew(c))).join('\n')}
   </ul>
   <p class="note">${source}. Capital letters matter, so tap Copy.</p>
-${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChannels.replace(/\.$/, ''))}.</p>
+${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChannels.replace(/\.$/, '').replace(/^The /, 'the '))}.</p>
 ` : ''}${g.requirement ? `  <p class="req"><strong>Before you redeem:</strong> ${esc(g.requirement)}</p>
 ` : ''}  <div class="next-step">
     <a class="btn" href="${esc(g.gameUrl)}" rel="noopener" target="_blank">${ICONS.play} Open ${esc(g.name)}<span class="sr-only"> on Roblox (opens in a new tab)</span></a>
