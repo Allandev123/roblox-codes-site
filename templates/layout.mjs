@@ -94,21 +94,38 @@ ${body}
 </main>
 <p id="live" class="sr-only" role="status" aria-live="polite"></p>
 <footer class="foot">
-  <div class="wrap">
-    <p class="sig"><img src="/img/${esc(a.image.replace(/\.webp$/, '-64.webp'))}" alt="" width="44" height="44" loading="lazy">
-      <span>Made by <a href="/author/${esc(a.slug)}/">${esc(a.firstName)}</a>, a Roblox player since ${esc(a.robloxSince)}. Say hi on <a href="${esc(a.youtube)}" rel="noopener">YouTube</a>.</span></p>
-    <nav aria-label="Footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="/"><img class="mark" src="/logo-64.png" alt="" width="32" height="32" loading="lazy"><span>RBXCodes<b>HQ</b></span></a>
+      <p class="foot-tag">Working Roblox codes, checked every 3 hours</p>
+      <p>Free codes for ${site.gameCount ?? 'your favourite'} Roblox games, with where to type them and what they give. Made by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox player since ${esc(a.robloxSince)}.</p>
+      <p class="foot-social">
+        <a href="${esc(a.youtube)}" rel="noopener" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.9 3z"/></svg></a>
+        ${a.roblox ? `<a href="${esc(a.roblox)}" rel="noopener" aria-label="Roblox profile"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 1 1 18.8 18.8 23 23 5.2zm8.3 14.5-5-1.2 1.2-5 5 1.2z"/></svg></a>` : ''}
+        <a href="/contact/" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
+      </p>
+    </div>
+    <nav class="foot-col" aria-labelledby="fc-games"><h2 id="fc-games">Popular codes</h2>
+      ${(site.footerGames ?? []).map(g => `<a href="${g.path}">${esc(g.name)} codes</a>`).join('\n      ')}
       <a href="/#games">All games</a>
-      ${site.hasGuides ? '<a href="/guides/">Guides</a>' : ''}
-      ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
+    </nav>
+    <nav class="foot-col" aria-labelledby="fc-read"><h2 id="fc-read">Guides and news</h2>
+      ${site.hasGuides ? '<a href="/guides/">All guides</a>' : ''}
+      <a href="/guides/how-to-redeem/">How to redeem codes</a>
+      <a href="/guides/roblox-code-not-working/">Code not working?</a>
       ${site.hasBlog ? '<a href="/blog/">Dev blog</a>' : ''}
-      <a href="/how-we-check-codes/">How I check codes</a>
+      ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
+    </nav>
+    <nav class="foot-col" aria-labelledby="fc-site"><h2 id="fc-site">Site</h2>
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
+      <a href="/how-we-check-codes/">How I check codes</a>
+      <a href="/author/${esc(a.slug)}/">About the author</a>
     </nav>
-    <p class="fine">${esc(site.siteName)} is a fan site. It isn't made by, or connected to, Roblox Corporation.</p>
+  </div>
+  <div class="wrap foot-bar">
+    <p>© ${new Date().getFullYear()} ${esc(site.siteName)}. A fan site, not made by or connected to Roblox Corporation.</p>
+    <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclaimer/">Disclaimer</a><a href="#top">Back to top ↑</a></nav>
   </div>
 </footer>
 <a class="to-top" href="#top" aria-label="Back to top" hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>

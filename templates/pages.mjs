@@ -59,6 +59,17 @@ function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
 const firstSentence = t => clipText((t ?? '').split('\n')[0].match(/^.*?[.!?](\s|$)/)?.[0] ?? t ?? '', 170);
 const clipText = (t, n) => (t.length <= n ? t.trim() : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
+// Home page FAQ. Answers are HTML (they link to other pages).
+export const HOME_FAQ = (site, games) => [
+  { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. It never asks for your Roblox password, and there's nothing to download. If any site asks for your password or a "verification" to get a code, it's a scam. <a href="/guides/free-robux-codes-scams/">How to spot those</a>.` },
+  { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games post on Discord or X, I add and recheck myself. <a href="/how-we-check-codes/">How I check codes</a>.` },
+  { q: "Why isn't a code working for me?", a: `Usually it's a typo, capital letters, a code you already used, or a game that needs you to reach a level or join a group first. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
+  { q: 'Are there codes for free Robux?', a: `No. Game codes give items inside that game, like gems, boosts or pets. Robux only comes from Roblox itself, and "free Robux codes" are always scams.` },
+  { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place, just tap instead of click.` },
+  { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add more every week. <a href="/contact/">Send me its name or Roblox link</a>.` },
+  { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>, a Roblox player since ${esc(site.author.robloxSince)} and YouTuber. It's a fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
+];
+
 export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   const a = site.author;
   const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
@@ -148,6 +159,13 @@ ${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
   <div class="empty" id="no-results" hidden>
     <p>That game isn't on the site yet. <a href="/contact/">Tell me which one</a> and I'll look for its codes.</p>
     <button type="button" class="btn" id="clear-q">Clear search</button>
+  </div>
+</section>
+
+<section id="faq" class="sec" aria-labelledby="faq-h">
+  <h2 id="faq-h">Common questions</h2>
+  <div class="faq-list">
+${HOME_FAQ(site, views.length).map(f => `  <div class="qa"><h3>${esc(f.q)}</h3><p>${f.a}</p></div>`).join('\n')}
   </div>
 </section>
 

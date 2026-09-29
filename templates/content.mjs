@@ -128,6 +128,29 @@ ${ga ? `<h2>Analytics</h2>
 `;
 };
 
+export const disclaimer = (site, updated) => `
+<p><em>Last updated: ${esc(updated)}</em></p>
+<p>${esc(site.siteName)} is a free fan site about Roblox game codes. Please read this before relying on anything here.</p>
+
+<h2>Not affiliated with Roblox</h2>
+<p>${esc(site.siteName)} is independent. It is not made by, affiliated with, endorsed by or sponsored by Roblox Corporation or any game developer. Roblox, the Roblox logo and the names of Roblox games are trademarks of their owners.</p>
+
+<h2>Codes can stop working at any time</h2>
+<p>Every code on this site comes from the game's developers, who decide when it starts, what it gives and when it ends. I check the games' own pages every few hours and recheck codes posted elsewhere by hand, but a code can expire between checks, be limited to new players, or only work once per account. Rewards are listed as the developers describe them. Nothing here is a promise that a code will work for you.</p>
+
+<h2>Game names and pictures</h2>
+<p>Game icons, thumbnails and names belong to their creators and are shown only to identify which game a page is about. Screenshots marked "my screenshot" were taken by me while playing. Guides and devlogs about +1 Nose to Escape are about my own game.</p>
+
+<h2>How the pages are written</h2>
+<p>I write and check the pages myself, and use AI tools to help with research and drafts. Everything is edited by me before it's published. If you spot a mistake, <a href="/contact/">tell me</a> and I'll fix it.</p>
+
+<h2>Ads and links</h2>
+<p>The site may show ads to pay for itself. I don't use affiliate links and nobody pays to have a game or code listed. Links to other sites, like a game's Roblox page or a developer's Discord, go to places I don't control.</p>
+
+<h2>Copyright and removal requests</h2>
+<p>If you own a game, picture or text on this site and want it changed or removed, email <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a> with the page link and what you'd like changed. I reply quickly and remove content that shouldn't be here.</p>
+`;
+
 export const terms = (site, updated) => `
 <p><em>Last updated: ${esc(updated)}</em></p>
 <p>By using ${esc(site.siteName)} (${host(site)}) you agree to these terms. They're short because the site is simple.</p>

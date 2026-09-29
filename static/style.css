@@ -282,11 +282,25 @@ main.wrap { padding-top: 28px; padding-bottom: 8px; }
 
 /* ---------- footer ---------- */
 .foot { margin-top: 72px; padding: 32px 0 48px; background: var(--tint); border-top: 1px solid var(--rule); font-size: .92rem; color: var(--muted); }
-.sig { display: flex; gap: 12px; align-items: center; margin: 0 0 14px; color: var(--ink); font-size: 1rem; line-height: 1.5; }
-.sig img { flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--accent-soft); border: 1px solid var(--rule); }
-.foot nav { display: flex; flex-wrap: wrap; margin: 0 0 10px -10px; }
-.foot nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; color: var(--ink); }
-.foot .fine { margin: 0; font-size: .85rem; }
+.foot-grid { display: grid; gap: 28px 32px; grid-template-columns: 1fr 1fr; }
+.foot-brand { grid-column: 1 / -1; max-width: 420px; }
+.foot-brand .brand { color: var(--ink); }
+.foot-brand p { margin: 8px 0 0; line-height: 1.6; }
+.foot-brand a:not(.brand) { color: var(--ink); }
+.foot-tag { font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-text) !important; }
+.foot-social { display: flex; gap: 8px; margin-top: 14px !important; }
+.foot-social a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--raised); border: 1px solid var(--rule); color: var(--ink); }
+.foot-social a:hover { border-color: var(--accent); color: var(--accent-text); }
+.foot-col { display: flex; flex-direction: column; align-items: flex-start; }
+.foot-col h2 { margin: 0 0 6px; font-family: var(--sans); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-text); }
+.foot-col a { display: inline-flex; align-items: center; min-height: 36px; color: var(--ink); text-decoration: none; }
+.foot-col a:hover { text-decoration: underline; }
+.foot-bar { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: space-between; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: .85rem; }
+.foot-bar p { margin: 0; }
+.foot-bar nav { display: flex; flex-wrap: wrap; gap: 0 18px; }
+.foot-bar nav a { display: inline-flex; align-items: center; min-height: 40px; color: var(--muted); }
+.foot-bar nav a:hover { color: var(--ink); }
+@media (min-width: 900px) { .foot-grid { grid-template-columns: 1.6fr 1fr 1fr 1fr; } .foot-brand { grid-column: auto; } }
 
 @media (min-width: 720px) {
   body { font-size: 1.125rem; }
@@ -487,3 +501,16 @@ main.wrap:has(.hub-head) { max-width: 1200px; }
 /* jump links (Games, All games, How to redeem) glide instead of snapping */
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 section[id], h2[id] { scroll-margin-top: 16px; }
+
+/* footer spans the same width as the home page */
+.foot .wrap { max-width: 1200px; }
+.foot-col a { line-height: 1.35; }
+
+/* home FAQ as cards */
+#faq .faq-list { display: grid; gap: 12px; }
+#faq .qa { margin: 0; padding: 16px 18px; background: var(--raised); border: 1px solid var(--rule); border-radius: 14px; }
+#faq .qa h3 { margin: 0 0 6px; font-size: 1.05rem; }
+#faq .qa p { margin: 0; color: var(--muted); line-height: 1.6; }
+#faq .qa p a { color: var(--ink); }
+@media (min-width: 900px) { #faq .faq-list { grid-template-columns: 1fr 1fr; } }
+#faq .qa:first-of-type { border-top: 1px solid var(--rule); }

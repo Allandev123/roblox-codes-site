@@ -15,7 +15,7 @@ import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
 import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
-import { about, method, contact, privacy, terms } from './templates/content.mjs';
+import { about, method, contact, privacy, terms, disclaimer } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
 
 const t0 = Date.now();
@@ -120,6 +120,8 @@ const updateDays = (() => {
     .map(([day, m]) => ({ day, rows: [...m.values()].sort((a, b) => (b.v.g.stats?.playing ?? 0) - (a.v.g.stats?.playing ?? 0)) }));
 })();
 site.hasUpdates = updateDays.length > 0;
+site.gameCount = views.length;
+site.footerGames = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.stats?.playing ?? 0)).slice(0, 5).map(v => ({ path: v.path, name: v.g.name.replace(/\s*[\[(].*$/, '') }));
 
 // <title>: 60 characters at most, dropping the least useful parts first
 function gameTitle(v) {
@@ -396,6 +398,7 @@ for (const [slug, h1, title, description, html] of [
   ['how-we-check-codes', 'How I check codes', `How I Check Roblox Codes - ${site.siteName}`, `Exactly how ${site.siteName} finds Roblox codes, approves each one by hand, and what "working" and "no longer listed" mean on this site.`, method(site)],
   ['contact', 'Contact', `Contact - ${site.siteName}`, `Report a code that doesn't work, a missing reward, or a Roblox game you want ${site.siteName} to cover.`, contact(site)],
   ['terms', 'Terms of Use', `Terms of Use - ${site.siteName}`, `The terms for using ${site.siteName}: codes are controlled by each game's developers, how to stay safe from scams, and trademarks.`, terms(site, site.privacyUpdated)],
+  ['disclaimer', 'Disclaimer', `Disclaimer - ${site.siteName}`, `${site.siteName} is an independent fan site: not affiliated with Roblox, codes can end at any time, how pages are written, and copyright requests.`, disclaimer(site, site.privacyUpdated)],
   ['privacy', 'Privacy Policy', `Privacy Policy - ${site.siteName}`, `What ${site.siteName} collects, how Google Analytics and AdSense cookies are used, and how to opt out.`, privacy(site, site.privacyUpdated)],
 ]) {
   write(`${slug}/index.html`, layout({ site, assets, path: `/${slug}/`, title, description, nav: slug, body: staticBody(h1, html) }));
