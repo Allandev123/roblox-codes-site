@@ -1,0 +1,155 @@
+{
+  "slug": "fifa-super-soccer",
+  "name": "FIFA Super Soccer",
+  "robloxName": "FIFA Super Soccer",
+  "placeId": 12177325772,
+  "universeId": 4293374620,
+  "gameUrl": "https://www.roblox.com/games/12177325772/FIFA-Super-Soccer",
+  "creator": "Play! Football",
+  "genre": "Sports & Racing",
+  "subgenre": "Sports",
+  "icon": "fifa-super-soccer-icon.webp",
+  "thumb": "fifa-super-soccer-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch FIFA Super Soccer on Roblox and wait for the lobby to load.",
+    "Click the Codes button along the bottom of the lobby screen. On some screens it shows as a gift icon.",
+    "Type or paste a code into the Enter code here box.",
+    "Press Claim to collect the reward."
+  ],
+  "notes": "FIFA Super Soccer is the official FIFA soccer game on Roblox, run by the Play! Football group and previously called Super League Soccer. Matches are 4v4 in a packed stadium, and you can play any role from goalkeeper to star striker. There are no special powers, just shooting, passing, slide tackles and dribbling, and daily tasks plus events like Road to FIFA World Cup give extra rewards.\n\nCodes here mostly give card packs, coins and cosmetics like hair styles and goal themes. Packs are the best reward because they can hold player cards and rare cosmetics that are hard to get otherwise. Codes in this game often stop working within a few days, so redeem them as soon as you see them. New ones are posted in the Discord, usually when an event starts or the game hits a milestone.",
+  "codes": [
+    {
+      "code": "basicallyasummerevent",
+      "reward": "Summer Pack (95% chance) or a new exotic goal theme (5% chance)",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/fifa-super-soccer-codes/",
+        "https://www.destructoid.com/fifa-super-soccer-codes/",
+        "https://www.dexerto.com/roblox/fifa-super-soccer-codes-3378540/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "checkgoalpack",
+      "reward": "Summer Pack",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/fifa-super-soccer-codes/",
+        "https://www.destructoid.com/fifa-super-soccer-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "Secretpinerileycodeapple",
+      "reward": "Summer Pack (95% chance) or the Electronic Vibes sound (5% chance)",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/fifa-super-soccer-codes/",
+        "https://www.dexerto.com/roblox/fifa-super-soccer-codes-3378540/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "WorldCupSecret",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "250stockcards",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "rileycode",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Bvb09",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "dragonmoment",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "1billionvisits",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "newyears2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "fifasupersoccer",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 10883,
+    "visits": 1565214260,
+    "favorites": 1096879,
+    "updated": "2026-09-29T17:21:53.5327736Z",
+    "created": "2023-01-16T19:20:52.88Z"
+  },
+  "added": "2026-09-29T18:36:58.867Z",
+  "lastChecked": "2026-09-29T18:36:58.867Z",
+  "lastChanged": "2026-09-29T18:36:55.469Z",
+  "faq": [
+    {
+      "q": "Why does a FIFA Super Soccer code say invalid?",
+      "a": "Codes in this game often expire within a few days, and some only last as long as an event. Also check for a space at the end and make sure the capital letters match."
+    },
+    {
+      "q": "What are the odds with basicallyasummerevent?",
+      "a": "Most of the time (95%) it gives a Summer Pack. The other 5% of the time you get a new exotic goal theme instead."
+    },
+    {
+      "q": "Where do new FIFA Super Soccer codes come from?",
+      "a": "They are posted in the official Discord server, usually when a new event starts or the game passes a milestone like a visit count."
+    }
+  ],
+  "aliases": [
+    "fss",
+    "super league soccer",
+    "sls"
+  ],
+  "codeChannels": "The official FIFA Super Soccer Discord server"
+}

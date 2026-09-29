@@ -1,0 +1,184 @@
+{
+  "slug": "azure-latch",
+  "name": "Azure Latch",
+  "robloxName": "[⚙️QOL😈] Azure Latch",
+  "placeId": 94647229517154,
+  "universeId": 6945584306,
+  "gameUrl": "https://www.roblox.com/games/94647229517154/Azure-Latch",
+  "creator": "[B:S] Azure Latch Team",
+  "genre": "Sports & Racing",
+  "subgenre": "Sports",
+  "icon": "azure-latch-icon.webp",
+  "thumb": "azure-latch-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Azure Latch on Roblox and wait until you reach the main lobby.",
+    "Click the Menu button at the bottom of the screen.",
+    "Open the Rewards tab at the top of the menu.",
+    "Paste a code into the text box and press Redeem."
+  ],
+  "notes": "Azure Latch is a 5v5 soccer game on Roblox inspired by the Blue Lock anime, made by the Azure Latch Team group. You play with a style based on characters like Isagi, Nagi or Kaiser, then dribble, tackle, shoot and dive in goal as you try to outscore the other team. Each style comes with its own skills, so knowing when to use them matters as much as speed.\n\nCodes mostly give Style Coins and Cash, plus a few emotes. Style Coins are the best reward because they pay for style spins, and your style decides your whole moveset. New codes usually come out after character reworks, maintenance or bug fixes, and when the game reaches a player count goal, so check the Discord after each shutdown. Older codes tend to stop working once the next batch arrives.",
+  "codes": [
+    {
+      "code": "TIMOTHYISHEREFORNAGI",
+      "reward": "10,000 Style Coins and 15,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/azure-latch-codes/",
+        "https://beebom.com/delay-latch-codes/",
+        "https://www.pockettactics.com/azure-latch-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "KAISERISNEXTWEEKNOWORRIES",
+      "reward": "10,000 Style Coins and 15,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/azure-latch-codes/",
+        "https://beebom.com/delay-latch-codes/",
+        "https://www.pockettactics.com/azure-latch-codes",
+        "https://www.pocketgamer.com/roblox/azure-latch-codes/",
+        "https://mmoculture.com/2026/08/roblox-azure-latch-redeem-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "BROTHERNOAH",
+      "reward": "Brother Noah emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/azure-latch-codes/",
+        "https://www.pockettactics.com/azure-latch-codes",
+        "https://mmoculture.com/2026/08/roblox-azure-latch-redeem-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "MYANIMEFANSMAN",
+      "reward": "My Anime Fans Man emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/azure-latch-codes/",
+        "https://www.pockettactics.com/azure-latch-codes",
+        "https://mmoculture.com/2026/08/roblox-azure-latch-redeem-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "QUIET",
+      "reward": "X emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/azure-latch-codes",
+        "https://mmoculture.com/2026/08/roblox-azure-latch-redeem-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "PINGOVERHAUL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TIMOTHYTHESEAL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EVILBALL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AIKUANDGOALKEEPERCHANGES",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LATE60KCCUCODE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EZTANTO",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EZYUKI",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 10344,
+    "visits": 579538965,
+    "favorites": 649929,
+    "updated": "2026-09-28T14:11:19.287815Z",
+    "created": "2024-12-20T13:35:18.56Z"
+  },
+  "added": "2026-09-29T18:36:57.159Z",
+  "lastChecked": "2026-09-29T18:36:57.159Z",
+  "lastChanged": "2026-09-29T18:36:55.469Z",
+  "faq": [
+    {
+      "q": "Why does an Azure Latch code say invalid?",
+      "a": "Codes here expire quickly, often right after the next update. Every Azure Latch code is in capital letters, so type it in all caps or copy and paste it."
+    },
+    {
+      "q": "What should I spend Style Coins on in Azure Latch?",
+      "a": "Use them on style spins first, since your style decides your skills on the pitch. Keep spinning until you get a style that fits how you like to play."
+    },
+    {
+      "q": "When do new Azure Latch codes come out?",
+      "a": "They usually show up after a shutdown for an update or fix, after a character rework, or when the game hits a new player count milestone."
+    }
+  ],
+  "codeChannels": "The Azure Latch Discord server and the Azure Latch Team Roblox group",
+  "requirement": "Some players report codes only work after joining the Azure Latch Roblox group, so join it first to be safe."
+}

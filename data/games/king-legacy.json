@@ -1,0 +1,194 @@
+{
+  "slug": "king-legacy",
+  "name": "King Legacy",
+  "robloxName": "King Legacy",
+  "placeId": 4520749081,
+  "universeId": 1451439645,
+  "gameUrl": "https://www.roblox.com/games/4520749081/King-Legacy",
+  "creator": "Sea King Games",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "king-legacy-icon.webp",
+  "thumb": "king-legacy-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch King Legacy on Roblox and spawn into the world.",
+    "Click the Menu button just below your HP bar in the top-left corner.",
+    "Open the settings cog in that menu. If the code box is not there, check the shopping basket icon, since the box has moved between updates.",
+    "Paste a code into the box and press Use."
+  ],
+  "notes": "King Legacy is a One Piece inspired adventure game on Roblox from Sea King Games. You sail between islands, finish quests to level up toward a cap of 5,450, and put points into stats like melee, sword and devil fruit. Fruits such as Dragon, Dough and Buddha spawn on the map every hour or two, and the fruit you land shapes how you fight.\n\nMost codes give 2x EXP for 30 minutes, cash, gems or a free stat reset. Stat resets are the most valuable because they let you move all your points after switching to a new fruit or weapon, which normally costs gems. The game has gone a long time without a big update, so new codes are rare, but they have always arrived with major updates and group milestones announced in the Discord.",
+  "codes": [
+    {
+      "code": "FREESTATSRESET",
+      "reward": "Free stat reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/king-legacy-codes/",
+        "https://www.pockettactics.com/king-legacy/codes",
+        "https://www.pcgamesn.com/king-legacy/codes",
+        "https://allthings.how/king-legacy-codes/",
+        "https://urgametips.com/king-legacy-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "2MFAV",
+      "reward": "Free stat reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/king-legacy-codes/",
+        "https://www.pockettactics.com/king-legacy/codes",
+        "https://www.pcgamesn.com/king-legacy/codes",
+        "https://allthings.how/king-legacy-codes/",
+        "https://urgametips.com/king-legacy-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "WELCOMETOKINGLEGACY",
+      "reward": "2x EXP for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/king-legacy-codes/",
+        "https://www.pockettactics.com/king-legacy/codes",
+        "https://www.pcgamesn.com/king-legacy/codes",
+        "https://allthings.how/king-legacy-codes/",
+        "https://urgametips.com/king-legacy-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "DragonColorRefund",
+      "reward": "50 Gems, or 10 Gems if your Dragon was red before Update 7",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/king-legacy-codes/",
+        "https://www.pockettactics.com/king-legacy/codes",
+        "https://www.pcgamesn.com/king-legacy/codes",
+        "https://allthings.how/king-legacy-codes/",
+        "https://urgametips.com/king-legacy-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "<3LEEPUNGG",
+      "reward": "2x EXP for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/king-legacy/codes",
+        "https://www.pcgamesn.com/king-legacy/codes",
+        "https://allthings.how/king-legacy-codes/",
+        "https://urgametips.com/king-legacy-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "FIXEDDROPBOOST",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FIXEDBUG1003",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Update10Release",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Serpent10",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FreePterSpin",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EchoOfNine",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Update8Release",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "YT100KLEGEND",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 4163,
+    "visits": 4059965174,
+    "favorites": 2770552,
+    "updated": "2026-07-25T12:24:24.662Z",
+    "created": "2019-12-17T13:51:26.1Z"
+  },
+  "added": "2026-09-29T18:37:00.606Z",
+  "lastChecked": "2026-09-29T18:37:00.606Z",
+  "lastChanged": "2026-09-29T18:36:55.469Z",
+  "faq": [
+    {
+      "q": "Why does SKGames say invalid in King Legacy?",
+      "a": "That code only works if you are in the Sea King Games Roblox group. Join the group, rejoin the game and try again."
+    },
+    {
+      "q": "Should I use FREESTATSRESET now or save it?",
+      "a": "Save it until you switch to a new fruit or weapon. A stat reset is most useful when your build changes, not at the start."
+    },
+    {
+      "q": "Who can use RainbowDragon and DragonColorRefund?",
+      "a": "Both are for players who owned the Dragon fruit before Update 7. RainbowDragon needs the rainbow dragon unlocked, and DragonColorRefund gives 50 Gems, or 10 if your dragon was red."
+    }
+  ],
+  "aliases": [
+    "kl"
+  ],
+  "codeChannels": "The King Legacy Discord server and the Sea King Games Roblox group"
+}

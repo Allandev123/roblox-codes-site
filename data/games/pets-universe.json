@@ -1,0 +1,230 @@
+{
+  "slug": "pets-universe",
+  "name": "Pets Universe",
+  "robloxName": "[⭐ EVENT] Pets Universe! 🐾",
+  "placeId": 74629631798007,
+  "universeId": 10759638075,
+  "gameUrl": "https://www.roblox.com/games/74629631798007/Pets-Universe",
+  "creator": "Lip Builds",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "pets-universe-icon.webp",
+  "thumb": "pets-universe-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Pets Universe on Roblox.",
+    "Click the shopping basket icon on the left side of the screen to open the Exclusive Shop.",
+    "Scroll down to the Exclusive Codes section at the bottom.",
+    "Paste a code into the Enter Code box and press Redeem."
+  ],
+  "notes": "Pets Universe is a pet collecting game on Roblox made by Lip Builds. You walk around picking up coins, spend them on eggs, and hatch pets that help you gather even more coins and rubies. There are hundreds of pets to find, the game gets new content every week, and joining the group and following the game gives bonus rewards.\n\nCodes give potions, fruit and sometimes Lucky Blocks. Luck and Hatch Potions are the most useful because they raise your chances of hatching rarer pets, so save them for your best egg. Update codes like Update2 arrive with the weekly updates and expire once the next one comes out, while creator codes named after YouTubers, such as DroverQ, have stayed active longer. Lip Builds shares new codes in its Discord.",
+  "codes": [
+    {
+      "code": "Update2",
+      "reward": "2 Luck Potion II, 2 Coins Potion II, 1 Hatch Potion II, 3 Mangos, 3 Kiwis and 2 Tacos",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "1MVisits",
+      "reward": "3 Lucky Block II, 1 Luck Potion II and 1 Coins Potion II",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "DroverQ",
+      "reward": "1 Coins Potion, 1 Luck Potion and 1 Rubies Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "Russo",
+      "reward": "1 Coins Potion and 1 Banana",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "DarkRose",
+      "reward": "1 Luck Potion and 1 Kiwi",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "AG64",
+      "reward": "1 Critical Potion and 1 Mango",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "Cupcake",
+      "reward": "1 Critical Potion and 1 Blueberry",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "E11opoppet",
+      "reward": "1 Hatch Potion and 1 Blueberry",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "Olopomidoro",
+      "reward": "1 Coins Potion, 1 Luck Potion and 1 Rubies Potion",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    },
+    {
+      "code": "Ostrichh",
+      "reward": "1 Rubies Potion and 1 Apple",
+      "status": "active",
+      "firstSeen": "2026-09-29T18:36:55.469Z",
+      "lastSeen": "2026-09-29T18:36:55.469Z",
+      "source": "manual",
+      "sources": [
+        "https://petsuniverse.miraheze.org/wiki/Codes",
+        "https://gamerant.com/pets-universe-codes-roblox/",
+        "https://urgametips.com/pets-universe-codes/",
+        "https://gachapocket.com/pets-universe-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T18:36:55.469Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "Update1",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "miniupdate",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "release",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 8098,
+    "visits": 2431928,
+    "favorites": 110772,
+    "updated": "2026-09-29T17:46:07.2327763Z",
+    "created": "2026-08-24T18:59:13.917Z"
+  },
+  "added": "2026-09-29T18:37:04.242Z",
+  "lastChecked": "2026-09-29T18:37:04.242Z",
+  "lastChanged": "2026-09-29T18:36:55.469Z",
+  "faq": [
+    {
+      "q": "Why did Update1 stop working in Pets Universe?",
+      "a": "Update codes get replaced as new updates come out. Update1 expired after Update2 arrived, so always use the newest update code."
+    },
+    {
+      "q": "Where is the code box in Pets Universe?",
+      "a": "It is at the very bottom of the Exclusive Shop, which opens from the shopping basket icon on the left of the screen."
+    },
+    {
+      "q": "When should I use a Luck Potion in Pets Universe?",
+      "a": "Drink it right before you open a big batch of eggs, ideally the best egg you can afford, so none of the boost is wasted."
+    }
+  ],
+  "codeChannels": "The Lip Builds Discord server and the Pets Universe wiki codes page"
+}
