@@ -1,7 +1,7 @@
 {
   "slug": "squid-game-x",
   "name": "Squid Game X",
-  "robloxName": "[🪑MUSICAL CHAIRS] Squid Game X",
+  "robloxName": "[🦑] Squid Game X",
   "placeId": 7554888362,
   "universeId": 2936053166,
   "gameUrl": "https://www.roblox.com/games/7554888362/Squid-Game-X",
@@ -25,7 +25,7 @@
       "reward": "Coins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:15.443Z",
-      "lastSeen": "2026-09-29T16:27:06.198Z",
+      "lastSeen": "2026-09-29T21:51:35.715Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,14 +33,14 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 14531,
-    "visits": 2256228364,
-    "favorites": 1849028,
-    "updated": "2026-09-27T20:00:40.475Z",
+    "playing": 11437,
+    "visits": 2256728598,
+    "favorites": 1849546,
+    "updated": "2026-09-29T19:55:00.5083295Z",
     "created": "2021-09-24T23:38:34.723Z"
   },
   "added": "2026-09-29T16:13:15.443Z",
-  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChecked": "2026-09-29T21:51:35.715Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
