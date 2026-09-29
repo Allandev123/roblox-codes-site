@@ -61,13 +61,14 @@ const clipText = (t, n) => (t.length <= n ? t.trim() : t.slice(0, n - 1).replace
 
 // Home page FAQ. Answers are HTML (they link to other pages).
 export const HOME_FAQ = (site, games) => [
-  { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. It never asks for your Roblox password, and there's nothing to download. If any site asks for your password or a "verification" to get a code, it's a scam. <a href="/guides/free-robux-codes-scams/">How to spot those</a>.` },
-  { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games post on Discord or X, I add and recheck myself. <a href="/how-we-check-codes/">How I check codes</a>.` },
-  { q: "Why isn't a code working for me?", a: `Usually it's a typo, capital letters, a code you already used, or a game that needs you to reach a level or join a group first. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
-  { q: 'Are there codes for free Robux?', a: `No. Game codes give items inside that game, like gems, boosts or pets. Robux only comes from Roblox itself, and "free Robux codes" are always scams.` },
-  { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place, just tap instead of click.` },
-  { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add more every week. <a href="/contact/">Send me its name or Roblox link</a>.` },
-  { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>, a Roblox player since ${esc(site.author.robloxSince)} and YouTuber. It's a fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
+  { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. It never asks for your Roblox password, there's nothing to download, and there are no sign-ups. If any site asks for your password or a "verification" to give you a code, it's a scam. <a href="/guides/free-robux-codes-scams/">How to spot those scams</a>.` },
+  { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps, many with my screenshots. <a href="/guides/how-to-redeem/">The full redeem guide</a>.` },
+  { q: "Why isn't a code working for me?", a: `Usually it's a typo, the wrong capital letters, a code you already used, or a game that needs you to reach a level or join its group first. Tap Copy to avoid typos. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
+  { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games only post on Discord or X, I add and recheck myself. Codes a game stops listing move to that page's expired list with the date. <a href="/how-we-check-codes/">How I check codes</a>.` },
+  { q: 'Are there codes for free Robux?', a: `No. Game codes give items inside that one game, like gems, boosts, spins or pets. Robux only comes from Roblox itself, by buying it or with Roblox gift cards. Any site offering "free Robux codes" is a scam.` },
+  { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place on every device, you just tap instead of click. On a phone, press and hold the box to paste.` },
+  { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add more every week, as long as the game has working codes. <a href="/contact/">Send me its name or Roblox link</a>.` },
+  { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>. I've played Roblox since ${esc(site.author.robloxSince)}, make Roblox videos on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>, and I'm making my own game. It's an independent fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
 ];
 
 export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
@@ -163,9 +164,11 @@ ${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
 </section>
 
 <section id="faq" class="sec" aria-labelledby="faq-h">
+  <p class="faq-kicker">FAQ</p>
   <h2 id="faq-h">Common questions</h2>
+  <p class="faq-sub">Everything people ask about Roblox codes and this site.</p>
   <div class="faq-list">
-${HOME_FAQ(site, views.length).map(f => `  <div class="qa"><h3>${esc(f.q)}</h3><p>${f.a}</p></div>`).join('\n')}
+${HOME_FAQ(site, views.length).map((f, i) => `    <details class="faq"${i === 0 ? ' open' : ''}><summary><h3>${esc(f.q)}</h3><span class="faq-icon" aria-hidden="true"></span></summary><p>${f.a}</p></details>`).join('\n')}
   </div>
 </section>
 

@@ -13,7 +13,7 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
+import { HOME_FAQ, homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms, disclaimer } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
@@ -287,6 +287,9 @@ write('index.html', layout({
     description: site.description,
     publisher: ORG,
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${site.url}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },
+  }, {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: HOME_FAQ(site, views.length).map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') } })),
   }],
   ads: true,
   nav: 'games',
