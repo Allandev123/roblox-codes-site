@@ -112,9 +112,9 @@ ${body}
     </nav>
     <nav class="foot-col" aria-labelledby="fc-read"><h2 id="fc-read">Guides and news</h2>
       ${site.hasGuides ? '<a href="/guides/">All guides</a>' : ''}
-      <a href="/guides/how-to-redeem/">How to redeem codes</a>
+      <a href="/guides/how-to-redeem-roblox-codes/">How to redeem codes</a>
       <a href="/guides/roblox-code-not-working/">Code not working?</a>
-      ${site.hasBlog ? '<a href="/blog/">Dev blog</a>' : ''}
+      ${site.hasBlog ? '<a href="/blog/">Blog</a>' : ''}
       ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
     </nav>
     <nav class="foot-col" aria-labelledby="fc-site"><h2 id="fc-site">Site</h2>

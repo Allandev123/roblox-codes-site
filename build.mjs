@@ -367,10 +367,10 @@ if (guides.length) {
 if (posts.length) {
   write('blog/index.html', layout({
     site, assets, path: '/blog/',
-    title: `Dev Blog: Making +1 Nose to Escape - ${site.siteName}`,
-    description: clip(`${AUTHOR.name}'s dev blog about making the Roblox game +1 Nose to Escape: what I built, what testing changed, and how the thumbnail and trailer were made.`, 155),
+    title: `Blog: Devlogs and Roblox Stories - ${site.siteName}`,
+    description: clip(`${AUTHOR.name}'s blog: devlogs about making the Roblox game +1 Nose to Escape, and stories from years of making Roblox and BedWars videos.`, 155),
     jsonld: [{
-      '@context': 'https://schema.org', '@type': 'Blog', name: `${site.siteName} dev blog`, url: site.url + '/blog/',
+      '@context': 'https://schema.org', '@type': 'Blog', name: `${site.siteName} blog`, url: site.url + '/blog/',
       author: PERSON,
       blogPost: posts.map(p => ({ '@type': 'BlogPosting', headline: p.title, url: site.url + p.path, datePublished: p.published })),
     }],

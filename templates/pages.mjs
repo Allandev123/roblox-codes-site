@@ -65,7 +65,7 @@ const small = u => (/^\/img\/.*\.webp$/.test(u ?? '') ? u.replace(/\.webp$/, '-4
 // Home page FAQ. Answers are HTML (they link to other pages).
 export const HOME_FAQ = (site, games) => [
   { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. It never asks for your Roblox password, there's nothing to download, and there are no sign-ups. If any site asks for your password or a "verification" to give you a code, it's a scam. <a href="/guides/free-robux-codes-scams/">How to spot those scams</a>.` },
-  { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps, many with my screenshots. <a href="/guides/how-to-redeem/">The full redeem guide</a>.` },
+  { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps, many with my screenshots. <a href="/guides/how-to-redeem-roblox-codes/">The full redeem guide</a>.` },
   { q: "Why isn't a code working for me?", a: `Usually it's a typo, the wrong capital letters, a code you already used, or a game that needs you to reach a level or join its group first. Tap Copy to avoid typos. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
   { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games only post on Discord or X, I add and recheck myself. Codes a game stops listing move to that page's expired list with the date. <a href="/how-we-check-codes/">How I check codes</a>.` },
   { q: 'Are there codes for free Robux?', a: `No. Game codes give items inside that one game, like gems, boosts, spins or pets. Robux only comes from Roblox itself, by buying it or with Roblox gift cards. Any site offering "free Robux codes" is a scam.` },
@@ -87,7 +87,7 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
       meta: `${esc(a.name)} · ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'working code')}`,
     });
     const art = (i % 4 === 2) && articles.shift();
-    if (art) feed.push({ href: art.path, img: art.cover, kicker: art.section === 'blog' ? 'Devlog' : 'Guide', title: art.title, text: art.summary, meta: `${esc(a.name)} · ${art.minutes} min read` });
+    if (art) feed.push({ href: art.path, img: art.cover, kicker: art.section === 'blog' ? (art.series ?? 'Blog') : 'Guide', title: art.title, text: art.summary, meta: `${esc(a.name)} · ${dateShort(art.published)} · ${art.minutes} min read` });
   });
   const total = views.reduce((n, v) => n + v.live.length, 0);
   // newest codes across every game, one line each, biggest games first on a tie
@@ -388,7 +388,7 @@ ${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="" wid
 // ---------------------------------------------------------------- guides and blog
 
 // A picture card for an article (guide or blog post)
-export function articleCard(gd, { lazy = true, date = false } = {}) {
+export function articleCard(gd, { lazy = true, date = true } = {}) {
   return `<li><a class="card" href="${gd.path}">
     ${gd.cover ? `<img src="${esc(small(gd.cover))}" srcset="${esc(small(gd.cover))} 480w, ${esc(gd.cover)} 960w" sizes="(min-width: 720px) 340px, 100vw" alt="" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="card-text">
@@ -425,8 +425,8 @@ export function blogIndexBody({ site, posts }) {
   const a = site.author;
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Blog</li></ol></nav>
 <header class="index-head">
-<h1>Dev blog</h1>
-<p class="dek">I'm making a Roblox game called +1 Nose to Escape. This is where I write about building it: what I tried, what testing changed, and how the thumbnail and trailer got made.</p>
+<h1>Blog</h1>
+<p class="dek">Devlogs about +1 Nose to Escape, the Roblox game I'm making, plus stories from my years of making Roblox videos.</p>
 </header>
 <div class="run-by sec">
   <img src="/img/${esc(a.image)}" alt="" width="56" height="56">
