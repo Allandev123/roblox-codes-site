@@ -1,0 +1,33 @@
+{
+  "slug": "rivals",
+  "name": "Rivals",
+  "robloxName": "RIVALS",
+  "placeId": 17625359962,
+  "universeId": 6035872082,
+  "gameUrl": "https://www.roblox.com/games/17625359962/RIVALS",
+  "creator": "Nosniy Games",
+  "genre": "Shooter",
+  "subgenre": "Deathmatch Shooter",
+  "icon": "rivals-icon.webp",
+  "thumb": "rivals-thumb.webp",
+  "autoApprove": false,
+  "draft": true,
+  "redeem": [
+    "Launch RIVALS on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [],
+  "expired": [],
+  "stats": {
+    "playing": 141220,
+    "visits": 18431209997,
+    "favorites": 93284811,
+    "updated": "2026-09-25T19:38:40.841Z",
+    "created": "2024-05-26T16:47:48.617Z"
+  },
+  "added": "2026-09-29T17:09:03.441Z",
+  "lastChecked": "2026-09-29T17:09:03.441Z",
+  "lastChanged": "2026-09-29T17:09:03.441Z"
+}

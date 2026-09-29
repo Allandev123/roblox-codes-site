@@ -1,0 +1,33 @@
+{
+  "slug": "blade-ball",
+  "name": "Blade Ball",
+  "robloxName": "Blade Ball",
+  "placeId": 13772394625,
+  "universeId": 4777817887,
+  "gameUrl": "https://www.roblox.com/games/13772394625/Blade-Ball",
+  "creator": "Wiggity.",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "blade-ball-icon.webp",
+  "thumb": "blade-ball-thumb.webp",
+  "autoApprove": false,
+  "draft": true,
+  "redeem": [
+    "Launch Blade Ball on Roblox.",
+    "TODO: where the Codes button is in this game.",
+    "Type or paste a code and press Redeem."
+  ],
+  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "codes": [],
+  "expired": [],
+  "stats": {
+    "playing": 22023,
+    "visits": 6457109661,
+    "favorites": 12967108,
+    "updated": "2026-09-27T03:22:34.16Z",
+    "created": "2023-06-17T00:05:26.103Z"
+  },
+  "added": "2026-09-29T17:09:05.029Z",
+  "lastChecked": "2026-09-29T17:09:05.029Z",
+  "lastChanged": "2026-09-29T17:09:05.029Z"
+}

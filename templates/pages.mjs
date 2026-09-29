@@ -122,26 +122,17 @@ function codeRow(c, isNew) {
   <div class="info">
     <code>${esc(c.code)}</code>${isNew ? '<span class="badge new">New</span>' : ''}
     <span class="reward">${c.reward ? esc(c.reward) : 'Reward not stated by the developer'}</span>
+    <span class="added">Added ${dateLong(c.firstSeen)}</span>
   </div>
   <button class="copy" type="button" data-code="${esc(c.code)}" aria-label="Copy code ${esc(c.code)}">${ICONS.check}<span>Copy</span></button>
 </li>`;
 }
 
+// Game-specific questions only (data/games/<slug>.json "faq"). The general
+// "why doesn't my code work" answer lives in one guide instead of being
+// repeated on every page.
 function faq(v) {
-  const g = v.g;
-  const n = v.live.length;
-  const caseSensitive = v.live.some(c => /[a-z]/.test(c.code) && /[A-Z]/.test(c.code)) || v.live.some(c => /^[a-z0-9]+$/.test(c.code) && /[a-z]/.test(c.code));
-  const newPlayer = v.live.some(c => /new player/i.test(c.reward ?? ''));
-  const items = [
-    [`Are these ${g.name} codes still working?`,
-      `${n === 1 ? 'The code above was' : `All ${n} codes above were`} listed as active by the developers of ${esc(g.name)} when we last checked, on ${dateLong(g.lastChecked)}. We re-check every few hours, and any code the game stops listing moves to the expired list below.`],
-    [`Why is my ${g.name} code not working?`,
-      `Type the code exactly as shown, or use the Copy button${caseSensitive ? ' — some of these codes use lowercase letters, and the code box may treat case as different' : ''}. Most codes work once per account${newPlayer ? ', and at least one of these is only for new players' : ''}. If a code still fails, it has probably just expired; it will drop off this page at the next check.`],
-    [`When do new ${g.name} codes come out?`,
-      `Developers usually release new codes with updates or when the game hits a like or visit milestone. The last change to this list was on ${dateLong(g.lastChanged)}. Check back after the next update, since new codes appear here within hours.`],
-    ...(g.faq ?? []).map(f => [f.q, esc(f.a)]),
-  ];
-  return items.map(([q, a]) => `<h3>${esc(q)}</h3>\n<p>${a}</p>`).join('\n');
+  return (v.g.faq ?? []).map(f => `<h3>${esc(f.q)}</h3>\n<p>${esc(f.a)}</p>`).join('\n');
 }
 
 export function gameBody({ site, v, related, guideLinks = '' }) {
@@ -159,7 +150,7 @@ export function gameBody({ site, v, related, guideLinks = '' }) {
     <img src="${v.iconLg}" alt="${esc(g.name)} icon" width="72" height="72">
     <div>
       <h1>${esc(v.h1)}</h1>
-      <p class="status">✅ <strong>${plural(v.live.length, 'working code')}</strong> · Last checked ${ago(g.lastChecked)}</p>
+      <p class="status">✅ <strong>${plural(v.live.length, 'working code')}</strong> · Last checked ${ago(g.lastChecked)} <a class="how" href="/how-we-check-codes/">How I check</a></p>
     </div>
   </header>
   ${byline(site, g)}
@@ -168,7 +159,7 @@ export function gameBody({ site, v, related, guideLinks = '' }) {
     <ul class="codes">
 ${v.live.map(c => codeRow(c, v.isNew(c))).join('\n')}
     </ul>
-    <p class="source-note">${sourceBits.join('; ')}. Codes can be case-sensitive, so the Copy button is the safest way to enter them.</p>
+    <p class="source-note">${sourceBits.join('; ')}. Codes can be case-sensitive, so the Copy button is the safest way to enter them.${g.checkedInGame ? ` Redeem steps checked in-game by ${esc(site.author.name)} on ${dateLong(g.checkedInGame)}.` : ''}</p>
   </section>
 
   <section class="block" aria-labelledby="redeem-h">
@@ -185,7 +176,7 @@ ${g.redeem.map(s => `        <li>${esc(s)}</li>`).join('\n')}
   <section class="block about-game" aria-labelledby="about-h">
     <h2 id="about-h">About ${esc(g.name)}</h2>
     <div class="panel">
-      ${v.thumb ? `<img src="${v.thumb}" alt="${esc(g.name)} on Roblox" width="768" height="432" loading="lazy" decoding="async">` : ''}
+      ${v.thumb ? `<figure><img src="${v.thumb}" alt="${esc(g.name)} on Roblox" width="768" height="432" loading="lazy" decoding="async"><figcaption>Image: ${esc(g.name)}${g.creator ? ` by ${esc(g.creator)}` : ''} on Roblox</figcaption></figure>` : ''}
       ${g.notes.split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join('\n      ')}
       <ul class="facts">
         ${g.creator ? `<li>By <strong>${esc(g.creator)}</strong></li>` : ''}
@@ -197,8 +188,6 @@ ${g.redeem.map(s => `        <li>${esc(s)}</li>`).join('\n')}
     </div>
   </section>
 
-  ${adSlot(site, 'inContent')}
-
   ${g.expired.length ? `<section class="block" aria-labelledby="expired-h">
     <h2 id="expired-h" class="sr-only">Expired ${esc(g.name)} codes</h2>
     <details class="expired">
@@ -209,12 +198,14 @@ ${g.expired.slice(0, 60).map(e => `        <li><code>${esc(e.code)}</code><span>
     </details>
   </section>` : ''}
 
-  <section class="block faq" aria-labelledby="faq-h">
+  ${g.faq?.length ? `<section class="block faq" aria-labelledby="faq-h">
     <h2 id="faq-h">${esc(g.name)} codes FAQ</h2>
     <div class="panel">
 ${faq(v)}
     </div>
-  </section>
+  </section>` : ''}
+
+  ${v.live.length >= 3 ? adSlot(site, 'inContent') : ''}
 
   ${guideLinks}
 

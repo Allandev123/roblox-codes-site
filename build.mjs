@@ -15,7 +15,7 @@ import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
 import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, guideLinks } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
-import { about, contact, privacy, terms } from './templates/content.mjs';
+import { about, method, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
 
 const t0 = Date.now();
@@ -64,6 +64,10 @@ write('logo-512.png', await sharp(Buffer.from(mark), { density: 1200 }).resize(5
 
 // ---------------------------------------------------------------- games
 
+// Codes that were already there when the site launched aren't "new" to anyone.
+const LAUNCH = Date.parse(site.launchDate ?? '1970-01-01');
+const isFresh = (c, window) => Date.parse(c.firstSeen) > LAUNCH && NOW - Date.parse(c.firstSeen) < window;
+
 const all = loadGames();
 const drafts = [];
 const views = [];
@@ -82,8 +86,8 @@ for (const g of all) {
     og: `/og/${g.slug}.jpg`,
     h1,
     month,
-    isNew: c => NOW - Date.parse(c.firstSeen) < (site.newCodeDays ?? 3) * DAY,
-    recentNew: live.filter(c => NOW - Date.parse(c.firstSeen) < 7 * DAY).length,
+    isNew: c => isFresh(c, (site.newCodeDays ?? 3) * DAY),
+    recentNew: live.filter(c => isFresh(c, 7 * DAY)).length,
   });
 }
 // newest code changes first, everywhere
@@ -178,6 +182,7 @@ const guides = (fs.existsSync(GUIDES_DIR) ? fs.readdirSync(GUIDES_DIR) : [])
   .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
   .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 const gameGuides = guides.filter(gd => gd.onGamePages).slice(0, 3);
+site.hasGuides = guides.length > 0;
 
 const lastCheck = all.reduce((m, g) => (g.lastChecked > m ? g.lastChecked : m), '');
 const totalCodes = views.reduce((n, v) => n + v.live.length, 0);
@@ -218,6 +223,7 @@ for (const v of views) {
     description: gameDescription(v),
     ogImage: site.url + v.og, ogType: 'article',
     jsonld,
+    ads: true,
     body: gameBody({ site, v, related: related(v), guideLinks: guideLinks(gameGuides) }),
   }));
   pages.push({ path: v.path, lastmod: g.lastChanged });
@@ -231,7 +237,7 @@ write('index.html', layout({
   site, assets, path: '/',
   title: `${site.siteName} - Working Roblox Codes, Checked Every Few Hours`.length <= 60
     ? `${site.siteName} - Working Roblox Codes, Checked Every Few Hours` : `${site.siteName} - Working Roblox Codes`,
-  description: clip(`Working codes for ${views.length} Roblox games, checked against each game's official page every few hours. Rewards, redeem steps and expired codes for every game.`, 155),
+  description: clip(`Working codes for ${views.length} Roblox games, read from each game's official page every few hours and approved by hand, with rewards and redeem steps.`, 155),
   preload: views.slice(0, 1).map(v => v.icon),
   jsonld: [{
     '@context': 'https://schema.org', '@type': 'WebSite', name: site.siteName, url: site.url + '/',
@@ -239,6 +245,7 @@ write('index.html', layout({
     publisher: ORG,
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${site.url}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },
   }],
+  ads: true,
   body: homeBody({ site, views, guides, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
 }));
 pages.unshift({ path: '/', lastmod: homeLastmod });
@@ -271,6 +278,7 @@ for (const gd of guides) {
         ],
       },
     ],
+    ads: true,
     body: guideBody({ site, gd, games: gd.games.map(s => byslug.get(s)).filter(Boolean).slice(0, 6), more: guides.filter(o => o !== gd).slice(0, 3) }),
   }));
   pages.push({ path: gd.path, lastmod: new Date(gd.updated).toISOString() });
@@ -294,6 +302,7 @@ if (guides.length) {
 const STATIC_LASTMOD = '2026-09-29T00:00:00Z';
 for (const [slug, h1, title, description, html] of [
   ['about', `About ${site.siteName}`, `About ${site.siteName}`, `How ${site.siteName} finds, checks and expires Roblox codes: official game pages read every few hours, and every new code reviewed by a person.`, about(site)],
+  ['how-we-check-codes', 'How I check codes', `How I Check Roblox Codes - ${site.siteName}`, `Exactly how ${site.siteName} finds Roblox codes, approves each one by hand, and what "working" and "no longer listed" mean on this site.`, method(site)],
   ['contact', 'Contact', `Contact - ${site.siteName}`, `Report a code that doesn't work, a missing reward, or a Roblox game you want ${site.siteName} to cover.`, contact(site)],
   ['terms', 'Terms of Use', `Terms of Use - ${site.siteName}`, `The terms for using ${site.siteName}: codes are controlled by each game's developers, how to stay safe from scams, and trademarks.`, terms(site, site.privacyUpdated)],
   ['privacy', 'Privacy Policy', `Privacy Policy - ${site.siteName}`, `What ${site.siteName} collects, how Google Analytics and AdSense cookies are used, and how to opt out.`, privacy(site, site.privacyUpdated)],

@@ -11,7 +11,8 @@
       "afterRedeem": "",
       "inContent": "",
       "bottom": ""
-    }
+    },
+    "childTreatment": 1
   },
   "indexnow": {
     "enabled": false,
@@ -30,5 +31,10 @@
     "youtubeSubscribers": "nearly 50,000",
     "youtubeVideos": 238,
     "roblox": "https://www.roblox.com/users/501341371/profile"
+  },
+  "launchDate": "2026-09-29T23:59:59Z",
+  "operator": {
+    "name": "",
+    "country": "Denmark"
   }
 }

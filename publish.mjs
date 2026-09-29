@@ -61,6 +61,7 @@ function exists(urlPath) {
 }
 
 const titles = new Map(), descs = new Map();
+const gamePages = new Set(loadGames().map(g => `/${g.slug}-codes/index.html`));
 const broken = [], missingImg = [], badTitle = [], badDesc = [], badH1 = [], noCanon = [], badLd = [], noCodes = [];
 for (const f of pages) {
   const html = fs.readFileSync(f, 'utf8');
@@ -92,7 +93,7 @@ for (const f of pages) {
       if (j['@type'] === 'BreadcrumbList' && !j.itemListElement?.every(i => i.item?.startsWith(site.url))) throw new Error('bad breadcrumb');
     } catch (e) { badLd.push(`${r}: ${e.message}`); }
   }
-  if (/-codes\/index\.html$/.test(r) && !/<li class="code-row">/.test(html)) noCodes.push(r);
+  if (gamePages.has(r) && !/<li class="code-row">/.test(html)) noCodes.push(r);
 }
 
 broken.length ? fail(`${broken.length} broken internal link(s)`, broken) : ok('internal links resolve');

@@ -29,10 +29,11 @@ export function adSlot(site, name) {
   const client = site.adsense?.client;
   const slot = site.adsense?.slots?.[name];
   if (!client || !slot) return '';
-  return `<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="${esc(client)}" data-ad-slot="${esc(slot)}" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>`;
+  return `<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="${esc(client)}" data-ad-slot="${esc(slot)}" data-ad-format="auto" data-full-width-responsive="true"${site.adsense?.childTreatment ? ` data-tag-for-age-treatment="${Number(site.adsense.childTreatment)}"` : ''}></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>`;
 }
 
-export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [] }) {
+export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [], ads = false }) {
+  const guidesNav = site.hasGuides ? '<a href="/guides/">Guides</a>' : '';
   const url = site.url + path;
   const og = ogImage ?? `${site.url}/og/default.jpg`;
   return `<!doctype html>
@@ -64,7 +65,7 @@ ${THEME_BOOT}
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 ${consentDefaults(site)}
 ${analytics(site.analyticsId)}
-${adsense(site.adsense?.client)}
+${ads ? adsense(site.adsense?.client) : ''}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -73,7 +74,7 @@ ${adsense(site.adsense?.client)}
     <a class="logo" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
     <nav aria-label="Main">
       <a href="/#games" class="hide-sm">All games</a>
-      <a href="/guides/">Guides</a>
+      ${guidesNav}
       <a href="/about/" class="hide-sm">About</a>
       <button class="theme-toggle" type="button" aria-label="Switch light or dark theme">${ICONS.moon}${ICONS.sun}</button>
     </nav>
@@ -86,7 +87,8 @@ ${body}
   <div class="wrap">
     <nav aria-label="Footer">
       <a href="/">Home</a>
-      <a href="/guides/">Guides</a>
+      ${guidesNav}
+      <a href="/how-we-check-codes/">How I check codes</a>
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>
