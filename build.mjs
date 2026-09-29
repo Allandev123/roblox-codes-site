@@ -13,7 +13,7 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, guideLinks } from './templates/pages.mjs';
+import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
@@ -51,14 +51,14 @@ for (const [key, file] of [['css', 'style.css'], ['js', 'app.js']]) {
   assets[key] = `/assets/${base}.${hash(src)}.${ext}`;
   write(assets[key], src);
 }
-copy(path.join(ROOT, 'static', 'fonts', 'jakarta-latin.woff2'), 'fonts/jakarta-latin.woff2');
+for (const font of fs.readdirSync(path.join(ROOT, 'static', 'fonts')).filter(x => x.endsWith('.woff2'))) copy(path.join(ROOT, 'static', 'fonts', font), `fonts/${font}`);
 
 // Favicons from the logo mark.
 const MARK = (fg, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="${bg}"/><path d="M9 9H23A2 2 0 0 1 25 11V13.2A2.8 2.8 0 0 0 25 18.8V21A2 2 0 0 1 23 23H9A2 2 0 0 1 7 21V18.8A2.8 2.8 0 0 0 7 13.2V11A2 2 0 0 1 9 9Z" fill="${fg}"/><path d="M19.5 10.5V21.5" stroke="${bg}" stroke-width="1.6" stroke-dasharray="1.8 1.8"/><path d="M11 13.5h5M11 16h5M11 18.5h3" stroke="${bg}" stroke-width="1.6" stroke-linecap="round"/></svg>`;
-const mark = MARK('#ffffff', '#0f766e');
+const mark = MARK('#ffffff', '#b4461a');
 write('favicon.svg', mark);
 write('favicon-32.png', await sharp(Buffer.from(mark), { density: 300 }).resize(32, 32).png().toBuffer());
-write('apple-touch-icon.png', await sharp(Buffer.from(MARK('#ffffff', '#0f766e').replace('rx="9"', 'rx="0"')), { density: 600 }).resize(180, 180).png().toBuffer());
+write('apple-touch-icon.png', await sharp(Buffer.from(MARK('#ffffff', '#b4461a').replace('rx="9"', 'rx="0"')), { density: 600 }).resize(180, 180).png().toBuffer());
 write('favicon.ico', await sharp(Buffer.from(mark), { density: 300 }).resize(32, 32).png().toBuffer());
 write('logo-512.png', await sharp(Buffer.from(mark), { density: 1200 }).resize(512, 512).png().toBuffer());
 
@@ -87,7 +87,9 @@ for (const g of all) {
     h1,
     month,
     isNew: c => isFresh(c, (site.newCodeDays ?? 3) * DAY),
-    recentNew: live.filter(c => isFresh(c, 7 * DAY)).length,
+    recentNew: live.filter(c => isFresh(c, (site.newCodeDays ?? 3) * DAY)).length,
+    // newest code on the page; the browser compares it with the last visit
+    latest: live.reduce((m, c) => ((c.approvedAt ?? c.firstSeen) > m ? (c.approvedAt ?? c.firstSeen) : m), ''),
   });
 }
 // newest code changes first, everywhere
@@ -152,7 +154,7 @@ write(`img/${AUTHOR.image.replace(/.webp$/, '-64.webp')}`, await sharp(path.join
 fs.mkdirSync(path.join(CACHE, 'og'), { recursive: true });
 async function og(key, opts, rel) {
   const bg = opts.background && fs.existsSync(opts.background) ? fs.statSync(opts.background).mtimeMs : 0;
-  const id = hash(JSON.stringify({ ...opts, bg, v: 4 }));
+  const id = hash(JSON.stringify({ ...opts, bg, v: 5 }));
   const cached = path.join(CACHE, 'og', `${key}-${id}.jpg`);
   if (!fs.existsSync(cached)) {
     for (const old of fs.readdirSync(path.join(CACHE, 'og')).filter(f => f.startsWith(`${key}-`))) fs.rmSync(path.join(CACHE, 'og', old));
@@ -224,7 +226,7 @@ for (const v of views) {
     ogImage: site.url + v.og, ogType: 'article',
     jsonld,
     ads: true,
-    body: gameBody({ site, v, related: related(v), guideLinks: guideLinks(gameGuides) }),
+    body: gameBody({ site, v, related: related(v), guides: gameGuides, total: views.length }),
   }));
   pages.push({ path: v.path, lastmod: g.lastChanged });
 }
@@ -246,6 +248,7 @@ write('index.html', layout({
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${site.url}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },
   }],
   ads: true,
+  nav: 'games',
   body: homeBody({ site, views, guides, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
 }));
 pages.unshift({ path: '/', lastmod: homeLastmod });
@@ -279,6 +282,7 @@ for (const gd of guides) {
       },
     ],
     ads: true,
+    nav: 'guides',
     body: guideBody({ site, gd, games: gd.games.map(s => byslug.get(s)).filter(Boolean).slice(0, 6), more: guides.filter(o => o !== gd).slice(0, 3) }),
   }));
   pages.push({ path: gd.path, lastmod: new Date(gd.updated).toISOString() });
@@ -292,6 +296,7 @@ if (guides.length) {
       '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox codes guides', url: site.url + '/guides/',
       hasPart: guides.map(gd => ({ '@type': 'Article', headline: gd.title, url: site.url + gd.path })),
     }],
+    nav: 'guides',
     body: guidesIndexBody({ site, guides }),
   }));
   pages.push({ path: '/guides/', lastmod: new Date(guides.map(g => g.updated).sort().pop()).toISOString() });
@@ -307,7 +312,7 @@ for (const [slug, h1, title, description, html] of [
   ['terms', 'Terms of Use', `Terms of Use - ${site.siteName}`, `The terms for using ${site.siteName}: codes are controlled by each game's developers, how to stay safe from scams, and trademarks.`, terms(site, site.privacyUpdated)],
   ['privacy', 'Privacy Policy', `Privacy Policy - ${site.siteName}`, `What ${site.siteName} collects, how Google Analytics and AdSense cookies are used, and how to opt out.`, privacy(site, site.privacyUpdated)],
 ]) {
-  write(`${slug}/index.html`, layout({ site, assets, path: `/${slug}/`, title, description, body: staticBody(h1, html) }));
+  write(`${slug}/index.html`, layout({ site, assets, path: `/${slug}/`, title, description, nav: slug, body: staticBody(h1, html) }));
   pages.push({ path: `/${slug}/`, lastmod: STATIC_LASTMOD });
 }
 

@@ -15,7 +15,7 @@ function consentDefaults(site) {
 function analytics(id) {
   if (!id) return '';
   return `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(id)}"></script>
-<script>gtag('js',new Date());gtag('config','${esc(id)}');</script>`;
+<script>gtag('js',new Date());gtag('config','${esc(id)}',{allow_google_signals:false,allow_ad_personalization_signals:false});</script>`;
 }
 
 function adsense(client) {
@@ -32,10 +32,12 @@ export function adSlot(site, name) {
   return `<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="${esc(client)}" data-ad-slot="${esc(slot)}" data-ad-format="auto" data-full-width-responsive="true"${site.adsense?.childTreatment ? ` data-tag-for-age-treatment="${Number(site.adsense.childTreatment)}"` : ''}></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>`;
 }
 
-export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [], ads = false }) {
-  const guidesNav = site.hasGuides ? '<a href="/guides/">Guides</a>' : '';
+
+export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [], ads = false, nav = '' }) {
   const url = site.url + path;
   const og = ogImage ?? `${site.url}/og/default.jpg`;
+  const a = site.author;
+  const cur = key => (nav === key ? ' aria-current="page"' : '');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -44,8 +46,8 @@ export function layout({ site, assets, title, description, path, body, jsonld = 
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${esc(url)}">
-${noindex ? '<meta name="robots" content="noindex">\n' : ''}<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0a0e0e" media="(prefers-color-scheme: dark)">
+${noindex ? '<meta name="robots" content="noindex">\n' : ''}<meta name="theme-color" content="#faf6ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1b1815" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="${ogType}">
 <meta property="og:site_name" content="${esc(site.siteName)}">
 <meta property="og:title" content="${esc(title)}">
@@ -58,6 +60,7 @@ ${noindex ? '<meta name="robots" content="noindex">\n' : ''}<meta name="theme-co
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/fraunces-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/jakarta-latin.woff2" as="font" type="font/woff2" crossorigin>
 ${preload.map(p => `<link rel="preload" href="${esc(p)}" as="image" fetchpriority="high">`).join('\n')}
 <link rel="stylesheet" href="${assets.css}">
@@ -69,33 +72,35 @@ ${ads ? adsense(site.adsense?.client) : ''}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="masthead">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
-    <nav aria-label="Main">
-      <a href="/#games" class="hide-sm">All games</a>
-      ${guidesNav}
-      <a href="/about/" class="hide-sm">About</a>
-      <button class="theme-toggle" type="button" aria-label="Switch light or dark theme">${ICONS.moon}${ICONS.sun}</button>
+    <a class="brand" href="/" aria-label="${esc(site.siteName)} home">RBXCodes<i>HQ</i></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#games"${cur('games')}>Games</a>
+      ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
+      <a href="/about/" class="opt"${cur('about')}>About</a>
+      <button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false">${ICONS.moon}${ICONS.sun}</button>
     </nav>
   </div>
 </header>
-<main id="main">
+<main id="main" class="wrap">
 ${body}
 </main>
-<footer class="site-footer">
+<p id="live" class="sr-only" role="status" aria-live="polite"></p>
+<footer class="foot">
   <div class="wrap">
+    <p class="sig"><img src="/img/${esc(a.image.replace(/\.webp$/, '-64.webp'))}" alt="" width="44" height="44" loading="lazy">
+      <span>Made by <a href="/author/${esc(a.slug)}/">${esc(a.firstName)}</a>, a Roblox player since ${esc(a.robloxSince)}. Say hi on <a href="${esc(a.youtube)}" rel="noopener">YouTube</a>.</span></p>
     <nav aria-label="Footer">
-      <a href="/">Home</a>
-      ${guidesNav}
+      <a href="/#games">All games</a>
+      ${site.hasGuides ? '<a href="/guides/">Guides</a>' : ''}
       <a href="/how-we-check-codes/">How I check codes</a>
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>
       <a href="/terms/">Terms</a>
     </nav>
-    <p>${esc(site.siteName)} is a fan site and is not affiliated with Roblox Corporation.</p>
-    <p>© ${new Date().getUTCFullYear()} ${esc(site.siteName)}</p>
+    <p class="fine">${esc(site.siteName)} is a fan site. It isn't made by, or connected to, Roblox Corporation.</p>
   </div>
 </footer>
 <script src="${assets.js}" defer></script>
