@@ -354,6 +354,7 @@ export function authorBody({ site, views }) {
   <ul>
     <li>YouTube: <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.youtube.replace('https://www.', ''))}</a></li>
     <li>Roblox: <a href="${esc(a.roblox)}" rel="me noopener">${esc(a.name)}</a></li>
+    ${a.discord ? `<li>Discord: <a href="${esc(a.discord)}" rel="me noopener">my Discord server</a></li>` : ''}
     <li>My Roblox group: <a href="https://www.roblox.com/communities/16078632" rel="noopener">Group insane</a></li>
   </ul>
 

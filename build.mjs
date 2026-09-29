@@ -162,7 +162,7 @@ const AUTHOR = site.author;
 const PERSON = {
   '@type': 'Person', name: AUTHOR.name, url: site.url + authorPath(site),
   image: `${site.url}/img/${AUTHOR.image}`,
-  sameAs: [AUTHOR.youtube, AUTHOR.roblox],
+  sameAs: [AUTHOR.youtube, AUTHOR.roblox, AUTHOR.discord].filter(Boolean),
 };
 const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/', logo: { '@type': 'ImageObject', url: `${site.url}/logo-512.png`, width: 512, height: 512 } };
 

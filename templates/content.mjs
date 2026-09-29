@@ -84,7 +84,7 @@ export const contact = site => `
   <li>What happened — an error message, or no reward.</li>
   <li>For a new game: its Roblox link.</li>
 </ul>
-<p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>, but email is the fastest way to get a code fixed.</p>
+<p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>${site.author.discord ? ` and in <a href="${esc(site.author.discord)}" rel="noopener">my Discord server</a>` : ''}, but email is the fastest way to get a code fixed.</p>
 <p>I read every message. I can't help with account problems, lost items or purchases — those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers. Never send anyone your password, including me.</p>
 `;
 
