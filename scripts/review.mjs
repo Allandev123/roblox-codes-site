@@ -13,10 +13,18 @@
 // does not queue it again; it is dropped once it leaves the description.
 
 import readline from 'readline';
+import { execFileSync } from 'child_process';
 import { loadGames, saveGame } from '../lib/store.mjs';
 import { pendingCodes, writePendingMd } from '../lib/pending.mjs';
 
-const [cmd, slug, ...rest] = process.argv.slice(2);
+const argv = process.argv.slice(2).filter(a => a !== '--no-pull');
+const [cmd, slug, ...rest] = argv;
+
+// The scraper commits every few hours; start from its latest data so the
+// approvals made here don't collide with it on push.
+if (!process.argv.includes('--no-pull') && cmd !== 'list') {
+  try { execFileSync('git', ['pull', '--rebase', '--autostash', '-q'], { stdio: 'ignore' }); } catch {}
+}
 const now = new Date().toISOString();
 const games = loadGames();
 const die = m => { console.error(`FAILED: ${m}`); process.exit(1); };

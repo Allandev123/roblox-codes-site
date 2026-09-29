@@ -8,7 +8,7 @@
 // re-downloads icons and thumbnails, for when a game changes its artwork.
 //
 // In GitHub Actions it also writes a step summary and sets outputs:
-//   changed=<games whose public list changed>  pending=<codes waiting>
+//   changed=<games whose public list changed>  pending=<codes waiting>  added=<new this run>
 
 import fs from 'fs';
 import path from 'path';
@@ -29,7 +29,7 @@ if (!games.length) { console.log('no games to check'); process.exit(0); }
 const details = await gameDetails(games.map(g => g.universeId));
 const now = new Date().toISOString();
 const lines = [];
-let changed = 0, failed = 0;
+let changed = 0, failed = 0, added = 0;
 const pendingAll = [];
 
 for (const g of games) {
@@ -57,6 +57,7 @@ for (const g of games) {
 
   if (!DRY) saveGame(g);
   if (r.changed) changed++;
+  added += r.added.length;
 
   const bits = [];
   if (r.added.length) bits.push(`new: ${r.added.join(', ')}`);
@@ -80,6 +81,6 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Scrape ${now}\n\n\`\`\`\n${lines.join('\n')}\n\`\`\`\n\n${pendingAll.length} code(s) waiting for approval.\n`);
 }
 if (process.env.GITHUB_OUTPUT) {
-  fs.appendFileSync(process.env.GITHUB_OUTPUT, `changed=${changed}\npending=${pendingAll.length}\n`);
+  fs.appendFileSync(process.env.GITHUB_OUTPUT, `changed=${changed}\npending=${pendingAll.length}\nadded=${added}\n`);
 }
 if (failed === games.length) process.exit(1);

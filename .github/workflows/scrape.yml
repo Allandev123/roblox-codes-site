@@ -1,0 +1,64 @@
+name: Scrape codes
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --omit=dev
+
+      - name: Scrape Roblox descriptions
+        id: scrape
+        run: node scripts/scrape.mjs
+
+      # Builds, runs every check, then commits and pushes the new data (which
+      # makes Vercel redeploy) and pings IndexNow. Codes waiting for approval
+      # are in the data but never rendered, so they don't block the rest.
+      - name: Publish
+        run: |
+          git config user.name "rbxcodeshq-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node publish.mjs --push -m "Scrape: ${{ steps.scrape.outputs.changed }} game(s) changed, ${{ steps.scrape.outputs.pending }} waiting"
+
+      # One open issue holds the approval list. Opening it (or a comment when
+      # new codes arrive) sends a GitHub notification; it closes itself when
+      # the queue is empty.
+      - name: Approval queue issue
+        if: always() && steps.scrape.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PENDING: ${{ steps.scrape.outputs.pending }}
+          ADDED: ${{ steps.scrape.outputs.added }}
+        run: |
+          gh label create pending-codes --color 0f766e --description "Codes waiting for approval" 2>/dev/null || true
+          num=$(gh issue list --label pending-codes --state open --json number --jq '.[0].number')
+          if [ "$PENDING" -gt 0 ]; then
+            if [ -z "$num" ]; then
+              gh issue create --title "Codes waiting for approval" --label pending-codes --body-file PENDING.md
+            else
+              gh issue edit "$num" --body-file PENDING.md
+              if [ "$ADDED" -gt 0 ]; then gh issue comment "$num" --body "$ADDED new code(s) found. Run \`node scripts/review.mjs\` after pulling."; fi
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "Queue is empty."
+          fi
