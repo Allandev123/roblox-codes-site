@@ -6,36 +6,164 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/:path*/index.html", "destination": "/:path*/", "permanent": true }
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/category/roblox-codes/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/information/",
+      "destination": "/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/about-roblox-codes-hq/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/our-mission/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/my-first-ever-blog-the-start-of-roblox-codes-hq/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-submit-codes-to-robloxcodeshq-com/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/all-the-working-codes-in-roblox-rivals-and-how-to-redeem-them/",
+      "destination": "/rivals-codes/",
+      "permanent": true
+    },
+    {
+      "source": "/alpha-restaurant-tycoon-3-codes/",
+      "destination": "/restaurant-tycoon-3-codes/",
+      "permanent": true
+    },
+    {
+      "source": "/real-time-grow-a-garden-stock-tracker-see-whats-in-stock-now/",
+      "destination": "/grow-a-garden-codes/",
+      "permanent": true
+    },
+    {
+      "source": "/author/robloxcodes1/",
+      "destination": "/author/allanisgreasy/",
+      "permanent": true
+    },
+    {
+      "source": "/where-i-went-why-i-privated-my-bedwars-videos-and-whats-next-for-allanisgreasy/",
+      "destination": "/author/allanisgreasy/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/roblox-codes/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/hello-world/",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": ".*\\.vercel\\.app" }],
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/fonts/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/(img|og)/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
     }
   ]
 }
