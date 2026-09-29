@@ -70,7 +70,7 @@ ${consentDefaults(site)}
 ${analytics(site.analyticsId)}
 ${ads ? adsense(site.adsense?.client) : ''}
 </head>
-<body>
+<body id="top">
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="wrap">
@@ -111,6 +111,7 @@ ${body}
     <p class="fine">${esc(site.siteName)} is a fan site. It isn't made by, or connected to, Roblox Corporation.</p>
   </div>
 </footer>
+<a class="to-top" href="#top" aria-label="Back to top" hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
 <script src="${assets.js}" defer></script>
 </body>
 </html>
