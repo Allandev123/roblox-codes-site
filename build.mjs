@@ -94,7 +94,29 @@ for (const g of all) {
 }
 // newest code changes first, everywhere
 views.sort((a, b) => Date.parse(b.g.lastChanged) - Date.parse(a.g.lastChanged) || b.live.length - a.live.length);
-site.hasUpdates = views.length > 0; // the /updates/ page lists their codes
+
+// Code updates, by day: codes added or retired after a game got its page. The
+// codes a game already had on the day it was added are its starting list, not news.
+const updateDays = (() => {
+  const days = new Map();
+  const at = (day, v) => {
+    if (!days.has(day)) days.set(day, new Map());
+    const m = days.get(day);
+    if (!m.has(v)) m.set(v, { v, added: [], expired: [] });
+    return m.get(v);
+  };
+  for (const v of views) {
+    const start = (v.g.added ?? '').slice(0, 10);
+    for (const c of v.live) {
+      const day = (c.approvedAt ?? c.firstSeen).slice(0, 10);
+      if (day > start) at(day, v).added.push(c);
+    }
+    for (const e of v.g.expired ?? []) if (e.approved !== false && e.removed && e.removed.slice(0, 10) > start) at(e.removed.slice(0, 10), v).expired.push(e);
+  }
+  return [...days].sort((a, b) => b[0].localeCompare(a[0])).slice(0, 30)
+    .map(([day, m]) => ({ day, rows: [...m.values()].sort((a, b) => (b.v.g.stats?.playing ?? 0) - (a.v.g.stats?.playing ?? 0)) }));
+})();
+site.hasUpdates = updateDays.length > 0;
 
 // <title>: 60 characters at most, dropping the least useful parts first
 function gameTitle(v) {
@@ -196,7 +218,7 @@ function loadArticles(section) {
     .filter(gd => Date.parse(gd.published) <= NOW);
 }
 const guides = loadArticles('guides').sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
-const posts = loadArticles('blog').sort((a, b) => b.published.localeCompare(a.published) || a.order - b.order);
+const posts = loadArticles('blog').sort((a, b) => a.order - b.order || a.published.localeCompare(b.published)); // devlogs read in order: 1, 2, 3...
 const gameGuides = guides.filter(gd => gd.onGamePages).slice(0, 3);
 site.hasGuides = guides.length > 0;
 site.hasBlog = posts.length > 0;
@@ -348,21 +370,8 @@ if (posts.length) {
 }
 
 // ---------------------------------------------------------------- code updates
-// Every code added or retired on a published game, by day, straight from the data.
 {
-  const days = new Map();
-  const at = (day, v) => {
-    if (!days.has(day)) days.set(day, new Map());
-    const m = days.get(day);
-    if (!m.has(v)) m.set(v, { v, added: [], expired: [] });
-    return m.get(v);
-  };
-  for (const v of views) {
-    for (const c of v.live) at((c.approvedAt ?? c.firstSeen).slice(0, 10), v).added.push(c);
-    for (const e of v.g.expired ?? []) if (e.approved !== false && e.removed) at(e.removed.slice(0, 10), v).expired.push(e);
-  }
-  const list = [...days].sort((a, b) => b[0].localeCompare(a[0])).slice(0, 30)
-    .map(([day, m]) => ({ day, rows: [...m.values()].sort((a, b) => (b.v.g.stats?.playing ?? 0) - (a.v.g.stats?.playing ?? 0)) }));
+  const list = updateDays;
   if (list.length) {
     write('updates/index.html', layout({
       site, assets, path: '/updates/',

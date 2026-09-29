@@ -127,7 +127,7 @@ ${guides.slice(0, 5).map(gd => `        <li><a href="${gd.path}"><b>${esc(gd.sho
 </div>
 
 <section id="newest" class="sec" aria-labelledby="newest-h">
-  <div class="sec-head"><h2 id="newest-h">Newest codes</h2><a class="aside" href="/updates/">All code updates</a></div>
+  <div class="sec-head"><h2 id="newest-h">Newest codes</h2>${site.hasUpdates ? '<a class="aside" href="/updates/">All code updates</a>' : ''}</div>
   <ul class="feed codes">
 ${newest.map(({ v, c }) => `    <li>
       <a class="feed-game" href="${v.path}"><img src="${v.icon}" alt="" width="40" height="40" loading="lazy">${esc(v.g.name)}</a>
@@ -344,7 +344,7 @@ export function updatesBody({ site, list }) {
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Updates</li></ol></nav>
 <header class="index-head">
 <h1>Code updates</h1>
-<p class="dek">Every code that was added or retired on this site, day by day. New codes appear here once I've approved them, and codes move to "expired" when the game stops listing them.</p>
+<p class="dek">What changed, day by day: new codes that games released, and codes that stopped working. It's the quickest way to see what's new since you last checked.</p>
 </header>
 ${list.map(({ day, rows }) => {
     const added = rows.reduce((n, r) => n + r.added.length, 0), gone = rows.reduce((n, r) => n + r.expired.length, 0);

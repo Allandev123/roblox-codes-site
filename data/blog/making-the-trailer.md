@@ -1,5 +1,5 @@
 ---
-title: Making the Trailer for +1 Nose to Escape
+title: Devlog 4: Making the Trailer for +1 Nose to Escape
 seoTitle: Making a Roblox Game Trailer: +1 Nose to Escape
 short: Making the trailer
 description: How I made the trailer for my Roblox game +1 Nose to Escape: recording a scripted run in-game, cutting it under 30 seconds, and why the music is original.

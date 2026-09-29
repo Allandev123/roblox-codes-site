@@ -1,5 +1,5 @@
 ---
-title: How I Made the Thumbnail for +1 Nose to Escape
+title: Devlog 3: How I Made the Thumbnail for +1 Nose to Escape
 seoTitle: How I Made My Roblox Game Thumbnail (8 Versions)
 short: Making the thumbnail
 description: Every version of the +1 Nose to Escape thumbnail, from a screenshot to a Blender render to the final art, and what I learned about thumbnails.
