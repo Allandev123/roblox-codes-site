@@ -391,3 +391,13 @@ main.wrap:has(.index-head) { max-width: 1080px; }
 p.kicker { margin: 0 0 6px; }
 @media (prefers-reduced-motion: reduce) { .card, .card:hover { transition: none; transform: none; } }
 .run-by + .cards { margin-top: 20px; }
+
+/* ---------- code updates ---------- */
+.updates a { display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; text-decoration: none; color: inherit; }
+.updates a:hover b { color: var(--accent-text); }
+.updates img { flex: none; width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--rule); }
+.u-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.u-line { font-size: .92rem; line-height: 1.6; overflow-wrap: anywhere; }
+.u-line code { font: 700 .85rem/1 var(--mono); padding: 2px 6px; background: var(--tint); border-radius: 5px; }
+.u-new { font-weight: 700; color: var(--ok-text, var(--ink)); margin-right: 4px; }
+.u-old { font-weight: 700; color: var(--muted); margin-right: 4px; }

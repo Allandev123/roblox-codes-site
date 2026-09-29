@@ -13,7 +13,7 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody } from './templates/pages.mjs';
+import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
@@ -94,6 +94,7 @@ for (const g of all) {
 }
 // newest code changes first, everywhere
 views.sort((a, b) => Date.parse(b.g.lastChanged) - Date.parse(a.g.lastChanged) || b.live.length - a.live.length);
+site.hasUpdates = views.length > 0; // the /updates/ page lists their codes
 
 // <title>: 60 characters at most, dropping the least useful parts first
 function gameTitle(v) {
@@ -140,7 +141,7 @@ const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/',
 
 // images: copy only what published pages use, plus a 128px icon for cards
 for (const v of views) {
-  for (const f of [v.g.icon, v.g.thumb]) {
+  for (const f of [v.g.icon, v.g.thumb, v.g.redeemImage]) {
     if (f) copy(path.join(IMAGES_DIR, f), `img/${f}`);
   }
   if (v.g.icon) write(v.icon.slice(1), await sharp(path.join(IMAGES_DIR, v.g.icon)).resize(128, 128).webp({ quality: 80 }).toBuffer());
@@ -342,6 +343,36 @@ if (posts.length) {
     body: blogIndexBody({ site, posts }),
   }));
   pages.push({ path: '/blog/', lastmod: new Date(posts.map(g => g.updated).sort().pop()).toISOString() });
+}
+
+// ---------------------------------------------------------------- code updates
+// Every code added or retired on a published game, by day, straight from the data.
+{
+  const days = new Map();
+  const at = (day, v) => {
+    if (!days.has(day)) days.set(day, new Map());
+    const m = days.get(day);
+    if (!m.has(v)) m.set(v, { v, added: [], expired: [] });
+    return m.get(v);
+  };
+  for (const v of views) {
+    for (const c of v.live) at((c.approvedAt ?? c.firstSeen).slice(0, 10), v).added.push(c);
+    for (const e of v.g.expired ?? []) if (e.approved !== false && e.removed) at(e.removed.slice(0, 10), v).expired.push(e);
+  }
+  const list = [...days].sort((a, b) => b[0].localeCompare(a[0])).slice(0, 30)
+    .map(([day, m]) => ({ day, rows: [...m.values()].sort((a, b) => (b.v.g.stats?.playing ?? 0) - (a.v.g.stats?.playing ?? 0)) }));
+  if (list.length) {
+    write('updates/index.html', layout({
+      site, assets, path: '/updates/',
+      title: `Roblox Code Updates: New and Expired Codes - ${site.siteName}`.length <= 60
+        ? `Roblox Code Updates: New and Expired Codes - ${site.siteName}` : 'Roblox Code Updates: New and Expired Codes',
+      description: clip(`Every Roblox code added to or removed from ${site.siteName}, day by day, across ${views.length} games. See what's new since your last visit.`, 155),
+      jsonld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox code updates', url: site.url + '/updates/', dateModified: list[0].day }],
+      nav: 'updates',
+      body: updatesBody({ site, list }),
+    }));
+    pages.push({ path: '/updates/', lastmod: new Date(list[0].day).toISOString() });
+  }
 }
 
 // ---------------------------------------------------------------- static pages

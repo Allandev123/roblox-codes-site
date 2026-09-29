@@ -78,7 +78,7 @@ ${recent.map(v => gameTile(v, { lazy: false }).replace('class="tile"', 'class="t
 </section>
 
 <section id="newest" class="sec" aria-labelledby="newest-h">
-  <div class="sec-head"><h2 id="newest-h">Newest codes</h2><span class="aside">Tap a code to copy it</span></div>
+  <div class="sec-head"><h2 id="newest-h">Newest codes</h2><a class="aside" href="/updates/">All code updates</a></div>
   <ul class="feed codes">
 ${newest.map(({ v, c }) => `    <li>
       <a class="feed-game" href="${v.path}"><img src="${v.icon}" alt="" width="40" height="40" loading="lazy">${esc(v.g.name)}</a>
@@ -185,6 +185,7 @@ ${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChanne
   <ol class="steps">
 ${g.redeem.map(s => `    <li>${esc(s)}</li>`).join('\n')}
   </ol>
+  ${g.redeemImage ? `<figure class="shot"><img src="/img/${esc(g.redeemImage)}" alt="${esc(g.redeemCaption ?? `The code box in ${g.name}`)}" width="1280" height="720" loading="lazy" decoding="async"><figcaption>${esc(g.redeemCaption ?? `The code box in ${g.name}.`)} My screenshot${g.checkedInGame ? `, ${dateLong(g.checkedInGame)}` : ''}.</figcaption></figure>` : ''}
   <p class="tip">On a phone, tap the game's code box, then press and hold and choose Paste.${notWorking ? ` Code not working? <a href="${notWorking.path}">Here's why</a>.` : ''}${g.checkedInGame ? ` I checked these steps in-game on ${dateLong(g.checkedInGame)}.` : ''}</p>
 </section>
 
@@ -298,6 +299,26 @@ export function authorBody({ site, views }) {
 <ul class="ruled games cols">
 ${[...views].sort(byName).map(v => gameRow(v)).join('\n')}
 </ul>`;
+}
+
+// ---------------------------------------------------------------- code updates
+
+export function updatesBody({ site, list }) {
+  const codes = arr => arr.slice(0, 8).map(c => `<code>${esc(c.code)}</code>`).join(' ') + (arr.length > 8 ? ` and ${arr.length - 8} more` : '');
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Updates</li></ol></nav>
+<header class="index-head">
+<h1>Code updates</h1>
+<p class="dek">Every code that was added or retired on this site, day by day. New codes appear here once I've approved them, and codes move to "expired" when the game stops listing them.</p>
+</header>
+${list.map(({ day, rows }) => {
+    const added = rows.reduce((n, r) => n + r.added.length, 0), gone = rows.reduce((n, r) => n + r.expired.length, 0);
+    return `<section class="sec" aria-labelledby="d-${day}">
+  <div class="sec-head"><h2 id="d-${day}">${dateLong(day)}</h2><span class="aside">${[added ? `${added} new` : '', gone ? `${gone} expired` : ''].filter(Boolean).join(' · ')}</span></div>
+  <ul class="ruled updates">
+${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="" width="40" height="40" loading="lazy"><span class="u-text"><b>${esc(r.v.g.name)}</b>${r.added.length ? `<span class="u-line"><span class="u-new">${plural(r.added.length, 'new code')}</span> ${codes(r.added)}</span>` : ''}${r.expired.length ? `<span class="u-line"><span class="u-old">${r.expired.length} expired</span> ${codes(r.expired)}</span>` : ''}</span></a></li>`).join('\n')}
+  </ul>
+</section>`;
+  }).join('\n')}`;
 }
 
 // ---------------------------------------------------------------- guides and blog

@@ -79,6 +79,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
       <div class="nav-links" id="nav-links">
         <a href="/#games"${cur('games')}>Games</a>
         ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
+        ${site.hasUpdates ? `<a href="/updates/"${cur('updates')}>Updates</a>` : ''}
         ${site.hasBlog ? `<a href="/blog/"${cur('blog')}>Blog</a>` : ''}
         <a href="/about/"${cur('about')}>About</a>
         <a href="/contact/"${cur('contact')}>Contact</a>
@@ -99,6 +100,7 @@ ${body}
     <nav aria-label="Footer">
       <a href="/#games">All games</a>
       ${site.hasGuides ? '<a href="/guides/">Guides</a>' : ''}
+      ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
       ${site.hasBlog ? '<a href="/blog/">Dev blog</a>' : ''}
       <a href="/how-we-check-codes/">How I check codes</a>
       <a href="/about/">About</a>
