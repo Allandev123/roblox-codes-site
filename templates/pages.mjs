@@ -85,8 +85,10 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   <h1>Roblox Codes</h1>
   <p class="sub">${total} working codes for ${views.length} games · checked ${ago(lastCheck)}</p>
   <form class="search" role="search" action="/" method="get">
-    <label for="q" class="sr-only">Search a game</label>
-    <div class="field">${ICONS.search}<input id="q" name="q" type="search" placeholder="Search a game..." autocomplete="off" enterkeyhint="search" aria-describedby="games-count" aria-keyshortcuts="/"></div>
+    <label for="q" class="sr-only">Search games or codes</label>
+    <div class="field">${ICONS.search}<input id="q" name="q" type="search" placeholder="Search games or codes..." autocomplete="off" enterkeyhint="search" aria-describedby="games-count" aria-keyshortcuts="/" role="combobox" aria-expanded="false" aria-controls="q-list" aria-autocomplete="list">
+      <div class="suggest" id="q-pop" hidden></div>
+    </div>
     <p class="count" id="games-count"></p>
   </form>
 </section>
@@ -206,7 +208,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
   <ul class="ruled codes" data-latest="${v.latest}">
 ${v.live.map(c => codeRow(c, v.isNew(c))).join('\n')}
   </ul>
-  <p class="note">${source}. Capital letters matter, so tap Copy.</p>
+  <p class="note">${g.codesNote ? esc(g.codesNote) : `${source}. Capital letters matter, so tap Copy.`}</p>
 ${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChannels.replace(/\.$/, '').replace(/^The /, 'the '))}.</p>
 ` : ''}${g.requirement ? `  <p class="req"><strong>Before you redeem:</strong> ${esc(g.requirement)}</p>
 ` : ''}  <div class="next-step">

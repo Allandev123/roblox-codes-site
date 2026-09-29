@@ -426,6 +426,16 @@ write('404.html', layout({
 
 // ---------------------------------------------------------------- crawl files
 
+// search index for the live search dropdown: games and their working codes
+{
+  const byPlaying = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.stats?.playing ?? 0));
+  write('search.json', JSON.stringify({
+    games: views.map(v => ({ n: v.g.name, p: v.path, i: v.icon, c: v.live.length, g: v.g.subgenre || v.g.genre || '', al: (v.g.aliases ?? []).join(' ').toLowerCase(), pl: v.g.stats?.playing ?? 0 })),
+    codes: views.flatMap(v => v.live.map(c => ({ k: c.code, r: c.reward || '', n: v.g.name, p: v.path, i: v.icon }))),
+    popular: byPlaying.slice(0, 6).map(v => ({ n: v.g.name.replace(/\s*[\[(].*$/, ''), p: v.path })),
+  }));
+}
+
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p => `  <url><loc>${esc(site.url + p.path)}</loc><lastmod>${p.lastmod}</lastmod></url>`).join('\n')}

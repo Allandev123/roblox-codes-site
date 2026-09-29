@@ -461,3 +461,25 @@ main.wrap:has(.hub-head) { max-width: 1200px; }
 @media print { .to-top { display: none; } }
 /* bigger tap area for small "see all" links on touch screens */
 @media (pointer: coarse) { a.aside, a.side-more { display: inline-flex; align-items: center; min-height: 44px; } }
+
+/* live search dropdown */
+.nav a.nav-search { width: 44px; padding: 0; justify-content: center; border-radius: 50%; }
+.suggest {
+  position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 40;
+  background: var(--raised); border: 1px solid var(--rule); border-radius: 14px;
+  box-shadow: 0 12px 32px rgb(0 0 0 / .18); padding: 8px; max-height: min(70vh, 480px); overflow-y: auto; overscroll-behavior: contain;
+}
+.s-head { display: flex; align-items: center; gap: 6px; margin: 6px 8px 10px; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.s-chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 6px 6px; }
+.s-chip { display: inline-flex; align-items: center; min-height: 38px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--tint); color: var(--ink); text-decoration: none; font-size: .95rem; }
+.s-chip:hover, .s-chip[aria-selected="true"] { border-color: var(--accent); color: var(--accent-text); }
+.s-row { display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 10px; color: var(--ink); text-decoration: none; }
+.s-row:hover, .s-row[aria-selected="true"] { background: var(--tint); }
+.s-row img { width: 40px; height: 40px; border-radius: 10px; flex: none; object-fit: cover; background: var(--tint); }
+.s-text { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.s-text b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.s-text b code { font-size: .95em; }
+.s-text span { font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.s-kind { flex: none; color: var(--muted); }
+.s-none { margin: 10px 8px; color: var(--muted); }
+.suggest svg { position: static; transform: none; pointer-events: none; }

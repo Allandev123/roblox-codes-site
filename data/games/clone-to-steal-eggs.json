@@ -13,11 +13,13 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Clone to Steal Eggs on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Clone to Steal Eggs on Roblox and wait until you spawn at your base.",
+    "Press the Shop button on the right side of the screen (it has a FREE! tag).",
+    "At the top of the Exclusive Shop, press the green Codes tab.",
+    "Click the Enter Code box, type or paste the code, and press Verify.",
+    "The message \"Code redeemed successfully!\" appears under the box when it works."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Clone to Steal Eggs is a simulator from xFrozen x Dudes where you train to get faster, send clones out to steal eggs, and hatch those eggs into pets that earn cash for your base. Faster training means your clones grab eggs sooner, and better pets mean more money per second, which you spend on upgrades and rebirths. The game updates every Saturday, so new pets and codes come often.\n\nThe code box is inside the Exclusive Shop rather than a separate menu, which is why it's easy to miss. The launch and update codes are named after what they help with, like LUCK1 and TRAIN1, and the developers post new ones in their community whenever an update comes out.",
   "codes": [
     {
       "code": "Release",
@@ -80,5 +82,36 @@
   },
   "added": "2026-09-29T19:32:03.555Z",
   "lastChecked": "2026-09-29T21:51:35.715Z",
-  "lastChanged": "2026-09-29T19:32:20.085Z"
+  "lastChanged": "2026-09-29T19:32:20.085Z",
+  "redeemShots": [
+    {
+      "file": "clone-to-steal-eggs-redeem-1-base.webp",
+      "caption": "Step 2: the Shop button on the right side of the screen."
+    },
+    {
+      "file": "clone-to-steal-eggs-redeem-2-shop.webp",
+      "caption": "Step 3: the green Codes tab at the top of the Exclusive Shop."
+    },
+    {
+      "file": "clone-to-steal-eggs-redeem-3-codes.webp",
+      "caption": "Step 4: type the code in the Enter Code box and press Verify."
+    }
+  ],
+  "checkedInGame": "2026-09-29",
+  "codeChannels": "The developers' community, linked in the game's social links on Roblox (the code screen itself says to join it for exclusive codes)",
+  "faq": [
+    {
+      "q": "Where is the code box in Clone to Steal Eggs?",
+      "a": "Press the Shop button on the right side of the screen, then the green Codes tab at the top of the Exclusive Shop. The Enter Code box and Verify button are there."
+    },
+    {
+      "q": "How do I know a Clone to Steal Eggs code worked?",
+      "a": "Green text saying \"Code redeemed successfully!\" appears under the code box right after you press Verify."
+    },
+    {
+      "q": "When do new Clone to Steal Eggs codes come out?",
+      "a": "The game updates every Saturday, and new codes usually come with updates. The code screen says to join the developers' community for exclusive codes."
+    }
+  ],
+  "codesNote": "I entered these codes in the game myself on September 29, 2026, from the Codes tab in the Exclusive Shop. Tap Copy to get each one exactly right."
 }

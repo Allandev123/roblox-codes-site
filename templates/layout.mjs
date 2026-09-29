@@ -84,7 +84,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
         <a href="/about/"${cur('about')}>About</a>
         <a href="/contact/"${cur('contact')}>Contact</a>
       </div>
-      <button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false">${ICONS.moon}${ICONS.sun}</button>
+      <a class="nav-search" href="/#q" aria-label="Search games and codes">${ICONS.search}</a><button class="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false">${ICONS.moon}${ICONS.sun}</button>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="bars" aria-hidden="true"></span>Menu</button>
     </nav>
   </div>

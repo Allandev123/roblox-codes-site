@@ -207,10 +207,70 @@
       clearTimeout(st);
       if (qt.length) st = setTimeout(() => say(shown ? `${shown} game${shown === 1 ? '' : 's'} found` : 'No games found'), 400);
     };
-    input.addEventListener('input', run);
-    input.addEventListener('keydown', e => { if (e.key === 'Escape' && input.value) { e.preventDefault(); input.value = ''; run(); } });
+    // ---- live dropdown: popular games when empty, matching games and codes while typing
+    const pop = $('#q-pop');
+    let data = null, loading = null, opts = [], active = -1;
+    const load = () => loading ??= fetch('/search.json').then(r => r.json()).then(d => {
+      d.games.forEach(g => {
+        const w = norm(g.n).split(' ').filter(Boolean);
+        Object.assign(g, { w, flat: w.join(''), ini: w.filter(x => !/^\d+$/.test(x) && x !== 'plus').map(x => x[0]).join(''), al: g.al.split(' ').filter(Boolean) });
+      });
+      d.codes.forEach(c => { c.low = c.k.toLowerCase(); });
+      data = d;
+    }).catch(() => { loading = null; });
+    const h = t => t.replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
+    const GAME = '<svg class="s-kind" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="4"/><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"/></svg>';
+    const GIFT = '<svg class="s-kind" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></svg>';
+    const setOpen = open => { pop.hidden = !open; input.setAttribute('aria-expanded', String(open)); if (!open) { active = -1; input.removeAttribute('aria-activedescendant'); } };
+    const mark = i => {
+      opts.forEach((o, j) => o.setAttribute('aria-selected', String(j === i)));
+      active = i;
+      if (i >= 0) { input.setAttribute('aria-activedescendant', opts[i].id); opts[i].scrollIntoView({ block: 'nearest' }); } else input.removeAttribute('aria-activedescendant');
+    };
+    const drawPop = () => {
+      if (!pop) return;
+      if (!data) { load()?.then(() => { if (document.activeElement === input) drawPop(); }); return; }
+      const qt = toks(input.value), qflat = qt.join(''), raw = input.value.trim().toLowerCase();
+      if (!qt.length && !raw) {
+        pop.innerHTML = `<p class="s-head"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8M15 7h6v6"/></svg>Popular</p><div class="s-chips" id="q-list" role="listbox" aria-label="Popular games">${data.popular.map((g, i) => `<a class="s-chip" id="q-o${i}" role="option" aria-selected="false" href="${g.p}">${h(g.n)}</a>`).join('')}</div>`;
+      } else {
+        let games = data.games.filter(g => qt.length && hit(g, qt, qflat));
+        let fuzzyHit = false;
+        if (!games.length && qt.length) { games = data.games.filter(g => fuzzy(g, qt, qflat)); fuzzyHit = games.length > 0; }
+        // names that start with the query first, then the most played
+        games.sort((a, b) => (b.flat.startsWith(qflat) - a.flat.startsWith(qflat)) || b.pl - a.pl);
+        const codes = raw.length >= 2 ? data.codes.filter(c => c.low.includes(raw.replace(/\s+/g, ''))).sort((a, b) => b.low.startsWith(raw) - a.low.startsWith(raw)).slice(0, 5) : [];
+        const gl = games.slice(0, codes.length ? 5 : 8);
+        let i = 0;
+        const row = (href, img, title, sub, icon) => `<a class="s-row" id="q-o${i++}" role="option" aria-selected="false" href="${href}"><img src="${img}" alt="" width="40" height="40"><span class="s-text"><b>${title}</b><span>${sub}</span></span>${icon}</a>`;
+        pop.innerHTML = (gl.length || codes.length)
+          ? `<div id="q-list" role="listbox" aria-label="Search results">${fuzzyHit ? '<p class="s-head">Did you mean</p>' : ''}${gl.map(g => row(g.p, g.i, h(g.n), `${g.c} code${g.c === 1 ? '' : 's'}${g.g ? ' · ' + h(g.g) : ''}`, GAME)).join('')}${codes.map(c => row(c.p, c.i, `<code>${h(c.k)}</code>`, h(c.r || c.n) + (c.r ? ' · ' + h(c.n) : ''), GIFT)).join('')}</div>`
+          : `<p class="s-none">No games or codes match "${h(input.value.trim())}". Try fewer letters.</p>`;
+      }
+      opts = [...pop.querySelectorAll('[role=option]')];
+      active = -1;
+      setOpen(true);
+    };
+    input.addEventListener('input', () => { run(); drawPop(); });
+    input.addEventListener('focus', () => { load(); drawPop(); });
+    input.addEventListener('pointerdown', () => { if (pop?.hidden && document.activeElement === input) drawPop(); });
+    input.addEventListener('keydown', e => {
+      const open = pop && !pop.hidden;
+      if (e.key === 'ArrowDown' && opts.length) { e.preventDefault(); if (!open) drawPop(); mark(Math.min(active + 1, opts.length - 1)); }
+      else if (e.key === 'ArrowUp' && open) { e.preventDefault(); mark(Math.max(active - 1, -1)); }
+      else if (e.key === 'Enter' && open && active >= 0) { e.preventDefault(); location.href = opts[active].href; }
+      else if (e.key === 'Escape') {
+        if (open) { e.preventDefault(); setOpen(false); }
+        else if (input.value) { e.preventDefault(); input.value = ''; run(); }
+      }
+    });
+    document.addEventListener('pointerdown', e => { if (pop && !pop.hidden && !e.target.closest('.search .field')) setOpen(false); });
+    input.addEventListener('blur', () => setTimeout(() => { if (!input.form.contains(document.activeElement)) setOpen(false); }, 150));
+    addEventListener('hashchange', () => { if (location.hash === '#q') { input.scrollIntoView({ block: 'center' }); input.focus(); } });
+
     input.form.addEventListener('submit', e => {
       e.preventDefault();
+      if (pop && !pop.hidden && opts.length && input.value.trim()) { location.href = opts[0].href; return; }
       const vis = idx.filter(x => !x.li.hidden);
       if (input.value.trim() && vis.length === 1) location.href = vis[0].a.href;
       else { input.blur(); $('#games').scrollIntoView({ block: 'start' }); }
