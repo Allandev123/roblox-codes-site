@@ -11,15 +11,241 @@
   "icon": "rivals-icon.webp",
   "thumb": "rivals-thumb.webp",
   "autoApprove": false,
-  "draft": true,
+  "draft": false,
   "redeem": [
-    "Launch RIVALS on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Join the Nosniy Games group on Roblox and follow the developer accounts listed in the game's Rewards menu on X.",
+    "Launch RIVALS and click the Rewards button at the bottom of the lobby screen.",
+    "Scroll down to the code section and enter your username so the game can check that you follow the developers.",
+    "Type or paste a code exactly as shown and press Redeem. Keys and wraps go straight to your inventory."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
-  "codes": [],
-  "expired": [],
+  "notes": "RIVALS is a fast competitive shooter where you fight other players in 1v1 up to 5v5 duels. Each round you bring a loadout of a primary weapon, a secondary, a melee and a utility item like a grenade, and the first team to win enough rounds takes the match. You start with basic weapons and unlock new ones with Keys as you play.\n\nCodes in RIVALS mostly give Keys, which unlock new weapons for your loadout, plus Community Wraps, charms, emotes and event items. Keys are the best reward early on because each new weapon opens up a different way to play. The developers drop a new FREE code with a number on it every so often, plus codes for events, community contests and Roblox awards, and they post them on X and in Discord first.",
+  "codes": [
+    {
+      "code": "COMMUNITY26",
+      "reward": "1 Community Wrap for a random weapon",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://gamerant.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BACK2BACK",
+      "reward": "RIA26 Best Shooter Charm",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://gamerant.com/roblox-rivals-codes/",
+        "https://www.igeeksblog.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "NOSNIYGAMESONTOP",
+      "reward": "RIA26 Best Studio Emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://gamerant.com/roblox-rivals-codes/",
+        "https://www.igeeksblog.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FREE199",
+      "reward": "3 Keys",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://www.igeeksblog.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FREE198",
+      "reward": "3 Keys",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://www.dexerto.com/roblox/rivals-codes-3298876/",
+        "https://www.pocketgamer.com/roblox/rivals-codes/",
+        "https://gamerant.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FREE196",
+      "reward": "3 Keys",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://www.thespike.gg/roblox/game-codes/roblox-rivals",
+        "https://www.pocketgamer.com/roblox/rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "COMMUNITY25",
+      "reward": "1 Community Wrap for a random weapon",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://www.dexerto.com/roblox/rivals-codes-3298876/",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://www.thespike.gg/roblox/game-codes/roblox-rivals"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "roblox_rtc",
+      "reward": "5 Keys",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://www.thespike.gg/roblox/game-codes/roblox-rivals",
+        "https://www.igeeksblog.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "IMMELTINGHELP",
+      "reward": "2 Keys",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://rocodes.gg/codes/roblox-rivals"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BONUS",
+      "reward": "1 Key",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://www.dexerto.com/roblox/rivals-codes-3298876/",
+        "https://rocodes.gg/codes/roblox-rivals"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BOOST",
+      "reward": "1 Key",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-rivals-codes/",
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://www.dexerto.com/roblox/rivals-codes-3298876/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CANNONBALLLLL",
+      "reward": "5 Goodie Bags",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://gamerant.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "COCONUTBONK",
+      "reward": "250 Pearls",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://www.thespike.gg/roblox/game-codes/roblox-rivals",
+        "https://gamerant.com/roblox-rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "RIVALSSUMMER",
+      "reward": "3 Tropical Chests",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/roblox-rivals/codes",
+        "https://rocodes.gg/codes/roblox-rivals",
+        "https://allthings.how/rivals-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "FREE165",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
   "stats": {
     "playing": 141220,
     "visits": 18431209997,
@@ -29,5 +255,25 @@
   },
   "added": "2026-09-29T17:09:03.441Z",
   "lastChecked": "2026-09-29T17:09:03.441Z",
-  "lastChanged": "2026-09-29T17:09:03.441Z"
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why can't I type a code into the RIVALS code box?",
+      "a": "You have to verify first. Join the Nosniy Games Roblox group, follow the developers on X, and enter your username in the Rewards menu before the code box unlocks."
+    },
+    {
+      "q": "What should I spend RIVALS Keys on?",
+      "a": "Use them to unlock a new weapon that fits how you play, like a sniper or shotgun. More weapons give you more loadout options than any cosmetic would."
+    },
+    {
+      "q": "Are the FREE number codes in RIVALS all different?",
+      "a": "Yes. Each numbered code like FREE198 or FREE199 is its own code, and each one gives 3 Keys once per account, so redeem every one that still works."
+    }
+  ],
+  "aliases": [
+    "roblox rivals",
+    "rivals roblox"
+  ],
+  "codeChannels": "The developers' X accounts (Nosniy and @Sensei_RBX), the RIVALS Discord game-codes channel and the Nosniy Games Roblox group",
+  "requirement": "You must join the Nosniy Games Roblox group and follow the developers on X, then verify in the Rewards menu before the code box works."
 }

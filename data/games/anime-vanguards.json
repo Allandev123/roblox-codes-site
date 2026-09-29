@@ -1,0 +1,183 @@
+{
+  "slug": "anime-vanguards",
+  "name": "Anime Vanguards",
+  "robloxName": "Anime Vanguards: Wrathful Assault",
+  "placeId": 16146832113,
+  "universeId": 5578556129,
+  "gameUrl": "https://www.roblox.com/games/16146832113/Anime-Vanguards-Wrathful-Assault",
+  "creator": "Kitawari",
+  "genre": "Strategy",
+  "subgenre": "Tower Defense",
+  "icon": "anime-vanguards-icon.webp",
+  "thumb": "anime-vanguards-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Anime Vanguards on Roblox and wait until you load into the lobby.",
+    "Press the Profile button on the right side of the screen.",
+    "Click the purple Codes button on the left side of the Profile menu.",
+    "Type the code in the Enter code box, matching capital letters, and hit Redeem Code."
+  ],
+  "notes": "Anime Vanguards is a tower defense game from Kitawari. You summon units based on anime characters, place them along the enemy path, and upgrade them during the match to stop waves of enemies and bosses. Between matches you level up and evolve your units, then take them into story stages, raids, challenges and events, either solo or with friends.\n\nCodes in this game mostly give Trait Rerolls, Memoria Shards and Gems. Trait Rerolls are the most useful reward, since a strong trait on your main damage unit makes a big difference in harder stages. New codes usually come out with each update, often along with apology codes when an update is delayed, and they are posted in the Discord announcements channel. Most codes only last until the next update, so redeem them quickly.",
+  "codes": [
+    {
+      "code": "100thTournament",
+      "reward": "100 Trait Rerolls (level 10 needed)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://rocodes.gg/codes/anime-vanguards",
+        "https://tryhardguides.com/anime-vanguards-codes/",
+        "https://progameguides.com/roblox/anime-vanguards-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Assault",
+      "reward": "100 Trait Rerolls (level 10 needed)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/anime-vanguards-codes/",
+        "https://www.pcgamesn.com/anime-vanguards/codes",
+        "https://beebom.com/anime-vanguards-codes/",
+        "https://www.pockettactics.com/anime-vanguards/codes",
+        "https://allthings.how/anime-vanguards-codes/",
+        "https://rocodes.gg/codes/anime-vanguards",
+        "https://tryhardguides.com/anime-vanguards-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SummerLeaving",
+      "reward": "100 Memoria Shards (level 10 needed)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/anime-vanguards-codes/",
+        "https://www.pcgamesn.com/anime-vanguards/codes",
+        "https://beebom.com/anime-vanguards-codes/",
+        "https://www.pockettactics.com/anime-vanguards/codes",
+        "https://allthings.how/anime-vanguards-codes/",
+        "https://rocodes.gg/codes/anime-vanguards",
+        "https://tryhardguides.com/anime-vanguards-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "AnniNextHopefully",
+      "reward": "100 Trait Rerolls, 100 Memoria Shards and 5,000 Gems (level 30 needed)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/anime-vanguards-codes/",
+        "https://www.pcgamesn.com/anime-vanguards/codes",
+        "https://beebom.com/anime-vanguards-codes/",
+        "https://www.pockettactics.com/anime-vanguards/codes",
+        "https://allthings.how/anime-vanguards-codes/",
+        "https://rocodes.gg/codes/anime-vanguards",
+        "https://tryhardguides.com/anime-vanguards-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "MiniUpd2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Wrath",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Retribution",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Miniupdate1",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2BVisits",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Prepare",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ExecutionPart2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "HeavyEyes",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 17137,
+    "visits": 2054850301,
+    "favorites": 1994390,
+    "updated": "2026-09-26T13:57:41.183Z",
+    "created": "2024-01-28T07:09:39.507Z"
+  },
+  "added": "2026-09-29T17:52:04.667Z",
+  "lastChecked": "2026-09-29T17:52:04.667Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does AnniNextHopefully say I cannot use it?",
+      "a": "That code needs you to be level 30. Keep playing story stages to level up, then come back and try it again."
+    },
+    {
+      "q": "What should I spend my Trait Rerolls on?",
+      "a": "Put them into your strongest damage unit instead of spreading them across your whole team. One unit with a great trait helps more than several units with average ones."
+    },
+    {
+      "q": "How long does 100thTournament last?",
+      "a": "Code sites report it ends around October 2, 2026. Anime Vanguards codes are often removed after the next update, so it is best to redeem new ones on the day they come out."
+    }
+  ],
+  "aliases": [
+    "av"
+  ],
+  "codeChannels": "The Anime Vanguards Discord #announcements channel, the game's X account and the Kitawari Roblox group",
+  "requirement": "Codes need at least level 10, and some need level 30."
+}

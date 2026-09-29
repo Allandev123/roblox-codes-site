@@ -1,0 +1,159 @@
+{
+  "slug": "sols-rng",
+  "name": "Sol's RNG",
+  "robloxName": "Sol's RNG [ Summer Event 🏖️]",
+  "placeId": 15532962292,
+  "universeId": 5361032378,
+  "gameUrl": "https://www.roblox.com/games/15532962292/Sols-RNG",
+  "creator": "Sol's Studio",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "sols-rng-icon.webp",
+  "thumb": "sols-rng-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Sol's RNG on Roblox and wait for the game to load.",
+    "Click the menu button with three bars on the left side of the screen and open Settings.",
+    "Go to the Miscellaneous tab and click Open next to Redeem Code.",
+    "Type the code exactly as shown, capital letters included, and click Redeem."
+  ],
+  "notes": "Sol's RNG is a luck game from Sol's Studio. You press Roll to get a random aura, and each aura has its own rarity, from common ones you see all the time to ones with odds of one in millions. There are more than 400 auras to find. You can craft gear from the auras you collect, drink potions to raise your luck, and wait for special weather and biomes that make certain rare auras possible.\n\nCodes here almost always give Potion Chests and Rare Potion Chests, sometimes with extras like Rainbow Ices, Hwachae or a Power Battery. Save the luck potions from those chests for a special biome or event, since that is when the rarest auras can show up. New codes arrive with most updates and are often named after the update date, and the team also posts sorry codes after server problems.",
+  "codes": [
+    {
+      "code": "UPD20260919",
+      "reward": "20 Potion Chests and 5 Rare Potion Chests",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/sols-rng-codes/",
+        "https://www.dexerto.com/roblox/sols-rng-codes-3297873/",
+        "https://www.destructoid.com/sols-rng-codes/",
+        "https://robloxden.com/game-codes/sols-rng"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SRY4DEALY",
+      "reward": "20 Potion Chests, 5 Rare Potion Chests and 3 Rainbow Ices",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/sols-rng-codes/",
+        "https://www.dexerto.com/roblox/sols-rng-codes-3297873/",
+        "https://www.destructoid.com/sols-rng-codes/",
+        "https://robloxden.com/game-codes/sols-rng"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "UPD20260905",
+      "reward": "20 Potion Chests and 5 Rare Potion Chests",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/sols-rng-codes/",
+        "https://www.dexerto.com/roblox/sols-rng-codes-3297873/",
+        "https://www.destructoid.com/sols-rng-codes/",
+        "https://robloxden.com/game-codes/sols-rng"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "20260711UPD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "20260627UPD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2026013UPD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AmalgamationHELL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LastEasterEventWeek",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AbsolutelyClassicUpd",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GargantuaBiome",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "AnotherRealmCH2",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 37314,
+    "visits": 2199185437,
+    "favorites": 1021309,
+    "updated": "2026-09-28T11:37:18.1323448Z",
+    "created": "2023-12-03T08:42:00.263Z"
+  },
+  "added": "2026-09-29T17:52:31.812Z",
+  "lastChecked": "2026-09-29T17:52:31.812Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why do Sol's RNG codes have dates in them, like UPD20260919?",
+      "a": "Update codes are named after the day the update came out, so UPD20260919 came with the September 19, 2026 update. The older the date, the more likely the code has expired."
+    },
+    {
+      "q": "Where is the code box in Sol's RNG?",
+      "a": "It is tucked inside the settings. Open the three-bar menu on the left, go to Settings, then Miscellaneous, and click Open next to Redeem Code."
+    },
+    {
+      "q": "When should I drink the potions I get from codes?",
+      "a": "Wait for a special biome or event, because some of the rarest auras can only roll then. Using luck potions in normal weather still helps, but you get less out of them."
+    }
+  ],
+  "aliases": [
+    "sols rng",
+    "sol rng"
+  ],
+  "codeChannels": "The official Sol's RNG Discord server and the Sol's Studio Roblox group"
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "steal-a-brainrot",
+  "name": "Steal a Brainrot",
+  "robloxName": "[🥚] Steal a Brainrot",
+  "placeId": 109983668079237,
+  "universeId": 7709344486,
+  "gameUrl": "https://www.roblox.com/games/109983668079237/Steal-a-Brainrot",
+  "creator": "BRAZILIAN SPYDER",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "steal-a-brainrot-icon.webp",
+  "thumb": "steal-a-brainrot-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Steal a Brainrot on Roblox and wait until you are standing at your base.",
+    "Click the Shop button on the left side of the screen.",
+    "Scroll to the very bottom of the shop window to find the code box.",
+    "Type the code exactly as shown and press Enter, then run to the red carpet to buy the brainrot it spawns."
+  ],
+  "notes": "Steal a Brainrot is a tycoon game where you buy meme brainrot characters as they walk down the red carpet and place them in your base. Each brainrot earns cash every second, so better ones make you richer faster. The twist is that other players can sneak into your base and steal your brainrots, so you lock your door, guard your base and try to steal rarer ones from others.\n\nCodes are rare here. Instead of cash, they spawn a special brainrot on the red carpet that you still pay for, so the reward only helps if you have saved enough cash. A secret brainrot is worth it because it earns far more than common ones. New codes have come with updates and with official plush toys, and they tend to expire quickly, so watch the Discord.",
+  "codes": [
+    {
+      "code": "BESTBRAINROTEVER",
+      "reward": "Spawns the secret La Vacca Saturno Saturnita on the red carpet for you to buy (about $80M in-game cash)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/steal-a-brainrot/codes",
+        "https://www.dexerto.com/roblox/steal-a-brainrot-codes-3388813/",
+        "https://allthings.how/steal-a-brainrot-codes/",
+        "https://rocodes.gg/codes/steal-a-brainrot"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "SATURN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SUMMERUPD3",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CODESAREREAL321",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CANDY24SAMMY",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ILOVEFOOD123",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NEEDTHIS4CRAFT333",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "OCTOBLOCK555",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FREEOCTOBLOCK777",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 135822,
+    "visits": 73723235475,
+    "favorites": 29446741,
+    "updated": "2026-09-28T19:39:05.4936496Z",
+    "created": "2025-05-16T00:49:12.563Z"
+  },
+  "added": "2026-09-29T17:52:33.483Z",
+  "lastChecked": "2026-09-29T17:52:33.483Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why did nothing happen when I redeemed a Steal a Brainrot code?",
+      "a": "The code does not put the brainrot in your base. It spawns on the red carpet, and you have to walk over and buy it before another player grabs it."
+    },
+    {
+      "q": "How much cash do I need for the BESTBRAINROTEVER code?",
+      "a": "Around $80M, the price of La Vacca Saturno Saturnita. Save up first, because the spawn only happens once per code."
+    },
+    {
+      "q": "Where do plush codes in Steal a Brainrot come from?",
+      "a": "Some codes are printed on official Steal a Brainrot plush toys. Those codes are tied to the toy, so they are not listed here as free codes."
+    }
+  ],
+  "aliases": [
+    "sab",
+    "steal brainrot"
+  ],
+  "codeChannels": "The official Steal a Brainrot Discord server (the separate codes channel was removed in Update 11), with some codes packed with official plush toys",
+  "requirement": "The code spawns a brainrot you still have to buy, so have around $80M in-game cash ready before you redeem it."
+}

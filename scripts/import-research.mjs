@@ -46,6 +46,7 @@ for (const f of fs.readdirSync(dir).filter(x => x.endsWith('.json')).sort()) {
   if (r.faq?.length) g.faq = r.faq;
   if (r.aliases?.length) g.aliases = r.aliases;
   if (r.codeChannels) g.codeChannels = r.codeChannels;
+  if (r.requirement) g.requirement = r.requirement;
   g.draft = false;
   if (added.length) g.lastChanged = now;
   if (DRY) console.log(`would update ${g.slug}: +${added.length} codes`);

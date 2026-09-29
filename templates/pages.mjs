@@ -144,7 +144,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
   const one = v.live.length === 1;
   const source = [
     fromDesc ? `${one ? 'From' : fromDesc === v.live.length ? 'All from' : `${fromDesc} from`} the game's Roblox page` : '',
-    manual ? `${manual === v.live.length ? (one ? 'From' : 'All from') : `${manual} from`} ${g.codeChannels ? `the developers' ${esc(g.codeChannels)}` : "the developers' Discord or X"}` : '',
+    manual ? `${manual === v.live.length ? (one ? 'Posted' : 'All posted') : `${manual} posted`} outside Roblox, so each one is checked against at least two up-to-date sources` : '',
   ].filter(Boolean).join('; ');
   const stats = g.stats ?? {};
   const notWorking = guides.find(gd => gd.slug === 'roblox-code-not-working');
@@ -165,7 +165,9 @@ export function gameBody({ site, v, related, guides = [], total }) {
 ${v.live.map(c => codeRow(c, v.isNew(c))).join('\n')}
   </ul>
   <p class="note">${source}. Capital letters matter, so tap Copy.</p>
-  <div class="next-step">
+${g.codeChannels ? `  <p class="note">Where new codes appear: ${esc(g.codeChannels.replace(/\.$/, ''))}.</p>
+` : ''}${g.requirement ? `  <p class="req"><strong>Before you redeem:</strong> ${esc(g.requirement)}</p>
+` : ''}  <div class="next-step">
     <a class="btn" href="${esc(g.gameUrl)}" rel="noopener" target="_blank">${ICONS.play} Open ${esc(g.name)}<span class="sr-only"> on Roblox (opens in a new tab)</span></a>
     <a class="jump" href="#redeem-h">How to redeem</a>
   </div>

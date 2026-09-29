@@ -1,0 +1,597 @@
+{
+  "slug": "dress-to-impress",
+  "name": "Dress To Impress",
+  "robloxName": "Dress To Impress ⭐",
+  "placeId": 15101393044,
+  "universeId": 5203828273,
+  "gameUrl": "https://www.roblox.com/games/15101393044/Dress-To-Impress",
+  "creator": "Dress To Impress Group",
+  "genre": "Roleplay & Avatar Sim",
+  "subgenre": "Dress Up",
+  "icon": "dress-to-impress-icon.webp",
+  "thumb": "dress-to-impress-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Join Dress To Impress on Roblox and wait for the lobby or dressing room to load.",
+    "Click the Codes button (the three stars icon) on the left side of the screen. It shows during intermission and dressing, not on the runway.",
+    "Type the code exactly, using the numbers 0, 1, 3 and 4 where the code has them instead of letters.",
+    "Press the checkmark to redeem, and the item appears in your dressing room right away."
+  ],
+  "notes": "Dress To Impress is a fashion game from the Dress To Impress Group. Each round gives everyone the same theme, and you get a few minutes in the dressing room to put together an outfit using clothes, hair, makeup and accessories. Then every player walks the runway, strikes a pose, and the others vote with stars. Good scores help you climb the ranks from beginner up to Top Model.\n\nCodes in this game give free clothing and accessories, and many of them come from creator collabs, so they tend to stay active for a long time. Full outfit codes like LANA, LEAHASHE and CA11MEHHALEY are the most useful because they fit lots of themes at once. New codes usually arrive with updates, holidays, visit milestones like 10 billion visits, and creator partnerships, and they are shared in the game's Discord.",
+  "codes": [
+    {
+      "code": "10BILLION",
+      "reward": "Heart Fork accessory",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LANADOLLDRESS",
+      "reward": "Reworked Lana tutu dress",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CA11MEHHALEY",
+      "reward": "Bear set with a dress, ears and onesie",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CH00P1E_B4CK_AGA1N",
+      "reward": "Revamped Choopie set with a skirt, shorts, shoes and jacket",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "PIXIIUWU",
+      "reward": "Pixie dress",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "3NCHANTEDD1ZZY",
+      "reward": "Fairy scepter",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ANGELT4NKED",
+      "reward": "Purple cat helmet",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ELLA",
+      "reward": "Pink skirt",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "1CON1CF4TMA",
+      "reward": "Free clothing item",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "MEGANPLAYSBOOTS",
+      "reward": "Sparkly silver boots",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "D1ORST4R",
+      "reward": "Star-shaped bag and hair bow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "S3M_0W3N_Y4Y",
+      "reward": "Gold staff with a red jewel",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "UMOYAE",
+      "reward": "Blue corset tutu dress",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "KITTYUUHH",
+      "reward": "CaseOh's kitty cat accessory",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BELALASLAY",
+      "reward": "Off-shoulder jacket",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "KREEK",
+      "reward": "KreekCraft's hat",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LANATUTU",
+      "reward": "Tutu skirt",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "M3RM4ID",
+      "reward": "Mermaid tail and top",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ITSJUSTNICHOLAS",
+      "reward": "Black jacket",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "IBELLASLAY",
+      "reward": "Watermelon pigtails hairstyle",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ASHLEYBUNNI",
+      "reward": "Bunny slippers",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUBM15CY",
+      "reward": "Pearl necklace and eyelashes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LABOOTS",
+      "reward": "Two pairs of heeled boots",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LANA",
+      "reward": "Frilly shorts, crop top and leg warmers",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TEKKYOOZ",
+      "reward": "Handbag with a black bow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LEAHASHE",
+      "reward": "Leah hoodie and Ashe sweatpants",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LANABOW",
+      "reward": "Hair bow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/dress-to-impress/codes",
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "KATSEYE",
+      "reward": "KATSEYE charm chain, charm nails and necklace",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LNY",
+      "reward": "Lunar New Year items, including last year's set",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "VANILLAMACE",
+      "reward": "Vanilla Mace items and a pattern",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "C4LLMEHH4LEY",
+      "reward": "Headband and dress",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-dress-to-impress-codes/",
+        "https://www.pcgamesn.com/dress-to-impress/codes",
+        "https://allthings.how/dress-to-impress-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "RDC2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "PROUD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LIONDANCER",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BHM26",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2YEARS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2GETHER",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FACECARD",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CH00P1E_1S_B4CK",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 60427,
+    "visits": 11072650398,
+    "favorites": 7498801,
+    "updated": "2026-09-29T17:37:40.9725668Z",
+    "created": "2023-10-18T09:11:36.563Z"
+  },
+  "added": "2026-09-29T17:52:17.370Z",
+  "lastChecked": "2026-09-29T17:52:17.370Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does CH00P1E_B4CK_AGA1N say it is invalid?",
+      "a": "That code uses the numbers 0, 1 and 4 in place of letters. Typing the letter O or I instead of the numbers makes it fail, so copy it exactly."
+    },
+    {
+      "q": "Can codes unlock VIP clothes?",
+      "a": "No. VIP items only come from the VIP game pass, and codes only give the specific item listed for each one."
+    },
+    {
+      "q": "Why can I not find the Codes button?",
+      "a": "It only appears on the left side during intermission and the dressing phase. Wait for the runway walk to end and it will show up again."
+    }
+  ],
+  "aliases": [
+    "dti"
+  ],
+  "codeChannels": "The official Dress To Impress Discord announcements channel and the Dress To Impress Roblox community"
+}

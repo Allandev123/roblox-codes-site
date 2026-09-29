@@ -1,0 +1,298 @@
+{
+  "slug": "bee-swarm-simulator",
+  "name": "Bee Swarm Simulator",
+  "robloxName": "Bee Swarm Simulator",
+  "placeId": 1537690962,
+  "universeId": 601130232,
+  "gameUrl": "https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator",
+  "creator": "Onett",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "bee-swarm-simulator-icon.webp",
+  "thumb": "bee-swarm-simulator-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Bee Swarm Simulator on Roblox and let your hive load.",
+    "Click the cog (settings) icon in the row of menu buttons at the top left of the screen.",
+    "Find the Promo Codes box in that menu and type or paste a code.",
+    "Press Redeem, and your rewards pop up in the bottom right corner.",
+    "For club codes like ClubBean and 15MMembers, join the Bee Swarm Simulator Club group on Roblox first."
+  ],
+  "notes": "Bee Swarm Simulator is a long-running bee collecting game made by Onett, first released in 2018. You send your bees into flower fields to gather pollen, carry it back to your hive, and turn it into honey. Honey buys new bees, tools, bags, and eggs, and quests from the bears push you further up the mountain to stronger fields and bosses.\n\nCodes give a mix of Tickets, Honey, Gumdrops, berries, boosts, and sometimes a Marshmallow Bee. Tickets are usually the most useful, because they buy Royal Jelly and Ticket items that can get you rarer bees. Onett does not update often, so new codes mostly come with big updates, the Beesmas event, and milestones like group member counts, and they are posted on X and in the Discord.",
+  "codes": [
+    {
+      "code": "FOURtunate",
+      "reward": "1 Marshmallow Bee plus 4 each of Strawberries, Sunflower Seeds, Blueberries, Pineapples, Micro-Converters, Field Dice, Gumdrops, Jelly Beans, and Stingers",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.dexerto.com/roblox/roblox-bee-swarm-simulator-codes-1664631/",
+        "https://www.pocketgamer.com/roblox/bee-swarm-simulator-codes/",
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "15MMembers",
+      "reward": "1 Marshmallow Bee, 1 Red Balloon, 15 Gumdrops, 15 of each berry and seed, plus field boosts (Club members only)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.dexerto.com/roblox/roblox-bee-swarm-simulator-codes-1664631/",
+        "https://www.pocketgamer.com/roblox/bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "38217",
+      "reward": "5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.dexerto.com/roblox/roblox-bee-swarm-simulator-codes-1664631/",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BeesBuzz123",
+      "reward": "1 Cloud Vial, 5 Bitterberries, and Gumdrops",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.dexerto.com/roblox/roblox-bee-swarm-simulator-codes-1664631/",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BopMaster",
+      "reward": "5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.dexerto.com/roblox/roblox-bee-swarm-simulator-codes-1664631/",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Connoisseur",
+      "reward": "5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Crawlers",
+      "reward": "5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Roof",
+      "reward": "5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Nectar",
+      "reward": "5,000 Honey",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Wax",
+      "reward": "5,000 Honey and 5 Tickets",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://www.pocketgamer.com/roblox/bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ClubBean",
+      "reward": "1 Magic Bean and 2 Pineapple Patch Boosts (Club members only)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pockettactics.com/bee-swarm-simulator/codes",
+        "https://beebom.com/roblox-bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ClubConverters",
+      "reward": "10 Micro-Converters (Club members only)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/bee-swarm-simulator/codes",
+        "https://www.pocketgamer.com/roblox/bee-swarm-simulator-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "777",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ThreeBeeVee",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Latepresents",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "MarchIsMerry",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FrogFix",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Octobersmas",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Summersmas",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DarzethDoodads",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 24981,
+    "visits": 4582511768,
+    "favorites": 6539680,
+    "updated": "2026-08-22T20:13:32.886Z",
+    "created": "2018-03-21T15:59:58.777Z"
+  },
+  "added": "2026-09-29T17:52:09.458Z",
+  "lastChecked": "2026-09-29T17:52:09.458Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does a Bee Swarm Simulator code not work for me?",
+      "a": "Several codes only work for members of the Bee Swarm Simulator Club group on Roblox. Join the group, rejoin the game, and try the code again."
+    },
+    {
+      "q": "What is a Marshmallow Bee from codes?",
+      "a": "It is a temporary bee that joins your hive for a short time and helps collect pollen. It disappears when the timer runs out, so use it while you are farming."
+    },
+    {
+      "q": "What should I spend free Tickets on?",
+      "a": "Many players buy Royal Jelly with Tickets to roll for rare bees. Ticket items from the Ticket Tent are another good option once your hive is bigger."
+    }
+  ],
+  "aliases": [
+    "bss",
+    "bee swarm",
+    "bee sim"
+  ],
+  "codeChannels": "Onett's X account @OnettDev, the Bee Swarm Simulator Discord, and the Bee Swarm Simulator Club group on Roblox",
+  "requirement": "Some codes (ClubBean, ClubConverters, 15MMembers, and FOURtunate) only work if you are in the Bee Swarm Simulator Club group on Roblox."
+}

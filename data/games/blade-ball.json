@@ -11,15 +11,321 @@
   "icon": "blade-ball-icon.webp",
   "thumb": "blade-ball-thumb.webp",
   "autoApprove": false,
-  "draft": true,
+  "draft": false,
   "redeem": [
-    "Launch Blade Ball on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Blade Ball on Roblox and wait until you spawn in the lobby.",
+    "Click the Extra button at the top of the screen to open the extra menu.",
+    "Choose Codes from the list that drops down.",
+    "Type or paste a code into the box and press the checkmark to claim it.",
+    "For 4BVISITS, join a private server first, because it will not work in a public lobby."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
-  "codes": [],
-  "expired": [],
+  "notes": "Blade Ball is a PvP dodgeball game from Wiggity where a glowing ball locks onto one player at a time and flies at them faster with every hit. You press block (F, left click or the on-screen button) at the right moment to send it at someone else, and the last player left standing wins the round. Wins earn coins, and you can equip abilities like Dash or Super Jump plus sword skins and finishing effects.\n\nMost Blade Ball codes give a free spin on the current wheel, with the odd sword skin, luck boost or ticket for a limited game mode mixed in. Spins are the most useful reward because each one is a chance at a rare sword or explosion effect without spending Robux. New codes usually show up with big updates, seasonal events and visit milestones like 2B and 4B visits, and they get posted on the @Blade_Ball X account and in the Discord.",
+  "codes": [
+    {
+      "code": "SERPENT",
+      "reward": "Entry into the Serpent Katana giveaway",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "RAMADAN",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SPOOKYSEASON",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "4BVISITS",
+      "reward": "Bubble Wand sword skin (only works in a private server)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SHARKATTACK",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUMMERWHEEL",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUMMERSTARTSHERE",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ENERGYSWORDS",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "GIVEMELUCK",
+      "reward": "4x Luck in the AFK world for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "DUNGEONSRELEASE",
+      "reward": "50 Dungeon Runes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "GOODVSEVIL",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FROGS",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BATTLEROYALE",
+      "reward": "1 Storm Ticket",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "RNGEMOTES",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FREESPINS",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "2BTHANKS",
+      "reward": "1 free wheel spin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-blade-ball-codes/",
+        "https://www.pockettactics.com/blade-ball/codes",
+        "https://robloxden.com/game-codes/blade-ball",
+        "https://www.thespike.gg/roblox/game-codes/blade-ball-codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "5BVISITS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "XMAS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "MERRYXMAS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DELAYBALL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BPTEAMS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GOODVSEVILMODE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EASTERHYPE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
   "stats": {
     "playing": 22023,
     "visits": 6457109661,
@@ -29,5 +335,23 @@
   },
   "added": "2026-09-29T17:09:05.029Z",
   "lastChecked": "2026-09-29T17:09:05.029Z",
-  "lastChanged": "2026-09-29T17:09:05.029Z"
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does 4BVISITS say it is invalid?",
+      "a": "This code only works inside a private server, so it fails in a normal public lobby. Join a private server and try it again from the Codes menu."
+    },
+    {
+      "q": "Why did SERPENT not give me a sword?",
+      "a": "SERPENT does not add an item to your inventory. It enters you into a giveaway for Serpent Katanas, and the winners are picked by the developers later."
+    },
+    {
+      "q": "When should I use GIVEMELUCK?",
+      "a": "The 4x Luck boost only lasts 10 minutes and works in the AFK world, so redeem it right before you head there. Using it while playing regular matches wastes most of the timer."
+    }
+  ],
+  "aliases": [
+    "bb"
+  ],
+  "codeChannels": "X account @Blade_Ball and the official Blade Ball Discord"
 }

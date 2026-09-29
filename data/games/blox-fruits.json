@@ -1,0 +1,453 @@
+{
+  "slug": "blox-fruits",
+  "name": "Blox Fruits",
+  "robloxName": "Blox Fruits",
+  "placeId": 2753915549,
+  "universeId": 994732206,
+  "gameUrl": "https://www.roblox.com/games/2753915549/Blox-Fruits",
+  "creator": "Gamer Robot Inc",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "blox-fruits-icon.webp",
+  "thumb": "blox-fruits-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Blox Fruits on Roblox and pick a team, Pirates or Marines, so you spawn into the world.",
+    "Click the gear (settings) icon on the left side of the screen, just above the compass.",
+    "Press the Redeem button to open the code box.",
+    "Type or paste a code exactly as shown and confirm. XP boosts start counting down right away."
+  ],
+  "notes": "Blox Fruits is a pirate adventure inspired by One Piece. You join the Pirates or Marines, fight NPCs and bosses across three Seas to level up, and hunt for Devil Fruits that give you powers like fire, ice or light. Along the way you train fighting styles, swords and guns, and pick where your stat points go as you climb toward the max level.\n\nMost Blox Fruits codes give 2x XP for 15 to 30 minutes, plus a few free stat resets and small Beli rewards. The XP boosts help most while you are still leveling, so save them for a session where you can grind quests without breaks. Keep a stat reset for later, since it lets you fix a bad build for free. New codes usually show up with big updates, like-goal events and streamer shoutouts.",
+  "codes": [
+    {
+      "code": "EASTEREXP",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "LIGHTNINGABUSE",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUB2GAMERROBOT_EXP1",
+      "reward": "2x XP for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "KITT_RESET",
+      "reward": "Free stat reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Sub2UncleKizaru",
+      "reward": "Free stat reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUB2GAMERROBOT_RESET1",
+      "reward": "Free stat reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Sub2CaptainMaui",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Sub2OfficialNoobie",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Axiore",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Bluxxy",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Enyu_is_Pro",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "JCWK",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Kittgaming",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Magicbus",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Starcodeheo",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "StrawHatMaine",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TheGreatAce",
+      "reward": "2x XP for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Sub2Daigrock",
+      "reward": "2x XP for 15 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Sub2NoobMaster123",
+      "reward": "2x XP for 15 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TantaiGaming",
+      "reward": "2x XP for 15 minutes",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Bignews",
+      "reward": "In-game title",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Fudd10",
+      "reward": "1 Beli",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Fudd10_v2",
+      "reward": "2 Beli",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/blox-fruits/codes",
+        "https://www.pcgamesn.com/blox-fruits/codes",
+        "https://techwiser.com/blox-fruits-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "1LOSTADMIN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Sub2Fer999",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "DEVSCOOKING",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ADMINFIGHT",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GIFTING_HOURS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EARN_FRUITS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NOEXPLOITER",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ADMINHACKED",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 210920,
+    "visits": 64730880139,
+    "favorites": 20000756,
+    "updated": "2026-09-27T04:42:04.424Z",
+    "created": "2019-01-16T03:29:19.433Z"
+  },
+  "added": "2026-09-29T17:52:11.048Z",
+  "lastChecked": "2026-09-29T17:52:11.048Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Do XP codes stack in Blox Fruits?",
+      "a": "No. Only one 2x XP boost runs at a time, so redeem the next code after the current timer ends to get full value from each one."
+    },
+    {
+      "q": "When should I use a stat reset code?",
+      "a": "Use it when you switch builds, like moving from a sword build to a fruit build. Each reset code works once per account, so hold on to it until you actually need it."
+    },
+    {
+      "q": "Why does a Blox Fruits code say it is invalid or already redeemed?",
+      "a": "It has either expired or you already used it on this account. Codes are one use each, and older streamer codes get removed often, so check the list above before trying again."
+    }
+  ],
+  "aliases": [
+    "bf",
+    "blox fruit"
+  ],
+  "codeChannels": "The official Blox Fruits X account (@BloxFruits) and the Gamer Robot Discord, usually alongside updates and like milestones"
+}

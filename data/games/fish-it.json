@@ -1,0 +1,205 @@
+{
+  "slug": "fish-it",
+  "name": "Fish It!",
+  "robloxName": "[👾UPD] Fish It! 🐟",
+  "placeId": 121864768012064,
+  "universeId": 6701277882,
+  "gameUrl": "https://www.roblox.com/games/121864768012064/Fish-It",
+  "creator": "Fish Atelier",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "fish-it-icon.webp",
+  "thumb": "fish-it-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Fish It! on Roblox and fish until you reach level 10, because the code box stays locked before that.",
+    "Tap the Shop button, the shopping cart icon on your screen, to open the store.",
+    "Scroll all the way to the bottom of the shop window to find the ENTER CODE! box.",
+    "Type or paste a code exactly as written and press the green Redeem button.",
+    "Open your backpack to find the potion or cosmetic you just got."
+  ],
+  "notes": "Fish It! is a fishing game from Fish Atelier, inspired by Fisch and Fishing Simulator. You click to charge up your cast, then click as fast as you can to reel in the fish. Every catch can roll a different size and mutation, so there are over a million versions to collect. You sell fish for coins, buy better rods and bait, and sail to new islands, like the limited Arcadia island from the latest update.\n\nMost Fish It! codes give Luck II or Mutation II potions, plus the odd cosmetic like a halo or lantern. Luck II potions are the best pick when you are hunting a secret fish, so drink them before a long fishing session. New codes tend to show up with big updates, like goals and holidays, and every code needs you to be at least level 10.",
+  "codes": [
+    {
+      "code": "ELEMENTAL26",
+      "reward": "2 Mutation II Potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://tryhardguides.com/fish-it-codes/",
+        "https://www.game.guide/roblox-codes/fish-it"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "MERDEKA",
+      "reward": "Kerupuk Lantern",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://www.pockettactics.com/fish-it-codes",
+        "https://tryhardguides.com/fish-it-codes/",
+        "https://www.pocketgamer.com/roblox/fish-it-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CONTRA",
+      "reward": "2 Mutation II Potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://tryhardguides.com/fish-it-codes/",
+        "https://www.game.guide/roblox-codes/fish-it"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "MUTATION2",
+      "reward": "2 Mutation II Potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://www.pockettactics.com/fish-it-codes",
+        "https://tryhardguides.com/fish-it-codes/",
+        "https://www.pocketgamer.com/roblox/fish-it-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "YEEHAW",
+      "reward": "Cowboy Hat Halo",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://www.pockettactics.com/fish-it-codes",
+        "https://tryhardguides.com/fish-it-codes/",
+        "https://www.pocketgamer.com/roblox/fish-it-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "DIVING",
+      "reward": "2 Luck II Potions",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/fish-it",
+        "https://www.pockettactics.com/fish-it-codes",
+        "https://www.pocketgamer.com/roblox/fish-it-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "POTIONSSS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "WORMHYPE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "1M_GOAL",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "2M_GOAL_CC",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "500K_GOAL_FXCB",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EASTER2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CRESCENT",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NEWYEARLANTERN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 78584,
+    "visits": 4759693830,
+    "favorites": 1291482,
+    "updated": "2026-09-27T23:12:27.981Z",
+    "created": "2024-10-21T00:25:27.823Z"
+  },
+  "added": "2026-09-29T17:52:23.693Z",
+  "lastChecked": "2026-09-29T17:52:23.693Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why won't Fish It! let me type in a code?",
+      "a": "The code box only unlocks once you reach level 10. Keep fishing at the starting island for a bit and it will open up."
+    },
+    {
+      "q": "Should I use a Luck II or a Mutation II potion first?",
+      "a": "Use Luck II when you want rarer fish, such as secret catches at a new island. Use Mutation II when you are fishing somewhere you already know well, since mutated fish sell for more coins."
+    },
+    {
+      "q": "Did the Arcadia update come with a new code?",
+      "a": "No new code was reported with the Arcadia island. The newest code going around is ELEMENTAL26, which gives two Mutation II potions."
+    }
+  ],
+  "aliases": [
+    "fishit"
+  ],
+  "codeChannels": "The Fish Atelier Roblox group and the official Fish It! Discord server",
+  "requirement": "You must be level 10 to redeem codes."
+}

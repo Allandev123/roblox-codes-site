@@ -1,0 +1,190 @@
+{
+  "slug": "your-bizarre-adventure",
+  "name": "Your Bizarre Adventure",
+  "robloxName": "[CDR & DD] Your Bizarre Adventure",
+  "placeId": 2809202155,
+  "universeId": 1016936714,
+  "gameUrl": "https://www.roblox.com/games/2809202155/Your-Bizarre-Adventure",
+  "creator": "Bizarre Studios®",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "your-bizarre-adventure-icon.webp",
+  "thumb": "your-bizarre-adventure-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Your Bizarre Adventure on Roblox and press Play on the main menu.",
+    "Click the menu button with three horizontal lines in the bottom right corner.",
+    "Open the Settings tab (the cog icon).",
+    "Type the code into the code box exactly as shown, in capital letters, and press Redeem Code."
+  ],
+  "notes": "Your Bizarre Adventure, or YBA, is a Roblox RPG based on JoJo's Bizarre Adventure. You pick up items that spawn around the map, use an Arrow to unlock a Stand (a spirit fighter that battles next to you), then level up by doing quests, beating gangs and fighting other players. Once you reach the level cap you can Prestige, which resets your level but opens more of the game. Update 1.8 added Crazy Diamond Requiem and Diver Down.\n\nCodes almost always give Lucky Arrows, and sometimes a Requiem Arrow or a 2x XP boost. Lucky Arrows are the reward to care about, since they are hard to find and give you another Stand roll with a better shot at a rare shiny version. New codes tend to show up with updates and like milestones, and uzuKee shares them on X and in the Discord.",
+  "codes": [
+    {
+      "code": "GREATDAYS",
+      "reward": "1 Lucky Arrow and 1 Requiem Arrow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-yba-codes/",
+        "https://www.destructoid.com/your-bizarre-adventure-codes/",
+        "https://techwiser.com/roblox-your-bizarre-adventure-yba-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "NOMICKEY",
+      "reward": "1 Lucky Arrow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-yba-codes/",
+        "https://www.destructoid.com/your-bizarre-adventure-codes/",
+        "https://techwiser.com/roblox-your-bizarre-adventure-yba-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "MORECODESTOCOME",
+      "reward": "1 Lucky Arrow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-yba-codes/",
+        "https://www.dexerto.com/roblox/roblox-yba-codes-free-your-bizarre-adventure-rokakaka-1727911/",
+        "https://www.pcgamesn.com/yba/codes",
+        "https://www.destructoid.com/your-bizarre-adventure-codes/",
+        "https://techwiser.com/roblox-your-bizarre-adventure-yba-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CHRISTMAS2025",
+      "reward": "1 Lucky Arrow and 1 Christmas Present",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-yba-codes/",
+        "https://www.dexerto.com/roblox/roblox-yba-codes-free-your-bizarre-adventure-rokakaka-1727911/",
+        "https://www.destructoid.com/your-bizarre-adventure-codes/",
+        "https://techwiser.com/roblox-your-bizarre-adventure-yba-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "PARAGONLUCK",
+      "reward": "1 Lucky Arrow",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-yba-codes/",
+        "https://www.dexerto.com/roblox/roblox-yba-codes-free-your-bizarre-adventure-rokakaka-1727911/",
+        "https://www.destructoid.com/your-bizarre-adventure-codes/",
+        "https://techwiser.com/roblox-your-bizarre-adventure-yba-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "HALLOWEEN2025",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "6YEARS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "GULLIBLE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "@PARAGON NEW CODE PLS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "12 HOURS WITHOUT YBA",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "5YEARS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ARE YOU WATCHING ME?",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "YOUR NEXT LINE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 11033,
+    "visits": 2259450192,
+    "favorites": 1966135,
+    "updated": "2026-09-28T20:00:21.903213Z",
+    "created": "2019-02-02T05:23:55.273Z"
+  },
+  "added": "2026-09-29T17:52:38.291Z",
+  "lastChecked": "2026-09-29T17:52:38.291Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why won't YBA let me redeem a code?",
+      "a": "Codes need at least Prestige 1, and some older ones need Prestige 3. If you are still on your first run, reach the level cap and Prestige first, then try again."
+    },
+    {
+      "q": "Are YBA codes case-sensitive?",
+      "a": "Yes. Type them in capital letters exactly as listed, and keep any spaces or symbols in codes that have them."
+    },
+    {
+      "q": "What do I do with the Requiem Arrow from GREATDAYS?",
+      "a": "A Requiem Arrow evolves certain Stands into their Requiem form, such as Gold Experience or Crazy Diamond. Hold onto it until you have a Stand that can use it."
+    }
+  ],
+  "aliases": [
+    "yba"
+  ],
+  "codeChannels": "The YBA Discord server, uzuKee's X account @KeeUzu, and like goals mentioned on the game's Roblox page",
+  "requirement": "You need to be Prestige 1 or higher to redeem codes, and some older codes need Prestige 3."
+}

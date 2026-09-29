@@ -1,0 +1,156 @@
+{
+  "slug": "fisch",
+  "name": "Fisch",
+  "robloxName": "Fisch 🐟 [RACING]",
+  "placeId": 16732694052,
+  "universeId": 5750914919,
+  "gameUrl": "https://www.roblox.com/games/16732694052/Fisch",
+  "creator": "Fisching",
+  "genre": "Simulation",
+  "subgenre": "",
+  "icon": "fisch-icon.webp",
+  "thumb": "fisch-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Fisch on Roblox and wait for your character to load in.",
+    "Click the Menu button at the top of the screen.",
+    "Choose the Codes section from the list on the left side of the menu.",
+    "Type the code into the text box exactly as shown, capital letters included, and press Enter."
+  ],
+  "notes": "Fisch is a fishing adventure from the Fisching group. You hold to cast your bobber, shake your rod to get a bite sooner, then keep a white bar on top of the fish in a reeling minigame. Each fish can roll a mutation or an odd size, so there are hundreds of thousands of versions to collect. Selling fish earns C$, the game's money, which buys better rods, bait and boats to reach new islands and deep sea areas.\n\nFisch codes usually give C$, rod skins, bobbers, bait, totems and boat or submarine parts. C$ and totems help new players the most, since they speed up rod upgrades and rare fish hunts. A new code almost always comes with each weekly update and lasts about a week before it stops working, so check back after every update.",
+  "codes": [
+    {
+      "code": "SCARLET",
+      "reward": "Scarlet skin for Nate's Blade",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://fischipedia.org/wiki/Codes",
+        "https://www.destructoid.com/fisch-codes/",
+        "https://beebom.com/roblox-fisch-codes/",
+        "https://www.pcgamesn.com/fisch/codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TemporarySubmarine",
+      "reward": "Submarine parts: a back fin, a submarine top, a metal panel, a side fin and a window",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://fischipedia.org/wiki/Codes",
+        "https://www.destructoid.com/fisch-codes/",
+        "https://beebom.com/roblox-fisch-codes/",
+        "https://www.pcgamesn.com/fisch/codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "CARBON",
+      "reward": "Carbon bobber",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://fischipedia.org/wiki/Codes",
+        "https://www.destructoid.com/fisch-codes/",
+        "https://beebom.com/roblox-fisch-codes/",
+        "https://www.pcgamesn.com/fisch/codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "VroomVroom",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "MarianaIsGoingCrazy",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LittleBudlingUpdate",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SkycrestIsInTheSky",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SkycrestNextWeek",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ShootingStars",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "CollectMyPufferfish",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TheDeepIsVeryDeep",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 65508,
+    "visits": 4957433178,
+    "favorites": 3651275,
+    "updated": "2026-09-28T01:44:33.653Z",
+    "created": "2024-03-13T15:03:39.63Z"
+  },
+  "added": "2026-09-29T17:52:22.105Z",
+  "lastChecked": "2026-09-29T17:52:22.105Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does my Fisch code say it expired when it came out last week?",
+      "a": "Most Fisch update codes only last about a week. VroomVroom, the code from the racing update, already stopped working on September 27, 2026."
+    },
+    {
+      "q": "Do I need a certain level to use Fisch codes?",
+      "a": "Many update codes need level 25. SCARLET, TemporarySubmarine and CARBON have no level lock, so brand new players can use them right away."
+    },
+    {
+      "q": "What are the TemporarySubmarine parts for?",
+      "a": "The code gives five pieces used to build a submarine: a back fin, a submarine top, a metal panel, a side fin and a window. Keep them in your inventory until you are ready to build."
+    }
+  ],
+  "codeChannels": "The official Fisch Discord server, the @WoozyNate account on X, and the Fisching Roblox group",
+  "requirement": "Update codes often need level 25, but the three working codes listed here have no level requirement."
+}

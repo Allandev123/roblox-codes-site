@@ -1,0 +1,232 @@
+{
+  "slug": "arsenal",
+  "name": "Arsenal",
+  "robloxName": "Arsenal",
+  "placeId": 286090429,
+  "universeId": 111958650,
+  "gameUrl": "https://www.roblox.com/games/286090429/Arsenal",
+  "creator": "ROLVe",
+  "genre": "Shooter",
+  "subgenre": "Deathmatch Shooter",
+  "icon": "arsenal-icon.webp",
+  "thumb": "arsenal-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Arsenal on Roblox and stay on the main menu screen.",
+    "Click the gift box icon in the bottom left corner.",
+    "Type the code into the text box exactly as shown.",
+    "Press Redeem. Skins, taunts and announcer voices go straight to your inventory."
+  ],
+  "notes": "Arsenal is a fast first-person shooter from ROLVe. In the main Gun Game mode, every kill swaps your weapon for the next one in a set list, and the first player to get a kill with the final weapon, the Golden Knife, wins the round. Matches run through everything from rifles and shotguns to bazookas and spell books, and you earn BattleBucks as you play to spend on skins, melees, kill effects and announcer voices.\n\nArsenal codes almost never give BattleBucks. Instead they unlock cosmetics like skins, announcer voices and taunts, many tied to YouTubers and community members, and some older codes only show a message or teleport you to a map. GARCELLO is the best pick since it bundles a skin, a kill effect and a taunt. ROLVe drops new codes with seasonal events and updates, and posts them on X and Discord.",
+  "codes": [
+    {
+      "code": "GARCELLO",
+      "reward": "Garcello skin, kill effect and taunt",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TRGTBOARD",
+      "reward": "Hoverboard taunt",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "FLAMINGO",
+      "reward": "Flamingo announcer voice",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "XONAE",
+      "reward": "Xonae announcer voice",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "enforcer",
+      "reward": "Enforcer announcer voice",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Bandites",
+      "reward": "Bandites announcer voice",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ROLVE",
+      "reward": "Fanboy skin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://robloxden.com/game-codes/arsenal",
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "POKE",
+      "reward": "Poke skin",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-arsenal-codes-list/",
+        "https://techwiser.com/roblox-arsenal-codes/",
+        "https://nerdschalk.com/arsenal-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "KITTEN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "JOHN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "E",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "POG",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BLOXY",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "THE BANANA MAN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TROLLFACE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "NEVERBROKEN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 2610,
+    "visits": 6307685018,
+    "favorites": 11518735,
+    "updated": "2026-09-26T14:09:22.214Z",
+    "created": "2015-08-18T06:19:03.177Z"
+  },
+  "added": "2026-09-29T17:52:06.262Z",
+  "lastChecked": "2026-09-29T17:52:06.262Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Do Arsenal codes give BattleBucks?",
+      "a": "Rarely. Almost every working code unlocks a cosmetic such as a skin, taunt or announcer voice, so BattleBucks mostly come from playing matches."
+    },
+    {
+      "q": "Where is the codes button in Arsenal?",
+      "a": "It is the gift box icon in the bottom left of the main menu. Redeem your codes from the menu screen before you jump into a round."
+    },
+    {
+      "q": "Why do Arsenal code lists online disagree so much?",
+      "a": "Arsenal has hundreds of old codes, and ROLVe switches them off without warning. Sites that do not retest keep listing dead ones, so expect older codes like KITTEN or JOHN to fail."
+    }
+  ],
+  "codeChannels": "ROLVe's X account and the official Arsenal Discord server"
+}

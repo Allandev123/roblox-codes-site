@@ -1,0 +1,136 @@
+{
+  "slug": "evade",
+  "name": "Evade",
+  "robloxName": "Evade ",
+  "placeId": 9872472334,
+  "universeId": 3647333358,
+  "gameUrl": "https://www.roblox.com/games/9872472334/Evade",
+  "creator": "Hexagon Development Community",
+  "genre": "Survival",
+  "subgenre": "",
+  "icon": "evade-icon.webp",
+  "thumb": "evade-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Evade on Roblox and stay in the lobby before you press Play.",
+    "Find the Twitter bird icon in the menu buttons along the edge of the screen and click it.",
+    "Paste a code into the Codes box, checking the capital letters and removing any spaces.",
+    "Press Enter to redeem, and the Points are added to your balance."
+  ],
+  "notes": "Evade is a movement game from Hexagon Development Community, inspired by Garry's Mod, where you run from Nextbots, the flat screaming faces that chase players across each map. Each round you sprint, slide, crouch, and bunny hop to stay alive, and you can revive teammates who get downed. Surviving and helping others earns Points, which you spend on emotes, cosmetics, and usable items.\n\nCodes in Evade give Points, and once in a while a cosmetic. Points are the most useful reward because they unlock almost everything in the shop, from emotes to items like the boombox. New codes do not come often. They usually show up for the game's birthday, seasonal events, big updates, or as a thank you after server problems, and the developers post them on X and in their Discord.",
+  "codes": [
+    {
+      "code": "HAPPY4THBIRTHDAYEVADE",
+      "reward": "40 Points",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/evade/codes",
+        "https://www.pcgamesn.com/evade/codes",
+        "https://robloxden.com/game-codes/evade",
+        "https://techwiser.com/roblox-evade-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "isurviveddatahaul",
+      "reward": "60 Points",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/evade/codes",
+        "https://robloxden.com/game-codes/evade",
+        "https://techwiser.com/roblox-evade-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SUMMER2026",
+      "reward": "50 Points",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/evade/codes",
+        "https://techwiser.com/roblox-evade-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "TrollgeTungTungEyelessBaldiBacteriaPacmanDefect",
+      "reward": "30 Points",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pcgamesn.com/evade/codes",
+        "https://robloxden.com/game-codes/evade",
+        "https://techwiser.com/roblox-evade-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "HappyNewYears2026",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "Thanksgiving2025",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "halloween_23",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 30341,
+    "visits": 9237468632,
+    "favorites": 8274299,
+    "updated": "2026-09-28T16:10:53.9181723Z",
+    "created": "2022-06-10T19:20:37.097Z"
+  },
+  "added": "2026-09-29T17:52:20.533Z",
+  "lastChecked": "2026-09-29T17:52:20.533Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Are Evade codes case sensitive?",
+      "a": "Yes, type them exactly as listed. For example isurviveddatahaul is all lowercase, while HAPPY4THBIRTHDAYEVADE is all capitals."
+    },
+    {
+      "q": "Why can I not find the code button in Evade?",
+      "a": "Codes are redeemed through the Twitter bird icon in the lobby menu, not from inside a round. Leave the match or press M to open the menu if you are already playing."
+    },
+    {
+      "q": "What should I spend Evade Points on?",
+      "a": "Many players buy emotes and usable items first, since they help you move or escape during rounds. Cosmetics are nice but do not change how you play."
+    }
+  ],
+  "aliases": [
+    "evade roblox",
+    "nextbot evade"
+  ],
+  "codeChannels": "The Evade Discord server and @HexagonDCRoblox on X"
+}

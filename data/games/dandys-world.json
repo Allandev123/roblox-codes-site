@@ -1,0 +1,121 @@
+{
+  "slug": "dandys-world",
+  "name": "Dandy's World",
+  "robloxName": "🌻 Dandy's World [ALPHA]",
+  "placeId": 16116270224,
+  "universeId": 5569032992,
+  "gameUrl": "https://www.roblox.com/games/16116270224/Dandys-World",
+  "creator": "BlushCrunch Studio",
+  "genre": "Survival",
+  "subgenre": "Escape",
+  "icon": "dandys-world-icon.webp",
+  "thumb": "dandys-world-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Dandy's World on Roblox and wait for your Toon to load into the Gardenview lobby.",
+    "Open the code window with the Use Code button on the left side of the screen, or by walking to the Redeem Codes computer near Dyle's shop.",
+    "Type or paste the code into the text box.",
+    "Click the green Use button, and the Ichor shows up in your balance."
+  ],
+  "notes": "Dandy's World is a co-op horror survival game from BlushCrunch Studio that is still in alpha. You pick a Toon, each with its own stats and ability, and team up with other players to go floor by floor down into Gardenview Center. On every floor you fix machines to open the elevator while Twisted versions of the cast hunt you, and you grab items and Research along the way.\n\nCodes are rare in this game. Most give Ichor, the main currency, while a few event codes have given skins or seasonal items like baskets. Ichor is the best reward because it buys new Toons and Trinkets, and Trinkets change how you play. New codes tend to arrive with milestones, holidays, and April Fools, and the RESEARCHMOBILE Rodger skin code has come back each April 1.",
+  "codes": [
+    {
+      "code": "ICHOR",
+      "reward": "50 Ichor",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/dandys-world-codes/",
+        "https://www.pcgamesn.com/dandys-world/codes",
+        "https://www.pocketgamer.com/roblox/dandys-world-codes/",
+        "https://dandysworld.miraheze.org/wiki/Codes"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "RESEARCHMOBILE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "EASTER2025",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "APRIL1",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "HAPPYHALLOWEEN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SPOOKYSEASON",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TENMILLION",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "ONETHOUSAND",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 28587,
+    "visits": 7467744562,
+    "favorites": 4647789,
+    "updated": "2026-09-28T18:57:55.0306403Z",
+    "created": "2024-01-26T03:52:09.063Z"
+  },
+  "added": "2026-09-29T17:52:15.810Z",
+  "lastChecked": "2026-09-29T17:52:15.810Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Does the ICHOR code still work in Dandy's World?",
+      "a": "Yes, ICHOR has no end date and gives 50 Ichor. It only works once per account, so it will say used if you claimed it before."
+    },
+    {
+      "q": "When can I get the RESEARCHMOBILE skin?",
+      "a": "RESEARCHMOBILE unlocks a Research Mobile skin for Rodger, but it only works around April 1. It is expired right now and should return in April 2027."
+    },
+    {
+      "q": "What should I buy first with Ichor?",
+      "a": "Most players save up for a Toon whose ability fits how they like to play, since Toons cost the most. Cheaper Trinkets are a good way to spend leftover Ichor."
+    }
+  ],
+  "aliases": [
+    "dandys world",
+    "dw",
+    "dandy world"
+  ],
+  "codeChannels": "The BlushCrunch Studio Discord server and the game's Roblox page after big updates"
+}

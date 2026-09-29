@@ -1,0 +1,173 @@
+{
+  "slug": "slayers-2",
+  "name": "Slayers 2",
+  "robloxName": "Slayers 2",
+  "placeId": 16205713724,
+  "universeId": 5595353122,
+  "gameUrl": "https://www.roblox.com/games/16205713724/Slayers-2",
+  "creator": "Ouw Productions",
+  "genre": "RPG",
+  "subgenre": "Open World & Survival RPG",
+  "icon": "slayers-2-icon.webp",
+  "thumb": "slayers-2-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Join the Ouw Productions group on Roblox first, since some codes like Release26 need it.",
+    "Launch Slayers 2 and click the splash screen once it finishes loading.",
+    "On the main menu, click the enter a code box along the bottom of the screen.",
+    "Type the code exactly as shown and press Enter to claim it before you pick a slot and play."
+  ],
+  "notes": "Slayers 2 is a Demon Slayer inspired action RPG from Ouw Productions, the team behind Project Slayers. You make a character, roll for a clan, and then train as either a Demon Slayer who learns a Breathing style or a Demon who uses Evil Arts. You level up by fighting enemies and bosses, spend points in a skill tree, and team up with other players on quests across the map.\n\nCodes usually give Spins, Wen and resets. Spins are the most useful because they let you reroll your clan or art for a stronger one, and a good roll shapes your whole build. Reset codes let you respec your Breathing, Evil Art or skill tree for free. New codes often come out with updates and after server shutdowns, and some only last about a day, so check the Discord often.",
+  "codes": [
+    {
+      "code": "ANIM4L",
+      "reward": "50 Spins and 5 Ores",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/slayers-2-codes",
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.pcgamesn.com/roblox/slayers-2-codes",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/",
+        "https://www.igeeksblog.com/roblox-slayers-2-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SPINS50",
+      "reward": "50 Spins",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/slayers-2-codes",
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/",
+        "https://www.destructoid.com/slayers-2-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "Release26",
+      "reward": "100 Wen, 30 Spins and 1 Refinement Ore",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/slayers-2-codes",
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/",
+        "https://www.igeeksblog.com/roblox-slayers-2-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BREATHRESET",
+      "reward": "1 Breathing style reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/slayers-2-codes",
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/",
+        "https://www.destructoid.com/slayers-2-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "ARTRESET",
+      "reward": "1 Evil Art reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/slayers-2-codes",
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/",
+        "https://www.destructoid.com/slayers-2-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "SkillTreeReset",
+      "reward": "Skill tree points reset",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/slayers-2-codes/",
+        "https://www.igeeksblog.com/roblox-slayers-2-codes/",
+        "https://www.dexerto.com/roblox/slayers-2-codes-3410351/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "EVILARTSPINS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "POINTSRESET",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 126307,
+    "visits": 75572425,
+    "favorites": 443851,
+    "updated": "2026-09-29T16:51:42.8674434Z",
+    "created": "2024-02-02T04:01:23.877Z"
+  },
+  "added": "2026-09-29T17:52:30.151Z",
+  "lastChecked": "2026-09-29T17:52:30.151Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does Release26 not work for me in Slayers 2?",
+      "a": "That code needs you to be in the Ouw Productions Roblox group. Join the group, rejoin the game, and try it again from the main menu."
+    },
+    {
+      "q": "Should I use Slayers 2 Spins right away?",
+      "a": "Only if you are unhappy with your clan or art. If you already have a roll you like, save Spins for when a new clan or art is added in an update."
+    },
+    {
+      "q": "Are Slayers 2 codes case sensitive?",
+      "a": "Yes. Type Release26 and SkillTreeReset with the same capital letters shown here, and redeem codes quickly because many expire within a day or two."
+    }
+  ],
+  "aliases": [
+    "project slayers 2",
+    "ps2"
+  ],
+  "codeChannels": "The official Slayers 2 Discord (discord.gg/projectslayers) and the Ouw Productions Roblox group",
+  "requirement": "Some codes only work after you join the Ouw Productions Roblox group."
+}

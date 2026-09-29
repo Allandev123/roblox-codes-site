@@ -1,0 +1,126 @@
+{
+  "slug": "jujutsu-shenanigans",
+  "name": "Jujutsu Shenanigans",
+  "robloxName": "[SKY ASSASSIN] Jujutsu Shenanigans",
+  "placeId": 9391468976,
+  "universeId": 3508322461,
+  "gameUrl": "https://www.roblox.com/games/9391468976/Jujutsu-Shenanigans",
+  "creator": "Tze's Shenanigans",
+  "genre": "Action",
+  "subgenre": "Battlegrounds & Fighting",
+  "icon": "jujutsu-shenanigans-icon.webp",
+  "thumb": "jujutsu-shenanigans-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Jujutsu Shenanigans on Roblox and load into a server.",
+    "Click the Shop button in the top left corner, right next to the Character Select icon.",
+    "Open the Rewards section of the shop to find the code box.",
+    "Paste the code and press Enter. Emotes appear in your emote list straight away."
+  ],
+  "notes": "Jujutsu Shenanigans is a battlegrounds fighting game based on Jujutsu Kaisen. You pick a character inspired by the anime, like the Vessel or the Honored One, and drop into a big open map to fight other players with punches, combos and cursed technique moves. Every character has its own move set and an awakening you charge up in a fight, and learning combos and blocks is the key to winning.\n\nCodes here are rare and mostly give emotes, achievements or a small amount of Cash for the shop. Emotes are the reward most players want, since some are only ever given through codes and cannot be bought later. Tze usually drops codes for visit milestones, anniversaries and big updates, and they can expire fast, so redeem them as soon as they show up in the Discord.",
+  "codes": [
+    {
+      "code": "A7D2L26RNEPG74A3Q",
+      "reward": "Nep achievement and the Woven Insight emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/jujutsu-shenanigans/codes",
+        "https://beebom.com/jujutsu-shenanigans-codes/",
+        "https://www.destructoid.com/jujutsu-shenanigans-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "SLATECONCRETE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "WHYEMOTEDISSAPEAR",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "RIPBOWE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "X6X31F47UN8JM1NEP",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "JJS1YEAR",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "67",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "370MVISITS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "120MVISITS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 113752,
+    "visits": 7418988418,
+    "favorites": 3049775,
+    "updated": "2026-09-29T09:01:26.4265846Z",
+    "created": "2022-04-17T04:51:12.57Z"
+  },
+  "added": "2026-09-29T17:52:26.921Z",
+  "lastChecked": "2026-09-29T17:52:26.921Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why is the Jujutsu Shenanigans code so long?",
+      "a": "Some JJS codes are long mixes of letters and numbers, like A7D2L26RNEPG74A3Q. Copy and paste it instead of typing it, because one wrong character makes it fail."
+    },
+    {
+      "q": "Where do I enter codes in Jujutsu Shenanigans?",
+      "a": "Open the Shop from the top left of the screen, next to Character Select, then go to the Rewards section. The code box is there."
+    },
+    {
+      "q": "Do code emotes come back later in JJS?",
+      "a": "Usually not. Emotes from codes like RIPBOWE and 67 stopped being available once those codes expired, so grab new ones quickly."
+    }
+  ],
+  "aliases": [
+    "jjs",
+    "jujutsu shenanigans roblox"
+  ],
+  "codeChannels": "Tze on X (@AlsoNot_Tze), the official The z's Discord server and Tze's YouTube channel"
+}

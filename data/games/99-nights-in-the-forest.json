@@ -1,0 +1,110 @@
+{
+  "slug": "99-nights-in-the-forest",
+  "name": "99 Nights in the Forest",
+  "robloxName": "99 Nights in the Forest 🔦",
+  "placeId": 79546208627805,
+  "universeId": 7326934954,
+  "gameUrl": "https://www.roblox.com/games/79546208627805/99-Nights-in-the-Forest",
+  "creator": "Grandma's Favourite Games",
+  "genre": "Survival",
+  "subgenre": "",
+  "icon": "99-nights-in-the-forest-icon.webp",
+  "thumb": "99-nights-in-the-forest-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch 99 Nights in the Forest on Roblox and stay in the lobby. Codes are redeemed there, not during a run.",
+    "Click the Diamonds icon with the plus sign in the bottom left corner of the screen.",
+    "Press the Codes button along the bottom of the shop window that opens.",
+    "Type or paste a code and press Submit. Your Diamonds show up in the counter right away."
+  ],
+  "notes": "99 Nights in the Forest is a co-op survival horror game where you and your friends try to last 99 nights in a dark forest while searching for missing kids. During the day you chop wood, gather food and scrap, and upgrade your campfire so its light reaches farther. At night the Deer and other creatures come out, so you need a strong fire, crafted gear and a plan. Leaving a match resets that run, but lobby progress saves.\n\nCodes here mostly give Diamonds, the lobby currency you spend on classes, which change your perks and starting gear. Diamonds are the most useful reward because a good class can make the first nights much easier. Some codes also add Flame items. New codes tend to arrive with big updates and events, and they are announced in the game's Discord.",
+  "codes": [
+    {
+      "code": "awardwinner_yay",
+      "reward": "15 Diamonds and 3 Flames (Frog, Thanksgiving and Fairy)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.pockettactics.com/99-nights-in-the-forest-codes",
+        "https://allthings.how/99-nights-in-the-forest-codes/",
+        "https://rocodes.gg/codes/99-nights-in-the-forest"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "forestwakesup26",
+      "reward": "15 Diamonds and 3 random Flames",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/99-nights-in-the-forest-codes/",
+        "https://www.pockettactics.com/99-nights-in-the-forest-codes",
+        "https://www.pcgamesn.com/99-nights-in-the-forest/codes",
+        "https://allthings.how/99-nights-in-the-forest-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "afterparty",
+      "reward": "15 Diamonds",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/99-nights-in-the-forest-codes/",
+        "https://www.pockettactics.com/99-nights-in-the-forest-codes",
+        "https://www.pcgamesn.com/99-nights-in-the-forest/codes",
+        "https://www.pocketgamer.com/roblox/99-nights-in-the-forest-codes/"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "happyhalloween",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 137109,
+    "visits": 29780092033,
+    "favorites": 9695979,
+    "updated": "2026-09-22T20:22:52.505Z",
+    "created": "2025-03-04T04:46:49.73Z"
+  },
+  "added": "2026-09-29T17:51:59.893Z",
+  "lastChecked": "2026-09-29T17:51:59.893Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "What should I spend my 99 Nights Diamonds on?",
+      "a": "Save them for a class. Classes change your perks for every run, so one good class is worth more than spreading Diamonds across small items."
+    },
+    {
+      "q": "Can I redeem 99 Nights codes in the middle of a match?",
+      "a": "No. The codes menu is in the lobby, so finish or leave your run first, then open the Diamonds shop in the bottom left corner."
+    },
+    {
+      "q": "Why does a 99 Nights code say it does not work?",
+      "a": "Each code works once per account, so it may already be claimed, or it expired after an update. Copy it exactly with lowercase letters and no extra spaces."
+    }
+  ],
+  "aliases": [
+    "99 nights",
+    "99 nights forest",
+    "99nitf"
+  ],
+  "codeChannels": "The official 99 Nights in the Forest Discord server, where codes are posted with updates"
+}

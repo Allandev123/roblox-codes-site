@@ -1,0 +1,129 @@
+{
+  "slug": "attack-on-titan-revolution",
+  "name": "Attack on Titan Revolution",
+  "robloxName": "Attack on Titan Revolution",
+  "placeId": 13379208636,
+  "universeId": 4658598196,
+  "gameUrl": "https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution",
+  "creator": "AoTR [PI]",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "attack-on-titan-revolution-icon.webp",
+  "thumb": "attack-on-titan-revolution-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Attack on Titan Revolution on Roblox and pick your save slot.",
+    "Stay on the title screen menu instead of starting a mission.",
+    "Press the Codes button, then click the text box near the bottom right of the screen.",
+    "Type or paste the code exactly as shown and press Redeem."
+  ],
+  "notes": "Attack on Titan Revolution is a Roblox action game based on the Attack on Titan anime. You swing around the map with ODM gear, lock onto titans and slice the back of the neck to take them down, alone or with a squad. Missions pay out gold and XP that go into upgrades, perks, artifacts and cosmetics, and the Raids mode lets you fight Shifters and earn the power to shift yourself.\n\nCodes mostly give spins, Emperor Keys and one-hour potions for 2x luck, gold or XP. Spins are the most useful part because they reroll your family, and a strong family boosts your stats in every mission. New codes usually arrive when the game hits a like goal, with the next one due at 1,450,000 likes, and with big updates. The developers post them in the community Discord.",
+  "codes": [
+    {
+      "code": "LIKES1M400K",
+      "reward": "300 Spins, 10 Emperor Keys, and one each of 2x Luck, 2x Gold and 2x XP potions (1 hour each)",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/attack-on-titan-revolution-aotr-codes/",
+        "https://www.pcgamesn.com/attack-on-titan-revolution/codes",
+        "https://www.pockettactics.com/attack-on-titan-revolution/codes",
+        "https://rocodes.gg/codes/attack-on-titan-revolution"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "UPDATE5SOON",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "WEBSITE",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LIKES1M350K",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "FREECODE7",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "VISITS1B",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "WZINS",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TERRA70K",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "LIKES1M300K",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 14484,
+    "visits": 1144871096,
+    "favorites": 1491502,
+    "updated": "2026-09-28T18:58:26.3090293Z",
+    "created": "2023-05-07T20:08:19.05Z"
+  },
+  "added": "2026-09-29T17:52:07.850Z",
+  "lastChecked": "2026-09-29T17:52:07.850Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Why does LIKES1M350K say invalid in AOTR?",
+      "a": "Older like-goal codes get switched off when a new one comes out. LIKES1M350K, UPDATE5SOON and WEBSITE have all stopped working, so use LIKES1M400K instead."
+    },
+    {
+      "q": "When is the next Attack on Titan Revolution code coming?",
+      "a": "The game's Roblox page says a new code drops when it reaches 1,450,000 likes. Liking the game helps it get there faster."
+    },
+    {
+      "q": "What should I use my free spins on?",
+      "a": "Most players spend spins rolling for a better family, since a good family gives stat bonuses that stay with you. Keep rolling until you land one that suits how you play."
+    }
+  ],
+  "aliases": [
+    "aotr",
+    "aot revolution",
+    "aot r"
+  ],
+  "codeChannels": "The AoT Revolution Discord server (announcements channel). The game's Roblox page says all current codes are posted there.",
+  "requirement": "Codes can need a minimum level (guides list level 5 to 15), so play a few missions first if a code will not go through."
+}

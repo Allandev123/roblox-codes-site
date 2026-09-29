@@ -52,7 +52,7 @@ export const method = site => `
 <p>When a developer removes a code from their description, the next check moves it to that game's expired list with the date. I don't call it "dead" or "tested expired" — just "no longer listed by the game", because that's what I can actually see.</p>
 
 <h2>5. Codes from Discord, X and in-game</h2>
-<p>Some developers post codes only on Discord, X or an in-game board. I can add those by hand. The program never removes them, so I retire them myself when the developer does.</p>
+<p>Many big games post codes only on Discord, X or an in-game board, not on their Roblox page. I add those by hand, and only when the developers' own post or at least two code lists updated that month agree the code works. When sources disagree about a code, I leave it out. The program never removes these codes, so I recheck them and move them to the expired list myself.</p>
 
 <h2>6. Redeem steps and game guides</h2>
 <p>Where the code box is changes from game to game, so every page has its own steps. I research them from the game's Roblox page, the developers' posts and other players' reports, and use AI tools to help research and draft. I edit every page before it's published. When I've checked a game's steps in-game myself, the page shows "checked in-game" with the date. If a game moves its Codes button in an update, the steps get fixed.</p>

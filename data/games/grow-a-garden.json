@@ -1,0 +1,157 @@
+{
+  "slug": "grow-a-garden",
+  "name": "Grow a Garden",
+  "robloxName": "[🐿️] Grow a Garden 🌶️",
+  "placeId": 126884695634066,
+  "universeId": 7436755782,
+  "gameUrl": "https://www.roblox.com/games/126884695634066/Grow-a-Garden",
+  "creator": "The Garden Game",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "grow-a-garden-icon.webp",
+  "thumb": "grow-a-garden-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Join Grow a Garden on Roblox and wait for your farm to load.",
+    "Click the gear icon in the top left corner of the screen to open Settings.",
+    "Scroll down to the bottom of the Settings menu to find the code box.",
+    "Type the code exactly as shown, including lowercase letters, and press Claim."
+  ],
+  "notes": "Grow a Garden is a farming game from The Garden Game group. You buy seeds from the shop when it restocks, plant them on the brown plots in your farm, and harvest the crops once they are grown to sell for Sheckles. Weather events can give your crops mutations that make them worth much more, and you can spend your money on better seeds, gear and pets. Your garden keeps growing while you are offline.\n\nCodes in Grow a Garden are rare, and the ones that work right now all give decorations for your farm instead of seeds or Sheckles. None of them change how much you earn, so they are mostly for making your garden look nicer. New codes usually arrive with big events, Roblox events like RDC, and visit milestones, and they get announced in the game's Discord.",
+  "codes": [
+    {
+      "code": "RDCAward",
+      "reward": "RDC Award cosmetic for your garden",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-grow-a-garden-codes/",
+        "https://www.destructoid.com/grow-a-garden-codes/",
+        "https://www.pcgamesn.com/grow-a-garden/codes",
+        "https://robloxden.com/game-codes/grow-a-garden"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "BEANORLEAVE10",
+      "reward": "Green Bean Chamber cosmetic",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://beebom.com/roblox-grow-a-garden-codes/",
+        "https://www.destructoid.com/grow-a-garden-codes/",
+        "https://www.pcgamesn.com/grow-a-garden/codes",
+        "https://robloxden.com/game-codes/grow-a-garden"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    },
+    {
+      "code": "torigate",
+      "reward": "Whispering Torii cosmetic",
+      "status": "active",
+      "firstSeen": "2026-09-29T17:51:58.319Z",
+      "lastSeen": "2026-09-29T17:51:58.319Z",
+      "source": "manual",
+      "sources": [
+        "https://www.destructoid.com/grow-a-garden-codes/",
+        "https://www.pcgamesn.com/grow-a-garden/codes",
+        "https://robloxden.com/game-codes/grow-a-garden"
+      ],
+      "approved": true,
+      "approvedAt": "2026-09-29T17:51:58.319Z"
+    }
+  ],
+  "expired": [
+    {
+      "code": "LUNARGLOW10",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "TEAMGREENBEAN",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BUZZYBEES25",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BIZZY25",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BIZZYBEES25",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BEES10",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "BUZZINGEVENT20",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    },
+    {
+      "code": "3BILLION",
+      "reward": null,
+      "removed": null,
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 16532,
+    "visits": 35947276956,
+    "favorites": 11430905,
+    "updated": "2026-09-28T20:55:20.51063Z",
+    "created": "2025-03-25T22:32:09.437Z"
+  },
+  "added": "2026-09-29T17:52:25.313Z",
+  "lastChecked": "2026-09-29T17:52:25.313Z",
+  "lastChanged": "2026-09-29T17:51:58.319Z",
+  "faq": [
+    {
+      "q": "Do Grow a Garden 2 codes work in the original game?",
+      "a": "No. Grow a Garden 2 is a separate game with its own code list, so its codes will not work here and these codes will not work there."
+    },
+    {
+      "q": "Why does torigate say it is invalid?",
+      "a": "This code is all lowercase, so typing TORIGATE or Torigate can fail. Type it exactly as shown."
+    },
+    {
+      "q": "Where do the cosmetics from codes go?",
+      "a": "They are added to your inventory as decorations. Equip one and click on your plot to place it in your garden."
+    }
+  ],
+  "aliases": [
+    "gag"
+  ],
+  "codeChannels": "The Grow a Garden Discord #announcements channel and The Garden Game Roblox group"
+}
