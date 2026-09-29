@@ -13,42 +13,44 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Bubble Gum Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch the original Bubble Gum Simulator on Roblox, not Bubble Gum Simulator Infinity, and wait for your character to load.",
+    "Click the blue Twitter-bird Codes button in the upper-left corner of the screen.",
+    "Click the Code Here box in the window that opens.",
+    "Type or paste the code exactly as written, including capital letters, and press the green Enter button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Bubble Gum Simulator is the original bubble-blowing simulator from Rumble Studios, separate from its newer Infinity sequel. You chew gum to grow your bubble, sell it for coins, and put those coins into better gum and flavors so your bubble can carry you higher to the floating islands above the map. Hatching eggs gives you pets that multiply what you earn.\n\nCodes in this game nearly always hand out timed boosts such as 2x Luck, 2x Hatch Speed or extra shiny chance, lasting anywhere from minutes to several hours. They work best stacked with the weekend 2x Luck and Hatch Speed event before a long egg-hatching session. New codes tend to arrive with seasonal updates and are printed in the game description.",
   "codes": [
     {
       "code": "FallPart2",
-      "reward": "4 Hours of 2x Luck & 2x Hatch Speed",
+      "reward": "2x Luck and 2x Hatch Speed for 4 hours",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:47.948Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "Wayfarer",
-      "reward": "4 Hours of 2x Luck & 2x Hatch Speed",
+      "reward": "2x Luck and 2x Hatch Speed for 4 hours",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:47.948Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 3053,
-    "visits": 1251393479,
+    "playing": 3056,
+    "visits": 1251394050,
     "favorites": 3320256,
     "updated": "2026-09-25T17:40:18.265Z",
     "created": "2018-10-23T13:18:21.007Z"
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:47.948Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

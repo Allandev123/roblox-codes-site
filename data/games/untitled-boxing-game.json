@@ -13,72 +13,94 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch untitled boxing game on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch untitled boxing game on Roblox and wait to load into the lobby.",
+    "Click the Codes button on the left side of the screen.",
+    "Type or paste the code into the Codes box that opens.",
+    "Press the green Redeem button to claim the reward."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "untitled boxing game, often shortened to UBG, is a PvP fighting game made as a solo project by drowningsome. You step into the ring against other players and win using light and heavy punches, dashes, blocks, feints and a style-specific ultimate, earning Cash from fights and quests. Fighting styles are rolled with spins, and while rarer styles such as the Legendary Deimos look flashier, the developer keeps every style viable so skill decides matches.\n\nCodes mostly give Spins, Lucky Spins, Cash and the occasional free emote, which lets you roll for new styles without buying spins. Codes arrive with new styles and updates, after events and downtime, and as like-goal rewards, and extra secret codes are posted on the developer's X account and Discord.",
   "codes": [
     {
       "code": "deimos",
-      "reward": null,
+      "reward": "Lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "terror",
-      "reward": null,
+      "reward": "15 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "3years",
-      "reward": null,
+      "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "lynn",
-      "reward": null,
+      "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "justtakethecash",
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
+    },
+    {
+      "code": "ubgliveson",
+      "reward": "2x lucky spins",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:27:06.198Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
+    },
+    {
+      "code": "freeemoteforall",
+      "reward": "Free emote",
+      "status": "active",
+      "firstSeen": "2026-09-29T16:27:06.198Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8839,
-    "visits": 1449416267,
-    "favorites": 1362934,
+    "playing": 8703,
+    "visits": 1449423951,
+    "favorites": 1362941,
     "updated": "2026-09-27T01:58:14.813Z",
     "created": "2023-06-02T00:43:44.32Z"
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:26.811Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

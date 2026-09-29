@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Squid Game X on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Squid Game X on Roblox and wait for the lobby to finish loading.",
+    "Click the Shop button on the left side of the screen.",
+    "Click the Codes button in the bottom-right corner of the Shop menu.",
+    "Type or paste the code into the Insert your code here box and press Enter on your keyboard."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Squid Game X is a survival party game from the redifi group, inspired by the Netflix series and running on Roblox since 2021. Each round drops a lobby of players into a string of elimination challenges such as Red Light, Green Light, Honeycomb, Tug of War, Marbles and Glass Bridge, with newer modes like Mingle, Musical Chairs and Jump Rope, until one survivor is left.\n\nCodes award Coins, which you can spend on boosts such as sprint or damage upgrades that improve your odds in the harder games. The developers tie their bigger codes to like milestones, with the current one promised at 1.4 million likes, and they also share codes through their Roblox group, Discord and X account.",
   "codes": [
     {
       "code": "$1.2M",
-      "reward": null,
+      "reward": "Coins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:15.443Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 14260,
-    "visits": 2256208187,
-    "favorites": 1849016,
+    "playing": 14531,
+    "visits": 2256228364,
+    "favorites": 1849028,
     "updated": "2026-09-27T20:00:40.475Z",
     "created": "2021-09-24T23:38:34.723Z"
   },
   "added": "2026-09-29T16:13:15.443Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:15.443Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

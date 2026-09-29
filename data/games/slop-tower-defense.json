@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Slop Tower Defense! on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Slop Tower Defense! on Roblox and make sure you have at least 10 wins.",
+    "Click the Settings cog on the left side of the screen.",
+    "Scroll to the bottom of the Settings menu to reach the code box.",
+    "Type or paste the code exactly as written, including spaces, and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Slop Tower Defense! is a meme-themed tower defense game from the Slop TD! group. You summon and craft units made of internet slop, place them along the path, and upgrade them to hold back waves of enemies. Winning matches earns Cash, Gems and event currencies such as Stars, Suns and Sheckles, which feed back into more summons and stronger crafts, and themed updates like the Backrooms event add new stages and units.\n\nCodes give Gems, Cash, Stars and sometimes a specific unit, and they can only be used once you have 10 wins. The developers release them for visit, player-count and community server milestones and alongside updates or data wipes, and they post codes, leaks and news in the community Discord.",
   "codes": [
     {
       "code": "SLOP",
-      "reward": "Cash",
+      "reward": "900 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:25.213Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 10300,
-    "visits": 17840011,
-    "favorites": 13742,
+    "playing": 10242,
+    "visits": 17848911,
+    "favorites": 13749,
     "updated": "2026-09-29T11:49:59.0652015Z",
     "created": "2026-07-19T09:49:58.806Z"
   },
   "added": "2026-09-29T16:13:25.213Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:25.213Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Slop Tower Defense! codes?",
+      "a": "Yes: you need at least 10 wins before the game accepts any code. Play a few matches first, then redeem."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

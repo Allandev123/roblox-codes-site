@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch +1 DMG FPS on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch +1 DMG FPS on Roblox and wait for your character to fully load.",
+    "Click the Rewards button in the menu on the left side of the screen.",
+    "Choose the Code option (marked with a 123 icon) to open the code box.",
+    "Type or paste the code into the Enter code box and press Enter."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "+1 DMG FPS is a shooter with clicker-style progression from the Mappy Tappy group, released on Roblox in August 2026. AI robots are invading Earth, and every hit you land permanently adds one point of damage to your gun. As your damage climbs you earn medals, unlock better guns, rebirth for large power multipliers, and push into new areas. The V2 update added a Hunt mode that you can play cooperatively with others.\n\nCodes typically give flat damage, free rebirths, or Buddies, which are companions that support your build. A rebirth code in particular saves a lot of early grinding. The developers announce codes in their Discord and Roblox group, often around updates and player count milestones.",
   "codes": [
     {
       "code": "AA2026",
-      "reward": "Exclusive GIFT",
+      "reward": "1 Random Buddy",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:37.053Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 6389,
-    "visits": 6790611,
-    "favorites": 292853,
+    "playing": 6392,
+    "visits": 6796374,
+    "favorites": 293011,
     "updated": "2026-09-29T03:39:46.6445476Z",
     "created": "2026-08-15T22:24:52.952Z"
   },
   "added": "2026-09-29T16:13:37.053Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:37.053Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

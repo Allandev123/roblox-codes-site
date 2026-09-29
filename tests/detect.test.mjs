@@ -35,6 +35,10 @@ test('header followed by a list', () => {
   assert.deepEqual(r.map(c => [c.code, c.reward]), [['SPRING', '500 gems'], ['EGGHUNT', 'Free pet']]);
 });
 
+test('list items with an arrow note', () => {
+  assert.deepEqual(codes('CODES\ndeimos\nubgliveson <- you all reached the event goal so 2x lucky spins\nfreeemoteforall\n+ secret codes in community links'), ['deimos', 'ubgliveson', 'freeemoteforall']);
+});
+
 test('rewards after + and "to claim"', () => {
   assert.equal(one('Redeem code: "75MVISIT" +$40.000').reward, '+$40.000');
   assert.equal(one('Redeem Code: Use the code "SPACEFORCE" to claim 1250x FREE Gym Tokens!').reward, '1250x FREE Gym Tokens');

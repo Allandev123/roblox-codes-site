@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Gym Star Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Gym Star Simulator on Roblox and wait to load into the gym.",
+    "Click the Shop button on the left side of the screen.",
+    "Select the Code tab at the top of the Shop menu.",
+    "Type or paste the code into the text box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Gym Star Simulator is a bodybuilding simulator from the Gym Simulator Club group, first released on Roblox in August 2024. You lift weights and work out to build muscle and stamina, hire trainers to boost your gains, hatch and upgrade pets, and unlock themed gyms with stronger equipment. Bodybuilding competitions and global leaderboards give you something to aim for.\n\nThe game runs in seasons, and the current one is Space Force. Codes commonly give Gym Tokens, wheel spins, Enchant Crystals for upgrading belts and other gear, or consumables such as protein bars and energy drinks. New codes tend to arrive with seasons, holidays and visit milestones, and the developers share them in the game description and in their Discord.",
   "codes": [
     {
       "code": "SPACEFORCE",
-      "reward": "1250x FREE Gym Tokens",
+      "reward": "1,250 Gym Tokens",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:35.455Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8032,
-    "visits": 710475699,
-    "favorites": 6928733,
+    "playing": 8103,
+    "visits": 710482230,
+    "favorites": 6928774,
     "updated": "2026-09-28T10:43:19.1876743Z",
     "created": "2024-08-20T06:12:32.837Z"
   },
   "added": "2026-09-29T16:13:35.455Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:35.455Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

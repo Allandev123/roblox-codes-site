@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Immortality Incremental on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Immortality Incremental and wait for your character to load in.",
+    "Click the Shop button on the left side of the screen.",
+    "Scroll down inside the Shop until you reach the Codes section.",
+    "Type or paste the code into the Input Code Here! box and click Use."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Immortality Incremental is a cultivation-themed incremental game published by the Immortality Incremental group in January 2026. You click, or let the built-in autoclicker work, to build power, then break through into higher cultivation realms. Reset layers let you give up progress in exchange for permanent multipliers, and Marks add extra enhancements on top. The game has since expanded into multiple worlds, dungeons, and crafting.\n\nCodes typically give potions, Tickets, and Jade, which speed up breakthroughs and let you push further before each reset. The developers add new codes with most world updates and at visit milestones, and post them in the game's Discord community server as well as the description.",
   "codes": [
     {
       "code": "RELEASE",
-      "reward": "Free Potions",
+      "reward": "Free potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:44.702Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 4125,
-    "visits": 37022192,
-    "favorites": 285587,
+    "playing": 4134,
+    "visits": 37024382,
+    "favorites": 285599,
     "updated": "2026-09-27T22:08:14.136Z",
     "created": "2026-01-18T18:09:14.383Z"
   },
   "added": "2026-09-29T16:13:44.702Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:44.702Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

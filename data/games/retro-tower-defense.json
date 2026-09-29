@@ -13,52 +13,54 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Retro Tower Defense on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Retro Tower Defense on Roblox and wait for the lobby to load.",
+    "Tap the Inventory button in the menu on the left side of the screen.",
+    "In the top-right corner of the inventory window, tap the gift box icon next to the Show All and X buttons.",
+    "Type or paste the code into the Enter Code Here box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Retro Tower Defense is a Plaything Games strategy game built around old-school Roblox nostalgia. Waves of Noobs march along paths on maps modeled after classics like Crossroads and Doomspire, and you place towers based on iconic characters such as 1x1x1x1 and c00lkidd to stop them. You can play Casual, Normal, Hard or the infinite Endless mode alone or with friends, complete missions to unlock towers, and trade towers with other players.\n\nCodes mostly give Tix, the currency you earn from winning rounds and spend on towers, and some add revives, skins, luck summons or trait rerolls. The developers usually drop codes alongside updates, events and holidays and announce them on their Discord.",
   "codes": [
     {
       "code": "FREETIX",
-      "reward": null,
+      "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:03.031Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "RETRO",
-      "reward": null,
+      "reward": "Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: Use RETRO, FREETIX, or NEW"
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "NEW",
-      "reward": null,
+      "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: Use RETRO, FREETIX, or NEW"
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 1861,
-    "visits": 173866354,
-    "favorites": 166713,
+    "playing": 1865,
+    "visits": 173868547,
+    "favorites": 166717,
     "updated": "2026-09-25T17:05:06.31Z",
     "created": "2025-05-20T16:48:11.753Z"
   },
   "added": "2026-09-29T16:14:03.031Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:14:03.031Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

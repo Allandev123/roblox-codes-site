@@ -141,8 +141,8 @@ main { padding: 24px 0 48px; }
 
 /* game cards */
 .grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
-@media (min-width: 560px) { .grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 900px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 560px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .narrow .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .card {
   display: flex; align-items: center; gap: 14px; padding: 12px;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);

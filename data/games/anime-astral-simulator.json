@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Anime Astral Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Anime Astral Simulator on Roblox and wait for the world to load.",
+    "Click the Menu button in the top-right corner of the screen.",
+    "Choose Codes from the options that pop out; if a separate Codes button is already showing in the top-right, click that instead.",
+    "Type or paste the code into the Redeem Codes box and press the green Redeem Code button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Anime Astral Simulator is an incremental anime trainer made by the StarX Inc group, which credits itself in game as the Astral Team. You collect fighters inspired by popular anime and manga, train them to raise your power, and roll with tickets for rarer or secret characters. As you grow stronger you unlock new worlds, tower-style game modes and leaderboard spots, and later updates added passives and guilds.\n\nCodes mostly give F2P Tickets for extra rolls plus stacks of damage, luck, power, XP and yen potions, and sometimes a tower cooldown reset. The developers release batches of codes with each numbered update and when the game hits visit, like, favourite or player-count milestones, and they share them in the Discord server.",
   "codes": [
     {
       "code": "Release",
-      "reward": "FREE Boosts",
+      "reward": "Free boosts",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:17.066Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 12994,
-    "visits": 98341927,
-    "favorites": 123486,
+    "playing": 13007,
+    "visits": 98348405,
+    "favorites": 123488,
     "updated": "2026-09-29T05:57:32.5542405Z",
     "created": "2026-07-14T15:26:28.559Z"
   },
   "added": "2026-09-29T16:13:17.066Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:17.066Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch BlockSpin on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch BlockSpin on Roblox and wait until your character has loaded into the city.",
+    "Click the menu icon on the right side of the screen to open the menu.",
+    "Choose the Codes tab, then pick the promo or referral section depending on the code.",
+    "Type or paste the code exactly as written and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "BlockSpin is an open-world crime RPG on Roblox set in a fictional Florida county. You take jobs around the city to earn money, open reward cases, level up your character's stats, and fight other players, knowing that dying drops everything you carry unless it is locked in the safe at your house.\n\nCodes come in two kinds. Referral codes, like the one in the game description, give new players $500, and each account can only redeem one of them. Promo codes are released after major updates and can give larger rewards such as batches of cases. The starting cash from a referral code helps you afford a first item without a long job grind. New codes are posted on the official Discord.",
   "codes": [
     {
       "code": "W7C28D",
-      "reward": "$500 free cash if you're a new player",
+      "reward": "$500 cash (new players only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:13.775Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 20800,
-    "visits": 1259946492,
-    "favorites": 985406,
+    "playing": 20830,
+    "visits": 1259965164,
+    "favorites": 985413,
     "updated": "2026-09-19T00:32:58.719Z",
     "created": "2024-11-06T14:19:35.68Z"
   },
   "added": "2026-09-29T16:13:13.775Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:13.775Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming BlockSpin codes?",
+      "a": "W7C28D is a referral code for new players: each account can use one, and it fails on an account that has already claimed a code. A brand-new account may show an \"Alt Account\" error until it has played for 10 to 15 minutes."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

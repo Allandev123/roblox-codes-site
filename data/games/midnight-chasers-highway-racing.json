@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Midnight Chasers: Highway Racing on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Midnight Chasers: Highway Racing and press Play once the menu finishes loading.",
+    "Click the yellow Store button in the bottom-left corner of the screen, just under the Spawn button.",
+    "Select the Codes tab along the top of the Store window.",
+    "Type or paste the code into the text box exactly as written and click Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Midnight Chasers: Highway Racing is a no-hesitation traffic driving game from the Roblox group Midnight In-dev. You pick a car or motorcycle, drive onto a busy highway, and weave between traffic at high speed to earn cash, which you spend on new vehicles and upgrades. Players also use the open highways and city streets for casual cruising, races with friends, and car meetups.\n\nCodes in this game almost always pay out cash, usually 30,000 per code, which shortens the grind toward faster cars. The developers tie new codes to like milestones, typically one every 10,000 likes named after the count (ThanksFor980k, for example), and announce them in the game description, their Discord server, and on X.",
   "codes": [
     {
       "code": "ThanksFor980k",
-      "reward": null,
+      "reward": "30,000 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:42.003Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 4310,
-    "visits": 314174792,
-    "favorites": 6615028,
+    "playing": 4228,
+    "visits": 314177458,
+    "favorites": 6615070,
     "updated": "2026-09-26T21:55:47.788Z",
     "created": "2023-06-21T21:07:05.223Z"
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:42.003Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

@@ -25,7 +25,7 @@ export function adSlot(site, name) {
 
 export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [] }) {
   const url = site.url + path;
-  const og = ogImage ?? `${site.url}/og/default.png`;
+  const og = ogImage ?? `${site.url}/og/default.jpg`;
   return `<!doctype html>
 <html lang="en">
 <head>

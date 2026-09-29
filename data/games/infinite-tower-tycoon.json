@@ -11,34 +11,35 @@
   "icon": "infinite-tower-tycoon-icon.webp",
   "thumb": "infinite-tower-tycoon-thumb.webp",
   "autoApprove": false,
-  "draft": false,
+  "draft": true,
   "redeem": [
-    "Launch Infinite Tower Tycoon on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Infinite Tower Tycoon on Roblox and claim an empty tycoon plot.",
+    "Earn cash with your droppers and buy the Redeem Code Machine on Floor 0, a computer that sits beside the Key Generator.",
+    "Walk up to the machine and hold E, or tap it on mobile, to open the code window.",
+    "Type the code into the text box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Infinite Tower Tycoon is a tycoon made by azertytrezazerti in which you claim a plot, place droppers and conveyors to earn cash, and then build your tower upward one floor at a time. Each new floor unlocks weapons, potions or other items, and zombies spawn that you have to fight off as you climb. Progress saves automatically, and joining the community group unlocks an extra floor.\n\nCodes in this game give cash. Public codes are added at like milestones and listed in the game description, seasonal codes only work while their event is running, and extra codes are hidden around the map and on a dedicated Code floor higher up the tower. The premium code is reserved for players with a paid Roblox subscription.",
   "codes": [
     {
       "code": "premium",
-      "reward": null,
+      "reward": "Exclusive reward (Roblox Premium/Plus only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:06.390Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
       "approved": false,
-      "context": ""
+      "context": "→ Exclusive redeem code: \"premium\""
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 1724,
-    "visits": 139734204,
+    "playing": 1658,
+    "visits": 139735665,
     "favorites": 125498,
     "updated": "2026-09-16T09:45:44.626Z",
     "created": "2022-07-18T18:56:43.257Z"
   },
   "added": "2026-09-29T16:14:06.390Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:14:06.390Z"
 }

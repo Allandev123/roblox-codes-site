@@ -13,82 +13,90 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch +1 Power Per Click on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch +1 Power Per Click and give the world a moment to fully load.",
+    "Click the Settings gear button on the right side of the screen, near the top.",
+    "Find the code entry box inside the Settings menu.",
+    "Type or paste the code exactly as written, capitals included, and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "+1 Power Per Click is a clicker game released in July 2026 by the verified Roblox group 67 POWER. Every click adds to your Power, and you spend that Power breaking through walls to earn Wins, unlock stronger swords, and move on to new worlds. Rebirths reset your run for permanent bonuses, while pets and Titles add further multipliers.\n\nCodes mostly give timed potions that double Power, Wins, or luck, plus batches of Title rolls, so redeeming several back to back makes a single play session much more productive. The developers add codes when the game passes visit or player milestones and when a new world launches, and they list the current ones in the game description and on their Discord server.",
   "codes": [
     {
       "code": "2XALL",
-      "reward": null,
+      "reward": "100 Luck Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "RIFT",
-      "reward": null,
+      "reward": "2x Wins Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "JUNGLE",
-      "reward": null,
+      "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "TITLELUCK",
-      "reward": null,
+      "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "WORLD6",
-      "reward": null,
+      "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "TEMPLE",
-      "reward": null,
+      "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 2944,
-    "visits": 16998634,
-    "favorites": 513503,
-    "updated": "2026-09-29T16:11:25.0365489Z",
+    "playing": 2885,
+    "visits": 17000414,
+    "favorites": 513565,
+    "updated": "2026-09-29T16:24:00.783035Z",
     "created": "2026-07-11T13:59:06.188Z"
   },
   "added": "2026-09-29T16:13:50.695Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:50.695Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming +1 Power Per Click codes?",
+      "a": "Most codes work straight away, but some codes in this game only work after you reach a set number of rebirths. If one fails, rebirth a few more times and try again."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Anime Fighting Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Anime Fighting Simulator on Roblox and wait until you load into the world.",
+    "Click the Shop button on the left side of the screen.",
+    "Select the Codes button at the top of the Shop window.",
+    "Type or paste the code into the Enter Code Here box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Anime Fighting Simulator is a training and combat game published by the Anime Fighting Simulator | BZ group, and this version went live on Roblox in June 2026. You build up your stats through training, unlock powers drawn from popular anime series, and take on bosses and other players, while summoning champions that train and fight next to you. Mounts, auras, weapons and titles round out the collection side.\n\nCodes here are usually large bundles of Chikara and Tensei Shards, stat, yen and training boosts, trait rerolls, and event tokens such as Clover Tokens. Those resources shorten the long stat grind and pay for rerolls. The developers post new codes in their Discord and on the game page, usually tied to updates, member milestones, or compensation after downtime.",
   "codes": [
     {
       "code": "CLOVERPASS",
-      "reward": "FREE rewards",
+      "reward": "1k Clover Tokens, 1k Tensei Shards, 2.5k Chikara Shards",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:30.684Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8638,
-    "visits": 51910594,
-    "favorites": 478744,
+    "playing": 8625,
+    "visits": 51912448,
+    "favorites": 478759,
     "updated": "2026-09-29T03:40:34.5553496Z",
     "created": "2026-06-13T17:13:16.808Z"
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:30.684Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

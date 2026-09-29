@@ -11,34 +11,35 @@
   "icon": "rebirth-champions-ultimate-icon.webp",
   "thumb": "rebirth-champions-ultimate-thumb.webp",
   "autoApprove": false,
-  "draft": false,
+  "draft": true,
   "redeem": [
-    "Launch Rebirth Champions: Ultimate on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Rebirth Champions: Ultimate on Roblox and finish the tutorial, since the full menu unlocks only after it.",
+    "Click the Shop button, a shopping cart icon in the menu on the left side of the screen.",
+    "Scroll to the bottom of the shop, or click the gift box tab on the left side of the shop menu.",
+    "Type or paste the code into the Enter Code Here box and press the green arrow button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Rebirth Champions: Ultimate is a clicker simulator from Powerful Studio. You tap anywhere on the screen to gain clicks, then rebirth to reset that progress in exchange for a permanent click multiplier. Clicks also pay for eggs that hatch pets with their own boosts, and completing quests opens new worlds, with the developer promising a weekly update.\n\nCodes usually give consumables such as Luck Potions, Mega Luck Potions and food items like apples, grapes and carrots rather than raw clicks. Luck potions are worth saving until you are about to hatch a new egg. Codes tend to arrive with updates, milestones and events, and are shared in Powerful Studio's Discord and Roblox group.",
   "codes": [
     {
       "code": "release",
-      "reward": "Free Boost in-game",
+      "reward": "Free boost (Luck Potion, Grape and Apple)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:38.732Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
       "approved": false,
-      "context": ""
+      "context": "Use code \"release\" for Free Boost in-game!"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 5964,
-    "visits": 243856750,
-    "favorites": 152222,
+    "playing": 5935,
+    "visits": 243858742,
+    "favorites": 152223,
     "updated": "2026-09-27T13:59:21.405Z",
     "created": "2025-02-01T08:45:07.927Z"
   },
   "added": "2026-09-29T16:13:38.732Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:13:38.732Z"
 }

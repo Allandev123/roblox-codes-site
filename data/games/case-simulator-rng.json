@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Case Simulator RNG on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Case Simulator RNG and finish the short tutorial if you are new.",
+    "Click the Shop button on the left side of the screen.",
+    "Scroll to the very bottom of the Shop to find the Redeem Codes section.",
+    "Type or paste the code into the Enter Code box and click Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Case Simulator RNG is a case-opening game inspired by CS2, made by the Roblox group games by cool people and released in late 2025. You open cases to unbox weapon and knife skins of varying rarity, sell or keep them to grow your inventory value, and use the money to open better cases. Auto-open and offline earnings keep progress going while you are away, rebirths add permanent boosts, and Case Battles let you open cases head to head against other players.\n\nCodes usually give trait rerolls and short luck boosts, which raise your chances at rare drops. New codes tend to arrive at like milestones, with the next target posted in the game description, and alongside updates announced on Discord.",
   "codes": [
     {
       "code": "120KLIKES",
-      "reward": "Trait rolls (bottom of shop)",
+      "reward": "Trait rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:56.369Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 2245,
-    "visits": 7744770,
-    "favorites": 140671,
+    "playing": 2302,
+    "visits": 7746306,
+    "favorites": 140695,
     "updated": "2026-09-28T21:08:01.9810041Z",
     "created": "2025-09-29T04:42:35.12Z"
   },
   "added": "2026-09-29T16:13:56.369Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:56.369Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Case Simulator RNG codes?",
+      "a": "Your account has to reach Level 10 before the code box accepts anything, so open some cases first."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

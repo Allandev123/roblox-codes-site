@@ -13,92 +13,100 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Roll a Fisherman on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Roll a Fisherman on Roblox and finish the short tutorial.",
+    "Tap the Shop button on the left side of the screen (the plus icon next to your cash opens the same menu).",
+    "Scroll to the bottom of the Shop to find the Enter a code box.",
+    "Type or paste the code and press the green Redeem button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Roll a Fisherman is an idle fishing tycoon from the FISH X SPEEDI group, released on Roblox in August 2026. You roll for fishermen of different rarities, place them on your dock, and they reel in fish that you set on stands to earn cash. That cash goes into upgrades and more rolls, and your fish keep earning while you are offline.\n\nThe game uses two currencies, cash and gold, plus spins for extra rolls, and its codes hand out a mix of all three. Free spins are the most useful early on because they give more chances at better fishermen. New codes have arrived with each numbered update and new feature, and the developers list them on the game's Roblox page and in their Discord.",
   "codes": [
     {
       "code": "RELEASE",
-      "reward": null,
+      "reward": "5,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "UPDATE1",
-      "reward": null,
+      "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "UPDATE2",
-      "reward": null,
+      "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "GOLD",
-      "reward": null,
+      "reward": "300 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "UPGRADES",
-      "reward": null,
+      "reward": "500 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "FISHING",
-      "reward": null,
+      "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "SEAL",
-      "reward": null,
+      "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8405,
-    "visits": 4300556,
-    "favorites": 164084,
+    "playing": 8368,
+    "visits": 4304913,
+    "favorites": 164224,
     "updated": "2026-09-29T11:32:11.8438396Z",
     "created": "2026-08-05T14:47:20.106Z"
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:32.278Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Roll a Fisherman codes?",
+      "a": "Finish the short tutorial first. The code box in the Shop only works after it."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

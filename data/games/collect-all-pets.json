@@ -11,34 +11,35 @@
   "icon": "collect-all-pets-icon.webp",
   "thumb": "collect-all-pets-thumb.webp",
   "autoApprove": false,
-  "draft": false,
+  "draft": true,
   "redeem": [
-    "Launch Collect All Pets! on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Collect All Pets! and wait for your pets and the first area to load.",
+    "Click the blue tag icon at the top right of the screen, next to the settings cog.",
+    "Type or paste the code into the text box, matching capital letters exactly.",
+    "Click Submit to activate the boost."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Collect All Pets! is a pet-collecting simulator made by the verified developer TwoZoos. You break crystals and objects for gold, spend that gold hatching eggs, and fuse duplicate pets into higher rarities, with rare Shiny and Metallic variants to hunt as well. There are more than 200 pets to find, and new areas, quests, and badges unlock as you upgrade.\n\nCodes here hand out timed boosts rather than currency, usually two hours of double Gold, double Shiny luck, or double Metallic luck, so they are most useful right before a long hatching session. TwoZoos releases codes frequently alongside updates, often as long themed phrases, and many expire within days, so it pays to redeem them soon after they appear.",
   "codes": [
     {
       "code": "FirstCodeEver",
-      "reward": null,
+      "reward": "2x Gold boost",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:46.310Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
       "approved": false,
-      "context": ""
+      "context": "Use this code: FirstCodeEver"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 3152,
-    "visits": 210075254,
+    "playing": 3159,
+    "visits": 210075578,
     "favorites": 328676,
     "updated": "2026-09-21T05:06:09.026Z",
     "created": "2022-02-20T17:07:04.26Z"
   },
   "added": "2026-09-29T16:13:46.310Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
+  "lastChecked": "2026-09-29T16:27:06.198Z",
   "lastChanged": "2026-09-29T16:13:46.310Z"
 }

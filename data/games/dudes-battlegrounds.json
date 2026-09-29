@@ -13,62 +13,64 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Dudes Battlegrounds on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Dudes Battlegrounds and wait for the lobby to finish loading.",
+    "Click the blue diamond Shop icon near the top right of the screen (some players see it as a three-dot menu).",
+    "Select the CODES tab inside the Shop window.",
+    "Type or paste the code into the Code... box and press REDEEM."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Dudes Battlegrounds is a superhero fighting game from the verified group Fantastic! Games, with a character roster inspired by the TV series The Boys. You pick a hero, drop into a shared arena, and fight other players using punches, blocks, dashes, and four character abilities, then build up to an ultimate. The game is still labelled as a beta, and new characters and mastery skins arrive through regular numbered updates.\n\nCodes usually give Vialites, the premium currency used on characters and cosmetics, along with Tokens and Fortune Wheel spins. The developers release one code per update, named after the update number, plus codes for like, favorite, and group-member milestones, and they announce them on Discord and in the game description.",
   "codes": [
     {
       "code": "UPD72",
-      "reward": null,
+      "reward": "72 Tokens",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "2MFAVS",
-      "reward": null,
+      "reward": "1,000 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "190KLIKES",
-      "reward": null,
+      "reward": "800 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "2MGROUP",
-      "reward": null,
+      "reward": "1 Fortune Wheel spin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 2268,
-    "visits": 401695795,
-    "favorites": 2891593,
+    "playing": 2253,
+    "visits": 401697926,
+    "favorites": 2891601,
     "updated": "2026-09-26T15:52:41.884Z",
     "created": "2023-09-21T06:28:35.55Z"
   },
   "added": "2026-09-29T16:13:54.726Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:54.726Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

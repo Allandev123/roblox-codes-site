@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Merge a Nuke! on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Merge a Nuke! on Roblox and wait for your base to load.",
+    "Tap the Store button on the left side of the screen.",
+    "Scroll down to the Redeem Codes! section at the bottom of the Store.",
+    "Type or paste the code into the Type Code Here box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Merge a Nuke! is a merge tycoon from the Nuke The Game group that launched on Roblox in May 2026. Bombs drop onto your base, and you combine matching ones into larger nukes that generate cash every second, including while you are offline. You can also launch nukes at other players' bases to steal their cash, so locking your own base matters.\n\nCodes usually give cash or Nuclear Waste, which pay for upgrades and help you reach higher nuke tiers sooner. The developers say updates land every Friday, and new codes tend to appear alongside them on the Roblox page, in the group and in the Discord. Liking the game and joining the group also unlocks a separate free nukes reward from a board inside the game.",
   "codes": [
     {
       "code": "BOOM",
-      "reward": null,
+      "reward": "Cash or Nuclear Waste",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:33.869Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8151,
-    "visits": 431087605,
-    "favorites": 2037305,
+    "playing": 8323,
+    "visits": 431096826,
+    "favorites": 2037334,
     "updated": "2026-09-26T21:01:13.901Z",
     "created": "2026-05-21T13:45:07.797Z"
   },
   "added": "2026-09-29T16:13:33.869Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:33.869Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Merge a Nuke! codes?",
+      "a": "No, but codes are case-sensitive, so copy them exactly as they appear here."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

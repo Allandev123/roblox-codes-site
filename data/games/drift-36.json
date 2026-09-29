@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Drift 36 on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Drift 36 on Roblox and wait until you spawn into the city.",
+    "Tap the small arrow button in the top-left corner of the screen, next to the chat icon.",
+    "Pick the Codes button from the menu that drops down.",
+    "Type or paste the code into the Enter Code box and press Redeem Code."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Drift 36 is a car game from AutoBlox Games set in an open city where you race other players, practice drifting and cruise around between events. Winning races pays out cash, which goes toward a garage of more than 80 cars and over 30 tuning and visual modifications. It runs on PC, mobile, Xbox and PlayStation 5, and joining the AutoBlox group adds a Group Member tag to your name.\n\nCodes in Drift 36 pay out cash, usually tens of thousands of dollars per code, which is a quick way to afford a better car early on. AutoBlox tends to release them when the game hits visit, like or group-member milestones, and posts them in the game description and on its Discord.",
   "codes": [
     {
       "code": "75MVISIT",
-      "reward": "+$40.000",
+      "reward": "$40,000 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:58.046Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 2027,
-    "visits": 76763943,
-    "favorites": 209740,
+    "playing": 2031,
+    "visits": 76766247,
+    "favorites": 209741,
     "updated": "2026-09-26T23:36:07.343Z",
     "created": "2025-09-05T20:17:45.04Z"
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:58.046Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

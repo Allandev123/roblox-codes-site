@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Saber Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Saber Simulator on Roblox and wait for your character to load.",
+    "Click the blue Twitter/X bird button on the right side of the screen, just below the Settings button.",
+    "Click the Enter Codes Here box in the window that opens.",
+    "Type or paste the code exactly as written and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Saber Simulator is an HD Games title built on a simple loop: swing your saber to build Strength, sell that Strength for Coins, and spend the Coins on stronger sabers and upgrades from the shop. Strength also decides how hard you hit when fighting other players, and leaderboards rank the strongest. Crowns are a second currency tied to pets and progression, and updates keep adding classes, sabers and eggs.\n\nCodes mostly give Shiny, Rainbow and Void Charms, which go into powering up pets, along with Crowns and sometimes Coins. HD Games announces codes in its changelogs, Discord, X account and Roblox group, often with seasonal updates like the fall code in the current description.",
   "codes": [
     {
       "code": "FALL26",
-      "reward": null,
+      "reward": "35 Shiny, Rainbow and Void Charms",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:11.984Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 1628,
-    "visits": 644167008,
+    "playing": 1639,
+    "visits": 644167570,
     "favorites": 2031908,
     "updated": "2026-09-27T06:12:51.814Z",
     "created": "2019-09-07T00:35:42.387Z"
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:14:11.984Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

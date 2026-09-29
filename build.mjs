@@ -24,7 +24,9 @@ const site = loadSettings();
 const NOW = Date.now();
 const DAY = 864e5;
 
-fs.rmSync(DIST, { recursive: true, force: true });
+// empty it rather than delete it, so a shell or server sitting in dist/ can't block the build
+fs.mkdirSync(DIST, { recursive: true });
+for (const e of fs.readdirSync(DIST)) fs.rmSync(path.join(DIST, e), { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 const write = (rel, content) => {
   const f = path.join(DIST, rel);
@@ -73,9 +75,10 @@ for (const g of all) {
   views.push({
     g, live,
     path: `/${g.slug}-codes/`,
-    icon: g.icon ? `/img/${g.icon}` : '/logo-512.png',
+    icon: g.icon ? `/img/${g.icon.replace(/.webp$/, '-128.webp')}` : '/logo-512.png',
+    iconLg: g.icon ? `/img/${g.icon}` : '/logo-512.png',
     thumb: g.thumb ? `/img/${g.thumb}` : null,
-    og: `/og/${g.slug}.png`,
+    og: `/og/${g.slug}.jpg`,
     h1,
     month,
     isNew: c => NOW - Date.parse(c.firstSeen) < (site.newCodeDays ?? 3) * DAY,
@@ -98,10 +101,11 @@ function gameTitle(v) {
 // meta description: how many codes and the best reward, 155 characters at most
 function gameDescription(v) {
   const n = v.live.length;
-  const top = v.live.find(c => c.reward)?.reward;
+  const topCode = v.live.find(c => c.reward);
+  const top = topCode?.reward.replace(/[.!]+$/, '');
   const lead = `${plural(n, `working ${v.g.name} code`)} for ${v.month}`;
   const parts = [
-    `${lead}${top ? `, including ${top.replace(/[.!]+$/, '')}` : ''}.`,
+    n === 1 && top ? `${lead}: ${topCode.code} gives ${top}.` : `${lead}${top ? `, including ${top}` : ''}.`,
     'Checked every few hours, with rewards and how to redeem.',
   ];
   let d = parts.join(' ');
@@ -120,19 +124,20 @@ function related(v) {
 
 const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/', logo: { '@type': 'ImageObject', url: `${site.url}/logo-512.png`, width: 512, height: 512 } };
 
-// images: copy only what published pages use
+// images: copy only what published pages use, plus a 128px icon for cards
 for (const v of views) {
   for (const f of [v.g.icon, v.g.thumb]) {
     if (f) copy(path.join(IMAGES_DIR, f), `img/${f}`);
   }
+  if (v.g.icon) write(v.icon.slice(1), await sharp(path.join(IMAGES_DIR, v.g.icon)).resize(128, 128).webp({ quality: 80 }).toBuffer());
 }
 
 // OG images, cached on disk by their inputs so local rebuilds stay fast
 fs.mkdirSync(path.join(CACHE, 'og'), { recursive: true });
 async function og(key, opts, rel) {
   const bg = opts.background && fs.existsSync(opts.background) ? fs.statSync(opts.background).mtimeMs : 0;
-  const id = hash(JSON.stringify({ ...opts, bg, v: 3 }));
-  const cached = path.join(CACHE, 'og', `${key}-${id}.png`);
+  const id = hash(JSON.stringify({ ...opts, bg, v: 4 }));
+  const cached = path.join(CACHE, 'og', `${key}-${id}.jpg`);
   if (!fs.existsSync(cached)) {
     for (const old of fs.readdirSync(path.join(CACHE, 'og')).filter(f => f.startsWith(`${key}-`))) fs.rmSync(path.join(CACHE, 'og', old));
     await ogImage({ ...opts, out: cached });
@@ -150,7 +155,7 @@ for (const v of views) {
     background: g.thumb ? path.join(IMAGES_DIR, g.thumb) : null,
     title: g.name, kicker: 'CODES',
     sub: `${plural(v.live.length, 'working code')} · ${v.month}`,
-  }, `og/${g.slug}.png`);
+  }, `og/${g.slug}.jpg`);
 
   const url = site.url + v.path;
   const jsonld = [
@@ -186,7 +191,7 @@ for (const v of views) {
 
 // ---------------------------------------------------------------- home
 
-await og('default', { background: null, title: 'Working Roblox codes, checked every few hours', kicker: 'CODES', sub: `${plural(views.length, 'game')} · updated all day` }, 'og/default.png');
+await og('default', { background: null, title: 'Working Roblox codes, checked every few hours', kicker: 'CODES', sub: `${plural(views.length, 'game')} · updated all day` }, 'og/default.jpg');
 const homeLastmod = views[0]?.g.lastChanged ?? new Date().toISOString();
 write('index.html', layout({
   site, assets, path: '/',

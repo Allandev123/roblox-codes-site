@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Murderers VS Sheriffs on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Murderers VS Sheriffs Duels on Roblox and wait for the lobby to load.",
+    "Click the Codes button in the top-right corner of the lobby screen.",
+    "Click the Enter Code Here box in the window that opens.",
+    "Type or paste the code exactly as written and press the CLAIM! button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Murderers VS Sheriffs Duels is a team PvP game run by the MVS Duels Community group. Each round pits murderers armed with knives against sheriffs armed with guns in 1v1, 2v2, 3v3 or 4v4 matches, and the last side standing takes the round. Rounds are short, so the appeal is sharpening your aim and reactions against real players.\n\nCoins and Robux buy cosmetic knife and gun skins, which is what codes usually cover: the current code gives the 1B Knife for passing one billion visits, and an older one gives 1,000 coins. The developers post new codes in the codes channel of their Discord server, usually around visit milestones and updates.",
   "codes": [
     {
       "code": "1BVISITS",
-      "reward": "Free knife",
+      "reward": "1B Knife skin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:12.153Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 31670,
-    "visits": 1841208999,
-    "favorites": 16668654,
+    "playing": 32739,
+    "visits": 1841243188,
+    "favorites": 16668836,
     "updated": "2026-09-28T16:04:29.5459091Z",
     "created": "2025-02-09T12:47:47.52Z"
   },
   "added": "2026-09-29T16:13:12.153Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:12.153Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Tower Defense Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Tower Defense Simulator on Roblox and wait until you are standing in the lobby.",
+    "Click the Codes button, which shows a Twitter/X bird icon; recent guides place it on the left side of the lobby screen, though some put it at the top right or bottom bar.",
+    "Click the Enter Code Here box in the window that opens.",
+    "Type or paste the code exactly as written, including capital letters, and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Tower Defense Simulator is a co-op tower defense game from Paradoxum Games. Up to four players leave the lobby together for a map, then spend the cash they earn each wave placing and upgrading towers along the path so zombie hordes and bosses never reach the base. Finishing matches pays out coins and experience, which unlock new towers back in the lobby.\n\nCodes are rare here and usually mark milestones, like the 2 million likes code in the current description. Recent codes give tower skins or crates instead of coins, and a skin code only works if you already own the tower it belongs to. Paradoxum shares new codes on its X account and Discord, and occasionally on the game page.",
   "codes": [
     {
       "code": "2MILLION",
-      "reward": "Free Mercenary Pursuit skin",
+      "reward": "Mercenary Pursuit skin (needs the Pursuit tower)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:21.903Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 12504,
-    "visits": 4991302701,
-    "favorites": 3511073,
+    "playing": 12423,
+    "visits": 4991314850,
+    "favorites": 3511077,
     "updated": "2026-09-25T17:14:47.911Z",
     "created": "2019-06-05T04:21:45.977Z"
   },
   "added": "2026-09-29T16:13:21.903Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:21.903Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Tower Defense Simulator codes?",
+      "a": "Skin codes need the tower they belong to. 2MILLION gives the Mercenary Pursuit skin, so you have to own the Pursuit tower for it to work."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

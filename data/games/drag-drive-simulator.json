@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Drag Drive Simulator on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Drag Drive Simulator on Roblox and wait for the map to load.",
+    "Click the shopping cart (Store) icon at the bottom-left of the screen.",
+    "Open the Redeem tab at the top of the Store window.",
+    "Type or paste the code into the Enter Code Here box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Drag Drive Simulator, also known as DDS and a revamp of the older RDID, is a driving and roleplay game from ADV Gamers Team set on maps modelled on Indonesian streets, including Surakarta. You take jobs such as barista, courier, office worker or police officer to earn RP, then spend it on cars and motorcycles, tuning parts, rims and wheelie styles, and cruise or race with friends.\n\nCodes give large amounts of RP, often tens of millions, which goes straight toward new vehicles and modifications. The team usually drops a new monthly code named after the month, adds more with each big update, and promises extra codes when the game reaches like milestones such as 200,000 likes.",
   "codes": [
     {
       "code": "DRAGDRIVESIMULATORSEPTEMBER26",
-      "reward": null,
+      "reward": "RP (in-game cash)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:20.290Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 12316,
-    "visits": 605491252,
-    "favorites": 3046064,
+    "playing": 11117,
+    "visits": 605500613,
+    "favorites": 3046097,
     "updated": "2026-09-28T20:46:14.6635053Z",
     "created": "2025-01-15T08:10:40.233Z"
   },
   "added": "2026-09-29T16:13:20.290Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:20.290Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

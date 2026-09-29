@@ -13,42 +13,44 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Taxi Boss on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Taxi Boss on Roblox and wait for your character to load into the city.",
+    "Click the Shop button, a shopping cart icon in the bottom-left corner of the screen.",
+    "Click the box labelled Enter Code in the shop window.",
+    "Type or paste the code with the exact capitalization and press the gray Enter button."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Taxi Boss is an open-city driving game made by olikus400, Bertik750 and SamSpeedCz. You pick up passengers, get them to their destination as fast as you can for a bigger fare, and spend the money on new cars, performance parts and visual mods such as wheels, spoilers, lights and paint. Faster cars let you take higher-paying customers, and you can also upgrade a garage to display your collection.\n\nMost Taxi Boss codes give cash, usually between 1,000 and 5,000, which gets you to your first car or upgrade sooner. Codes released with balance updates have also handed out parts like turbos. The developers tie codes to like milestones, with the description promising the next one at 800K likes, and post them on Discord and X.",
   "codes": [
     {
       "code": "THX600K",
-      "reward": null,
+      "reward": "1,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:23.503Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "START",
-      "reward": "1000 bucks",
+      "reward": "1,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:23.503Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 10619,
-    "visits": 858017617,
-    "favorites": 1434174,
+    "playing": 10756,
+    "visits": 858027046,
+    "favorites": 1434192,
     "updated": "2026-09-24T14:30:17.193Z",
     "created": "2021-08-22T14:37:42.743Z"
   },
   "added": "2026-09-29T16:13:23.503Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:23.503Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

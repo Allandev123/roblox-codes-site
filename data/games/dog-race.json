@@ -13,52 +13,60 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Dog Race on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Dog Race on Roblox and finish the short tutorial first.",
+    "Tap the Settings gear icon in the top-right corner of the screen.",
+    "Find the code box at the bottom of the Settings menu.",
+    "Type or paste the code exactly as written and press the green Claim button beside the box."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Dog Race is a Zoo Race Club game where you train your dog to build up power and then enter short races, trying to reach the finish line before the timer runs out. Each race rewards wins, which you spend on upgrades, and you can also hatch pets, take part in hourly events and compete for a spot on the Top 50 leaderboard.\n\nCodes in Dog Race give potions rather than currency. Double Win potions boost the wins from races, Double Power potions speed up training, and Golden potions raise your chance of golden rewards. The developers post new codes in the game description and in a codes channel on their Discord, and they encourage players to like the game to unlock more.",
   "codes": [
     {
       "code": "DOG",
-      "reward": null,
+      "reward": "Golden potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:09.459Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "WEEKEND",
-      "reward": null,
+      "reward": "Double Power potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:09.459Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "NEW",
-      "reward": null,
+      "reward": "Double Win potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": "New Code: NEW, DOG, WEEKEND"
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 1713,
-    "visits": 28895390,
-    "favorites": 600955,
+    "playing": 1703,
+    "visits": 28896843,
+    "favorites": 600988,
     "updated": "2026-08-14T09:36:54.643Z",
     "created": "2026-06-18T13:04:08.603Z"
   },
   "added": "2026-09-29T16:14:09.459Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:14:09.459Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Dog Race codes?",
+      "a": "Finish the tutorial first; until then its Race for Wins banner can cover the code box. Enter codes exactly as shown, since they can be case-sensitive."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

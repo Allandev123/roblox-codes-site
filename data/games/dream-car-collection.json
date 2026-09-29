@@ -13,32 +13,34 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Dream Car Collection on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Dream Car Collection on Roblox and wait for your lot to load.",
+    "Click the small purple codes button in the bottom-right corner of the screen.",
+    "If you do not see it, open the Store and scroll to the codes field at the bottom instead.",
+    "Type or paste the code into the text box and press Redeem, then check the bottom of the screen for your reward."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Dream Car Collection is a car collecting tycoon from the F Students = Inventors group that went live on Roblox in August 2026 and is still labelled as a beta. You spawn lucky crates, buy them, then place and open them to reveal a car. Cars added to your collection earn money over time, even while you are offline, and that money funds pricier crates on the way to rarer cars. Races with friends, car cleaning and car edits add variety.\n\nCodes here mostly give potions, such as crate luck potions and everything potions, plus the occasional batch of gems. Luck potions are best used right before opening a run of expensive crates. New codes are posted in the Discord codes channel and in the Roblox description.",
   "codes": [
     {
       "code": "LARP",
-      "reward": "Luck boost",
+      "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 8961,
-    "visits": 5104433,
-    "favorites": 83999,
+    "playing": 8892,
+    "visits": 5111865,
+    "favorites": 84089,
     "updated": "2026-09-29T15:47:26.1525394Z",
     "created": "2026-08-09T20:58:41.401Z"
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:28.540Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "published": "2026-09-29T16:27:49.271Z"
 }

@@ -13,32 +13,40 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Blue Lock Farm on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Blue Lock Farm on Roblox and wait for your plot to load.",
+    "Click the Shop button on the left side of the screen.",
+    "Scroll all the way to the bottom of the Shop menu to find the code box.",
+    "Type or paste the code into the Enter code here box and press Redeem."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Blue Lock Farm is a tycoon from the Finding Illusions group, built around the Blue Lock football anime. You open Blue Lockers to pull characters, place them on your plot so they earn money, and then upgrade them or save up for better lockers with higher odds of rare players. Lockers keep opening and cash keeps building while you are offline, so returning players always have something to spend.\n\nCodes typically give Grade Tokens, Trait Tokens, Variant or Jackpot tokens and potions for cash, luck and grading speed. These help you reroll characters for better grades and traits without spending Robux. New codes tend to come with updates such as the weather and traits patches, and the developers post them in the Discord server.",
   "codes": [
     {
       "code": "WEATHER",
-      "reward": "Free loot",
+      "reward": "Grade Tokens and potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:18.667Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 12886,
-    "visits": 3777881,
-    "favorites": 125024,
+    "playing": 12871,
+    "visits": 3785882,
+    "favorites": 125233,
     "updated": "2026-09-28T22:31:05.8976732Z",
     "created": "2026-08-14T03:23:16.584Z"
   },
   "added": "2026-09-29T16:13:18.667Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:13:18.667Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Blue Lock Farm codes?",
+      "a": "No. You don't have to join the group; the code box in the Shop works for everyone."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }

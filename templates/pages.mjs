@@ -104,7 +104,7 @@ export function gameBody({ site, v, related }) {
   return `<div class="wrap narrow">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › ${esc(g.name)} codes</nav>
   <header class="game-head">
-    <img src="${v.icon}" alt="${esc(g.name)} icon" width="72" height="72">
+    <img src="${v.iconLg}" alt="${esc(g.name)} icon" width="72" height="72">
     <div>
       <h1>${esc(v.h1)}</h1>
       <p class="status">✅ <strong>${plural(v.live.length, 'working code')}</strong> · Last checked ${ago(g.lastChecked)}</p>

@@ -13,42 +13,50 @@
   "autoApprove": false,
   "draft": false,
   "redeem": [
-    "Launch Beatball on Roblox.",
-    "TODO: where the Codes button is in this game.",
-    "Type or paste a code and press Redeem."
+    "Launch Beatball on Roblox and finish the short tutorial if it is your first time playing.",
+    "Once you are in the lobby, tap the Codes button in the bottom-left corner of the screen.",
+    "Type or paste the code into the Enter Code box.",
+    "Press the Redeem button to claim the reward."
   ],
-  "notes": "TODO: a hand-written paragraph about the game and what its codes give.",
+  "notes": "Beatball is a physics-based soccer game from Lucentum Games, created by chus_robloxx and inspired by Haxball and Rocket League. You move around a small pitch with a single kick button, so matches come down to positioning and timing your shots. There are ranked queues from 1v1 up to 4v4 with seasonal divisions, official weekend tournaments, clans, and custom rooms that hold up to 16 players per side.\n\nCodes give cosmetics such as goal sounds, ball trails, banners and discs, and some also include cash for buying more skins. None of them change how the ball plays, so they are purely for style. New codes tend to arrive with new seasons and are posted in the game description and on the Lucentum Games Discord.",
   "codes": [
     {
       "code": "LIKETHEGAME",
-      "reward": null,
+      "reward": "Melodia de Verão goal sound",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
       "code": "FUNNYBUBBLE",
-      "reward": null,
+      "reward": "Comic cosmetic",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-09-29T16:15:34.324Z",
+      "lastSeen": "2026-09-29T16:27:06.198Z",
       "source": "description",
-      "approved": false,
-      "context": ""
+      "approved": true,
+      "approvedAt": "2026-09-29T16:27:49.271Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 1981,
-    "visits": 108707893,
-    "favorites": 323291,
+    "playing": 2138,
+    "visits": 108716767,
+    "favorites": 323303,
     "updated": "2026-09-28T08:38:18.0679808Z",
     "created": "2026-06-21T16:53:57.412Z"
   },
   "added": "2026-09-29T16:14:00.591Z",
-  "lastChecked": "2026-09-29T16:15:34.324Z",
-  "lastChanged": "2026-09-29T16:14:00.591Z"
+  "lastChecked": "2026-09-29T16:27:06.198Z",
+  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "faq": [
+    {
+      "q": "Do you need anything before redeeming Beatball codes?",
+      "a": "Finish the tutorial first. The Codes button in the lobby doesn't accept codes until you have played through it."
+    }
+  ],
+  "published": "2026-09-29T16:27:49.271Z"
 }
