@@ -34,61 +34,64 @@ export function guideRow(gd) {
 
 // ---------------------------------------------------------------- home
 
+// A game tile for the home grid: big icon, name, code count.
+function gameTile(v, { lazy = true } = {}) {
+  const alias = v.g.aliases?.length ? ` data-alias="${esc(v.g.aliases.join(' ').toLowerCase())}"` : '';
+  return `<li><a class="tile" href="${v.path}" data-name="${esc(searchKey(v.g.name.replace(/\+/g, ' plus ')))}" data-latest="${v.latest}"${alias}>
+  <img src="${v.iconLg}" alt="" width="160" height="160"${lazy ? ' loading="lazy" decoding="async"' : ''}>
+  <span class="name">${esc(v.g.name)}</span>
+  <span class="n">${plural(v.live.length, 'code')}${v.recentNew ? ' <span class="tag">new</span>' : ''}</span>
+</a></li>`;
+}
+
 export function homeBody({ site, views, guides = [], lastCheck }) {
   const a = site.author;
-  const recent = views.slice(0, 5);
-  const az = [...views].sort(byName);
-  return `<h1>Roblox codes that work right now</h1>
-<div class="hello">
-  <img src="/img/${esc(a.image)}" alt="" width="52" height="52">
-  <p><span class="hi">Hi, I'm ${esc(a.firstName)}.</span> I've played Roblox since ${esc(a.robloxSince)} and make BedWars videos on YouTube as ${esc(a.name)}. Here I keep the codes games are giving out right now, taken from each game's own Roblox page, and I take old ones down.</p>
-</div>
-
-<form class="search" role="search" action="/" method="get">
-  <label for="q">Find your game</label>
-  <div class="field">${ICONS.search}<input id="q" name="q" type="search" placeholder="Type a game name" autocomplete="off" enterkeyhint="search" aria-describedby="games-count" aria-keyshortcuts="/"></div>
-  <p class="count" id="games-count">${views.length} games · checked ${ago(lastCheck)}</p>
-</form>
+  const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
+  const recent = views.slice(0, 6);
+  const total = views.reduce((n, v) => n + v.live.length, 0);
+  return `<section class="hub-head">
+  <h1>Roblox Codes</h1>
+  <p class="sub">${total} working codes for ${views.length} games · checked ${ago(lastCheck)}</p>
+  <form class="search" role="search" action="/" method="get">
+    <label for="q" class="sr-only">Search a game</label>
+    <div class="field">${ICONS.search}<input id="q" name="q" type="search" placeholder="Search a game..." autocomplete="off" enterkeyhint="search" aria-describedby="games-count" aria-keyshortcuts="/"></div>
+    <p class="count" id="games-count"></p>
+  </form>
+</section>
 
 <section id="mine" class="sec" hidden aria-labelledby="mine-h">
-  <div class="sec-head"><h2 id="mine-h">Your games</h2><span class="aside">Games you opened</span></div>
+  <div class="sec-head"><h2 id="mine-h">Your games</h2></div>
   <ul class="mine"></ul>
 </section>
 
 <section id="recent" class="sec" aria-labelledby="recent-h">
   <div class="sec-head"><h2 id="recent-h">Just updated</h2></div>
-  <ul class="ruled updates">
-${recent.map(updateRow).join('\n')}
+  <ul class="tiles small">
+${recent.map(v => gameTile(v, { lazy: false }).replace('class="tile"', 'class="tile" data-skip')).join('\n')}
   </ul>
 </section>
 
 <section id="games" class="sec" aria-labelledby="games-h">
-  <div class="sec-head"><h2 id="games-h">All games, A to Z</h2><span class="aside">${views.length} games</span></div>
-  <ul class="ruled games cols">
-${az.map((v, i) => gameRow(v, { lazy: i > 7 })).join('\n')}
+  <div class="sec-head"><h2 id="games-h">All games</h2><span class="aside">Most played first</span></div>
+  <ul class="tiles all">
+${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
   </ul>
   <div class="empty" id="no-results" hidden>
-    <p>I don't have that game yet. <a href="/contact/">Tell me which one</a> and I'll look for its codes.</p>
+    <p>That game isn't on the site yet. <a href="/contact/">Tell me which one</a> and I'll look for its codes.</p>
     <button type="button" class="btn" id="clear-q">Clear search</button>
   </div>
 </section>
 
 ${guides.length ? `<section id="guides" class="sec" aria-labelledby="guides-h">
-  <div class="sec-head"><h2 id="guides-h">Guides</h2><a class="aside" href="/guides/">All guides</a></div>
-  <ul class="ruled guides">
-${guides.slice(0, 4).map(guideRow).join('\n')}
+  <div class="sec-head"><h2 id="guides-h">Help with codes</h2><a class="aside" href="/guides/">All guides</a></div>
+  <ul class="guide-cards">
+${guides.slice(0, 4).map(gd => `    <li><a href="${gd.path}"><b>${esc(gd.short ?? gd.title)}</b><span>${esc(gd.summary)}</span></a></li>`).join('\n')}
   </ul>
 </section>` : ''}
 
-<section id="how" class="sec how" aria-labelledby="how-h">
-  <h2 id="how-h">How I keep this list honest</h2>
-  <ul>
-    <li>A small program reads each game's Roblox page every 3 hours.</li>
-    <li>It never posts anything by itself. I approve every new code before it goes up.</li>
-    <li>When a game stops listing a code, it moves to that game's expired list with the date.</li>
-  </ul>
-  <p class="callout">Codes only ever go inside the game. Nobody needs your Roblox password, and there's no such thing as a free Robux code.</p>
-  <p><a href="/how-we-check-codes/">How every code is checked</a></p>
+<section id="how" class="sec run-by">
+  <img src="/img/${esc(a.image)}" alt="" width="56" height="56" loading="lazy">
+  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. Nobody needs your password, and free Robux codes don't exist. <a href="/how-we-check-codes/">How I check codes</a></p>
 </section>`;
 }
 

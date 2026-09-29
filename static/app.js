@@ -136,7 +136,7 @@
   const input = $('#q');
   if (input) {
     const main = $('main');
-    const links = [...document.querySelectorAll('#games .games a')];
+    const links = [...document.querySelectorAll('#games .tiles a')];
     const count = $('#games-count');
     const countText = count.innerHTML;
     const empty = $('#no-results');
