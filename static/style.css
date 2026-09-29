@@ -525,3 +525,17 @@ section[id], h2[id] { scroll-margin-top: 16px; }
 .faq p { margin: 0; padding: 0 18px 16px; color: var(--muted); line-height: 1.65; }
 .faq p a { color: var(--ink); }
 #faq .qa:first-of-type { border-top: 1px solid var(--rule); }
+
+/* code list: one card per code, quieter Copy buttons, so a long list stays easy to scan */
+.codes { border: 0; border-radius: 0; padding: 0; background: none; display: grid; gap: 10px; }
+.codes > li, .codes > li:last-child { border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; background: var(--raised); }
+.codes .code { font-size: 1.25rem; color: var(--accent-text); background: var(--tint); border: 1px dashed var(--line); padding: 4px 12px; }
+.codes .code-meta { margin-top: 8px; font-size: 1rem; }
+.codes .reward { font-weight: 600; color: var(--ink); }
+.code-sub { margin: 3px 0 0; font-size: .85rem; color: var(--muted); }
+.codes .copy { height: 44px; min-width: 96px; background: transparent; color: var(--accent-text); box-shadow: inset 0 0 0 2px var(--accent); }
+.codes .copy:hover { background: var(--accent); color: var(--accent-ink); }
+.codes .copy.done, .codes li.was .copy.done { background: var(--ok); color: var(--ok-ink); box-shadow: none; }
+.codes li.was .copy { color: var(--muted); box-shadow: inset 0 0 0 2px var(--rule); }
+.codes li.was .code { color: var(--muted); }
+@media (max-width: 559px) { .codes > li, .codes > li:last-child { padding: 12px; } .codes .code { font-size: 1.05rem; padding: 3px 8px; } .codes .copy { min-width: 76px; } }

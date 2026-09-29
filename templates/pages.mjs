@@ -47,7 +47,7 @@ function gameTile(v, { lazy = true } = {}) {
 // A magazine-style post row: picture, kicker, title, short intro, byline.
 function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
   return `<li><a class="post" href="${href}">
-    ${img ? `<img src="${esc(img)}" alt="" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    ${img ? `<img src="${esc(small(img))}" alt="" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="post-text">
       <span class="kicker">${esc(kicker)}</span>
       <h3>${esc(title)}</h3>
@@ -58,6 +58,9 @@ function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
 }
 const firstSentence = t => clipText((t ?? '').split('\n')[0].match(/^.*?[.!?](\s|$)/)?.[0] ?? t ?? '', 170);
 const clipText = (t, n) => (t.length <= n ? t.trim() : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
+
+// the 480px copy the build makes of every card picture
+const small = u => (/^\/img\/.*\.webp$/.test(u ?? '') ? u.replace(/\.webp$/, '-480.webp') : u);
 
 // Home page FAQ. Answers are HTML (they link to other pages).
 export const HOME_FAQ = (site, games) => [
@@ -184,7 +187,8 @@ function codeRow(c, isNew) {
   return `<li class="code-row">
   <div class="code-main">
     <code class="code">${esc(c.code)}</code>${isNew ? '<span class="tag">new<span class="sr-only"> code</span></span>' : ''}
-    <p class="code-meta"><span class="reward">${c.reward ? esc(c.reward) : 'Reward not stated by the developer'}</span>${c.where ? `<span class="where"> · ${esc(c.where)}</span>` : ''}<span class="added"> · added ${dateShort(c.firstSeen)}</span></p>
+    <p class="code-meta"><span class="reward">${c.reward ? esc(c.reward) : 'Reward not stated by the developer'}</span></p>
+    <p class="code-sub">${c.where ? `${esc(c.where)} · ` : ''}added ${dateShort(c.firstSeen)}</p>
   </div>
   <button class="copy" type="button" data-code="${esc(c.code)}" aria-label="Copy code ${esc(c.code)}">${ICONS.check}<span>Copy</span></button>
 </li>`;
@@ -196,9 +200,9 @@ function dek(v) {
   const top = v.live.find(c => c.reward);
   if (n === 1) {
     const c = v.live[0];
-    return `${lists} one working code right now: <strong>${esc(c.code)}</strong>${c.reward ? `, for ${esc(c.reward)}` : ''}.`;
+    return `${lists} one working code right now: <strong>${esc(c.code)}</strong>.${c.reward ? ` Reward: ${esc(c.reward.replace(/\.$/, ''))}.` : ''}`;
   }
-  return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong> for ${esc(top.reward)}.` : ''}`;
+  return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong>. Reward: ${esc(top.reward.replace(/\.$/, ''))}.` : ''}`;
 }
 
 export function gameBody({ site, v, related, guides = [], total }) {
@@ -385,7 +389,7 @@ ${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="" wid
 // A picture card for an article (guide or blog post)
 export function articleCard(gd, { lazy = true, date = false } = {}) {
   return `<li><a class="card" href="${gd.path}">
-    ${gd.cover ? `<img src="${esc(gd.cover)}" alt="" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    ${gd.cover ? `<img src="${esc(small(gd.cover))}" srcset="${esc(small(gd.cover))} 480w, ${esc(gd.cover)} 960w" sizes="(min-width: 720px) 340px, 100vw" alt="" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="card-text">
       ${gd.series ? `<span class="kicker">${esc(gd.series)}</span>` : ''}
       <h3>${esc(gd.title)}</h3>

@@ -171,6 +171,7 @@ for (const v of views) {
   for (const f of [v.g.icon, v.g.thumb, v.g.redeemImage, ...(v.g.redeemShots ?? []).map(x => x.file)]) {
     if (f) copy(path.join(IMAGES_DIR, f), `img/${f}`);
   }
+  if (v.g.thumb) write(`img/${v.g.thumb.replace(/\.webp$/, '-480.webp')}`, await sharp(path.join(IMAGES_DIR, v.g.thumb)).resize(480).webp({ quality: 72 }).toBuffer());
   if (v.g.icon) write(v.icon.slice(1), await sharp(path.join(IMAGES_DIR, v.g.icon)).resize(128, 128).webp({ quality: 80 }).toBuffer());
 }
 
@@ -196,7 +197,10 @@ async function og(key, opts, rel) {
 // Articles: code guides in data/guides (/guides/...) and dev-blog posts in
 // data/blog (/blog/...). Same Markdown format; pictures live in data/images/guides.
 const GUIDE_IMAGES = path.join(IMAGES_DIR, 'guides');
-if (fs.existsSync(GUIDE_IMAGES)) for (const f of fs.readdirSync(GUIDE_IMAGES)) copy(path.join(GUIDE_IMAGES, f), `img/guides/${f}`);
+if (fs.existsSync(GUIDE_IMAGES)) for (const f of fs.readdirSync(GUIDE_IMAGES)) {
+  copy(path.join(GUIDE_IMAGES, f), `img/guides/${f}`);
+  if (f.endsWith('.webp')) write(`img/guides/${f.replace(/\.webp$/, '-480.webp')}`, await sharp(path.join(GUIDE_IMAGES, f)).resize(480).webp({ quality: 72 }).toBuffer());
+}
 const thumbOf = new Map(views.map(v => [v.g.slug, v.thumb]));
 function loadArticles(section) {
   const dir = path.join(ROOT, 'data', section);
@@ -220,7 +224,7 @@ function loadArticles(section) {
     })
     .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
     // scheduled: an article with a future "published" date stays hidden until that day
-    .filter(gd => Date.parse(gd.published) <= NOW);
+    .filter(gd => process.env.PREVIEW_SCHEDULED || Date.parse(gd.published) <= NOW); // PREVIEW_SCHEDULED=1 shows future posts locally
 }
 const guides = loadArticles('guides').sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 const posts = loadArticles('blog').sort((a, b) => a.order - b.order || a.published.localeCompare(b.published)); // devlogs read in order: 1, 2, 3...
