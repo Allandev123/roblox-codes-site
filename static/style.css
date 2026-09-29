@@ -260,3 +260,30 @@ details.expired li code { font: 600 .95rem var(--mono); color: var(--text); text
 .site-footer p { margin: 0; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* guides */
+.lead { color: var(--muted); font-size: 1.05rem; }
+.guide-list { display: grid; gap: 12px; }
+.guide-card { align-items: flex-start; padding: 16px 18px; }
+.guide-card h3 { white-space: normal; font-size: 1.05rem; margin-bottom: 4px; }
+.guide-card p { color: var(--muted); }
+.guide-card .small { font-size: .82rem; margin-top: 6px; }
+.guide h2 { scroll-margin-top: 76px; }
+.guide h3 { margin-top: 1.4em; }
+.guide li { margin-bottom: .4em; }
+.toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; margin: 0 0 24px; }
+.toc p { margin: 0 0 6px; font-weight: 700; font-size: .9rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.toc ol { margin: 0; padding-left: 1.2em; }
+.toc li { margin: 4px 0; }
+.callout { background: var(--accent-soft); border-left: 4px solid var(--accent); border-radius: var(--radius-sm); padding: 12px 16px; margin: 0 0 1em; }
+.table-wrap { overflow-x: auto; margin: 0 0 1em; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+.table-wrap th, .table-wrap td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.table-wrap th { background: var(--surface-2); font-weight: 700; }
+.table-wrap tr:last-child td { border-bottom: 0; }
+.prose code { font: 600 .92em var(--mono); background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
+.link-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.link-list a { display: block; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); font-weight: 600; text-decoration: none; }
+.link-list a:hover { border-color: var(--accent); }
+@media (min-width: 700px) { .guide-list.two { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.section-head a { font-size: .9rem; font-weight: 600; }

@@ -73,6 +73,7 @@ ${adsense(site.adsense?.client)}
     <a class="logo" href="/" aria-label="${esc(site.siteName)} home">${ICONS.logo()}<span>RBXCodes<b>HQ</b></span></a>
     <nav aria-label="Main">
       <a href="/#games" class="hide-sm">All games</a>
+      <a href="/guides/">Guides</a>
       <a href="/about/" class="hide-sm">About</a>
       <button class="theme-toggle" type="button" aria-label="Switch light or dark theme">${ICONS.moon}${ICONS.sun}</button>
     </nav>
@@ -85,6 +86,7 @@ ${body}
   <div class="wrap">
     <nav aria-label="Footer">
       <a href="/">Home</a>
+      <a href="/guides/">Guides</a>
       <a href="/about/">About</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>

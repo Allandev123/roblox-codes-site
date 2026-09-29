@@ -13,7 +13,8 @@ import sharp from 'sharp';
 import { ROOT, IMAGES_DIR, loadGames, settings as loadSettings, liveCodes, draftReason } from './lib/store.mjs';
 import { ogImage } from './lib/og.mjs';
 import { layout } from './templates/layout.mjs';
-import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath } from './templates/pages.mjs';
+import { homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, guideLinks } from './templates/pages.mjs';
+import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, contact, privacy, terms } from './templates/content.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
 
@@ -156,6 +157,28 @@ async function og(key, opts, rel) {
   copy(cached, rel);
 }
 
+// ---------------------------------------------------------------- guides (loaded before game pages, which link to them)
+
+const GUIDES_DIR = path.join(ROOT, 'data', 'guides');
+const guides = (fs.existsSync(GUIDES_DIR) ? fs.readdirSync(GUIDES_DIR) : [])
+  .filter(f => f.endsWith('.md'))
+  .map(f => {
+    const { meta, body } = parseFrontMatter(fs.readFileSync(path.join(GUIDES_DIR, f), 'utf8'));
+    const r = renderMarkdown(body);
+    const slug = f.replace(/\.md$/, '');
+    const list = k => (meta[k] ?? '').split(',').map(s => s.trim()).filter(Boolean);
+    return {
+      slug, path: `/guides/${slug}/`, ...meta,
+      updated: meta.updated ?? meta.published, published: meta.published,
+      games: list('games'), order: Number(meta.order ?? 99),
+      onGamePages: meta.onGamePages === 'true', draft: meta.draft === 'true',
+      html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
+    };
+  })
+  .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
+  .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+const gameGuides = guides.filter(gd => gd.onGamePages).slice(0, 3);
+
 const lastCheck = all.reduce((m, g) => (g.lastChecked > m ? g.lastChecked : m), '');
 const totalCodes = views.reduce((n, v) => n + v.live.length, 0);
 const pages = []; // { path, lastmod }
@@ -195,7 +218,7 @@ for (const v of views) {
     description: gameDescription(v),
     ogImage: site.url + v.og, ogType: 'article',
     jsonld,
-    body: gameBody({ site, v, related: related(v) }),
+    body: gameBody({ site, v, related: related(v), guideLinks: guideLinks(gameGuides) }),
   }));
   pages.push({ path: v.path, lastmod: g.lastChanged });
 }
@@ -216,9 +239,55 @@ write('index.html', layout({
     publisher: ORG,
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${site.url}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },
   }],
-  body: homeBody({ site, views, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
+  body: homeBody({ site, views, guides, lastCheck: lastCheck || new Date().toISOString(), totalCodes }),
 }));
 pages.unshift({ path: '/', lastmod: homeLastmod });
+
+// ---------------------------------------------------------------- guide pages
+
+const byslug = new Map(views.map(v => [v.g.slug, v]));
+for (const gd of guides) {
+  const url = site.url + gd.path;
+  await og(`guide-${gd.slug}`, { background: null, title: gd.short ?? gd.title, kicker: 'GUIDE', sub: `By ${AUTHOR.name} · ${gd.minutes} min read` }, `og/guide-${gd.slug}.jpg`);
+  write(`guides/${gd.slug}/index.html`, layout({
+    site, assets, path: gd.path,
+    title: gd.seoTitle ?? gd.title, description: gd.description,
+    ogImage: `${site.url}/og/guide-${gd.slug}.jpg`, ogType: 'article',
+    jsonld: [
+      {
+        '@context': 'https://schema.org', '@type': 'Article',
+        headline: gd.title, description: gd.description,
+        image: [`${site.url}/og/guide-${gd.slug}.jpg`],
+        datePublished: gd.published, dateModified: gd.updated,
+        author: PERSON, publisher: ORG,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+      },
+      {
+        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: site.url + '/' },
+          { '@type': 'ListItem', position: 2, name: 'Guides', item: site.url + '/guides/' },
+          { '@type': 'ListItem', position: 3, name: gd.short ?? gd.title, item: url },
+        ],
+      },
+    ],
+    body: guideBody({ site, gd, games: gd.games.map(s => byslug.get(s)).filter(Boolean).slice(0, 6), more: guides.filter(o => o !== gd).slice(0, 3) }),
+  }));
+  pages.push({ path: gd.path, lastmod: new Date(gd.updated).toISOString() });
+}
+if (guides.length) {
+  write('guides/index.html', layout({
+    site, assets, path: '/guides/',
+    title: `Roblox Codes Guides - ${site.siteName}`,
+    description: clip(`Guides to Roblox game codes: how to redeem them on every device, why codes fail, where developers post new ones, and how to avoid code scams.`, 155),
+    jsonld: [{
+      '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox codes guides', url: site.url + '/guides/',
+      hasPart: guides.map(gd => ({ '@type': 'Article', headline: gd.title, url: site.url + gd.path })),
+    }],
+    body: guidesIndexBody({ site, guides }),
+  }));
+  pages.push({ path: '/guides/', lastmod: new Date(guides.map(g => g.updated).sort().pop()).toISOString() });
+}
 
 // ---------------------------------------------------------------- static pages
 

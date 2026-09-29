@@ -26,7 +26,7 @@ function recentCard(v) {
 
 // ---------------------------------------------------------------- home
 
-export function homeBody({ site, views, lastCheck, totalCodes }) {
+export function homeBody({ site, views, guides = [], lastCheck, totalCodes }) {
   const recent = views.slice(0, 8);
   return `<div class="wrap">
   <section class="hero">
@@ -54,6 +54,13 @@ ${views.map((v, i) => gameCard(v, { lazy: i > 5 })).join('\n')}
     </div>
     <p class="empty" id="no-results">No game matches that search yet. We add new games every week.</p>
   </section>
+
+  ${guides.length ? `<section class="section" aria-labelledby="guides-h">
+    <div class="section-head"><h2 id="guides-h">Guides</h2><a href="/guides/">All guides</a></div>
+    <div class="guide-list two">
+${guides.slice(0, 4).map(guideCard).join('\n')}
+    </div>
+  </section>` : ''}
 
   <section class="section prose" aria-labelledby="how-h">
     <h2 id="how-h">How we keep codes fresh</h2>
@@ -137,7 +144,7 @@ function faq(v) {
   return items.map(([q, a]) => `<h3>${esc(q)}</h3>\n<p>${a}</p>`).join('\n');
 }
 
-export function gameBody({ site, v, related }) {
+export function gameBody({ site, v, related, guideLinks = '' }) {
   const g = v.g;
   const fromDesc = v.live.filter(c => c.source === 'description').length;
   const manual = v.live.length - fromDesc;
@@ -209,6 +216,8 @@ ${faq(v)}
     </div>
   </section>
 
+  ${guideLinks}
+
   <section class="block" aria-labelledby="more-h">
     <h2 id="more-h">More codes</h2>
     <div class="grid">
@@ -234,4 +243,65 @@ export function notFoundBody(views) {
 ${views.slice(0, 6).map(v => gameCard(v)).join('\n')}
   </div>
 </div>`;
+}
+
+// ---------------------------------------------------------------- guides
+
+export function guideCard(gd) {
+  return `<a class="card guide-card" href="${gd.path}">
+  <div class="meta">
+    <h3>${esc(gd.title)}</h3>
+    <p>${esc(gd.summary)}</p>
+    <p class="small">${gd.minutes} min read · updated ${dateLong(gd.updated)}</p>
+  </div>
+</a>`;
+}
+
+export function guidesIndexBody({ site, guides }) {
+  return `<div class="wrap narrow">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Guides</nav>
+  <h1>Roblox codes guides</h1>
+  <p class="lead">Short, practical guides for getting codes to work: where to type them on every device, why a code gets rejected, where developers post new ones, and how to avoid the scams that pretend to be codes. Written by <a href="/author/${esc(site.author.slug)}/" rel="author">${esc(site.author.name)}</a>.</p>
+  <div class="guide-list">
+${guides.map(guideCard).join('\n')}
+  </div>
+</div>`;
+}
+
+export function guideBody({ site, gd, games, more }) {
+  const a = site.author;
+  const toc = gd.headings.filter(h => h.level === 2);
+  return `<div class="wrap narrow">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/guides/">Guides</a> › ${esc(gd.short ?? gd.title)}</nav>
+  <article class="prose guide">
+    <h1>${esc(gd.title)}</h1>
+    <p class="byline"><img src="/img/${a.image.replace(/\.webp$/, '-64.webp')}" alt="" width="28" height="28"><span>By <a href="/author/${esc(a.slug)}/" rel="author">${esc(a.name)}</a> · Updated ${dateLong(gd.updated)} · ${gd.minutes} min read</span></p>
+    ${toc.length >= 4 ? `<nav class="toc" aria-label="On this page"><p>On this page</p><ol>${toc.map(h => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></nav>` : ''}
+${gd.html}
+  </article>
+  ${adSlot(site, 'bottom')}
+  ${games.length ? `<section class="block" aria-labelledby="games-h">
+    <h2 id="games-h">Games in this guide</h2>
+    <div class="grid">
+${games.map(v => gameCard(v)).join('\n')}
+    </div>
+  </section>` : ''}
+  ${more.length ? `<section class="block" aria-labelledby="more-guides-h">
+    <h2 id="more-guides-h">More guides</h2>
+    <div class="guide-list">
+${more.map(guideCard).join('\n')}
+    </div>
+  </section>` : ''}
+</div>`;
+}
+
+// a short "helpful guides" list for game pages
+export function guideLinks(guides) {
+  if (!guides.length) return '';
+  return `<section class="block" aria-labelledby="guides-h">
+    <h2 id="guides-h">Helpful guides</h2>
+    <ul class="link-list">
+${guides.map(gd => `      <li><a href="${gd.path}">${esc(gd.title)}</a></li>`).join('\n')}
+    </ul>
+  </section>`;
 }
