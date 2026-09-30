@@ -207,6 +207,20 @@ function dek(v) {
   return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong>. Reward: ${esc(top.reward.replace(/\.$/, ''))}.` : ''}`;
 }
 
+// A plain-numbers summary of this game's codes on the site: how many, how recent.
+function codeHistory(v) {
+  const g = v.g;
+  const all = [...v.live, ...(g.expired ?? [])];
+  if (all.length < 2) return '';
+  const firsts = v.live.map(c => c.approvedAt ?? c.firstSeen).filter(Boolean).sort();
+  const newest = firsts[firsts.length - 1];
+  const dated = (g.expired ?? []).filter(e => e.removed).map(e => e.removed).sort();
+  const bits = [`I've listed ${plural(all.length, 'code')} for ${esc(g.name)} so far: ${v.live.length} working and ${all.length - v.live.length} expired.`];
+  if (newest) bits.push(`The newest one was added ${dateLong(newest)}.`);
+  if (dated.length) bits.push(`The last code to stop working went on ${dateLong(dated[dated.length - 1])}.`);
+  return bits.join(' ');
+}
+
 export function gameBody({ site, v, related, guides = [], total }) {
   const g = v.g;
   const a = site.author;
@@ -272,9 +286,20 @@ ${adSlot(site, 'afterRedeem')}
     ${g.subgenre || g.genre ? `<div><dt>Type of game</dt><dd>${esc(g.subgenre || g.genre)}</dd></div>` : ''}
     ${stats.playing ? `<div><dt>Playing at last check</dt><dd>${fmtNum(stats.playing)}</dd></div>` : ''}
     ${stats.visits ? `<div><dt>Visits</dt><dd>${compact(stats.visits)}</dd></div>` : ''}
+    ${stats.favorites ? `<div><dt>Favourites</dt><dd>${compact(stats.favorites)}</dd></div>` : ''}
+    ${stats.upVotes + stats.downVotes > 100 ? `<div><dt>Liked by players</dt><dd>${Math.round(100 * stats.upVotes / (stats.upVotes + stats.downVotes))}%</dd></div>` : ''}
+    ${stats.maxPlayers ? `<div><dt>Players per server</dt><dd>${stats.maxPlayers}</dd></div>` : ''}
+    ${stats.created ? `<div><dt>Released on Roblox</dt><dd>${dateLong(stats.created)}</dd></div>` : ''}
+    ${stats.updated ? `<div><dt>Last game update</dt><dd><time datetime="${esc(stats.updated)}">${dateLong(stats.updated)}</time></dd></div>` : ''}
   </dl>
+  <p class="note">Numbers from the game's Roblox page, refreshed every few hours.</p>
   <a class="btn" href="${esc(g.gameUrl)}" rel="noopener" target="_blank">Play ${esc(g.name)} on Roblox ${ICONS.ext}<span class="sr-only"> (opens in a new tab)</span></a>
 </section>
+
+${codeHistory(v) ? `<section class="sec" aria-labelledby="hist-h">
+  <h2 id="hist-h">Code history</h2>
+  <p>${codeHistory(v)}</p>
+</section>` : ''}
 
 ${g.expired.length ? `<section class="sec">
   <details class="expired">

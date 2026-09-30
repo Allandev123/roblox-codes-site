@@ -12,7 +12,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import { gameDetails, iconUrls, thumbUrl, saveWebp } from '../lib/roblox.mjs';
+import { gameDetails, gameVotes, iconUrls, thumbUrl, saveWebp } from '../lib/roblox.mjs';
 import { detectCodes } from '../lib/detect.mjs';
 import { mergeScrape } from '../lib/merge.mjs';
 import { IMAGES_DIR, loadGames, saveGame, isPublished } from '../lib/store.mjs';
@@ -27,6 +27,7 @@ const games = loadGames().filter(g => !only.length || only.includes(g.slug));
 if (!games.length) { console.log('no games to check'); process.exit(0); }
 
 const details = await gameDetails(games.map(g => g.universeId));
+const votes = await gameVotes(games.map(g => g.universeId)).catch(() => new Map()); // likes are nice to have, never block a scrape
 const now = new Date().toISOString();
 const lines = [];
 let changed = 0, failed = 0, added = 0;
@@ -46,7 +47,8 @@ for (const g of games) {
   const r = mergeScrape(g, found, now);
 
   g.robloxName = d.name;
-  g.stats = { ...g.stats, playing: d.playing, visits: d.visits, favorites: d.favoritedCount ?? g.stats?.favorites ?? null, updated: d.updated };
+  const vt = votes.get(g.universeId);
+  g.stats = { ...g.stats, playing: d.playing, visits: d.visits, favorites: d.favoritedCount ?? g.stats?.favorites ?? null, updated: d.updated, created: d.created ?? g.stats?.created, maxPlayers: d.maxPlayers ?? g.stats?.maxPlayers, ...(vt ? { upVotes: vt.upVotes, downVotes: vt.downVotes } : {}) };
 
   if (IMAGES) {
     const icon = (await iconUrls([g.universeId])).get(g.universeId);

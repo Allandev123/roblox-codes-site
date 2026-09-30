@@ -37,7 +37,10 @@
     "visits": 4458941,
     "favorites": 141005,
     "updated": "2026-09-28T22:31:05.897Z",
-    "created": "2026-08-14T03:23:16.584Z"
+    "created": "2026-08-14T03:23:16.584Z",
+    "maxPlayers": 8,
+    "upVotes": 14846,
+    "downVotes": 231
   },
   "added": "2026-09-29T16:13:18.667Z",
   "lastChecked": "2026-09-30T12:29:37.818Z",

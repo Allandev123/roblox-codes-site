@@ -222,7 +222,9 @@ function loadArticles(section) {
         html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
       };
     })
-    .filter(gd => !gd.draft && gd.title && gd.description && gd.published)
+    // a post still waiting for Allan's part ([ALLAN] boxes) never goes live
+    .map(gd => (gd.html.includes('[ALLAN]') ? { ...gd, draft: true } : gd))
+    .filter(gd => (process.env.PREVIEW_DRAFTS || !gd.draft) && gd.title && gd.description && gd.published)
     // scheduled: an article with a future "published" date stays hidden until that day
     .filter(gd => process.env.PREVIEW_SCHEDULED || Date.parse(gd.published) <= NOW); // PREVIEW_SCHEDULED=1 shows future posts locally
 }
@@ -273,7 +275,7 @@ for (const v of views) {
     jsonld,
     ads: true,
     // this game's own guides first, then the general ones
-    body: gameBody({ site, v, related: related(v), guides: [...new Set([...guides.filter(gd => gd.games.includes(g.slug)).slice(0, 2), ...gameGuides])].slice(0, 3), total: views.length }),
+    body: gameBody({ site, v, related: related(v), guides: [...new Set([...guides.filter(gd => gd.games.includes(g.slug) && gd.games.length <= 2).slice(0, 2), ...guides.filter(gd => ['roblox-code-not-working', 'how-to-redeem-roblox-codes'].includes(gd.slug))])].slice(0, 3), total: views.length }),
   }));
   pages.push({ path: v.path, lastmod: g.lastChanged });
 }
