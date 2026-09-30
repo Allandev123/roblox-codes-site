@@ -1,6 +1,6 @@
 // Serves dist/ the way Vercel will: /x -> /x/, /x/ -> /x/index.html, 404.html otherwise.
 //
-//   node scripts/serve.mjs [port]      (builds first)
+//   node scripts/serve.mjs [port] [--drafts]      (builds first; --drafts also shows drafts and scheduled posts)
 
 import http from 'http';
 import fs from 'fs';
@@ -10,7 +10,8 @@ import { ROOT } from '../lib/store.mjs';
 
 const PORT = Number(process.argv[2] ?? process.env.PORT ?? 4321);
 const DIST = path.join(ROOT, 'dist');
-execFileSync(process.execPath, [path.join(ROOT, 'build.mjs')], { stdio: 'inherit' });
+const env = process.argv.includes('--drafts') ? { ...process.env, PREVIEW_DRAFTS: '1', PREVIEW_SCHEDULED: '1' } : process.env;
+execFileSync(process.execPath, [path.join(ROOT, 'build.mjs')], { stdio: 'inherit', env });
 
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png',
   '.webp': 'image/webp', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain', '.ico': 'image/x-icon' };

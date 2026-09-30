@@ -8,13 +8,12 @@ published: 2026-10-14
 updated: 2026-10-14
 series: From my channel
 order: 7
-draft: true
 ---
 Roblox turned 20 on **September 1, 2026**. I've been playing since 2015, so I've been around for more than half of those 20 years.
 
 This post is a short timeline of the biggest Roblox changes from 2015 to 2026, with my own memories added where they fit. Everything here is current as of **September 30, 2026**, two days after the official anniversary event, The Hunt: Roblox 20, ended.
 
-> **[ALLAN]** Screenshot: the oldest Roblox screenshot or avatar picture you still have (2015, or as close as you can get). Add a one-line caption saying roughly when it's from.
+![My Roblox avatar from 2015: the blue outfit with the golden crown. It's still my favorite look.](roblox-20-my-avatar.webp)
 
 ## Where Roblox came from
 
@@ -34,7 +33,7 @@ Clearing all 20 years unlocked **"Year Infinity"**, with 20 more games that Robl
 
 BedWars and RIVALS, the two games most of my videos are about, weren't in the main 20.
 
-> **[ALLAN]** Your take (2-3 sentences): did you play The Hunt, and how far did you get? How did you feel about BedWars and RIVALS missing the main 20?
+I didn't really play The Hunt myself. What I miss are the old Roblox egg hunts, which were really good. And honestly, I'm sad BedWars and RIVALS didn't make it.
 
 For the event, anyone could also turn on a limited-time **Classic** theme in the app. It brought back the old-school Roblox logo, colors and font.
 
@@ -46,7 +45,7 @@ The birthday was the theme of RDC 2026 too. That's Roblox's developer conference
 
 This is the year I started playing.
 
-> **[ALLAN]** Your memory (2-4 sentences): how did you first find Roblox in 2015, and what were the first games you played? Did you ever get into Lumber Tycoon 2?
+I started playing in class with a friend. One of the first games we got into was Lumber Tycoon 2, and we loved it.
 
 One of the big new games that year was **Lumber Tycoon 2** by Defaultio. Its fan wiki says it went public quietly in July 2015 as a test place. When it got its real name in August, it grabbed the #1 spot on the front page that same day.
 
@@ -66,7 +65,7 @@ Two huge games came out that year. Badimo released **Jailbreak** on April 21, 20
 
 In 2018 I started making Roblox videos on YouTube.
 
-> **[ALLAN]** Your memory (2-4 sentences): what was your first video about, and what made you start the channel? If you still have one of your earliest thumbnails, add a screenshot of it here too.
+My first video was a Lumber Tycoon 2 tutorial on getting Volcano wood. I recorded it with Roblox's built-in recorder on a really bad laptop, so it ran at about 20 FPS and was very laggy.
 
 ### 2021: BedWars, "experiences" and the big outage
 
@@ -76,7 +75,7 @@ Then came BedWars. A countdown billboard showed up in the Islands hub on May 21,
 
 BedWars is also where I later took ranked solo from Bronze all the way to Nightmare.
 
-> **[ALLAN]** Screenshot: your Nightmare rank (or any screenshot from the climb). Add which season it was and roughly how long the climb took.
+![My BedWars stats: Nightmare rank, number 26 on the leaderboard. The climb took me about a week.](roblox-20-bedwars-nightmare.webp)
 
 That October, Roblox went down for **73 hours**, from October 28 to October 31, 2021. Roblox's own write-up traced it to its Consul system, the part of its servers that helps all the other services find each other. At the time, about 50 million people played Roblox every day.
 
@@ -137,6 +136,6 @@ RIVALS has already passed BedWars in visits, even though it came out three years
 
 Looking back at this list, the two games most of my videos are about didn't exist when I started. BedWars came out six years later, and RIVALS nine.
 
-> **[ALLAN]** Your take (2-3 sentences): what's been your favorite Roblox era so far, and what do you hope the next few years look like?
+My favorite era so far is my BedWars era. I loved playing BedWars ranked and the competitive side of it.
 
 If I got a date wrong or missed a big moment, send it to me through [contact](/contact/).
