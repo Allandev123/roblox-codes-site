@@ -119,7 +119,8 @@ const updateDays = (() => {
   return [...days].sort((a, b) => b[0].localeCompare(a[0])).slice(0, 30)
     .map(([day, m]) => ({ day, rows: [...m.values()].sort((a, b) => (b.v.g.stats?.playing ?? 0) - (a.v.g.stats?.playing ?? 0)) }));
 })();
-site.hasUpdates = updateDays.length > 0;
+// The Updates page is switched off for now (too few entries to be worth a page).
+site.hasUpdates = false;
 site.gameCount = views.length;
 site.footerGames = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.stats?.playing ?? 0)).slice(0, 5).map(v => ({ path: v.path, name: v.g.name.replace(/\s*[\[(].*$/, '') }));
 
@@ -386,7 +387,7 @@ if (posts.length) {
 // ---------------------------------------------------------------- code updates
 {
   const list = updateDays;
-  if (list.length) {
+  if (site.hasUpdates && list.length) {
     write('updates/index.html', layout({
       site, assets, path: '/updates/',
       title: `Roblox Code Updates: New and Expired Codes - ${site.siteName}`.length <= 60
