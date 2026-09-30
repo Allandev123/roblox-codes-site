@@ -11,7 +11,7 @@ order: 1
 games: 2-player-raid-tycoon, anime-astral-simulator, anime-fighting-simulator, beatball, blockspin, blue-lock-farm, bubble-gum-simulator, case-simulator-rng, dog-race, drag-drive-simulator, dream-car-collection, drift-36, dudes-battlegrounds, gym-star-simulator, immortality-incremental, merge-a-nuke, midnight-chasers-highway-racing, murderers-vs-sheriffs, plus-1-dmg-fps, plus-1-loot-to-forge, plus-1-power-per-click, plus-1-skate-trickz-escape, retro-tower-defense, roll-a-fisherman, saber-simulator, slop-tower-defense, squid-game-x, taxi-boss, tower-defense-simulator, untitled-boxing-game
 onGamePages: false
 ---
-You type a game's code inside that game, not on the Roblox website. Most of the 30 games on this site put the code box in the Shop, in Settings, or behind a button with a bird icon or the word Codes. Of those 30, 14 keep it somewhere in the Shop.
+You type a game's code inside that game, not on the Roblox website. Most of the 30 popular games in this guide put the code box in the Shop, in Settings, or behind a button with a bird icon or the word Codes. Of those 30, 14 keep it somewhere in the Shop.
 
 I've grouped the 30 games by where the box is. The spots come from the redeem steps on each game page. Games sometimes move buttons in updates, so if one has moved, [tell me](/contact/) and I'll fix the steps.
 
@@ -139,7 +139,7 @@ In some games, the code box stays hidden or won't work until you've finished the
 
 - **Wait for the game to load.** Buttons can take a moment to appear after you spawn.
 - **Close pop-ups.** They can cover the button or the box, like the tutorial banner in Dog Race.
-- **Check the game's description on Roblox.** Roblox's rules say developers must publish code offers somewhere public, such as the game's description ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards)). All 30 games on this site list codes there, and two of them also say where the box is.
+- **Check the game's description on Roblox.** Roblox's rules say developers must publish code offers somewhere public, such as the game's description ([Roblox Help](https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards)). The 30 games in this guide list their codes there, and two of them also say where the box is.
 - **Look around the spawn area.** A game with no code button may put the code box on a machine in the world instead. None of the 30 games above work this way.
 
 If you found the box but the code won't go through, see [why a Roblox code isn't working](/guides/roblox-code-not-working/).

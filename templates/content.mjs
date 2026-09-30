@@ -8,7 +8,7 @@ const host = site => esc(site.url.replace(/^https?:\/\//, ''));
 const operator = site => esc(site.operator?.name || `${site.author.name}, the owner of ${site.siteName}`);
 
 export const about = site => `
-<p>Hi, I'm ${esc(site.author.firstName)} — ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games, and nothing else: no scripts, no exploits. Just the codes each game's developers have released, what they give, and where to type them.</p>
+<p>Hi, I'm ${esc(site.author.firstName)}, ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games. Just the codes each game's developers have released, what they give, and where to type them.</p>
 
 <h2>Who I am</h2>
 <p>I've played Roblox since ${esc(site.author.robloxSince)}. My favourite back then was Lumber Tycoon 2, and I've loved Roblox ever since. In 2018 I started my <a href="${esc(site.author.youtube)}" rel="noopener">YouTube channel</a>. Most of my videos ended up being about BedWars, and lately Rivals too. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
@@ -20,8 +20,8 @@ export const about = site => `
 <ul>
   <li><strong>A program reads each game's Roblox page every 3 hours.</strong> Most developers post their codes in the game's description, so new codes usually reach this site the same day.</li>
   <li><strong>I approve every new code by hand.</strong> The program never publishes a code on its own. I read the developer's post, make sure it's really a code and not just a word in the description, and write down the reward.</li>
-  <li><strong>Expired means "no longer listed".</strong> When a game stops listing a code, it moves to that page's expired list with the date. I say "no longer listed by the game" because that's what I can see; I don't claim to have tested every code on every account.</li>
-  <li><strong>Codes from Discord or X</strong> can be added by hand when a developer posts them there, and they're labelled with where they came from.</li>
+  <li><strong>Expired means "no longer listed".</strong> When a game stops listing a code, it moves to that page's expired list, and from now on the list shows the date it went. I say "no longer listed by the game" because that's what I can see; I don't claim to have tested every code on every account.</li>
+  <li><strong>Codes from Discord or X</strong> are added by hand, and each game page says where that game posts its codes.</li>
 </ul>
 <p>The full process, step by step, is on <a href="/how-we-check-codes/">How I check codes</a>.</p>
 
@@ -52,7 +52,7 @@ export const method = site => `
 <p>A code is listed as working while the game's developers still list it. That's the most reliable signal there is, because the developers decide when codes end. It isn't a promise that it will work on your account: some codes are one per account, some are only for new players, and some need something first (like finishing the tutorial). Each game page says so when a game has a rule like that.</p>
 
 <h2>4. What "no longer listed" means</h2>
-<p>When a developer removes a code from their description, the next check moves it to that game's expired list with the date. I don't call it "dead" or "tested expired" — just "no longer listed by the game", because that's what I can actually see.</p>
+<p>When a developer removes a code from their description, the next check moves it to that game's expired list, with the date from now on. I don't call it "dead" or "tested expired", just "no longer listed by the game", because that's what I can actually see.</p>
 
 <h2>5. Codes from Discord, X and in-game</h2>
 <p>Many big games post codes only on Discord, X or an in-game board, not on their Roblox page. I add those by hand, and only when the developers' own post or at least two code lists updated that month agree the code works. When sources disagree about a code, I leave it out. The program never removes these codes, so I recheck them and move them to the expired list myself.</p>
@@ -70,7 +70,7 @@ export const method = site => `
 <h2>8. What I'll never do</h2>
 <ul>
   <li>Send you to a download or "verification" page.</li>
-  <li>List scripts, exploits or cheats.</li>
+  <li>Charge you for a code.</li>
 </ul>
 `;
 
@@ -80,11 +80,11 @@ export const contact = site => `
 <h2>Helpful things to include</h2>
 <ul>
   <li>The game name and the code you tried.</li>
-  <li>What happened — an error message, or no reward.</li>
+  <li>What happened: an error message, or no reward.</li>
   <li>For a new game: its Roblox link.</li>
 </ul>
 <p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>${site.author.discord ? ` and in <a href="${esc(site.author.discord)}" rel="noopener">my Discord server</a>` : ''}, but email is the fastest way to get a code fixed.</p>
-<p>I read every message. I can't help with account problems, lost items or purchases — those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers.</p>
+<p>I read every message. I can't help with account problems, lost items or purchases. Those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers.</p>
 `;
 
 export const privacy = (site, updated) => {

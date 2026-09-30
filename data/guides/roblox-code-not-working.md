@@ -19,7 +19,7 @@ Game codes belong to each game's developers, not to Roblox, and the developers d
 
 Codes named after a season can end the same way. [Saber Simulator](/saber-simulator-codes/) lists `FALL26` as a new code in its change log, and a code like that may stop working once the season is over.
 
-**How to fix it:** open the game's page on this site. A program reads every game's Roblox page every 3 hours, and when a game stops listing a code, the code moves to that page's expired list with the date ([how I check codes](/how-we-check-codes/)). A developer can also switch a code off before taking it out of the description, so if a code on my list fails for you, [let me know](/contact/).
+**How to fix it:** open the game's page on this site. A program reads every game's Roblox page every 3 hours, and when a game stops listing a code, the code moves to that page's expired list ([how I check codes](/how-we-check-codes/)). A developer can also switch a code off before taking it out of the description, so if a code on my list fails for you, [let me know](/contact/).
 
 ## The capital letters don't match
 

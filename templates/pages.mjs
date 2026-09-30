@@ -56,7 +56,7 @@ function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
     </span>
   </a></li>`;
 }
-const firstSentence = t => clipText((t ?? '').split('\n')[0].match(/^.*?[.!?](\s|$)/)?.[0] ?? t ?? '', 170);
+const firstSentence = t => clipText((t ?? '').split('\n')[0].match(/^.*?[.?](\s|$)/)?.[0] ?? t ?? '', 170);
 const clipText = (t, n) => (t.length <= n ? t.trim() : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
 // the 480px copy the build makes of every card picture
@@ -65,12 +65,12 @@ const small = u => (/^\/img\/.*\.webp$/.test(u ?? '') ? u.replace(/\.webp$/, '-4
 // Home page FAQ. Answers are HTML (they link to other pages).
 export const HOME_FAQ = (site, games) => [
   { q: 'Is this site safe to use?', a: `Yes. The site only lists codes, and you type them into the game yourself. There's nothing to download, no sign-ups and no account needed. Every code comes from the game's own developers.` },
-  { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps, many with my screenshots. <a href="/guides/how-to-redeem-roblox-codes/">The full redeem guide</a>.` },
+  { q: 'How do I redeem a Roblox code?', a: `Open the game, find its Codes button (often a gift, a shop tab or a settings menu), type the code and press Redeem. Every game hides the box somewhere different, so each game page has its own steps. I'm adding my own screenshots game by game; RIVALS and Clone to Steal Eggs have them already. <a href="/guides/how-to-redeem-roblox-codes/">The full redeem guide</a>.` },
   { q: "Why isn't a code working for me?", a: `Usually it's a typo, the wrong capital letters, a code you already used, or a game that needs you to reach a level or join its group first. Tap Copy to avoid typos. <a href="/guides/roblox-code-not-working/">Every reason and how to fix it</a>. If a listed code is really dead, <a href="/contact/">tell me</a> and I'll move it to expired.` },
   { q: 'How often are the codes updated?', a: `A program reads each game's Roblox page every 3 hours, and I approve every new code by hand before it shows up. Codes that games only post on Discord or X, I add and recheck myself. Codes a game stops listing move to that page's expired list with the date. <a href="/how-we-check-codes/">How I check codes</a>.` },
   { q: 'What do Roblox codes give you?', a: `Free items inside that one game, like gems, coins, boosts, spins, pets or skins. Each code on this site shows exactly what it gives, and the developers decide how long it works.` },
   { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place on every device, you just tap instead of click. On a phone, press and hold the box to paste.` },
-  { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add more every week, as long as the game has working codes. <a href="/contact/">Send me its name or Roblox link</a>.` },
+  { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add a game as soon as it has working codes. <a href="/contact/">Send me its name or Roblox link</a>.` },
   { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>. I've played Roblox since ${esc(site.author.robloxSince)}, make Roblox videos on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>, and I'm making my own game. It's an independent fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
 ];
 
@@ -337,13 +337,13 @@ export function authorBody({ site, views }) {
       <p>Runs ${esc(site.siteName)} · Roblox player since ${esc(a.robloxSince)} · YouTube creator</p>
     </div>
   </header>
-  <p>Hi, I'm ${esc(a.firstName)}. I've played Roblox since ${esc(a.robloxSince)}, when my favourite game was Lumber Tycoon 2. In 2018 I started my YouTube channel, <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.name)}</a>, which now has ${esc(a.youtubeSubscribers)} subscribers and more than ${Math.floor(a.youtubeVideos / 10) * 10} videos. Most of them are about BedWars — ranked solo queue from Bronze to Nightmare, kit guides and win streaks — and lately Rivals.</p>
+  <p>Hi, I'm ${esc(a.firstName)}. I've played Roblox since ${esc(a.robloxSince)}, when my favourite game was Lumber Tycoon 2. In 2018 I started my YouTube channel, <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.name)}</a>, which now has ${esc(a.youtubeSubscribers)} subscribers and more than ${Math.floor(a.youtubeVideos / 10) * 10} videos. Most of them are about BedWars (ranked solo queue from Bronze to Nightmare, kit guides and win streaks), and lately Rivals.</p>
   <p>I started ${esc(site.siteName)} because I got tired of code lists full of dead codes. So this site does one thing: it lists the codes a game's developers are giving out right now, what each one gives, and where the code box is in that game.</p>
 
   <h2>What I do on this site</h2>
   <ul>
     <li>Approve every new code before it appears. A program reads each game's Roblox page every 3 hours, but nothing goes live until I've read the developer's post and confirmed it's a real code.</li>
-    <li>Write the redeem steps for each game — where its Codes button actually is — and the short guide about the game.</li>
+    <li>Write the redeem steps for each game (where its Codes button actually is) and the short guide about the game.</li>
     <li>Fix mistakes. If a code or a step is wrong, <a href="/contact/">tell me</a> and I'll correct it, usually the same day.</li>
   </ul>
   <p>The whole process is on <a href="/how-we-check-codes/">How I check codes</a>.</p>
