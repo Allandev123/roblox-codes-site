@@ -25,7 +25,7 @@
       "reward": "5,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "300 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "500 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -85,7 +85,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -93,17 +93,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 8574,
-    "visits": 4715211,
-    "favorites": 175755,
+    "playing": 7161,
+    "visits": 4894495,
+    "favorites": 181218,
     "updated": "2026-09-30T09:41:52.0394862Z",
     "created": "2026-08-05T14:47:20.106Z",
     "maxPlayers": 6,
-    "upVotes": 42169,
-    "downVotes": 779
+    "upVotes": 43130,
+    "downVotes": 802
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-09-30T12:29:37.818Z",
+  "lastChecked": "2026-09-30T19:59:44.333Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

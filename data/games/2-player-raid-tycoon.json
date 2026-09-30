@@ -21,40 +21,49 @@
   "notes": "2 Player Raid Tycoon is a co-op factory tycoon from the STRAY FRAME group, released on Roblox in September 2026. You and a partner claim the two sides of a factory, run droppers, conveyors and upgraders to earn cash, and build the factory up floor by floor. You can also raid rival factories by knocking out their power, cracking the vault and carrying the cash home, while defending your own with walls, laser doors, turrets and guards.\n\nCodes usually give cash, gems, guard tickets, airstrikes and short 2x cash boosts, which help most while you are building the first few floors. The game page promises new codes when the game reaches like milestones, and the developers also post them in their Discord.",
   "codes": [
     {
-      "code": "TY5500",
-      "reward": "480 Cash, Airstrike, Guard Ticket, 5 Gems, 2x Cash 5m",
+      "code": "LAUNCH",
+      "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
-      "code": "LAUNCH",
-      "reward": "1,000 Cash, 1 Guard Ticket",
+      "code": "TY7500",
+      "reward": null,
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-09-30T12:29:37.818Z",
+      "firstSeen": "2026-09-30T19:59:44.333Z",
+      "lastSeen": "2026-09-30T19:59:44.333Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "USE CODE 'TY7500' IN THE SHOP!!!"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "TY5500",
+      "reward": "480 Cash, Airstrike, Guard Ticket, 5 Gems, 2x Cash 5m",
+      "removed": "2026-09-30",
+      "firstSeen": "2026-09-29T16:13:40.375Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 4455,
-    "visits": 4343507,
-    "favorites": 26331,
-    "updated": "2026-09-29T13:21:53.1580371Z",
+    "playing": 4104,
+    "visits": 4480272,
+    "favorites": 26759,
+    "updated": "2026-09-30T18:59:42.6458466Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 7526,
-    "downVotes": 820
+    "upVotes": 7588,
+    "downVotes": 836
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-09-30T12:29:37.818Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-09-30T19:59:44.333Z",
+  "lastChanged": "2026-09-30T19:59:44.333Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming 2 Player Raid Tycoon codes?",
