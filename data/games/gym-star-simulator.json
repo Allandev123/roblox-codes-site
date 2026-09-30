@@ -25,7 +25,7 @@
       "reward": "1,250 Gym Tokens",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:35.455Z",
-      "lastSeen": "2026-09-30T05:28:19.884Z",
+      "lastSeen": "2026-09-30T12:29:37.818Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,14 +33,14 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5407,
-    "visits": 710793252,
-    "favorites": 6931502,
+    "playing": 8203,
+    "visits": 710977132,
+    "favorites": 6933328,
     "updated": "2026-09-28T10:43:19.187Z",
     "created": "2024-08-20T06:12:32.837Z"
   },
   "added": "2026-09-29T16:13:35.455Z",
-  "lastChecked": "2026-09-30T05:28:19.884Z",
+  "lastChecked": "2026-09-30T12:29:37.818Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
