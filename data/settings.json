@@ -15,7 +15,7 @@
     "childTreatment": 1
   },
   "indexnow": {
-    "enabled": false,
+    "enabled": true,
     "key": "27c006929c2dfd6831bd7e62bdcc91c5"
   },
   "newCodeDays": 3,
