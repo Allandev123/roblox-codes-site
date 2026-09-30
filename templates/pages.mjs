@@ -197,10 +197,11 @@ function codeRow(c, isNew) {
 
 function dek(v) {
   const n = v.live.length;
-  const lists = v.live.every(c => c.source === 'manual') ? 'The developers have posted' : 'The game lists';
+  const lists = v.live.every(c => c.tested) ? 'I tested' : v.live.every(c => c.source === 'manual') ? 'The developers have posted' : 'The game lists';
   const top = v.live.find(c => c.reward);
   if (n === 1) {
     const c = v.live[0];
+    if (c.tested) return `One working code right now, and I redeemed it in game myself: <strong>${esc(c.code)}</strong>.${c.reward ? ` Reward: ${esc(c.reward.replace(/\.$/, ''))}.` : ''}`;
     return `${lists} one working code right now: <strong>${esc(c.code)}</strong>.${c.reward ? ` Reward: ${esc(c.reward.replace(/\.$/, ''))}.` : ''}`;
   }
   return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong>. Reward: ${esc(top.reward.replace(/\.$/, ''))}.` : ''}`;
@@ -210,10 +211,12 @@ export function gameBody({ site, v, related, guides = [], total }) {
   const g = v.g;
   const a = site.author;
   const fromDesc = v.live.filter(c => c.source === 'description').length;
-  const manual = v.live.length - fromDesc;
+  const tested = v.live.filter(c => c.source !== 'description' && c.tested).length;
+  const manual = v.live.length - fromDesc - tested;
   const one = v.live.length === 1;
   const source = [
     fromDesc ? `${one ? 'From' : fromDesc === v.live.length ? 'All from' : `${fromDesc} from`} the game's Roblox page` : '',
+    tested ? `${tested === v.live.length ? (one ? 'Tested' : 'All tested') : `${tested} tested`} in game by me` : '',
     manual ? `${manual === v.live.length ? (one ? 'Posted' : 'All posted') : `${manual} posted`} outside Roblox, so each one is checked against at least two up-to-date sources` : '',
   ].filter(Boolean).join('; ');
   const stats = g.stats ?? {};

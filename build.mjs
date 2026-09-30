@@ -272,7 +272,8 @@ for (const v of views) {
     ogImage: site.url + v.og, ogType: 'article',
     jsonld,
     ads: true,
-    body: gameBody({ site, v, related: related(v), guides: gameGuides, total: views.length }),
+    // this game's own guides first, then the general ones
+    body: gameBody({ site, v, related: related(v), guides: [...new Set([...guides.filter(gd => gd.games.includes(g.slug)).slice(0, 2), ...gameGuides])].slice(0, 3), total: views.length }),
   }));
   pages.push({ path: v.path, lastmod: g.lastChanged });
 }

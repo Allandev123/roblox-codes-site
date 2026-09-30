@@ -1,0 +1,50 @@
+{
+  "slug": "steal-animal-egg",
+  "name": "Steal Animal Egg",
+  "robloxName": "Steal Animal Egg",
+  "placeId": 99679692310083,
+  "universeId": 10766056678,
+  "gameUrl": "https://www.roblox.com/games/99679692310083/Steal-Animal-Egg",
+  "creator": "Sillytung Studios",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "steal-animal-egg-icon.webp",
+  "thumb": "steal-animal-egg-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Steal Animal Egg on Roblox and wait for your character to load in.",
+    "Click the red Shop button (the basket) on the left side of the screen.",
+    "Scroll all the way down the shop until you reach the Codes box at the bottom.",
+    "Type the code into the Enter Code box exactly as shown and press Redeem. The box shows your reward, for example +$1K!"
+  ],
+  "notes": "Steal Animal Egg is an animal tycoon from Sillytung Studios. You sneak up to giant animals like the Duck Pond duck, grab one of their eggs and run it back to your pen before the animal catches you. Eggs hatch into pets that earn cash every second, and that cash pays for pen upgrades, a table and food. You can also steal eggs from other players, and eggs can roll different sizes and mutations.\n\nSteal Animal Egg codes give cash so far: DEMONIC added $1,000 to my balance the moment I redeemed it. Early cash matters because your first pen upgrade costs $500. The game is new (it came out in September 2026), and new codes usually arrive with updates, so check back after each one.",
+  "codes": [
+    {
+      "code": "DEMONIC",
+      "reward": "$1,000 cash",
+      "status": "active",
+      "firstSeen": "2026-09-30T13:47:51.186Z",
+      "lastSeen": "2026-09-30T13:47:51.186Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-09-30T13:47:51.186Z",
+      "tested": "2026-09-30"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 3233,
+    "visits": 536719,
+    "favorites": 2648,
+    "updated": "2026-09-30T10:22:50.5327354Z",
+    "created": "2026-09-11T21:46:25.1862001Z"
+  },
+  "added": "2026-09-30T13:47:12.376Z",
+  "lastChecked": "2026-09-30T13:47:12.376Z",
+  "lastChanged": "2026-09-30T13:47:51.186Z",
+  "checkedInGame": "2026-09-30",
+  "redeemImage": "steal-animal-egg-redeem.webp",
+  "redeemCaption": "The Codes box at the bottom of the Shop, right after redeeming DEMONIC (+$1K!)."
+}
