@@ -25,7 +25,7 @@
       "reward": "1 Random Buddy",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:37.053Z",
-      "lastSeen": "2026-09-29T21:51:35.715Z",
+      "lastSeen": "2026-09-30T05:28:19.884Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,14 +33,14 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5508,
-    "visits": 6953410,
-    "favorites": 297699,
-    "updated": "2026-09-29T17:39:39.5865013Z",
+    "playing": 3471,
+    "visits": 7113172,
+    "favorites": 302442,
+    "updated": "2026-09-30T02:55:06.2617118Z",
     "created": "2026-08-15T22:24:52.952Z"
   },
   "added": "2026-09-29T16:13:37.053Z",
-  "lastChecked": "2026-09-29T21:51:35.715Z",
+  "lastChecked": "2026-09-30T05:28:19.884Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

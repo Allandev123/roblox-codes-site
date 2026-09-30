@@ -25,7 +25,7 @@
       "reward": "1B Knife skin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:12.153Z",
-      "lastSeen": "2026-09-29T21:51:35.715Z",
+      "lastSeen": "2026-09-30T05:28:19.884Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,14 +33,14 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 66727,
-    "visits": 1842692321,
-    "favorites": 16676255,
-    "updated": "2026-09-28T16:04:29.5459091Z",
+    "playing": 26036,
+    "visits": 1845236055,
+    "favorites": 16687960,
+    "updated": "2026-09-28T16:04:29.545Z",
     "created": "2025-02-09T12:47:47.52Z"
   },
   "added": "2026-09-29T16:13:12.153Z",
-  "lastChecked": "2026-09-29T21:51:35.715Z",
+  "lastChecked": "2026-09-30T05:28:19.884Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

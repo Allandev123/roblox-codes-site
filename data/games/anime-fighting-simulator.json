@@ -25,7 +25,7 @@
       "reward": "1k Clover Tokens, 1k Tensei Shards, 2.5k Chikara Shards",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:30.684Z",
-      "lastSeen": "2026-09-29T21:51:35.715Z",
+      "lastSeen": "2026-09-30T05:28:19.884Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,14 +33,14 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 7920,
-    "visits": 51963263,
-    "favorites": 479162,
+    "playing": 7510,
+    "visits": 52029215,
+    "favorites": 479612,
     "updated": "2026-09-29T03:40:34.5553496Z",
     "created": "2026-06-13T17:13:16.808Z"
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-09-29T21:51:35.715Z",
+  "lastChecked": "2026-09-30T05:28:19.884Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
