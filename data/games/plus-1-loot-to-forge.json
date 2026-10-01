@@ -25,7 +25,7 @@
       "reward": "50 Ember Stones",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:10.553Z",
-      "lastSeen": "2026-10-01T00:32:15.459Z",
+      "lastSeen": "2026-10-01T10:03:47.266Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 34367,
-    "visits": 40314144,
-    "favorites": 1896073,
-    "updated": "2026-09-30T20:04:20.596713Z",
+    "playing": 52361,
+    "visits": 41436403,
+    "favorites": 1938202,
+    "updated": "2026-10-01T09:58:48.5970209Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 95044,
-    "downVotes": 3005
+    "upVotes": 96981,
+    "downVotes": 3072
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-01T00:32:15.459Z",
+  "lastChecked": "2026-10-01T10:03:47.266Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

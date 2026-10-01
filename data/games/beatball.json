@@ -1,7 +1,7 @@
 {
   "slug": "beatball",
   "name": "Beatball",
-  "robloxName": "[MAPS] Beatball",
+  "robloxName": "[UPDATE] Beatball",
   "placeId": 105452889569708,
   "universeId": 10370802481,
   "gameUrl": "https://www.roblox.com/games/105452889569708/Beatball",
@@ -25,7 +25,7 @@
       "reward": "Melodia de Verão goal sound",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-10-01T00:32:15.459Z",
+      "lastSeen": "2026-10-01T10:03:47.266Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Comic cosmetic",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-10-01T00:32:15.459Z",
+      "lastSeen": "2026-10-01T10:03:47.266Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -43,17 +43,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3993,
-    "visits": 110259025,
-    "favorites": 325803,
-    "updated": "2026-09-30T06:20:18.1576892Z",
+    "playing": 501,
+    "visits": 110531221,
+    "favorites": 326262,
+    "updated": "2026-10-01T09:47:00.7590556Z",
     "created": "2026-06-21T16:53:57.412Z",
-    "maxPlayers": 64,
-    "upVotes": 24201,
-    "downVotes": 8995
+    "maxPlayers": 8,
+    "upVotes": 24237,
+    "downVotes": 9003
   },
   "added": "2026-09-29T16:14:00.591Z",
-  "lastChecked": "2026-10-01T00:32:15.459Z",
+  "lastChecked": "2026-10-01T10:03:47.266Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
