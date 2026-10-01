@@ -77,18 +77,20 @@ export const HOME_FAQ = (site, games) => [
 export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   const a = site.author;
   const byPlayers = [...views].sort((x, y) => (y.g.stats?.playing ?? 0) - (x.g.stats?.playing ?? 0));
-  // "Latest": newest game pages, with a guide or blog post every few rows
-  const articles = [...posts, ...guides].sort((x, y) => (y.updated ?? '').localeCompare(x.updated ?? ''));
-  const feed = [];
-  views.slice(0, 12).forEach((v, i) => {
-    feed.push({
+  // "Latest": game pages, guides and blog posts together, newest first
+  const feed = [
+    ...views.map(v => ({
+      date: v.g.lastChanged ?? '',
       href: v.path, img: v.thumb ?? v.iconLg, kicker: 'Roblox codes', title: v.h1,
       text: firstSentence(v.g.notes),
       meta: `${esc(a.name)} · ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'working code')}`,
-    });
-    const art = (i % 4 === 2) && articles.shift();
-    if (art) feed.push({ href: art.path, img: art.cover, kicker: art.section === 'blog' ? (art.series ?? 'Blog') : 'Guide', title: art.title, text: art.summary, meta: `${esc(a.name)} · ${dateShort(art.published)} · ${art.minutes} min read` });
-  });
+    })),
+    ...[...posts, ...guides].map(art => ({
+      date: art.published ?? '',
+      href: art.path, img: art.cover, kicker: art.section === 'blog' ? (art.series ?? 'Blog') : 'Guide', title: art.title, text: art.summary,
+      meta: `${esc(a.name)} · ${dateShort(art.published)} · ${art.minutes} min read`,
+    })),
+  ].sort((x, y) => y.date.slice(0, 10).localeCompare(x.date.slice(0, 10)) || y.date.localeCompare(x.date)).slice(0, 16);
   const total = views.reduce((n, v) => n + v.live.length, 0);
   // newest codes across every game, one line each, biggest games first on a tie
   const playing = v => v.g.stats?.playing ?? 0;
