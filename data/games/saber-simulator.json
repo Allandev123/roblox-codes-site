@@ -25,7 +25,7 @@
       "reward": "35 Shiny, Rainbow and Void Charms",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:11.984Z",
-      "lastSeen": "2026-09-30T19:59:44.333Z",
+      "lastSeen": "2026-10-01T00:32:15.459Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1551,
-    "visits": 644242760,
-    "favorites": 2032125,
+    "playing": 1437,
+    "visits": 644254497,
+    "favorites": 2032159,
     "updated": "2026-09-27T06:12:51.814Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570406,
+    "upVotes": 570409,
     "downVotes": 90780
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-09-30T19:59:44.333Z",
+  "lastChecked": "2026-10-01T00:32:15.459Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
