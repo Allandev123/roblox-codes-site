@@ -25,7 +25,7 @@
       "reward": "1,000 Cursed Crystals, 5,000 Lumens and 50 Clan Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T18:35:55.871Z",
-      "lastSeen": "2026-10-01T10:03:47.266Z",
+      "lastSeen": "2026-10-01T18:24:24.890Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T18:36:22.148Z"
@@ -105,17 +105,17 @@
     }
   ],
   "stats": {
-    "playing": 5184,
-    "visits": 125158690,
-    "favorites": 209187,
+    "playing": 5647,
+    "visits": 125243560,
+    "favorites": 209324,
     "updated": "2026-09-29T15:17:12.488Z",
     "created": "2024-11-04T17:58:40.07Z",
     "maxPlayers": 14,
-    "upVotes": 221526,
-    "downVotes": 10871
+    "upVotes": 221596,
+    "downVotes": 10876
   },
   "added": "2026-09-29T18:35:55.871Z",
-  "lastChecked": "2026-10-01T10:03:47.266Z",
+  "lastChecked": "2026-10-01T18:24:24.890Z",
   "lastChanged": "2026-09-29T18:36:22.148Z",
   "faq": [
     {
