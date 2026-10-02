@@ -11,7 +11,7 @@ export const byName = (a, b) => a.g.name.localeCompare(b.g.name, 'en', { sensiti
 export function gameRow(v, { lazy = true } = {}) {
   const alias = v.g.aliases?.length ? ` data-alias="${esc(v.g.aliases.join(' ').toLowerCase())}"` : '';
   return `<li><a href="${v.path}" data-name="${esc(searchKey(v.g.name.replace(/\+/g, ' plus ')))}" data-latest="${v.latest}"${alias}>
-  <img src="${v.icon}" alt="" width="40" height="40"${lazy ? ' loading="lazy" decoding="async"' : ''}>
+  <img src="${v.icon}" alt="${esc(v.g.name)} icon" width="40" height="40"${lazy ? ' loading="lazy" decoding="async"' : ''}>
   <span class="name">${esc(v.g.name)}${v.recentNew ? '<span class="tag">new</span>' : ''}</span>
   <span class="n">${plural(v.live.length, 'code')}</span>
 </a></li>`;
@@ -22,7 +22,7 @@ function updateRow(v) {
     ? `<strong>${v.recentNew} new</strong> ${v.recentNew === 1 ? 'code' : 'codes'} · ${ago(v.g.lastChanged, true)}`
     : `${plural(v.live.length, 'working code')} · updated ${ago(v.g.lastChanged, true)}`;
   return `<li><a href="${v.path}">
-  <img src="${v.icon}" alt="" width="48" height="48">
+  <img src="${v.icon}" alt="${esc(v.g.name)} icon" width="48" height="48">
   <span class="t"><b>${esc(v.g.name)}</b><span class="sub">${sub}</span></span>
   ${ICONS.chev}
 </a></li>`;
@@ -38,7 +38,7 @@ export function guideRow(gd) {
 function gameTile(v, { lazy = true } = {}) {
   const alias = v.g.aliases?.length ? ` data-alias="${esc(v.g.aliases.join(' ').toLowerCase())}"` : '';
   return `<li><a class="tile" href="${v.path}" data-name="${esc(searchKey(v.g.name.replace(/\+/g, ' plus ')))}" data-latest="${v.latest}"${alias}>
-  <img src="${v.iconLg}" alt="" width="160" height="160"${lazy ? ' loading="lazy" decoding="async"' : ''}>
+  <img src="${v.iconLg}" alt="${esc(v.g.name)} icon" width="160" height="160"${lazy ? ' loading="lazy" decoding="async"' : ''}>
   <span class="name">${esc(v.g.name)}</span>
   <span class="n">${plural(v.live.length, 'code')}${v.recentNew ? ' <span class="tag">new</span>' : ''}</span>
 </a></li>`;
@@ -47,7 +47,7 @@ function gameTile(v, { lazy = true } = {}) {
 // A magazine-style post row: picture, kicker, title, short intro, byline.
 function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
   return `<li><a class="post" href="${href}">
-    ${img ? `<img src="${esc(small(img))}" alt="" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    ${img ? `<img src="${esc(small(img))}" alt="${esc(title)}" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="post-text">
       <span class="kicker">${esc(kicker)}</span>
       <h3>${esc(title)}</h3>
@@ -71,7 +71,7 @@ export const HOME_FAQ = (site, games) => [
   { q: 'What do Roblox codes give you?', a: `Free items inside that one game, like gems, coins, boosts, spins, pets or skins. Each code on this site shows exactly what it gives, and the developers decide how long it works.` },
   { q: 'Do the codes work on phone, tablet and console?', a: `Yes. A game's codes work wherever you can play that game: PC, Mac, phone, tablet or console. The code box is in the same place on every device, you just tap instead of click. On a phone, press and hold the box to paste.` },
   { q: 'Can you add a game I play?', a: `Probably! I cover ${games} games right now and add a game as soon as it has working codes. <a href="/contact/">Send me its name or Roblox link</a>.` },
-  { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>. I've played Roblox since ${esc(site.author.robloxSince)}, make Roblox videos on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>, and I'm making my own game. It's an independent fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
+  { q: 'Who runs this site?', a: `Me, <a href="/author/${esc(site.author.slug)}/">${esc(site.author.name)}</a>. I've played Roblox since ${esc(site.author.robloxSince)}, make Roblox videos on <a href="${esc(site.author.youtube)}" rel="noopener" target="_blank">YouTube</a>, and I'm making my own game. It's an independent fan site, not made by or connected to Roblox. <a href="/about/">More about the site</a>.` },
 ];
 
 export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
@@ -133,7 +133,7 @@ ${views.slice(0, 10).map(v => `        <li><a href="${v.path}"><b>${esc(v.g.name
     <section class="side-box" aria-labelledby="pop-h">
       <h2 id="pop-h">Most played</h2>
       <ol class="side-pop">
-${byPlayers.slice(0, 8).map(v => `        <li><a href="${v.path}"><img src="${v.icon}" alt="" width="36" height="36" loading="lazy"><span><b>${esc(v.g.name)}</b><span>${compact(v.g.stats?.playing ?? 0)} playing now</span></span></a></li>`).join('\n')}
+${byPlayers.slice(0, 8).map(v => `        <li><a href="${v.path}"><img src="${v.icon}" alt="${esc(v.g.name)} icon" width="36" height="36" loading="lazy"><span><b>${esc(v.g.name)}</b><span>${compact(v.g.stats?.playing ?? 0)} playing now</span></span></a></li>`).join('\n')}
       </ol>
     </section>
     ${guides.length ? `<section class="side-box" aria-labelledby="sg-h">
@@ -150,7 +150,7 @@ ${guides.slice(0, 5).map(gd => `        <li><a href="${gd.path}"><b>${esc(gd.sho
   <div class="sec-head"><h2 id="newest-h">Newest codes</h2>${site.hasUpdates ? '<a class="aside" href="/updates/">All code updates</a>' : ''}</div>
   <ul class="feed codes">
 ${newest.map(({ v, c }) => `    <li>
-      <a class="feed-game" href="${v.path}"><img src="${v.icon}" alt="" width="40" height="40" loading="lazy">${esc(v.g.name)}</a>
+      <a class="feed-game" href="${v.path}"><img src="${v.icon}" alt="${esc(v.g.name)} icon" width="40" height="40" loading="lazy">${esc(v.g.name)}</a>
       <code class="code">${esc(c.code)}</code>
       <span class="feed-reward">${c.reward ? esc(c.reward) : 'Reward not stated'}</span>
       <button class="copy" type="button" data-code="${esc(c.code)}" aria-label="Copy code ${esc(c.code)} for ${esc(v.g.name)}">${ICONS.check}<span>Copy</span></button>
@@ -179,7 +179,7 @@ ${HOME_FAQ(site, views.length).map((f, i) => `    <details class="faq"${i === 0 
 </section>
 
 <section id="how" class="sec run-by">
-  <img src="/img/${esc(a.image)}" alt="" width="56" height="56" loading="lazy">
+  <img src="/img/${esc(a.image)}" alt="${esc(a.name)}" width="56" height="56" loading="lazy">
   <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. <a href="/how-we-check-codes/">How I check codes</a></p>
 </section>`;
 }
@@ -245,10 +245,10 @@ export function gameBody({ site, v, related, guides = [], total }) {
 <header>
   <div class="post-head">
     <h1>${esc(v.h1)}</h1>
-    <img src="${v.iconLg}" alt="" width="80" height="80">
+    <img src="${v.iconLg}" alt="${esc(v.g.name)} icon" width="80" height="80">
   </div>
   <p class="dek">${dek(v)}</p>
-  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · ${v.live.every(c => c.source === 'manual') ? `codes updated ${ago(g.lastChanged)}` : `checked ${ago(g.lastChecked)}`} · <a href="/how-we-check-codes/">how I check</a></span></p>
+  <p class="byline"><img src="${avatar64(site)}" alt="${esc(site.author.name)}" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · ${v.live.every(c => c.source === 'manual') ? `codes updated ${ago(g.lastChanged)}` : `checked ${ago(g.lastChecked)}`} · <a href="/how-we-check-codes/">how I check</a></span></p>
 </header>
 
 <section class="sec" aria-labelledby="codes-h">
@@ -281,6 +281,15 @@ ${g.faq.map(f => `  <div class="qa"><h3>${esc(f.q)}</h3><p>${esc(f.a)}</p></div>
 </section>` : ''}
 
 ${adSlot(site, 'afterRedeem')}
+
+${g.tips?.length || g.useRewards ? `<section class="sec" aria-labelledby="tips-h">
+  <h2 id="tips-h">${esc(g.tipsTitle ?? `Tips for new ${g.name} players`)}</h2>
+${g.tips?.length ? `  <ul class="tips">
+${g.tips.map(t => `    <li>${esc(t)}</li>`).join('\n')}
+  </ul>
+` : ''}${g.useRewards ? `  <h3>Getting the most out of the code rewards</h3>
+  <p>${esc(g.useRewards)}</p>
+` : ''}</section>` : ''}
 
 <section class="sec" aria-labelledby="about-h">
   <h2 id="about-h">About ${esc(g.name)}</h2>
@@ -370,7 +379,7 @@ export function authorBody({ site, views }) {
       <p>Runs ${esc(site.siteName)} · Roblox player since ${esc(a.robloxSince)} · YouTube creator</p>
     </div>
   </header>
-  <p>Hi, I'm ${esc(a.firstName)}. I've played Roblox since ${esc(a.robloxSince)}, when my favourite game was Lumber Tycoon 2. In 2018 I started my YouTube channel, <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.name)}</a>, which now has ${esc(a.youtubeSubscribers)} subscribers and more than ${Math.floor(a.youtubeVideos / 10) * 10} videos. Most of them are about BedWars (ranked solo queue from Bronze to Nightmare, kit guides and win streaks), and lately Rivals.</p>
+  <p>Hi, I'm ${esc(a.firstName)}. I've played Roblox since ${esc(a.robloxSince)}, when my favourite game was Lumber Tycoon 2. In 2018 I started my YouTube channel, <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.name)}</a>, which now has ${esc(a.youtubeSubscribers)} subscribers and more than ${Math.floor(a.youtubeVideos / 10) * 10} videos. Most of them are about BedWars (ranked from Bronze to Nightmare and #26 on the leaderboard, kit guides and win streaks), and lately Rivals.</p>
   <p>I started ${esc(site.siteName)} because I got tired of code lists full of dead codes. So this site does one thing: it lists the codes a game's developers are giving out right now, what each one gives, and where the code box is in that game.</p>
 
   <h2>What I do on this site</h2>
@@ -389,7 +398,7 @@ export function authorBody({ site, views }) {
     <li>YouTube: <a href="${esc(a.youtube)}" rel="me noopener">${esc(a.youtube.replace('https://www.', ''))}</a></li>
     <li>Roblox: <a href="${esc(a.roblox)}" rel="me noopener">${esc(a.name)}</a></li>
     ${a.discord ? `<li>Discord: <a href="${esc(a.discord)}" rel="me noopener">my Discord server</a></li>` : ''}
-    <li>My Roblox group: <a href="https://www.roblox.com/communities/16078632" rel="noopener">Group insane</a></li>
+    <li>My Roblox group: <a href="https://www.roblox.com/communities/16078632" rel="noopener" target="_blank">Group insane</a></li>
   </ul>
 
   <h2>Games I cover</h2>
@@ -413,7 +422,7 @@ ${list.map(({ day, rows }) => {
     return `<section class="sec" aria-labelledby="d-${day}">
   <div class="sec-head"><h2 id="d-${day}">${dateLong(day)}</h2><span class="aside">${[added ? `${added} new` : '', gone ? `${gone} expired` : ''].filter(Boolean).join(' · ')}</span></div>
   <ul class="ruled updates">
-${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="" width="40" height="40" loading="lazy"><span class="u-text"><b>${esc(r.v.g.name)}</b>${r.added.length ? `<span class="u-line"><span class="u-new">${plural(r.added.length, 'new code')}</span> ${codes(r.added)}</span>` : ''}${r.expired.length ? `<span class="u-line"><span class="u-old">${r.expired.length} expired</span> ${codes(r.expired)}</span>` : ''}</span></a></li>`).join('\n')}
+${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="${esc(r.v.g.name)} icon" width="40" height="40" loading="lazy"><span class="u-text"><b>${esc(r.v.g.name)}</b>${r.added.length ? `<span class="u-line"><span class="u-new">${plural(r.added.length, 'new code')}</span> ${codes(r.added)}</span>` : ''}${r.expired.length ? `<span class="u-line"><span class="u-old">${r.expired.length} expired</span> ${codes(r.expired)}</span>` : ''}</span></a></li>`).join('\n')}
   </ul>
 </section>`;
   }).join('\n')}`;
@@ -424,7 +433,7 @@ ${rows.map(r => `    <li><a href="${r.v.path}"><img src="${r.v.icon}" alt="" wid
 // A picture card for an article (guide or blog post)
 export function articleCard(gd, { lazy = true, date = true } = {}) {
   return `<li><a class="card" href="${gd.path}">
-    ${gd.cover ? `<img src="${esc(small(gd.cover))}" srcset="${esc(small(gd.cover))} 480w, ${esc(gd.cover)} 960w" sizes="(min-width: 720px) 340px, 100vw" alt="" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    ${gd.cover ? `<img src="${esc(small(gd.cover))}" srcset="${esc(small(gd.cover))} 480w, ${esc(gd.cover)} 960w" sizes="(min-width: 720px) 340px, 100vw" alt="${esc(gd.title)}" width="640" height="360"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="card-text">
       ${gd.series ? `<span class="kicker">${esc(gd.series)}</span>` : ''}
       <h3>${esc(gd.title)}</h3>
@@ -463,7 +472,7 @@ export function blogIndexBody({ site, posts }) {
 <p class="dek">Devlogs about +1 Nose to Escape, the Roblox game I'm making, plus stories from my years of making Roblox videos.</p>
 </header>
 <div class="run-by sec">
-  <img src="/img/${esc(a.image)}" alt="" width="56" height="56">
+  <img src="/img/${esc(a.image)}" alt="${esc(a.name)}" width="56" height="56">
   <p>Written by <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a>, who plays Roblox, makes YouTube videos about it, and is now building a game. For how the game plays, see the <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape guides</a>.</p>
 </div>
 <ul class="cards sec">
@@ -481,7 +490,7 @@ export function guideBody({ site, gd, games, more, section = 'Guides' }) {
 <article class="prose">
   ${gd.series ? `<p class="kicker">${esc(gd.series)}</p>` : ''}
   <h1>${esc(gd.title)}</h1>
-  <p class="byline"><img src="${avatar64(site)}" alt="" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a> · ${when} · ${gd.minutes} min read</span></p>
+  <p class="byline"><img src="${avatar64(site)}" alt="${esc(site.author.name)}" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a> · ${when} · ${gd.minutes} min read</span></p>
   ${gd.image ? `<figure class="shot lead"><img src="/img/guides/${esc(gd.image)}" alt="${esc(gd.imageAlt ?? '')}" width="1280" height="720" decoding="async" fetchpriority="high"></figure>` : ''}
   ${toc.length >= 4 ? `<nav class="toc" aria-label="On this page"><p>On this page</p><ol>${toc.map(h => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></nav>` : ''}
 ${gd.html}

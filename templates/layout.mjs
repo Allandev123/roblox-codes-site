@@ -33,7 +33,10 @@ export function adSlot(site, name) {
 }
 
 
-export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [], ads = false, nav = '' }) {
+export function layout({ site, assets, title, description, path, body, jsonld = [], ogImage, ogType = 'website', noindex = false, preload = [], ads = false, nav = '', modified }) {
+  // publish / last-change dates, from the page's structured data when it has them
+  const published = jsonld.map(o => o.datePublished).find(Boolean);
+  modified ??= jsonld.map(o => o.dateModified).find(Boolean);
   const url = site.url + path;
   const og = ogImage ?? `${site.url}/og/default.jpg`;
   const a = site.author;
@@ -49,6 +52,9 @@ export function layout({ site, assets, title, description, path, body, jsonld = 
 ${noindex ? '<meta name="robots" content="noindex">\n' : ''}<meta name="theme-color" content="#faf6ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1b1815" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="${ogType}">
+${published ? `<meta property="article:published_time" content="${esc(published)}">
+` : ''}${modified ? `<meta property="article:modified_time" content="${esc(modified)}">
+` : ''}
 <meta property="og:site_name" content="${esc(site.siteName)}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
@@ -74,7 +80,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="${esc(site.siteName)} home"><img class="mark" src="/logo-64.png" alt="" width="32" height="32"><span>RBXCodes<b>HQ</b></span></a>
+    <a class="brand" href="/" aria-label="${esc(site.siteName)} home"><img class="mark" src="/logo-64.png" alt="${esc(site.siteName)} logo" width="32" height="32"><span>RBXCodes<b>HQ</b></span></a>
     <nav class="nav" aria-label="Main">
       <div class="nav-links" id="nav-links">
         <a href="/#games"${cur('games')}>Games</a>
@@ -96,13 +102,13 @@ ${body}
 <footer class="foot">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <a class="brand" href="/"><img class="mark" src="/logo-64.png" alt="" width="32" height="32" loading="lazy"><span>RBXCodes<b>HQ</b></span></a>
+      <a class="brand" href="/"><img class="mark" src="/logo-64.png" alt="${esc(site.siteName)} logo" width="32" height="32" loading="lazy"><span>RBXCodes<b>HQ</b></span></a>
       <p class="foot-tag">Working Roblox codes, checked every 3 hours</p>
       <p>Free codes for ${site.gameCount ?? 'your favourite'} Roblox games, with where to type them and what they give. Made by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox player since ${esc(a.robloxSince)}.</p>
       <p class="foot-social">
-        <a href="${esc(a.youtube)}" rel="noopener" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.9 3z"/></svg></a>
-        ${a.roblox ? `<a href="${esc(a.roblox)}" rel="noopener" aria-label="Roblox profile"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 1 1 18.8 18.8 23 23 5.2zm8.3 14.5-5-1.2 1.2-5 5 1.2z"/></svg></a>` : ''}
-        ${a.discord ? `<a href="${esc(a.discord)}" rel="noopener" aria-label="Discord"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2a12.8 12.8 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.7 19.7 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7zM8 15.3c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.5 8 10.5s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></svg></a>` : ''}
+        <a href="${esc(a.youtube)}" rel="noopener" target="_blank" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.9 3z"/></svg></a>
+        ${a.roblox ? `<a href="${esc(a.roblox)}" rel="noopener" target="_blank" aria-label="Roblox profile"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 1 1 18.8 18.8 23 23 5.2zm8.3 14.5-5-1.2 1.2-5 5 1.2z"/></svg></a>` : ''}
+        ${a.discord ? `<a href="${esc(a.discord)}" rel="noopener" target="_blank" aria-label="Discord"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2a12.8 12.8 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.7 19.7 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7zM8 15.3c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.5 8 10.5s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></svg></a>` : ''}
         <a href="/contact/" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
       </p>
     </div>

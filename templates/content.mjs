@@ -11,7 +11,9 @@ export const about = site => `
 <p>Hi, I'm ${esc(site.author.firstName)}, ${authorLink(site)} on YouTube and Roblox. I run ${esc(site.siteName)} on my own. It lists working codes for Roblox games. Just the codes each game's developers have released, what they give, and where to type them.</p>
 
 <h2>Who I am</h2>
-<p>I've played Roblox since ${esc(site.author.robloxSince)}. My favourite back then was Lumber Tycoon 2, and I've loved Roblox ever since. In 2018 I started my <a href="${esc(site.author.youtube)}" rel="noopener">YouTube channel</a>. Most of my videos ended up being about BedWars, and lately Rivals too. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
+<p>I've played Roblox since ${esc(site.author.robloxSince)}. My favourite back then was Lumber Tycoon 2, and I've loved Roblox ever since. In 2018 I started my <a href="${esc(site.author.youtube)}" rel="noopener" target="_blank">YouTube channel</a>. Most of my videos ended up being about BedWars, and lately Rivals too. In BedWars ranked I climbed from Bronze to Nightmare, the top rank, in about a week and reached #26 on the leaderboard. This is a one-person site, not a company. More about me on my <a href="/author/${esc(site.author.slug)}/">author page</a>.</p>
+
+<figure class="shot"><img src="/img/guides/roblox-20-bedwars-nightmare.webp" alt="My BedWars stats: Nightmare rank, #26 on the leaderboard" width="760" height="777" loading="lazy" decoding="async"><figcaption>My BedWars ranked stats: Nightmare, #26 on the leaderboard. My screenshot.</figcaption></figure>
 
 <h2>Why I made this site</h2>
 <p>One thing always annoyed me: how hard it was to find Roblox codes that actually worked, or a quick guide that was easy to read. Too many code lists are full of dead codes, and too many guides take forever to get to the point. So I built this site for exactly that: working codes, short readable guides, and updates on what's new in the games people play.</p>
@@ -83,8 +85,8 @@ export const contact = site => `
   <li>What happened: an error message, or no reward.</li>
   <li>For a new game: its Roblox link.</li>
 </ul>
-<p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener">YouTube</a>${site.author.discord ? ` and in <a href="${esc(site.author.discord)}" rel="noopener">my Discord server</a>` : ''}, but email is the fastest way to get a code fixed.</p>
-<p>I read every message. I can't help with account problems, lost items or purchases. Those go to <a href="https://www.roblox.com/support" rel="noopener">Roblox Support</a> or the game's developers.</p>
+<p>You can also find me on <a href="${esc(site.author.youtube)}" rel="noopener" target="_blank">YouTube</a>${site.author.discord ? ` and in <a href="${esc(site.author.discord)}" rel="noopener" target="_blank">my Discord server</a>` : ''}, but email is the fastest way to get a code fixed.</p>
+<p>I read every message. I can't help with account problems, lost items or purchases. Those go to <a href="https://www.roblox.com/support" rel="noopener" target="_blank">Roblox Support</a> or the game's developers.</p>
 `;
 
 export const privacy = (site, updated) => {
@@ -105,13 +107,13 @@ export const privacy = (site, updated) => {
 </ul>
 
 ${ga ? `<h2>Analytics</h2>
-<p>I use Google Analytics to see which pages are visited and how people find the site. It collects things like pages viewed, approximate location, device and browser type. It doesn't tell me who you are. Google Signals and ad personalisation are turned off. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out add-on</a>.</p>
+<p>I use Google Analytics to see which pages are visited and how people find the site. It collects things like pages viewed, approximate location, device and browser type. It doesn't tell me who you are. Google Signals and ad personalisation are turned off. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
 ` : ''}
 <h2>Advertising</h2>
 <p>The site may show ads served by Google AdSense. Third-party vendors, including Google, use cookies to serve ads.${child
     ? ` Because many visitors are young, every ad request on this site is marked for child-directed treatment: Google turns off personalised ads and remarketing, and ads are chosen from the page you're on rather than your browsing history.`
     : ` Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the internet.`}</p>
-<p>You can manage Google's ad settings at <a href="https://adssettings.google.com" rel="noopener">Google Ads Settings</a> and opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from sites that use its services</a>.</p>
+<p>You can manage Google's ad settings at <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a> and opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info</a>. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">how Google uses information from sites that use its services</a>.</p>
 
 <h2>Consent in the EU, UK and Switzerland</h2>
 <p>Visitors in the European Economic Area, the UK and Switzerland are asked for consent through Google's certified consent message before advertising${ga ? ' or analytics' : ''} cookies are used. Until you choose, those cookies stay switched off. You can change your choice any time from the privacy link the consent message adds to the page. Legal basis: your consent.</p>
@@ -120,7 +122,7 @@ ${ga ? `<h2>Analytics</h2>
 <p>Roblox is popular with young players, so the site is built to collect as little as possible. I don't knowingly collect personal information from children. If you're a parent and think your child emailed me personal information, contact me and I'll delete it.</p>
 
 <h2>Your rights</h2>
-<p>You can ask to see, correct or delete personal data I hold about you (in practice, emails you sent), and you can withdraw consent at any time. Email <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a>. For data Google holds, use your <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">Google account</a>. You also have the right to complain to the Danish Data Protection Agency, <a href="https://www.datatilsynet.dk" rel="noopener">Datatilsynet</a>.</p>
+<p>You can ask to see, correct or delete personal data I hold about you (in practice, emails you sent), and you can withdraw consent at any time. Email <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a>. For data Google holds, use your <a href="https://myaccount.google.com/data-and-privacy" rel="noopener" target="_blank">Google account</a>. You also have the right to complain to the Danish Data Protection Agency, <a href="https://www.datatilsynet.dk" rel="noopener" target="_blank">Datatilsynet</a>.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top changes with it.</p>
