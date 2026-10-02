@@ -35,7 +35,7 @@ Those numbers matter more than they look. Before WELCOME my walk speed was 32 an
 
 ![FREECODE redeemed for 500 Coins, with confetti on screen.](build-the-pyramid-freecode-redeemed.webp)
 
-The codes page also lists two more codes (UPDATE15 and SORRYFORUPDATEBUG) that I didn't redeem in this video.
+Older codes like UPDATE15 and SORRYFORUPDATEBUG have expired, so WELCOME and FREECODE are the ones to use right now.
 
 ## How the game works
 

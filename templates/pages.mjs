@@ -206,7 +206,10 @@ function dek(v) {
     if (c.tested) return `One working code right now, and I redeemed it in game myself: <strong>${esc(c.code)}</strong>.${c.reward ? ` Reward: ${esc(c.reward.replace(/\.$/, ''))}.` : ''}`;
     return `${lists} one working code right now: <strong>${esc(c.code)}</strong>.${c.reward ? ` Reward: ${esc(c.reward.replace(/\.$/, ''))}.` : ''}`;
   }
-  return `${lists} ${numberWord(n)} working codes right now.${top ? ` Start with <strong>${esc(top.code)}</strong>. Reward: ${esc(top.reward.replace(/\.$/, ''))}.` : ''}`;
+  const intro = v.live.every(c => c.tested)
+    ? `There are ${numberWord(n)} working codes right now, and I redeemed ${n === 2 ? 'both' : 'all of them'} in game myself.`
+    : `${lists} ${numberWord(n)} working codes right now.`;
+  return `${intro}${top ? ` Start with <strong>${esc(top.code)}</strong>. Reward: ${esc(top.reward.replace(/\.$/, ''))}.` : ''}`;
 }
 
 // A plain-numbers summary of this game's codes on the site: how many, how recent.
