@@ -121,6 +121,13 @@
       "a": "Usually not. Emotes from codes like RIPBOWE and 67 stopped being available once those codes expired, so grab new ones quickly."
     }
   ],
+  "tips": [
+    "Save your Q dash for when you get stunned. Dashing out of stun is how you escape combos, so using it just to chase someone can leave you stuck later.",
+    "Blocking with F helps against melee combos. Learn which of your moves are fast enough to hit back right after an enemy finishes attacking.",
+    "Your awakening on G is the strongest part of any character. Stay alive until it is charged rather than taking risky trades early in the fight.",
+    "Double tap W to sprint, which steers around obstacles for you. It is handy for getting out of a crowded fight or reaching a target across the map."
+  ],
+  "useRewards": "The current code gives the Nep achievement and the Woven Insight emote, which are not timed boosts, so there is no reason to wait. Paste the long code and claim it right away. Emotes from codes show up in your emote list, so test them in a quiet spot. When a code gives Cash instead, spend it in the Shop on something you want to keep, not on the first item you see.",
   "aliases": [
     "jjs",
     "jujutsu shenanigans roblox"

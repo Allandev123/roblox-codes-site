@@ -332,6 +332,13 @@
       "a": "MARLOWISHERE and CHACHING each give 5,000 Cash, while every other code gives 1,000. Redeem those two first before they expire."
     }
   ],
+  "tips": [
+    "Read each order fully before you move. If it does not start with Simon Says, the safest choice is to do nothing at all.",
+    "Do not copy other players. If someone near you moves on a fake order and gets eliminated, following them only gets you out too.",
+    "Set up your controls before you play. Settings lets you change PC keybinds, controller binds and the mobile HUD, which helps when later rounds need fast reactions.",
+    "Later rounds come quicker, so take a breath and check the wording every time. Most mistakes happen when players react before reading."
+  ],
+  "useRewards": "All 15 working codes give Cash, adding up to 23,000 in total, with MARLOWISHERE and CHACHING worth 5,000 each. Cash goes toward prison suits and other looks, not power, so there is no rush to spend it. Redeem everything, then take your time browsing so you can pick an outfit you actually like instead of the first thing you can afford.",
   "aliases": [
     "death order",
     "simon says death order"

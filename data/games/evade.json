@@ -131,6 +131,13 @@
       "a": "Many players buy emotes and usable items first, since they help you move or escape during rounds. Cosmetics are nice but do not change how you play."
     }
   ],
+  "tips": [
+    "Stick to open areas where you have room to turn. Running into dead ends or narrow halls makes it easy for a Nextbot to catch you.",
+    "Revive downed teammates when it is safe, but do not run straight into a Nextbot to do it. Losing two players is worse than losing one.",
+    "Press 2 to open your usables menu quickly during a chase. Knowing where your items are saves precious seconds.",
+    "Use the whistle on T to help teammates find you. Grouping up makes it easier to revive each other."
+  ],
+  "useRewards": "The four working codes give 180 Points in total, which is a small boost. Add them to the Points you earn from rounds and buy one useful item before spending on cosmetics. The long Trollge code is easy to mistype, so copy and paste it. Codes are rare here, so redeem new ones quickly when they show up for events or the game's birthday.",
   "aliases": [
     "evade roblox",
     "nextbot evade"

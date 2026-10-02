@@ -59,5 +59,12 @@
       "q": "Where is the code box in Drag Drive Simulator?",
       "a": "Click the shopping cart (Store) icon in the bottom-left corner, then open the Redeem tab at the top of the Store window. Enter the code in the Enter Code Here box and press Redeem."
     }
-  ]
+  ],
+  "tips": [
+    "Pick one job early and stick with it for a while. A steady income from a job like courier or barista helps while you learn the streets.",
+    "Use the Favorite Vehicle Spawner to save the cars and bikes you ride most, so you can bring them out quickly instead of scrolling through the list.",
+    "Try each wheelie style and tune its speed and angle. The styles handle differently, so practice in a quiet area before showing off.",
+    "Switch camera views to find what suits you. First person feels more real, while the 360 action cam is good for watching tricks."
+  ],
+  "useRewards": "The current monthly code gives a very large amount of RP at once. Before spending, decide which car or motorcycle you want most, buy that first, then use what is left on rims, materials and accessories from the modification system. Codes here are often tied to a month or an update, so redeem new ones soon after they appear in case they are replaced."
 }

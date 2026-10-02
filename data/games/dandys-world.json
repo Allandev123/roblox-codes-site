@@ -115,6 +115,13 @@
       "a": "Most players save up for a Toon whose ability fits how they like to play, since Toons cost the most. Cheaper Trinkets are a good way to spend leftover Ichor."
     }
   ],
+  "tips": [
+    "Stay near your team while machines are being fixed. Working together clears a floor faster, and going off alone makes you an easy target for Twisteds.",
+    "Choose a Toon whose stats match how you like to play. Some are better at finishing machines quickly, while others are better at running or staying hidden.",
+    "Pick up the items you find on each floor. Healing and speed items can turn a close chase into a narrow escape.",
+    "Each Twisted behaves in its own way, so learn a few of them. Knowing their habits helps you decide when to keep working and when to run."
+  ],
+  "useRewards": "ICHOR gives 50 Ichor, which is a small top up. Add it to the Ichor you collect during runs and save toward one Toon or Trinket you really want, rather than spending it in pieces. Event codes for skins and seasonal items only stay active for a short window, so redeem those as soon as they are announced instead of waiting.",
   "aliases": [
     "dandys world",
     "dw",

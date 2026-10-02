@@ -165,6 +165,13 @@
       "a": "New codes usually match like-goals, so watch the like count on the game page. When it passes the next 10,000 mark, a new KLIKES code often follows."
     }
   ],
+  "tips": [
+    "Look around the arena for Diamonds between fights. They are the main way to unlock new elements, so grab any you see.",
+    "Try a few elements before settling on one. Each element has its own spells, and the one that suits you may not be the first you pick.",
+    "Keep fighting, since secret elements can unlock during battles. Staying in the arena longer gives you more chances.",
+    "A new element arrives every week, so check back regularly. A fresh element can change which spells work best in the arena."
+  ],
+  "useRewards": "100MVISITS gives 100 Diamonds, the code to redeem first since Diamonds unlock new elements. The other three codes give 8 Souls in total, which are small amounts, so collect them and spend them once you see what they unlock. Like-goal codes are replaced as the game gains likes, so redeem new ones soon after they appear.",
   "aliases": [
     "ema"
   ],

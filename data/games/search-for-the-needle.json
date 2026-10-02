@@ -101,6 +101,13 @@
       "a": "Yes. Glowing rainbow flakes count as several flakes when you pick them up and sell for double, so grab them first to earn cash faster."
     }
   ],
+  "tips": [
+    "Cash only comes in when you feed hay to the cow, so keep making trips back to it instead of just digging through the pile.",
+    "Buy a better tool in the barn as soon as you can. Your tool decides how fast you clear hay, which speeds up both your cash and your search.",
+    "Save toward the bigger tools like the Vacuum and Dynamite. They clear far more hay at once than the early tools do.",
+    "Every run is a chance to beat your best time. Once you know how your tools clear the pile, aim to dig straight down to the needle faster."
+  ],
+  "useRewards": "RANCH is the one working code and gives 120 Gems. Gems pay for class rolls, so add them to what you already have and roll once you can afford it. Older codes sometimes added a luck boost or event coins. If a new code gives a luck boost, redeem it when you have time to play, and spend event coins before that event ends.",
   "aliases": [
     "find the needle",
     "needle in a haystack roblox",

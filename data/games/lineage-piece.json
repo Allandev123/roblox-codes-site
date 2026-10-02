@@ -248,6 +248,13 @@
       "a": "Open Settings from the icon on the left side of the screen and scroll to the bottom. Type the code there and press Enter."
     }
   ],
+  "tips": [
+    "Beating bandits is the main way to level early on. Clear groups of them on each island, and only take on bosses once bandits stop being a challenge.",
+    "Try a few weapons and melee styles before settling on one. Many are based on anime characters, so pick the one whose moves you can land well.",
+    "Do not rush into the Abyssal Sea. Its rooms are timed, so slow kills can fail the run. Build your damage up first.",
+    "When the game shuts down, it usually means an update or bug fix. Rejoin afterwards to see what changed and check for new codes."
+  ],
+  "useRewards": "Codes here unlock by level, so redeem them in waves. Claim the level 100 codes right away, then come back at levels 250, 750, 1000, 1500 and 1750 for the rest. Save rerolls for when you have time to roll a few in a row on your race or trait. Spend coins and gems on things that help you level faster, since higher levels unlock even more codes.",
   "aliases": [
     "lp"
   ],

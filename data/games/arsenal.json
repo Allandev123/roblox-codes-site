@@ -231,5 +231,12 @@
       "a": "Arsenal has hundreds of old codes, and ROLVe switches them off without warning. Sites that do not retest keep listing dead ones, so expect older codes like KITTEN or JOHN to fail."
     }
   ],
+  "tips": [
+    "Join the ROLVe group, as the game page suggests. Members get 25% more BattleBucks and XP from every match, plus a chat tag.",
+    "When your weapon changes, take a second to check what you are holding. A sniper and a shotgun want very different spots, so move to fit the new gun.",
+    "Each new weapon comes with a full magazine, so a kill is often a better reload than stopping in the open to reload.",
+    "Keep moving and use cover. Matches are fast, and players who stand still in open areas are the easiest targets."
+  ],
+  "useRewards": "Every working code unlocks a cosmetic, so redeem them all to fill out your collection at no cost. Equip the Garcello skin, kill effect and taunt together for a matching look, and try the Flamingo, Xonae, Enforcer and Bandites announcer voices to pick the one you like. None of these rewards change your weapons or stats, so you can redeem them any time without affecting your matches.",
   "codeChannels": "ROLVe's X account and the official Arsenal Discord server"
 }

@@ -79,5 +79,12 @@
       "q": "Can Retro Tower Defense codes give rewards other than Tix?",
       "a": "Yes. Some past codes have been reported to give tower skins, revives, XP, 3x luck summons or trait rerolls. Reported skin codes include 1stBirthday for a Birthday 1x1x1x1 skin and MOSSY for a Mossy skin."
     }
-  ]
+  ],
+  "tips": [
+    "Start on Casual to learn how the Noobs move on each map. Move up to Normal and Hard once your towers hold, and save Endless for testing a full lineup.",
+    "Missions are one of the main ways to unlock stronger towers. Check them before each match and pick modes that help you finish them, especially with friends.",
+    "Events bring their own currency for limited skins and towers. If you want those items, play during the event, because that currency only drops while it runs.",
+    "Look at the weekly challenge and the map mastery achievements too. They give you extra goals on maps like Crossroads and Doomspire that you already play."
+  ],
+  "useRewards": "All three working codes give Tix, the same currency you earn by winning rounds. Redeem them before you shop and add them to your match earnings, since they can push you over the price of a tower you are close to buying. Older codes have handed out skins, revives and trait rerolls, so read each new code's reward and use rerolls only on towers you plan to keep."
 }

@@ -248,6 +248,13 @@
       "a": "Those codes were turned off in September 2026 and no longer give gems. Also check that you typed the code in all capital letters with no extra spaces."
     }
   ],
+  "tips": [
+    "Use the hold order when you reach a capture point, so your squad stays on the objective while you fight close by instead of chasing enemies away.",
+    "Keep ranged troops like archers behind a front line of shieldmen or spearmen. Letting them sit in front usually gets them wiped out by the first charge.",
+    "Save the rush order for the right moment, such as when the enemy is spread out. Rushing in one at a time against a full group rarely works.",
+    "Upgrade the troops you use most instead of spreading resources across every type. A few strong units carry a match better than many weak ones."
+  ],
+  "useRewards": "Every active code pays out Gems, from 300 to 1,000 each, and together the nine working codes add up to 4,900 Gems. That is enough for several troop summons in a row, so redeem the whole list before you spend anything. Commander classes are a good later buy, once your army can hold its own in fights without you doing all the work.",
   "aliases": [
     "caa",
     "command an army roblox"

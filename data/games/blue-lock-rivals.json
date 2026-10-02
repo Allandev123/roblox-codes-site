@@ -169,6 +169,13 @@
       "a": "Most codes in this game are tied to one update and get removed when the next one comes out, sometimes after only a day or two."
     }
   ],
+  "tips": [
+    "Play a few matches early to reach level 10, then redeem codes. The spins help much more once you know which Style you like playing.",
+    "Fill your Flow meter during the match and save it for an important attack. Flow makes your abilities stronger for a short time, so use it near the goal.",
+    "Pass to open teammates instead of dribbling into crowds. In a 5v5 match, smart passing creates more chances than solo runs.",
+    "Learn your Style's abilities in casual matches before you rely on them. Every Style plays a little differently on the pitch."
+  ],
+  "useRewards": "The four working codes add up to 25 Lucky Style Spins and 25 Lucky Flow Spins. Roll your Style spins first, since your Style shapes everything else, then use Flow spins to find a Flow that fits it. Redeem new codes quickly, because many of them only last a few days. Old codes like SNUFFYSOON and BUGFIXES have already been removed.",
   "aliases": [
     "blr",
     "blue lock rivals"

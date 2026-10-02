@@ -83,5 +83,12 @@
       "a": "The game description says joining the group gives special rewards, but it does not say what they are."
     }
   ],
+  "tips": [
+    "Train between races. More power means your dog gets farther before the timer runs out, and that brings bigger rewards from each race.",
+    "Spend early wins on upgrades that help your training. Stronger training makes every race after that easier.",
+    "Join the hourly event when it starts. The game page highlights it, and it is an easy extra source of rewards between normal races.",
+    "Do not chase the Top 50 leaderboard right away. Build up steady wins first, then push for a spot once your dog is strong."
+  ],
+  "useRewards": "Drink the Double Power potion from WEEKEND right before a long training session, so none of its time is wasted. Save the Double Win potion from NEW for a stretch where you plan to race over and over. The Golden potion from DOG is best used once you are already winning races, so its higher golden reward chance gets plenty of tries.",
   "published": "2026-09-29T16:27:49.271Z"
 }

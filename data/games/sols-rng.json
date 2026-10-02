@@ -154,6 +154,13 @@
       "a": "Wait for a special biome or event, because some of the rarest auras can only roll then. Using luck potions in normal weather still helps, but you get less out of them."
     }
   ],
+  "tips": [
+    "Keep rolling even when you only get common auras. Gear is crafted from the auras you collect, so commons still have a use.",
+    "Look at the crafting options once you have a few auras saved. Crafting gear is a big part of getting stronger in Sol's RNG.",
+    "Free private servers are available, and the game says they give the best performance. That helps a lot if you plan to roll for a long time.",
+    "More rolls means more chances at a rare aura. Long rolling sessions add up, so play when you have time to keep going."
+  ],
+  "useRewards": "The three working codes give 60 Potion Chests and 15 Rare Potion Chests in total, plus 3 Rainbow Ices from SRY4DEALY. Open the chests to see which potions you got, then keep them in your inventory instead of drinking them all at once. Redeem the dated update codes soon, since older update codes in this game have expired one after another.",
   "aliases": [
     "sols rng",
     "sol rng"

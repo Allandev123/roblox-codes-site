@@ -63,5 +63,12 @@
       "a": "It is not a code. Like the game and join the Nuke The Game group, then claim free nukes from a board inside the game."
     }
   ],
+  "tips": [
+    "Merge matching bombs whenever you can. Bigger nukes earn more cash per second, so leaving small bombs unmerged slows down your income.",
+    "Lock your base whenever you can, especially before stepping away. Other players can launch nukes at you and steal your cash.",
+    "When you raid, look for bases that are not locked, and expect the players you hit to try to nuke you back.",
+    "Your nukes keep earning while you are offline. When you come back, spend that cash on upgrades and merge again before you leave."
+  ],
+  "useRewards": "BOOM gives cash or Nuclear Waste, and either one helps most on your first visit, when your nukes are still small. Redeem it right away and put the reward into merging and upgrades rather than letting it sit. The developers update every Friday, so check this page after each update for a fresh code to claim.",
   "published": "2026-09-29T16:27:49.271Z"
 }

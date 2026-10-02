@@ -157,6 +157,13 @@
       "a": "Yes, most skins can be listed on the in-game player market for cash, which you can then use on premium skins. Some special case rewards are marked untradeable, so check the item first."
     }
   ],
+  "tips": [
+    "Hold right click to aim before every shot, then left click to fire. On controller, aim with L2 and shoot with R2.",
+    "Use Ctrl or C to crouch and slide between spots. A sliding target is harder to hit than one standing still.",
+    "Play with friends when you can. The game gives 20% more in-match Credits when you play together, which unlocks new snipers sooner.",
+    "Before selling a skin on the market, look at what similar skins are listed for. Prices are set by players, so a quick sale can mean less cash."
+  ],
+  "useRewards": "All three working codes give items instead of Credits. Open both cases soon to see what you get, and sell any skin you do not want on the player market for cash. The random Mystic Knife from FREELIKE5 is a cosmetic for your loadout. Like codes come in numbered order and expire, as FREELIKE1 to FREELIKE4 did, so grab each new one quickly.",
   "aliases": [
     "sniper arena roblox"
   ],

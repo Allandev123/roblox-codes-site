@@ -113,5 +113,12 @@
       "a": "Yes. Enter each code exactly as written, capitals included, in the code box in the Settings menu. All current codes are in capitals, such as WORLD6 and JUNGLE."
     }
   ],
+  "tips": [
+    "Keep clicking to build Power, then use it to break through walls. Breaking walls earns Wins, which are how you move forward.",
+    "Hatch pets early. Their boosts multiply the Power you get from every click, so even a few good pets make a big difference.",
+    "Rebirth once your progress slows. The permanent bonus makes each new run faster than the last.",
+    "Keep an eye out for stronger swords as you reach new worlds, and swap to a better one as soon as you find it."
+  ],
+  "useRewards": "Use the 2x Power Potions from JUNGLE and WORLD6 and the 2x Wins Potion from RIFT when you have time to play for a while. Each lasts 30 minutes, so drinking one during a short visit wastes most of the timer. Use one Power Potion, then the other after it runs out. Spend the Title rolls from 2XALL, TITLELUCK and TEMPLE early, since a better Title helps everything after.",
   "published": "2026-09-29T16:27:49.271Z"
 }

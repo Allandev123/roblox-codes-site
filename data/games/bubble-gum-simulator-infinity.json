@@ -820,6 +820,13 @@
       "a": "The game updates every Friday at 2PM EST. New codes usually arrive with the bigger updates, holiday events and visit milestones."
     }
   ],
+  "tips": [
+    "Sell your bubble often in the early game. Coins pay for better gum and flavors, which let your bubble grow bigger and carry you higher.",
+    "Hatch eggs regularly and equip your strongest pets. Pets boost your bubble size, coins and luck, so a better team speeds up everything.",
+    "Float up to new islands as soon as you can reach them. Moving higher opens up more of the map and its secrets.",
+    "The game updates every Friday, so check the new eggs, shop items and challenges each week to see what is worth chasing."
+  ],
+  "useRewards": "Codes give a large stack of Elixirs, Dice and Mystery Boxes, so redeem them all at once. Drink Infinity Elixirs and Secret Elixirs right before a long hatching session so the boosts are not wasted. Open the Mystery Boxes and use the Dice whenever you like. The Obby Keys from obby are for the obbies, and the Bait from update16 is for fishing.",
   "aliases": [
     "bgsi",
     "bgs infinity",

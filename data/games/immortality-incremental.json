@@ -59,5 +59,12 @@
       "q": "What do Immortality Incremental codes usually give?",
       "a": "Codes usually give potions (such as Path, Mark, Weather and Ore potions), Tickets and Jade. These speed up breakthroughs and let you get further before each reset."
     }
-  ]
+  ],
+  "tips": [
+    "Leave the built-in autoclicker running so your power keeps climbing on its own. That frees you to focus on when to break through to the next realm.",
+    "Before you use a reset layer, read what boost it gives. A reset only pays off if the multiplier makes your next run faster than staying where you are.",
+    "Like and favorite the game and join the group. The description says these unlock follower rewards and extra boosts, which are easy gains for a new player.",
+    "The game now has several worlds and a dungeon. Build up your breakthroughs and multipliers in the early world first, because harder areas are slow without them."
+  ],
+  "useRewards": "RELEASE gives a set of free potions. The game has several kinds, such as Path, Mark, Weather and Ore potions, so read what each one does before drinking it. Potions that boost progress are best used right after a reset, when you are about to climb quickly through the early realms. If a later code gives Tickets or Jade, hold them until you know what they unlock in the world you are working on."
 }

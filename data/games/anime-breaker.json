@@ -549,6 +549,13 @@
       "a": "Type them in capitals exactly as listed. Every current code is uppercase letters and numbers with no spaces, so copying and pasting is the safest way."
     }
   ],
+  "tips": [
+    "Leave auto-click on whenever you are not busy. Energy is what makes you stronger, so even quiet moments add to your power.",
+    "Open cards often in the first worlds. Every companion fights next to you, so a few extra companions make early enemies fall much faster.",
+    "Check both the rank up and upgrade menus each time you collect a big batch of resources. Falling behind on either one makes the next world feel much harder.",
+    "Hold off on raids until you have built up energy and companions in the normal worlds. Raids are the tougher fights, so go in prepared."
+  ],
+  "useRewards": "All 30 working codes together give over 6,000 Emeralds, so redeem the whole list in one sitting. Because Emeralds are hard to earn, spend them on things that make you stronger for good instead of short boosts. The T2 potions from CLASSTREE and 10KFAVORITES, plus the Currency Boxes from SHUTDOWN, 5KFAVS and 10KFAVORITES, are best opened when you reach a new world and need a quick push.",
   "codeChannels": "The Anime Breaker Discord server, where codes are posted for visit, favorite and player-count milestones and with each update",
   "requirement": "Finish the short opening tutorial before the code box will accept codes."
 }

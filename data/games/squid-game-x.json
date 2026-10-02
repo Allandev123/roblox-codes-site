@@ -59,5 +59,12 @@
       "q": "What are Coins from Squid Game X codes used for?",
       "a": "Coins can be spent on boosts, such as sprint or damage upgrades, that improve your odds in the harder games."
     }
-  ]
+  ],
+  "tips": [
+    "In Red Light, Green Light, stop the moment the light changes. Moving even a little at the wrong time gets you eliminated.",
+    "A round runs through many modes, so learn them one at a time. Knowing the tricky ones, like Honeycomb and Glass Bridge, keeps you alive longer.",
+    "Newer modes like Musical Chairs, Jump Rope, Sky Squid and Final Dinner can catch you off guard. Watch how other players handle them the first few times.",
+    "If you get eliminated, stay and watch. Seeing how the winners play each game is a quick way to learn for your next round."
+  ],
+  "useRewards": "The current code, $1.2M, gives Coins. Coins buy boosts that help in the harder games, so save them for the modes you lose most instead of spending on the first boost you see. Type the code with the dollar sign, the dot and the capital M exactly as shown. Big codes come at like milestones, so redeem each one quickly."
 }

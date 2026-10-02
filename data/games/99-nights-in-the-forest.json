@@ -104,6 +104,13 @@
       "a": "Each code works once per account, so it may already be claimed, or it expired after an update. Copy it exactly with lowercase letters and no extra spaces."
     }
   ],
+  "tips": [
+    "Spend your first day chopping trees and hauling logs back to the campfire. A bigger fire lights up more ground at night, and staying inside that light is the safest place to be.",
+    "Bring scrap back to camp along with wood. Scrap goes into the crafting bench, and upgrading the bench unlocks better tools and items for your base.",
+    "Watch your hunger bar. Cook raw meat on the campfire before eating it, and keep some food stored at camp so nobody has to go hunting after dark.",
+    "Split up the jobs with your team. One player can keep the fire fed while the others gather food and scrap, which saves time and keeps someone at camp."
+  ],
+  "useRewards": "The three working codes add up to 45 Diamonds, which can bring a class you want much closer. Redeem them together from the lobby before your next run so you can see your full total at once. The Flames from awardwinner_yay and forestwakesup26 come on top of the Diamonds, so there is no reason to wait. Claim every code soon, since older ones like happyhalloween have already stopped working.",
   "aliases": [
     "99 nights",
     "99 nights forest",

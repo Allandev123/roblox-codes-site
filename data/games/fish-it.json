@@ -200,6 +200,13 @@
       "a": "No new code was reported with the Arcadia island. The newest code going around is ELEMENTAL26, which gives two Mutation II potions."
     }
   ],
+  "tips": [
+    "Sell common fish and put the coins into a better rod. A stronger rod makes each fishing session pay off more.",
+    "Buy better bait before heading to a new island, so your early catches there are not wasted on weak bait.",
+    "Visit limited islands like Arcadia while they last. The game says its fish and gacha are limited time, so they may not stay forever.",
+    "Check the battlepass rewards often. They give extra prizes as you play, so make sure you claim them."
+  ],
+  "useRewards": "The active codes give 6 Mutation II Potions, 2 Luck II Potions and two cosmetics, a lantern and a halo. Potions run out over time, so use them in one long fishing session instead of drinking them a few minutes at a time. The lantern and halo only change your look. Remember the code box needs level 10, so keep fishing until you get there.",
   "aliases": [
     "fishit"
   ],

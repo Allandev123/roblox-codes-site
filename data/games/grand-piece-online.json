@@ -173,6 +173,13 @@
       "a": "You take them to Ash the Tailor to change the look of accessories, and the effect colors of some fruits, fighting styles and weapons. It is only cosmetic, and ILOVEGPO_3 gives you two."
     }
   ],
+  "tips": [
+    "Do quests on each island to earn EXP. Quests are the main way to gain levels before moving on to tougher islands.",
+    "Pick a fighting style or sword and focus your stat points on it. Spreading points across everything makes you weaker overall.",
+    "Check under trees as you explore. Fruits can spawn there naturally, and the game page lists it as one way to find them.",
+    "Bosses and dungeons can drop fruits and good loot. Team up with other players to take them on once you are strong enough."
+  ],
+  "useRewards": "FREE_EXP6 lasts 3 days, so redeem it when you can spend a few sessions grinding quests. The two drop codes each last a day, so if you can play on two days in a row, redeem them on separate days to cover more farming, but do not wait long since GPO codes expire quickly. ILOVEGPO_3 gives Tailor Vouchers, which only change looks.",
   "aliases": [
     "gpo",
     "grand piece"

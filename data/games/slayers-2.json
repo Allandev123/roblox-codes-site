@@ -167,6 +167,13 @@
       "a": "Yes. Type Release26 and SkillTreeReset with the same capital letters shown here, and redeem codes quickly because many expire within a day or two."
     }
   ],
+  "tips": [
+    "Choose your path early. Slayers learn a Breathing style and climb the ranks from Mizunoto to Hashira, while Demons use Blood Demon Arts and rise toward Upper Moon.",
+    "Plan your skill tree before you spend points. Reset codes exist, but they can expire, so do not count on fixing a messy build later.",
+    "Bosses and raids are much harder than normal enemies. Team up with other players for them instead of going in alone.",
+    "On mobile, you can turn shift lock on in the top right corner and change your button size in settings. Mobile and console players can also adjust aim assist."
+  ],
+  "useRewards": "ANIM4L, SPINS50 and Release26 give 130 Spins together, which is plenty of rerolls for a new character. Keep the Ores and the Refinement Ore until you know what you want to improve. Release26 also adds 100 Wen. Use the Breathing, Evil Art and skill tree reset codes only after you have tried a build and want to change it, since each code works once.",
   "aliases": [
     "project slayers 2",
     "ps2"

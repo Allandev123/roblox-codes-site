@@ -168,6 +168,13 @@
       "a": "A new 1,000 coin code usually appears each time the game reaches another 10,000 likes, so check back when the like count gets close."
     }
   ],
+  "tips": [
+    "Join the InfinitySports group. Besides making codes work, it gives you 1.5x coins from playing, which adds up quickly.",
+    "Start with pickup games at the park to get used to shooting, passing and blocking before you try full 5v5 or ranked games.",
+    "Pass the ball around in 5v5 instead of forcing every shot. An open teammate usually has a better look than a crowded shot.",
+    "If you want regular teammates, look into joining a clan. Playing with the same people makes team games easier to win."
+  ],
+  "useRewards": "Redeem the like-goal codes like 650KLIKES and 640KLIKES as soon as you see them, since each gives 1,000 coins and they expire quickly. Spend those coins on the skin or effect you want most. Open the Summer Skin Case from QOL and the Summer Effect Case from EMOTESFX for a random cosmetic. Cases are a nice extra, but coins let you choose exactly what you get.",
   "aliases": [
     "bl",
     "bball legends"

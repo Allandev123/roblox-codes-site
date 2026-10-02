@@ -200,6 +200,13 @@
       "a": "It was only for a limited number of players, so it may already be used up. If it says invalid, the other codes on this list still work."
     }
   ],
+  "tips": [
+    "When a shot misses, change only one setting at a time. Adjusting power, angle, rotation and curve together makes it hard to tell what went wrong.",
+    "Set up the wall the way you find hardest and practice alone before you challenge other players with the same setup.",
+    "Try free kicks from different spots on the pitch, not only your favorite one. Each spot needs different settings to score.",
+    "When a setup scores, remember the power and curve you used from that spot. Repeating what works is faster than guessing each time."
+  ],
+  "useRewards": "The working coin codes add up to 410,000 Coins, plus one Perk Point from PERKSSSS. That is enough to buy several cards at once, so redeem them together and plan what to buy before you spend. Try KNUCKL3 right away, since it only works for a limited number of players. Hold the Perk Point until you know which kind of kick needs the most help.",
   "aliases": [
     "tfc"
   ],

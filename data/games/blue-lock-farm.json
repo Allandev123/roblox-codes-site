@@ -59,5 +59,12 @@
       "a": "The game description tells players to join the community for more exclusive codes, and the developers post new codes in their Discord server. New codes tend to arrive with updates, such as the weather and traits patches."
     }
   ],
+  "tips": [
+    "Place every new character on your plot as soon as you get it, since placed characters are what earn money. Swap weaker ones out as better pulls come in.",
+    "Upgrade the characters you plan to keep. Upgrades raise their earnings, so they matter most on characters that stay on your plot.",
+    "Save up for better lockers instead of only buying the cheapest ones. Better lockers give you a chance at much stronger characters.",
+    "Lockers open and money builds while you are offline, so log back in often to collect and spend what you earned."
+  ],
+  "useRewards": "WEATHER gives Grade Tokens and potions. Use the Grade Tokens on a strong character you plan to keep, not a starter you will soon replace. Drink cash potions when your plot is full of good characters, and luck potions right before you open a few lockers, so each boost counts. Join the community as the game page suggests, since it promises more codes there.",
   "published": "2026-09-29T16:27:49.271Z"
 }

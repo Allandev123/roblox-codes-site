@@ -285,6 +285,13 @@
       "a": "Yes. Each numbered code like FREE198 or FREE199 is its own code, and each one gives 3 Keys once per account, so redeem every one that still works."
     }
   ],
+  "tips": [
+    "Step on a duel pad to start a match. Duels are first to 5 wins, so losing one round is not the end. Stay calm and change how you play.",
+    "Check your contracts before you queue. They give extra rewards for things you do in matches, so you can work on them while you play normally.",
+    "Stick with one loadout for a while instead of switching every match. Getting good with one primary weapon usually helps more than trying everything at once.",
+    "Use 1v1 duels to learn a new weapon, since there are no teammates to cover your mistakes. Move to bigger team duels once you feel comfortable with it."
+  ],
+  "useRewards": "Most RIVALS codes give Keys, and the numbered FREE codes add up quickly, so redeem every working one before you choose your next weapon. The Community Wraps, charm and emote are cosmetic and never change how a weapon shoots. Goodie Bags, Pearls and Tropical Chests come from event codes, so open or spend them while that event is still running in the game.",
   "aliases": [
     "roblox rivals",
     "rivals roblox"

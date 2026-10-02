@@ -59,5 +59,12 @@
       "q": "Is there a code in the Anime Fighting Simulator game description?",
       "a": "Yes. The game's Roblox description tells players to use CLOVERPASS. It gives 1k Clover Tokens, 1k Tensei Shards and 2.5k Chikara Shards."
     }
-  ]
+  ],
+  "tips": [
+    "Train your stats every time you play, even for a few minutes. Stats decide how hard you hit and how much damage you can take, and most other progress builds on them.",
+    "Summon champions early on. They train and fight alongside you, so each one you level up keeps adding to your progress.",
+    "Take on bosses once your stats can handle them. Bosses drop rare items and rewards that training alone will not give you.",
+    "Hold off on fighting other players until your stats are higher. Early on, time spent training does more for you than losing fights."
+  ],
+  "useRewards": "CLOVERPASS gives 1k Clover Tokens, 1k Tensei Shards and 2.5k Chikara Shards. Clover Tokens belong to an event, so spend them on the event rewards before it ends instead of letting them sit. The Chikara and Tensei Shards are worth holding until you know which power or reroll you want most, since spending them in one place usually gives a bigger jump than splitting them up."
 }

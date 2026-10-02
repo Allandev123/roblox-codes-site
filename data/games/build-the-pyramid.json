@@ -115,6 +115,13 @@
       "a": "Speed makes you walk faster between the block pile and the pyramid. Strength lets you carry heavier blocks, so each trip adds more to the build."
     }
   ],
+  "tips": [
+    "Switch between carrying and training. A short training break between trips makes every later trip quicker, so you get more done than by hauling blocks nonstop at low stats.",
+    "Everyone in the server builds the same pyramid, so stay where the group is working and drop blocks there instead of wandering off on your own.",
+    "Put early Coins into upgrades that let you pick up and place more blocks at once. Moving more per trip speeds up every pyramid after that.",
+    "Stay until a pyramid is finished. Completing one is what makes you stronger for the next, so leaving halfway skips the biggest boost."
+  ],
+  "useRewards": "WELCOME adds Speed and Strength straight away, so redeem it before you start training and skip the slowest early stretch. FREECODE gives Coins, which are best saved for an upgrade that moves more blocks per trip rather than spent on small extras. Past update codes have stopped working quickly, so redeem new ones as soon as the developers share them instead of saving them for later.",
   "aliases": [
     "btp",
     "build a pyramid",

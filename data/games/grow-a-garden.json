@@ -153,6 +153,13 @@
       "a": "They are added to your inventory as decorations. Equip one and click on your plot to place it in your garden."
     }
   ],
+  "tips": [
+    "Check the seed shop each time it restocks, since the stock changes and rare seeds sell out fast. Plant cheap seeds first so your farm keeps making Sheckles while you save up.",
+    "Crops that keep giving fruit after each harvest pay off for longer than ones you only pick once, so try to fill your plots with those as soon as you can afford them.",
+    "Pets give helpful bonuses in your garden. Once your seed income is steady, put some Sheckles toward pet eggs instead of spending everything on more seeds.",
+    "Your farm only has so much room. Later on, clear out weak plants to make space for better seeds instead of keeping every crop you started with."
+  ],
+  "useRewards": "Grow a Garden codes right now only give decorations, like the Whispering Torii and the Green Bean Chamber. They do not speed up growth or add Sheckles, so there is no best moment to redeem them. Claim them as soon as you see them, because event codes in this game tend to disappear once the event is over, as LUNARGLOW10 and BUZZYBEES25 did. Your income still comes from planting, harvesting and selling crops.",
   "aliases": [
     "gag"
   ],

@@ -63,5 +63,12 @@
       "a": "Open the Shop with the trolley icon on the left side of the screen, then scroll to the very bottom of the Shop window."
     }
   ],
+  "tips": [
+    "Keep clicking as you fight, since every click adds power. More power means you clear enemy hordes faster and gather more ore.",
+    "Forge new gear as soon as you have enough ore. Stronger weapons and armour are what let you move into tougher areas.",
+    "If enemies in a new area take too long to defeat, go back to an easier one and farm ore for a gear upgrade first.",
+    "Pick up ore from every fight. Even easier enemies drop ore you can forge with, so grinding them is not wasted time."
+  ],
+  "useRewards": "50000CCU gives 50 Ember Stones. Redeem it once you finish the tutorial, then use the stones when you have ore ready to forge, so they go straight into a real upgrade. When a code gives race rerolls, roll when you have time to try a few in a row. Power Potions are best saved for a long session of clearing enemies.",
   "published": "2026-09-29T16:27:49.271Z"
 }

@@ -137,6 +137,13 @@
       "a": "Open the Shop from the button on the left side of the screen and scroll to the very bottom. The code box and Redeem button are there."
     }
   ],
+  "tips": [
+    "Fill your farm with your best cards first, since cards on the farm are what earn money. Swap out weaker cards as soon as better ones come out of your packs.",
+    "Put upgrades into the cards you plan to keep, not every card you pull. Upgrades raise how much a card earns, so they pay off most on cards that stay on your farm.",
+    "Your packs keep opening and your money keeps growing while you are offline, so check back often and turn that cash into better packs.",
+    "Keep any mutated card you find. Mutations add big boosts, which can make a card worth much more than a normal copy."
+  ],
+  "useRewards": "Drink the Luck and Mutation Potions from POTIONS and BRUTALCOMEBACK! right before you open a big stack of packs, so both boosts count on the same pulls. Cash and Production Potions work best once your farm is full of good cards. Save the Trade Ticket from TRADING! until you see a trade you really want, and keep your Trait Gems for a card you will not replace soon.",
   "aliases": [
     "acf"
   ],

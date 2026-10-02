@@ -170,6 +170,13 @@
       "a": "It fills a character's mastery bar, and a full bar unlocks the mastered version of that character with stronger moves. EXPLOSIONHEROMASTERYRELEASE gives 5 progress."
     }
   ],
+  "tips": [
+    "Learn the basic keys before big fights: F blocks, Q dashes and G uses your ultimate. Pressing Q while ragdolled gives a recovery dash that can pull you out of a combo.",
+    "Jumping and then left clicking does a downslam. Mix it in with normal punches so other players have a harder time guessing your next move.",
+    "Pick one hero or villain you enjoy and stick with them for a while. Mastery builds up on that character, so jumping between fighters every match spreads your progress thin.",
+    "Hold your ultimate until an enemy is low or caught in your combo. Firing it at a player who can still block or dash away often wastes it."
+  ],
+  "useRewards": "Redeem EXPLOSIONHEROMASTERYRELEASE first, since its 5 Mastery Progress pushes you toward a stronger mastered fighter. The other three codes give emotes, which are just for fun, so there is nothing to save. Claim all four in one go, because codes here have a habit of expiring when the next mastered character arrives, like LOVESICKKILLERULT did. Press B afterwards to open the emote menu and try your new ones out.",
   "aliases": [
     "hbg"
   ],

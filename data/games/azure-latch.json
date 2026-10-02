@@ -182,6 +182,13 @@
       "a": "They usually show up after a shutdown for an update or fix, after a character rework, or when the game hits a new player count milestone."
     }
   ],
+  "tips": [
+    "Learn the basic keys first: M1 shoots, Q tackles, E dribbles with the ball and R uses the whistle. Your style's skills are on keys 1 to 5.",
+    "When you are in goal, Q dashes you left and right and makes you dive. Wait until the shot is taken before diving, since going early leaves the net open.",
+    "Pass when a teammate is open instead of shooting from far away. In a 5v5 match, a teammate with space often has a much better chance to score.",
+    "Check what each of your style's skills does before a match. Knowing your kit helps you use the right skill at the right time."
+  ],
+  "useRewards": "The two style codes give 20,000 Style Coins and 30,000 Cash in total, so redeem both together before the next update removes them. The emotes from BROTHERNOAH, MYANIMEFANSMAN and QUIET are just for fun, so grab them whenever you like. Keep the Cash until you know what you want, since the Style Coins are the part that changes how you play.",
   "codeChannels": "The Azure Latch Discord server and the Azure Latch Team Roblox group",
   "requirement": "Some players report codes only work after joining the Azure Latch Roblox group, so join it first to be safe."
 }

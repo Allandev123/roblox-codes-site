@@ -448,6 +448,13 @@
       "a": "It has either expired or you already used it on this account. Codes are one use each, and older streamer codes get removed often, so check the list above before trying again."
     }
   ],
+  "tips": [
+    "Always take a quest from the quest giver before you fight enemies on an island. Quest kills give much more XP than random kills.",
+    "Put stat points into Melee and Defense early, then add Sword, Gun or Blox Fruit depending on what you fight with most.",
+    "Fruits spawn around the map every hour and disappear after 20 minutes. The Blox Fruits Dealer also restocks random fruits every 4 hours, so check back often.",
+    "Fight bosses once your level is close to theirs. Going after one far above your level mostly wastes time you could spend on quests."
+  ],
+  "useRewards": "There are 17 working 2x XP codes, which add up to more than five hours of double XP if you run them one after another. Start one at the beginning of a long questing session, then redeem the next when it ends. Keep the three stat reset codes until you change builds. Bignews only gives a title and the Fudd10 codes give a tiny bit of Beli, so redeem those any time.",
   "aliases": [
     "bf",
     "blox fruit"

@@ -353,6 +353,13 @@
       "a": "The 4x Luck boost only lasts 10 minutes and works in the AFK world, so redeem it right before you head there. Using it while playing regular matches wastes most of the timer."
     }
   ],
+  "tips": [
+    "Do not spam the block button. Blocking has a short cooldown, so pressing too early can leave you open when the ball actually reaches you.",
+    "Turn on shift lock with Shift so your camera stays steady. It makes it much easier to track the ball as it speeds up.",
+    "Keep some distance from other players. When the ball targets someone near you, it can come your way with very little time to react.",
+    "Try a few abilities and upgrade the one that fits your style. A good ability helps, but blocking at the right time still wins most rounds."
+  ],
+  "useRewards": "Redeem every wheel spin code together and spin them all on the current wheel for chances at sword skins and effects. The 50 Dungeon Runes from DUNGEONSRELEASE are for dungeons, and the Storm Ticket from BATTLEROYALE is for the Battle Royale mode, so keep each one for when you play that mode. SERPENT only enters you into a giveaway, so do not expect an item from it.",
   "aliases": [
     "bb"
   ],

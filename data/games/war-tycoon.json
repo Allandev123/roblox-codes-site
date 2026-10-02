@@ -148,6 +148,13 @@
       "a": "It was a limited code for the game passing one billion visits, and most recent checks show it has expired. Use WAR1MIL, Wiki200K and Boom instead."
     }
   ],
+  "tips": [
+    "Build walls and defenses early. They keep raiders out while you collect cash and finish the rest of your base.",
+    "Some vehicles unlock by level, not rebirth, like the Tornado ASSTA at Level 50. Playing and fighting also opens up new gear.",
+    "The latest update added vehicle stealing, so do not leave your tank or jet sitting near an enemy base where someone can take it.",
+    "Progress and game passes save automatically, so you can leave and come back later without losing the base you built."
+  ],
+  "useRewards": "Redeem WAR1MIL early, when a million cash makes the biggest difference to your base. Use the instant War Lab unlock on a long research you do not want to wait for, if you get to choose. The Medals and Elite Camo Case are nice extras. Wiki200K and Boom only give weapon skins, so they change how your guns look, not how they fight.",
   "aliases": [
     "wt"
   ],

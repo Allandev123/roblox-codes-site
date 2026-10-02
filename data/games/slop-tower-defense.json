@@ -63,5 +63,12 @@
       "a": "Cash, Gems and event currencies like Stars pay for more summons and stronger crafts, which build a better unit lineup. Some codes give you a specific unit directly instead."
     }
   ],
+  "tips": [
+    "Place your first units where the path bends or loops. Units there can hit enemies for longer, which helps a lot on early waves.",
+    "Check what you can craft before you get rid of extra units. Spare slop from summons may be exactly what a stronger craft needs.",
+    "Upgrade a few good units instead of filling the map with weak ones. Strong upgraded units hold the later waves much better.",
+    "Play themed events like the Backrooms while they are live. Event currencies such as Stars, Suns and Sheckles come from those events."
+  ],
+  "useRewards": "SLOP is the working code and gives 900 Cash, a small push toward your next summons. Older codes have given Gems, Stars or a specific unit, and they tend to come with milestones and data wipes. When a code hands you a unit, try it in a match before you spend more on summons, so you know if it fills a gap in your lineup.",
   "published": "2026-09-29T16:27:49.271Z"
 }

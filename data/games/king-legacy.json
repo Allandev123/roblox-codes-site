@@ -190,6 +190,13 @@
       "a": "Both are for players who owned the Dragon fruit before Update 7. RainbowDragon needs the rainbow dragon unlocked, and DragonColorRefund gives 50 Gems, or 10 if your dragon was red."
     }
   ],
+  "tips": [
+    "Fruits spawn on the map every one to two hours but vanish after about 15 minutes. If you spot one, go for it straight away before it disappears.",
+    "Put most of your points into one main stat, such as melee, sword or devil fruit, instead of splitting them evenly. A focused build gets stronger much faster.",
+    "Take quests that match your level as you sail between islands. Questing is the main way to earn EXP on the long road to the level cap.",
+    "The first time you join, there is a tiny 0.1% chance of getting a free Conqueror ability. It is very rare, so do not worry if you do not get it."
+  ],
+  "useRewards": "Use the two 2x EXP codes, WELCOMETOKINGLEGACY and <3LEEPUNGG, right before a long questing session, since each lasts only 30 minutes. Claim the second one after the first runs out so you get the full time from both. You have two stat reset codes, FREESTATSRESET and 2MFAV, which lets you change your build twice without spending Gems. DragonColorRefund only helps players who had Dragon before Update 7.",
   "aliases": [
     "kl"
   ],

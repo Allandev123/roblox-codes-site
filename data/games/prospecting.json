@@ -180,6 +180,13 @@
       "a": "It was tied to an egg hunt event and expired after it ended. Seasonal and event codes in Prospecting! usually stop working once the event is over."
     }
   ],
+  "tips": [
+    "Look at the stats on each pan and shovel before you buy. Upgrade both over time instead of putting all your cash into just one.",
+    "Sell your finds regularly so you always have cash coming in for the next gear upgrade.",
+    "Stay at the first river until you can afford better gear. Rushing into new areas with starter tools makes each trip slow.",
+    "The game says there are secrets to discover, so explore the rivers, caves and old mining sites instead of panning in one spot forever."
+  ],
+  "useRewards": "Spend code Cash on a better pan or shovel, since gear is what speeds up every trip. For oneyear, pan for a while without selling, then redeem it and sell your whole haul under the 1.5x Sell Boost. Keep panning with its 2x Luck for the rest of the two hours. Hold Meteor Shards until you know what you want from them, and redeem luck codes one at a time.",
   "aliases": [
     "prospecting"
   ],

@@ -59,5 +59,12 @@
       "q": "What do code rewards and coins get you in Murderers VS Sheriffs?",
       "a": "Codes usually give knife or gun skins, or coins. Coins buy cosmetic knife and gun skins, so these rewards change how your weapons look, not how they perform."
     }
-  ]
+  ],
+  "tips": [
+    "As a sheriff, keep some distance and aim carefully, since your gun is strongest at range. As a murderer, use cover to close the gap before you strike.",
+    "Practise in 1v1 matches first. With only one opponent, you can focus on your aim and reaction time before trying team modes.",
+    "In 3v3 and 4v4 rounds, stay close to your teammates. A player on their own is easy to pick off, especially by a group.",
+    "Rounds are quick, so do not dwell on a loss. Think about what went wrong and try a different approach in the next round."
+  ],
+  "useRewards": "1BVISITS gives the 1B Knife, a skin that marks the game passing one billion visits. Skins only change how your weapon looks, so there is nothing to time. Claim it while the code is still live, because milestone codes do not stay around forever. When a code gives coins instead, save them for a knife or gun skin you really like rather than the first one you can afford."
 }

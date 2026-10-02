@@ -29,6 +29,7 @@ export const about = site => `
 
 <h2>How the pages are written</h2>
 <p>Every game page says where that game's code box actually is, what each code gives, and a little about the game. I research each game from its Roblox page and the developers' own posts. AI tools help me research and draft; I check and edit every page before it goes up, and fix it when a game moves its menus. When I've checked a game's redeem steps in-game myself, the page says so with the date.</p>
+<p>The beginner tips on each game page come from the game's official description and the developers' posts, not from me playing every game. My guides, blog posts and screenshots are different: those come from my own games, and the screenshots are marked "my screenshot".</p>
 <p>I'd rather cover fewer games properly than hundreds badly, so a game only gets a page once it has working codes.</p>
 
 <h2>How the site pays for itself</h2>
@@ -61,6 +62,7 @@ export const method = site => `
 
 <h2>6. Redeem steps and game guides</h2>
 <p>Where the code box is changes from game to game, so every page has its own steps. I research them from the game's Roblox page, the developers' posts and other players' reports, and use AI tools to help research and draft. I edit every page before it's published. When I've checked a game's steps in-game myself, the page shows "checked in-game" with the date. If a game moves its Codes button in an update, the steps get fixed.</p>
+<p>The beginner tips on game pages are researched the same way, from the game's own description and the developers' posts. My guides and blog posts are written from my own play, with my own screenshots.</p>
 
 <h2>7. Dates you'll see</h2>
 <ul>

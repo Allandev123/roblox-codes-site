@@ -79,6 +79,13 @@
       "a": "The developers share them in the codes channel of the official Deagle Arena Discord server, often on the same day as an update."
     }
   ],
+  "tips": [
+    "Since everyone uses the same Deagle, the first clean hit often wins the fight. Aim with right click for longer shots and take quick shots up close.",
+    "Keep moving between shots. A player who stands still is easy to hit with a pistol this strong, so strafe and change direction often.",
+    "Warm up in free-for-all rounds before trying ranked. Short deathmatches are a good way to learn the maps and steady your aim without risking your rank.",
+    "If you spot a bug, report it in the group or community server. The game page says bug reports can earn you rewards."
+  ],
+  "useRewards": "DISCORD gives 5,000 Cash, which is the more useful code early because Cash goes toward skins and unlocks. GREEKWARRIOR gives Greekpoints, a separate currency, so hold onto them until you see what they unlock rather than spending them at random. Neither reward changes your weapon, since everyone fights with the same Deagle, so these codes help with your collection, not your aim.",
   "aliases": [
     "deagle arena"
   ],

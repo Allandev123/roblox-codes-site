@@ -291,6 +291,13 @@
       "a": "Many players buy Royal Jelly with Tickets to roll for rare bees. Ticket items from the Ticket Tent are another good option once your hive is bigger."
     }
   ],
+  "tips": [
+    "Head back to your hive and make honey whenever your bag is full. A full bag stops collecting pollen, so time spent in the field with a full bag is wasted.",
+    "Talk to every bear you meet and keep their quests going. Quests are one of the best sources of honey, items and new fields.",
+    "Buy a bigger bag and better collector from the shop early. A larger bag means fewer trips back to the hive.",
+    "Bees collect more from flowers that match their color, so red bees do well in red fields and blue bees do well in blue fields. Build your hive around one color over time."
+  ],
+  "useRewards": "Use Micro-Converters when your bag is full and you are far from your hive. Roll Field Dice and pop Pineapple Patch boosts while you are farming in that field so the boost is not wasted. Stingers help most right before a fight with mobs. Give berries and treats to the bees you plan to keep, and save the Marshmallow Bee for a long farming session, since it leaves when its timer ends.",
   "aliases": [
     "bss",
     "bee swarm",

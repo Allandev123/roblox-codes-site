@@ -69,5 +69,12 @@
       "q": "What can I spend Taxi Boss code cash on?",
       "a": "Cash buys new cars, performance parts and visual mods such as wheels, spoilers, lights and paint. Customers pay more the quicker you get them to their destination, so faster cars earn bigger fares."
     }
-  ]
+  ],
+  "tips": [
+    "Take the fastest route you can find. Fares go up the quicker you deliver, so learning the city streets pays off fast.",
+    "Spend early money on performance parts before looks. Paint and lights are fun, but a faster car is what earns bigger fares.",
+    "Go for better customers once your car can handle them. They pay more than regular riders, which is how the game works like a tycoon.",
+    "Upgrade your garage once you own a few cars. It lets you display your best cars and shows how far your collection has come."
+  ],
+  "useRewards": "Both working codes give 1,000 cash, so you get 2,000 in total. Redeem them on your first drive and put the money toward a faster car or a performance part, since speed is what raises your fares. Save cosmetic mods for later. Codes from balance updates have also given parts like turbos, and those are worth fitting to your car right away."
 }

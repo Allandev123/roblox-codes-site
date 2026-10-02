@@ -59,5 +59,12 @@
       "q": "Where does the +1 DMG FPS developer post new codes?",
       "a": "Mappy Tappy announces codes in its Discord and Roblox group, often around updates and player count milestones. Codes can also show up in the game's Roblox description, which is where AA2026 was posted."
     }
-  ]
+  ],
+  "tips": [
+    "Keep shooting. Every hit adds one permanent point of damage, so even weak enemies are worth hitting while you grind.",
+    "Medals unlock better guns, so check the gun list each time you earn a few to see if an upgrade is ready.",
+    "Rebirth when your progress starts to slow down. The big power boost makes your next run much faster than the one before.",
+    "Try the Hunt mode added in the V2 update with other players. Teaming up is a nice change from fighting on your own."
+  ],
+  "useRewards": "AA2026 gives one random Buddy. Claim it at the start so it helps you through the early grind instead of joining later when you are already strong. If a future code gives a free rebirth or flat damage, redeem it right away, since early boosts save the most time in a game where every hit counts."
 }

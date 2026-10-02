@@ -80,6 +80,13 @@
       "a": "A faster scooter is usually the best first buy, since it helps you get around town and earn cash more quickly. Save helmets and extras for later."
     }
   ],
+  "tips": [
+    "Practice wheelies on a quiet street first. They are skill based, so go easy on the throttle until you find the balance point.",
+    "Try first person view when riding through tight streets. It makes it easier to judge gaps, then switch back to see more around you.",
+    "Spend some time exploring the open world. Learning the roads helps you ride smoothly and avoid crashes that slow you down.",
+    "The game is in early beta, so if your scooter gets stuck or something breaks, rejoining a new server usually fixes it."
+  ],
+  "useRewards": "Both active codes give 1,000 Cash, so redeeming them together gets you 2,000 Cash. Add that to what you earn from riding and save toward one bigger purchase instead of spreading it across small extras. Since codes have arrived alongside patches and updates, check for a new one each time the game updates.",
   "aliases": [
     "dak",
     "kukirin",

@@ -82,5 +82,12 @@
       "a": "An Airstrike calls a strike on enemy players, including whoever raided you. TY5500 gives one, along with cash, gems, a Guard Ticket and a 5-minute 2x cash boost."
     }
   ],
+  "tips": [
+    "Agree on roles with your partner early. One of you can keep buying droppers and upgraders while the other puts up walls and turrets, so the factory grows and stays protected at the same time.",
+    "Unlock better guns before you start raiding. There are 9 weapons, from the pistol up to the flamethrower and rocket launcher, and a stronger gun makes it much easier to fight past a rival's defenders.",
+    "A raid has three steps: shoot out the rival's power, crack their vault, then run the cash back to your own factory. Plan your route home before you go in.",
+    "Keep an eye on the events that start every few minutes. Double Cash is a good time to stay home and collect, while Air Drops, King of the Hill and Oddball give you a reason to head out."
+  ],
+  "useRewards": "LAUNCH gives 1,000 Cash and a Guard Ticket. Spend the cash on droppers and upgraders right away, because more income early speeds up every floor after it. Roll the Guard Ticket once your vault has some walls around it, so the new defender has something to protect. If a later code includes a 2x Cash boost or an Airstrike, start the boost while your factory is running and keep the Airstrike for a team that just raided you.",
   "published": "2026-09-29T16:27:49.271Z"
 }

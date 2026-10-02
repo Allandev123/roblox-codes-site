@@ -72,6 +72,13 @@
       "a": "Speed from codes is a flat amount, so it helps most early on when your own speed is low. Using it on a fresh account gets you across the first sections much faster."
     }
   ],
+  "tips": [
+    "Every step adds Speed, so keep moving even when you are not trying to finish. Running around near the start still builds your main stat.",
+    "Slow down before tricky jumps. At high speed it is easy to overshoot a key, and one fall sends you back to the start.",
+    "Use multipliers as soon as you unlock them. They make each step worth more than one Speed, which adds up quickly.",
+    "Turn your sound on. The keyboard clicks and candy sounds are a big part of the game's relaxed ASMR style."
+  ],
+  "useRewards": "BYP4SS1 adds 15,000 Speed in one go, which saves a lot of steps. After you redeem it, try the sections you could not clear before. Since the personal Discord code also gives 15,000 Speed, using both gets you 30,000 Speed in total. An older public code has already expired, so redeem BYP4SS1 now in case it goes the same way.",
   "aliases": [
     "keyboard escape",
     "speed keyboard escape",

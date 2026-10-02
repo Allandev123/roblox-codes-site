@@ -185,6 +185,13 @@
       "a": "Event and milestone codes from Sonar Studios normally expire after about a week. Only the content creator preset potion codes stay active long term, so redeem event codes as soon as you see them."
     }
   ],
+  "tips": [
+    "Feed your baby dragon often. Dragons grow up over time with care, and an adult dragon is much more useful for riding and fighting.",
+    "Gather resources like food and building materials as you explore. You need them to look after your dragons and build up your lair.",
+    "Keep an eye out for eggs in every world you visit. Hatching new species is how your collection grows, and there are over 200 to find.",
+    "Build your lair a little at a time. Starting small and adding pieces as you gather materials is easier than planning a huge base all at once."
+  ],
+  "useRewards": "Each working code gives one preset potion that recolors a dragon in a creator's style, and a potion is used up on one dragon. Save them for a species you plan to keep long term rather than a dragon you might trade or replace. Limited event codes have given potions, food and coins in the past, so redeem those the day you see them.",
   "aliases": [
     "da",
     "dragon adventure"

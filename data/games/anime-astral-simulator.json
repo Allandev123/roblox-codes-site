@@ -59,5 +59,12 @@
       "q": "Where does the Astral Team post new Anime Astral Simulator codes?",
       "a": "The developers, StarX Inc (credited in game as the Astral Team), share new codes in their Discord server. New batches come with each numbered update and when the game reaches visit, like, favourite or player-count milestones."
     }
-  ]
+  ],
+  "tips": [
+    "Keep training your fighters between rolls. Their power is what lets you move into the next world, and each new world has better rewards than the last.",
+    "Try each game mode as soon as it opens up. Finishing modes pays out rewards, so they give you steady progress on top of normal training.",
+    "Explore every corner of a new world. The game page hints that secret fighters are out there for players who look around.",
+    "Drink potions with a plan. Use luck potions right before a batch of rolls, and damage or power potions when you are about to train or run a game mode, so no timer runs out while you are idle."
+  ],
+  "useRewards": "The Release code from the game page gives a set of free boosts. Redeem it when you have time for a long session, because boosts run on a timer and you get the most out of them while you are actively rolling and training. If you collect F2P Tickets from later codes, save a few up and spend them in one go while a luck potion is active."
 }

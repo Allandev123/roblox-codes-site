@@ -183,6 +183,13 @@
       "a": "Join the Chillz Studios Roblox group for 25% more Gold on every run, and build a sturdier boat so it travels further down the river."
     }
   ],
+  "tips": [
+    "Start with a wide, boxy hull and add blocks in layers. A thick, plain boat takes more hits from rocks and walls than a thin, fancy one.",
+    "Treat every launch as a test. Watch where your boat starts to break, then go back to your build zone and add more blocks to that exact spot.",
+    "Spend Gold on blocks you will use in many builds before buying decoration parts. Strong building pieces pay you back on every single run.",
+    "Keep a copy of the idea that worked last time and change one thing at a time. Big rebuilds make it hard to tell what actually helped."
+  ],
+  "useRewards": "Squid Army is the only code that gives building material, with 22 Ice blocks plus some Gold, so put that Ice into a boat you plan to keep instead of a quick test. The other codes give 5 Gold or a single Firework, which are small extras. Mix any code Gold with what you earn from runs and spend it on parts that make your hull tougher, since a boat that travels farther earns more Gold.",
   "aliases": [
     "babft",
     "build a boat"

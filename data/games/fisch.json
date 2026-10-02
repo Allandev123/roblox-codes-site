@@ -154,6 +154,13 @@
       "a": "The code gives five pieces used to build a submarine: a back fin, a submarine top, a metal panel, a side fin and a window. Keep them in your inventory until you are ready to build."
     }
   ],
+  "tips": [
+    "Do not worry about slipping during the reeling minigame. The game says it is okay to mess up a few times, so stay calm and follow the fish.",
+    "Your rod matters most early on. Better rods make reeling easier and give you better odds at rare fish, so upgrade it before buying extras.",
+    "Use bait when you fish. Different baits can help you get bites faster or improve your chances at better catches.",
+    "Some fish only appear in certain places or conditions, so try different spots instead of fishing in one place all day."
+  ],
+  "useRewards": "None of the current codes give C$. SCARLET is a skin for Nate's Blade and CARBON is a bobber, both only change how your gear looks. TemporarySubmarine gives five submarine parts, so keep them in your inventory until you are ready to build. Since most update codes need level 25, fish toward that level so you can redeem the next update code.",
   "codeChannels": "The official Fisch Discord server, the @WoozyNate account on X, and the Fisching Roblox group",
   "requirement": "Update codes often need level 25, but the three working codes listed here have no level requirement."
 }

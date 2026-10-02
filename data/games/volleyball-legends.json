@@ -152,6 +152,13 @@
       "a": "The game updates every Saturday, and a new code named after the update number usually arrives with it. Event codes, like the Halloween themed ones, show up during seasonal events."
     }
   ],
+  "tips": [
+    "To serve, click once, then click again to choose power. You can jump and spike the serve, or let the ball drop to bump it in safely.",
+    "Tilt while spiking to change where the ball goes. Aiming away from the other team's players makes your spikes much harder to return.",
+    "Press Ctrl on PC or X on console to dive. Diving saves balls that would otherwise hit your side of the floor.",
+    "Use pickup games to get used to your style and controls. Move to ranked once your serves and spikes feel natural."
+  ],
+  "useRewards": "UPDATE_89 and WE_CURSED give 10 Lucky Style Spins together, and SKELETON adds 5 Lucky Ability Spins. Codes rotate out with each Saturday update, so redeem all three soon. When you land a new style, try it in a pickup match before you reroll, so you do not throw away one that suits you. XP boost codes are best saved for long sessions.",
   "aliases": [
     "vbl",
     "haikyuu legends",

@@ -308,6 +308,13 @@
       "a": "Save them for a rare character you plan to keep on your team. A good trait on a strong character adds far more to your earnings than one on a starter you will replace soon."
     }
   ],
+  "tips": [
+    "Upgrade your dice early. Better dice raise your luck on every roll after that, so the upgrade keeps paying off.",
+    "Put each strong new character on your team right away, since your team is what earns money. A rare character sitting in storage does nothing for you.",
+    "Money builds up while you are offline, so make a habit of spending it on dice upgrades each time you come back.",
+    "Like the game and join the group, as the game page asks. New codes arrive at like goals and with each update, so you will hear about them sooner."
+  ],
+  "useRewards": "There are 17 working codes, so redeem them all at once for a good pile of Lucky Spins, Trait Rerolls, Gems and a few Tickets. Spend the Lucky Spins first and move any good result onto your team. Once your team is set, you will know which characters deserve the rerolls. Gems and Tickets can wait until you know what you want from the shop.",
   "codeChannels": "The official Anime Dice Discord server and the More & More Games Roblox group",
   "requirement": "Finish the tutorial before you try to redeem codes."
 }

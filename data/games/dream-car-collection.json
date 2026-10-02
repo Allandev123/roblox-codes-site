@@ -59,5 +59,12 @@
       "q": "Where does the Dream Car Collection developer post new codes?",
       "a": "New codes are posted in the codes channel of the game's Discord and in the game's Roblox description. The LARP code, for example, appears in the description."
     }
-  ]
+  ],
+  "tips": [
+    "Add each new car to your collection as soon as you open it. Only collected cars earn money, so a car left sitting does nothing for your income.",
+    "Check in often. Money keeps building while you are offline, so coming back to spend it on new crates keeps your collection growing.",
+    "Races with friends are all or nothing, according to the game page. Be ready to walk away with nothing if you lose before you start one.",
+    "As your income grows, put it toward the better crates rather than lots of cheap ones. Pricier crates are the path to rarer cars."
+  ],
+  "useRewards": "Crate Luck Potions only help while you are opening crates, so build up enough money to open several in a row before you drink one. Past codes have also given everything potions and gems, and gems are a separate currency worth keeping until you know what you want. The game is still in beta and changes often, so redeem LARP soon."
 }

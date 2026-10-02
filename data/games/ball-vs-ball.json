@@ -124,6 +124,13 @@
       "a": "Every code so far has been tied to an update, from UPD1 to UPD5. New ones tend to arrive with the next update, so check the Discord announcements channel when the game gets new content."
     }
   ],
+  "tips": [
+    "Each round you choose 1 of 3 random balls. Look at each ball's skill before you pick instead of taking the first one.",
+    "Once per match you can pick any ball from your own collection for free. Save that pick for a round where the random choices are weak.",
+    "Battles play out on their own, so your choice of ball is where the skill comes in. Pay attention to which skills win against which.",
+    "Join the group for the free reward listed on the game page, and use trading to swap balls you do not need for ones you are missing."
+  ],
+  "useRewards": "All five update codes give 100 coins each, so redeeming them together adds 500 coins right away. Since you can bring any ball from your collection once per match, each new ball you unlock gives you another option in every game. Redeem the codes on your first visit so your collection grows from the start.",
   "aliases": [
     "bvb",
     "ball vs ball roblox"

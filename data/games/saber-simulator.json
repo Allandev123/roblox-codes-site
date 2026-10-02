@@ -59,5 +59,12 @@
       "q": "Where does HD Games post new Saber Simulator codes?",
       "a": "New codes are listed in the change log in the game's Roblox description, with more detail in the #change-logs channel of the HD Games community. Joining the HD Games. Roblox group also gives a separate in-game reward: 20% extra Coins, a Chat Tag and a Name Tag."
     }
-  ]
+  ],
+  "tips": [
+    "Spend your first Coins in the shop on a better saber or upgrade. Each swing then gives more Strength, which speeds up the whole swing and sell loop.",
+    "Avoid fights with players who are far stronger than you. Strength decides how hard you hit, so build it up before you go after others.",
+    "Watch for weekend events in the change log. Enchant Weekend gave 50% more enchant tokens, which made it the best time to work on enchants.",
+    "Updates add new eggs, sabers and classes, like the Goliath class and the Orchard Blade. Check the shop and the newest egg after each update."
+  ],
+  "useRewards": "FALL26 is the only working code and gives 35 Shiny, Rainbow and Void Charms. Charms go into your pets, so wait until you have hatched pets from a newer egg that you plan to keep. Using charms on a starter pet you will soon replace can waste them. Older codes have also given Crowns and Coins, and those are best spent right away on progress."
 }
