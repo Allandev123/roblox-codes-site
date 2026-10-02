@@ -68,7 +68,8 @@
         "https://www.pockettactics.com/build-the-pyramid-codes"
       ],
       "approved": true,
-      "approvedAt": "2026-09-29T18:35:26.812Z"
+      "approvedAt": "2026-09-29T18:35:26.812Z",
+      "tested": "2026-10-02"
     },
     {
       "code": "WELCOME",
@@ -85,7 +86,8 @@
         "https://techwiser.com/roblox-build-the-pyramid-codes/"
       ],
       "approved": true,
-      "approvedAt": "2026-09-29T18:35:26.812Z"
+      "approvedAt": "2026-09-29T18:35:26.812Z",
+      "tested": "2026-10-02"
     }
   ],
   "expired": [
@@ -116,7 +118,7 @@
   },
   "added": "2026-09-29T18:35:37.952Z",
   "lastChecked": "2026-10-01T18:24:24.890Z",
-  "lastChanged": "2026-09-29T18:35:26.812Z",
+  "lastChanged": "2026-10-02T14:14:39.207Z",
   "faq": [
     {
       "q": "Which Build the Pyramid code should I redeem first?",
@@ -136,5 +138,8 @@
     "build a pyramid",
     "build the pyramid roblox"
   ],
-  "codeChannels": "The official Build the Pyramid Discord server"
+  "codeChannels": "The official Build the Pyramid Discord server",
+  "redeemImage": "build-the-pyramid-redeem.webp",
+  "redeemCaption": "The Codes box right after redeeming FREECODE: Redeemed! 500 Coins.",
+  "checkedInGame": "2026-10-02"
 }
