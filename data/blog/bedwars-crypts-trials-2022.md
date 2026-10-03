@@ -1,6 +1,6 @@
 ---
 title: "Looking Back at Crypt's Trials, BedWars' Halloween 2022 Event"
-seoTitle: "BedWars Crypt's Trials (2022): How the Halloween Event Worked"
+seoTitle: "BedWars Crypt's Trials 2022: How the Halloween Event Worked"
 short: Crypt's Trials, looking back
 description: "BedWars' Halloween 2022 event Crypt's Trials, looking back: the four trials, how my duo beat them for the free Crypt kit, and what came after."
 summary: How the four trials of BedWars' first Crypt event worked, how we beat them for the free Crypt kit, and what replaced it.

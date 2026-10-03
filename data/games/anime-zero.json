@@ -1,0 +1,142 @@
+{
+  "slug": "anime-zero",
+  "name": "Anime Zero",
+  "robloxName": "Anime Zero [RELEASE] 🎉",
+  "placeId": 114574503491412,
+  "universeId": 10512942223,
+  "gameUrl": "https://www.roblox.com/games/114574503491412/Anime-Zero",
+  "creator": "LY*",
+  "genre": "RPG",
+  "subgenre": "Action RPG",
+  "icon": "anime-zero-icon.webp",
+  "thumb": "anime-zero-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Anime Zero on Roblox and wait until you spawn in the city.",
+    "Click the Codes button on the right side of the screen. It has a white bird icon and sits between Profile and Rewards.",
+    "Click the Enter Code Here box and type the code exactly as shown. Capital letters and the 3s in HOP3YOU3NJOY matter.",
+    "Press Redeem! and your rewards pop up at the top of the screen, like \"You received 10 Rolls\"."
+  ],
+  "notes": "Anime Zero is an anime dungeon slasher from LY*, released on Roblox in July 2026 and still in active development. You roll anime weapons in Summon, equip two of them and switch between them during a run, then clear waves of enemies and a boss at the end. There are three modes, Story, Defend and Infinite, plus a weapon skill tree, enchants, crafted accessories, quests, milestones and titles.\n\nI played it and it's really good. I redeemed all six codes in-game on October 3, and together they gave me 295 Rolls, 14 Lucky Spins, 8 Trait Rerolls, 11,000 Coins and over 400 Gems. HOP3YOU3NJOY alone is worth 250 Rolls. I spent the rolls straight away in Summon and pulled Immortal Sovereign, a Mythic with a 1.4% chance.",
+  "faq": [
+    {
+      "q": "What are the odds in the Anime Zero summon?",
+      "a": "When I checked, the Summon screen listed Epic at 78.86%, Legendary 16.82%, Mythic 4.21%, Arcane 0.11% and Zenless 0.005%. A single Mythic, like Immortal Sovereign, was 1.4%."
+    },
+    {
+      "q": "What is the difference between Rolls and Lucky Spins?",
+      "a": "Normal Spin uses Rolls, and Lucky Spin uses Lucky Spins. You get far more Rolls from codes, so use those first and keep your Lucky Spins."
+    },
+    {
+      "q": "Is there a pity system?",
+      "a": "Yes. The Summon screen tracks pity for Mythic (175), Arcane (350) and Zenless (3,500), so every roll moves you closer to a guaranteed rare pull."
+    },
+    {
+      "q": "Which mode should I play first?",
+      "a": "Start with Story. It teaches you how your weapons and the combat work before you try Defend or Infinite."
+    }
+  ],
+  "tips": [
+    "Put a weapon in both slots before your first run. You can switch between them mid-run, and a Legendary or better is a solid start.",
+    "Spend your first skill tree token on the damage node before you play. After that, damage and crit upgrades help most, with some defense if you keep dying.",
+    "Group enemies together before you use your area skills, so one skill hits the whole group. Keep your distance from the boss while your skills cool down.",
+    "Back in the lobby, claim your quests, milestones and achievements. They pay out coins, gems, materials and rolls that are easy to forget about."
+  ],
+  "useRewards": "Rolls are the big prize, with 295 from all six codes. Use them on Normal Spin until you have two weapons you like, at least Legendary, and keep your Lucky Spins for later. When the game asks \"Replace Character?\", press Keep unless the new pull is better. Save the Trait Rerolls until you have a weapon worth keeping, and put spare Coins toward enchants, where Power is the best early pick for damage.",
+  "codes": [
+    {
+      "code": "PATCH2",
+      "reward": "5,000 Coins, 3 Trait Rerolls, 250 Gems and 5 Lucky Spins",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    },
+    {
+      "code": "PATCH1",
+      "reward": "10 Rolls, 3 Lucky Spins and 150 Gems",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    },
+    {
+      "code": "HOP3YOU3NJOY",
+      "reward": "250 Rolls",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    },
+    {
+      "code": "LETSGO",
+      "reward": "20 Rolls, 5 Trait Rerolls, 2,000 Coins and 4 Lucky Spins",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    },
+    {
+      "code": "AZISOUT",
+      "reward": "5 Rolls, 1 Lucky Spin, 1,500 Coins and Gems",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "10 Rolls, 1 Lucky Spin, 2,500 Coins and Gems",
+      "status": "active",
+      "firstSeen": "2026-10-03T12:45:00.000Z",
+      "lastSeen": "2026-10-03T12:45:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-03T12:45:00.000Z",
+      "tested": "2026-10-03"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 7615,
+    "visits": 949721,
+    "favorites": 6050,
+    "updated": "2026-10-03T12:47:42.0133935Z",
+    "created": "2026-07-16T12:58:55.536Z"
+  },
+  "added": "2026-10-03T12:51:42.665Z",
+  "lastChecked": "2026-10-03T12:51:42.665Z",
+  "lastChanged": "2026-10-03T12:45:00.000Z",
+  "codeChannels": "The game's Codes window says to join the official Roblox group and follow @hiheiyun on X (Twitter) for more codes",
+  "redeemImage": "anime-zero-redeem.webp",
+  "redeemCaption": "The Codes window with PATCH2 typed in, and PATCH1's rewards (10 Rolls, 3 Lucky Spins, 150 Gems) still showing at the top.",
+  "redeemShots": [
+    {
+      "file": "anime-zero-summon.webp",
+      "caption": "Spending the code Rolls in Summon: I pulled Immortal Sovereign, a 1.4% Mythic."
+    }
+  ],
+  "checkedInGame": "2026-10-03"
+}
