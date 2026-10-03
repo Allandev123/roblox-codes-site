@@ -81,6 +81,7 @@ export const method = site => `
 export const contact = site => `
 <p>Found a code that doesn't work, a missing reward, or a game you want me to cover? Email me:</p>
 <p><a class="btn" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p>
+<p>I usually reply within 2 to 3 days.</p>
 <h2>Helpful things to include</h2>
 <ul>
   <li>The game name and the code you tried.</li>
