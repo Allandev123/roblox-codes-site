@@ -287,7 +287,7 @@ await og('default', { background: null, title: 'Working Roblox codes, checked ev
 const homeLastmod = views[0]?.g.lastChanged ?? new Date().toISOString();
 write('index.html', layout({
   site, assets, path: '/', modified: homeLastmod,
-  title: `Roblox Codes (${monthYear(new Date().toISOString())}) - ${site.siteName}`,
+  title: `Roblox Codes (${monthYear(new Date().toISOString())}), Guides & News - ${site.siteName}`,
   description: clip(`Working codes for ${views.length} Roblox games, read from each game's official page every few hours and approved by hand, with rewards and redeem steps.`, 155),
   preload: views.slice(0, 1).map(v => v.icon),
   jsonld: [{

@@ -100,6 +100,7 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
     .slice(0, 10);
   return `<section class="hub-head">
   <h1>Roblox Codes</h1>
+  <p class="sub">Working codes, beginner guides and game news for Roblox, from a player since ${esc(a.robloxSince)}.</p>
   <p class="sub">${total} working codes for ${views.length} games · checked ${ago(lastCheck)}</p>
   <form class="search" role="search" action="/" method="get">
     <label for="q" class="sr-only">Search games or codes</label>
