@@ -1,7 +1,7 @@
 {
   "slug": "blockspin",
   "name": "BlockSpin",
-  "robloxName": "BlockSpin 🔪 [WEATHER]",
+  "robloxName": "BlockSpin 🔪 [MANSION UNDERGROUND]",
   "placeId": 104715542330896,
   "universeId": 6765805766,
   "gameUrl": "https://www.roblox.com/games/104715542330896/BlockSpin",
@@ -25,7 +25,7 @@
       "reward": "$500 cash (new players only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:13.775Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
+      "lastSeen": "2026-10-04T20:49:46.347Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 19807,
-    "visits": 1263991983,
-    "favorites": 986224,
-    "updated": "2026-09-30T04:50:53.195Z",
+    "playing": 24208,
+    "visits": 1271441763,
+    "favorites": 987700,
+    "updated": "2026-10-03T18:00:48.1269604Z",
     "created": "2024-11-06T14:19:35.68Z",
     "maxPlayers": 28,
-    "upVotes": 275631,
-    "downVotes": 75280
+    "upVotes": 276398,
+    "downVotes": 75478
   },
   "added": "2026-09-29T16:13:13.775Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "jujutsu-zero",
   "name": "Jujutsu: Zero",
-  "robloxName": "[🎞️ PROJECTION] Jujutsu: Zero",
+  "robloxName": "[🎞️ DOMAIN] Jujutsu: Zero",
   "placeId": 128451689942376,
   "universeId": 6760085372,
   "gameUrl": "https://www.roblox.com/games/128451689942376/Jujutsu-Zero",
@@ -21,16 +21,6 @@
   "notes": "Jujutsu: Zero is an action RPG from Studio Resonance based on the Jujutsu Kaisen anime. You roam an open world, fight cursed spirits and sorcerers, collect cursed objects, and train your cursed technique as you level up. Your clan gives passive bonuses, so many players reroll it hunting for a better one, and later content includes raids and awakenings like the new Awakened Projection.\n\nCodes give Cursed Crystals, Lumens, and Clan Rolls. Clan Rolls are the best reward for most players, since a strong clan helps for the whole game, and the game boosts clan luck on weekends, so saving rolls until then is smart. New codes arrive with each update and whenever the game reaches a like goal, and the developers list the current ones in the game description on Roblox.",
   "codes": [
     {
-      "code": "PROJECTION",
-      "reward": "1,000 Cursed Crystals, 5,000 Lumens and 50 Clan Rolls",
-      "status": "active",
-      "firstSeen": "2026-09-29T18:35:55.871Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T18:36:22.148Z"
-    },
-    {
       "code": "220KLIKES",
       "reward": "500 Cursed Crystals, 5,000 Lumens, and 50 Clan Rolls",
       "status": "active",
@@ -47,6 +37,14 @@
     }
   ],
   "expired": [
+    {
+      "code": "PROJECTION",
+      "reward": "1,000 Cursed Crystals, 5,000 Lumens and 50 Clan Rolls",
+      "removed": "2026-10-04",
+      "firstSeen": "2026-09-29T18:35:55.871Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "210KLIKES",
       "reward": null,
@@ -105,18 +103,18 @@
     }
   ],
   "stats": {
-    "playing": 5647,
-    "visits": 125243560,
-    "favorites": 209324,
-    "updated": "2026-09-29T15:17:12.488Z",
+    "playing": 7355,
+    "visits": 126433475,
+    "favorites": 210923,
+    "updated": "2026-10-03T17:56:18.8307237Z",
     "created": "2024-11-04T17:58:40.07Z",
     "maxPlayers": 14,
-    "upVotes": 221596,
-    "downVotes": 10876
+    "upVotes": 222498,
+    "downVotes": 10951
   },
   "added": "2026-09-29T18:35:55.871Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
-  "lastChanged": "2026-09-29T18:36:22.148Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
+  "lastChanged": "2026-10-04T20:49:46.347Z",
   "faq": [
     {
       "q": "Why can't I find the Codes button in Jujutsu: Zero?",

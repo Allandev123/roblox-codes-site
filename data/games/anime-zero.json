@@ -120,14 +120,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 7615,
-    "visits": 949721,
-    "favorites": 6050,
-    "updated": "2026-10-03T12:47:42.0133935Z",
-    "created": "2026-07-16T12:58:55.536Z"
+    "playing": 6777,
+    "visits": 1570248,
+    "favorites": 9976,
+    "updated": "2026-10-04T20:37:19.0243592Z",
+    "created": "2026-07-16T12:58:55.536Z",
+    "maxPlayers": 20,
+    "upVotes": 13811,
+    "downVotes": 370
   },
   "added": "2026-10-03T12:51:42.665Z",
-  "lastChecked": "2026-10-03T12:51:42.665Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
   "lastChanged": "2026-10-03T12:45:00.000Z",
   "codeChannels": "The game's Codes window says to join the official Roblox group and follow @hiheiyun on X (Twitter) for more codes",
   "redeemImage": "anime-zero-redeem.webp",

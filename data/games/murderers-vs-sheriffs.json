@@ -1,7 +1,7 @@
 {
   "slug": "murderers-vs-sheriffs",
   "name": "Murderers VS Sheriffs",
-  "robloxName": "[🌌DUELS] Murderers VS Sheriffs",
+  "robloxName": "[🎃DUELS] Murderers VS Sheriffs",
   "placeId": 135856908115931,
   "universeId": 7219654364,
   "gameUrl": "https://www.roblox.com/games/135856908115931/Murderers-VS-Sheriffs",
@@ -19,32 +19,30 @@
     "Type or paste the code exactly as written and press the CLAIM! button."
   ],
   "notes": "Murderers VS Sheriffs Duels is a team PvP game run by the MVS Duels Community group. Each round pits murderers armed with knives against sheriffs armed with guns in 1v1, 2v2, 3v3 or 4v4 matches, and the last side standing takes the round. Rounds are short, so the appeal is sharpening your aim and reactions against real players.\n\nCoins buy cosmetic knife and gun skins, which is what codes usually cover: the current code gives the 1B Knife for passing one billion visits, and an older one gives 1,000 coins. The developers post new codes in the codes channel of their Discord server, usually around visit milestones and updates.",
-  "codes": [
+  "codes": [],
+  "expired": [
     {
       "code": "1BVISITS",
       "reward": "1B Knife skin",
-      "status": "active",
+      "removed": "2026-10-04",
       "firstSeen": "2026-09-29T16:13:12.153Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     }
   ],
-  "expired": [],
   "stats": {
-    "playing": 39308,
-    "visits": 1851122093,
-    "favorites": 16699584,
-    "updated": "2026-09-30T16:13:19.1809821Z",
+    "playing": 95099,
+    "visits": 1872097005,
+    "favorites": 16703610,
+    "updated": "2026-10-04T19:20:43.6626662Z",
     "created": "2025-02-09T12:47:47.52Z",
     "maxPlayers": 30,
-    "upVotes": 261600,
-    "downVotes": 38187
+    "upVotes": 264352,
+    "downVotes": 38713
   },
   "added": "2026-09-29T16:13:12.153Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
+  "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

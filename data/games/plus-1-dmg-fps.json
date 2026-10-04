@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-dmg-fps",
   "name": "+1 DMG FPS",
-  "robloxName": "+1 DMG FPS",
+  "robloxName": "[W2] +1 DMG FPS",
   "placeId": 100753254401525,
   "universeId": 10717002748,
   "gameUrl": "https://www.roblox.com/games/100753254401525/1-DMG-FPS",
@@ -21,30 +21,39 @@
   "notes": "+1 DMG FPS is a shooter with clicker-style progression from the Mappy Tappy group, released on Roblox in August 2026. AI robots are invading Earth, and every hit you land permanently adds one point of damage to your gun. As your damage climbs you earn medals, unlock better guns, rebirth for large power multipliers, and push into new areas. The V2 update added a Hunt mode that you can play cooperatively with others.\n\nCodes typically give flat damage, free rebirths, or Buddies, which are companions that support your build. A rebirth code in particular saves a lot of early grinding. The developers announce codes in their Discord and Roblox group, often around updates and player count milestones.",
   "codes": [
     {
-      "code": "AA2026",
-      "reward": "1 Random Buddy",
+      "code": "10KCCU",
+      "reward": "GIFT",
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:37.053Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
+      "firstSeen": "2026-10-04T20:49:46.347Z",
+      "lastSeen": "2026-10-04T20:49:46.347Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "use code \"10KCCU\" for some GIFT!"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "AA2026",
+      "reward": "1 Random Buddy",
+      "removed": "2026-10-04",
+      "firstSeen": "2026-09-29T16:13:37.053Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 5393,
-    "visits": 7854908,
-    "favorites": 324190,
-    "updated": "2026-10-01T16:11:22.2817526Z",
+    "playing": 5111,
+    "visits": 9204719,
+    "favorites": 365839,
+    "updated": "2026-10-03T22:22:12.326007Z",
     "created": "2026-08-15T22:24:52.952Z",
     "maxPlayers": 16,
-    "upVotes": 77484,
-    "downVotes": 3083
+    "upVotes": 88038,
+    "downVotes": 3458
   },
   "added": "2026-09-29T16:13:37.053Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
+  "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

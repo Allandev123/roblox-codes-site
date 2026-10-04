@@ -1,7 +1,7 @@
 {
   "slug": "anime-fighting-simulator",
   "name": "Anime Fighting Simulator",
-  "robloxName": "[🍀DIMENSION 3!] Anime Fighting Simulator",
+  "robloxName": "[✨] Anime Fighting Simulator",
   "placeId": 100429474155186,
   "universeId": 10321202755,
   "gameUrl": "https://www.roblox.com/games/100429474155186/Anime-Fighting-Simulator",
@@ -21,30 +21,39 @@
   "notes": "Anime Fighting Simulator is a training and combat game published by the Anime Fighting Simulator | BZ group, and this version went live on Roblox in June 2026. You build up your stats through training, unlock powers drawn from popular anime series, and take on bosses and other players, while summoning champions that train and fight next to you. Mounts, auras, weapons and titles round out the collection side.\n\nCodes here are usually large bundles of Chikara and Tensei Shards, stat, yen and training boosts, trait rerolls, and event tokens such as Clover Tokens. Those resources shorten the long stat grind and pay for rerolls. The developers post new codes in their Discord and on the game page, usually tied to updates, member milestones, or compensation after downtime.",
   "codes": [
     {
-      "code": "CLOVERPASS",
-      "reward": "1k Clover Tokens, 1k Tensei Shards, 2.5k Chikara Shards",
+      "code": "WIZARDKING",
+      "reward": "FREE rewards",
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:30.684Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
+      "firstSeen": "2026-10-04T20:49:46.347Z",
+      "lastSeen": "2026-10-04T20:49:46.347Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "Use Code \"WIZARDKING\" for FREE rewards!"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "CLOVERPASS",
+      "reward": "1k Clover Tokens, 1k Tensei Shards, 2.5k Chikara Shards",
+      "removed": "2026-10-04",
+      "firstSeen": "2026-09-29T16:13:30.684Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 7236,
-    "visits": 52314865,
-    "favorites": 481602,
-    "updated": "2026-09-29T03:40:34.555Z",
+    "playing": 8415,
+    "visits": 53013438,
+    "favorites": 486685,
+    "updated": "2026-10-04T17:10:37.1202454Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 170182,
-    "downVotes": 2870
+    "upVotes": 171467,
+    "downVotes": 2902
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
+  "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

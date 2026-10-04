@@ -1,7 +1,7 @@
 {
   "slug": "immortality-incremental",
   "name": "Immortality Incremental",
-  "robloxName": "[🌑 WORLD 6 DUNGEON] Immortality Incremental",
+  "robloxName": "[⛏️ WORLD 9 PT. 1] Immortality Incremental",
   "placeId": 75317862071711,
   "universeId": 9584946743,
   "gameUrl": "https://www.roblox.com/games/75317862071711/Immortality-Incremental",
@@ -25,7 +25,7 @@
       "reward": "Free potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:44.702Z",
-      "lastSeen": "2026-10-01T18:24:24.890Z",
+      "lastSeen": "2026-10-04T20:49:46.347Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3865,
-    "visits": 37544636,
-    "favorites": 286832,
-    "updated": "2026-10-01T03:28:26.9719128Z",
+    "playing": 3916,
+    "visits": 38306570,
+    "favorites": 288293,
+    "updated": "2026-10-04T02:58:01.3409238Z",
     "created": "2026-01-18T18:09:14.383Z",
     "maxPlayers": 10,
-    "upVotes": 124518,
-    "downVotes": 2322
+    "upVotes": 125196,
+    "downVotes": 2350
   },
   "added": "2026-09-29T16:13:44.702Z",
-  "lastChecked": "2026-10-01T18:24:24.890Z",
+  "lastChecked": "2026-10-04T20:49:46.347Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
