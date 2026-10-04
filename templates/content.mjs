@@ -119,6 +119,20 @@ ${ga ? `<h2>Analytics</h2>
     : ` Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the internet.`}</p>
 <p>You can manage Google's ad settings at <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a> and opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info</a>. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">how Google uses information from sites that use its services</a>.</p>
 
+<h2 id="cookies">Cookie policy</h2>
+<p>Cookies are small files a website saves in your browser. Here is everything this site stores on your device, and why.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Name</th><th>What it's for</th><th>Type</th><th>How long</th></tr></thead>
+<tbody>
+<tr><td><code>theme</code></td><td>Remembers light or dark mode</td><td>Necessary (local storage)</td><td>Until you clear it</td></tr>
+<tr><td><code>consent</code></td><td>Remembers your cookie choice</td><td>Necessary (local storage)</td><td>Until you clear it</td></tr>
+<tr><td><code>rbx:games</code></td><td>Your "Recently viewed" games and their "new" tags</td><td>Necessary (local storage)</td><td>Until you clear it</td></tr>
+${ga ? `<tr><td><code>_ga</code>, <code>_ga_*</code></td><td>Google Analytics: counts visits and pages, only if you allow analytics</td><td>Analytics (cookie)</td><td>Up to 2 years</td></tr>
+` : ''}</tbody>
+</table></div>
+${site.vercelAnalytics ? '<p>Vercel Web Analytics, which counts page views, uses no cookies and stores nothing on your device.</p>' : ''}
+<p>Necessary items never leave your device and don't need consent. Analytics cookies are only set if you choose Allow or Accept all. You can change your choice any time with the <strong>Cookie settings</strong> link at the bottom of every page, or delete everything in your browser's settings.</p>
+
 <h2>Consent in the EU, UK and Switzerland</h2>
 <p>Visitors in Europe are asked before any optional cookies are used. Right now that is a small banner that asks about analytics cookies only, and nothing is stored until you press Allow. If ads are added, Google's certified consent message will ask about advertising cookies the same way. Until you choose, those cookies stay switched off. You can change your choice any time with the Cookie settings link at the bottom of every page. Legal basis: your consent.</p>
 

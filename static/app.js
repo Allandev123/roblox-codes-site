@@ -295,16 +295,30 @@
       const box = document.createElement('div');
       box.className = 'cookies';
       box.setAttribute('role', 'dialog');
-      box.setAttribute('aria-label', 'Cookie choice');
-      box.innerHTML = '<p>Can I use analytics cookies to see which pages people read? No ads, nothing personal. <a href="/privacy/">Privacy</a></p>'
-        + '<div class="cookies-btns"><button type="button" class="btn cookies-no">No thanks</button><button type="button" class="btn cookies-yes">Allow</button></div>';
+      box.setAttribute('aria-labelledby', 'cookies-h');
+      const on = store.get('consent') === 'granted';
+      box.innerHTML = '<div class="cookies-top"><span class="cookies-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01M16 15.5v.01M12 12v.01M11 17v.01M7 14v.01"/></svg></span>'
+        + '<div><h2 id="cookies-h">Cookie preferences</h2><p>I use cookies to see which pages people read. No ads, nothing personal. <a href="/privacy/#cookies">Learn more about cookies</a></p></div>'
+        + '<button type="button" class="cookies-x" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>'
+        + '<div class="cookies-opts" hidden>'
+        + '<label class="cookies-row"><span><b>Necessary</b><small>Remembers your theme and this choice. Always on.</small></span><input type="checkbox" checked disabled></label>'
+        + '<label class="cookies-row"><span><b>Analytics</b><small>Google Analytics: which pages are read, no names.</small></span><input type="checkbox" class="cookies-ga"' + (on ? ' checked' : '') + '></label>'
+        + '</div>'
+        + '<div class="cookies-btns"><button type="button" class="btn cookies-more">Options</button><button type="button" class="btn cookies-yes">Accept all</button></div>';
       const pick = v => {
         store.set('consent', v);
         window.gtag('consent', 'update', { analytics_storage: v });
         box.remove();
       };
+      const opts = box.querySelector('.cookies-opts');
+      const more = box.querySelector('.cookies-more');
+      more.addEventListener('click', () => {
+        if (opts.hidden) { opts.hidden = false; more.textContent = 'Save choice'; return; }
+        pick(box.querySelector('.cookies-ga').checked ? 'granted' : 'denied');
+      });
       box.querySelector('.cookies-yes').addEventListener('click', () => pick('granted'));
-      box.querySelector('.cookies-no').addEventListener('click', () => pick('denied'));
+      // closing without a choice counts as "no"
+      box.querySelector('.cookies-x').addEventListener('click', () => pick('denied'));
       document.body.append(box);
     };
     if (inEurope && !store.get('consent')) open();
