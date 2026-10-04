@@ -106,7 +106,8 @@ export const privacy = (site, updated) => {
 <ul>
   <li><strong>Emails you send me.</strong> I receive your email address and message and use them only to reply and fix what you reported. Legal basis: legitimate interest in answering you. I delete them within 12 months, or sooner if you ask.</li>
   <li><strong>Your theme choice.</strong> Light or dark mode is saved in your browser's local storage. It never leaves your device.</li>
-  <li><strong>Server logs.</strong> The hosting provider keeps short-lived technical logs (such as IP address and page requested) to run and protect the site.</li>
+${site.vercelAnalytics ? `  <li><strong>Visit counts.</strong> Vercel Web Analytics counts page views without cookies and without storing anything that identifies you, so I can see how many people visit and which pages they read.</li>
+` : ''}  <li><strong>Server logs.</strong> The hosting provider keeps short-lived technical logs (such as IP address and page requested) to run and protect the site.</li>
 </ul>
 
 ${ga ? `<h2>Analytics</h2>
@@ -119,7 +120,7 @@ ${ga ? `<h2>Analytics</h2>
 <p>You can manage Google's ad settings at <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a> and opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info</a>. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">how Google uses information from sites that use its services</a>.</p>
 
 <h2>Consent in the EU, UK and Switzerland</h2>
-<p>Visitors in the European Economic Area, the UK and Switzerland are asked for consent through Google's certified consent message before advertising${ga ? ' or analytics' : ''} cookies are used. Until you choose, those cookies stay switched off. You can change your choice any time from the privacy link the consent message adds to the page. Legal basis: your consent.</p>
+<p>Visitors in Europe are asked before any optional cookies are used. Right now that is a small banner that asks about analytics cookies only, and nothing is stored until you press Allow. If ads are added, Google's certified consent message will ask about advertising cookies the same way. Until you choose, those cookies stay switched off. You can change your choice any time with the Cookie settings link at the bottom of every page. Legal basis: your consent.</p>
 
 <h2>Children</h2>
 <p>Roblox is popular with young players, so the site is built to collect as little as possible. I don't knowingly collect personal information from children. If you're a parent and think your child emailed me personal information, contact me and I'll delete it.</p>

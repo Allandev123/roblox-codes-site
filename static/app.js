@@ -284,4 +284,30 @@
     });
     if (location.hash === '#q') setTimeout(() => input.focus(), 0);
   }
+
+  // ---------------------------------------------------------------- cookie banner
+  // Analytics cookies are off by default for visitors in Europe (consent mode in
+  // the page head). This asks once; the choice is kept on this device.
+  if (typeof window.gtag === 'function') {
+    const inEurope = (() => { try { return /^Europe\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone); } catch { return false; } })();
+    const open = () => {
+      if ($('.cookies')) return;
+      const box = document.createElement('div');
+      box.className = 'cookies';
+      box.setAttribute('role', 'dialog');
+      box.setAttribute('aria-label', 'Cookie choice');
+      box.innerHTML = '<p>Can I use analytics cookies to see which pages people read? No ads, nothing personal. <a href="/privacy/">Privacy</a></p>'
+        + '<div class="cookies-btns"><button type="button" class="btn cookies-no">No thanks</button><button type="button" class="btn cookies-yes">Allow</button></div>';
+      const pick = v => {
+        store.set('consent', v);
+        window.gtag('consent', 'update', { analytics_storage: v });
+        box.remove();
+      };
+      box.querySelector('.cookies-yes').addEventListener('click', () => pick('granted'));
+      box.querySelector('.cookies-no').addEventListener('click', () => pick('denied'));
+      document.body.append(box);
+    };
+    if (inEurope && !store.get('consent')) open();
+    document.querySelectorAll('.cookie-open').forEach(b => b.addEventListener('click', open));
+  }
 })();

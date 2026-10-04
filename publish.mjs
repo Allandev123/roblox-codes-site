@@ -81,7 +81,8 @@ for (const f of pages) {
   if (h1s !== 1) badH1.push(`${r} has ${h1s}`);
 
   for (const m of html.matchAll(/<a\b[^>]*href="(\/[^"]*)"/g)) if (!exists(m[1])) broken.push(`${r} -> ${m[1]}`);
-  for (const m of html.matchAll(/<(?:img|link|script)\b[^>]*(?:src|href)="(\/[^"]*)"/g)) if (!exists(m[1])) missingImg.push(`${r} -> ${m[1]}`);
+  // /_vercel/ is served by Vercel itself (Web Analytics), not from dist/
+  for (const m of html.matchAll(/<(?:img|link|script)\b[^>]*(?:src|href)="(\/[^"]*)"/g)) if (!m[1].startsWith('/_vercel/') && !exists(m[1])) missingImg.push(`${r} -> ${m[1]}`);
   const og = html.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
   if (og && og.startsWith(site.url) && !exists(og.slice(site.url.length))) missingImg.push(`${r} -> ${og}`);
 

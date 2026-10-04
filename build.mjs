@@ -216,6 +216,7 @@ if (fs.existsSync(GUIDE_IMAGES)) for (const f of fs.readdirSync(GUIDE_IMAGES)) {
   if (f.endsWith('.webp')) write(`img/guides/${f.replace(/\.webp$/, '-480.webp')}`, await sharp(path.join(GUIDE_IMAGES, f)).resize(480).webp({ quality: 72 }).toBuffer());
 }
 const thumbOf = new Map(views.map(v => [v.g.slug, v.thumb]));
+const livePaths = new Set(views.map(v => v.path));
 function loadArticles(section) {
   const dir = path.join(ROOT, 'data', section);
   return (fs.existsSync(dir) ? fs.readdirSync(dir) : [])
@@ -236,6 +237,8 @@ function loadArticles(section) {
         html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
       };
     })
+    // a game page that's hidden right now (no working codes) isn't linked; the name stays as text
+    .map(gd => ({ ...gd, html: gd.html.replace(/<a href="\/([a-z0-9-]+)-codes\/">([\s\S]*?)<\/a>/g, (m, slug, text) => (livePaths.has(`/${slug}-codes/`) ? m : text)) }))
     // a post still waiting for Allan's part ([ALLAN] boxes) never goes live
     .map(gd => (gd.html.includes('[ALLAN]') ? { ...gd, draft: true } : gd))
     .filter(gd => (process.env.PREVIEW_DRAFTS || !gd.draft) && gd.title && gd.description && gd.published)

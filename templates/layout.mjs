@@ -5,11 +5,13 @@ const THEME_BOOT = `<script>try{var t=localStorage.getItem('theme');if(t==='dark
 
 // Consent mode v2: storage is denied by default for the EEA, UK and
 // Switzerland until Google's consent message (set up in AdSense > Privacy &
-// messaging) records a choice. Everywhere else it runs as normal.
+// messaging) records a choice. Everywhere else it runs as normal. Until then
+// the site's own cookie banner (app.js) can grant analytics only; a saved "yes"
+// is re-applied here, before the analytics tag runs.
 const EEA = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','GB','CH'];
 function consentDefaults(site) {
   if (!site.analyticsId && !site.adsense?.client) return '';
-  return `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:${JSON.stringify(EEA)}});</script>`;
+  return `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:${JSON.stringify(EEA)}});try{if(localStorage.getItem('consent')==='granted')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}</script>`;
 }
 
 function analytics(id) {
@@ -74,6 +76,7 @@ ${THEME_BOOT}
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 ${consentDefaults(site)}
 ${analytics(site.analyticsId)}
+${site.vercelAnalytics ? '<script defer src="/_vercel/insights/script.js"></script>' : ''}
 ${ads ? adsense(site.adsense?.client) : ''}
 </head>
 <body id="top">
@@ -132,7 +135,7 @@ ${body}
   </div>
   <div class="wrap foot-bar">
     <p>© ${new Date().getFullYear()} ${esc(site.siteName)}. A fan site, not made by or connected to Roblox Corporation.</p>
-    <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclaimer/">Disclaimer</a><a href="#top">Back to top ↑</a></nav>
+    <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclaimer/">Disclaimer</a>${site.analyticsId ? '<button type="button" class="cookie-open">Cookie settings</button>' : ''}<a href="#top">Back to top ↑</a></nav>
   </div>
 </footer>
 <a class="to-top" href="#top" aria-label="Back to top" hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
