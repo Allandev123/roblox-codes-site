@@ -74,12 +74,23 @@ const isFresh = (c, window) => Date.parse(c.firstSeen) > LAUNCH && NOW - Date.pa
 const all = loadGames();
 const drafts = [];
 const views = [];
+// Update tag shown after the title, like [RELEASE] or [UPD 6]. "tag" in the game file
+// wins ("" turns it off); otherwise it comes from the first [...] in the game's Roblox name.
+function updateTag(g) {
+  if (typeof g.tag === 'string') return g.tag.trim() || null;
+  const m = (g.robloxName ?? '').match(/\[([^\]]+)\]/);
+  if (!m) return null;
+  const t = m[1].replace(/[^\p{L}\p{N}&+ ]/gu, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
+  return (t.match(/\p{L}/gu) ?? []).length >= 2 && t.length <= 20 ? t : null;
+}
+
 for (const g of all) {
   const why = draftReason(g);
   if (why) { drafts.push(`${g.slug}: ${why}`); continue; }
   const live = liveCodes(g).sort((a, b) => Date.parse(b.firstSeen) - Date.parse(a.firstSeen));
   const month = monthYear(g.lastChanged);
-  const h1 = `${g.name} Codes (${month})`;
+  const tag = updateTag(g);
+  const h1 = `${g.name} Codes (${month})${tag ? ` [${tag}]` : ''}`;
   views.push({
     g, live,
     path: `/${g.slug}-codes/`,
@@ -88,6 +99,7 @@ for (const g of all) {
     thumb: g.thumb ? `/img/${g.thumb}` : null,
     og: `/og/${g.slug}.jpg`,
     h1,
+    tag,
     month,
     isNew: c => isFresh(c, (site.newCodeDays ?? 3) * DAY),
     recentNew: live.filter(c => isFresh(c, (site.newCodeDays ?? 3) * DAY)).length,
@@ -127,7 +139,8 @@ site.footerGames = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.st
 // <title>: 60 characters at most, dropping the least useful parts first
 function gameTitle(v) {
   const n = v.g.name;
-  for (const t of [`${n} Codes (${v.month}) - ${site.siteName}`, `${n} Codes (${shortMonthYear(v.g.lastChanged)}) - ${site.siteName}`,
+  const tg = v.tag ? ` [${v.tag}]` : '';
+  for (const t of [`${n} Codes (${v.month})${tg} - ${site.siteName}`, `${n} Codes (${v.month})${tg}`, `${n} Codes (${v.month}) - ${site.siteName}`, `${n} Codes (${shortMonthYear(v.g.lastChanged)}) - ${site.siteName}`,
     `${n} Codes (${v.month})`, `${n} Codes (${shortMonthYear(v.g.lastChanged)})`, `${n} Codes`]) {
     if (t.length <= 60) return t;
   }

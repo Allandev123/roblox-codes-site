@@ -2,7 +2,7 @@
 title: "BedWars Kit Tier List for Ranked (October 2026)"
 seoTitle: "BedWars Kit Tier List for Ranked (Season 17, 2026)"
 short: BedWars ranked kit tiers
-description: "Every BedWars kit grouped by role for Ranked Season 17, how the 5v5 draft and bans work, the latest buffs and nerfs, and my S to C tier picks."
+description: "Every BedWars kit grouped by role for Ranked Season 17, how the 5v5 draft and bans work, the latest buffs and nerfs, and my tier list from S down to F."
 summary: My BedWars kit tier list for Ranked Season 17, with every kit grouped by role, how the draft and bans work, and the reworks, buffs and nerfs since July.
 published: 2026-10-07
 updated: 2026-10-07
@@ -106,16 +106,30 @@ This covers kit changes from July 3 to September 26, 2026. The September 11 and 
 
 On August 21 the light sword also dropped from 4 to 3 emeralds, which matters for every kit.
 
-## The Season 17 ranked tier list
+## My tier list: Season 7, updated for Season 17
 
-These tiers are for 5v5 ranked with bans on, using the patches above.
+Back in Season 7 (May 2023) I ranked every kit that existed back then, about 70 of them, in [this video on my channel](https://www.youtube.com/watch?v=B4xpm4N7ZgI). For the kits that haven't changed since, I still rank them the same, so that list is the base.
 
-- **S tier:** kits worth a ban or a first pick.
-- **A tier:** strong picks, a step below S.
-- **B tier:** playable, but with clear weak spots.
-- **C tier:** the weakest ranked picks right now.
+![My Season 7 kit tier list from May 2023, S at the top down to F, plus a "runners / quit the game" row. Screenshot from my video.](bedwars-season-7-tier-list.webp)
 
-> **[ALLAN]** Your tier list as a table (Tier | Kit | one-line reason), S down to C. Make sure every kit changed since July (Trapper, Fisherman, Raven, Bounty Hunter, Jade, Kaida, Kaliyah, Fortuna, Santa, Krystal, Wren, Ares) lands in a tier.
+- **S:** kits worth a ban or a first pick.
+- **A:** strong picks, a step below S.
+- **B:** playable, but with clear weak spots.
+- **C and D:** you can win with them, but you're making it harder for yourself.
+- **F:** avoid in ranked.
+- **Runners / quit the game:** the kits that made me want to leave the match when I saw them on the enemy team.
+
+### Kits added since Season 7
+
+43 kits came out after that video, from Elektra in June 2023 to Zola in April 2026. Here's where I put them.
+
+> **[ALLAN]** Your tiers for the 43 new kits (from the Desktop file bedwars-kits-to-place.txt). I'll turn them into a table: Tier | Kit | one-line reason.
+
+### Kits reworked since Season 7
+
+These were already in my Season 7 list, but they've been reworked since, so I placed them again.
+
+> **[ALLAN]** Confirm your tiers for the 12 reworked kits (Freiya, Trinity, Crocowolf, Cobalt, Alchemist, Warrior, Jack, Bounty Hunter, Jade, Raven, Trapper, Fisherman), plus one line on the biggest change for Jack, Jade and Fisherman.
 
 ## Picking a kit in solo queue
 
