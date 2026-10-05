@@ -1,0 +1,87 @@
+{
+  "slug": "prehistoric-farm",
+  "name": "Prehistoric Farm",
+  "robloxName": "[RELEASE] Prehistoric Farm",
+  "placeId": 139780970631001,
+  "universeId": 10768944292,
+  "gameUrl": "https://www.roblox.com/games/139780970631001/Prehistoric-Farm",
+  "creator": "Project Mirvy",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "prehistoric-farm-icon.webp",
+  "thumb": "prehistoric-farm-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Like Prehistoric Farm on its Roblox page and join the Project Mirvy group. The code box says \"Like the game and join our group to redeem codes!\" until you do both.",
+    "Launch the game. On the start menu on the left, click CODES (between Settings and Updates).",
+    "Type the code into the Enter a code box exactly as shown.",
+    "Press REDEEM. When it works, the box says \"Enjoy the new look! Here's 800 coins and 2x luck for 30 minutes.\""
+  ],
+  "notes": "Prehistoric Farm is a dinosaur ranch game from Project Mirvy that came out on Roblox on October 2, 2026. You dig up fossils on your island, take a full set to Dr. Ivy's DNA Lab to turn it into an egg, hatch it in the incubator and raise your dino from a Newborn into an Elder that you can ride. Bigger boats take you to new fossil islands, and the fossil book is split into time periods from the Cambrian to the Cretaceous.\n\nI redeemed UICHANGES in-game on October 5. The first try failed because I hadn't liked the game and joined the group yet, so do that first. After that it gave me 800 coins and a 2x luck boost, which showed up as a 30-minute timer in the corner. RELEASE didn't work anymore when I tried it.",
+  "faq": [
+    {
+      "q": "Why does it say \"Like the game and join our group to redeem codes\"?",
+      "a": "Codes only work once you have liked Prehistoric Farm and joined the Project Mirvy group. Do both, then press Redeem again. It worked for me on the second try."
+    },
+    {
+      "q": "Is there another place to redeem codes?",
+      "a": "Yes. Besides CODES on the start menu, the Settings tab of the in-game tablet has a Codes box at the bottom with its own Join Group button."
+    },
+    {
+      "q": "Does the 2x luck stack with other boosts?",
+      "a": "The Shop screen shows your total luck. With the code boost active it showed x2.00, and it lists VIP and weather as separate luck boosts on top."
+    }
+  ],
+  "tips": [
+    "Hold down on a glowing dig site and let go when the meter is in the green. Stopping in the green zone gives you a better find.",
+    "Collect a full set of fossils for one creature before you visit Dr. Ivy. The Fossils tab shows how many pieces each dino still needs.",
+    "Keep your dino more than half fed so it keeps growing from a Newborn into an Elder, which you can ride around the islands.",
+    "Check the Map tab. Islands stay blacked out until you visit them, and bigger boats take you to the fossil islands further out."
+  ],
+  "useRewards": "Redeem UICHANGES right before a long digging session, because the 2x luck only lasts 30 minutes and only helps while you are actually digging. Use the time on glowing dig sites for rarer fossils, and spend the 800 coins after the timer runs out.",
+  "codes": [
+    {
+      "code": "UICHANGES",
+      "reward": "800 Coins and 2x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-05T21:35:00.000Z",
+      "lastSeen": "2026-10-05T21:35:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-05T21:35:00.000Z",
+      "tested": "2026-10-05"
+    }
+  ],
+  "expired": [
+    {
+      "code": "RELEASE",
+      "reward": null,
+      "removed": "2026-10-05",
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 2359,
+    "visits": 211233,
+    "favorites": 2780,
+    "updated": "2026-10-05T20:29:04.6441087Z",
+    "created": "2026-10-02T04:14:47.2483395Z"
+  },
+  "added": "2026-10-05T21:37:57.228Z",
+  "lastChecked": "2026-10-05T21:37:57.228Z",
+  "lastChanged": "2026-10-05T21:35:00.000Z",
+  "requirement": "You have to like the game and join the Project Mirvy group on Roblox before a code works.",
+  "codeChannels": "The Codes box shows the latest code under \"Latest code\", and the game asks you to join the Project Mirvy group for new ones",
+  "redeemImage": "prehistoric-farm-redeem.webp",
+  "redeemCaption": "The Codes box right after redeeming UICHANGES: \"Enjoy the new look! Here's 800 coins and 2x luck for 30 minutes.\"",
+  "redeemShots": [
+    {
+      "file": "prehistoric-farm-fossils.webp",
+      "caption": "The Fossils tab: fossils are sorted by time period, starting with the Cambrian."
+    }
+  ],
+  "checkedInGame": "2026-10-05"
+}
