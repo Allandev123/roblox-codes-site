@@ -1,7 +1,7 @@
 {
   "slug": "driving-empire",
   "name": "Driving Empire",
-  "robloxName": "Driving Empire [2X CASH] ",
+  "robloxName": "Driving Empire",
   "placeId": 3351674303,
   "universeId": 1202096104,
   "gameUrl": "https://www.roblox.com/games/3351674303/Driving-Empire",
@@ -176,17 +176,17 @@
     }
   ],
   "stats": {
-    "playing": 23240,
-    "visits": 3337510958,
-    "favorites": 31779260,
-    "updated": "2026-10-02T16:40:31.362Z",
+    "playing": 17629,
+    "visits": 3338201854,
+    "favorites": 31779725,
+    "updated": "2026-10-05T20:34:04.920417Z",
     "created": "2019-06-23T03:39:38.623Z",
     "maxPlayers": 22,
-    "upVotes": 2535835,
-    "downVotes": 190613
+    "upVotes": 2536029,
+    "downVotes": 190631
   },
   "added": "2026-09-29T17:52:18.942Z",
-  "lastChecked": "2026-10-05T14:30:08.581Z",
+  "lastChecked": "2026-10-05T21:59:38.757Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
