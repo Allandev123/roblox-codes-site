@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 9624,
-    "visits": 234877681,
-    "favorites": 8773086,
-    "updated": "2026-10-06T07:18:31.7863232Z",
+    "playing": 5609,
+    "visits": 235249186,
+    "favorites": 8779911,
+    "updated": "2026-10-06T17:39:48.2679824Z",
     "created": "2026-04-19T14:40:37.58Z",
     "maxPlayers": 8,
-    "upVotes": 78489,
-    "downVotes": 11194
+    "upVotes": 78621,
+    "downVotes": 11211
   },
   "added": "2026-09-29T18:35:41.154Z",
-  "lastChecked": "2026-10-06T13:19:06.457Z",
+  "lastChecked": "2026-10-06T20:15:53.330Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
