@@ -25,10 +25,20 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-06T06:15:26.295Z",
+      "lastSeen": "2026-10-06T13:19:06.457Z",
       "source": "description",
       "approved": false,
-      "context": "NEW CODE:100000CCU"
+      "context": "NEW CODE:100000CCU,SORRYBUG"
+    },
+    {
+      "code": "SORRYBUG",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-06T13:19:06.457Z",
+      "lastSeen": "2026-10-06T13:19:06.457Z",
+      "source": "description",
+      "approved": false,
+      "context": "NEW CODE:100000CCU,SORRYBUG"
     }
   ],
   "expired": [
@@ -42,17 +52,17 @@
     }
   ],
   "stats": {
-    "playing": 38246,
-    "visits": 59755717,
-    "favorites": 2597270,
-    "updated": "2026-10-06T06:11:00.210191Z",
+    "playing": 52165,
+    "visits": 60635544,
+    "favorites": 2624150,
+    "updated": "2026-10-06T11:47:29.8798648Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 128988,
-    "downVotes": 4300
+    "upVotes": 130077,
+    "downVotes": 4345
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-06T06:15:26.295Z",
+  "lastChecked": "2026-10-06T13:19:06.457Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "faq": [
     {

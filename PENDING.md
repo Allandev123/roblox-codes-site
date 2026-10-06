@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-14 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+15 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -13,7 +13,8 @@ node scripts/review.mjs
 | Collect All Pets! (draft) | `FirstCodeEver` | 2x Gold boost | 2026-09-29 16:13 UTC | Use this code: FirstCodeEver |
 | Infinite Tower Tycoon (draft) | `premium` | Exclusive reward (Roblox Premium/Plus only) | 2026-09-29 16:14 UTC | → Exclusive redeem code: "premium" |
 | +1 DMG FPS (draft) | `10KCCU` | GIFT | 2026-10-04 20:49 UTC | use code "10KCCU" for some GIFT! |
-| +1 Loot To Forge (draft) | `100000CCU` |  | 2026-10-04 20:49 UTC | NEW CODE:100000CCU |
+| +1 Loot To Forge (draft) | `100000CCU` |  | 2026-10-04 20:49 UTC | NEW CODE:100000CCU,SORRYBUG |
+| +1 Loot To Forge (draft) | `SORRYBUG` |  | 2026-10-06 13:19 UTC | NEW CODE:100000CCU,SORRYBUG |
 | +1 Skate Trickz Escape | `THANKYOU` |  | 2026-10-04 20:49 UTC | CODES: 1MPLAYS, 2500CCU, THANKYOU |
 | Rebirth Champions: Ultimate (draft) | `release` | Free boost (Luck Potion, Grape and Apple) | 2026-09-29 16:13 UTC | Use code "release" for Free Boost in-game! |
 | Roll a Fisherman | `DEVS_SUCK` |  | 2026-10-04 21:20 UTC | CODES: … DEVS_SUCK |
