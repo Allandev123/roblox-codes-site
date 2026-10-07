@@ -1,7 +1,7 @@
 {
   "slug": "dream-car-collection",
   "name": "Dream Car Collection",
-  "robloxName": "💭Dream Car Collection [SOON]",
+  "robloxName": "[UPD❓] 💭Dream Car Collection ",
   "placeId": 76841016201110,
   "universeId": 10667357873,
   "gameUrl": "https://www.roblox.com/games/76841016201110/Dream-Car-Collection",
@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-10-07T00:39:57.388Z",
+      "lastSeen": "2026-10-07T10:11:32.602Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5567,
-    "visits": 12284218,
-    "favorites": 182462,
-    "updated": "2026-10-05T16:18:50.8769029Z",
+    "playing": 7536,
+    "visits": 12530220,
+    "favorites": 186026,
+    "updated": "2026-10-07T08:06:16.5687122Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 29769,
-    "downVotes": 1438
+    "upVotes": 30229,
+    "downVotes": 1461
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-10-07T00:39:57.388Z",
+  "lastChecked": "2026-10-07T10:11:32.602Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
