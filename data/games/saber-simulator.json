@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-08T00:57:53.538Z",
+      "lastSeen": "2026-10-08T10:29:39.496Z",
       "source": "description",
       "approved": false,
       "context": "New code \"SPOOKYSZN\""
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 1458,
-    "visits": 644737637,
-    "favorites": 2033821,
+    "playing": 1534,
+    "visits": 644761389,
+    "favorites": 2033848,
     "updated": "2026-10-02T21:47:33.553Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570498,
+    "upVotes": 570499,
     "downVotes": 90785
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-08T00:57:53.538Z",
+  "lastChecked": "2026-10-08T10:29:39.496Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
