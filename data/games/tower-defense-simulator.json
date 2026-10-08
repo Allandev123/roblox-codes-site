@@ -25,7 +25,7 @@
       "reward": "Mercenary Pursuit skin (needs the Pursuit tower)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:21.903Z",
-      "lastSeen": "2026-10-07T18:55:23.883Z",
+      "lastSeen": "2026-10-08T00:57:53.538Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 10816,
-    "visits": 5003692366,
-    "favorites": 3518911,
+    "playing": 8645,
+    "visits": 5003964481,
+    "favorites": 3519017,
     "updated": "2026-10-05T15:54:51.586Z",
     "created": "2019-06-05T04:21:45.977Z",
     "maxPlayers": 50,
-    "upVotes": 2077702,
-    "downVotes": 129098
+    "upVotes": 2077790,
+    "downVotes": 129097
   },
   "added": "2026-09-29T16:13:21.903Z",
-  "lastChecked": "2026-10-07T18:55:23.883Z",
+  "lastChecked": "2026-10-08T00:57:53.538Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

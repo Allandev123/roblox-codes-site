@@ -8,7 +8,7 @@ node scripts/review.mjs
 
 | Game | Code | Reward | First seen | Description line |
 |---|---|---|---|---|
-| 2 Player Raid Tycoon | `TY7500` |  | 2026-09-30 19:59 UTC | USE CODE 'TY7500' IN THE SHOP!!! |
+| 2 Player Raid Tycoon | `TY10000` |  | 2026-10-08 00:57 UTC | USE CODE 'TY10000' IN THE SHOP!!! |
 | Anime Fighting Simulator (draft) | `WIZARDKING` | FREE rewards | 2026-10-04 20:49 UTC | Use Code "WIZARDKING" for FREE rewards! |
 | Collect All Pets! (draft) | `FirstCodeEver` | 2x Gold boost | 2026-09-29 16:13 UTC | Use this code: FirstCodeEver |
 | Infinite Tower Tycoon (draft) | `premium` | Exclusive reward (Roblox Premium/Plus only) | 2026-09-29 16:14 UTC | → Exclusive redeem code: "premium" |

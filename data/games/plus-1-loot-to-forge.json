@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-07T18:55:23.883Z",
+      "lastSeen": "2026-10-08T00:57:53.538Z",
       "source": "description",
       "approved": false,
       "context": "NEW CODE:100000CCU,SORRYBUG"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-06T13:19:06.457Z",
-      "lastSeen": "2026-10-07T18:55:23.883Z",
+      "lastSeen": "2026-10-08T00:57:53.538Z",
       "source": "description",
       "approved": false,
       "context": "NEW CODE:100000CCU,SORRYBUG"
@@ -52,17 +52,17 @@
     }
   ],
   "stats": {
-    "playing": 29718,
-    "visits": 63480283,
-    "favorites": 2706269,
+    "playing": 25200,
+    "visits": 63874832,
+    "favorites": 2716827,
     "updated": "2026-10-07T12:51:10.634562Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 134228,
-    "downVotes": 4510
+    "upVotes": 134859,
+    "downVotes": 4537
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-07T18:55:23.883Z",
+  "lastChecked": "2026-10-08T00:57:53.538Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "faq": [
     {

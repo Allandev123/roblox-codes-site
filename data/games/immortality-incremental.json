@@ -1,7 +1,7 @@
 {
   "slug": "immortality-incremental",
   "name": "Immortality Incremental",
-  "robloxName": "[⛏️ WORLD 9 PT. 1] Immortality Incremental",
+  "robloxName": "[🌐 WORLD 9 EXPANSION] Immortality Incremental",
   "placeId": 75317862071711,
   "universeId": 9584946743,
   "gameUrl": "https://www.roblox.com/games/75317862071711/Immortality-Incremental",
@@ -25,7 +25,7 @@
       "reward": "Free potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:44.702Z",
-      "lastSeen": "2026-10-07T18:55:23.883Z",
+      "lastSeen": "2026-10-08T00:57:53.538Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3259,
-    "visits": 38919395,
-    "favorites": 289520,
-    "updated": "2026-10-04T02:58:01.34Z",
+    "playing": 2998,
+    "visits": 38977548,
+    "favorites": 289653,
+    "updated": "2026-10-07T21:42:18.415Z",
     "created": "2026-01-18T18:09:14.383Z",
     "maxPlayers": 10,
-    "upVotes": 125755,
-    "downVotes": 2378
+    "upVotes": 125824,
+    "downVotes": 2380
   },
   "added": "2026-09-29T16:13:44.702Z",
-  "lastChecked": "2026-10-07T18:55:23.883Z",
+  "lastChecked": "2026-10-08T00:57:53.538Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
