@@ -1,7 +1,7 @@
 {
   "slug": "saber-simulator",
   "name": "Saber Simulator",
-  "robloxName": "🍂 Saber Simulator",
+  "robloxName": "🎃 Saber Simulator",
   "placeId": 3823781113,
   "universeId": 1312971993,
   "gameUrl": "https://www.roblox.com/games/3823781113/Saber-Simulator",
@@ -21,14 +21,14 @@
   "notes": "Saber Simulator is an HD Games title built on a simple loop: swing your saber to build Strength, sell that Strength for Coins, and spend the Coins on stronger sabers and upgrades from the shop. Strength also decides how hard you hit when fighting other players, and leaderboards rank the strongest. Crowns are a second currency tied to pets and progression, and updates keep adding classes, sabers and eggs.\n\nCodes mostly give Shiny, Rainbow and Void Charms, which go into powering up pets, along with Crowns and sometimes Coins. HD Games announces codes in its changelogs, Discord, X account and Roblox group, often with seasonal updates like the fall code in the current description.",
   "codes": [
     {
-      "code": "SPOOKYSZN",
+      "code": "HALLOWEEN26",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-09T10:28:15.187Z",
+      "firstSeen": "2026-10-09T18:20:00.852Z",
+      "lastSeen": "2026-10-09T18:20:00.852Z",
       "source": "description",
       "approved": false,
-      "context": "New code \"SPOOKYSZN\""
+      "context": "New code \"HALLOWEEN26\""
     }
   ],
   "expired": [
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 1590,
-    "visits": 644823033,
-    "favorites": 2033956,
-    "updated": "2026-10-02T21:47:33.553Z",
+    "playing": 2505,
+    "visits": 644849755,
+    "favorites": 2034030,
+    "updated": "2026-10-09T17:23:36.195Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570506,
-    "downVotes": 90786
+    "upVotes": 570513,
+    "downVotes": 90787
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-09T10:28:15.187Z",
+  "lastChecked": "2026-10-09T18:20:00.852Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
