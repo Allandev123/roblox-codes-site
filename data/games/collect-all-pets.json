@@ -25,7 +25,7 @@
       "reward": "2x Gold boost",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:46.310Z",
-      "lastSeen": "2026-10-08T18:49:41.568Z",
+      "lastSeen": "2026-10-09T01:12:00.555Z",
       "source": "description",
       "approved": false,
       "context": "Use this code: FirstCodeEver"
@@ -33,16 +33,16 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3013,
-    "visits": 210452724,
-    "favorites": 329139,
+    "playing": 2918,
+    "visits": 210463217,
+    "favorites": 329151,
     "updated": "2026-10-04T22:54:12.68Z",
     "created": "2022-02-20T17:07:04.26Z",
     "maxPlayers": 12,
-    "upVotes": 126503,
+    "upVotes": 126506,
     "downVotes": 9920
   },
   "added": "2026-09-29T16:13:46.310Z",
-  "lastChecked": "2026-10-08T18:49:41.568Z",
+  "lastChecked": "2026-10-09T01:12:00.555Z",
   "lastChanged": "2026-09-29T16:13:46.310Z"
 }
