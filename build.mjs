@@ -16,6 +16,7 @@ import { layout } from './templates/layout.mjs';
 import { HOME_FAQ, homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms, disclaimer } from './templates/content.mjs';
+import { devexBody, DEVEX_FAQ } from './templates/tools.mjs';
 import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
 
 const t0 = Date.now();
@@ -247,6 +248,9 @@ function loadArticles(section) {
 }
 const guides = loadArticles('guides').sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 const posts = loadArticles('blog').sort((a, b) => a.order - b.order || a.published.localeCompare(b.published)); // devlogs read in order: 1, 2, 3...
+// a link to a guide or blog post that isn't published (a draft, or scheduled) becomes plain text
+const liveArticles = new Set([...guides, ...posts].map(gd => gd.path));
+for (const gd of [...guides, ...posts]) gd.html = gd.html.replace(/<a href="(\/(?:guides|blog)\/[a-z0-9-]+\/)">([\s\S]*?)<\/a>/g, (m, href, text) => (liveArticles.has(href) ? m : text));
 const gameGuides = guides.filter(gd => gd.onGamePages).slice(0, 3);
 site.hasGuides = guides.length > 0;
 site.hasBlog = posts.length > 0;
@@ -374,7 +378,7 @@ if (guides.length) {
   write('guides/index.html', layout({
     site, assets, path: '/guides/',
     title: `Roblox Codes Guides - ${site.siteName}`,
-    description: clip(`Guides to Roblox game codes: how to redeem them on every device, why codes fail and how to avoid scams, plus guides to +1 Nose to Escape.`, 155),
+    description: clip(`Guides to Roblox game codes: how to redeem them on every device, why codes fail and how to avoid scams.`, 155),
     jsonld: [{
       '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox codes guides', url: site.url + '/guides/',
       hasPart: guides.map(gd => ({ '@type': 'Article', headline: gd.title, url: site.url + gd.path })),
@@ -430,6 +434,44 @@ for (const [slug, h1, title, description, html] of [
 ]) {
   write(`${slug}/index.html`, layout({ site, assets, path: `/${slug}/`, title, description, nav: slug, body: staticBody(h1, html) }));
   pages.push({ path: `/${slug}/`, lastmod: STATIC_LASTMOD });
+}
+
+// DevEx and Ad Credit calculator; rates live in data/devex.json
+{
+  const d = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'devex.json'), 'utf8'));
+  const p = '/devex-calculator/';
+  const url = site.url + p;
+  await og('tool-devex', { background: null, title: 'DevEx & Ad Credit Calculator', kicker: 'CALCULATOR', sub: 'Robux to US dollars and Ad Credits' }, 'og/tool-devex.jpg');
+  write('devex-calculator/index.html', layout({
+    site, assets, path: p,
+    title: `Roblox DevEx & Ad Credit Calculator (${d.checked.slice(0, 4)} Rates)`,
+    description: clip(`Work out what your Earned Robux are worth with DevEx, or how many Ad Credits they buy. Uses Roblox's current $${d.rates.standard.usd} and U.S. 18+ $${d.rates.us18.usd} rates.`, 155),
+    ogImage: `${site.url}/og/tool-devex.jpg`,
+    jsonld: [
+      {
+        '@context': 'https://schema.org', '@type': 'WebApplication',
+        name: 'Roblox DevEx & Ad Credit Calculator', url,
+        applicationCategory: 'FinanceApplication', operatingSystem: 'Any', browserRequirements: 'Requires JavaScript',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        datePublished: d.published, dateModified: d.checked,
+        author: PERSON, publisher: ORG,
+      },
+      {
+        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: site.url + '/' },
+          { '@type': 'ListItem', position: 2, name: 'DevEx calculator', item: url },
+        ],
+      },
+      {
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: DEVEX_FAQ(d).map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') } })),
+      },
+    ],
+    ads: true,
+    body: devexBody({ site, d }),
+  }));
+  pages.push({ path: p, lastmod: new Date(d.checked).toISOString() });
 }
 
 // author page

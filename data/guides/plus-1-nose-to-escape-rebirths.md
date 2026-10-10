@@ -4,6 +4,7 @@ seoTitle: +1 Nose to Escape Rebirth Guide: Levels and Rewards
 short: Rebirth guide
 description: How rebirths work in +1 Nose to Escape: the Level each rebirth needs, the Nose multiplier you get, what you keep, and the treadmills rebirths unlock.
 summary: The Level each rebirth needs, the multiplier it gives, what you keep and lose, and which treadmills rebirths unlock.
+draft: true
 published: 2026-09-29
 updated: 2026-09-29
 series: +1 Nose to Escape

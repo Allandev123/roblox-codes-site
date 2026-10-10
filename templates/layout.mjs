@@ -125,6 +125,7 @@ ${body}
       <a href="/guides/roblox-code-not-working/">Code not working?</a>
       ${site.hasBlog ? '<a href="/blog/">Blog</a>' : ''}
       ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
+      <a href="/devex-calculator/">DevEx calculator</a>
     </nav>
     <nav class="foot-col" aria-labelledby="fc-site"><h2 id="fc-site">Site</h2>
       <a href="/about/">About</a>

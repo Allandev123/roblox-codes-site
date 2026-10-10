@@ -4,6 +4,7 @@ seoTitle: +1 Nose to Escape: My New Roblox Game Explained
 short: +1 Nose to Escape
 description: +1 Nose to Escape is my upcoming Roblox game: grow a Pinocchio nose, stretch it over lava and zip across. How it works, the launch codes and what's next.
 summary: My upcoming Roblox game, where you grow a Pinocchio nose and zip across lava. How it plays, the launch codes and what's coming.
+draft: true
 published: 2026-09-29
 updated: 2026-09-29
 series: +1 Nose to Escape

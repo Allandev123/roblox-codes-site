@@ -4,6 +4,7 @@ seoTitle: All +1 Nose to Escape Noses and Blooms (Costs List)
 short: All noses and Blooms
 description: Every nose in +1 Nose to Escape, from Wooden to Rainbow: how many Wins each costs and how much Nose it gives, plus every Bloom and its multiplier.
 summary: Every nose from Wooden to Rainbow with its Wins cost and Nose per second, plus all 7 Blooms and what they multiply.
+draft: true
 published: 2026-09-29
 updated: 2026-09-29
 series: +1 Nose to Escape

@@ -4,6 +4,7 @@ seoTitle: +1 Nose to Escape Stages: Level Needed and Wins
 short: All 11 stages
 description: Every stage in +1 Nose to Escape: the Level you need, the Wins on each win pad, and what's new on each one, from speed rings to secret chests.
 summary: The Level you need for each of the 11 stages, the Wins on every win pad, and where the secret chests are.
+draft: true
 published: 2026-09-29
 updated: 2026-09-29
 series: +1 Nose to Escape

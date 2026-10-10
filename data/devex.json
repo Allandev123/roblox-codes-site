@@ -1,0 +1,16 @@
+{
+  "_note": "Rates for /devex-calculator/. When Roblox changes a rate, update it here from the sources below and set checked to that day.",
+  "published": "2026-10-10",
+  "checked": "2026-10-10",
+  "minimum": 30000,
+  "oldRateBefore": "September 5, 2025",
+  "rates": {
+    "us18": { "name": "U.S. 18+ rate", "usd": 0.0054, "for": "Robux from game passes, developer products, subscriptions and private servers bought by U.S. players who verified they are 18 or older, in eligible games" },
+    "standard": { "name": "Standard rate", "usd": 0.0038, "for": "All other Earned Robux since September 5, 2025" },
+    "old": { "name": "Old rate", "usd": 0.0035, "for": "Earned Robux still in your balance from before September 5, 2025" }
+  },
+  "sources": {
+    "devex": "https://create.roblox.com/docs/production/monetization/developer-exchange",
+    "ads": "https://create.roblox.com/docs/production/promotion/ads-manager"
+  }
+}

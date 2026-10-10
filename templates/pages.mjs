@@ -160,7 +160,8 @@ ${newest.map(({ v, c }) => `    <li>
 </section>
 
 <section id="games" class="sec" aria-labelledby="games-h">
-  <div class="sec-head"><h2 id="games-h">All games</h2><span class="aside">Most played first</span></div>
+  <div class="sec-head"><h2 id="games-h">All games</h2><span class="aside" id="games-aside">Most played first</span></div>
+  <div class="field games-filter">${ICONS.search}<input id="games-q" type="search" placeholder="Search ${views.length} games..." aria-label="Search all games" autocomplete="off" enterkeyhint="search"></div>
   <ul class="tiles all">
 ${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
   </ul>
@@ -181,7 +182,7 @@ ${HOME_FAQ(site, views.length).map((f, i) => `    <details class="faq"${i === 0 
 
 <section id="how" class="sec run-by">
   <img src="/img/${esc(a.image)}" alt="${esc(a.name)}" width="56" height="56" loading="lazy">
-  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. <a href="/how-we-check-codes/">How I check codes</a></p>
+  <p>Run by <a href="/author/${esc(a.slug)}/">${esc(a.name)}</a>, a Roblox YouTuber who's also making a game, <a href="/blog/how-plus-1-nose-to-escape-started/">+1 Nose to Escape</a>. A program reads each game's Roblox page every 3 hours and I approve every new code by hand. <a href="/how-we-check-codes/">How I check codes</a></p>
 </section>`;
 }
 
@@ -392,7 +393,7 @@ export function authorBody({ site, views }) {
   <p>The whole process is on <a href="/how-we-check-codes/">How I check codes</a>.</p>
 
   <h2>The game I'm making</h2>
-  <p>I'm also building my own Roblox game, <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape</a>, where you grow a Pinocchio nose and stretch it across lava. It's in testing now. I've written guides for it with the real numbers from the game, and its codes will be on this site first.</p>
+  <p>I'm also building my own Roblox game, <a href="/blog/how-plus-1-nose-to-escape-started/">+1 Nose to Escape</a>, where you grow a Pinocchio nose and stretch it across lava. It's in testing now. I write about making it on <a href="/blog/">my blog</a>, and its codes will be on this site first.</p>
 
   <h2>Find me elsewhere</h2>
   <ul>
@@ -455,7 +456,7 @@ export function guidesIndexBody({ site, guides }) {
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Guides</li></ol></nav>
 <header class="index-head">
 <h1>Guides</h1>
-<p class="dek">Practical guides for getting Roblox codes to work, plus guides to +1 Nose to Escape, the game I'm making. By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a>.</p>
+<p class="dek">Practical guides for getting Roblox codes to work, from redeeming them to fixing codes that fail. By <a href="${authorPath(site)}" rel="author">${esc(site.author.name)}</a>.</p>
 </header>
 ${[...groups].map(([name, list]) => `<section class="sec" aria-label="${esc(name)}">
   <div class="sec-head"><h2>${esc(name)}</h2><span class="aside">${plural(list.length, 'guide')}</span></div>
@@ -474,7 +475,7 @@ export function blogIndexBody({ site, posts }) {
 </header>
 <div class="run-by sec">
   <img src="/img/${esc(a.image)}" alt="${esc(a.name)}" width="56" height="56">
-  <p>Written by <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a>, who plays Roblox, makes YouTube videos about it, and is now building a game. For how the game plays, see the <a href="/guides/plus-1-nose-to-escape/">+1 Nose to Escape guides</a>.</p>
+  <p>Written by <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a>, who plays Roblox, makes YouTube videos about it, and is now building a game.</p>
 </div>
 <ul class="cards sec">
 ${posts.map((p, i) => articleCard(p, { lazy: i > 2 })).join('\n')}

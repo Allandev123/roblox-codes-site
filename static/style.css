@@ -567,3 +567,100 @@ section[id], h2[id] { scroll-margin-top: 16px; }
 .cookies-yes { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .cookies-yes:hover { background: var(--accent-deep); border-color: var(--accent-deep); color: var(--accent-ink); }
 .cookie-open { font: inherit; color: inherit; background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+
+/* ---------- DevEx and Ad Credit calculator: styled like Roblox's own screens ---------- */
+/* a wide tool page, not an article: both calculators side by side */
+main.wrap:has(.tool-head) { max-width: 1160px; }
+.tool-head { text-align: center; max-width: 760px; margin: 0 auto 24px; }
+.tool-head h1 { font-size: clamp(2rem, 6vw, 2.75rem); }
+.tool-head p { margin: 10px 0 0; color: var(--muted); }
+.tool-grid { display: grid; gap: 20px; align-items: start; }
+@media (min-width: 920px) { .tool-grid { grid-template-columns: 1fr 1fr; } }
+.calc-note { margin: 12px 0 0; text-align: center; }
+.tool-more { max-width: 820px; margin: 0 auto; }
+
+/* Roblox light theme by default, Roblox dark theme when the site is dark */
+.rbx {
+  --rbx-bg: #ffffff; --rbx-line: #e1e3e8; --rbx-field: #f7f8fa; --rbx-edge: #c5c9d0; --rbx-text: #1b1d21;
+  --rbx-dim: #5d6169; --rbx-blue: #335fff; --rbx-red: #d63c3c; --rbx-green: #1d8a4a;
+  --rbx-chip: #f0f2f5; --rbx-note: #eef2ff; --rbx-note-grey: #f0f2f5; --rbx-icon-dim: #9aa0aa;
+  padding: 22px; color: var(--rbx-text); background: var(--rbx-bg); border: 1px solid var(--rbx-line); border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(30, 25, 15, .06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .rbx {
+    --rbx-bg: #18191d; --rbx-line: #393b41; --rbx-field: #111215; --rbx-edge: #4a4d55; --rbx-text: #f7f7f8;
+    --rbx-dim: #b9bbc0; --rbx-red: #f26b6b; --rbx-green: #4cc97a;
+    --rbx-chip: #23252a; --rbx-note: #141a2c; --rbx-note-grey: #2a2c32; --rbx-icon-dim: #6b6e76;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] .rbx {
+  --rbx-bg: #18191d; --rbx-line: #393b41; --rbx-field: #111215; --rbx-edge: #4a4d55; --rbx-text: #f7f7f8;
+  --rbx-dim: #b9bbc0; --rbx-red: #f26b6b; --rbx-green: #4cc97a;
+  --rbx-chip: #23252a; --rbx-note: #141a2c; --rbx-note-grey: #2a2c32; --rbx-icon-dim: #6b6e76;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25); color-scheme: dark;
+}
+.rbx a { color: var(--rbx-text); }
+.rbx :focus-visible { outline-color: var(--rbx-blue); }
+.rbx-head h2 { margin: 0; font-size: 1.35rem; }
+.rbx-head p { margin: 4px 0 18px; color: var(--rbx-dim); font-size: .95rem; }
+.rbx label { display: block; margin-bottom: 8px; font-weight: 700; font-size: .98rem; }
+.rbx-pair { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: end; }
+.rbx-pair-even { grid-template-columns: 1fr 1fr; }
+.rbx-or { padding-bottom: 14px; color: var(--rbx-dim); white-space: nowrap; overflow-wrap: normal; }
+.rbx-input { display: flex; align-items: center; gap: 8px; height: 50px; padding: 0 14px; background: var(--rbx-field); border: 1.5px solid var(--rbx-edge); border-radius: 10px; }
+.rbx-input:focus-within { border-color: var(--rbx-blue); box-shadow: 0 0 0 1px var(--rbx-blue); }
+.rbx-input input { flex: 1; min-width: 0; height: 100%; padding: 0; border: 0; background: none; color: var(--rbx-text); font: 600 1.05rem/1 var(--sans); font-variant-numeric: tabular-nums; outline: none; }
+.rbx-icon { flex: none; }
+.rbx-pre { color: var(--rbx-dim); font-weight: 600; }
+.rbx-msg { margin: 8px 0 0; font-size: .86rem; }
+.rbx-msg:empty { margin: 0; }
+.rbx-msg.err { color: var(--rbx-red); }
+.rbx-msg.ok { color: var(--rbx-green); }
+.rbx-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.rbx-chip { min-height: 36px; padding: 0 14px; color: var(--rbx-text); background: var(--rbx-chip); border: 1px solid var(--rbx-line); border-radius: 999px; font: 600 .9rem/1 var(--sans); cursor: pointer; }
+.rbx-chip:hover { border-color: var(--rbx-dim); }
+.rbx-bal { margin-top: 12px; }
+.rbx-bal summary { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 700; cursor: pointer; }
+.rbx-bal summary span { color: var(--rbx-dim); font-weight: 400; font-size: .85rem; }
+.rbx-bal > p { margin: 0 0 12px; color: var(--rbx-dim); font-size: .9rem; }
+.rbx-bal label { font-size: .88rem; font-weight: 600; }
+.rbx-sub { margin: 16px 0 8px; font-weight: 600; font-size: .92rem; color: var(--rbx-dim); }
+.rbx-box { margin-top: 16px; padding: 4px 20px; border: 1px solid var(--rbx-line); border-radius: 12px; }
+.rbx-sub + .rbx-box { margin-top: 0; }
+.rbx-row, .rbx-total { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; padding: 14px 0; }
+.rbx-row-l b { display: block; font-size: 1.02rem; }
+.rbx-row-l > span { display: block; color: var(--rbx-dim); font-size: .9rem; }
+.rbx-row-l small { display: flex; align-items: center; gap: 6px; margin-top: 4px; color: var(--rbx-dim); font-size: .8rem; }
+.rbx-row-l small .rbx-info-icon { width: 14px; height: 14px; color: var(--rbx-icon-dim); flex: none; }
+.rbx-row-r { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; font-variant-numeric: tabular-nums; }
+.rbx-row-r > span { display: inline-flex; align-items: center; gap: 6px; }
+.rbx-dim { color: var(--rbx-dim); }
+.rbx-total { align-items: center; margin-top: 6px; padding: 20px 0 16px; border-top: 1px solid var(--rbx-line); }
+.rbx-total > b { font-size: 1.1rem; }
+.rbx-total output { font-size: 1.35rem; font-weight: 800; }
+.rbx-note { display: flex; gap: 12px; align-items: flex-start; margin-top: 16px; padding: 14px 16px; background: var(--rbx-note); border: 1px solid var(--rbx-blue); border-radius: 12px; }
+.rbx-note p { margin: 0; font-size: .92rem; line-height: 1.5; }
+.rbx-note .rbx-info-icon { flex: none; margin-top: 2px; color: var(--rbx-blue); }
+.rbx-note-grey { background: var(--rbx-note-grey); border-color: transparent; }
+.rbx-final { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--rbx-line); }
+.rbx-final b { font-size: .9rem; }
+.rbx-final p { margin: 4px 0 0; color: var(--rbx-dim); font-size: .88rem; }
+.rates-table th, .rates-table td { overflow-wrap: normal; }
+.rates-table th, .rates-table td:not(:nth-child(2)) { white-space: nowrap; }
+.rates-table td:nth-child(2) { min-width: 180px; }
+.tool-more .sec > h2 { margin-bottom: 6px; }
+.tool-more .note { margin: 0 0 12px; }
+.tool-faq .faq-list { display: grid; gap: 10px; }
+.tool-faq .faq-list + .note { margin-top: 16px; }
+@media (max-width: 560px) {
+  .rbx { padding: 16px; }
+  .rbx-pair, .rbx-pair-even { grid-template-columns: 1fr; }
+  .rbx-or { padding: 0; text-align: center; }
+  .rbx-box { padding: 4px 14px; }
+}
+
+/* home: filter box at the top of All games */
+.games-filter { margin: 0 0 16px; }
+.games-filter input { height: 48px; }

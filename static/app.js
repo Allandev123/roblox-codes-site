@@ -164,6 +164,8 @@
     const count = $('#games-count');
     const countText = count.innerHTML;
     const empty = $('#no-results');
+    // the box at the top of All games filters the same grid, without hiding the sections above
+    const gq = $('#games-q'), aside = $('#games-aside');
     const STOP = new Set(['code', 'codes', 'roblox', 'game', 'the', 'a', 'an', 'for', 'new', 'free', 'working']);
     const norm = s => s.toLowerCase().normalize('NFKD').replace(/\+/g, ' plus ').replace(/[^a-z0-9]+/g, ' ').trim();
     const toks = s => norm(s).split(' ').filter(w => w && !STOP.has(w));
@@ -189,7 +191,7 @@
       (qflat.length > 3 && lev(qflat, e.flat.slice(0, qflat.length + 1)) <= tol(qflat.length)) ||
       qt.every(t => t.length >= 3 && e.w.some(w => lev(t, w.slice(0, t.length + 1)) <= tol(t.length)));
     let st;
-    const run = () => {
+    const run = (fromGrid = false) => {
       const raw = input.value;
       const qt = toks(raw);
       const qflat = qt.join('');
@@ -202,9 +204,10 @@
           didYouMean = shown > 0;
         }
       }
-      main.classList.toggle('searching', qt.length > 0);
+      main.classList.toggle('searching', qt.length > 0 && !fromGrid);
       empty.hidden = !(qt.length && !shown);
       count.innerHTML = !qt.length ? countText : didYouMean ? 'Did you mean one of these?' : `${shown} of ${idx.length} games`;
+      if (aside) aside.textContent = !qt.length ? 'Most played first' : didYouMean ? 'Did you mean one of these?' : `${shown} of ${idx.length} games`;
       clearTimeout(st);
       if (qt.length) st = setTimeout(() => say(shown ? `${shown} game${shown === 1 ? '' : 's'} found` : 'No games found'), 400);
     };
@@ -252,7 +255,9 @@
       active = -1;
       setOpen(true);
     };
-    input.addEventListener('input', () => { run(); drawPop(); });
+    input.addEventListener('input', () => { if (gq) gq.value = input.value; run(); drawPop(); });
+    gq?.addEventListener('input', () => { input.value = gq.value; run(true); });
+    gq?.addEventListener('keydown', e => { if (e.key === 'Escape' && gq.value) { e.preventDefault(); gq.value = input.value = ''; run(true); } });
     input.addEventListener('focus', () => { load(); drawPop(); });
     input.addEventListener('pointerdown', () => { if (pop?.hidden && document.activeElement === input) drawPop(); });
     input.addEventListener('keydown', e => {
@@ -276,13 +281,105 @@
       if (input.value.trim() && vis.length === 1) location.href = vis[0].a.href;
       else { input.blur(); $('#games').scrollIntoView({ block: 'start' }); }
     });
-    $('#clear-q')?.addEventListener('click', () => { input.value = ''; run(); input.focus(); });
+    $('#clear-q')?.addEventListener('click', () => { input.value = ''; if (gq) gq.value = ''; run(); input.focus(); });
     const q = new URLSearchParams(location.search).get('q');
-    if (q) { input.value = q; run(); }
+    if (q) { input.value = q; if (gq) gq.value = q; run(); }
     document.addEventListener('keydown', e => {
       if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); input.focus(); }
     });
     if (location.hash === '#q') setTimeout(() => input.focus(), 0);
+  }
+
+  // ---------------------------------------------------------------- DevEx calculator
+  // /devex-calculator/. The rates come from the page (data/devex.json), so they only
+  // live in one place. Like Roblox's own screens: type in either box of a pair and the
+  // other follows, and Robux are split across rates in the order Roblox uses them.
+  const calc = $('#calc');
+  if (calc) {
+    const R = JSON.parse(calc.dataset.rates);
+    const MIN = Number(calc.dataset.min);
+    const whole = el => Number(el.value.replace(/\D/g, '')) || 0; // Robux: digits only, so "30.000" and "30,000" both work
+    const money = el => { const n = parseFloat(el.value.replace(/[^0-9.]/g, '')); return n > 0 ? n : 0; };
+    const int = n => Math.round(n).toLocaleString('en-US');
+    const two = n => n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const cents = n => Math.round(n * 100) / 100; // each row is rounded to the cent, like the DevEx portal
+    const robuxFor = (amount, rate) => Math.ceil(+(amount / rate).toFixed(6)); // toFixed: 114 / 0.0038 is 30000.000000000004
+    const set = (id, text) => { const el = $('#' + id); if (el) el.textContent = text; };
+    const msg = (el, text, kind = '') => { el.textContent = text; el.className = 'rbx-msg' + (kind ? ' ' + kind : ''); };
+
+    // Robux -> buckets in order; each bucket is capped by your balance at that rate, the last one isn't
+    const split = (robux, order, caps) => {
+      let left = robux;
+      return order.map((k, i) => { const take = i === order.length - 1 ? left : Math.min(left, caps[k] || 0); left -= take; return [k, take]; });
+    };
+    // money -> Robux, filling the same buckets in the same order
+    const need = (amount, order, caps) => {
+      let left = amount, robux = 0;
+      order.forEach((k, i) => {
+        if (left <= 0) return;
+        const cap = i === order.length - 1 ? Infinity : caps[k] || 0;
+        if (left <= cap * R[k]) { robux += robuxFor(left, R[k]); left = 0; } else { robux += cap; left -= cap * R[k]; }
+      });
+      return robux;
+    };
+    // fill a breakdown box; a rate with no Robux is hidden, like on Roblox
+    const fill = (box, prefix, parts, robux, fmt) => {
+      let total = 0;
+      for (const [k, n] of parts) {
+        const v = cents(n * R[k]);
+        total += v;
+        set(`${prefix}-r-${k}`, int(n));
+        set(`${prefix}-v-${k}`, fmt(v));
+        box.querySelector(`[data-row="${k}"]`).hidden = !n && !(k === 'standard' && !robux);
+      }
+      set(`${prefix}-r-total`, int(robux));
+      return total;
+    };
+
+    // DevEx: U.S. 18+ first, then the old rate, then standard
+    const devexBox = $('#devex');
+    const dxR = $('#dx-robux'), dxU = $('#dx-usd');
+    let dxFrom = 'robux';
+    const devex = () => {
+      const caps = { us18: whole($('#dx-b-us18')), old: whole($('#dx-b-old')) };
+      const order = ['us18', 'old', 'standard'];
+      const robux = dxFrom === 'robux' ? whole(dxR) : need(money(dxU), order, caps);
+      const total = fill(devexBox, 'dx', split(robux, order, caps), robux, v => '$' + two(v));
+      if (dxFrom === 'robux') dxU.value = robux ? two(total) : ''; else dxR.value = robux ? int(robux) : '';
+      set('dx-total', '$' + two(total));
+      if (!robux) msg($('#dx-status'), '');
+      else if (robux < MIN) msg($('#dx-status'), `You need ${int(MIN - robux)} more Robux to cash out. The minimum is ${int(MIN)}.`, 'err');
+      else msg($('#dx-status'), `Enough to cash out. The minimum is ${int(MIN)} Earned Robux.`, 'ok');
+    };
+    dxR.addEventListener('input', () => { dxFrom = 'robux'; devex(); });
+    dxU.addEventListener('input', () => { dxFrom = 'usd'; devex(); });
+    ['#dx-b-us18', '#dx-b-old'].forEach(s => $(s).addEventListener('input', devex));
+    devexBox.querySelectorAll('[data-robux]').forEach(b => b.addEventListener('click', () => { dxR.value = int(+b.dataset.robux); dxFrom = 'robux'; devex(); }));
+
+    // Ad Credits: U.S. 18+ first, then everything else at the standard rate (old Robux too)
+    const adBox = $('#ad-credits');
+    const acR = $('#ac-robux'), acC = $('#ac-credits');
+    let acFrom = 'robux';
+    const adCredits = () => {
+      const caps = { us18: whole($('#ac-b-us18')) };
+      const order = ['us18', 'standard'];
+      const robux = acFrom === 'robux' ? whole(acR) : need(money(acC), order, caps);
+      const total = fill(adBox, 'ac', split(robux, order, caps), robux, two);
+      if (acFrom === 'robux') acC.value = robux ? two(total) : ''; else acR.value = robux ? int(robux) : '';
+      set('ac-total', `${two(total)} Ad Credit`);
+      const tooSmall = robux && total < 1;
+      msg($('#ac-status'), tooSmall ? `The smallest conversion is 1 Ad Credit, about ${Math.round(1 / R.standard)} Robux at the standard rate.` : '', tooSmall ? 'err' : '');
+    };
+    acR.addEventListener('input', () => { acFrom = 'robux'; adCredits(); });
+    acC.addEventListener('input', () => { acFrom = 'credits'; adCredits(); });
+    $('#ac-b-us18').addEventListener('input', adCredits);
+
+    // tidy the number once you leave a box: 30000 -> 30,000
+    calc.querySelectorAll('.rbx-input input').forEach(el => el.addEventListener('blur', () => {
+      if (el.value.trim()) el.value = el.inputMode === 'numeric' ? int(whole(el)) : two(money(el));
+    }));
+    devex();
+    adCredits();
   }
 
   // ---------------------------------------------------------------- cookie banner

@@ -4,6 +4,7 @@ seoTitle: +1 Nose to Escape Beginner's Guide (Tips From the Dev)
 short: Nose to Escape beginner's guide
 description: How to start +1 Nose to Escape: the tutorial, how to aim your nose, your first Wins and noses, and the mistakes that drop new players in the lava.
 summary: The tutorial, how to aim and zip your nose, your first Wins and noses, and the mistakes that drop new players in the lava.
+draft: true
 published: 2026-09-29
 updated: 2026-09-29
 series: +1 Nose to Escape
