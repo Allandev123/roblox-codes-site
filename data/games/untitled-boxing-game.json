@@ -1,7 +1,7 @@
 {
   "slug": "untitled-boxing-game",
   "name": "untitled boxing game",
-  "robloxName": "[DEIMOS👹] untitled boxing game 🥊",
+  "robloxName": "STREET FIGHTER 6 x UBG🥊",
   "placeId": 13621938427,
   "universeId": 4730278139,
   "gameUrl": "https://www.roblox.com/games/13621938427/untitled-boxing-game",
@@ -21,31 +21,11 @@
   "notes": "untitled boxing game, often shortened to UBG, is a PvP fighting game made as a solo project by drowningsome. You step into the ring against other players and win using light and heavy punches, dashes, blocks, feints and a style-specific ultimate, earning Cash from fights and quests. Fighting styles are rolled with spins, and while rarer styles such as the Legendary Deimos look flashier, the developer keeps every style viable so skill decides matches.\n\nCodes mostly give Spins, Lucky Spins, Cash and the occasional free emote, which lets you roll for new styles without buying spins. Codes arrive with new styles and updates, after events and downtime, and as like-goal rewards, and extra secret codes are posted on the developer's X account and Discord.",
   "codes": [
     {
-      "code": "deimos",
-      "reward": "Lucky spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "terror",
-      "reward": "15 spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
       "code": "3years",
       "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +35,7 @@
       "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +55,7 @@
       "reward": "2x lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -85,26 +65,63 @@
       "reward": "Free emote",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
+    },
+    {
+      "code": "streetfighter",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-10T09:45:56.616Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
+      "source": "description",
+      "approved": false,
+      "context": "CODES … streetfighter"
+    },
+    {
+      "code": "ryu",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-10T09:45:56.616Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
+      "source": "description",
+      "approved": false,
+      "context": "CODES … ryu"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "terror",
+      "reward": "15 spins",
+      "removed": "2026-10-10",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "deimos",
+      "reward": "Lucky spins",
+      "removed": "2026-10-10",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 12404,
-    "visits": 1460273760,
-    "favorites": 1370641,
-    "updated": "2026-10-09T15:59:15.993Z",
+    "playing": 24680,
+    "visits": 1461643006,
+    "favorites": 1371547,
+    "updated": "2026-10-10T08:44:18.723Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1399576,
-    "downVotes": 207611
+    "upVotes": 1401053,
+    "downVotes": 207581
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-10T00:47:25.819Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-10T09:45:56.616Z",
+  "lastChanged": "2026-10-10T09:45:56.616Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

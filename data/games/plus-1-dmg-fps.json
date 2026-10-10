@@ -25,7 +25,7 @@
       "reward": "GIFT",
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T09:45:56.616Z",
       "source": "description",
       "approved": false,
       "context": "use code \"10KCCU\" for some GIFT!"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 2983,
-    "visits": 11405189,
-    "favorites": 457778,
+    "playing": 2972,
+    "visits": 11497915,
+    "favorites": 460609,
     "updated": "2026-10-10T00:30:05.052Z",
     "created": "2026-08-15T22:24:52.952Z",
     "maxPlayers": 16,
-    "upVotes": 104485,
-    "downVotes": 4169
+    "upVotes": 105127,
+    "downVotes": 4191
   },
   "added": "2026-09-29T16:13:37.053Z",
-  "lastChecked": "2026-10-10T00:47:25.819Z",
+  "lastChecked": "2026-10-10T09:45:56.616Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-16 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+18 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -24,3 +24,5 @@ node scripts/review.mjs
 | Slide From Top (draft) | `LIKES_100` |  | 2026-09-29 18:36 UTC | Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K |
 | Slide From Top (draft) | `LIKES_500` |  | 2026-09-29 18:36 UTC | Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K |
 | Slide From Top (draft) | `LIKES_1K` |  | 2026-09-29 18:36 UTC | Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K |
+| untitled boxing game | `streetfighter` |  | 2026-10-10 09:45 UTC | CODES … streetfighter |
+| untitled boxing game | `ryu` |  | 2026-10-10 09:45 UTC | CODES … ryu |
