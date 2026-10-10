@@ -25,7 +25,7 @@
       "reward": "6 hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": false,
       "context": "Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed!"
@@ -35,7 +35,7 @@
       "reward": "6 hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": false,
       "context": "Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed!"
@@ -60,17 +60,17 @@
     }
   ],
   "stats": {
-    "playing": 5800,
-    "visits": 1252299536,
-    "favorites": 3320230,
+    "playing": 5491,
+    "visits": 1252325424,
+    "favorites": 3320228,
     "updated": "2026-10-09T20:06:05.405Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055576,
-    "downVotes": 136803
+    "upVotes": 1055582,
+    "downVotes": 136802
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-10-10T17:19:48.489Z",
+  "lastChecked": "2026-10-10T21:39:02.247Z",
   "lastChanged": "2026-10-10T00:47:25.819Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

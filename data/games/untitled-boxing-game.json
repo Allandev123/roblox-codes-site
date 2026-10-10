@@ -25,7 +25,7 @@
       "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "2x lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "Free emote",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": false,
       "context": "CODES … streetfighter"
@@ -85,7 +85,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": false,
       "context": "CODES … ryu"
@@ -110,17 +110,17 @@
     }
   ],
   "stats": {
-    "playing": 23209,
-    "visits": 1462504838,
-    "favorites": 1372056,
+    "playing": 15394,
+    "visits": 1462837206,
+    "favorites": 1372286,
     "updated": "2026-10-10T08:44:18.723Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1401636,
-    "downVotes": 207627
+    "upVotes": 1401901,
+    "downVotes": 207657
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-10T17:19:48.489Z",
+  "lastChecked": "2026-10-10T21:39:02.247Z",
   "lastChanged": "2026-10-10T09:45:56.616Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

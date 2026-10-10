@@ -1,7 +1,7 @@
 {
   "slug": "case-simulator-rng",
   "name": "Case Simulator RNG",
-  "robloxName": "[🎃ADMIN ABUSE] Case Simulator RNG",
+  "robloxName": "[🎃EVENT] Case Simulator RNG",
   "placeId": 125906853713277,
   "universeId": 8829204428,
   "gameUrl": "https://www.roblox.com/games/125906853713277/Case-Simulator-RNG",
@@ -25,7 +25,7 @@
       "reward": "Trait rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:56.369Z",
-      "lastSeen": "2026-10-10T17:19:48.489Z",
+      "lastSeen": "2026-10-10T21:39:02.247Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5634,
-    "visits": 9587716,
-    "favorites": 168581,
-    "updated": "2026-10-10T16:53:48.94Z",
+    "playing": 2893,
+    "visits": 9648963,
+    "favorites": 169299,
+    "updated": "2026-10-10T18:38:20.215Z",
     "created": "2025-09-29T04:42:35.12Z",
     "maxPlayers": 20,
-    "upVotes": 125803,
-    "downVotes": 2877
+    "upVotes": 125876,
+    "downVotes": 2892
   },
   "added": "2026-09-29T16:13:56.369Z",
-  "lastChecked": "2026-10-10T17:19:48.489Z",
+  "lastChecked": "2026-10-10T21:39:02.247Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
