@@ -645,6 +645,10 @@ main.wrap:has(.tool-head) { max-width: 1160px; }
 .rbx-note .rbx-info-icon { flex: none; margin-top: 2px; color: var(--rbx-blue); }
 .rbx-note-grey { background: var(--rbx-note-grey); border-color: transparent; }
 .rbx-final { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--rbx-line); }
+.rbx-pay { margin-top: 14px; }
+.rbx-select { padding: 0 10px 0 14px; }
+.rbx-select select { flex: 1; min-width: 0; height: 100%; border: 0; background: none; color: var(--rbx-text); font: 600 1rem var(--sans); outline: none; cursor: pointer; }
+.rbx-row[data-fee] .rbx-row-r b { color: var(--rbx-dim); }
 .rbx-final b { font-size: .9rem; }
 .rbx-final p { margin: 4px 0 0; color: var(--rbx-dim); font-size: .88rem; }
 .rates-table th, .rates-table td { overflow-wrap: normal; }

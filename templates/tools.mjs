@@ -16,6 +16,8 @@ const PRESETS = [[30000, '30K'], [100000, '100K'], [500000, '500K'], [1000000, '
 const RBX = '<svg class="rbx-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.6 20.2 7.3v9.4L12 21.4 3.8 16.7V7.3z"/><rect x="9" y="9" width="6" height="6" rx="1.2"/></svg>';
 const INFO = '<svg class="rbx-info-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M12 11v6M12 7.5v.01" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>';
 
+const FEE_WORDS = { echeck: 'an eCheck, bank transfer or SEPA', paypal: 'PayPal', check: 'a paper check', wire: 'a wire transfer' };
+
 // Answers are HTML; the FAQPage JSON-LD strips the tags.
 export const DEVEX_FAQ = d => {
   const r = d.rates, s = r.standard.usd;
@@ -26,6 +28,7 @@ export const DEVEX_FAQ = d => {
     { q: 'In what order does DevEx pay the rates?', a: `U.S. 18+ Robux go first, then Robux from before ${esc(d.oldRateBefore)} at the old $${r.old.usd}, and only then Robux at $${s}. The DevEx portal says so right under the payout breakdown. Spending Robux on Roblox doesn't use up the old balance first.` },
     { q: 'Who can use DevEx?', a: `Anyone 13 or older with at least ${fmtNum(d.minimum)} Earned Robux, a verified email, a DevEx portal account and a tax form on file (a W-9 in the U.S., a W-8 everywhere else). Your account also has to follow Roblox's Terms of Use.` },
     { q: 'How long does DevEx take?', a: `Roblox reviews every request: about 10 business days the first time and about 5 after that. You can have one completed request per calendar month, and you can't cancel a request once it's sent.` },
+    { q: 'Are there fees when you cash out?', a: `Yes. Tipalti, the company that sends DevEx money, takes a flat fee from each payout depending on how you get paid: ${d.payoutFees.filter(p => p.fee).map(p => `$${p.fee} for ${FEE_WORDS[p.key] ?? p.name}`).join('; ').replace(/; ([^;]*)$/, '; and $1')}. Getting paid in your own currency costs another 1.9 to 3%. The DevEx portal shows your exact fee under Payment Details.` },
     { q: 'What is the U.S. 18+ rate?', a: `A higher rate, $${r.us18.usd} per Robux, for Robux from game passes, developer products, subscriptions and private servers bought by U.S. players who verified they're 18 or older, in eligible games. Everything else you earn gets the standard $${s}.` },
     { q: 'Can I cash out Robux I bought?', a: `No. Only Earned Robux count: sales of passes, developer products, subscriptions, private servers and avatar items, plus Creator Rewards. Robux you bought, got from a gift card or a transfer, or made by trading items don't count.` },
     { q: 'How many Robux is 1 Ad Credit?', a: `About ${Math.round(1 / s)} Robux at the standard rate, or about ${Math.round(1 / r.us18.usd)} Robux earned at the U.S. 18+ rate. 1 Ad Credit pays for $1 of ads.` },
@@ -48,6 +51,8 @@ export function devexBody({ site, d }) {
   const ac = d.minimum; // ...and so does the Ad Credit converter, like the screenshots
   const rateData = Object.fromEntries(Object.entries(r).map(([k, v]) => [k, v.usd]));
   const oldMonth = d.oldRateBefore.replace(/^(\w+) \d+, /, '$1 ');
+  const fee = d.payoutFees[0].fee; // the first payment method is picked to start with
+  const net = Math.max(0, start * r.standard.usd - fee);
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li aria-current="page">DevEx calculator</li></ol></nav>
 <header class="tool-head">
   <h1>Roblox DevEx &amp; Ad Credit Calculator</h1>
@@ -60,7 +65,7 @@ export function devexBody({ site, d }) {
   <div class="rbx-pair">
     <div><label for="dx-robux">Robux amount</label>${input({ id: 'dx-robux', value: fmtNum(start) })}</div>
     <span class="rbx-or" aria-hidden="true">-or-</span>
-    <div><label for="dx-usd">US dollar amount</label>${input({ id: 'dx-usd', value: two(start * r.standard.usd), pre: '<span class="rbx-pre">$</span>', mode: 'decimal' })}</div>
+    <div><label for="dx-usd">US dollar amount</label>${input({ id: 'dx-usd', value: two(net), pre: '<span class="rbx-pre">$</span>', mode: 'decimal' })}</div>
   </div>
   <p class="rbx-msg" id="dx-status" aria-live="polite"></p>
   <div class="rbx-chips" role="group" aria-label="Quick amounts">${PRESETS.map(([n, l]) => `<button type="button" class="rbx-chip" data-robux="${n}">${l}</button>`).join('')}</div>
@@ -72,17 +77,22 @@ export function devexBody({ site, d }) {
       <div><label for="dx-b-old">Old rate, $${r.old.usd}</label>${input({ id: 'dx-b-old', value: '0' })}</div>
     </div>
   </details>
+  <div class="rbx-pay"><label for="dx-pay">Payment method</label><div class="rbx-input rbx-select"><select id="dx-pay">${d.payoutFees.map(p => `<option value="${p.key}" data-fee="${p.fee}" data-name="${esc(p.name)}">${esc(p.name)}${p.fee ? ` ($${p.fee} fee)` : ''}</option>`).join('')}</select></div></div>
   <p class="rbx-sub">You will get:</p>
   <div class="rbx-box">
     ${row({ key: 'us18', name: 'US 18+ rate', rate: `$${r.us18.usd}`, money: usd(0), robux: 0, prefix: 'dx' })}
     ${row({ key: 'old', name: 'Old rate', rate: `$${r.old.usd}`, money: usd(0), robux: 0, prefix: 'dx', note: `This rate will be cashed out before $${r.standard.usd} rate` })}
     ${row({ key: 'standard', name: 'Standard rate', rate: `$${r.standard.usd}`, money: usd(start * r.standard.usd), robux: start, prefix: 'dx' })}
+    <div class="rbx-row" data-fee>
+      <div class="rbx-row-l"><b>Payout fee</b><span id="dx-fee-name">${esc(d.payoutFees[0].name)}</span></div>
+      <div class="rbx-row-r"><b id="dx-fee">-${usd(fee)}</b></div>
+    </div>
     <div class="rbx-total">
       <b>Total</b>
-      <div class="rbx-row-r"><span>${RBX}<span id="dx-r-total">${fmtNum(start)}</span></span><output id="dx-total" for="dx-robux">${usd(start * r.standard.usd)}</output></div>
+      <div class="rbx-row-r"><span>${RBX}<span id="dx-r-total">${fmtNum(start)}</span></span><output id="dx-total" for="dx-robux dx-pay">${usd(net)}</output></div>
     </div>
   </div>
-  <div class="rbx-note">${INFO}<p>DevEx requests pay out at the US 18+ rate first, then Robux from before ${esc(d.oldRateBefore)} at $${r.old.usd}, then $${r.standard.usd}. Roblox shows the exact amount in the DevEx portal.</p></div>
+  <div class="rbx-note">${INFO}<p>DevEx requests pay out at the US 18+ rate first, then Robux from before ${esc(d.oldRateBefore)} at $${r.old.usd}, then $${r.standard.usd}. Tipalti, who sends the money, takes the payout fee. The DevEx portal shows your exact amount and fee.</p></div>
 </section>
 
 <section class="rbx" id="ad-credits" aria-labelledby="ac-h">

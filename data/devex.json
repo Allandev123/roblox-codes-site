@@ -1,16 +1,56 @@
 {
-  "_note": "Rates for /devex-calculator/. When Roblox changes a rate, update it here from the sources below and set checked to that day.",
+  "_note": "Rates for /tools/devex-calculator/. When Roblox changes a rate, update it here from the sources below and set checked to that day. payoutFees are Tipalti's flat fee per payout (the DevEx portal shows the exact fee under Payment Details).",
   "published": "2026-10-10",
   "checked": "2026-10-10",
   "minimum": 30000,
   "oldRateBefore": "September 5, 2025",
   "rates": {
-    "us18": { "name": "U.S. 18+ rate", "usd": 0.0054, "for": "Robux from game passes, developer products, subscriptions and private servers bought by U.S. players who verified they are 18 or older, in eligible games" },
-    "standard": { "name": "Standard rate", "usd": 0.0038, "for": "All other Earned Robux since September 5, 2025" },
-    "old": { "name": "Old rate", "usd": 0.0035, "for": "Earned Robux still in your balance from before September 5, 2025" }
+    "us18": {
+      "name": "U.S. 18+ rate",
+      "usd": 0.0054,
+      "for": "Robux from game passes, developer products, subscriptions and private servers bought by U.S. players who verified they are 18 or older, in eligible games"
+    },
+    "standard": {
+      "name": "Standard rate",
+      "usd": 0.0038,
+      "for": "All other Earned Robux since September 5, 2025"
+    },
+    "old": {
+      "name": "Old rate",
+      "usd": 0.0035,
+      "for": "Earned Robux still in your balance from before September 5, 2025"
+    }
   },
   "sources": {
     "devex": "https://create.roblox.com/docs/production/monetization/developer-exchange",
-    "ads": "https://create.roblox.com/docs/production/promotion/ads-manager"
-  }
+    "ads": "https://create.roblox.com/docs/production/promotion/ads-manager",
+    "portal": "https://create.roblox.com/docs/production/monetization/devex-portal"
+  },
+  "payoutFees": [
+    {
+      "key": "echeck",
+      "name": "eCheck / bank transfer / SEPA",
+      "fee": 5
+    },
+    {
+      "key": "paypal",
+      "name": "PayPal",
+      "fee": 1
+    },
+    {
+      "key": "check",
+      "name": "Paper check",
+      "fee": 6
+    },
+    {
+      "key": "wire",
+      "name": "Wire transfer",
+      "fee": 26
+    },
+    {
+      "key": "none",
+      "name": "Before fees",
+      "fee": 0
+    }
+  ]
 }

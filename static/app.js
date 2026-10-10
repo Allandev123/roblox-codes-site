@@ -338,15 +338,23 @@
 
     // DevEx: U.S. 18+ first, then the old rate, then standard
     const devexBox = $('#devex');
-    const dxR = $('#dx-robux'), dxU = $('#dx-usd');
+    const dxR = $('#dx-robux'), dxU = $('#dx-usd'), dxPay = $('#dx-pay');
     let dxFrom = 'robux';
     const devex = () => {
       const caps = { us18: whole($('#dx-b-us18')), old: whole($('#dx-b-old')) };
       const order = ['us18', 'old', 'standard'];
-      const robux = dxFrom === 'robux' ? whole(dxR) : need(money(dxU), order, caps);
-      const total = fill(devexBox, 'dx', split(robux, order, caps), robux, v => '$' + two(v));
-      if (dxFrom === 'robux') dxU.value = robux ? two(total) : ''; else dxR.value = robux ? int(robux) : '';
-      set('dx-total', '$' + two(total));
+      // the payment method's flat fee comes off the total; the dollar box is what you receive
+      const pay = dxPay.selectedOptions[0];
+      const fee = Number(pay.dataset.fee) || 0;
+      const want = money(dxU);
+      const robux = dxFrom === 'robux' ? whole(dxR) : want ? need(want + fee, order, caps) : 0;
+      const gross = fill(devexBox, 'dx', split(robux, order, caps), robux, v => '$' + two(v));
+      const net = robux ? Math.max(0, gross - fee) : 0;
+      if (dxFrom === 'robux') dxU.value = robux ? two(net) : ''; else dxR.value = robux ? int(robux) : '';
+      set('dx-fee-name', pay.dataset.name);
+      set('dx-fee', '-$' + two(robux ? fee : 0));
+      devexBox.querySelector('[data-fee]').hidden = !fee;
+      set('dx-total', '$' + two(net));
       if (!robux) msg($('#dx-status'), '');
       else if (robux < MIN) msg($('#dx-status'), `You need ${int(MIN - robux)} more Robux to cash out. The minimum is ${int(MIN)}.`, 'err');
       else msg($('#dx-status'), `Enough to cash out. The minimum is ${int(MIN)} Earned Robux.`, 'ok');
@@ -354,6 +362,7 @@
     dxR.addEventListener('input', () => { dxFrom = 'robux'; devex(); });
     dxU.addEventListener('input', () => { dxFrom = 'usd'; devex(); });
     ['#dx-b-us18', '#dx-b-old'].forEach(s => $(s).addEventListener('input', devex));
+    dxPay.addEventListener('change', devex);
     devexBox.querySelectorAll('[data-robux]').forEach(b => b.addEventListener('click', () => { dxR.value = int(+b.dataset.robux); dxFrom = 'robux'; devex(); }));
 
     // Ad Credits: U.S. 18+ first, then everything else at the standard rate (old Robux too)
