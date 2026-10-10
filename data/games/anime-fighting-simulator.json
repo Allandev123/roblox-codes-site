@@ -25,7 +25,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-10T09:45:56.616Z",
+      "lastSeen": "2026-10-10T17:19:48.489Z",
       "source": "description",
       "approved": false,
       "context": "Use Code \"WIZARDKING\" for FREE rewards!"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 6895,
-    "visits": 54000150,
-    "favorites": 496542,
-    "updated": "2026-10-04T17:10:37.12Z",
+    "playing": 8464,
+    "visits": 54080450,
+    "favorites": 497705,
+    "updated": "2026-10-10T13:12:10.251Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 173819,
-    "downVotes": 2969
+    "upVotes": 174100,
+    "downVotes": 2982
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-10T09:45:56.616Z",
+  "lastChecked": "2026-10-10T17:19:48.489Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

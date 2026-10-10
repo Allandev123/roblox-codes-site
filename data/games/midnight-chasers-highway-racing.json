@@ -1,7 +1,7 @@
 {
   "slug": "midnight-chasers-highway-racing",
   "name": "Midnight Chasers: Highway Racing",
-  "robloxName": "[🌴NEW MAP]🚗Midnight Chasers: Highway Racing",
+  "robloxName": "[🗺️MINIMAP]🚗Midnight Chasers: Highway Racing",
   "placeId": 13822562292,
   "universeId": 4793836769,
   "gameUrl": "https://www.roblox.com/games/13822562292/Midnight-Chasers-Highway-Racing",
@@ -25,7 +25,7 @@
       "reward": "30,000 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:42.003Z",
-      "lastSeen": "2026-10-10T09:45:56.616Z",
+      "lastSeen": "2026-10-10T17:19:48.489Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3252,
-    "visits": 317070215,
-    "favorites": 6653654,
-    "updated": "2026-10-10T02:39:59.514Z",
+    "playing": 5478,
+    "visits": 317185092,
+    "favorites": 6654800,
+    "updated": "2026-10-10T16:21:59.851Z",
     "created": "2023-06-21T21:07:05.223Z",
     "maxPlayers": 14,
-    "upVotes": 988516,
-    "downVotes": 25150
+    "upVotes": 988768,
+    "downVotes": 25154
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-10-10T09:45:56.616Z",
+  "lastChecked": "2026-10-10T17:19:48.489Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

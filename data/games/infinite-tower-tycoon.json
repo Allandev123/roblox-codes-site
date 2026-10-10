@@ -25,7 +25,7 @@
       "reward": "Exclusive reward (Roblox Premium/Plus only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:06.390Z",
-      "lastSeen": "2026-10-10T09:45:56.616Z",
+      "lastSeen": "2026-10-10T17:19:48.489Z",
       "source": "description",
       "approved": false,
       "context": "→ Exclusive redeem code: \"premium\""
@@ -33,16 +33,16 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1695,
-    "visits": 140874117,
-    "favorites": 127482,
+    "playing": 1311,
+    "visits": 140922209,
+    "favorites": 127560,
     "updated": "2026-10-08T16:56:46.483Z",
     "created": "2022-07-18T18:56:43.257Z",
     "maxPlayers": 6,
-    "upVotes": 46177,
+    "upVotes": 46194,
     "downVotes": 4089
   },
   "added": "2026-09-29T16:14:06.390Z",
-  "lastChecked": "2026-10-10T09:45:56.616Z",
+  "lastChecked": "2026-10-10T17:19:48.489Z",
   "lastChanged": "2026-09-29T16:14:06.390Z"
 }
