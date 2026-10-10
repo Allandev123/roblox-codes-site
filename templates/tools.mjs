@@ -1,7 +1,7 @@
 import { esc, dateShort, fmtNum } from './helpers.mjs';
 import { adSlot } from './layout.mjs';
 
-// DevEx and Ad Credit calculator (/devex-calculator/). Rates come from data/devex.json and
+// The Tools section: /tools/ and the DevEx and Ad Credit calculator (/tools/devex-calculator/). Rates come from data/devex.json and
 // exchange rates from the European Central Bank (fetched by build.mjs). The two calculators
 // copy the look of Roblox's own DevEx portal and Ads Manager screens. app.js does the maths;
 // the HTML starts with the same numbers, so it reads fine without JavaScript.
@@ -48,7 +48,7 @@ export function devexBody({ site, d }) {
   const ac = d.minimum; // ...and so does the Ad Credit converter, like the screenshots
   const rateData = Object.fromEntries(Object.entries(r).map(([k, v]) => [k, v.usd]));
   const oldMonth = d.oldRateBefore.replace(/^(\w+) \d+, /, '$1 ');
-  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">DevEx calculator</li></ol></nav>
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li aria-current="page">DevEx calculator</li></ol></nav>
 <header class="tool-head">
   <h1>Roblox DevEx &amp; Ad Credit Calculator</h1>
   <p>Robux to real money with DevEx, or to Ad Credits for Ads Manager. Roblox's rates, checked ${dateShort(d.checked)}: $${r.standard.usd} per Robux, $${r.us18.usd} for U.S. 18+ Robux.</p>
@@ -139,4 +139,26 @@ ${DEVEX_FAQ(d).map((f, i) => `    <details class="faq"${i === 0 ? ' open' : ''}>
 </section>
 </div>
 ${adSlot(site, 'bottom')}`;
+}
+
+// /tools/: one card per tool
+export function toolsIndexBody({ site, tools }) {
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Tools</li></ol></nav>
+<header class="index-head">
+<h1>Tools</h1>
+<p class="dek">Free calculators for Roblox players and creators, kept up to date with Roblox's own numbers.</p>
+</header>
+<section class="sec" aria-labelledby="calc-h">
+  <div class="sec-head"><h2 id="calc-h">Calculators</h2><span class="aside">${tools.length} tool${tools.length === 1 ? '' : 's'}</span></div>
+  <ul class="cards">
+${tools.map((x, i) => `    <li><a class="card" href="${x.path}">
+      <img src="${esc(x.image)}" alt="${esc(x.title)}" width="1200" height="630"${i > 2 ? ' loading="lazy"' : ''} decoding="async">
+      <span class="card-text">
+        <span class="kicker">${esc(x.kicker)}</span>
+        <h3>${esc(x.title)}</h3>
+        <span class="card-sum">${esc(x.summary)}</span>
+      </span>
+    </a></li>`).join('\n')}
+  </ul>
+</section>`;
 }

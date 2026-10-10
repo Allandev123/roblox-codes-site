@@ -88,6 +88,7 @@ ${ads ? adsense(site.adsense?.client) : ''}
       <div class="nav-links" id="nav-links">
         <a href="/#games"${cur('games')}>Games</a>
         ${site.hasGuides ? `<a href="/guides/"${cur('guides')}>Guides</a>` : ''}
+        <a href="/tools/"${cur('tools')}>Tools</a>
         ${site.hasUpdates ? `<a href="/updates/"${cur('updates')}>Updates</a>` : ''}
         ${site.hasBlog ? `<a href="/blog/"${cur('blog')}>Blog</a>` : ''}
         <a href="/about/"${cur('about')}>About</a>
@@ -125,7 +126,7 @@ ${body}
       <a href="/guides/roblox-code-not-working/">Code not working?</a>
       ${site.hasBlog ? '<a href="/blog/">Blog</a>' : ''}
       ${site.hasUpdates ? '<a href="/updates/">Code updates</a>' : ''}
-      <a href="/devex-calculator/">DevEx calculator</a>
+      <a href="/tools/devex-calculator/">DevEx calculator</a>
     </nav>
     <nav class="foot-col" aria-labelledby="fc-site"><h2 id="fc-site">Site</h2>
       <a href="/about/">About</a>

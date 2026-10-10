@@ -105,6 +105,11 @@
       "source": "/updates/",
       "destination": "/",
       "permanent": false
+    },
+    {
+      "source": "/devex-calculator/",
+      "destination": "/tools/devex-calculator/",
+      "permanent": true
     }
   ],
   "headers": [

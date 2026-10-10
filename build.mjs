@@ -16,8 +16,8 @@ import { layout } from './templates/layout.mjs';
 import { HOME_FAQ, homeBody, gameBody, staticBody, notFoundBody, authorBody, authorPath, guidesIndexBody, guideBody, blogIndexBody, updatesBody } from './templates/pages.mjs';
 import { parseFrontMatter, renderMarkdown } from './lib/markdown.mjs';
 import { about, method, contact, privacy, terms, disclaimer } from './templates/content.mjs';
-import { devexBody, DEVEX_FAQ } from './templates/tools.mjs';
-import { esc, monthYear, shortMonthYear, plural, clip } from './templates/helpers.mjs';
+import { devexBody, DEVEX_FAQ, toolsIndexBody } from './templates/tools.mjs';
+import { esc, monthYear, shortMonthYear, plural, clip, dateShort } from './templates/helpers.mjs';
 
 const t0 = Date.now();
 const DIST = path.join(ROOT, 'dist');
@@ -436,13 +436,16 @@ for (const [slug, h1, title, description, html] of [
   pages.push({ path: `/${slug}/`, lastmod: STATIC_LASTMOD });
 }
 
+// ---------------------------------------------------------------- tools (/tools/...)
+
 // DevEx and Ad Credit calculator; rates live in data/devex.json
+const tools = [];
 {
   const d = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'devex.json'), 'utf8'));
-  const p = '/devex-calculator/';
+  const p = '/tools/devex-calculator/';
   const url = site.url + p;
   await og('tool-devex', { background: null, title: 'DevEx & Ad Credit Calculator', kicker: 'CALCULATOR', sub: 'Robux to US dollars and Ad Credits' }, 'og/tool-devex.jpg');
-  write('devex-calculator/index.html', layout({
+  write('tools/devex-calculator/index.html', layout({
     site, assets, path: p,
     title: `Roblox DevEx & Ad Credit Calculator (${d.checked.slice(0, 4)} Rates)`,
     description: clip(`Work out what your Earned Robux are worth with DevEx, or how many Ad Credits they buy. Uses Roblox's current $${d.rates.standard.usd} and U.S. 18+ $${d.rates.us18.usd} rates.`, 155),
@@ -460,7 +463,8 @@ for (const [slug, h1, title, description, html] of [
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: site.url + '/' },
-          { '@type': 'ListItem', position: 2, name: 'DevEx calculator', item: url },
+          { '@type': 'ListItem', position: 2, name: 'Tools', item: `${site.url}/tools/` },
+          { '@type': 'ListItem', position: 3, name: 'DevEx calculator', item: url },
         ],
       },
       {
@@ -469,10 +473,29 @@ for (const [slug, h1, title, description, html] of [
       },
     ],
     ads: true,
+    nav: 'tools',
     body: devexBody({ site, d }),
   }));
   pages.push({ path: p, lastmod: new Date(d.checked).toISOString() });
+  tools.push({
+    path: p, title: 'Roblox DevEx & Ad Credit Calculator', kicker: 'Calculator', image: '/og/tool-devex.jpg', lastmod: d.checked,
+    summary: `What your Earned Robux are worth in US dollars with DevEx, or how many Ad Credits they buy. Rates checked ${dateShort(d.checked)}.`,
+  });
 }
+
+// the Tools index
+write('tools/index.html', layout({
+  site, assets, path: '/tools/',
+  title: `Roblox Tools and Calculators - ${site.siteName}`,
+  description: clip(`Free Roblox tools from ${site.siteName}: work out what Earned Robux are worth with DevEx, and how many Ad Credits they buy.`, 155),
+  jsonld: [{
+    '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Roblox tools', url: site.url + '/tools/',
+    hasPart: tools.map(t => ({ '@type': 'WebApplication', name: t.title, url: site.url + t.path })),
+  }],
+  nav: 'tools',
+  body: toolsIndexBody({ site, tools }),
+}));
+pages.push({ path: '/tools/', lastmod: new Date(tools.map(t => t.lastmod).sort().pop()).toISOString() });
 
 // author page
 {
