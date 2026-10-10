@@ -1,7 +1,7 @@
 {
   "slug": "bubble-gum-simulator",
   "name": "Bubble Gum Simulator",
-  "robloxName": "[SOON] Bubble Gum Simulator",
+  "robloxName": "[🎃EVENT] Bubble Gum Simulator",
   "placeId": 2512643572,
   "universeId": 892043755,
   "gameUrl": "https://www.roblox.com/games/2512643572/Bubble-Gum-Simulator",
@@ -21,40 +21,57 @@
   "notes": "Bubble Gum Simulator is the original bubble-blowing simulator from Rumble Studios, separate from its newer Infinity sequel. You chew gum to grow your bubble, sell it for coins, and put those coins into better gum and flavors so your bubble can carry you higher to the floating islands above the map. Hatching eggs gives you pets that multiply what you earn.\n\nCodes in this game nearly always hand out timed boosts such as 2x Luck, 2x Hatch Speed or extra shiny chance, lasting anywhere from minutes to several hours. They work best stacked with the weekend 2x Luck and Hatch Speed event before a long egg-hatching session. New codes tend to arrive with seasonal updates and are printed in the game description.",
   "codes": [
     {
-      "code": "FallPart2",
-      "reward": "2x Luck and 2x Hatch Speed for 4 hours",
+      "code": "Halloween26",
+      "reward": "6 hours of 2x Luck & Hatch Speed",
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:47.948Z",
-      "lastSeen": "2026-10-09T18:20:00.852Z",
+      "firstSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T00:47:25.819Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed!"
     },
+    {
+      "code": "Malevolent",
+      "reward": "6 hours of 2x Luck & Hatch Speed",
+      "status": "active",
+      "firstSeen": "2026-10-10T00:47:25.819Z",
+      "lastSeen": "2026-10-10T00:47:25.819Z",
+      "source": "description",
+      "approved": false,
+      "context": "Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed!"
+    }
+  ],
+  "expired": [
     {
       "code": "Wayfarer",
       "reward": "2x Luck and 2x Hatch Speed for 4 hours",
-      "status": "active",
+      "removed": "2026-10-10",
       "firstSeen": "2026-09-29T16:13:47.948Z",
-      "lastSeen": "2026-10-09T18:20:00.852Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "FallPart2",
+      "reward": "2x Luck and 2x Hatch Speed for 4 hours",
+      "removed": "2026-10-10",
+      "firstSeen": "2026-09-29T16:13:47.948Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
     }
   ],
-  "expired": [],
   "stats": {
-    "playing": 2802,
-    "visits": 1252166840,
-    "favorites": 3320213,
-    "updated": "2026-10-09T07:09:46.752Z",
+    "playing": 4880,
+    "visits": 1252205061,
+    "favorites": 3320215,
+    "updated": "2026-10-09T20:06:05.405Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055535,
-    "downVotes": 136801
+    "upVotes": 1055552,
+    "downVotes": 136802
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-10-09T18:20:00.852Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-10T00:47:25.819Z",
+  "lastChanged": "2026-10-10T00:47:25.819Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

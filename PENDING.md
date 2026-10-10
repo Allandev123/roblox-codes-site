@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-14 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+16 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -10,6 +10,8 @@ node scripts/review.mjs
 |---|---|---|---|---|
 | 2 Player Raid Tycoon | `TY10000` |  | 2026-10-08 00:57 UTC | USE CODE 'TY10000' IN THE SHOP!!! |
 | Anime Fighting Simulator (draft) | `WIZARDKING` | FREE rewards | 2026-10-04 20:49 UTC | Use Code "WIZARDKING" for FREE rewards! |
+| Bubble Gum Simulator (draft) | `Halloween26` | 6 hours of 2x Luck & Hatch Speed | 2026-10-10 00:47 UTC | Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed! |
+| Bubble Gum Simulator (draft) | `Malevolent` | 6 hours of 2x Luck & Hatch Speed | 2026-10-10 00:47 UTC | Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed! |
 | Collect All Pets! (draft) | `FirstCodeEver` | 2x Gold boost | 2026-09-29 16:13 UTC | Use this code: FirstCodeEver |
 | Infinite Tower Tycoon (draft) | `premium` | Exclusive reward (Roblox Premium/Plus only) | 2026-09-29 16:14 UTC | → Exclusive redeem code: "premium" |
 | +1 DMG FPS (draft) | `10KCCU` | GIFT | 2026-10-04 20:49 UTC | use code "10KCCU" for some GIFT! |

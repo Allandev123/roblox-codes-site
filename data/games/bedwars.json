@@ -1,7 +1,7 @@
 {
   "slug": "bedwars",
   "name": "BedWars",
-  "robloxName": "BedWars [🎣RERELEASE🪤]",
+  "robloxName": "BedWars [UPDATE]",
   "placeId": 6872265039,
   "universeId": 2619619496,
   "gameUrl": "https://www.roblox.com/games/6872265039/BedWars",
@@ -21,16 +21,16 @@
   "codes": [],
   "expired": [],
   "stats": {
-    "playing": 25154,
-    "visits": 11758297534,
-    "favorites": 4635021,
-    "updated": "2026-10-06T17:43:26.104Z",
+    "playing": 39231,
+    "visits": 11759224865,
+    "favorites": 4635282,
+    "updated": "2026-10-10T00:44:07.64Z",
     "created": "2021-05-27T15:14:38.887Z",
     "maxPlayers": 40,
-    "upVotes": 2480565,
-    "downVotes": 533988
+    "upVotes": 2480721,
+    "downVotes": 534037
   },
   "added": "2026-09-29T17:09:01.875Z",
-  "lastChecked": "2026-10-09T18:20:00.852Z",
+  "lastChecked": "2026-10-10T00:47:25.819Z",
   "lastChanged": "2026-09-29T17:09:01.875Z"
 }
