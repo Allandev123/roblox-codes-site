@@ -1,0 +1,78 @@
+{
+  "slug": "plus-1-fish-keyboard-escape",
+  "name": "+1 Fish Keyboard Escape",
+  "robloxName": "+1 Fish Keyboard Escape",
+  "placeId": 120812600724548,
+  "universeId": 10637838015,
+  "gameUrl": "https://www.roblox.com/games/120812600724548/1-Fish-Keyboard-Escape",
+  "creator": "Clean Strike Games",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-fish-keyboard-escape-icon.webp",
+  "thumb": "plus-1-fish-keyboard-escape-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 Fish Keyboard Escape and wait until you spawn on the keys.",
+    "Click the Codes button in the top right corner, next to the Roblox menu buttons.",
+    "Type the code into the Write Code box exactly as shown. STAGE10 is all capitals.",
+    "Press Redeem. The button turns into \"Redeemed!\" and the Speed is added right away."
+  ],
+  "notes": "+1 Fish Keyboard Escape is a speed obby from Clean Strike Games where you ride a fish across an ocean made of giant keyboard keys. You train on treadmills to raise your Speed, swim along the key paths through each stage, and get Wins for reaching the end. A level bar at the bottom fills as you go and shows your level out of 20.\n\nI redeemed STAGE10 in-game on October 11. My Speed jumped from 59 to about 1.1k the moment I pressed Redeem, so it gives 1,010 Speed. That is a big boost at the start, because it lets you skip the slow first stretch of Stage 1.",
+  "faq": [
+    {
+      "q": "Where is the Codes button?",
+      "a": "In the top right corner of the screen, in the same bar as the Roblox menu buttons. It is small, so look for the word Codes next to the server time."
+    },
+    {
+      "q": "Is there a free reward besides codes?",
+      "a": "Yes. The FREE! button on the left opens a Free Reward window. Like the game and join the Clean Strike group, then press CLAIM for 5,000 Speed."
+    },
+    {
+      "q": "Do I need to join the group for codes to work?",
+      "a": "STAGE10 worked for me straight away from the Codes box. The group is needed for the 5,000 Speed free reward."
+    }
+  ],
+  "tips": [
+    "Claim the Free Reward first. Liking the game and joining the Clean Strike group gives 5,000 Speed, more than the code.",
+    "Open Daily on the left every day. Days 1 to 6 give Speed and Wins (up to 50K Speed on Day 5), and Day 7 is an exclusive Diamond Catfish that is 1.6x your best fish.",
+    "Stand on the training pads near the start. The +1/Speed pad is free, +3/Speed unlocks at 2 Wins and +6/Speed at 12 Wins.",
+    "Reaching the end of a stage gives +1 Wins and sends you back, so short runs add up to the Wins you need for the better pads."
+  ],
+  "useRewards": "Redeem STAGE10 as soon as you join, together with the 5,000 Speed Free Reward. Then run Stage 1 a few times to collect Wins and unlock the +3/Speed and +6/Speed pads, so your Speed climbs faster.",
+  "codes": [
+    {
+      "code": "STAGE10",
+      "reward": "1,010 Speed",
+      "status": "active",
+      "firstSeen": "2026-10-11T15:00:00.000Z",
+      "lastSeen": "2026-10-11T15:00:00.000Z",
+      "source": "manual",
+      "sources": [],
+      "approved": true,
+      "approvedAt": "2026-10-11T15:00:00.000Z",
+      "tested": "2026-10-11"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1218,
+    "visits": 346461,
+    "favorites": 19063,
+    "updated": "2026-10-11T01:07:07.024Z",
+    "created": "2026-08-05T20:47:53.336Z"
+  },
+  "added": "2026-10-11T15:00:28.759Z",
+  "lastChecked": "2026-10-11T15:00:28.759Z",
+  "lastChanged": "2026-10-11T15:00:00.000Z",
+  "codeChannels": "The Codes box asks you to join the Clean Strike group and their server, which is linked on the game page for players 13 and up",
+  "checkedInGame": "2026-10-11",
+  "redeemImage": "plus-1-fish-keyboard-escape-redeem.webp",
+  "redeemCaption": "The Codes box right after redeeming STAGE10. My Speed went from 59 to 1.1k.",
+  "redeemShots": [
+    {
+      "file": "plus-1-fish-keyboard-escape-pads.webp",
+      "caption": "The training pads: +1/Speed is free, +3/Speed needs 2 Wins and +6/Speed needs 12 Wins."
+    }
+  ]
+}
