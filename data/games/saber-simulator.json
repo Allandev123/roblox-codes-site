@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-09T18:20:00.852Z",
-      "lastSeen": "2026-10-11T12:43:54.410Z",
+      "lastSeen": "2026-10-11T19:32:25.703Z",
       "source": "description",
       "approved": false,
       "context": "New code \"HALLOWEEN26\""
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 2777,
-    "visits": 645039372,
-    "favorites": 2034381,
+    "playing": 2677,
+    "visits": 645072595,
+    "favorites": 2034443,
     "updated": "2026-10-09T17:23:36.195Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570561,
-    "downVotes": 90790
+    "upVotes": 570569,
+    "downVotes": 90793
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-11T12:43:54.410Z",
+  "lastChecked": "2026-10-11T19:32:25.703Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

@@ -25,7 +25,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-10-11T12:43:54.410Z",
+      "lastSeen": "2026-10-11T19:32:25.703Z",
       "source": "description",
       "approved": false,
       "context": "Use Code \"HALLOWEEN\" for FREE rewards!"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 8990,
-    "visits": 54381463,
-    "favorites": 500411,
+    "playing": 9100,
+    "visits": 54472644,
+    "favorites": 501678,
     "updated": "2026-10-10T23:03:27.745Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 174770,
-    "downVotes": 2998
+    "upVotes": 175068,
+    "downVotes": 3006
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-11T12:43:54.410Z",
+  "lastChecked": "2026-10-11T19:32:25.703Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
