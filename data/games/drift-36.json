@@ -1,7 +1,7 @@
 {
   "slug": "drift-36",
   "name": "Drift 36",
-  "robloxName": "[UPD] Drift 36",
+  "robloxName": "[🎃] Drift 36",
   "placeId": 109170650911069,
   "universeId": 8641602265,
   "gameUrl": "https://www.roblox.com/games/109170650911069/Drift-36",
@@ -21,30 +21,39 @@
   "notes": "Drift 36 is a car game from AutoBlox Games set in an open city where you race other players, practice drifting and cruise around between events. Winning races pays out cash, which goes toward a garage of more than 80 cars and over 30 tuning and visual modifications. It runs on PC, mobile, Xbox and PlayStation 5, and joining the AutoBlox group adds a Group Member tag to your name.\n\nCodes in Drift 36 pay out cash, usually tens of thousands of dollars per code, which is a quick way to afford a better car early on. AutoBlox tends to release them when the game hits visit, like or group-member milestones, and posts them in the game description and on its Discord.",
   "codes": [
     {
-      "code": "75MVISIT",
-      "reward": "$40,000 Cash",
+      "code": "HALLOWENUPDATE",
+      "reward": "+$35.000",
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:58.046Z",
-      "lastSeen": "2026-10-11T05:41:14.580Z",
+      "firstSeen": "2026-10-11T12:43:54.410Z",
+      "lastSeen": "2026-10-11T12:43:54.410Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "Redeem code: \"HALLOWENUPDATE\" +$35.000"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "75MVISIT",
+      "reward": "$40,000 Cash",
+      "removed": "2026-10-11",
+      "firstSeen": "2026-09-29T16:13:58.046Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 1098,
-    "visits": 79015156,
-    "favorites": 214022,
-    "updated": "2026-10-05T18:23:28.384Z",
+    "playing": 2439,
+    "visits": 79098398,
+    "favorites": 214164,
+    "updated": "2026-10-11T10:58:40.698Z",
     "created": "2025-09-05T20:17:45.04Z",
     "maxPlayers": 20,
-    "upVotes": 138297,
-    "downVotes": 8097
+    "upVotes": 138360,
+    "downVotes": 8101
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-10-11T05:41:14.580Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-11T12:43:54.410Z",
+  "lastChanged": "2026-10-11T12:43:54.410Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
