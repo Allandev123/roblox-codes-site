@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-18 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+20 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -9,11 +9,13 @@ node scripts/review.mjs
 | Game | Code | Reward | First seen | Description line |
 |---|---|---|---|---|
 | 2 Player Raid Tycoon | `TY10000` |  | 2026-10-08 00:57 UTC | USE CODE 'TY10000' IN THE SHOP!!! |
-| Anime Fighting Simulator (draft) | `WIZARDKING` | FREE rewards | 2026-10-04 20:49 UTC | Use Code "WIZARDKING" for FREE rewards! |
+| Anime Fighting Simulator (draft) | `HALLOWEEN` | FREE rewards | 2026-10-11 05:41 UTC | Use Code "HALLOWEEN" for FREE rewards! |
 | Bubble Gum Simulator (draft) | `Halloween26` | 6 hours of 2x Luck & Hatch Speed | 2026-10-10 00:47 UTC | Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed! |
 | Bubble Gum Simulator (draft) | `Malevolent` | 6 hours of 2x Luck & Hatch Speed | 2026-10-10 00:47 UTC | Use code 'Halloween26' & 'Malevolent' for 6 hours of 2x Luck & Hatch Speed! |
 | Collect All Pets! (draft) | `FirstCodeEver` | 2x Gold boost | 2026-09-29 16:13 UTC | Use this code: FirstCodeEver |
+| Dream Car Collection | `IMSORRY` | 3000 gems as we fix bugs with our new drive world | 2026-10-11 05:41 UTC | Use Code "IMSORRY" for 3000 gems as we fix bugs with our new drive world! |
 | Infinite Tower Tycoon (draft) | `premium` | Exclusive reward (Roblox Premium/Plus only) | 2026-09-29 16:14 UTC | → Exclusive redeem code: "premium" |
+| Midnight Chasers: Highway Racing (draft) | `ThanksFor990k` |  | 2026-10-11 05:41 UTC | Current Code: "ThanksFor990k" |
 | +1 DMG FPS (draft) | `10KCCU` | GIFT | 2026-10-04 20:49 UTC | use code "10KCCU" for some GIFT! |
 | +1 Loot To Forge (draft) | `100000CCU` |  | 2026-10-04 20:49 UTC | NEW CODE:100000CCU |
 | +1 Skate Trickz Escape | `THANKYOU` |  | 2026-10-04 20:49 UTC | CODES: 1MPLAYS, 2500CCU, THANKYOU |

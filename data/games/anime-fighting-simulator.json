@@ -21,14 +21,14 @@
   "notes": "Anime Fighting Simulator is a training and combat game published by the Anime Fighting Simulator | BZ group, and this version went live on Roblox in June 2026. You build up your stats through training, unlock powers drawn from popular anime series, and take on bosses and other players, while summoning champions that train and fight next to you. Mounts, auras, weapons and titles round out the collection side.\n\nCodes here are usually large bundles of Chikara and Tensei Shards, stat, yen and training boosts, trait rerolls, and event tokens such as Clover Tokens. Those resources shorten the long stat grind and pay for rerolls. The developers post new codes in their Discord and on the game page, usually tied to updates, member milestones, or compensation after downtime.",
   "codes": [
     {
-      "code": "WIZARDKING",
+      "code": "HALLOWEEN",
       "reward": "FREE rewards",
       "status": "active",
-      "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-10T21:39:02.247Z",
+      "firstSeen": "2026-10-11T05:41:14.580Z",
+      "lastSeen": "2026-10-11T05:41:14.580Z",
       "source": "description",
       "approved": false,
-      "context": "Use Code \"WIZARDKING\" for FREE rewards!"
+      "context": "Use Code \"HALLOWEEN\" for FREE rewards!"
     }
   ],
   "expired": [
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 10953,
-    "visits": 54192011,
-    "favorites": 498378,
-    "updated": "2026-10-10T21:20:28.298Z",
+    "playing": 8459,
+    "visits": 54306589,
+    "favorites": 499603,
+    "updated": "2026-10-10T23:03:27.745Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 174285,
-    "downVotes": 2988
+    "upVotes": 174569,
+    "downVotes": 2994
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-10T21:39:02.247Z",
+  "lastChecked": "2026-10-11T05:41:14.580Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

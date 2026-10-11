@@ -21,30 +21,39 @@
   "notes": "Midnight Chasers: Highway Racing is a no-hesitation traffic driving game from the Roblox group Midnight In-dev. You pick a car or motorcycle, drive onto a busy highway, and weave between traffic at high speed to earn cash, which you spend on new vehicles and upgrades. Players also use the open highways and city streets for casual cruising, races with friends, and car meetups.\n\nCodes in this game almost always pay out cash, usually 30,000 per code, which shortens the grind toward faster cars. The developers tie new codes to like milestones, typically one every 10,000 likes named after the count (ThanksFor980k, for example), and announce them in the game description, their Discord server, and on X.",
   "codes": [
     {
-      "code": "ThanksFor980k",
-      "reward": "30,000 Cash",
+      "code": "ThanksFor990k",
+      "reward": null,
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:42.003Z",
-      "lastSeen": "2026-10-10T21:39:02.247Z",
+      "firstSeen": "2026-10-11T05:41:14.580Z",
+      "lastSeen": "2026-10-11T05:41:14.580Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "Current Code: \"ThanksFor990k\""
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "ThanksFor980k",
+      "reward": "30,000 Cash",
+      "removed": "2026-10-11",
+      "firstSeen": "2026-09-29T16:13:42.003Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 3261,
-    "visits": 317251736,
-    "favorites": 6655358,
-    "updated": "2026-10-10T16:21:59.851Z",
+    "playing": 3653,
+    "visits": 317349392,
+    "favorites": 6656346,
+    "updated": "2026-10-10T22:49:49.488Z",
     "created": "2023-06-21T21:07:05.223Z",
     "maxPlayers": 14,
-    "upVotes": 988891,
-    "downVotes": 25161
+    "upVotes": 989089,
+    "downVotes": 25167
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-10-10T21:39:02.247Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-11T05:41:14.580Z",
+  "lastChanged": "2026-10-11T05:41:14.580Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
