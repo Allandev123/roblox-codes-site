@@ -21,9 +21,14 @@ const FEE_WORDS = { echeck: 'an eCheck, bank transfer or SEPA', paypal: 'PayPal'
 // Answers are HTML; the FAQPage JSON-LD strips the tags.
 export const DEVEX_FAQ = d => {
   const r = d.rates, s = r.standard.usd;
+  // the first questions are the ones Google shows under "People also ask"
   return [
+    { q: 'How much is 1 Ad Credit in Robux?', a: `About ${Math.round(1 / s)} Robux at the standard rate ($${s} per Robux), or about ${Math.round(1 / r.us18.usd)} Robux earned at the U.S. 18+ rate ($${r.us18.usd}). 1 Ad Credit pays for $1 of ads in Ads Manager.` },
+    { q: 'How much money is 20 Ad Credits in Roblox?', a: `20 Ad Credits pay for $20 of ads. Bought with Robux, that's about ${fmtNum(Math.round(20 / s))} Robux at the standard rate, or about ${fmtNum(Math.round(20 / r.us18.usd))} U.S. 18+ Robux.` },
+    { q: 'How do I convert Robux to Ad Credits?', a: `In Ads Manager on the Creator Hub, open Billing and payments, then Payment settings, click Add Payment Method and pick the Robux Ad Credit tab. Type the amount and click Buy. You see the exact conversion before you confirm, the smallest is 1 credit, and it can't be undone.` },
+    { q: 'Why do some sites say 285 Robux per Ad Credit?', a: `That's the old number. 285 Robux per credit matches the old $${r.old.usd} rate from before ${esc(d.oldRateBefore)}. Ads Manager now converts Earned Robux at $${s}, about ${Math.round(1 / s)} Robux per credit, and even Robux from before that date convert at $${s} (my own Ads Manager shows this).` },
+    { q: 'How much is 1,000,000 Robux in real money?', a: `${usdShort(1000000 * s)} with DevEx at the standard rate, before the payout fee, or ${usdShort(1000000 * r.us18.usd)} if they were all earned at the U.S. 18+ rate. For smaller amounts: 10,000 Robux is ${usdShort(10000 * s)} and 100,000 Robux is ${usdShort(100000 * s)}, but you can only cash out from ${fmtNum(d.minimum)} Robux.` },
     { q: 'How much is 1,000 Robux worth in real money?', a: `${usdShort(1000 * s)} with DevEx at the standard rate. Robux earned at the U.S. 18+ rate are worth ${usdShort(1000 * r.us18.usd)} per 1,000, and old Robux from before ${esc(d.oldRateBefore)} are worth ${usdShort(1000 * r.old.usd)}.` },
-    { q: 'How much are 10,000, 100,000 and 1 million Robux worth?', a: `At the standard rate: 10,000 Robux is ${usdShort(10000 * s)}, 100,000 Robux is ${usdShort(100000 * s)}, and 1,000,000 Robux is ${usdShort(1000000 * s)}. You can only cash out from ${fmtNum(d.minimum)} Robux, so 10,000 isn't enough on its own.` },
     { q: 'What is the minimum for DevEx?', a: `${fmtNum(d.minimum)} Earned Robux, which is ${usdShort(d.minimum * s)} at the standard rate. The calculator above tells you how many more you need.` },
     { q: 'In what order does DevEx pay the rates?', a: `U.S. 18+ Robux go first, then Robux from before ${esc(d.oldRateBefore)} at the old $${r.old.usd}, and only then Robux at $${s}. The DevEx portal says so right under the payout breakdown. Spending Robux on Roblox doesn't use up the old balance first.` },
     { q: 'Who can use DevEx?', a: `Anyone 13 or older with at least ${fmtNum(d.minimum)} Earned Robux, a verified email, a DevEx portal account and a tax form on file (a W-9 in the U.S., a W-8 everywhere else). Your account also has to follow Roblox's Terms of Use.` },
@@ -31,7 +36,6 @@ export const DEVEX_FAQ = d => {
     { q: 'Are there fees when you cash out?', a: `Yes. Tipalti, the company that sends DevEx money, takes a flat fee from each payout depending on how you get paid: ${d.payoutFees.filter(p => p.fee).map(p => `$${p.fee} for ${FEE_WORDS[p.key] ?? p.name}`).join('; ').replace(/; ([^;]*)$/, '; and $1')}. Getting paid in your own currency costs another 1.9 to 3%. The DevEx portal shows your exact fee under Payment Details.` },
     { q: 'What is the U.S. 18+ rate?', a: `A higher rate, $${r.us18.usd} per Robux, for Robux from game passes, developer products, subscriptions and private servers bought by U.S. players who verified they're 18 or older, in eligible games. Everything else you earn gets the standard $${s}.` },
     { q: 'Can I cash out Robux I bought?', a: `No. Only Earned Robux count: sales of passes, developer products, subscriptions, private servers and avatar items, plus Creator Rewards. Robux you bought, got from a gift card or a transfer, or made by trading items don't count.` },
-    { q: 'How many Robux is 1 Ad Credit?', a: `About ${Math.round(1 / s)} Robux at the standard rate, or about ${Math.round(1 / r.us18.usd)} Robux earned at the U.S. 18+ rate. 1 Ad Credit pays for $1 of ads.` },
     { q: 'How do Ad Credits work?', a: `1 Ad Credit pays for $1 of ads in Roblox's Ads Manager. You can buy credits with Robux from age 13, or with a card from age 18. U.S. 18+ Robux convert first at $${r.us18.usd}, every other Earned Robux at $${s}, and the smallest conversion is 1 credit.` },
     { q: 'DevEx or Ad Credits: which is better?', a: `For new Robux they're worth the same: 10,000 Robux is ${usdShort(10000 * s)} from DevEx or ${Math.round(10000 * s)} Ad Credits. Old Robux are different, because Ads Manager converts them at $${s} while DevEx pays $${r.old.usd}. When I put in the same 30,000 Robux, most of them from before ${esc(d.oldRateBefore.replace(/^(\w+) \d+, /, '$1 '))}, the DevEx portal offered me $105.72 and Ads Manager offered 114.60 Ad Credits. So if you'd pay for ads for your game anyway, convert. If not, cash out.` },
     { q: 'Can I turn Ad Credits back into Robux?', a: `No. Converting is permanent, and Ad Credits can only be spent on ads in Ads Manager. Credits a campaign doesn't spend go back to your account when it ends.` },
@@ -129,6 +133,18 @@ export function devexBody({ site, d }) {
 <p class="note calc-note">Estimates from Roblox's published rates. Roblox rounds a little differently and decides which rate each Robux gets; the DevEx portal and Ads Manager show the exact amount before you confirm.</p>
 
 <div class="tool-more">
+<section class="sec quick" aria-labelledby="quick-h">
+  <h2 id="quick-h">Quick answers</h2>
+  <ul>
+    <li><strong>1 Ad Credit = $1</strong> of ads in Roblox's Ads Manager.</li>
+    <li><strong>1 Ad Credit = about ${Math.round(1 / r.standard.usd)} Robux</strong> at the standard $${r.standard.usd} rate, or about ${Math.round(1 / r.us18.usd)} Robux earned at the U.S. 18+ rate ($${r.us18.usd}).</li>
+    <li><strong>20 Ad Credits = $20</strong> of ads, about ${fmtNum(Math.round(20 / r.standard.usd))} Robux.</li>
+    <li><strong>1,000,000 Robux = ${usdShort(1000000 * r.standard.usd)}</strong> with DevEx at the standard rate, before the payout fee.</li>
+    <li><strong>${fmtNum(d.minimum)} Robux</strong> is the least you can cash out: ${usdShort(d.minimum * r.standard.usd)} at the standard rate.</li>
+    <li><strong>"285 Robux per Ad Credit" is out of date.</strong> It's the old $${r.old.usd} rate from before ${esc(d.oldRateBefore)}.</li>
+  </ul>
+</section>
+
 <section class="sec" aria-labelledby="rates-h">
   <h2 id="rates-h">Current DevEx rates</h2>
   <p class="note">From Roblox's <a href="${esc(d.sources.devex)}" rel="noopener" target="_blank">Developer Exchange page</a> and the DevEx portal, checked ${dateShort(d.checked)}. DevEx pays them in this order.</p>

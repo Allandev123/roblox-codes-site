@@ -448,7 +448,7 @@ const tools = [];
   write('tools/devex-calculator/index.html', layout({
     site, assets, path: p,
     title: `Roblox DevEx & Ad Credit Calculator (${d.checked.slice(0, 4)} Rates)`,
-    description: clip(`Work out what your Earned Robux are worth with DevEx, or how many Ad Credits they buy. Uses Roblox's current $${d.rates.standard.usd} and U.S. 18+ $${d.rates.us18.usd} rates.`, 155),
+    description: clip(`1 Ad Credit = $1 of ads, about ${Math.round(1 / d.rates.standard.usd)} Robux at today's rate. Work out Ad Credits and DevEx cash-outs for your Earned Robux, with payout fees.`, 155),
     ogImage: `${site.url}/og/tool-devex.jpg`,
     jsonld: [
       {

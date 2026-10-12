@@ -657,6 +657,8 @@ main.wrap:has(.tool-head) { max-width: 1160px; }
 .tool-more .sec > h2 { margin-bottom: 6px; }
 .tool-more .note { margin: 0 0 12px; }
 .tool-faq .faq-list { display: grid; gap: 10px; }
+.quick ul { margin: 0; padding: 16px 18px 16px 36px; background: var(--raised); border: 1px solid var(--rule); border-radius: 14px; }
+.quick li { margin: 6px 0; }
 .tool-faq .faq-list + .note { margin-top: 16px; }
 @media (max-width: 560px) {
   .rbx { padding: 16px; }
