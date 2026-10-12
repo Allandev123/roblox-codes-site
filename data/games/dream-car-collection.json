@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-10-12T00:30:32.798Z",
+      "lastSeen": "2026-10-12T10:42:02.259Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "3000 gems as we fix bugs with our new drive world",
       "status": "active",
       "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-10-12T00:30:32.798Z",
+      "lastSeen": "2026-10-12T10:42:02.259Z",
       "source": "description",
       "approved": false,
       "context": "Use Code \"IMSORRY\" for 3000 gems as we fix bugs with our new drive world!"
@@ -43,17 +43,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 7663,
-    "visits": 17873520,
-    "favorites": 254162,
+    "playing": 6848,
+    "visits": 18186110,
+    "favorites": 257059,
     "updated": "2026-10-11T00:31:12.643Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 38816,
-    "downVotes": 1954
+    "upVotes": 39209,
+    "downVotes": 1978
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-10-12T00:30:32.798Z",
+  "lastChecked": "2026-10-12T10:42:02.259Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
