@@ -1,7 +1,7 @@
 {
   "slug": "build-the-pyramid",
   "name": "Build the Pyramid!",
-  "robloxName": "Build the Pyramid!",
+  "robloxName": "[UPD] Build the Pyramid!",
   "placeId": 123720558354386,
   "universeId": 10765012427,
   "gameUrl": "https://www.roblox.com/games/123720558354386/Build-the-Pyramid",
@@ -89,17 +89,17 @@
     }
   ],
   "stats": {
-    "playing": 20651,
-    "visits": 39544742,
-    "favorites": 172479,
-    "updated": "2026-10-11T02:45:45.115Z",
+    "playing": 16037,
+    "visits": 39940862,
+    "favorites": 173585,
+    "updated": "2026-10-11T21:24:48.411Z",
     "created": "2026-09-03T20:26:45.061Z",
     "maxPlayers": 100,
-    "upVotes": 114615,
-    "downVotes": 5987
+    "upVotes": 115339,
+    "downVotes": 6048
   },
   "added": "2026-09-29T18:35:37.952Z",
-  "lastChecked": "2026-10-11T19:32:25.703Z",
+  "lastChecked": "2026-10-12T00:30:32.798Z",
   "lastChanged": "2026-10-02T14:22:00.000Z",
   "faq": [
     {

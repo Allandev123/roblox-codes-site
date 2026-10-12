@@ -25,7 +25,7 @@
       "reward": "+$35.000",
       "status": "active",
       "firstSeen": "2026-10-11T12:43:54.410Z",
-      "lastSeen": "2026-10-11T19:32:25.703Z",
+      "lastSeen": "2026-10-12T00:30:32.798Z",
       "source": "description",
       "approved": false,
       "context": "Redeem code: \"HALLOWENUPDATE\" +$35.000"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 1978,
-    "visits": 79195152,
-    "favorites": 214312,
+    "playing": 874,
+    "visits": 79227904,
+    "favorites": 214365,
     "updated": "2026-10-11T15:40:49.073Z",
     "created": "2025-09-05T20:17:45.04Z",
     "maxPlayers": 20,
-    "upVotes": 138435,
-    "downVotes": 8110
+    "upVotes": 138462,
+    "downVotes": 8112
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-10-11T19:32:25.703Z",
+  "lastChecked": "2026-10-12T00:30:32.798Z",
   "lastChanged": "2026-10-11T12:43:54.410Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
