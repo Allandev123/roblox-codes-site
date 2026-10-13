@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-10-13T10:29:50.179Z",
+      "lastSeen": "2026-10-13T19:13:58.219Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5718,
-    "visits": 19024497,
-    "favorites": 264571,
+    "playing": 7757,
+    "visits": 19369945,
+    "favorites": 267468,
     "updated": "2026-10-13T00:41:55.994Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 40286,
-    "downVotes": 2045
+    "upVotes": 40732,
+    "downVotes": 2074
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-10-13T10:29:50.179Z",
+  "lastChecked": "2026-10-13T19:13:58.219Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
