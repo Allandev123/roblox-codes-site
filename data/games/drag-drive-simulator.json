@@ -25,7 +25,7 @@
       "reward": "RP (in-game cash)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:20.290Z",
-      "lastSeen": "2026-10-13T02:34:41.978Z",
+      "lastSeen": "2026-10-13T10:29:50.179Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 9868,
-    "visits": 639790584,
-    "favorites": 3167439,
-    "updated": "2026-10-11T15:01:27.207Z",
+    "playing": 22076,
+    "visits": 640605571,
+    "favorites": 3170598,
+    "updated": "2026-10-13T02:39:39.55Z",
     "created": "2025-01-15T08:10:40.233Z",
     "maxPlayers": 25,
-    "upVotes": 196137,
-    "downVotes": 8978
+    "upVotes": 196285,
+    "downVotes": 8983
   },
   "added": "2026-09-29T16:13:20.290Z",
-  "lastChecked": "2026-10-13T02:34:41.978Z",
+  "lastChecked": "2026-10-13T10:29:50.179Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
