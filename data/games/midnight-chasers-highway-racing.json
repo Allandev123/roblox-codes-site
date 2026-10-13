@@ -25,10 +25,10 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Current Code: \"ThanksFor990k\""
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:58.275Z"
     }
   ],
   "expired": [
@@ -42,18 +42,18 @@
     }
   ],
   "stats": {
-    "playing": 2432,
-    "visits": 317744742,
-    "favorites": 6660603,
+    "playing": 2668,
+    "visits": 317779515,
+    "favorites": 6660965,
     "updated": "2026-10-12T03:58:05.617Z",
     "created": "2023-06-21T21:07:05.223Z",
     "maxPlayers": 14,
-    "upVotes": 989967,
-    "downVotes": 25191
+    "upVotes": 990064,
+    "downVotes": 25194
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-10-12T21:15:04.582Z",
-  "lastChanged": "2026-10-11T05:41:14.580Z",
+  "lastChecked": "2026-10-13T01:52:29.640Z",
+  "lastChanged": "2026-10-13T01:59:58.275Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

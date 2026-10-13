@@ -25,7 +25,7 @@
       "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,10 +35,10 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-08T00:57:53.538Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "USE CODE 'TY10000' IN THE SHOP!!!"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:57.327Z"
     }
   ],
   "expired": [
@@ -52,18 +52,18 @@
     }
   ],
   "stats": {
-    "playing": 3893,
-    "visits": 8818306,
-    "favorites": 40189,
+    "playing": 3474,
+    "visits": 8865070,
+    "favorites": 40386,
     "updated": "2026-10-12T08:07:00.094Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 11503,
-    "downVotes": 1375
+    "upVotes": 11562,
+    "downVotes": 1380
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-10-12T21:15:04.582Z",
-  "lastChanged": "2026-09-30T19:59:44.333Z",
+  "lastChecked": "2026-10-13T01:52:29.640Z",
+  "lastChanged": "2026-10-13T01:59:57.327Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming 2 Player Raid Tycoon codes?",

@@ -25,56 +25,56 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T18:36:07.777Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:59.449Z"
     },
     {
       "code": "LIKES_100",
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T18:36:07.777Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:59.449Z"
     },
     {
       "code": "LIKES_500",
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T18:36:07.777Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:59.449Z"
     },
     {
       "code": "LIKES_1K",
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T18:36:07.777Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Codes: NEW_PLAYER, LIKES_100, LIKES_500, LIKES_1K"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:59.449Z"
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 54,
-    "visits": 20446812,
-    "favorites": 38209,
+    "playing": 67,
+    "visits": 20448358,
+    "favorites": 38216,
     "updated": "2026-09-08T18:48:02.218Z",
     "created": "2026-03-31T02:36:30.149Z",
     "maxPlayers": 14,
-    "upVotes": 45531,
-    "downVotes": 1511
+    "upVotes": 45533,
+    "downVotes": 1513
   },
   "added": "2026-09-29T18:36:07.777Z",
-  "lastChecked": "2026-10-12T21:15:04.582Z",
-  "lastChanged": "2026-09-29T18:36:07.777Z",
+  "lastChecked": "2026-10-13T01:52:29.640Z",
+  "lastChanged": "2026-10-13T01:59:59.449Z",
   "faq": [
     {
       "q": "Where do Slide From Top codes come from?",

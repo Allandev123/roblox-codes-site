@@ -25,10 +25,10 @@
       "reward": "+$35.000",
       "status": "active",
       "firstSeen": "2026-10-11T12:43:54.410Z",
-      "lastSeen": "2026-10-12T21:15:04.582Z",
+      "lastSeen": "2026-10-13T01:52:29.640Z",
       "source": "description",
-      "approved": false,
-      "context": "Redeem code: \"HALLOWENUPDATE\" +$35.000"
+      "approved": true,
+      "approvedAt": "2026-10-13T01:59:57.968Z"
     }
   ],
   "expired": [
@@ -42,18 +42,18 @@
     }
   ],
   "stats": {
-    "playing": 981,
-    "visits": 79385186,
-    "favorites": 214660,
+    "playing": 599,
+    "visits": 79403710,
+    "favorites": 214706,
     "updated": "2026-10-11T15:40:49.073Z",
     "created": "2025-09-05T20:17:45.04Z",
     "maxPlayers": 20,
-    "upVotes": 138577,
-    "downVotes": 8121
+    "upVotes": 138601,
+    "downVotes": 8127
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-10-12T21:15:04.582Z",
-  "lastChanged": "2026-10-11T12:43:54.410Z",
+  "lastChecked": "2026-10-13T01:52:29.640Z",
+  "lastChanged": "2026-10-13T01:59:57.968Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
