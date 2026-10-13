@@ -59,7 +59,7 @@ export function devexBody({ site, d }) {
   const net = Math.max(0, start * r.standard.usd - fee);
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li aria-current="page">DevEx calculator</li></ol></nav>
 <header class="tool-head">
-  <h1>Roblox DevEx &amp; Ad Credit Calculator</h1>
+  <h1>Roblox Ad Credit Converter &amp; DevEx Calculator</h1>
   <p>Robux to real money with DevEx, or to Ad Credits for Ads Manager. Roblox's rates, checked ${dateShort(d.checked)}: $${r.standard.usd} per Robux, $${r.us18.usd} for U.S. 18+ Robux.</p>
 </header>
 

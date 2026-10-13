@@ -447,13 +447,13 @@ const tools = [];
   await og('tool-devex', { background: null, title: 'DevEx & Ad Credit Calculator', kicker: 'CALCULATOR', sub: 'Robux to US dollars and Ad Credits' }, 'og/tool-devex.jpg');
   write('tools/devex-calculator/index.html', layout({
     site, assets, path: p,
-    title: `Roblox DevEx & Ad Credit Calculator (${d.checked.slice(0, 4)} Rates)`,
+    title: `Roblox Ad Credit Converter & DevEx Calculator (${d.checked.slice(0, 4)})`,
     description: clip(`1 Ad Credit = $1 of ads, about ${Math.round(1 / d.rates.standard.usd)} Robux at today's rate. Work out Ad Credits and DevEx cash-outs for your Earned Robux, with payout fees.`, 155),
     ogImage: `${site.url}/og/tool-devex.jpg`,
     jsonld: [
       {
         '@context': 'https://schema.org', '@type': 'WebApplication',
-        name: 'Roblox DevEx & Ad Credit Calculator', url,
+        name: 'Roblox Ad Credit Converter & DevEx Calculator', url,
         applicationCategory: 'FinanceApplication', operatingSystem: 'Any', browserRequirements: 'Requires JavaScript',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         datePublished: d.published, dateModified: d.checked,
@@ -478,7 +478,7 @@ const tools = [];
   }));
   pages.push({ path: p, lastmod: new Date(d.checked).toISOString() });
   tools.push({
-    path: p, title: 'Roblox DevEx & Ad Credit Calculator', kicker: 'Calculator', image: '/og/tool-devex.jpg', lastmod: d.checked,
+    path: p, title: 'Roblox Ad Credit Converter & DevEx Calculator', kicker: 'Calculator', image: '/og/tool-devex.jpg', lastmod: d.checked,
     summary: `What your Earned Robux are worth in US dollars with DevEx, or how many Ad Credits they buy. Rates checked ${dateShort(d.checked)}.`,
   });
 }
