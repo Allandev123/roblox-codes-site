@@ -1,7 +1,7 @@
 {
   "slug": "war-tycoon",
   "name": "War Tycoon",
-  "robloxName": "[Visby] War Tycoon",
+  "robloxName": "War Tycoon",
   "placeId": 4639625707,
   "universeId": 1526814825,
   "gameUrl": "https://www.roblox.com/games/4639625707/War-Tycoon",
@@ -122,17 +122,17 @@
     }
   ],
   "stats": {
-    "playing": 9460,
-    "visits": 1128773677,
-    "favorites": 4433759,
-    "updated": "2026-10-13T20:33:03.149Z",
+    "playing": 5884,
+    "visits": 1128887260,
+    "favorites": 4434005,
+    "updated": "2026-10-14T20:00:31.262Z",
     "created": "2020-01-29T00:12:02.89Z",
     "maxPlayers": 18,
-    "upVotes": 1111036,
-    "downVotes": 106379
+    "upVotes": 1111091,
+    "downVotes": 106388
   },
   "added": "2026-09-29T17:52:36.675Z",
-  "lastChecked": "2026-10-14T17:06:53.009Z",
+  "lastChecked": "2026-10-14T21:38:08.121Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
