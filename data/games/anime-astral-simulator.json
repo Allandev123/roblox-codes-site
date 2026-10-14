@@ -25,7 +25,7 @@
       "reward": "Free boosts",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:17.066Z",
-      "lastSeen": "2026-10-14T04:57:05.018Z",
+      "lastSeen": "2026-10-14T11:46:33.329Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 11997,
-    "visits": 109602939,
-    "favorites": 130564,
+    "playing": 11821,
+    "visits": 109813443,
+    "favorites": 130660,
     "updated": "2026-10-13T20:22:42.625Z",
     "created": "2026-07-14T15:26:28.559Z",
     "maxPlayers": 10,
-    "upVotes": 38653,
-    "downVotes": 1380
+    "upVotes": 38677,
+    "downVotes": 1381
   },
   "added": "2026-09-29T16:13:17.066Z",
-  "lastChecked": "2026-10-14T04:57:05.018Z",
+  "lastChecked": "2026-10-14T11:46:33.329Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

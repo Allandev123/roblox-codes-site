@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-loot-to-forge",
   "name": "+1 Loot To Forge",
-  "robloxName": "[BOSS]+1 Loot To Forge",
+  "robloxName": "[PET🐶]+1 Loot To Forge",
   "placeId": 118805555015549,
   "universeId": 10684750879,
   "gameUrl": "https://www.roblox.com/games/118805555015549/1-Loot-To-Forge",
@@ -19,19 +19,16 @@
     "Type or paste the code into the box and press Submit."
   ],
   "notes": "+1 Loot To Forge is an incremental combat game from Good Bro Studio that launched on Roblox in August 2026. Every click adds a little more power, which you use to clear out hordes of enemies, collect ore from the fallen, and forge that ore into stronger weapons and armour. Better gear lets you push into tougher areas, and a race system adds bonus stats you can reroll for better damage modifiers.\n\nCodes here usually hand out Ember Stones, coins, race rerolls or Power Potions, which speed up forging and let you chase a stronger race without grinding for it. The developer has tied new codes to concurrent player milestones such as 20,000, 30,000 and 50,000 players online, announcing them on the game page and in the Discord server.",
-  "codes": [
+  "codes": [],
+  "expired": [
     {
       "code": "100000CCU",
       "reward": null,
-      "status": "active",
+      "removed": "2026-10-14",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-14T04:57:05.018Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-10-13T01:59:58.604Z"
-    }
-  ],
-  "expired": [
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "50000CCU",
       "reward": "50 Ember Stones",
@@ -42,18 +39,18 @@
     }
   ],
   "stats": {
-    "playing": 20102,
-    "visits": 76841374,
-    "favorites": 3148964,
-    "updated": "2026-10-14T02:58:08.557Z",
+    "playing": 31784,
+    "visits": 77308008,
+    "favorites": 3163928,
+    "updated": "2026-10-14T10:26:19.912Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 153909,
-    "downVotes": 5258
+    "upVotes": 154495,
+    "downVotes": 5271
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-14T04:57:05.018Z",
-  "lastChanged": "2026-10-13T01:59:58.604Z",
+  "lastChecked": "2026-10-14T11:46:33.329Z",
+  "lastChanged": "2026-10-14T11:46:33.329Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming +1 Loot To Forge codes?",
