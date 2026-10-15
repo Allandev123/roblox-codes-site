@@ -25,7 +25,7 @@
       "reward": "2 Season Tickets and 2 Race Rolls",
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-15T13:39:01.221Z",
+      "lastSeen": "2026-10-15T16:56:34.415Z",
       "source": "description",
       "approved": true,
       "tested": "2026-10-15"
@@ -35,7 +35,7 @@
       "reward": "2 Race Rolls and 1 Watermelon",
       "status": "active",
       "firstSeen": "2026-10-15T13:39:01.221Z",
-      "lastSeen": "2026-10-15T13:39:01.221Z",
+      "lastSeen": "2026-10-15T16:56:34.415Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-15T13:39:08.781Z",
@@ -61,17 +61,17 @@
     }
   ],
   "stats": {
-    "playing": 33813,
-    "visits": 79121644,
-    "favorites": 3218075,
+    "playing": 29014,
+    "visits": 79401122,
+    "favorites": 3226279,
     "updated": "2026-10-15T03:36:28.32Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 156985,
-    "downVotes": 5362
+    "upVotes": 157395,
+    "downVotes": 5371
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-15T13:39:01.221Z",
+  "lastChecked": "2026-10-15T16:56:34.415Z",
   "lastChanged": "2026-10-15T13:39:08.914Z",
   "faq": [
     {

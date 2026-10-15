@@ -42,17 +42,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 14124,
-    "visits": 31567685,
-    "favorites": 2132842,
+    "playing": 11418,
+    "visits": 31790777,
+    "favorites": 2149203,
     "updated": "2026-10-15T10:10:10.186Z",
     "created": "2026-09-11T21:46:25.186Z",
     "maxPlayers": 7,
-    "upVotes": 40918,
-    "downVotes": 2497
+    "upVotes": 41167,
+    "downVotes": 2518
   },
   "added": "2026-09-30T13:47:12.376Z",
-  "lastChecked": "2026-10-15T13:39:01.221Z",
+  "lastChecked": "2026-10-15T16:56:34.415Z",
   "lastChanged": "2026-09-30T13:47:51.186Z",
   "checkedInGame": "2026-09-30",
   "redeemImage": "steal-animal-egg-redeem.webp",
