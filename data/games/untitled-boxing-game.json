@@ -25,7 +25,7 @@
       "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "2x lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "Free emote",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.611Z"
@@ -85,7 +85,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-15T04:32:36.892Z",
+      "lastSeen": "2026-10-15T11:22:36.460Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.611Z"
@@ -110,17 +110,17 @@
     }
   ],
   "stats": {
-    "playing": 12524,
-    "visits": 1469363685,
-    "favorites": 1376900,
+    "playing": 13052,
+    "visits": 1469722875,
+    "favorites": 1377104,
     "updated": "2026-10-12T16:52:57.216Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1405394,
-    "downVotes": 208290
+    "upVotes": 1405493,
+    "downVotes": 208324
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-15T04:32:36.892Z",
+  "lastChecked": "2026-10-15T11:22:36.460Z",
   "lastChanged": "2026-10-13T01:59:59.611Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
