@@ -1,7 +1,7 @@
 {
   "slug": "sniper-arena",
   "name": "Sniper Arena",
-  "robloxName": "[⏳3H] Sniper Arena",
+  "robloxName": "[🎃Battlepass] Sniper Arena",
   "placeId": 122446657157717,
   "universeId": 9534705677,
   "gameUrl": "https://www.roblox.com/games/122446657157717/Sniper-Arena",
@@ -131,17 +131,17 @@
     }
   ],
   "stats": {
-    "playing": 20829,
-    "visits": 324084825,
-    "favorites": 3362879,
-    "updated": "2026-10-16T16:27:47.616Z",
+    "playing": 14449,
+    "visits": 324521047,
+    "favorites": 3370835,
+    "updated": "2026-10-16T18:59:35.136Z",
     "created": "2026-01-10T05:55:56.67Z",
     "maxPlayers": 20,
-    "upVotes": 305905,
-    "downVotes": 27321
+    "upVotes": 306302,
+    "downVotes": 27351
   },
   "added": "2026-09-29T18:36:09.431Z",
-  "lastChecked": "2026-10-16T16:34:45.760Z",
+  "lastChecked": "2026-10-16T21:03:18.105Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
