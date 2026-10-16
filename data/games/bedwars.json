@@ -1,7 +1,7 @@
 {
   "slug": "bedwars",
   "name": "BedWars",
-  "robloxName": "BedWars [UPDATE]",
+  "robloxName": "BedWars [🎃HALLOWEEN PT.1]",
   "placeId": 6872265039,
   "universeId": 2619619496,
   "gameUrl": "https://www.roblox.com/games/6872265039/BedWars",
@@ -21,16 +21,16 @@
   "codes": [],
   "expired": [],
   "stats": {
-    "playing": 27967,
-    "visits": 11777350881,
-    "favorites": 4641132,
-    "updated": "2026-10-11T06:03:23.105Z",
+    "playing": 38472,
+    "visits": 11777783322,
+    "favorites": 4641224,
+    "updated": "2026-10-16T23:23:06.387Z",
     "created": "2021-05-27T15:14:38.887Z",
     "maxPlayers": 40,
-    "upVotes": 2483486,
-    "downVotes": 534547
+    "upVotes": 2483526,
+    "downVotes": 534553
   },
   "added": "2026-09-29T17:09:01.875Z",
-  "lastChecked": "2026-10-16T21:03:18.105Z",
+  "lastChecked": "2026-10-16T23:33:34.894Z",
   "lastChanged": "2026-09-29T17:09:01.875Z"
 }
