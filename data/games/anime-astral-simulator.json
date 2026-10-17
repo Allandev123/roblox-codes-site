@@ -1,7 +1,7 @@
 {
   "slug": "anime-astral-simulator",
   "name": "Anime Astral Simulator",
-  "robloxName": "[STANDS] Anime Astral Simulator",
+  "robloxName": "[TRAINING] Anime Astral Simulator",
   "placeId": 102072869879193,
   "universeId": 10502841145,
   "gameUrl": "https://www.roblox.com/games/102072869879193/Anime-Astral-Simulator",
@@ -25,7 +25,7 @@
       "reward": "Free boosts",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:17.066Z",
-      "lastSeen": "2026-10-17T15:29:28.281Z",
+      "lastSeen": "2026-10-17T20:33:14.271Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 10142,
-    "visits": 111914398,
-    "favorites": 131772,
-    "updated": "2026-10-16T23:07:37.791Z",
+    "playing": 13478,
+    "visits": 112060547,
+    "favorites": 131921,
+    "updated": "2026-10-17T20:24:42.935Z",
     "created": "2026-07-14T15:26:28.559Z",
     "maxPlayers": 10,
-    "upVotes": 38954,
+    "upVotes": 38979,
     "downVotes": 1391
   },
   "added": "2026-09-29T16:13:17.066Z",
-  "lastChecked": "2026-10-17T15:29:28.281Z",
+  "lastChecked": "2026-10-17T20:33:14.271Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

@@ -1,7 +1,7 @@
 {
   "slug": "command-an-army",
   "name": "Command An Army",
-  "robloxName": "[COSMETICS] Command An Army",
+  "robloxName": "[UPD] Command An Army",
   "placeId": 101770480176177,
   "universeId": 10258991999,
   "gameUrl": "https://www.roblox.com/games/101770480176177/Command-An-Army",
@@ -222,17 +222,17 @@
     }
   ],
   "stats": {
-    "playing": 28116,
-    "visits": 73114894,
-    "favorites": 925985,
-    "updated": "2026-10-17T14:22:05.077Z",
+    "playing": 17838,
+    "visits": 73472018,
+    "favorites": 927830,
+    "updated": "2026-10-17T15:45:02.652Z",
     "created": "2026-06-02T01:46:28.824Z",
     "maxPlayers": 12,
-    "upVotes": 172220,
-    "downVotes": 9128
+    "upVotes": 172517,
+    "downVotes": 9161
   },
   "added": "2026-09-29T18:35:39.571Z",
-  "lastChecked": "2026-10-17T15:29:28.281Z",
+  "lastChecked": "2026-10-17T20:33:14.271Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {

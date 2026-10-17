@@ -1,7 +1,7 @@
 {
   "slug": "war-tycoon",
   "name": "War Tycoon",
-  "robloxName": "War Tycoon",
+  "robloxName": "[KF-41] War Tycoon",
   "placeId": 4639625707,
   "universeId": 1526814825,
   "gameUrl": "https://www.roblox.com/games/4639625707/War-Tycoon",
@@ -122,17 +122,17 @@
     }
   ],
   "stats": {
-    "playing": 11932,
-    "visits": 1130392002,
-    "favorites": 4438079,
-    "updated": "2026-10-17T14:50:40.381Z",
+    "playing": 11233,
+    "visits": 1130650675,
+    "favorites": 4438598,
+    "updated": "2026-10-17T16:11:09.681Z",
     "created": "2020-01-29T00:12:02.89Z",
     "maxPlayers": 18,
-    "upVotes": 1111696,
-    "downVotes": 106481
+    "upVotes": 1111794,
+    "downVotes": 106497
   },
   "added": "2026-09-29T17:52:36.675Z",
-  "lastChecked": "2026-10-17T15:29:28.281Z",
+  "lastChecked": "2026-10-17T20:33:14.271Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {

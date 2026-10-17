@@ -1,7 +1,7 @@
 {
   "slug": "merge-a-nuke",
   "name": "Merge a Nuke!",
-  "robloxName": "[BOSS😈] Merge a Nuke!",
+  "robloxName": "[UPD🎃] Merge a Nuke!",
   "placeId": 128784467030899,
   "universeId": 10199301628,
   "gameUrl": "https://www.roblox.com/games/128784467030899/Merge-a-Nuke",
@@ -25,7 +25,7 @@
       "reward": "Cash or Nuclear Waste",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:33.869Z",
-      "lastSeen": "2026-10-17T15:29:28.281Z",
+      "lastSeen": "2026-10-17T20:33:14.271Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 6564,
-    "visits": 446901141,
-    "favorites": 2096319,
-    "updated": "2026-10-16T00:47:03.731Z",
+    "playing": 5302,
+    "visits": 447122912,
+    "favorites": 2097123,
+    "updated": "2026-10-17T17:10:08.354Z",
     "created": "2026-05-21T13:45:07.797Z",
     "maxPlayers": 8,
-    "upVotes": 782182,
-    "downVotes": 43335
+    "upVotes": 782355,
+    "downVotes": 43352
   },
   "added": "2026-09-29T16:13:33.869Z",
-  "lastChecked": "2026-10-17T15:29:28.281Z",
+  "lastChecked": "2026-10-17T20:33:14.271Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
