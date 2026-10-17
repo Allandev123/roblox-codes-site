@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-power-per-click",
   "name": "+1 Power Per Click",
-  "robloxName": "[2X] +1 Power Per Click ",
+  "robloxName": "[2X] +1 Power Per Click",
   "placeId": 74889851913797,
   "universeId": 10485201326,
   "gameUrl": "https://www.roblox.com/games/74889851913797/1-Power-Per-Click",
@@ -25,7 +25,7 @@
       "reward": "100 Luck Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "2x Wins Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T15:29:28.281Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -83,17 +83,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3112,
-    "visits": 20359103,
-    "favorites": 596760,
-    "updated": "2026-10-17T03:49:49.946Z",
+    "playing": 4347,
+    "visits": 20440565,
+    "favorites": 598679,
+    "updated": "2026-10-17T15:21:14.634Z",
     "created": "2026-07-11T13:59:06.188Z",
     "maxPlayers": 12,
-    "upVotes": 20979,
-    "downVotes": 1048
+    "upVotes": 21036,
+    "downVotes": 1050
   },
   "added": "2026-09-29T16:13:50.695Z",
-  "lastChecked": "2026-10-17T10:37:13.721Z",
+  "lastChecked": "2026-10-17T15:29:28.281Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
