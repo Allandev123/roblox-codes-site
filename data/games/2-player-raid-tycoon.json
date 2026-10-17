@@ -25,23 +25,31 @@
       "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-10-16T23:33:34.894Z",
+      "lastSeen": "2026-10-17T04:20:30.239Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
-      "code": "TY10000",
+      "code": "TY12000",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-10-08T00:57:53.538Z",
-      "lastSeen": "2026-10-16T23:33:34.894Z",
+      "firstSeen": "2026-10-17T04:20:30.239Z",
+      "lastSeen": "2026-10-17T04:20:30.239Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:57.327Z"
+      "approved": false,
+      "context": "USE CODE 'TY12000' IN THE SHOP!!!"
     }
   ],
   "expired": [
+    {
+      "code": "TY10000",
+      "reward": null,
+      "removed": "2026-10-17",
+      "firstSeen": "2026-10-08T00:57:53.538Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "TY5500",
       "reward": "480 Cash, Airstrike, Guard Ticket, 5 Gems, 2x Cash 5m",
@@ -52,18 +60,18 @@
     }
   ],
   "stats": {
-    "playing": 2538,
-    "visits": 9670377,
-    "favorites": 42936,
-    "updated": "2026-10-12T08:07:00.094Z",
+    "playing": 2320,
+    "visits": 9711595,
+    "favorites": 43063,
+    "updated": "2026-10-17T01:44:39.846Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 12288,
-    "downVotes": 1464
+    "upVotes": 12322,
+    "downVotes": 1468
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-10-16T23:33:34.894Z",
-  "lastChanged": "2026-10-13T01:59:57.327Z",
+  "lastChecked": "2026-10-17T04:20:30.239Z",
+  "lastChanged": "2026-10-17T04:20:30.239Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming 2 Player Raid Tycoon codes?",
