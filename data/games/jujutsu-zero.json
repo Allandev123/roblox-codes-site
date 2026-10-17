@@ -1,7 +1,7 @@
 {
   "slug": "jujutsu-zero",
   "name": "Jujutsu: Zero",
-  "robloxName": "[🔵SOON] Jujutsu: Zero",
+  "robloxName": "[🔵] Jujutsu: Zero",
   "placeId": 128451689942376,
   "universeId": 6760085372,
   "gameUrl": "https://www.roblox.com/games/128451689942376/Jujutsu-Zero",
@@ -103,17 +103,17 @@
     }
   ],
   "stats": {
-    "playing": 7935,
-    "visits": 129742709,
-    "favorites": 215807,
-    "updated": "2026-10-17T20:14:47.885Z",
+    "playing": 5104,
+    "visits": 129786025,
+    "favorites": 215866,
+    "updated": "2026-10-17T21:06:50.186Z",
     "created": "2024-11-04T17:58:40.07Z",
     "maxPlayers": 14,
-    "upVotes": 224884,
+    "upVotes": 224933,
     "downVotes": 11151
   },
   "added": "2026-09-29T18:35:55.871Z",
-  "lastChecked": "2026-10-17T20:33:14.271Z",
+  "lastChecked": "2026-10-17T23:06:06.533Z",
   "lastChanged": "2026-10-04T20:49:46.347Z",
   "faq": [
     {
