@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-loot-to-forge",
   "name": "+1 Loot To Forge",
-  "robloxName": "[PET🐶]+1 Loot To Forge",
+  "robloxName": "[🎃]+1 Loot To Forge",
   "placeId": 118805555015549,
   "universeId": 10684750879,
   "gameUrl": "https://www.roblox.com/games/118805555015549/1-Loot-To-Forge",
@@ -21,28 +21,36 @@
   "notes": "+1 Loot To Forge is an incremental combat game from Good Bro Studio that launched on Roblox in August 2026. Every click adds a little more power, which you use to clear out hordes of enemies, collect ore from the fallen, and forge that ore into stronger weapons and armour. Better gear lets you push into tougher areas, and a race system adds bonus stats you can reroll for better damage modifiers.\n\nCodes here usually hand out Ember Stones, coins, race rerolls or Power Potions, which speed up forging and let you chase a stronger race without grinding for it. The developer has tied new codes to concurrent player milestones such as 20,000, 30,000 and 50,000 players online, announcing them on the game page and in the Discord server.",
   "codes": [
     {
-      "code": "100000CCU",
-      "reward": "2 Season Tickets and 2 Race Rolls",
-      "status": "active",
-      "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-10-17T04:20:30.239Z",
-      "source": "description",
-      "approved": true,
-      "tested": "2026-10-15"
-    },
-    {
       "code": "PET",
       "reward": "2 Race Rolls and 1 Watermelon",
       "status": "active",
       "firstSeen": "2026-10-15T13:39:01.221Z",
-      "lastSeen": "2026-10-17T04:20:30.239Z",
+      "lastSeen": "2026-10-17T10:37:13.721Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-15T13:39:08.781Z",
       "tested": "2026-10-15"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-17T10:37:13.721Z",
+      "lastSeen": "2026-10-17T10:37:13.721Z",
+      "source": "description",
+      "approved": false,
+      "context": "NEW CODE:HALLOWEEN\\PET"
     }
   ],
   "expired": [
+    {
+      "code": "100000CCU",
+      "reward": "2 Season Tickets and 2 Race Rolls",
+      "removed": "2026-10-17",
+      "firstSeen": "2026-10-04T20:49:46.347Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "SORRYBUG",
       "reward": null,
@@ -61,18 +69,18 @@
     }
   ],
   "stats": {
-    "playing": 26653,
-    "visits": 81836448,
-    "favorites": 3299585,
-    "updated": "2026-10-16T09:49:53.369Z",
+    "playing": 29138,
+    "visits": 82337945,
+    "favorites": 3314165,
+    "updated": "2026-10-17T10:10:44.685Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 160756,
-    "downVotes": 5500
+    "upVotes": 161297,
+    "downVotes": 5520
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-17T04:20:30.239Z",
-  "lastChanged": "2026-10-15T13:39:08.914Z",
+  "lastChecked": "2026-10-17T10:37:13.721Z",
+  "lastChanged": "2026-10-17T10:37:13.721Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming +1 Loot To Forge codes?",

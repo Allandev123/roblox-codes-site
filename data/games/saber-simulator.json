@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-16T21:03:18.105Z",
-      "lastSeen": "2026-10-17T04:20:30.239Z",
+      "lastSeen": "2026-10-17T10:37:13.721Z",
       "source": "description",
       "approved": false,
       "context": "New code \"JACKOLANTERN\""
@@ -50,17 +50,17 @@
     }
   ],
   "stats": {
-    "playing": 2714,
-    "visits": 645589874,
-    "favorites": 2035333,
+    "playing": 2983,
+    "visits": 645619717,
+    "favorites": 2035415,
     "updated": "2026-10-16T17:09:27.932Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570645,
-    "downVotes": 90799
+    "upVotes": 570649,
+    "downVotes": 90800
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-17T04:20:30.239Z",
+  "lastChecked": "2026-10-17T10:37:13.721Z",
   "lastChanged": "2026-10-16T21:03:18.105Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
