@@ -1,7 +1,7 @@
 {
   "slug": "azure-latch",
   "name": "Azure Latch",
-  "robloxName": "[⚙️QOL] Azure Latch",
+  "robloxName": "[MAINTENANCE] Azure Latch",
   "placeId": 94647229517154,
   "universeId": 6945584306,
   "gameUrl": "https://www.roblox.com/games/94647229517154/Azure-Latch",
@@ -156,17 +156,17 @@
     }
   ],
   "stats": {
-    "playing": 11533,
-    "visits": 594498463,
-    "favorites": 661057,
-    "updated": "2026-10-17T23:15:10.805Z",
+    "playing": 28,
+    "visits": 594686543,
+    "favorites": 661314,
+    "updated": "2026-10-18T20:02:58.045Z",
     "created": "2024-12-20T13:35:18.56Z",
     "maxPlayers": 10,
-    "upVotes": 1618407,
-    "downVotes": 54043
+    "upVotes": 1618478,
+    "downVotes": 54048
   },
   "added": "2026-09-29T18:36:57.159Z",
-  "lastChecked": "2026-10-18T15:49:13.112Z",
+  "lastChecked": "2026-10-18T20:37:07.062Z",
   "lastChanged": "2026-09-29T18:36:55.469Z",
   "faq": [
     {
