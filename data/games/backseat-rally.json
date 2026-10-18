@@ -1,0 +1,63 @@
+{
+  "slug": "backseat-rally",
+  "name": "Backseat Rally",
+  "robloxName": "Backseat Rally",
+  "placeId": 94278659624110,
+  "universeId": 10769543742,
+  "gameUrl": "https://www.roblox.com/games/94278659624110/Backseat-Rally",
+  "creator": "No crash plez",
+  "genre": "",
+  "subgenre": "",
+  "icon": "backseat-rally-icon.webp",
+  "thumb": "backseat-rally-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Backseat Rally on Roblox and wait for the main menu.",
+    "Click Settings at the bottom of the menu (Camera, audio, controls).",
+    "Open the Game tab at the top (\"Graphics, other cars and codes\").",
+    "Type the code into the Redeem a code box and press Redeem. Each code works once per account."
+  ],
+  "notes": "Backseat Rally is a co-op rally racing game on Roblox from No crash plez, released in early October 2026. One player drives while a friend in the passenger seat reads the road and calls out the turns, so the driver goes almost entirely on their co-driver's calls. Playing solo, a friend's avatar rides along as an AI co-driver instead.\n\nThere are 7 cars and 5 stages through pine forests, snowy passes and cherry-blossom roads, with rain, mud and snow changing how the car handles. You can chase medals on each stage or race other players head-to-head. Codes give Credits (CR), which you spend in the Shop on livery crates, new cars and customisation in My Garage.",
+  "codes": [
+    {
+      "code": "RELEASE",
+      "reward": "250 Credits",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:39:11.737Z",
+      "lastSeen": "2026-10-18T15:39:11.737Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-18T15:39:11.737Z",
+      "tested": "2026-10-18"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 25083,
+    "visits": 2147855,
+    "favorites": 10960,
+    "updated": "2026-10-17T01:48:01.684Z",
+    "created": "2026-10-05T21:27:10.633Z"
+  },
+  "added": "2026-10-18T15:39:10.832Z",
+  "lastChecked": "2026-10-18T15:39:10.832Z",
+  "lastChanged": "2026-10-18T15:39:11.737Z",
+  "faq": [
+    {
+      "q": "Where do you redeem Backseat Rally codes?",
+      "a": "Not in the Shop: open Settings from the main menu, go to the Game tab, and the Redeem a code box is the third row, under Graphics and Other cars."
+    },
+    {
+      "q": "What are Credits (CR) for in Backseat Rally?",
+      "a": "Credits buy livery crates and new cars in the Shop, and paint, wheels and other parts for your car in My Garage."
+    },
+    {
+      "q": "Where does Backseat Rally post new codes?",
+      "a": "The settings screen says codes come with updates and on the game's socials. RELEASE was the launch code; new ones usually arrive with updates."
+    }
+  ],
+  "redeemImage": "backseat-rally-redeem.webp",
+  "redeemCaption": "Backseat Rally's Redeem a code box in Settings, after redeeming RELEASE",
+  "checkedInGame": "2026-10-18"
+}
