@@ -37,8 +37,8 @@
       "firstSeen": "2026-10-17T04:20:30.239Z",
       "lastSeen": "2026-10-18T13:52:05.452Z",
       "source": "description",
-      "approved": false,
-      "context": "USE CODE 'TY12000' IN THE SHOP!!!"
+      "approved": true,
+      "approvedAt": "2026-10-18T14:00:43.966Z"
     }
   ],
   "expired": [
@@ -71,7 +71,7 @@
   },
   "added": "2026-09-29T16:13:40.375Z",
   "lastChecked": "2026-10-18T13:52:05.452Z",
-  "lastChanged": "2026-10-17T04:20:30.239Z",
+  "lastChanged": "2026-10-18T14:00:43.966Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming 2 Player Raid Tycoon codes?",

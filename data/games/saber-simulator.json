@@ -27,8 +27,8 @@
       "firstSeen": "2026-10-16T21:03:18.105Z",
       "lastSeen": "2026-10-18T13:52:05.452Z",
       "source": "description",
-      "approved": false,
-      "context": "New code \"JACKOLANTERN\""
+      "approved": true,
+      "approvedAt": "2026-10-18T14:00:45.574Z"
     }
   ],
   "expired": [
@@ -61,7 +61,7 @@
   },
   "added": "2026-09-29T16:14:11.984Z",
   "lastChecked": "2026-10-18T13:52:05.452Z",
-  "lastChanged": "2026-10-16T21:03:18.105Z",
+  "lastChanged": "2026-10-18T14:00:45.574Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

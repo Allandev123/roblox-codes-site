@@ -38,8 +38,8 @@
       "firstSeen": "2026-10-17T10:37:13.721Z",
       "lastSeen": "2026-10-18T13:52:05.452Z",
       "source": "description",
-      "approved": false,
-      "context": "NEW CODE:HALLOWEEN\\PET"
+      "approved": true,
+      "approvedAt": "2026-10-18T14:00:44.747Z"
     }
   ],
   "expired": [
@@ -80,7 +80,7 @@
   },
   "added": "2026-09-29T16:13:10.553Z",
   "lastChecked": "2026-10-18T13:52:05.452Z",
-  "lastChanged": "2026-10-17T10:37:13.721Z",
+  "lastChanged": "2026-10-18T14:00:44.747Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming +1 Loot To Forge codes?",
