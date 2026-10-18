@@ -1,0 +1,144 @@
+{
+  "slug": "roll-a-barber-rng",
+  "name": "Roll a Barber RNG",
+  "robloxName": "[RELEASE] Roll a Barber RNG",
+  "placeId": 87029994390208,
+  "universeId": 10768637423,
+  "gameUrl": "https://www.roblox.com/games/87029994390208/Roll-a-Barber-RNG",
+  "creator": "Roll a Barber Studio",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "roll-a-barber-rng-icon.webp",
+  "thumb": "roll-a-barber-rng-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Roll a Barber RNG on Roblox.",
+    "Click the Shop button (the red basket) in the top-left group of buttons.",
+    "Scroll down past the Spin packs to the Codes box (\"Redeem a code for a free reward!\").",
+    "Type or paste a code into the Enter code box and press Redeem. Each code works once per account."
+  ],
+  "notes": "Roll a Barber RNG is a Roblox RNG tycoon from Roll a Barber Studio, released at the end of September 2026. You roll for barbers of different rarities, put them to work in your own barber shop to earn money every second, and spend that money on more rolls, upgrades and a bigger shop. Rebirths, a skill tree and a barber index give you longer-term goals.\n\nThe codes give timed boosts rather than items: 2x or 3x Luck makes rare barbers more likely while it lasts, and 2x Money or Cash speeds up your income. Redeem the Luck codes right before a long rolling session so none of the boost goes to waste. New codes have come with visit, like and player-count milestones such as 50K visits, 400 likes and 1K players online.",
+  "codes": [
+    {
+      "code": "1KCCU",
+      "reward": "3x Luck for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:52:05.452Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "THANKYOUFORTHESUPPORT",
+      "reward": "3x Luck for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:52:05.452Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "70KVISITS",
+      "reward": "3x Luck for 20 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:52:05.452Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "400LIKES",
+      "reward": "2x Money for 15 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:52:05.452Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "50KVISITS",
+      "reward": "2x Luck for 15 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:12.885Z",
+      "lastSeen": "2026-10-18T13:52:05.452Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: 50KVISITS — 2x Luck for 15 minutes",
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "15KVISITS",
+      "reward": "2x Luck for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:51:35.940Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "200LIKES",
+      "reward": "2x Money for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:51:35.940Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    },
+    {
+      "code": "CHARTIME",
+      "reward": "2x Cash for 5 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T13:51:35.940Z",
+      "lastSeen": "2026-10-18T13:51:35.940Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-18T13:51:35.940Z",
+      "tested": "2026-10-18"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1706,
+    "visits": 161738,
+    "favorites": 633,
+    "updated": "2026-10-18T13:49:54.202Z",
+    "created": "2026-09-29T19:59:39.839Z",
+    "maxPlayers": 6,
+    "upVotes": 868,
+    "downVotes": 17
+  },
+  "added": "2026-10-18T13:51:12.885Z",
+  "lastChecked": "2026-10-18T13:52:05.452Z",
+  "lastChanged": "2026-10-18T13:51:35.940Z",
+  "faq": [
+    {
+      "q": "Where is the code box in Roll a Barber RNG?",
+      "a": "Open the Shop with the red basket button on the left side of the screen, then scroll down past the Spin packs. The Codes box is under them."
+    },
+    {
+      "q": "Do Roll a Barber RNG codes stack?",
+      "a": "Each code is a separate timed boost, so redeem the Luck codes together right before you roll a lot. The timers run while you play."
+    },
+    {
+      "q": "How does Roll a Barber RNG release new codes?",
+      "a": "So far codes have come with milestones: visits (15K, 50K, 70K), likes (200, 400) and players online (1K). The developer lists the newest ones on the game page."
+    }
+  ],
+  "redeemImage": "roll-a-barber-rng-redeem.webp",
+  "redeemCaption": "Roll a Barber RNG's Codes box in the Shop, after redeeming THANKYOUFORTHESUPPORT",
+  "checkedInGame": "2026-10-18"
+}
