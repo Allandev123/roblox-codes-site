@@ -107,6 +107,16 @@
       "approved": true,
       "approvedAt": "2026-10-18T13:51:35.940Z",
       "tested": "2026-10-18"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "10,000 Cash",
+      "status": "active",
+      "firstSeen": "2026-10-19T22:26:42.472Z",
+      "lastSeen": "2026-10-19T22:26:42.472Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-19T22:26:42.472Z"
     }
   ],
   "expired": [
@@ -163,7 +173,7 @@
   },
   "added": "2026-10-18T13:51:12.885Z",
   "lastChecked": "2026-10-19T20:34:11.627Z",
-  "lastChanged": "2026-10-19T22:23:13.021Z",
+  "lastChanged": "2026-10-19T22:26:42.472Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",
