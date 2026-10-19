@@ -1,0 +1,74 @@
+{
+  "slug": "catch-an-egg",
+  "name": "Catch an Egg",
+  "robloxName": "[✨NEW] CATCH AN EGG ",
+  "placeId": 139851202299573,
+  "universeId": 10768828092,
+  "gameUrl": "https://www.roblox.com/games/139851202299573/CATCH-AN-EGG",
+  "creator": "DevX Studio Official",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "catch-an-egg-icon.webp",
+  "thumb": "catch-an-egg-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Catch an Egg on Roblox.",
+    "Click the Shop button (the red basket) on the left side of the screen.",
+    "Scroll down past the packs and Speed boosts to Community Codes and the Redeem Codes box.",
+    "Type the code into \"Type code here...\" and press Redeem. Each code works once per account."
+  ],
+  "notes": "Catch an Egg is a Roblox pet game from DevX Studio Official, released at the start of October 2026. The eggs have legs: they run around the map, and you chase them down and catch them before they get away. Caught eggs hatch into pets of different rarities, and your pets earn money in your pen, which you spend on more pet slots, upgrades and faster running.\n\nCodes give cash and Speed, and the bigger ones add a 2x Money boost for a few minutes. Speed matters most early on, since a faster character catches more eggs before they escape, so redeem the codes before your first few runs. New codes have come with player milestones like 5K players online.",
+  "codes": [
+    {
+      "code": "5KPLAYER",
+      "reward": "$300K, 5K Speed and 2x Money for 5 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-19T22:03:45.417Z",
+      "lastSeen": "2026-10-19T22:03:45.417Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-19T22:03:45.417Z",
+      "tested": "2026-10-20"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "$50K and 100 Speed",
+      "status": "active",
+      "firstSeen": "2026-10-19T22:03:45.417Z",
+      "lastSeen": "2026-10-19T22:03:45.417Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-19T22:03:45.417Z",
+      "tested": "2026-10-20"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 1897,
+    "visits": 173728,
+    "favorites": 9755,
+    "updated": "2026-10-19T21:55:45.593Z",
+    "created": "2026-10-01T08:36:03.468Z"
+  },
+  "added": "2026-10-19T22:03:44.283Z",
+  "lastChecked": "2026-10-19T22:03:44.283Z",
+  "lastChanged": "2026-10-19T22:03:45.417Z",
+  "faq": [
+    {
+      "q": "Where is the code box in Catch an Egg?",
+      "a": "Open the Shop with the red basket button on the left, then scroll down to Community Codes. The Redeem Codes box is right under it."
+    },
+    {
+      "q": "What do Catch an Egg codes give?",
+      "a": "Cash and Speed. RELEASE gives $50K and 100 Speed, and 5KPLAYER gives $300K, 5K Speed and 2x Money for 5 minutes."
+    },
+    {
+      "q": "Why does Speed matter in Catch an Egg?",
+      "a": "The eggs run away from you. More Speed means you catch them before they escape, so you hatch more pets and earn faster."
+    }
+  ],
+  "redeemImage": "catch-an-egg-redeem.webp",
+  "redeemCaption": "Catch an Egg's Redeem Codes box in the Shop, after redeeming 5KPLAYER",
+  "checkedInGame": "2026-10-19"
+}
