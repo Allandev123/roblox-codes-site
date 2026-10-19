@@ -21,6 +21,61 @@
   "notes": "Roll a Barber RNG is a Roblox RNG tycoon from Roll a Barber Studio, released at the end of September 2026. You roll for barbers of different rarities, put them to work in your own barber shop to earn money every second, and spend that money on more rolls, upgrades and a bigger shop. Rebirths, a skill tree and a barber index give you longer-term goals.\n\nThe codes give timed boosts rather than items: 2x or 3x Luck makes rare barbers more likely while it lasts, and 2x Money or Cash speeds up your income. Redeem the Luck codes right before a long rolling session so none of the boost goes to waste. New codes have come with visit, like and player-count milestones such as 50K visits, 400 likes and 1K players online.",
   "codes": [
     {
+      "code": "2000CCU",
+      "reward": "5x Luck and 5x Roll Speed for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-19T20:34:11.627Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: … 2000CCU - 5x luck and 5x roll speed, both for 30 minutes",
+      "approvedAt": "2026-10-19T21:10:57.766Z"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "5x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-19T20:34:11.627Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: … 1KLIKES - 5x luck for 30 minutes",
+      "approvedAt": "2026-10-19T21:10:57.766Z"
+    },
+    {
+      "code": "1700CCU",
+      "reward": "5x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-19T20:34:11.627Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: … 1700CCU - 5x luck for 30 min",
+      "approvedAt": "2026-10-19T21:10:57.766Z"
+    },
+    {
+      "code": "100KVISITS",
+      "reward": "5x Luck for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-19T20:34:11.627Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: … 100KVISITS - 5x luck for 10 minutes",
+      "approvedAt": "2026-10-19T21:10:57.766Z"
+    },
+    {
+      "code": "INSANESUPPORT",
+      "reward": "2x Luck for 60 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T20:34:11.627Z",
+      "source": "description",
+      "approved": true,
+      "context": "Codes: … INSANESUPPORT - 2x luck for 60 minutes",
+      "approvedAt": "2026-10-19T21:10:57.766Z"
+    },
+    {
       "code": "15KVISITS",
       "reward": "2x Luck for 10 minutes",
       "status": "active",
@@ -52,56 +107,6 @@
       "approved": true,
       "approvedAt": "2026-10-18T13:51:35.940Z",
       "tested": "2026-10-18"
-    },
-    {
-      "code": "100KVISITS",
-      "reward": "5x luck for 10 minutes",
-      "status": "active",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T20:34:11.627Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 100KVISITS - 5x luck for 10 minutes"
-    },
-    {
-      "code": "1700CCU",
-      "reward": "5x luck for 30 min",
-      "status": "active",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T20:34:11.627Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 1700CCU - 5x luck for 30 min"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "5x luck for 30 minutes",
-      "status": "active",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T20:34:11.627Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 1KLIKES - 5x luck for 30 minutes"
-    },
-    {
-      "code": "2000CCU",
-      "reward": "5x luck and 5x roll speed, both for 30 minutes",
-      "status": "active",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T20:34:11.627Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 2000CCU - 5x luck and 5x roll speed, both for 30 minutes"
-    },
-    {
-      "code": "INSANESUPPORT",
-      "reward": "2x luck for 60 minutes",
-      "status": "active",
-      "firstSeen": "2026-10-19T04:35:03.002Z",
-      "lastSeen": "2026-10-19T20:34:11.627Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … INSANESUPPORT - 2x luck for 60 minutes"
     }
   ],
   "expired": [
@@ -158,7 +163,7 @@
   },
   "added": "2026-10-18T13:51:12.885Z",
   "lastChecked": "2026-10-19T20:34:11.627Z",
-  "lastChanged": "2026-10-18T15:49:13.112Z",
+  "lastChanged": "2026-10-19T21:10:57.766Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",
