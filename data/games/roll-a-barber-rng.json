@@ -58,7 +58,7 @@
       "reward": "5x luck for 10 minutes",
       "status": "active",
       "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T13:05:01.252Z",
       "source": "description",
       "approved": false,
       "context": "Codes: … 100KVISITS - 5x luck for 10 minutes"
@@ -68,7 +68,7 @@
       "reward": "5x luck for 30 min",
       "status": "active",
       "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T13:05:01.252Z",
       "source": "description",
       "approved": false,
       "context": "Codes: … 1700CCU - 5x luck for 30 min"
@@ -78,7 +78,7 @@
       "reward": "5x luck for 30 minutes",
       "status": "active",
       "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T13:05:01.252Z",
       "source": "description",
       "approved": false,
       "context": "Codes: … 1KLIKES - 5x luck for 30 minutes"
@@ -88,7 +88,7 @@
       "reward": "5x luck and 5x roll speed, both for 30 minutes",
       "status": "active",
       "firstSeen": "2026-10-18T15:49:13.112Z",
-      "lastSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T13:05:01.252Z",
       "source": "description",
       "approved": false,
       "context": "Codes: … 2000CCU - 5x luck and 5x roll speed, both for 30 minutes"
@@ -98,7 +98,7 @@
       "reward": "2x luck for 60 minutes",
       "status": "active",
       "firstSeen": "2026-10-19T04:35:03.002Z",
-      "lastSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-19T13:05:01.252Z",
       "source": "description",
       "approved": false,
       "context": "Codes: … INSANESUPPORT - 2x luck for 60 minutes"
@@ -147,17 +147,17 @@
     }
   ],
   "stats": {
-    "playing": 1162,
-    "visits": 220035,
-    "favorites": 1506,
-    "updated": "2026-10-19T04:23:11.211Z",
+    "playing": 2000,
+    "visits": 249292,
+    "favorites": 2383,
+    "updated": "2026-10-19T13:02:57.532Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 1194,
-    "downVotes": 26
+    "upVotes": 1286,
+    "downVotes": 31
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-19T04:35:03.002Z",
+  "lastChecked": "2026-10-19T13:05:01.252Z",
   "lastChanged": "2026-10-18T15:49:13.112Z",
   "faq": [
     {
