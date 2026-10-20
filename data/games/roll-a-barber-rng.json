@@ -21,6 +21,81 @@
   "notes": "Roll a Barber RNG is a Roblox RNG tycoon from Roll a Barber Studio, released at the end of September 2026. You roll for barbers of different rarities, put them to work in your own barber shop to earn money every second, and spend that money on more rolls, upgrades and a bigger shop. Rebirths, a skill tree and a barber index give you longer-term goals.\n\nThe codes give timed boosts rather than items: 2x or 3x Luck makes rare barbers more likely while it lasts, and 2x Money or Cash speeds up your income. Redeem the Luck codes right before a long rolling session so none of the boost goes to waste. New codes have come with visit, like and player-count milestones such as 50K visits, 400 likes and 1K players online.",
   "codes": [
     {
+      "code": "3KCCU",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-20T14:17:03.310Z",
+      "lastSeen": "2026-10-20T18:05:09.649Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:16.975Z"
+    },
+    {
+      "code": "1500LIKES",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-10-20T14:17:03.310Z",
+      "lastSeen": "2026-10-20T18:05:09.649Z",
+      "source": "description",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:16.975Z"
+    },
+    {
+      "code": "2000CCU",
+      "reward": "5x Luck and 5x Roll Speed for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-20T18:05:30.002Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:30.002Z",
+      "note": "still listed as working by GameRant and MrGuider after the game took it off its description"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "5x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-20T18:05:30.002Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:30.002Z",
+      "note": "still listed as working by GameRant and MrGuider after the game took it off its description"
+    },
+    {
+      "code": "1700CCU",
+      "reward": "5x Luck for 30 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-20T18:05:30.002Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:30.002Z",
+      "note": "still listed as working by GameRant and MrGuider after the game took it off its description"
+    },
+    {
+      "code": "100KVISITS",
+      "reward": "5x Luck for 10 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-18T15:49:13.112Z",
+      "lastSeen": "2026-10-20T18:05:30.002Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:30.002Z",
+      "note": "still listed as working by GameRant and MrGuider after the game took it off its description"
+    },
+    {
+      "code": "INSANESUPPORT",
+      "reward": "2x Luck for 60 minutes",
+      "status": "active",
+      "firstSeen": "2026-10-19T04:35:03.002Z",
+      "lastSeen": "2026-10-20T18:05:30.002Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-20T18:05:30.002Z",
+      "note": "still listed as working by GameRant and MrGuider after the game took it off its description"
+    },
+    {
       "code": "15KVISITS",
       "reward": "2x Luck for 10 minutes",
       "status": "active",
@@ -62,69 +137,9 @@
       "source": "manual",
       "approved": true,
       "approvedAt": "2026-10-19T22:26:42.472Z"
-    },
-    {
-      "code": "3KCCU",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-20T14:17:03.310Z",
-      "lastSeen": "2026-10-20T14:17:03.310Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 3KCCU"
-    },
-    {
-      "code": "1500LIKES",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-20T14:17:03.310Z",
-      "lastSeen": "2026-10-20T14:17:03.310Z",
-      "source": "description",
-      "approved": false,
-      "context": "Codes: … 1500LIKES"
     }
   ],
   "expired": [
-    {
-      "code": "INSANESUPPORT",
-      "reward": "2x Luck for 60 minutes",
-      "removed": "2026-10-20",
-      "firstSeen": "2026-10-19T04:35:03.002Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
-    {
-      "code": "100KVISITS",
-      "reward": "5x Luck for 10 minutes",
-      "removed": "2026-10-20",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
-    {
-      "code": "1700CCU",
-      "reward": "5x Luck for 30 minutes",
-      "removed": "2026-10-20",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "5x Luck for 30 minutes",
-      "removed": "2026-10-20",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
-    {
-      "code": "2000CCU",
-      "reward": "5x Luck and 5x Roll Speed for 30 minutes",
-      "removed": "2026-10-20",
-      "firstSeen": "2026-10-18T15:49:13.112Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
     {
       "code": "50KVISITS",
       "reward": "2x Luck for 15 minutes",
@@ -167,18 +182,18 @@
     }
   ],
   "stats": {
-    "playing": 2478,
-    "visits": 410081,
-    "favorites": 5681,
-    "updated": "2026-10-20T14:12:21.926Z",
+    "playing": 2689,
+    "visits": 436144,
+    "favorites": 6261,
+    "updated": "2026-10-20T17:43:43.013Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 1705,
-    "downVotes": 109
+    "upVotes": 1752,
+    "downVotes": 111
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-20T14:17:03.310Z",
-  "lastChanged": "2026-10-20T14:17:03.310Z",
+  "lastChecked": "2026-10-20T18:05:09.649Z",
+  "lastChanged": "2026-10-20T18:05:30.002Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",
