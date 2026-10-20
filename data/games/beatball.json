@@ -25,7 +25,7 @@
       "reward": "Melodia de Verão goal sound",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-10-20T18:05:09.649Z",
+      "lastSeen": "2026-10-20T19:12:26.351Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Comic cosmetic",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:00.591Z",
-      "lastSeen": "2026-10-20T18:05:09.649Z",
+      "lastSeen": "2026-10-20T19:12:26.351Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -43,17 +43,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 2604,
-    "visits": 116669024,
-    "favorites": 358748,
+    "playing": 2385,
+    "visits": 116683993,
+    "favorites": 358803,
     "updated": "2026-10-20T14:47:14.822Z",
     "created": "2026-06-21T16:53:57.412Z",
     "maxPlayers": 8,
-    "upVotes": 26942,
-    "downVotes": 9727
+    "upVotes": 26948,
+    "downVotes": 9730
   },
   "added": "2026-09-29T16:14:00.591Z",
-  "lastChecked": "2026-10-20T18:05:09.649Z",
+  "lastChecked": "2026-10-20T19:12:26.351Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
