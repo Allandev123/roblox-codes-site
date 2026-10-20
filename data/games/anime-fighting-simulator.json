@@ -25,7 +25,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-10-20T19:12:26.351Z",
+      "lastSeen": "2026-10-20T23:50:46.464Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.458Z"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 6599,
-    "visits": 56211477,
-    "favorites": 515257,
+    "playing": 6136,
+    "visits": 56245284,
+    "favorites": 515489,
     "updated": "2026-10-18T02:29:04.325Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 178467,
-    "downVotes": 3100
+    "upVotes": 178533,
+    "downVotes": 3104
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-20T19:12:26.351Z",
+  "lastChecked": "2026-10-20T23:50:46.464Z",
   "lastChanged": "2026-10-13T01:59:57.458Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
