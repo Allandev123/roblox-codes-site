@@ -21,26 +21,6 @@
   "notes": "Roll a Barber RNG is a Roblox RNG tycoon from Roll a Barber Studio, released at the end of September 2026. You roll for barbers of different rarities, put them to work in your own barber shop to earn money every second, and spend that money on more rolls, upgrades and a bigger shop. Rebirths, a skill tree and a barber index give you longer-term goals.\n\nThe codes give timed boosts rather than items: 2x or 3x Luck makes rare barbers more likely while it lasts, and 2x Money or Cash speeds up your income. Redeem the Luck codes right before a long rolling session so none of the boost goes to waste. New codes have come with visit, like and player-count milestones such as 50K visits, 400 likes and 1K players online.",
   "codes": [
     {
-      "code": "3KCCU",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-20T14:17:03.310Z",
-      "lastSeen": "2026-10-20T23:50:46.464Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-20T18:05:16.975Z"
-    },
-    {
-      "code": "1500LIKES",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-20T14:17:03.310Z",
-      "lastSeen": "2026-10-20T23:50:46.464Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-20T18:05:16.975Z"
-    },
-    {
       "code": "2000CCU",
       "reward": "5x Luck and 5x Roll Speed for 30 minutes",
       "status": "active",
@@ -141,6 +121,22 @@
   ],
   "expired": [
     {
+      "code": "1500LIKES",
+      "reward": null,
+      "removed": "2026-10-21",
+      "firstSeen": "2026-10-20T14:17:03.310Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "3KCCU",
+      "reward": null,
+      "removed": "2026-10-21",
+      "firstSeen": "2026-10-20T14:17:03.310Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
       "code": "50KVISITS",
       "reward": "2x Luck for 15 minutes",
       "removed": "2026-10-18",
@@ -182,18 +178,18 @@
     }
   ],
   "stats": {
-    "playing": 1879,
-    "visits": 474074,
-    "favorites": 6992,
-    "updated": "2026-10-20T23:27:46.734Z",
+    "playing": 2106,
+    "visits": 501636,
+    "favorites": 7592,
+    "updated": "2026-10-21T01:45:12.75Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 1819,
-    "downVotes": 120
+    "upVotes": 1884,
+    "downVotes": 129
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-20T23:50:46.464Z",
-  "lastChanged": "2026-10-20T18:05:30.002Z",
+  "lastChecked": "2026-10-21T04:40:24.009Z",
+  "lastChanged": "2026-10-21T04:40:24.009Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",
