@@ -25,7 +25,7 @@
       "reward": "6 hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-22T04:37:41.965Z",
+      "lastSeen": "2026-10-22T11:45:47.479Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.627Z"
@@ -35,7 +35,7 @@
       "reward": "6 hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-22T04:37:41.965Z",
+      "lastSeen": "2026-10-22T11:45:47.479Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.627Z"
@@ -60,17 +60,17 @@
     }
   ],
   "stats": {
-    "playing": 1655,
-    "visits": 1253316378,
-    "favorites": 3320433,
+    "playing": 1636,
+    "visits": 1253328132,
+    "favorites": 3320432,
     "updated": "2026-10-20T04:36:08.534Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055763,
-    "downVotes": 136810
+    "upVotes": 1055765,
+    "downVotes": 136811
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-10-22T04:37:41.965Z",
+  "lastChecked": "2026-10-22T11:45:47.479Z",
   "lastChanged": "2026-10-13T01:59:57.627Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
