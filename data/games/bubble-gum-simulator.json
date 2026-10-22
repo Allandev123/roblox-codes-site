@@ -1,7 +1,7 @@
 {
   "slug": "bubble-gum-simulator",
   "name": "Bubble Gum Simulator",
-  "robloxName": "Bubble Gum Simulator",
+  "robloxName": "[🎃PT2] Bubble Gum Simulator",
   "placeId": 2512643572,
   "universeId": 892043755,
   "gameUrl": "https://www.roblox.com/games/2512643572/Bubble-Gum-Simulator",
@@ -21,27 +21,43 @@
   "notes": "Bubble Gum Simulator is the original bubble-blowing simulator from Rumble Studios, separate from its newer Infinity sequel. You chew gum to grow your bubble, sell it for coins, and put those coins into better gum and flavors so your bubble can carry you higher to the floating islands above the map. Hatching eggs gives you pets that multiply what you earn.\n\nCodes in this game nearly always hand out timed boosts such as 2x Luck, 2x Hatch Speed or extra shiny chance, lasting anywhere from minutes to several hours. They work best stacked with the weekend 2x Luck and Hatch Speed event before a long egg-hatching session. New codes tend to arrive with seasonal updates and are printed in the game description.",
   "codes": [
     {
-      "code": "Halloween26",
-      "reward": "6 hours of 2x Luck & Hatch Speed",
+      "code": "Radioactive",
+      "reward": "12 hours of 2x Luck & 2x Hatch Speed",
       "status": "active",
-      "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-22T11:45:47.479Z",
+      "firstSeen": "2026-10-22T17:06:44.312Z",
+      "lastSeen": "2026-10-22T17:06:44.312Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:57.627Z"
+      "approved": false,
+      "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
     },
     {
-      "code": "Malevolent",
-      "reward": "6 hours of 2x Luck & Hatch Speed",
+      "code": "DumbPumpkin",
+      "reward": "12 hours of 2x Luck & 2x Hatch Speed",
       "status": "active",
-      "firstSeen": "2026-10-10T00:47:25.819Z",
-      "lastSeen": "2026-10-22T11:45:47.479Z",
+      "firstSeen": "2026-10-22T17:06:44.312Z",
+      "lastSeen": "2026-10-22T17:06:44.312Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:57.627Z"
+      "approved": false,
+      "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
     }
   ],
   "expired": [
+    {
+      "code": "Malevolent",
+      "reward": "6 hours of 2x Luck & Hatch Speed",
+      "removed": "2026-10-22",
+      "firstSeen": "2026-10-10T00:47:25.819Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "Halloween26",
+      "reward": "6 hours of 2x Luck & Hatch Speed",
+      "removed": "2026-10-22",
+      "firstSeen": "2026-10-10T00:47:25.819Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "Wayfarer",
       "reward": "2x Luck and 2x Hatch Speed for 4 hours",
@@ -60,18 +76,18 @@
     }
   ],
   "stats": {
-    "playing": 1636,
-    "visits": 1253328132,
-    "favorites": 3320432,
-    "updated": "2026-10-20T04:36:08.534Z",
+    "playing": 2041,
+    "visits": 1253341272,
+    "favorites": 3320424,
+    "updated": "2026-10-22T12:29:45.338Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055765,
+    "upVotes": 1055766,
     "downVotes": 136811
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-10-22T11:45:47.479Z",
-  "lastChanged": "2026-10-13T01:59:57.627Z",
+  "lastChecked": "2026-10-22T17:06:44.312Z",
+  "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

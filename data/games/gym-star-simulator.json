@@ -21,30 +21,39 @@
   "notes": "Gym Star Simulator is a bodybuilding simulator from the Gym Simulator Club group, first released on Roblox in August 2024. You lift weights and work out to build muscle and stamina, hire trainers to boost your gains, hatch and upgrade pets, and unlock themed gyms with stronger equipment. Bodybuilding competitions and global leaderboards give you something to aim for.\n\nThe game runs in seasons, and the current one is Space Force. Codes commonly give Gym Tokens, wheel spins, Enchant Crystals for upgrading belts and other gear, or consumables such as protein bars and energy drinks. New codes tend to arrive with seasons, holidays and visit milestones, and the developers share them in the game description and in their Discord.",
   "codes": [
     {
-      "code": "SPACEFORCE",
-      "reward": "1,250 Gym Tokens",
+      "code": "HALLOGYMSTAR",
+      "reward": "1250x FREE Halloween Candy Corns",
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:35.455Z",
-      "lastSeen": "2026-10-22T11:45:47.479Z",
+      "firstSeen": "2026-10-22T17:06:44.312Z",
+      "lastSeen": "2026-10-22T17:06:44.312Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "approved": false,
+      "context": "Redeem Code: Use the code \"HALLOGYMSTAR\" to claim 1250x FREE Halloween Candy Corns!"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "SPACEFORCE",
+      "reward": "1,250 Gym Tokens",
+      "removed": "2026-10-22",
+      "firstSeen": "2026-09-29T16:13:35.455Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 6871,
-    "visits": 726862688,
-    "favorites": 7071965,
-    "updated": "2026-10-22T11:43:13.98Z",
+    "playing": 7274,
+    "visits": 727048325,
+    "favorites": 7073648,
+    "updated": "2026-10-22T14:30:04.236Z",
     "created": "2024-08-20T06:12:32.837Z",
     "maxPlayers": 16,
-    "upVotes": 256589,
-    "downVotes": 20882
+    "upVotes": 256621,
+    "downVotes": 20884
   },
   "added": "2026-09-29T16:13:35.455Z",
-  "lastChecked": "2026-10-22T11:45:47.479Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-10-22T17:06:44.312Z",
+  "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
