@@ -1,7 +1,7 @@
 {
   "slug": "jujutsu-shenanigans",
   "name": "Jujutsu Shenanigans",
-  "robloxName": "[SKY ASSASSIN] Jujutsu Shenanigans",
+  "robloxName": "[MAINTENANCE] Jujutsu Shenanigans",
   "placeId": 9391468976,
   "universeId": 3508322461,
   "gameUrl": "https://www.roblox.com/games/9391468976/Jujutsu-Shenanigans",
@@ -95,17 +95,17 @@
     }
   ],
   "stats": {
-    "playing": 159062,
-    "visits": 7712003172,
-    "favorites": 3154840,
-    "updated": "2026-10-20T21:07:52.297Z",
+    "playing": 30,
+    "visits": 7714430488,
+    "favorites": 3181263,
+    "updated": "2026-10-23T21:06:15.427Z",
     "created": "2022-04-17T04:51:12.57Z",
-    "maxPlayers": 20,
-    "upVotes": 2679660,
-    "downVotes": 426964
+    "maxPlayers": 25,
+    "upVotes": 2681424,
+    "downVotes": 426707
   },
   "added": "2026-09-29T17:52:26.921Z",
-  "lastChecked": "2026-10-23T17:02:55.846Z",
+  "lastChecked": "2026-10-23T21:21:44.712Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
