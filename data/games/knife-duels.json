@@ -1,7 +1,7 @@
 {
   "slug": "knife-duels",
   "name": "Knife Duels",
-  "robloxName": "[GRAVEYARD] KNIFE DUELS",
+  "robloxName": "KNIFE DUELS",
   "placeId": 112731528776884,
   "universeId": 9641502068,
   "gameUrl": "https://www.roblox.com/games/112731528776884/KNIFE-DUELS",
@@ -122,17 +122,17 @@
     }
   ],
   "stats": {
-    "playing": 5456,
-    "visits": 145250946,
-    "favorites": 266820,
-    "updated": "2026-10-22T17:06:03.413Z",
+    "playing": 11359,
+    "visits": 145599913,
+    "favorites": 267230,
+    "updated": "2026-10-23T09:49:04.403Z",
     "created": "2026-01-29T12:11:21.933Z",
     "maxPlayers": 60,
-    "upVotes": 320654,
-    "downVotes": 21263
+    "upVotes": 320962,
+    "downVotes": 21281
   },
   "added": "2026-09-29T18:35:57.472Z",
-  "lastChecked": "2026-10-23T04:43:56.910Z",
+  "lastChecked": "2026-10-23T11:33:03.565Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
