@@ -1,7 +1,7 @@
 {
   "slug": "blue-lock-rivals",
   "name": "Blue Lock: Rivals",
-  "robloxName": "[🐍 NEL Aiku] Blue Lock: Rivals",
+  "robloxName": "[QOL] Blue Lock: Rivals",
   "placeId": 18668065416,
   "universeId": 6325068386,
   "gameUrl": "https://www.roblox.com/games/18668065416/Blue-Lock-Rivals",
@@ -143,17 +143,17 @@
     }
   ],
   "stats": {
-    "playing": 28135,
-    "visits": 5011739236,
-    "favorites": 6309857,
-    "updated": "2026-10-17T17:18:54.979Z",
+    "playing": 22138,
+    "visits": 5012706671,
+    "favorites": 6310510,
+    "updated": "2026-10-24T17:17:45.144Z",
     "created": "2024-07-26T19:16:18.383Z",
     "maxPlayers": 10,
-    "upVotes": 10264163,
-    "downVotes": 358054
+    "upVotes": 10265098,
+    "downVotes": 358068
   },
   "added": "2026-09-29T17:52:12.621Z",
-  "lastChecked": "2026-10-24T15:53:16.485Z",
+  "lastChecked": "2026-10-24T20:43:59.011Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {

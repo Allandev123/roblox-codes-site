@@ -1,7 +1,7 @@
 {
   "slug": "immortality-incremental",
   "name": "Immortality Incremental",
-  "robloxName": "[🎃 HALLOWEEN PT. 2] Immortality Incremental",
+  "robloxName": "[🛡️ SECTS + AA REWORK] Immortality Incremental",
   "placeId": 75317862071711,
   "universeId": 9584946743,
   "gameUrl": "https://www.roblox.com/games/75317862071711/Immortality-Incremental",
@@ -25,7 +25,7 @@
       "reward": "Free potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:44.702Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
+      "lastSeen": "2026-10-24T20:43:59.011Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 2959,
-    "visits": 42340124,
-    "favorites": 295917,
-    "updated": "2026-10-22T04:25:09.217Z",
+    "playing": 3480,
+    "visits": 42388178,
+    "favorites": 295960,
+    "updated": "2026-10-24T19:44:56.998Z",
     "created": "2026-01-18T18:09:14.383Z",
     "maxPlayers": 10,
-    "upVotes": 128605,
-    "downVotes": 2503
+    "upVotes": 128630,
+    "downVotes": 2504
   },
   "added": "2026-09-29T16:13:44.702Z",
-  "lastChecked": "2026-10-24T15:53:16.485Z",
+  "lastChecked": "2026-10-24T20:43:59.011Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

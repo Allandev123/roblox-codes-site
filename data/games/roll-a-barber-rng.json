@@ -1,7 +1,7 @@
 {
   "slug": "roll-a-barber-rng",
   "name": "Roll a Barber RNG",
-  "robloxName": "[🎃] Roll a Barber RNG [Earns Offline]",
+  "robloxName": "[🎃] Roll a Barber RNG",
   "placeId": 87029994390208,
   "universeId": 10768637423,
   "gameUrl": "https://www.roblox.com/games/87029994390208/Roll-a-Barber-RNG",
@@ -117,17 +117,18 @@
       "source": "manual",
       "approved": true,
       "approvedAt": "2026-10-19T22:26:42.472Z"
-    }
-  ],
-  "expired": [
+    },
     {
       "code": "1500LIKES",
       "reward": null,
-      "removed": "2026-10-21",
+      "status": "active",
       "firstSeen": "2026-10-20T14:17:03.310Z",
-      "approved": true,
-      "reason": "no longer listed by the game"
-    },
+      "lastSeen": "2026-10-24T20:43:59.011Z",
+      "source": "description",
+      "approved": true
+    }
+  ],
+  "expired": [
     {
       "code": "3KCCU",
       "reward": null,
@@ -178,18 +179,18 @@
     }
   ],
   "stats": {
-    "playing": 4829,
-    "visits": 1171025,
-    "favorites": 26252,
-    "updated": "2026-10-24T15:47:17.806Z",
+    "playing": 4435,
+    "visits": 1230725,
+    "favorites": 27983,
+    "updated": "2026-10-24T20:42:04.623Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 2822,
-    "downVotes": 267
+    "upVotes": 2971,
+    "downVotes": 277
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-24T15:53:16.485Z",
-  "lastChanged": "2026-10-21T04:40:24.009Z",
+  "lastChecked": "2026-10-24T20:43:59.011Z",
+  "lastChanged": "2026-10-24T20:43:59.011Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",

@@ -19,79 +19,56 @@
     "Press the green Redeem button to claim the reward."
   ],
   "notes": "untitled boxing game, often shortened to UBG, is a PvP fighting game made as a solo project by drowningsome. You step into the ring against other players and win using light and heavy punches, dashes, blocks, feints and a style-specific ultimate, earning Cash from fights and quests. Fighting styles are rolled with spins, and while rarer styles such as the Legendary Deimos look flashier, the developer keeps every style viable so skill decides matches.\n\nCodes mostly give Spins, Lucky Spins, Cash and the occasional free emote, which lets you roll for new styles without buying spins. Codes arrive with new styles and updates, after events and downtime, and as like-goal rewards, and extra secret codes are posted on the developer's X account and Discord.",
-  "codes": [
+  "codes": [],
+  "expired": [
     {
-      "code": "3years",
-      "reward": "Spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "lynn",
-      "reward": "Cash",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "justtakethecash",
+      "code": "streetfighter",
       "reward": null,
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
+      "removed": "2026-10-24",
+      "firstSeen": "2026-10-10T09:45:56.616Z",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "ubgliveson",
-      "reward": "2x lucky spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     },
     {
       "code": "freeemoteforall",
       "reward": "Free emote",
-      "status": "active",
+      "removed": "2026-10-24",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     },
     {
-      "code": "streetfighter",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
+      "code": "ubgliveson",
+      "reward": "2x lucky spins",
+      "removed": "2026-10-24",
+      "firstSeen": "2026-09-29T16:27:06.198Z",
       "approved": true,
-      "approvedAt": "2026-10-13T01:59:59.611Z"
+      "reason": "no longer listed by the game"
     },
     {
-      "code": "akuma",
+      "code": "justtakethecash",
       "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-24T04:31:09.217Z",
-      "lastSeen": "2026-10-24T15:53:16.485Z",
-      "source": "description",
-      "approved": false,
-      "context": "CODES … akuma"
-    }
-  ],
-  "expired": [
+      "removed": "2026-10-24",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "lynn",
+      "reward": "Cash",
+      "removed": "2026-10-24",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "3years",
+      "reward": "Spins",
+      "removed": "2026-10-24",
+      "firstSeen": "2026-09-29T16:13:26.811Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "ryu",
       "reward": null,
@@ -118,18 +95,18 @@
     }
   ],
   "stats": {
-    "playing": 17991,
-    "visits": 1481028065,
-    "favorites": 1383923,
-    "updated": "2026-10-24T03:45:58.019Z",
+    "playing": 12101,
+    "visits": 1481371287,
+    "favorites": 1384140,
+    "updated": "2026-10-24T17:47:17.585Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1410646,
-    "downVotes": 209365
+    "upVotes": 1410834,
+    "downVotes": 209417
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-24T15:53:16.485Z",
-  "lastChanged": "2026-10-24T04:31:09.217Z",
+  "lastChecked": "2026-10-24T20:43:59.011Z",
+  "lastChanged": "2026-10-24T20:43:59.011Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
