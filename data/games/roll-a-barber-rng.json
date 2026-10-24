@@ -1,7 +1,7 @@
 {
   "slug": "roll-a-barber-rng",
   "name": "Roll a Barber RNG",
-  "robloxName": "[🎃] Roll a Barber RNG",
+  "robloxName": "[🎃] Roll a Barber RNG [Earns Offline]",
   "placeId": 87029994390208,
   "universeId": 10768637423,
   "gameUrl": "https://www.roblox.com/games/87029994390208/Roll-a-Barber-RNG",
@@ -178,17 +178,17 @@
     }
   ],
   "stats": {
-    "playing": 2856,
-    "visits": 1113403,
-    "favorites": 24356,
-    "updated": "2026-10-24T10:45:54.414Z",
+    "playing": 4829,
+    "visits": 1171025,
+    "favorites": 26252,
+    "updated": "2026-10-24T15:47:17.806Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 2732,
-    "downVotes": 252
+    "upVotes": 2822,
+    "downVotes": 267
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-24T10:52:44.049Z",
+  "lastChecked": "2026-10-24T15:53:16.485Z",
   "lastChanged": "2026-10-21T04:40:24.009Z",
   "faq": [
     {

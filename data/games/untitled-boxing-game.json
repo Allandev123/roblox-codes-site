@@ -25,7 +25,7 @@
       "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "2x lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "Free emote",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.611Z"
@@ -85,7 +85,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-24T04:31:09.217Z",
-      "lastSeen": "2026-10-24T10:52:44.049Z",
+      "lastSeen": "2026-10-24T15:53:16.485Z",
       "source": "description",
       "approved": false,
       "context": "CODES … akuma"
@@ -118,17 +118,17 @@
     }
   ],
   "stats": {
-    "playing": 16084,
-    "visits": 1480566895,
-    "favorites": 1383676,
+    "playing": 17991,
+    "visits": 1481028065,
+    "favorites": 1383923,
     "updated": "2026-10-24T03:45:58.019Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1410417,
-    "downVotes": 209329
+    "upVotes": 1410646,
+    "downVotes": 209365
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-24T10:52:44.049Z",
+  "lastChecked": "2026-10-24T15:53:16.485Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
