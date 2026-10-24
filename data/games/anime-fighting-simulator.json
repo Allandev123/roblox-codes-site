@@ -1,7 +1,7 @@
 {
   "slug": "anime-fighting-simulator",
   "name": "Anime Fighting Simulator",
-  "robloxName": "[⚡] Anime Fighting Simulator",
+  "robloxName": "[🌀 UPDATE 12] Anime Fighting Simulator",
   "placeId": 100429474155186,
   "universeId": 10321202755,
   "gameUrl": "https://www.roblox.com/games/100429474155186/Anime-Fighting-Simulator",
@@ -25,7 +25,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-10-24T20:43:59.011Z",
+      "lastSeen": "2026-10-24T23:09:57.224Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.458Z"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 6391,
-    "visits": 56830455,
-    "favorites": 519621,
-    "updated": "2026-10-18T02:29:04.325Z",
+    "playing": 8503,
+    "visits": 56850969,
+    "favorites": 519757,
+    "updated": "2026-10-24T23:06:57.571Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 179664,
-    "downVotes": 3137
+    "upVotes": 179699,
+    "downVotes": 3138
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-10-24T20:43:59.011Z",
+  "lastChecked": "2026-10-24T23:09:57.224Z",
   "lastChanged": "2026-10-13T01:59:57.458Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

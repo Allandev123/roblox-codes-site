@@ -25,7 +25,7 @@
       "reward": "2 Race Rolls and 1 Watermelon",
       "status": "active",
       "firstSeen": "2026-10-15T13:39:01.221Z",
-      "lastSeen": "2026-10-24T20:43:59.011Z",
+      "lastSeen": "2026-10-24T23:09:57.224Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-15T13:39:08.781Z",
@@ -36,7 +36,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-17T10:37:13.721Z",
-      "lastSeen": "2026-10-24T20:43:59.011Z",
+      "lastSeen": "2026-10-24T23:09:57.224Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-18T14:00:44.747Z"
@@ -69,17 +69,17 @@
     }
   ],
   "stats": {
-    "playing": 9860,
-    "visits": 90987538,
-    "favorites": 3530338,
+    "playing": 9406,
+    "visits": 91048020,
+    "favorites": 3531691,
     "updated": "2026-10-23T02:50:37.156Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 171342,
-    "downVotes": 5960
+    "upVotes": 171423,
+    "downVotes": 5962
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-10-24T20:43:59.011Z",
+  "lastChecked": "2026-10-24T23:09:57.224Z",
   "lastChanged": "2026-10-18T14:00:44.747Z",
   "faq": [
     {
