@@ -1,7 +1,7 @@
 {
   "slug": "restaurant-tycoon-3",
   "name": "Restaurant Tycoon 3",
-  "robloxName": "Restaurant Tycoon 3 [Boss Battle]",
+  "robloxName": "Restaurant Tycoon 3",
   "placeId": 119048529960596,
   "universeId": 7094518649,
   "gameUrl": "https://www.roblox.com/games/119048529960596/Restaurant-Tycoon-3",
@@ -232,17 +232,17 @@
     }
   ],
   "stats": {
-    "playing": 8153,
-    "visits": 383776576,
-    "favorites": 919317,
-    "updated": "2026-10-23T17:26:41.854Z",
+    "playing": 11455,
+    "visits": 383932536,
+    "favorites": 919616,
+    "updated": "2026-10-24T08:26:02.256Z",
     "created": "2025-01-16T11:24:38.103Z",
     "maxPlayers": 6,
-    "upVotes": 398195,
-    "downVotes": 19646
+    "upVotes": 398281,
+    "downVotes": 19655
   },
   "added": "2026-09-29T17:52:28.518Z",
-  "lastChecked": "2026-10-24T04:31:09.217Z",
+  "lastChecked": "2026-10-24T10:52:44.049Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
