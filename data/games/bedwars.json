@@ -1,7 +1,7 @@
 {
   "slug": "bedwars",
   "name": "BedWars",
-  "robloxName": "🎃 BedWars [⌛SOON]",
+  "robloxName": "[🎃PART 2] BedWars",
   "placeId": 6872265039,
   "universeId": 2619619496,
   "gameUrl": "https://www.roblox.com/games/6872265039/BedWars",
@@ -21,16 +21,16 @@
   "codes": [],
   "expired": [],
   "stats": {
-    "playing": 26255,
-    "visits": 11794852498,
-    "favorites": 4646472,
-    "updated": "2026-10-23T20:54:13.036Z",
+    "playing": 33036,
+    "visits": 11796170474,
+    "favorites": 4646838,
+    "updated": "2026-10-24T01:49:02.073Z",
     "created": "2021-05-27T15:14:38.887Z",
     "maxPlayers": 40,
-    "upVotes": 2485891,
-    "downVotes": 534906
+    "upVotes": 2486180,
+    "downVotes": 534913
   },
   "added": "2026-09-29T17:09:01.875Z",
-  "lastChecked": "2026-10-23T21:21:44.712Z",
+  "lastChecked": "2026-10-24T04:31:09.217Z",
   "lastChanged": "2026-09-29T17:09:01.875Z"
 }

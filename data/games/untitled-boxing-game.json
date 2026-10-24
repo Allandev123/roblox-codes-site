@@ -1,7 +1,7 @@
 {
   "slug": "untitled-boxing-game",
   "name": "untitled boxing game",
-  "robloxName": "[STREET FIGHTER] untitled boxing game🥊",
+  "robloxName": "[AKUMA] untitled boxing game🥊",
   "placeId": 13621938427,
   "universeId": 4730278139,
   "gameUrl": "https://www.roblox.com/games/13621938427/untitled-boxing-game",
@@ -25,7 +25,7 @@
       "reward": "Spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-09-29T16:13:26.811Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "2x lucky spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "Free emote",
       "status": "active",
       "firstSeen": "2026-09-29T16:27:06.198Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,23 +75,31 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.611Z"
     },
     {
-      "code": "ryu",
+      "code": "akuma",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-10-10T09:45:56.616Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "firstSeen": "2026-10-24T04:31:09.217Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:59.611Z"
+      "approved": false,
+      "context": "CODES … akuma"
     }
   ],
   "expired": [
+    {
+      "code": "ryu",
+      "reward": null,
+      "removed": "2026-10-24",
+      "firstSeen": "2026-10-10T09:45:56.616Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "terror",
       "reward": "15 spins",
@@ -110,18 +118,18 @@
     }
   ],
   "stats": {
-    "playing": 7982,
-    "visits": 1479258464,
-    "favorites": 1382986,
-    "updated": "2026-10-23T07:25:41.054Z",
+    "playing": 23461,
+    "visits": 1479992122,
+    "favorites": 1383396,
+    "updated": "2026-10-24T03:45:58.019Z",
     "created": "2023-06-02T00:43:44.32Z",
     "maxPlayers": 22,
-    "upVotes": 1409494,
-    "downVotes": 209182
+    "upVotes": 1410143,
+    "downVotes": 209254
   },
   "added": "2026-09-29T16:13:26.811Z",
-  "lastChecked": "2026-10-23T21:21:44.712Z",
-  "lastChanged": "2026-10-13T01:59:59.611Z",
+  "lastChecked": "2026-10-24T04:31:09.217Z",
+  "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

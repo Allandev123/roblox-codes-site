@@ -1,7 +1,7 @@
 {
   "slug": "saber-simulator",
   "name": "Saber Simulator",
-  "robloxName": "[EVENT🎃] Saber Simulator",
+  "robloxName": "[PT3🎃] Saber Simulator",
   "placeId": 3823781113,
   "universeId": 1312971993,
   "gameUrl": "https://www.roblox.com/games/3823781113/Saber-Simulator",
@@ -21,17 +21,25 @@
   "notes": "Saber Simulator is an HD Games title built on a simple loop: swing your saber to build Strength, sell that Strength for Coins, and spend the Coins on stronger sabers and upgrades from the shop. Strength also decides how hard you hit when fighting other players, and leaderboards rank the strongest. Crowns are a second currency tied to pets and progression, and updates keep adding classes, sabers and eggs.\n\nCodes mostly give Shiny, Rainbow and Void Charms, which go into powering up pets, along with Crowns and sometimes Coins. HD Games announces codes in its changelogs, Discord, X account and Roblox group, often with seasonal updates like the fall code in the current description.",
   "codes": [
     {
-      "code": "JACKOLANTERN",
+      "code": "HAUNTEDHOUSE31",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-10-16T21:03:18.105Z",
-      "lastSeen": "2026-10-23T21:21:44.712Z",
+      "firstSeen": "2026-10-24T04:31:09.217Z",
+      "lastSeen": "2026-10-24T04:31:09.217Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-18T14:00:45.574Z"
+      "approved": false,
+      "context": "New code \"HAUNTEDHOUSE31\""
     }
   ],
   "expired": [
+    {
+      "code": "JACKOLANTERN",
+      "reward": null,
+      "removed": "2026-10-24",
+      "firstSeen": "2026-10-16T21:03:18.105Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "HALLOWEEN26",
       "reward": null,
@@ -50,18 +58,18 @@
     }
   ],
   "stats": {
-    "playing": 2336,
-    "visits": 646251923,
-    "favorites": 2036496,
-    "updated": "2026-10-16T17:09:27.932Z",
+    "playing": 2319,
+    "visits": 646280450,
+    "favorites": 2036522,
+    "updated": "2026-10-24T04:14:28.698Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570708,
-    "downVotes": 90806
+    "upVotes": 570710,
+    "downVotes": 90808
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-23T21:21:44.712Z",
-  "lastChanged": "2026-10-18T14:00:45.574Z",
+  "lastChecked": "2026-10-24T04:31:09.217Z",
+  "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
