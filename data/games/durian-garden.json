@@ -1,0 +1,74 @@
+{
+  "slug": "durian-garden",
+  "name": "Durian Garden",
+  "robloxName": "Durian Garden 🍈 [Tester]",
+  "placeId": 91350038154849,
+  "universeId": 10772253152,
+  "gameUrl": "https://www.roblox.com/games/91350038154849/Durian-Garden",
+  "creator": "Mini Richy In Game Groups",
+  "genre": "Simulation",
+  "subgenre": "Tycoon",
+  "icon": "durian-garden-icon.webp",
+  "thumb": "durian-garden-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch Durian Garden on Roblox.",
+    "Click the Settings button (the grey gear) on the left side of the screen.",
+    "Scroll down past Graphics and Visual Effects to the Codes box.",
+    "Type the code exactly as written (codes are case sensitive: ShanaKung, not SHANAKUNG) and press Submit."
+  ],
+  "notes": "Durian Garden is a Roblox farming tycoon from Mini Richy In Game Groups, released in late October 2026 and still in testing. You plant durian trees, grow giant durians, harvest them, load your truck and sell them for profit, then spend the money expanding your farm and unlocking upgrades. There are 6 durian varieties to grow, plus rare Gold, Diamond and Rainbow mutations that sell for much more.\n\nAt night THE PURGE starts: other players can steal your durians, so you have to protect your farm while trying to grab theirs. Rebirths reset your farm for bigger profits on the next run. Codes give starting cash, which is most useful right at the start for your first trees and plots.",
+  "codes": [
+    {
+      "code": "ShanaKung",
+      "reward": "$3,000",
+      "status": "active",
+      "firstSeen": "2026-10-25T16:31:14.562Z",
+      "lastSeen": "2026-10-25T16:31:14.562Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-25T16:31:14.562Z",
+      "tested": "2026-10-25"
+    },
+    {
+      "code": "Durian",
+      "reward": "$500",
+      "status": "active",
+      "firstSeen": "2026-10-25T16:31:14.562Z",
+      "lastSeen": "2026-10-25T16:31:14.562Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-25T16:31:14.562Z",
+      "tested": "2026-10-25"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 5296,
+    "visits": 699265,
+    "favorites": 1579,
+    "updated": "2026-10-25T16:27:52.545Z",
+    "created": "2026-10-21T15:13:38.618Z"
+  },
+  "added": "2026-10-25T16:31:13.449Z",
+  "lastChecked": "2026-10-25T16:31:13.449Z",
+  "lastChanged": "2026-10-25T16:31:14.562Z",
+  "faq": [
+    {
+      "q": "Where is the code box in Durian Garden?",
+      "a": "Not in the Shop: click the Settings button (the gear) on the left, then scroll down to Codes, below the Graphics and Visual Effects options."
+    },
+    {
+      "q": "Are Durian Garden codes case sensitive?",
+      "a": "Yes. Type them exactly as shown, with the same capital letters: ShanaKung and Durian. Typing them in all caps gives \"That code doesn't exist.\""
+    },
+    {
+      "q": "What do Durian Garden codes give?",
+      "a": "Cash: ShanaKung gives $3,000 and Durian gives $500. Spend it on your first trees and farm plots."
+    }
+  ],
+  "redeemImage": "durian-garden-redeem.webp",
+  "redeemCaption": "Durian Garden's Codes box in Settings, after redeeming ShanaKung for $3,000",
+  "checkedInGame": "2026-10-25"
+}
