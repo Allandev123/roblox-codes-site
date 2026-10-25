@@ -1,7 +1,7 @@
 {
   "slug": "azure-latch",
   "name": "Azure Latch",
-  "robloxName": "[HITBOX CHANGES 🛜] Azure Latch",
+  "robloxName": "[ 🔨MAINTENANCE] Azure Latch",
   "placeId": 94647229517154,
   "universeId": 6945584306,
   "gameUrl": "https://www.roblox.com/games/94647229517154/Azure-Latch",
@@ -156,17 +156,17 @@
     }
   ],
   "stats": {
-    "playing": 12494,
-    "visits": 599759724,
-    "favorites": 664846,
-    "updated": "2026-10-21T23:11:13.546Z",
+    "playing": 20,
+    "visits": 599814230,
+    "favorites": 665021,
+    "updated": "2026-10-25T23:11:49.028Z",
     "created": "2024-12-20T13:35:18.56Z",
     "maxPlayers": 10,
-    "upVotes": 1621543,
-    "downVotes": 54197
+    "upVotes": 1621572,
+    "downVotes": 54204
   },
   "added": "2026-09-29T18:36:57.159Z",
-  "lastChecked": "2026-10-25T20:47:00.201Z",
+  "lastChecked": "2026-10-25T23:13:51.985Z",
   "lastChanged": "2026-09-29T18:36:55.469Z",
   "faq": [
     {

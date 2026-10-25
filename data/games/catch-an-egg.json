@@ -1,7 +1,7 @@
 {
   "slug": "catch-an-egg",
   "name": "Catch an Egg",
-  "robloxName": "[🎃] Catch an egg",
+  "robloxName": "Catch an egg",
   "placeId": 139851202299573,
   "universeId": 10768828092,
   "gameUrl": "https://www.roblox.com/games/139851202299573/CATCH-AN-EGG",
@@ -45,17 +45,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 316,
-    "visits": 757439,
-    "favorites": 24669,
-    "updated": "2026-10-25T16:16:43.187Z",
+    "playing": 278,
+    "visits": 759522,
+    "favorites": 24712,
+    "updated": "2026-10-25T23:02:51.941Z",
     "created": "2026-10-01T08:36:03.468Z",
     "maxPlayers": 8,
-    "upVotes": 1712,
-    "downVotes": 256
+    "upVotes": 1713,
+    "downVotes": 258
   },
   "added": "2026-10-19T22:03:44.283Z",
-  "lastChecked": "2026-10-25T20:47:00.201Z",
+  "lastChecked": "2026-10-25T23:13:51.985Z",
   "lastChanged": "2026-10-19T22:03:45.417Z",
   "faq": [
     {
