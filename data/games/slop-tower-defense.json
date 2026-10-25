@@ -25,7 +25,7 @@
       "reward": "900 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:25.213Z",
-      "lastSeen": "2026-10-24T23:09:57.224Z",
+      "lastSeen": "2026-10-25T04:35:49.778Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1931,
-    "visits": 32589562,
-    "favorites": 19696,
-    "updated": "2026-10-24T23:04:44.505Z",
+    "playing": 2200,
+    "visits": 32645523,
+    "favorites": 19714,
+    "updated": "2026-10-25T01:01:24.483Z",
     "created": "2026-07-19T09:49:58.806Z",
     "maxPlayers": 20,
-    "upVotes": 13061,
-    "downVotes": 3410
+    "upVotes": 13071,
+    "downVotes": 3412
   },
   "added": "2026-09-29T16:13:25.213Z",
-  "lastChecked": "2026-10-24T23:09:57.224Z",
+  "lastChecked": "2026-10-25T04:35:49.778Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
