@@ -1,7 +1,7 @@
 {
   "slug": "legacy-piece",
   "name": "Legacy Piece",
-  "robloxName": "[🎃] Legacy Piece",
+  "robloxName": "Legacy Piece [🎃Castorice & Aizen]",
   "placeId": 111097829542198,
   "universeId": 9880286438,
   "gameUrl": "https://www.roblox.com/games/111097829542198/Legacy-Piece",
@@ -335,17 +335,17 @@
     }
   ],
   "stats": {
-    "playing": 7067,
-    "visits": 32103582,
-    "favorites": 70027,
-    "updated": "2026-10-25T16:07:01.282Z",
+    "playing": 7483,
+    "visits": 32183206,
+    "favorites": 70090,
+    "updated": "2026-10-25T19:48:03.116Z",
     "created": "2026-03-14T10:13:03.339Z",
     "maxPlayers": 12,
-    "upVotes": 92922,
-    "downVotes": 2966
+    "upVotes": 93025,
+    "downVotes": 2969
   },
   "added": "2026-09-29T18:37:02.346Z",
-  "lastChecked": "2026-10-25T16:11:04.246Z",
+  "lastChecked": "2026-10-25T20:47:00.201Z",
   "lastChanged": "2026-09-29T18:36:55.469Z",
   "faq": [
     {
