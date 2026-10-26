@@ -25,7 +25,7 @@
       "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:03.031Z",
-      "lastSeen": "2026-10-26T04:40:48.321Z",
+      "lastSeen": "2026-10-26T12:53:53.586Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-10-26T04:40:48.321Z",
+      "lastSeen": "2026-10-26T12:53:53.586Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-10-26T04:40:48.321Z",
+      "lastSeen": "2026-10-26T12:53:53.586Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1250,
-    "visits": 181741149,
-    "favorites": 171507,
+    "playing": 1782,
+    "visits": 181822350,
+    "favorites": 171561,
     "updated": "2026-10-26T03:25:02.647Z",
     "created": "2025-05-20T16:48:11.753Z",
     "maxPlayers": 30,
-    "upVotes": 107597,
-    "downVotes": 9830
+    "upVotes": 107613,
+    "downVotes": 9839
   },
   "added": "2026-09-29T16:14:03.031Z",
-  "lastChecked": "2026-10-26T04:40:48.321Z",
+  "lastChecked": "2026-10-26T12:53:53.586Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
