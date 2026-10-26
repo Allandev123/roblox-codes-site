@@ -1,7 +1,7 @@
 {
   "slug": "drift-36",
   "name": "Drift 36",
-  "robloxName": "[UPD] Drift 36",
+  "robloxName": "Drift 36",
   "placeId": 109170650911069,
   "universeId": 8641602265,
   "gameUrl": "https://www.roblox.com/games/109170650911069/Drift-36",
@@ -25,7 +25,7 @@
       "reward": "+$35.000",
       "status": "active",
       "firstSeen": "2026-10-11T12:43:54.410Z",
-      "lastSeen": "2026-10-26T12:53:53.586Z",
+      "lastSeen": "2026-10-26T20:27:21.310Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.968Z"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 1118,
-    "visits": 81556145,
-    "favorites": 219345,
-    "updated": "2026-10-25T11:22:06.817Z",
+    "playing": 1067,
+    "visits": 81610377,
+    "favorites": 219466,
+    "updated": "2026-10-26T13:07:26.495Z",
     "created": "2025-09-05T20:17:45.04Z",
     "maxPlayers": 20,
-    "upVotes": 140093,
-    "downVotes": 8266
+    "upVotes": 140122,
+    "downVotes": 8268
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-10-26T12:53:53.586Z",
+  "lastChecked": "2026-10-26T20:27:21.310Z",
   "lastChanged": "2026-10-13T01:59:57.968Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
