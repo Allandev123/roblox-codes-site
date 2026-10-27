@@ -1,0 +1,74 @@
+{
+  "slug": "plus-1-titan-evolution",
+  "name": "+1 Titan Evolution",
+  "robloxName": "[🎃] +1 Titan Evolution! ",
+  "placeId": 86483978642092,
+  "universeId": 10769541317,
+  "gameUrl": "https://www.roblox.com/games/86483978642092/1-Titan-Evolution",
+  "creator": "Bogdan's Games",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-titan-evolution-icon.webp",
+  "thumb": "plus-1-titan-evolution-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 Titan Evolution on Roblox.",
+    "Click the small Codes button (it says \"COD.\") in the top-right corner, next to the calendar and settings icons.",
+    "Type the code into the \"Type a code...\" box.",
+    "Press Redeem. \"Code redeemed!\" and the rewards show under the box."
+  ],
+  "notes": "+1 Titan Evolution is a Roblox \"+1\" clicker from Bogdan's Games, released in early October 2026 and inspired by Attack on Titan. Every click makes your character a little stronger, and you spend Wins on upgrades like Movement Speed, Punching Speed, Luck and Training Rate to evolve into bigger titans and move on through the worlds, starting with Liberia.\n\nPets give permanent multipliers, so the pet codes are the most valuable: HALLOWEEN gives the Witch Cat during the Halloween event, and THANKYOU gives the T-Bone Steak along with Wins and boosts. Use the Luck and Win boosts together right before a long grinding session.",
+  "codes": [
+    {
+      "code": "HALLOWEEN",
+      "reward": "Witch Cat pet, 2,500 Skulls and 2 Luck Boosts (Halloween event, until November 8)",
+      "status": "active",
+      "firstSeen": "2026-10-27T15:53:48.020Z",
+      "lastSeen": "2026-10-27T15:53:48.020Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-27T15:53:48.020Z",
+      "tested": "2026-10-27"
+    },
+    {
+      "code": "THANKYOU",
+      "reward": "T-Bone Steak pet, 1,000 Wins, 2 Win Boosts and 2 Power Boosts",
+      "status": "active",
+      "firstSeen": "2026-10-27T15:53:48.020Z",
+      "lastSeen": "2026-10-27T15:53:48.020Z",
+      "source": "manual",
+      "approved": true,
+      "approvedAt": "2026-10-27T15:53:48.020Z",
+      "tested": "2026-10-27"
+    }
+  ],
+  "expired": [],
+  "stats": {
+    "playing": 4065,
+    "visits": 465775,
+    "favorites": 39511,
+    "updated": "2026-10-27T00:41:24.096Z",
+    "created": "2026-10-05T21:03:06.157Z"
+  },
+  "added": "2026-10-27T15:53:46.976Z",
+  "lastChecked": "2026-10-27T15:53:46.976Z",
+  "lastChanged": "2026-10-27T15:53:48.020Z",
+  "faq": [
+    {
+      "q": "Where is the code button in +1 Titan Evolution?",
+      "a": "At the top right of the screen: the small icon labelled \"COD.\", next to the calendar and the settings gear. It opens the Codes window."
+    },
+    {
+      "q": "When does the HALLOWEEN code expire?",
+      "a": "The HALLOWEEN code is part of the Halloween event and runs until November 8, 2026. Redeem it before then to get the Witch Cat pet."
+    },
+    {
+      "q": "Where does +1 Titan Evolution post new codes?",
+      "a": "The Codes window says new codes drop in the game's Roblox group and Discord."
+    }
+  ],
+  "redeemImage": "plus-1-titan-evolution-redeem.webp",
+  "redeemCaption": "+1 Titan Evolution's Codes window after redeeming THANKYOU",
+  "checkedInGame": "2026-10-27"
+}
