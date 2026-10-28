@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-24T04:31:09.217Z",
-      "lastSeen": "2026-10-28T12:45:35.875Z",
+      "lastSeen": "2026-10-28T20:14:45.100Z",
       "source": "description",
       "approved": false,
       "context": "New code \"HAUNTEDHOUSE31\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 2299,
-    "visits": 646695308,
-    "favorites": 2036933,
+    "playing": 2202,
+    "visits": 646723173,
+    "favorites": 2036957,
     "updated": "2026-10-24T04:49:23.585Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570764,
-    "downVotes": 90817
+    "upVotes": 570769,
+    "downVotes": 90818
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-28T12:45:35.875Z",
+  "lastChecked": "2026-10-28T20:14:45.100Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
