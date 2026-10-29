@@ -1,7 +1,7 @@
 {
   "slug": "ball-vs-ball",
   "name": "Ball VS Ball",
-  "robloxName": "[🎃] Ball VS Ball",
+  "robloxName": "Ball VS Ball [RANKED]",
   "placeId": 96510596525082,
   "universeId": 10685282333,
   "gameUrl": "https://www.roblox.com/games/96510596525082/Ball-VS-Ball",
@@ -98,17 +98,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 16742,
-    "visits": 170930374,
-    "favorites": 225742,
-    "updated": "2026-10-25T13:02:53.413Z",
+    "playing": 16705,
+    "visits": 172020212,
+    "favorites": 226690,
+    "updated": "2026-10-29T16:56:40.6Z",
     "created": "2026-08-12T02:57:56.96Z",
     "maxPlayers": 25,
-    "upVotes": 343831,
-    "downVotes": 43635
+    "upVotes": 344947,
+    "downVotes": 43783
   },
   "added": "2026-09-29T18:35:31.549Z",
-  "lastChecked": "2026-10-29T09:52:40.967Z",
+  "lastChecked": "2026-10-29T18:26:35.935Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
