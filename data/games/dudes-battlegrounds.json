@@ -1,7 +1,7 @@
 {
   "slug": "dudes-battlegrounds",
   "name": "Dudes Battlegrounds",
-  "robloxName": "[UPD 🎃] Dudes Battlegrounds",
+  "robloxName": "Dudes Battlegrounds",
   "placeId": 14835828495,
   "universeId": 5112244393,
   "gameUrl": "https://www.roblox.com/games/14835828495/Dudes-Battlegrounds",
@@ -25,7 +25,7 @@
       "reward": "72 Tokens",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-10-28T20:14:45.100Z",
+      "lastSeen": "2026-10-29T00:52:49.870Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "1,000 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-10-28T20:14:45.100Z",
+      "lastSeen": "2026-10-29T00:52:49.870Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "800 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-10-28T20:14:45.100Z",
+      "lastSeen": "2026-10-29T00:52:49.870Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "1 Fortune Wheel spin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-10-28T20:14:45.100Z",
+      "lastSeen": "2026-10-29T00:52:49.870Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -63,17 +63,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1344,
-    "visits": 408093178,
-    "favorites": 2932478,
-    "updated": "2026-10-26T20:22:41.1Z",
+    "playing": 1306,
+    "visits": 408120373,
+    "favorites": 2932611,
+    "updated": "2026-10-28T21:13:06.197Z",
     "created": "2023-09-21T06:28:35.55Z",
     "maxPlayers": 16,
-    "upVotes": 202051,
-    "downVotes": 48034
+    "upVotes": 202049,
+    "downVotes": 48037
   },
   "added": "2026-09-29T16:13:54.726Z",
-  "lastChecked": "2026-10-28T20:14:45.100Z",
+  "lastChecked": "2026-10-29T00:52:49.870Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

@@ -117,18 +117,17 @@
       "source": "manual",
       "approved": true,
       "approvedAt": "2026-10-19T22:26:42.472Z"
-    },
-    {
-      "code": "1500LIKES",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-20T14:17:03.310Z",
-      "lastSeen": "2026-10-28T20:14:45.100Z",
-      "source": "description",
-      "approved": true
     }
   ],
   "expired": [
+    {
+      "code": "1500LIKES",
+      "reward": null,
+      "removed": "2026-10-29",
+      "firstSeen": "2026-10-20T14:17:03.310Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "3KCCU",
       "reward": null,
@@ -179,18 +178,18 @@
     }
   ],
   "stats": {
-    "playing": 4831,
-    "visits": 2125739,
-    "favorites": 47586,
-    "updated": "2026-10-28T20:04:53.527Z",
+    "playing": 3489,
+    "visits": 2188135,
+    "favorites": 48366,
+    "updated": "2026-10-29T00:11:30.759Z",
     "created": "2026-09-29T19:59:39.839Z",
     "maxPlayers": 6,
-    "upVotes": 4506,
-    "downVotes": 394
+    "upVotes": 4573,
+    "downVotes": 409
   },
   "added": "2026-10-18T13:51:12.885Z",
-  "lastChecked": "2026-10-28T20:14:45.100Z",
-  "lastChanged": "2026-10-24T20:43:59.011Z",
+  "lastChecked": "2026-10-29T00:52:49.870Z",
+  "lastChanged": "2026-10-29T00:52:49.870Z",
   "faq": [
     {
       "q": "Where is the code box in Roll a Barber RNG?",
