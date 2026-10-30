@@ -1,7 +1,7 @@
 {
   "slug": "tower-defense-simulator",
   "name": "Tower Defense Simulator",
-  "robloxName": "[🌙 NIGHT 3] Tower Defense Simulator",
+  "robloxName": "[🌙 NIGHT 4] Tower Defense Simulator",
   "placeId": 3260590327,
   "universeId": 1176784616,
   "gameUrl": "https://www.roblox.com/games/3260590327/Tower-Defense-Simulator",
@@ -25,7 +25,7 @@
       "reward": "Mercenary Pursuit skin (needs the Pursuit tower)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:21.903Z",
-      "lastSeen": "2026-10-30T09:56:09.404Z",
+      "lastSeen": "2026-10-30T17:58:50.936Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 13008,
-    "visits": 5046876938,
-    "favorites": 3536160,
-    "updated": "2026-10-23T18:31:34.073Z",
+    "playing": 47776,
+    "visits": 5048161469,
+    "favorites": 3536373,
+    "updated": "2026-10-30T17:22:25.292Z",
     "created": "2019-06-05T04:21:45.977Z",
     "maxPlayers": 50,
-    "upVotes": 2086688,
-    "downVotes": 129911
+    "upVotes": 2086879,
+    "downVotes": 129950
   },
   "added": "2026-09-29T16:13:21.903Z",
-  "lastChecked": "2026-10-30T09:56:09.404Z",
+  "lastChecked": "2026-10-30T17:58:50.936Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
