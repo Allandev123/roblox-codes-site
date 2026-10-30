@@ -25,7 +25,7 @@
       "reward": "Cash or Nuclear Waste",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:33.869Z",
-      "lastSeen": "2026-10-29T18:26:35.935Z",
+      "lastSeen": "2026-10-30T00:56:53.827Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 2741,
-    "visits": 453530003,
-    "favorites": 2120109,
+    "playing": 2656,
+    "visits": 453624297,
+    "favorites": 2120414,
     "updated": "2026-10-25T01:53:02.561Z",
     "created": "2026-05-21T13:45:07.797Z",
     "maxPlayers": 8,
-    "upVotes": 787338,
-    "downVotes": 43819
+    "upVotes": 787427,
+    "downVotes": 43824
   },
   "added": "2026-09-29T16:13:33.869Z",
-  "lastChecked": "2026-10-29T18:26:35.935Z",
+  "lastChecked": "2026-10-30T00:56:53.827Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
