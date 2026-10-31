@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-30T17:58:50.936Z",
-      "lastSeen": "2026-10-30T22:14:54.828Z",
+      "lastSeen": "2026-10-31T05:33:43.109Z",
       "source": "description",
       "approved": false,
       "context": "New code \"BALLOON\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 2401,
-    "visits": 646899605,
-    "favorites": 2037098,
+    "playing": 2433,
+    "visits": 646928591,
+    "favorites": 2037125,
     "updated": "2026-10-30T18:03:59.462Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570787,
-    "downVotes": 90815
+    "upVotes": 570791,
+    "downVotes": 90814
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-10-30T22:14:54.828Z",
+  "lastChecked": "2026-10-31T05:33:43.109Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

@@ -25,7 +25,7 @@
       "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-10-30T22:14:54.828Z",
+      "lastSeen": "2026-10-31T05:33:43.109Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-17T04:20:30.239Z",
-      "lastSeen": "2026-10-30T22:14:54.828Z",
+      "lastSeen": "2026-10-31T05:33:43.109Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-18T14:00:43.966Z"
@@ -60,17 +60,17 @@
     }
   ],
   "stats": {
-    "playing": 1510,
-    "visits": 11819856,
-    "favorites": 48519,
+    "playing": 1226,
+    "visits": 11848418,
+    "favorites": 48605,
     "updated": "2026-10-28T03:48:26.41Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 13754,
-    "downVotes": 1719
+    "upVotes": 13778,
+    "downVotes": 1723
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-10-30T22:14:54.828Z",
+  "lastChecked": "2026-10-31T05:33:43.109Z",
   "lastChanged": "2026-10-18T14:00:43.966Z",
   "faq": [
     {
