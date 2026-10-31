@@ -25,7 +25,7 @@
       "reward": "12 hours of 2x Luck & 2x Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-22T17:06:44.312Z",
-      "lastSeen": "2026-10-31T05:33:43.109Z",
+      "lastSeen": "2026-10-31T12:19:27.972Z",
       "source": "description",
       "approved": false,
       "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
@@ -35,7 +35,7 @@
       "reward": "12 hours of 2x Luck & 2x Hatch Speed",
       "status": "active",
       "firstSeen": "2026-10-22T17:06:44.312Z",
-      "lastSeen": "2026-10-31T05:33:43.109Z",
+      "lastSeen": "2026-10-31T12:19:27.972Z",
       "source": "description",
       "approved": false,
       "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
@@ -76,17 +76,17 @@
     }
   ],
   "stats": {
-    "playing": 2570,
-    "visits": 1253871169,
-    "favorites": 3320281,
+    "playing": 2610,
+    "visits": 1253888502,
+    "favorites": 3320266,
     "updated": "2026-10-30T14:42:59.849Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055801,
-    "downVotes": 136816
+    "upVotes": 1055796,
+    "downVotes": 136814
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-10-31T05:33:43.109Z",
+  "lastChecked": "2026-10-31T12:19:27.972Z",
   "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
