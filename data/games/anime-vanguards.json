@@ -152,17 +152,17 @@
     }
   ],
   "stats": {
-    "playing": 10218,
-    "visits": 2100334584,
-    "favorites": 2010276,
+    "playing": 8650,
+    "visits": 2100446109,
+    "favorites": 2010287,
     "updated": "2026-10-20T17:24:14.541Z",
     "created": "2024-01-28T07:09:39.507Z",
     "maxPlayers": 24,
-    "upVotes": 2599044,
-    "downVotes": 88208
+    "upVotes": 2599059,
+    "downVotes": 88221
   },
   "added": "2026-09-29T17:52:04.667Z",
-  "lastChecked": "2026-11-01T13:15:12.046Z",
+  "lastChecked": "2026-11-01T19:37:41.287Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {

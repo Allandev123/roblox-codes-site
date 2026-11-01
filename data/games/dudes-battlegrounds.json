@@ -25,7 +25,7 @@
       "reward": "72 Tokens",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-01T13:15:12.046Z",
+      "lastSeen": "2026-11-01T19:37:41.287Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "1,000 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-01T13:15:12.046Z",
+      "lastSeen": "2026-11-01T19:37:41.287Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "800 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-01T13:15:12.046Z",
+      "lastSeen": "2026-11-01T19:37:41.287Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "1 Fortune Wheel spin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-01T13:15:12.046Z",
+      "lastSeen": "2026-11-01T19:37:41.287Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -63,17 +63,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1988,
-    "visits": 408768487,
-    "favorites": 2937468,
+    "playing": 1923,
+    "visits": 408839638,
+    "favorites": 2937871,
     "updated": "2026-10-31T19:02:44.473Z",
     "created": "2023-09-21T06:28:35.55Z",
     "maxPlayers": 16,
-    "upVotes": 202164,
-    "downVotes": 48084
+    "upVotes": 202179,
+    "downVotes": 48093
   },
   "added": "2026-09-29T16:13:54.726Z",
-  "lastChecked": "2026-11-01T13:15:12.046Z",
+  "lastChecked": "2026-11-01T19:37:41.287Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
