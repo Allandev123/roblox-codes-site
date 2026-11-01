@@ -1,7 +1,7 @@
 {
   "slug": "heroes-battlegrounds",
   "name": "Heroes Battlegrounds",
-  "robloxName": "Heroes Battlegrounds",
+  "robloxName": "[HALLOWEEN] Heroes Battlegrounds",
   "placeId": 13076380114,
   "universeId": 4568630521,
   "gameUrl": "https://www.roblox.com/games/13076380114/Heroes-Battlegrounds",
@@ -144,17 +144,17 @@
     }
   ],
   "stats": {
-    "playing": 9008,
-    "visits": 1760044959,
-    "favorites": 1635560,
-    "updated": "2026-10-31T18:18:43.912Z",
+    "playing": 10188,
+    "visits": 1760373918,
+    "favorites": 1635750,
+    "updated": "2026-10-31T22:24:04.745Z",
     "created": "2023-04-11T02:16:49.137Z",
     "maxPlayers": 15,
-    "upVotes": 1138706,
-    "downVotes": 192894
+    "upVotes": 1138850,
+    "downVotes": 192897
   },
   "added": "2026-09-29T18:35:54.269Z",
-  "lastChecked": "2026-10-31T19:15:28.018Z",
+  "lastChecked": "2026-11-01T00:05:40.961Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
