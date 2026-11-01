@@ -25,7 +25,7 @@
       "reward": "Free potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:44.702Z",
-      "lastSeen": "2026-11-01T05:56:45.292Z",
+      "lastSeen": "2026-11-01T13:15:12.046Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 2144,
-    "visits": 43816870,
-    "favorites": 297080,
+    "playing": 2325,
+    "visits": 43872909,
+    "favorites": 297116,
     "updated": "2026-10-29T18:16:14.589Z",
     "created": "2026-01-18T18:09:14.383Z",
     "maxPlayers": 10,
-    "upVotes": 129247,
-    "downVotes": 2549
+    "upVotes": 129263,
+    "downVotes": 2551
   },
   "added": "2026-09-29T16:13:44.702Z",
-  "lastChecked": "2026-11-01T05:56:45.292Z",
+  "lastChecked": "2026-11-01T13:15:12.046Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

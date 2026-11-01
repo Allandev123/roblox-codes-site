@@ -25,7 +25,7 @@
       "reward": "Free boost (Luck Potion, Grape and Apple)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:38.732Z",
-      "lastSeen": "2026-11-01T05:56:45.292Z",
+      "lastSeen": "2026-11-01T13:15:12.046Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:58.945Z"
@@ -33,16 +33,16 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5161,
-    "visits": 250756947,
-    "favorites": 153767,
+    "playing": 5540,
+    "visits": 250824246,
+    "favorites": 153768,
     "updated": "2026-10-30T19:14:56.633Z",
     "created": "2025-02-01T08:45:07.927Z",
     "maxPlayers": 10,
-    "upVotes": 232595,
+    "upVotes": 232602,
     "downVotes": 5963
   },
   "added": "2026-09-29T16:13:38.732Z",
-  "lastChecked": "2026-11-01T05:56:45.292Z",
+  "lastChecked": "2026-11-01T13:15:12.046Z",
   "lastChanged": "2026-10-13T01:59:58.945Z"
 }
