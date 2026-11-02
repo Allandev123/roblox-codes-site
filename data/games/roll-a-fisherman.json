@@ -1,7 +1,7 @@
 {
   "slug": "roll-a-fisherman",
   "name": "Roll a Fisherman",
-  "robloxName": "[🎃SPOOKY] Roll a Fisherman 🎣",
+  "robloxName": "[🪦GRAVEYARD] Roll a Fisherman 🎣",
   "placeId": 90920025162454,
   "universeId": 10636331438,
   "gameUrl": "https://www.roblox.com/games/90920025162454/Roll-a-Fisherman",
@@ -25,7 +25,7 @@
       "reward": "5,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "300 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "500 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -85,7 +85,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -95,7 +95,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T21:20:16.715Z",
-      "lastSeen": "2026-11-01T19:37:41.287Z",
+      "lastSeen": "2026-11-02T00:39:15.992Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.115Z"
@@ -103,17 +103,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1155,
-    "visits": 16225901,
-    "favorites": 446644,
-    "updated": "2026-10-31T19:50:18.926Z",
+    "playing": 892,
+    "visits": 16244523,
+    "favorites": 446807,
+    "updated": "2026-11-01T20:22:18.013Z",
     "created": "2026-08-05T14:47:20.106Z",
     "maxPlayers": 6,
-    "upVotes": 102744,
-    "downVotes": 1829
+    "upVotes": 102776,
+    "downVotes": 1833
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-11-01T19:37:41.287Z",
+  "lastChecked": "2026-11-02T00:39:15.992Z",
   "lastChanged": "2026-10-13T01:59:59.115Z",
   "faq": [
     {
