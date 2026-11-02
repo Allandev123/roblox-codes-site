@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-5 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+6 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -8,6 +8,7 @@ node scripts/review.mjs
 
 | Game | Code | Reward | First seen | Description line |
 |---|---|---|---|---|
+| 2 Player Raid Tycoon | `TY14000` |  | 2026-11-02 10:56 UTC | USE CODE 'TY14000' IN THE SHOP!!! |
 | Bubble Gum Simulator Infinity | `Halloween2026` | 10 of each Fragment | 2026-10-31 19:15 UTC | Use code Halloween2026 for 10 of each Fragment! |
 | Bubble Gum Simulator (draft) | `Radioactive` | 12 hours of 2x Luck & 2x Hatch Speed | 2026-10-22 17:06 UTC | Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed! |
 | Bubble Gum Simulator (draft) | `DumbPumpkin` | 12 hours of 2x Luck & 2x Hatch Speed | 2026-10-22 17:06 UTC | Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed! |
