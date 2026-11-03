@@ -1,7 +1,7 @@
 {
   "slug": "murder-duels",
   "name": "Murder Duels",
-  "robloxName": "[🎃] Murder Duels",
+  "robloxName": "Murder Duels",
   "placeId": 120851538706364,
   "universeId": 9561553764,
   "gameUrl": "https://www.roblox.com/games/120851538706364/Murder-Duels",
@@ -164,17 +164,17 @@
     }
   ],
   "stats": {
-    "playing": 5938,
-    "visits": 318691467,
-    "favorites": 259791,
-    "updated": "2026-11-03T00:27:33.778Z",
+    "playing": 8668,
+    "visits": 319253217,
+    "favorites": 260149,
+    "updated": "2026-11-03T14:09:18.077Z",
     "created": "2026-01-14T22:16:21.543Z",
     "maxPlayers": 50,
-    "upVotes": 285278,
-    "downVotes": 21164
+    "upVotes": 285555,
+    "downVotes": 21188
   },
   "added": "2026-09-29T18:36:00.851Z",
-  "lastChecked": "2026-11-03T06:42:11.945Z",
+  "lastChecked": "2026-11-03T16:59:54.155Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
