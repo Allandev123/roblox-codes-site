@@ -1,7 +1,7 @@
 {
   "slug": "tower-defense-simulator",
   "name": "Tower Defense Simulator",
-  "robloxName": "[🌙 NIGHT 4] Tower Defense Simulator",
+  "robloxName": "Tower Defense Simulator",
   "placeId": 3260590327,
   "universeId": 1176784616,
   "gameUrl": "https://www.roblox.com/games/3260590327/Tower-Defense-Simulator",
@@ -19,32 +19,30 @@
     "Type or paste the code exactly as written, including capital letters, and press Redeem."
   ],
   "notes": "Tower Defense Simulator is a co-op tower defense game from Paradoxum Games. Up to four players leave the lobby together for a map, then spend the cash they earn each wave placing and upgrading towers along the path so zombie hordes and bosses never reach the base. Finishing matches pays out coins and experience, which unlock new towers back in the lobby.\n\nCodes are rare here and usually mark milestones, like the 2 million likes code in the current description. Recent codes give tower skins or crates instead of coins, and a skin code only works if you already own the tower it belongs to. Paradoxum shares new codes on its X account and Discord, and occasionally on the game page.",
-  "codes": [
+  "codes": [],
+  "expired": [
     {
       "code": "2MILLION",
       "reward": "Mercenary Pursuit skin (needs the Pursuit tower)",
-      "status": "active",
+      "removed": "2026-11-03",
       "firstSeen": "2026-09-29T16:13:21.903Z",
-      "lastSeen": "2026-11-03T16:59:54.155Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     }
   ],
-  "expired": [],
   "stats": {
-    "playing": 29259,
-    "visits": 5061504721,
-    "favorites": 3538976,
-    "updated": "2026-10-31T05:01:01.882Z",
+    "playing": 20729,
+    "visits": 5062207276,
+    "favorites": 3539100,
+    "updated": "2026-11-03T20:09:03.687Z",
     "created": "2019-06-05T04:21:45.977Z",
     "maxPlayers": 50,
-    "upVotes": 2088303,
-    "downVotes": 130557
+    "upVotes": 2088423,
+    "downVotes": 130562
   },
   "added": "2026-09-29T16:13:21.903Z",
-  "lastChecked": "2026-11-03T16:59:54.155Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-11-03T23:16:51.615Z",
+  "lastChanged": "2026-11-03T23:16:51.615Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming Tower Defense Simulator codes?",
