@@ -1,7 +1,7 @@
 {
   "slug": "pets-universe",
   "name": "Pets Universe",
-  "robloxName": "[🍀] Pets Universe! 🎃",
+  "robloxName": "[🎃] Pets Universe! 🐾",
   "placeId": 74629631798007,
   "universeId": 10759638075,
   "gameUrl": "https://www.roblox.com/games/74629631798007/Pets-Universe",
@@ -203,17 +203,17 @@
     }
   ],
   "stats": {
-    "playing": 3466,
-    "visits": 14190170,
-    "favorites": 190900,
-    "updated": "2026-11-03T18:03:41.643Z",
+    "playing": 2714,
+    "visits": 14278892,
+    "favorites": 190962,
+    "updated": "2026-11-04T21:00:52.165Z",
     "created": "2026-08-24T18:59:13.917Z",
     "maxPlayers": 6,
-    "upVotes": 89572,
-    "downVotes": 1464
+    "upVotes": 89618,
+    "downVotes": 1466
   },
   "added": "2026-09-29T18:37:04.242Z",
-  "lastChecked": "2026-11-04T14:26:09.814Z",
+  "lastChecked": "2026-11-04T21:16:36.255Z",
   "lastChanged": "2026-09-29T18:36:55.469Z",
   "faq": [
     {

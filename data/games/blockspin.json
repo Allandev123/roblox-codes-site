@@ -1,7 +1,7 @@
 {
   "slug": "blockspin",
   "name": "BlockSpin",
-  "robloxName": "BlockSpin 🔪 [HALLOWEEN UPDATE!]",
+  "robloxName": "BlockSpin 🔪 ",
   "placeId": 104715542330896,
   "universeId": 6765805766,
   "gameUrl": "https://www.roblox.com/games/104715542330896/BlockSpin",
@@ -25,7 +25,7 @@
       "reward": "$500 cash (new players only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:13.775Z",
-      "lastSeen": "2026-11-04T14:26:09.814Z",
+      "lastSeen": "2026-11-04T21:16:36.255Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 18882,
-    "visits": 1328229515,
-    "favorites": 1003437,
-    "updated": "2026-10-31T23:29:42.946Z",
+    "playing": 15775,
+    "visits": 1328972419,
+    "favorites": 1003569,
+    "updated": "2026-11-04T17:18:24.826Z",
     "created": "2024-11-06T14:19:35.68Z",
     "maxPlayers": 28,
-    "upVotes": 286216,
-    "downVotes": 76963
+    "upVotes": 286319,
+    "downVotes": 76969
   },
   "added": "2026-09-29T16:13:13.775Z",
-  "lastChecked": "2026-11-04T14:26:09.814Z",
+  "lastChecked": "2026-11-04T21:16:36.255Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
