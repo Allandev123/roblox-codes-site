@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-6 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+7 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -13,4 +13,5 @@ node scripts/review.mjs
 | Bubble Gum Simulator (draft) | `Radioactive` | 12 hours of 2x Luck & 2x Hatch Speed | 2026-10-22 17:06 UTC | Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed! |
 | Bubble Gum Simulator (draft) | `DumbPumpkin` | 12 hours of 2x Luck & 2x Hatch Speed | 2026-10-22 17:06 UTC | Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed! |
 | Gym Star Simulator (draft) | `HALLOGYMSTAR` | 1250x FREE Halloween Candy Corns | 2026-10-22 17:06 UTC | Redeem Code: Use the code "HALLOGYMSTAR" to claim 1250x FREE Halloween Candy Corns! |
+| +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:HALLOWEEN\PET\1BVISITS |
 | Saber Simulator (draft) | `BALLOON` |  | 2026-10-30 17:58 UTC | New code "BALLOON" |

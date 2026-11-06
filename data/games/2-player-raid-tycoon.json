@@ -1,7 +1,7 @@
 {
   "slug": "2-player-raid-tycoon",
   "name": "2 Player Raid Tycoon",
-  "robloxName": "[🔫] 2 Player Raid Tycoon",
+  "robloxName": "[GUN UPD] 2 Player Raid Tycoon",
   "placeId": 126710589265077,
   "universeId": 10765167636,
   "gameUrl": "https://www.roblox.com/games/126710589265077/2-Player-Raid-Tycoon",
@@ -25,7 +25,7 @@
       "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-11-06T01:30:34.823Z",
+      "lastSeen": "2026-11-06T10:47:23.429Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-02T10:56:19.672Z",
-      "lastSeen": "2026-11-06T01:30:34.823Z",
+      "lastSeen": "2026-11-06T10:47:23.429Z",
       "source": "description",
       "approved": false,
       "context": "USE CODE 'TY14000' IN THE SHOP!!!"
@@ -68,17 +68,17 @@
     }
   ],
   "stats": {
-    "playing": 603,
-    "visits": 12512029,
-    "favorites": 50444,
-    "updated": "2026-11-05T22:50:11.574Z",
+    "playing": 755,
+    "visits": 12532361,
+    "favorites": 50509,
+    "updated": "2026-11-06T06:45:53.469Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 14295,
-    "downVotes": 1799
+    "upVotes": 14311,
+    "downVotes": 1803
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-11-06T01:30:34.823Z",
+  "lastChecked": "2026-11-06T10:47:23.429Z",
   "lastChanged": "2026-11-02T10:56:19.672Z",
   "faq": [
     {
