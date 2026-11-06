@@ -753,7 +753,7 @@
       "reward": "10 of each Fragment",
       "status": "active",
       "firstSeen": "2026-10-31T19:15:28.018Z",
-      "lastSeen": "2026-11-05T19:53:38.674Z",
+      "lastSeen": "2026-11-06T01:30:34.823Z",
       "source": "description",
       "approved": false,
       "context": "Use code Halloween2026 for 10 of each Fragment!"
@@ -804,17 +804,17 @@
     }
   ],
   "stats": {
-    "playing": 7723,
-    "visits": 623035562,
-    "favorites": 295804,
-    "updated": "2026-11-05T10:01:02.783Z",
+    "playing": 7138,
+    "visits": 623121420,
+    "favorites": 295831,
+    "updated": "2026-11-05T21:14:25.325Z",
     "created": "2024-09-02T20:33:13.033Z",
     "maxPlayers": 12,
-    "upVotes": 497080,
-    "downVotes": 16540
+    "upVotes": 497097,
+    "downVotes": 16538
   },
   "added": "2026-09-29T18:35:36.401Z",
-  "lastChecked": "2026-11-05T19:53:38.674Z",
+  "lastChecked": "2026-11-06T01:30:34.823Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
