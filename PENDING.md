@@ -14,4 +14,4 @@ node scripts/review.mjs
 | Bubble Gum Simulator (draft) | `DumbPumpkin` | 12 hours of 2x Luck & 2x Hatch Speed | 2026-10-22 17:06 UTC | Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed! |
 | Gym Star Simulator (draft) | `HALLOGYMSTAR` | 1250x FREE Halloween Candy Corns | 2026-10-22 17:06 UTC | Redeem Code: Use the code "HALLOGYMSTAR" to claim 1250x FREE Halloween Candy Corns! |
 | +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:HALLOWEEN\PET\1BVISITS |
-| Saber Simulator (draft) | `BALLOON` |  | 2026-10-30 17:58 UTC | New code "BALLOON" |
+| Saber Simulator (draft) | `LEAVESSS` |  | 2026-11-06 19:19 UTC | New code "LEAVESSS" |

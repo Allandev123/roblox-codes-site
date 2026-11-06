@@ -25,7 +25,7 @@
       "reward": "Trait rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:56.369Z",
-      "lastSeen": "2026-11-06T10:47:23.429Z",
+      "lastSeen": "2026-11-06T19:19:50.024Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1404,
-    "visits": 13967550,
-    "favorites": 204699,
+    "playing": 1870,
+    "visits": 14015226,
+    "favorites": 204745,
     "updated": "2026-11-05T18:50:39.557Z",
     "created": "2025-09-29T04:42:35.12Z",
     "maxPlayers": 20,
-    "upVotes": 129943,
-    "downVotes": 4004
+    "upVotes": 129971,
+    "downVotes": 4021
   },
   "added": "2026-09-29T16:13:56.369Z",
-  "lastChecked": "2026-11-06T10:47:23.429Z",
+  "lastChecked": "2026-11-06T19:19:50.024Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
