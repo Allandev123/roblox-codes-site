@@ -64,17 +64,17 @@
     }
   ],
   "stats": {
-    "playing": 257,
-    "visits": 7523183,
-    "favorites": 57523,
-    "updated": "2026-11-07T09:48:42.893Z",
+    "playing": 246,
+    "visits": 7530225,
+    "favorites": 57557,
+    "updated": "2026-11-07T13:12:48.924Z",
     "created": "2026-10-02T04:14:47.248Z",
     "maxPlayers": 6,
-    "upVotes": 37735,
-    "downVotes": 1668
+    "upVotes": 37752,
+    "downVotes": 1672
   },
   "added": "2026-10-05T21:37:57.228Z",
-  "lastChecked": "2026-11-07T09:59:36.039Z",
+  "lastChecked": "2026-11-07T17:43:41.013Z",
   "lastChanged": "2026-10-05T21:35:00.000Z",
   "requirement": "You have to like the game and join the Project Mirvy group on Roblox before a code works.",
   "codeChannels": "The Codes box shows the latest code under \"Latest code\", and the game asks you to join the Project Mirvy group for new ones",

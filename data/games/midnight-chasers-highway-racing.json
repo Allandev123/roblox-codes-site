@@ -1,7 +1,7 @@
 {
   "slug": "midnight-chasers-highway-racing",
   "name": "Midnight Chasers: Highway Racing",
-  "robloxName": "[🎃HALLOWEEN]🚗Midnight Chasers: Highway Racing",
+  "robloxName": "[SALEEN]🚗Midnight Chasers: Highway Racing",
   "placeId": 13822562292,
   "universeId": 4793836769,
   "gameUrl": "https://www.roblox.com/games/13822562292/Midnight-Chasers-Highway-Racing",
@@ -21,17 +21,25 @@
   "notes": "Midnight Chasers: Highway Racing is a no-hesitation traffic driving game from the Roblox group Midnight In-dev. You pick a car or motorcycle, drive onto a busy highway, and weave between traffic at high speed to earn cash, which you spend on new vehicles and upgrades. Players also use the open highways and city streets for casual cruising, races with friends, and car meetups.\n\nCodes in this game almost always pay out cash, usually 30,000 per code, which shortens the grind toward faster cars. The developers tie new codes to like milestones, typically one every 10,000 likes named after the count (ThanksFor980k, for example), and announce them in the game description, their Discord server, and on X.",
   "codes": [
     {
-      "code": "ThanksFor990k",
+      "code": "ThanksFor1M",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-11-07T09:59:36.039Z",
+      "firstSeen": "2026-11-07T17:43:41.013Z",
+      "lastSeen": "2026-11-07T17:43:41.013Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:58.275Z"
+      "approved": false,
+      "context": "Current Code: \"ThanksFor1M\""
     }
   ],
   "expired": [
+    {
+      "code": "ThanksFor990k",
+      "reward": null,
+      "removed": "2026-11-07",
+      "firstSeen": "2026-10-11T05:41:14.580Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "ThanksFor980k",
       "reward": "30,000 Cash",
@@ -42,18 +50,18 @@
     }
   ],
   "stats": {
-    "playing": 2380,
-    "visits": 322966844,
-    "favorites": 6734571,
-    "updated": "2026-11-06T20:22:51.973Z",
+    "playing": 4153,
+    "visits": 323059996,
+    "favorites": 6735794,
+    "updated": "2026-11-07T17:40:50.67Z",
     "created": "2023-06-21T21:07:05.223Z",
     "maxPlayers": 14,
-    "upVotes": 999781,
-    "downVotes": 25324
+    "upVotes": 999965,
+    "downVotes": 25327
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-11-07T09:59:36.039Z",
-  "lastChanged": "2026-10-13T01:59:58.275Z",
+  "lastChecked": "2026-11-07T17:43:41.013Z",
+  "lastChanged": "2026-11-07T17:43:41.013Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
