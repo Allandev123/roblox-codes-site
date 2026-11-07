@@ -1,7 +1,7 @@
 {
   "slug": "bubble-gum-simulator-infinity",
   "name": "Bubble Gum Simulator Infinity",
-  "robloxName": "[🎃] Bubble Gum Simulator INFINITY",
+  "robloxName": "[❄️] Bubble Gum Simulator INFINITY",
   "placeId": 85896571713843,
   "universeId": 6504986360,
   "gameUrl": "https://www.roblox.com/games/85896571713843/Bubble-Gum-Simulator-INFINITY",
@@ -747,16 +747,6 @@
       ],
       "approved": true,
       "approvedAt": "2026-09-29T18:35:26.812Z"
-    },
-    {
-      "code": "Halloween2026",
-      "reward": "10 of each Fragment",
-      "status": "active",
-      "firstSeen": "2026-10-31T19:15:28.018Z",
-      "lastSeen": "2026-11-07T17:43:41.013Z",
-      "source": "description",
-      "approved": false,
-      "context": "Use code Halloween2026 for 10 of each Fragment!"
     }
   ],
   "expired": [
@@ -804,17 +794,17 @@
     }
   ],
   "stats": {
-    "playing": 8163,
-    "visits": 623741627,
-    "favorites": 295940,
-    "updated": "2026-11-07T15:48:47.015Z",
+    "playing": 10512,
+    "visits": 623834925,
+    "favorites": 295951,
+    "updated": "2026-11-07T20:26:22.511Z",
     "created": "2024-09-02T20:33:13.033Z",
     "maxPlayers": 12,
-    "upVotes": 497161,
-    "downVotes": 16539
+    "upVotes": 497182,
+    "downVotes": 16540
   },
   "added": "2026-09-29T18:35:36.401Z",
-  "lastChecked": "2026-11-07T17:43:41.013Z",
+  "lastChecked": "2026-11-07T21:45:47.716Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {

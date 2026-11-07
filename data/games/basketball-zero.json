@@ -1,7 +1,7 @@
 {
   "slug": "basketball-zero",
   "name": "Basketball: Zero",
-  "robloxName": "[🎃] Basketball: Zero",
+  "robloxName": "Basketball: Zero",
   "placeId": 130739873848552,
   "universeId": 7028566528,
   "gameUrl": "https://www.roblox.com/games/130739873848552/Basketball-Zero",
@@ -128,17 +128,17 @@
     }
   ],
   "stats": {
-    "playing": 7864,
-    "visits": 1170675146,
-    "favorites": 2269800,
-    "updated": "2026-11-06T06:02:44.885Z",
+    "playing": 6654,
+    "visits": 1170822312,
+    "favorites": 2270000,
+    "updated": "2026-11-07T18:12:36.28Z",
     "created": "2025-01-03T14:36:41.333Z",
     "maxPlayers": 10,
-    "upVotes": 7177954,
-    "downVotes": 126046
+    "upVotes": 7178291,
+    "downVotes": 126058
   },
   "added": "2026-09-29T18:35:34.818Z",
-  "lastChecked": "2026-11-07T17:43:41.013Z",
+  "lastChecked": "2026-11-07T21:45:47.716Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
