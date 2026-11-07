@@ -1,7 +1,7 @@
 {
   "slug": "bubble-gum-simulator",
   "name": "Bubble Gum Simulator",
-  "robloxName": "[🎃] Bubble Gum Simulator",
+  "robloxName": "[❄️] Bubble Gum Simulator",
   "placeId": 2512643572,
   "universeId": 892043755,
   "gameUrl": "https://www.roblox.com/games/2512643572/Bubble-Gum-Simulator",
@@ -21,24 +21,24 @@
   "notes": "Bubble Gum Simulator is the original bubble-blowing simulator from Rumble Studios, separate from its newer Infinity sequel. You chew gum to grow your bubble, sell it for coins, and put those coins into better gum and flavors so your bubble can carry you higher to the floating islands above the map. Hatching eggs gives you pets that multiply what you earn.\n\nCodes in this game nearly always hand out timed boosts such as 2x Luck, 2x Hatch Speed or extra shiny chance, lasting anywhere from minutes to several hours. They work best stacked with the weekend 2x Luck and Hatch Speed event before a long egg-hatching session. New codes tend to arrive with seasonal updates and are printed in the game description.",
   "codes": [
     {
-      "code": "Radioactive",
-      "reward": "12 hours of 2x Luck & 2x Hatch Speed",
+      "code": "winter",
+      "reward": "8 Hours of 2x Luck & Hatch Speed",
       "status": "active",
-      "firstSeen": "2026-10-22T17:06:44.312Z",
-      "lastSeen": "2026-11-06T19:19:50.024Z",
+      "firstSeen": "2026-11-07T00:53:47.137Z",
+      "lastSeen": "2026-11-07T00:53:47.137Z",
       "source": "description",
       "approved": false,
-      "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
+      "context": "Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed!"
     },
     {
-      "code": "DumbPumpkin",
-      "reward": "12 hours of 2x Luck & 2x Hatch Speed",
+      "code": "yeti",
+      "reward": "8 Hours of 2x Luck & Hatch Speed",
       "status": "active",
-      "firstSeen": "2026-10-22T17:06:44.312Z",
-      "lastSeen": "2026-11-06T19:19:50.024Z",
+      "firstSeen": "2026-11-07T00:53:47.137Z",
+      "lastSeen": "2026-11-07T00:53:47.137Z",
       "source": "description",
       "approved": false,
-      "context": "Use codes 'Radioactive' & 'DumbPumpkin' for 12 hours of 2x Luck & 2x Hatch Speed!"
+      "context": "Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed!"
     }
   ],
   "expired": [
@@ -76,17 +76,17 @@
     }
   ],
   "stats": {
-    "playing": 1388,
-    "visits": 1254142443,
-    "favorites": 3320129,
-    "updated": "2026-11-04T05:46:02.526Z",
+    "playing": 2366,
+    "visits": 1254156699,
+    "favorites": 3320122,
+    "updated": "2026-11-07T00:14:23.698Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055809,
-    "downVotes": 136816
+    "upVotes": 1055811,
+    "downVotes": 136815
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-11-06T19:19:50.024Z",
+  "lastChecked": "2026-11-07T00:53:47.137Z",
   "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
