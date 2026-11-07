@@ -1,0 +1,87 @@
+{
+  "slug": "plus-1-hacker-evolve",
+  "name": "+1 Hacker Evolve",
+  "robloxName": "[NEW] +1 Hacker Evolve",
+  "placeId": 75821372602076,
+  "universeId": 10772139684,
+  "gameUrl": "https://www.roblox.com/games/75821372602076/1-Hacker-Evolve",
+  "creator": "SimpleSim",
+  "genre": "Simulation",
+  "subgenre": "Incremental Simulator",
+  "icon": "plus-1-hacker-evolve-icon.webp",
+  "thumb": "plus-1-hacker-evolve-thumb.webp",
+  "autoApprove": false,
+  "draft": false,
+  "redeem": [
+    "Launch +1 Hacker Evolve and wait until you spawn in the lobby.",
+    "Click the Shop button on the left side of the screen.",
+    "Scroll down past the packs and potions to the Redeem Codes box.",
+    "Type the code exactly as shown and press Redeem. It says \"Code redeemed!\" and the egg pops up right away."
+  ],
+  "notes": "+1 Hacker Evolve is a clicker simulator from SimpleSim that came out on Roblox on October 20, 2026. You click to earn Hacks, buy better laptops to earn more per click, level up and rebirth for bigger multipliers, and earn Wins in the hacking stages to spend on even bigger boosts. Training tables let you keep earning Hacks while you are AFK, and a short tutorial walks you through the first steps.\n\nI redeemed 200LIKES in-game on November 7. It gave me a Luck Potion with 2x Luck for 15 minutes, which showed up as a timer in the bottom left corner, and a free egg that hatched a Rare Parrot pet. I also tried 100LIKES, but it only said \"Invalid code!\".",
+  "faq": [
+    {
+      "q": "When is the next +1 Hacker Evolve code?",
+      "a": "The game description says a new code comes at 250 likes. The developers post new codes in the description, and I update this page when one shows up."
+    },
+    {
+      "q": "What did 200LIKES give me?",
+      "a": "A Luck Potion (2x Luck for 15 minutes) and a free egg. Mine hatched a Rare Parrot, which you can equip in the Pets menu."
+    },
+    {
+      "q": "Does 100LIKES still work?",
+      "a": "No. When I tried it on November 7 the box said \"Invalid code!\"."
+    }
+  ],
+  "tips": [
+    "Finish the 7-step tutorial at the top of the screen first. It walks you through wins, laptops, rebirths and evolving.",
+    "Rebirth as soon as your level bar is full. The Rebirth window shows the multiplier and max level before and after, so you can see what you gain.",
+    "Open Pets and press Equip Best after every egg, so your strongest pets boost your Hacks.",
+    "Use the training tables when you step away. The game keeps earning Hacks for you while you are AFK."
+  ],
+  "useRewards": "Redeem 200LIKES right before a long session, because the 2x Luck only lasts 15 minutes. Equip the pet from the free egg in the Pets menu straight away, then push through a few rebirths while the luck boost is running.",
+  "codes": [
+    {
+      "code": "200LIKES",
+      "reward": "2x Luck Potion (15 minutes) and a free pet egg",
+      "status": "active",
+      "firstSeen": "2026-11-07T19:58:58.754Z",
+      "lastSeen": "2026-11-07T21:00:00.000Z",
+      "source": "manual",
+      "approved": true,
+      "context": "Use code \"200LIKES\" for FREE rewards!",
+      "approvedAt": "2026-11-07T21:00:00.000Z",
+      "tested": "2026-11-07",
+      "sources": []
+    }
+  ],
+  "expired": [
+    {
+      "code": "100LIKES",
+      "reward": null,
+      "removed": "2026-11-07",
+      "approved": true,
+      "reason": "expired"
+    }
+  ],
+  "stats": {
+    "playing": 4344,
+    "visits": 735605,
+    "favorites": 16331,
+    "updated": "2026-11-07T06:52:52.423Z",
+    "created": "2026-10-20T20:52:43.241Z"
+  },
+  "added": "2026-11-07T19:58:58.754Z",
+  "lastChecked": "2026-11-07T19:58:58.754Z",
+  "lastChanged": "2026-11-07T21:00:00.000Z",
+  "codeChannels": "The game description says a new code comes when the game reaches 250 likes, so liking the game helps unlock the next one",
+  "redeemImage": "plus-1-hacker-evolve-redeem.webp",
+  "redeemCaption": "Right after redeeming 200LIKES: \"Code redeemed!\", a Luck Potion with 2x Luck for 15:00, and a free egg to hatch.",
+  "redeemShots": [
+    {
+      "file": "plus-1-hacker-evolve-rebirth.webp",
+      "caption": "The Rebirth window shows your multiplier and max level before and after you rebirth."
+    }
+  ],
+  "checkedInGame": "2026-11-07"
+}
