@@ -1,7 +1,7 @@
 {
   "slug": "anime-fighting-simulator",
   "name": "Anime Fighting Simulator",
-  "robloxName": "[🌀 UPDATE 12] Anime Fighting Simulator",
+  "robloxName": "[🔥UPDATE 13] Anime Fighting Simulator",
   "placeId": 100429474155186,
   "universeId": 10321202755,
   "gameUrl": "https://www.roblox.com/games/100429474155186/Anime-Fighting-Simulator",
@@ -21,17 +21,25 @@
   "notes": "Anime Fighting Simulator is a training and combat game published by the Anime Fighting Simulator | BZ group, and this version went live on Roblox in June 2026. You build up your stats through training, unlock powers drawn from popular anime series, and take on bosses and other players, while summoning champions that train and fight next to you. Mounts, auras, weapons and titles round out the collection side.\n\nCodes here are usually large bundles of Chikara and Tensei Shards, stat, yen and training boosts, trait rerolls, and event tokens such as Clover Tokens. Those resources shorten the long stat grind and pay for rerolls. The developers post new codes in their Discord and on the game page, usually tied to updates, member milestones, or compensation after downtime.",
   "codes": [
     {
-      "code": "HALLOWEEN",
+      "code": "SSJGOD",
       "reward": "FREE rewards",
       "status": "active",
-      "firstSeen": "2026-10-11T05:41:14.580Z",
-      "lastSeen": "2026-11-07T21:45:47.716Z",
+      "firstSeen": "2026-11-08T05:55:42.687Z",
+      "lastSeen": "2026-11-08T05:55:42.687Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-13T01:59:57.458Z"
+      "approved": false,
+      "context": "Use Code \"SSJGOD\" for FREE rewards!"
     }
   ],
   "expired": [
+    {
+      "code": "HALLOWEEN",
+      "reward": "FREE rewards",
+      "removed": "2026-11-08",
+      "firstSeen": "2026-10-11T05:41:14.580Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "CLOVERPASS",
       "reward": "1k Clover Tokens, 1k Tensei Shards, 2.5k Chikara Shards",
@@ -42,18 +50,18 @@
     }
   ],
   "stats": {
-    "playing": 3804,
-    "visits": 58564966,
-    "favorites": 529557,
-    "updated": "2026-11-01T12:19:16.268Z",
+    "playing": 4217,
+    "visits": 58640295,
+    "favorites": 529800,
+    "updated": "2026-11-08T01:52:59.94Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 183668,
-    "downVotes": 3256
+    "upVotes": 183763,
+    "downVotes": 3260
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-11-07T21:45:47.716Z",
-  "lastChanged": "2026-10-13T01:59:57.458Z",
+  "lastChecked": "2026-11-08T05:55:42.687Z",
+  "lastChanged": "2026-11-08T05:55:42.687Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

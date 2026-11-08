@@ -65,17 +65,17 @@
     }
   ],
   "stats": {
-    "playing": 3536,
-    "visits": 767418,
-    "favorites": 17000,
+    "playing": 2051,
+    "visits": 856605,
+    "favorites": 19392,
     "updated": "2026-11-07T20:33:21.493Z",
     "created": "2026-10-20T20:52:43.241Z",
     "maxPlayers": 9,
-    "upVotes": 528,
-    "downVotes": 77
+    "upVotes": 609,
+    "downVotes": 82
   },
   "added": "2026-11-07T19:58:58.754Z",
-  "lastChecked": "2026-11-07T21:45:47.716Z",
+  "lastChecked": "2026-11-08T05:55:42.687Z",
   "lastChanged": "2026-11-07T21:00:00.000Z",
   "codeChannels": "The game description says a new code comes when the game reaches 250 likes, so liking the game helps unlock the next one",
   "redeemImage": "plus-1-hacker-evolve-redeem.webp",
