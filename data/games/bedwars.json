@@ -21,16 +21,16 @@
   "codes": [],
   "expired": [],
   "stats": {
-    "playing": 32801,
-    "visits": 11834003597,
-    "favorites": 4659044,
-    "updated": "2026-11-08T09:26:35.871Z",
+    "playing": 26620,
+    "visits": 11834614934,
+    "favorites": 4659333,
+    "updated": "2026-11-09T00:22:39.918Z",
     "created": "2021-05-27T15:14:38.887Z",
     "maxPlayers": 40,
-    "upVotes": 2492659,
-    "downVotes": 535935
+    "upVotes": 2492778,
+    "downVotes": 535943
   },
   "added": "2026-09-29T17:09:01.875Z",
-  "lastChecked": "2026-11-08T19:38:47.031Z",
+  "lastChecked": "2026-11-09T00:49:41.286Z",
   "lastChanged": "2026-09-29T17:09:01.875Z"
 }
