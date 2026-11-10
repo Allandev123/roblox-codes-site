@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-11-09T22:16:39.527Z",
+      "lastSeen": "2026-11-10T07:11:26.269Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-08T19:38:47.031Z",
-      "lastSeen": "2026-11-09T22:16:39.527Z",
+      "lastSeen": "2026-11-10T07:11:26.269Z",
       "source": "description",
       "approved": false,
       "context": "LIMITED CODE: \"KingComing\""
@@ -43,17 +43,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 1520,
-    "visits": 31894578,
-    "favorites": 397661,
+    "playing": 1198,
+    "visits": 31952133,
+    "favorites": 398131,
     "updated": "2026-11-08T14:19:59.873Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 56228,
-    "downVotes": 3412
+    "upVotes": 56288,
+    "downVotes": 3416
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-11-09T22:16:39.527Z",
+  "lastChecked": "2026-11-10T07:11:26.269Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
