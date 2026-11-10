@@ -25,7 +25,7 @@
       "reward": "5,000 cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "300 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "500 gold",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "2 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -85,7 +85,7 @@
       "reward": "3 spins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -95,7 +95,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T21:20:16.715Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:59.115Z"
@@ -105,7 +105,7 @@
       "reward": "2 FREE SPINS",
       "status": "active",
       "firstSeen": "2026-11-09T00:49:41.286Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": false,
       "context": "NEW CODE: INFERNO — 2 FREE SPINS!"
@@ -113,17 +113,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 327,
-    "visits": 16569704,
-    "favorites": 448541,
+    "playing": 357,
+    "visits": 16579853,
+    "favorites": 448676,
     "updated": "2026-11-09T19:32:57.665Z",
     "created": "2026-08-05T14:47:20.106Z",
     "maxPlayers": 6,
-    "upVotes": 103272,
-    "downVotes": 1891
+    "upVotes": 103295,
+    "downVotes": 1895
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-11-10T07:11:26.269Z",
+  "lastChecked": "2026-11-10T16:59:56.952Z",
   "lastChanged": "2026-10-13T01:59:59.115Z",
   "faq": [
     {

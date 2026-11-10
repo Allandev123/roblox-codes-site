@@ -25,7 +25,7 @@
       "reward": "2x Gold boost",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:46.310Z",
-      "lastSeen": "2026-11-10T07:11:26.269Z",
+      "lastSeen": "2026-11-10T16:59:56.952Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:57.797Z"
@@ -33,16 +33,16 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 2609,
-    "visits": 211680281,
-    "favorites": 331123,
+    "playing": 2958,
+    "visits": 211692973,
+    "favorites": 331187,
     "updated": "2026-11-02T05:19:59.418Z",
     "created": "2022-02-20T17:07:04.26Z",
     "maxPlayers": 12,
-    "upVotes": 126830,
-    "downVotes": 9949
+    "upVotes": 126832,
+    "downVotes": 9948
   },
   "added": "2026-09-29T16:13:46.310Z",
-  "lastChecked": "2026-11-10T07:11:26.269Z",
+  "lastChecked": "2026-11-10T16:59:56.952Z",
   "lastChanged": "2026-10-13T01:59:57.797Z"
 }
