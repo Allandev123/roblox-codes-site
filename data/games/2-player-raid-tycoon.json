@@ -25,7 +25,7 @@
       "reward": "1,000 Cash, 1 Guard Ticket",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:40.375Z",
-      "lastSeen": "2026-11-10T16:59:56.952Z",
+      "lastSeen": "2026-11-10T23:15:06.853Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-02T10:56:19.672Z",
-      "lastSeen": "2026-11-10T16:59:56.952Z",
+      "lastSeen": "2026-11-10T23:15:06.853Z",
       "source": "description",
       "approved": false,
       "context": "USE CODE 'TY14000' IN THE SHOP!!!"
@@ -68,17 +68,17 @@
     }
   ],
   "stats": {
-    "playing": 792,
-    "visits": 12853763,
-    "favorites": 51394,
+    "playing": 559,
+    "visits": 12868666,
+    "favorites": 51435,
     "updated": "2026-11-09T21:18:14.23Z",
     "created": "2026-09-05T01:40:15.35Z",
     "maxPlayers": 12,
-    "upVotes": 14580,
-    "downVotes": 1845
+    "upVotes": 14595,
+    "downVotes": 1846
   },
   "added": "2026-09-29T16:13:40.375Z",
-  "lastChecked": "2026-11-10T16:59:56.952Z",
+  "lastChecked": "2026-11-10T23:15:06.853Z",
   "lastChanged": "2026-11-02T10:56:19.672Z",
   "faq": [
     {
