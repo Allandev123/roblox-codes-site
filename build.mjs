@@ -64,7 +64,7 @@ write('favicon-32.png', await roundLogo(32));
 write('favicon.ico', await roundLogo(32));
 write('logo-64.png', logo64);
 write('apple-touch-icon.png', await sharp(LOGO_SRC).resize(180, 180).png().toBuffer()); // iOS rounds the corners itself
-write('logo-512.png', await roundLogo(512));
+write('logo-512.png', await sharp(await roundLogo(512)).png({ palette: true, quality: 85 }).toBuffer()); // only used in structured data and as a fallback icon
 
 // ---------------------------------------------------------------- games
 
@@ -89,7 +89,12 @@ for (const g of all) {
   const why = draftReason(g);
   if (why) { drafts.push(`${g.slug}: ${why}`); continue; }
   const live = liveCodes(g).sort((a, b) => Date.parse(b.firstSeen) - Date.parse(a.firstSeen));
-  const month = monthYear(g.lastChanged);
+  // the month in the title is the month of the last check (the scraper re-reads every game's sources each run)
+  const checked = g.lastChecked ?? g.lastChanged;
+  const month = monthYear(checked);
+  // when the page itself last changed: a code change, or the month in its title rolling over
+  const monthStart = checked.slice(0, 7) + '-01T00:00:00.000Z';
+  const changed = [g.lastChanged, monthStart, g.published ?? g.added].filter(Boolean).sort().pop();
   const tag = updateTag(g);
   const h1 = `${g.name} Codes (${month})${tag ? ` [${tag}]` : ''}`;
   views.push({
@@ -101,7 +106,7 @@ for (const g of all) {
     og: `/og/${g.slug}.jpg`,
     h1,
     tag,
-    month,
+    month, checked, changed,
     isNew: c => isFresh(c, (site.newCodeDays ?? 3) * DAY),
     recentNew: live.filter(c => isFresh(c, (site.newCodeDays ?? 3) * DAY)).length,
     // newest code on the page; the browser compares it with the last visit
@@ -141,8 +146,8 @@ site.footerGames = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.st
 function gameTitle(v) {
   const n = v.g.name;
   const tg = v.tag ? ` [${v.tag}]` : '';
-  for (const t of [`${n} Codes (${v.month})${tg} - ${site.siteName}`, `${n} Codes (${v.month})${tg}`, `${n} Codes (${v.month}) - ${site.siteName}`, `${n} Codes (${shortMonthYear(v.g.lastChanged)}) - ${site.siteName}`,
-    `${n} Codes (${v.month})`, `${n} Codes (${shortMonthYear(v.g.lastChanged)})`, `${n} Codes`]) {
+  for (const t of [`${n} Codes (${v.month})${tg} - ${site.siteName}`, `${n} Codes (${v.month})${tg}`, `${n} Codes (${v.month}) - ${site.siteName}`, `${n} Codes (${shortMonthYear(v.checked)}) - ${site.siteName}`,
+    `${n} Codes (${v.month})`, `${n} Codes (${shortMonthYear(v.checked)})`, `${n} Codes`]) {
     if (t.length <= 60) return t;
   }
   return clip(`${n} Codes`, 60);
@@ -175,11 +180,11 @@ function related(v) {
 // The person behind the site: bylines, the Article author, the author page.
 const AUTHOR = site.author;
 const PERSON = {
-  '@type': 'Person', name: AUTHOR.name, url: site.url + authorPath(site),
+  '@type': 'Person', '@id': `${site.url}${authorPath(site)}#person`, name: AUTHOR.name, url: site.url + authorPath(site),
   image: `${site.url}/img/${AUTHOR.image}`,
   sameAs: [AUTHOR.youtube, AUTHOR.roblox, AUTHOR.discord].filter(Boolean),
 };
-const ORG = { '@type': 'Organization', name: site.siteName, url: site.url + '/', logo: { '@type': 'ImageObject', url: `${site.url}/logo-512.png`, width: 512, height: 512 } };
+const ORG = { '@type': 'Organization', '@id': `${site.url}/#org`, sameAs: [AUTHOR.youtube, AUTHOR.discord].filter(Boolean), name: site.siteName, url: site.url + '/', logo: { '@type': 'ImageObject', url: `${site.url}/logo-512.png`, width: 512, height: 512 } };
 
 // images: copy only what published pages use, plus a 128px icon for cards
 for (const v of views) {
@@ -275,10 +280,11 @@ for (const v of views) {
       description: gameDescription(v),
       image: [`${site.url}${v.og}`],
       datePublished: g.published ?? g.added,
-      dateModified: g.lastChanged,
+      dateModified: v.changed,
       author: PERSON, publisher: ORG,
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-      about: { '@type': 'VideoGame', name: g.name, url: g.gameUrl, gamePlatform: 'Roblox' },
+      isPartOf: { '@id': `${site.url}/#website` },
+      about: { '@type': 'VideoGame', name: g.name, url: g.gameUrl, gamePlatform: 'Roblox', ...(g.icon ? { image: `${site.url}/img/${g.icon}` } : {}) },
     },
     {
       '@context': 'https://schema.org', '@type': 'BreadcrumbList',
@@ -298,7 +304,7 @@ for (const v of views) {
     // this game's own guides first, then the general ones
     body: gameBody({ site, v, related: related(v), guides: [...new Set([...guides.filter(gd => gd.games.includes(g.slug) && gd.games.length <= 2).slice(0, 2), ...guides.filter(gd => ['roblox-code-not-working', 'how-to-redeem-roblox-codes'].includes(gd.slug))])].slice(0, 3), total: views.length }),
   }));
-  pages.push({ path: v.path, lastmod: g.lastChanged });
+  pages.push({ path: v.path, lastmod: v.changed });
 }
 
 // ---------------------------------------------------------------- home
@@ -309,9 +315,8 @@ write('index.html', layout({
   site, assets, path: '/', modified: homeLastmod,
   title: `Roblox Codes (${monthYear(new Date().toISOString())}), Guides & News - ${site.siteName}`,
   description: clip(`Working codes for ${views.length} Roblox games, read from each game's official page every few hours and approved by hand, with rewards and redeem steps.`, 155),
-  preload: views.slice(0, 1).map(v => v.icon),
   jsonld: [{
-    '@context': 'https://schema.org', '@type': 'WebSite', name: site.siteName, url: site.url + '/',
+    '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, name: site.siteName, url: site.url + '/',
     description: site.description,
     publisher: ORG,
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${site.url}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },

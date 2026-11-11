@@ -45,9 +45,9 @@ function gameTile(v, { lazy = true } = {}) {
 }
 
 // A magazine-style post row: picture, kicker, title, short intro, byline.
-function postRow({ href, img, kicker, title, text, meta, lazy = true }) {
+function postRow({ href, img, kicker, title, text, meta, lazy = true, prio = false }) {
   return `<li><a class="post" href="${href}">
-    ${img ? `<img src="${esc(small(img))}" alt="${esc(title)}" width="480" height="270"${lazy ? ' loading="lazy"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
+    ${img ? `<img src="${esc(small(img))}" alt="${esc(title)}" width="480" height="270"${lazy ? ' loading="lazy"' : ''}${prio ? ' fetchpriority="high"' : ''} decoding="async">` : '<span class="card-blank" aria-hidden="true"></span>'}
     <span class="post-text">
       <span class="kicker">${esc(kicker)}</span>
       <h3>${esc(title)}</h3>
@@ -121,7 +121,7 @@ export function homeBody({ site, views, guides = [], posts = [], lastCheck }) {
   <section class="mag-main" aria-labelledby="latest-h">
     <div class="sec-head"><h2 id="latest-h">Latest</h2><a class="aside" href="#games">All ${views.length} games</a></div>
     <ul class="posts">
-${feed.map((x, i) => postRow({ ...x, lazy: i > 1 })).join('\n')}
+${feed.map((x, i) => postRow({ ...x, lazy: i > 1, prio: i === 0 })).join('\n')}
     </ul>
   </section>
   <aside class="mag-side" aria-label="More">
@@ -163,7 +163,7 @@ ${newest.map(({ v, c }) => `    <li>
   <div class="sec-head"><h2 id="games-h">All games</h2><span class="aside" id="games-aside">Most played first</span></div>
   <div class="field games-filter">${ICONS.search}<input id="games-q" type="search" placeholder="Search ${views.length} games..." aria-label="Search all games" autocomplete="off" enterkeyhint="search"></div>
   <ul class="tiles all">
-${byPlayers.map((v, i) => gameTile(v, { lazy: i > 11 })).join('\n')}
+${byPlayers.map(v => gameTile(v)).join('\n')}
   </ul>
   <div class="empty" id="no-results" hidden>
     <p>That game isn't on the site yet. <a href="/contact/">Tell me which one</a> and I'll look for its codes.</p>
@@ -250,7 +250,7 @@ export function gameBody({ site, v, related, guides = [], total }) {
     <img src="${v.iconLg}" alt="${esc(v.g.name)} icon" width="80" height="80">
   </div>
   <p class="dek">${dek(v)}</p>
-  <p class="byline"><img src="${avatar64(site)}" alt="${esc(site.author.name)}" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · ${v.live.every(c => c.source === 'manual') ? `codes updated ${ago(g.lastChanged)}` : `checked ${ago(g.lastChecked)}`} · <a href="/how-we-check-codes/">how I check</a></span></p>
+  <p class="byline"><img src="${avatar64(site)}" alt="${esc(site.author.name)}" width="36" height="36"><span>By <a href="${authorPath(site)}" rel="author">${esc(a.name)}</a> · checked ${ago(g.lastChecked)} · codes last changed ${dateShort(g.lastChanged)} ·<a href="/how-we-check-codes/">how I check</a></span></p>
 </header>
 
 <section class="sec" aria-labelledby="codes-h">

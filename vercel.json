@@ -179,6 +179,15 @@
           "value": "public, max-age=86400, stale-while-revalidate=604800"
         }
       ]
+    },
+    {
+      "source": "/(logo-64.png|logo-512.png|favicon.svg|favicon-32.png|favicon.ico|apple-touch-icon.png)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
     }
   ]
 }
