@@ -25,7 +25,7 @@
       "reward": "Golden potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:09.459Z",
-      "lastSeen": "2026-11-11T06:06:40.098Z",
+      "lastSeen": "2026-11-11T14:12:59.162Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Double Power potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:09.459Z",
-      "lastSeen": "2026-11-11T06:06:40.098Z",
+      "lastSeen": "2026-11-11T14:12:59.162Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "Double Win potion",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-11-11T06:06:40.098Z",
+      "lastSeen": "2026-11-11T14:12:59.162Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 191,
-    "visits": 31974057,
-    "favorites": 672398,
+    "playing": 273,
+    "visits": 31982748,
+    "favorites": 672554,
     "updated": "2026-08-14T09:36:54.643Z",
     "created": "2026-06-18T13:04:08.603Z",
     "maxPlayers": 20,
-    "upVotes": 23300,
-    "downVotes": 2119
+    "upVotes": 23301,
+    "downVotes": 2121
   },
   "added": "2026-09-29T16:14:09.459Z",
-  "lastChecked": "2026-11-11T06:06:40.098Z",
+  "lastChecked": "2026-11-11T14:12:59.162Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

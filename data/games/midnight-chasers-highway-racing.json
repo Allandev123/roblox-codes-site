@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-07T17:43:41.013Z",
-      "lastSeen": "2026-11-11T06:06:40.098Z",
+      "lastSeen": "2026-11-11T14:12:59.162Z",
       "source": "description",
       "approved": false,
       "context": "Current Code: \"ThanksFor1M\""
@@ -50,17 +50,17 @@
     }
   ],
   "stats": {
-    "playing": 2062,
-    "visits": 323763033,
-    "favorites": 6746425,
+    "playing": 2774,
+    "visits": 323822810,
+    "favorites": 6747667,
     "updated": "2026-11-07T17:40:50.67Z",
     "created": "2023-06-21T21:07:05.223Z",
     "maxPlayers": 14,
-    "upVotes": 1001641,
-    "downVotes": 25359
+    "upVotes": 1001786,
+    "downVotes": 25361
   },
   "added": "2026-09-29T16:13:42.003Z",
-  "lastChecked": "2026-11-11T06:06:40.098Z",
+  "lastChecked": "2026-11-11T14:12:59.162Z",
   "lastChanged": "2026-11-07T17:43:41.013Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

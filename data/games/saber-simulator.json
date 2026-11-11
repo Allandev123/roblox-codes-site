@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-06T19:19:50.024Z",
-      "lastSeen": "2026-11-11T06:06:40.098Z",
+      "lastSeen": "2026-11-11T14:12:59.162Z",
       "source": "description",
       "approved": false,
       "context": "New code \"LEAVESSS\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 1564,
-    "visits": 647760232,
-    "favorites": 2037789,
+    "playing": 1660,
+    "visits": 647779690,
+    "favorites": 2037805,
     "updated": "2026-11-06T19:15:05.487Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570889,
+    "upVotes": 570895,
     "downVotes": 90808
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-11-11T06:06:40.098Z",
+  "lastChecked": "2026-11-11T14:12:59.162Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
