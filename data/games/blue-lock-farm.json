@@ -25,7 +25,7 @@
       "reward": "Grade Tokens and potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:18.667Z",
-      "lastSeen": "2026-11-11T21:54:38.796Z",
+      "lastSeen": "2026-11-12T07:05:24.677Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5391,
-    "visits": 37982327,
-    "favorites": 606708,
+    "playing": 4030,
+    "visits": 38164568,
+    "favorites": 608195,
     "updated": "2026-11-09T04:58:29.944Z",
     "created": "2026-08-14T03:23:16.584Z",
     "maxPlayers": 8,
-    "upVotes": 60230,
-    "downVotes": 1181
+    "upVotes": 60379,
+    "downVotes": 1184
   },
   "added": "2026-09-29T16:13:18.667Z",
-  "lastChecked": "2026-11-11T21:54:38.796Z",
+  "lastChecked": "2026-11-12T07:05:24.677Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

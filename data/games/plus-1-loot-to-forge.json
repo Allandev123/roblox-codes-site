@@ -25,7 +25,7 @@
       "reward": "2 Race Rolls and 1 Watermelon",
       "status": "active",
       "firstSeen": "2026-10-15T13:39:01.221Z",
-      "lastSeen": "2026-11-11T21:54:38.796Z",
+      "lastSeen": "2026-11-12T07:05:24.677Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-15T13:39:08.781Z",
@@ -36,7 +36,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-17T10:37:13.721Z",
-      "lastSeen": "2026-11-11T21:54:38.796Z",
+      "lastSeen": "2026-11-12T07:05:24.677Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-18T14:00:44.747Z"
@@ -46,7 +46,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-06T10:47:23.429Z",
-      "lastSeen": "2026-11-11T21:54:38.796Z",
+      "lastSeen": "2026-11-12T07:05:24.677Z",
       "source": "description",
       "approved": false,
       "context": "NEW CODE:HALLOWEEN\\PET\\1BVISITS"
@@ -79,17 +79,17 @@
     }
   ],
   "stats": {
-    "playing": 2283,
-    "visits": 97707428,
-    "favorites": 3711097,
+    "playing": 2627,
+    "visits": 97766686,
+    "favorites": 3712894,
     "updated": "2026-11-11T07:03:03.087Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 177507,
-    "downVotes": 6286
+    "upVotes": 177560,
+    "downVotes": 6291
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-11-11T21:54:38.796Z",
+  "lastChecked": "2026-11-12T07:05:24.677Z",
   "lastChanged": "2026-10-18T14:00:44.747Z",
   "faq": [
     {
