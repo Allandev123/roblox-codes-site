@@ -25,7 +25,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-11-08T05:55:42.687Z",
-      "lastSeen": "2026-11-12T23:33:56.019Z",
+      "lastSeen": "2026-11-13T06:36:00.112Z",
       "source": "description",
       "approved": false,
       "context": "Use Code \"SSJGOD\" for FREE rewards!"
@@ -50,17 +50,17 @@
     }
   ],
   "stats": {
-    "playing": 3143,
-    "visits": 59045790,
-    "favorites": 532161,
+    "playing": 2978,
+    "visits": 59066603,
+    "favorites": 532263,
     "updated": "2026-11-11T01:02:42.05Z",
     "created": "2026-06-13T17:13:16.808Z",
     "maxPlayers": 24,
-    "upVotes": 184329,
-    "downVotes": 3296
+    "upVotes": 184369,
+    "downVotes": 3297
   },
   "added": "2026-09-29T16:13:30.684Z",
-  "lastChecked": "2026-11-12T23:33:56.019Z",
+  "lastChecked": "2026-11-13T06:36:00.112Z",
   "lastChanged": "2026-11-08T05:55:42.687Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
