@@ -18,4 +18,4 @@ node scripts/review.mjs
 | +1 Hacker Evolve | `600LIKES` | FREE rewards | 2026-11-08 19:38 UTC | Use code "600LIKES" for FREE rewards! |
 | +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:HALLOWEEN\PET\1BVISITS |
 | Roll a Fisherman | `INFERNO` | 2 FREE SPINS | 2026-11-09 00:49 UTC | NEW CODE: INFERNO — 2 FREE SPINS! |
-| Saber Simulator (draft) | `LEAVESSS` |  | 2026-11-06 19:19 UTC | New code "LEAVESSS" |
+| Saber Simulator (draft) | `FRIDAYTHE13TH` |  | 2026-11-13 23:29 UTC | New code "FRIDAYTHE13TH" |

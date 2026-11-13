@@ -21,14 +21,14 @@
   "notes": "Saber Simulator is an HD Games title built on a simple loop: swing your saber to build Strength, sell that Strength for Coins, and spend the Coins on stronger sabers and upgrades from the shop. Strength also decides how hard you hit when fighting other players, and leaderboards rank the strongest. Crowns are a second currency tied to pets and progression, and updates keep adding classes, sabers and eggs.\n\nCodes mostly give Shiny, Rainbow and Void Charms, which go into powering up pets, along with Crowns and sometimes Coins. HD Games announces codes in its changelogs, Discord, X account and Roblox group, often with seasonal updates like the fall code in the current description.",
   "codes": [
     {
-      "code": "LEAVESSS",
+      "code": "FRIDAYTHE13TH",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-11-06T19:19:50.024Z",
-      "lastSeen": "2026-11-13T17:10:00.647Z",
+      "firstSeen": "2026-11-13T23:29:47.718Z",
+      "lastSeen": "2026-11-13T23:29:47.718Z",
       "source": "description",
       "approved": false,
-      "context": "New code \"LEAVESSS\""
+      "context": "New code \"FRIDAYTHE13TH\""
     }
   ],
   "expired": [
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 1630,
-    "visits": 647894086,
-    "favorites": 2037900,
-    "updated": "2026-11-06T19:15:05.487Z",
+    "playing": 1693,
+    "visits": 647910297,
+    "favorites": 2037911,
+    "updated": "2026-11-13T18:10:15.589Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570910,
-    "downVotes": 90810
+    "upVotes": 570912,
+    "downVotes": 90811
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-11-13T17:10:00.647Z",
+  "lastChecked": "2026-11-13T23:29:47.718Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
