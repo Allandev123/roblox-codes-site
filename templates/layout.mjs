@@ -77,7 +77,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
 ${consentDefaults(site)}
 ${analytics(site.analyticsId)}
 ${site.vercelAnalytics ? '<script defer src="/_vercel/insights/script.js"></script>' : ''}
-${noindex ? '' : adsense(site.adsense?.client)}
+${ads && !noindex ? adsense(site.adsense?.client) : ''}
 </head>
 <body id="top">
 <a class="skip" href="#main">Skip to content</a>

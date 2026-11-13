@@ -128,7 +128,7 @@ ${feed.map((x, i) => postRow({ ...x, lazy: i > 1, prio: i === 0 })).join('\n')}
     <section class="side-box" aria-labelledby="ru-h">
       <h2 id="ru-h">Recently updated</h2>
       <ul class="side-list">
-${views.slice(0, 10).map(v => `        <li><a href="${v.path}"><b>${esc(v.g.name)} Codes (${esc(v.month)})</b><span>Updated ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'code')}</span></a></li>`).join('\n')}
+${views.slice(0, 10).map(v => `        <li><a href="${v.path}"><b>${esc(v.g.name)} Codes${esc(v.when)}</b><span>Updated ${dateShort(v.g.lastChanged)} · ${plural(v.live.length, 'code')}</span></a></li>`).join('\n')}
       </ul>
     </section>
     <section class="side-box" aria-labelledby="pop-h">

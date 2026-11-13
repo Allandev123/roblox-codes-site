@@ -124,7 +124,8 @@ noCodes.length ? fail('published game pages with zero codes', noCodes) : ok('eve
   const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].slice(site.url.length));
   const lastmods = [...sm.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map(m => m[1]);
   const badLoc = locs.filter(l => !exists(l));
-  const expected = pages.map(rel).filter(r => r !== '/404.html').map(r => r.replace(/index\.html$/, ''));
+  // pages marked noindex (thin code pages) are left out of the sitemap on purpose
+  const expected = pages.filter(p => !fs.readFileSync(p, 'utf8').includes('<meta name="robots" content="noindex">')).map(rel).filter(r => r !== '/404.html').map(r => r.replace(/index\.html$/, ''));
   const unlisted = expected.filter(p => !locs.includes(p));
   const badMod = lastmods.filter(d => isNaN(Date.parse(d)));
   (badLoc.length || unlisted.length || badMod.length || lastmods.length !== locs.length)

@@ -89,14 +89,17 @@ for (const g of all) {
   const why = draftReason(g);
   if (why) { drafts.push(`${g.slug}: ${why}`); continue; }
   const live = liveCodes(g).sort((a, b) => Date.parse(b.firstSeen) - Date.parse(a.firstSeen));
-  // the month in the title is the month of the last check (the scraper re-reads every game's sources each run)
   const checked = g.lastChecked ?? g.lastChanged;
-  const month = monthYear(checked);
-  // when the page itself last changed: a code change, or the month in its title rolling over
-  const monthStart = checked.slice(0, 7) + '-01T00:00:00.000Z';
-  const changed = [g.lastChanged, monthStart, g.published ?? g.added].filter(Boolean).sort().pop();
+  // a month in the title only while the list is fresh: codes changed in the last 31 days
+  const fresh = NOW - Date.parse(g.lastChanged) < 31 * DAY;
+  const month = fresh ? monthYear(checked) : '';
+  const when = month ? ` (${month})` : '';
+  // when the page itself last changed: only a real code change counts
+  const changed = [g.lastChanged, g.published ?? g.added].filter(Boolean).sort().pop();
+  // one code or none and nothing of my own on the page (no tested code, no screenshot): kept for visitors, hidden from search
+  const thin = live.length <= 1 && !(g.redeemImage || g.redeemShots?.length || live.some(c => c.tested));
   const tag = updateTag(g);
-  const h1 = `${g.name} Codes (${month})${tag ? ` [${tag}]` : ''}`;
+  const h1 = `${g.name} Codes${when}${tag ? ` [${tag}]` : ''}`;
   views.push({
     g, live,
     path: `/${g.slug}-codes/`,
@@ -106,7 +109,7 @@ for (const g of all) {
     og: `/og/${g.slug}.jpg`,
     h1,
     tag,
-    month, checked, changed,
+    month, when, checked, changed, thin,
     isNew: c => isFresh(c, (site.newCodeDays ?? 3) * DAY),
     recentNew: live.filter(c => isFresh(c, (site.newCodeDays ?? 3) * DAY)).length,
     // newest code on the page; the browser compares it with the last visit
@@ -146,8 +149,9 @@ site.footerGames = [...views].sort((a, b) => (b.g.stats?.playing ?? 0) - (a.g.st
 function gameTitle(v) {
   const n = v.g.name;
   const tg = v.tag ? ` [${v.tag}]` : '';
-  for (const t of [`${n} Codes (${v.month})${tg} - ${site.siteName}`, `${n} Codes (${v.month})${tg}`, `${n} Codes (${v.month}) - ${site.siteName}`, `${n} Codes (${shortMonthYear(v.checked)}) - ${site.siteName}`,
-    `${n} Codes (${v.month})`, `${n} Codes (${shortMonthYear(v.checked)})`, `${n} Codes`]) {
+  const sh = v.month ? ` (${shortMonthYear(v.checked)})` : '';
+  for (const t of [`${n} Codes${v.when}${tg} - ${site.siteName}`, `${n} Codes${v.when}${tg}`, `${n} Codes${v.when} - ${site.siteName}`, `${n} Codes${sh} - ${site.siteName}`,
+    `${n} Codes${v.when}`, `${n} Codes${sh}`, `${n} Codes`]) {
     if (t.length <= 60) return t;
   }
   return clip(`${n} Codes`, 60);
@@ -158,7 +162,7 @@ function gameDescription(v) {
   const n = v.live.length;
   const topCode = v.live.find(c => c.reward);
   const top = topCode?.reward.replace(/[.!]+$/, '');
-  const lead = `${plural(n, `working ${v.g.name} code`)} for ${v.month}`;
+  const lead = `${plural(n, `working ${v.g.name} code`)}${v.month ? ` for ${v.month}` : ''}`;
   const parts = [
     n === 1 && top ? `${lead}: ${topCode.code} gives ${top}.` : `${lead}${top ? `, including ${top}` : ''}.`,
     'Checked every few hours, with rewards and how to redeem.',
@@ -269,7 +273,7 @@ for (const v of views) {
   await og(g.slug, {
     background: g.thumb ? path.join(IMAGES_DIR, g.thumb) : null,
     title: g.name, kicker: 'CODES',
-    sub: `${plural(v.live.length, 'working code')} · ${v.month}`,
+    sub: `${plural(v.live.length, 'working code')}${v.month ? ` · ${v.month}` : ''}`,
   }, `og/${g.slug}.jpg`);
 
   const url = site.url + v.path;
@@ -300,11 +304,12 @@ for (const v of views) {
     description: gameDescription(v),
     ogImage: site.url + v.og, ogType: 'article',
     jsonld,
+    noindex: v.thin,
     ads: true,
     // this game's own guides first, then the general ones
     body: gameBody({ site, v, related: related(v), guides: [...new Set([...guides.filter(gd => gd.games.includes(g.slug) && gd.games.length <= 2).slice(0, 2), ...guides.filter(gd => ['roblox-code-not-working', 'how-to-redeem-roblox-codes'].includes(gd.slug))])].slice(0, 3), total: views.length }),
   }));
-  pages.push({ path: v.path, lastmod: v.changed });
+  if (!v.thin) pages.push({ path: v.path, lastmod: v.changed });
 }
 
 // ---------------------------------------------------------------- home
