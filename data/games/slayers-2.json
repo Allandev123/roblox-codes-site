@@ -1,7 +1,7 @@
 {
   "slug": "slayers-2",
   "name": "Slayers 2",
-  "robloxName": "Slayers 2",
+  "robloxName": "[MAINTENANCE] Slayers 2",
   "placeId": 16205713724,
   "universeId": 5595353122,
   "gameUrl": "https://www.roblox.com/games/16205713724/Slayers-2",
@@ -141,17 +141,17 @@
     }
   ],
   "stats": {
-    "playing": 3914,
-    "visits": 152803012,
-    "favorites": 548624,
-    "updated": "2026-11-13T03:36:15.835Z",
+    "playing": 11,
+    "visits": 152923361,
+    "favorites": 548835,
+    "updated": "2026-11-13T16:58:58.223Z",
     "created": "2024-02-02T04:01:23.877Z",
     "maxPlayers": 1,
-    "upVotes": 959463,
-    "downVotes": 25119
+    "upVotes": 959634,
+    "downVotes": 25129
   },
   "added": "2026-09-29T17:52:30.151Z",
-  "lastChecked": "2026-11-13T06:36:00.112Z",
+  "lastChecked": "2026-11-13T17:10:00.647Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {

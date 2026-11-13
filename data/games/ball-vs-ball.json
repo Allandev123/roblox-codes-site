@@ -1,7 +1,7 @@
 {
   "slug": "ball-vs-ball",
   "name": "Ball VS Ball",
-  "robloxName": "Ball VS Ball [RANKED]",
+  "robloxName": "Ball VS Ball [Trading Plaza]",
   "placeId": 96510596525082,
   "universeId": 10685282333,
   "gameUrl": "https://www.roblox.com/games/96510596525082/Ball-VS-Ball",
@@ -98,17 +98,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 9500,
-    "visits": 200733656,
-    "favorites": 251549,
-    "updated": "2026-11-12T09:24:48.166Z",
+    "playing": 13661,
+    "visits": 201522510,
+    "favorites": 252105,
+    "updated": "2026-11-13T16:05:11.207Z",
     "created": "2026-08-12T02:57:56.96Z",
     "maxPlayers": 25,
-    "upVotes": 368881,
-    "downVotes": 47900
+    "upVotes": 369408,
+    "downVotes": 48012
   },
   "added": "2026-09-29T18:35:31.549Z",
-  "lastChecked": "2026-11-13T06:36:00.112Z",
+  "lastChecked": "2026-11-13T17:10:00.647Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
