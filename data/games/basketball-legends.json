@@ -1,7 +1,7 @@
 {
   "slug": "basketball-legends",
   "name": "Basketball Legends",
-  "robloxName": "[🎃]🏀Basketball Legends🏀",
+  "robloxName": "[UPD]🏀Basketball Legends🏀",
   "placeId": 14259168147,
   "universeId": 4931927012,
   "gameUrl": "https://www.roblox.com/games/14259168147/Basketball-Legends",
@@ -142,17 +142,17 @@
     }
   ],
   "stats": {
-    "playing": 4576,
-    "visits": 784287810,
-    "favorites": 712941,
-    "updated": "2026-11-08T22:20:32.787Z",
+    "playing": 3861,
+    "visits": 784436460,
+    "favorites": 713074,
+    "updated": "2026-11-14T01:00:53.166Z",
     "created": "2023-07-31T07:11:02.877Z",
     "maxPlayers": 10,
-    "upVotes": 685641,
-    "downVotes": 111488
+    "upVotes": 685803,
+    "downVotes": 111513
   },
   "added": "2026-09-29T18:35:33.123Z",
-  "lastChecked": "2026-11-13T23:29:47.718Z",
+  "lastChecked": "2026-11-14T06:13:49.566Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "slop-tower-defense",
   "name": "Slop Tower Defense!",
-  "robloxName": "[👑PLAZA👑] Slop Tower Defense! 💔",
+  "robloxName": "[🔗FOREVER QUESTS🔗] Slop Tower Defense! 💔",
   "placeId": 134459712190924,
   "universeId": 10529769390,
   "gameUrl": "https://www.roblox.com/games/134459712190924/Slop-Tower-Defense",
@@ -25,7 +25,7 @@
       "reward": "900 Cash",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:25.213Z",
-      "lastSeen": "2026-11-13T23:29:47.718Z",
+      "lastSeen": "2026-11-14T06:13:49.566Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 712,
-    "visits": 33927341,
-    "favorites": 19837,
-    "updated": "2026-11-13T20:54:52.882Z",
+    "playing": 922,
+    "visits": 33953388,
+    "favorites": 19833,
+    "updated": "2026-11-14T06:10:40.677Z",
     "created": "2026-07-19T09:49:58.806Z",
     "maxPlayers": 20,
-    "upVotes": 13262,
-    "downVotes": 4114
+    "upVotes": 13261,
+    "downVotes": 4133
   },
   "added": "2026-09-29T16:13:25.213Z",
-  "lastChecked": "2026-11-13T23:29:47.718Z",
+  "lastChecked": "2026-11-14T06:13:49.566Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
