@@ -1,7 +1,7 @@
 {
   "slug": "command-an-army",
   "name": "Command An Army",
-  "robloxName": "[⚓ NAVAL] Command An Army",
+  "robloxName": "[💥 GUNPOWDER] Command An Army",
   "placeId": 101770480176177,
   "universeId": 10258991999,
   "gameUrl": "https://www.roblox.com/games/101770480176177/Command-An-Army",
@@ -222,17 +222,17 @@
     }
   ],
   "stats": {
-    "playing": 8794,
-    "visits": 94384571,
-    "favorites": 1028347,
-    "updated": "2026-11-13T17:41:48.402Z",
+    "playing": 29104,
+    "visits": 94637084,
+    "favorites": 1029422,
+    "updated": "2026-11-14T13:06:21.197Z",
     "created": "2026-06-02T01:46:28.824Z",
     "maxPlayers": 12,
-    "upVotes": 187286,
-    "downVotes": 10514
+    "upVotes": 187395,
+    "downVotes": 10526
   },
   "added": "2026-09-29T18:35:39.571Z",
-  "lastChecked": "2026-11-14T06:13:49.566Z",
+  "lastChecked": "2026-11-14T13:29:18.468Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
