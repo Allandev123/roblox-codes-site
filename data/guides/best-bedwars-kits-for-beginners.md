@@ -2,17 +2,16 @@
 title: Best BedWars Kits for Beginners (Free Kits and What to Buy First)
 seoTitle: "Best BedWars Kits for Beginners: Free Kits and Prices (2026)"
 short: Best beginner BedWars kits
-description: Which BedWars kits are free, how the weekly rotation and level unlocks work, what every kit tier costs in BedCoins, and my 5 picks for new players.
+description: Which BedWars kits are free, how the weekly rotation and level unlocks work, what every kit tier costs in BedCoins, and the simple kits I've played in my videos.
 summary: Which BedWars kits every new player gets for free, how the weekly rotation and level kits work, and what to rent or buy first with BedCoins.
-published: 2026-10-16
-updated: 2026-10-16
+published: 2026-11-20
+updated: 2026-11-20
 series: Game guides
 order: 34
-draft: true
 ---
 New to BedWars? The kit shop is full of 10,000 BedCoins price tags, but you can play plenty of kits without buying one. This guide covers the free kits first, then what the rest cost. Everything here is checked against the **September 25, 2026 update** (the one that brought back Fisherman and Trapper).
 
-> **[ALLAN]** Your intro (1-2 sentences): how long you've played BedWars, and which kit you used most when you were new.
+I've played a lot of BedWars on my channel. In [my October 2023 video](https://www.youtube.com/watch?v=99bibZKp7b8) I reached 10,000 wins. Where I talk about my own games below, I name the video and its date, because kits get changed often.
 
 ## The short version
 
@@ -42,7 +41,7 @@ The rotation changes on **Fridays at 3:00 PM PT**, with the weekly update. This 
 
 If you like a rotation kit, you can buy it to keep after it leaves. The only exception is the odd battle pass kit that turns up.
 
-> **[ALLAN]** Screenshot: this week's free kits in the kit shop (taken on or after Friday, October 16, after 3 PM PT).
+![The Kit Shop in February 2023, with three kits tagged "Free this week", a timer for the next free rotation and 3 of 4 free kit slots unlocked. The free kits are different every week, so yours will not match. From my video, February 2023.](bw-kits-kit-shop-archer.webp)
 
 ### Kits you unlock by leveling up
 
@@ -71,15 +70,25 @@ BedWars sorts kits into 8 classes, which helps you pick a role. **Defender** kit
 
 Some kits also ask less of you. Isabel's shield works without pressing anything, and Barbarian (a 10,000 BedCoins kit) never has to shop for swords. A timed ability like Ragnar's rage is different: you have to pick the right moment.
 
-> **[ALLAN]** Your take (2-3 sentences): what makes a kit good for someone who's just started? Passive kits, simple abilities, a certain class, or something else?
+You can also win with no kit at all. In [my October 2023 video](https://www.youtube.com/watch?v=QdP6uzFsTAs) I played solos with the "None" option while the other players used kits, and I won the match. My point in that video was that you don't need a kit to win. So learn the basics first, and don't worry if you own very few kits.
 
-## My 5 picks for new players
+![The win screen from a solos match I played with no kit. From my video, October 2023.](bw-kits-no-kit-win.webp)
 
-These are the kits I'd tell a new player to try first.
+## Simple kits I've played in my videos
 
-> **[ALLAN]** Your 5 picks. For each one: the kit name as a ### heading, how you get it (free starter, level unlock, or its BedCoins price), and 2-3 sentences on why it suits a beginner.
+Two of the simple kits in this guide have their own videos on my channel. Both videos are from old seasons and both kits have been changed since, so read these as how the kits played back then. They are not my ranking of the kits today.
 
-> **[ALLAN]** Screenshot: the kit shop open on one of your 5 picks, with its price or unlock showing.
+### Archer (10,000 BedCoins)
+
+In [my February 2023 video](https://www.youtube.com/watch?v=sj3kY7CdVnQ) I played Archer during Season 7. The plan was simple: go to the middle, collect emeralds, buy a crossbow and shoot people off the map. I said bows and crossbows were very strong in that update. The kit shop in that video shows Archer with +15% projectile damage, and today it is 12.5%.
+
+![Holding the Tactical Crossbow as Archer in a Season 7 match. From my video, February 2023.](bw-kits-archer-tactical-crossbow.webp)
+
+### Baker (10,000 BedCoins)
+
+In [my December 2022 video](https://www.youtube.com/watch?v=4V2qNyNVOk0) I played Baker in solos. I went to the middle for emeralds, bought a speed pie and kept a spare one ready for when it ran out. In that video I said one speed pie lasted about two and a half minutes, and that the apples were really good. I also said Baker worked in squads and Ranked at the time. That was almost four years ago, so check the kit in your own game before you buy it.
+
+![The Kit Shop open on Baker in December 2022. Barbarian was one of the free kits that week. This old shop screen does not show a price. From my video, December 2022.](bw-kits-kit-shop-baker.webp)
 
 ## Rent a kit before you buy it
 
@@ -114,8 +123,6 @@ Some simple kits from the 10,000 tier:
 - **Miner (Economy):** enemies he kills turn to stone, and he mines them for resources. He can't buy axes.
 
 Why do some kits cost 25,000, 2.5 times the standard price? They're old battle pass kits. Warrior, Jack, Jade and Bounty Hunter each came back in a limited bundle sold in the shop first, then went on sale for 25,000 BedCoins two or three weeks later. Raven returned the same way on August 28, 2026, and Fisherman and Trapper on September 25. Check the kit shop to see if they've reached the 25,000 tier yet.
-
-> **[ALLAN]** Your take (2-3 sentences): with your first 10,000 BedCoins, which kit would you buy, and why?
 
 ## How to get BedCoins now
 

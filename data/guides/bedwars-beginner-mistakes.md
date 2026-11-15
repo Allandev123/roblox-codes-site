@@ -4,17 +4,16 @@ seoTitle: BedWars Beginner Mistakes to Avoid in Ranked (2026)
 short: BedWars beginner mistakes
 description: "Six BedWars beginner mistakes that lose Ranked games: weak bed defense, no armor, wasted iron, skipped team upgrades and void deaths."
 summary: Six common BedWars beginner mistakes, from one-layer wool beds to void deaths, explained with Season 17 shop prices and a fix for each.
-published: 2026-10-19
-updated: 2026-10-19
+published: 2026-11-16
+updated: 2026-11-16
 series: Game guides
 order: 35
-draft: true
 ---
 BedWars has one rule that decides most games, and the official game description puts it simply: "Protect your bed. Once it's gone, you can no longer respawn!" Almost every beginner mistake below comes back to that bed, or to the iron and diamonds you spend keeping it alive.
 
 The numbers here are from **Ranked Season 17**, which started on August 21, 2026, with Item Shop prices from late September 2026. Ranked has been 5v5 again since May 8, when Season 16 began. BedWars updates every Friday, so a price might have moved by the time you read this.
 
-> **[ALLAN]** Your intro (2-3 sentences): how long you've played Ranked, the rank you've reached, and which of the mistakes below you see most often in your games.
+I've made Ranked videos for a while. In October 2024, in an older season, I solo queued from Bronze, and in [my video](https://www.youtube.com/watch?v=U1puLie_gQw) from that month I reached Platinum 1. Some of the examples below come from those games, and I say which video each one is from.
 
 ## 1. Wrapping the bed in one layer of wool
 
@@ -30,7 +29,7 @@ The bed itself is blastproof, so explosives can't break it. Someone has to walk 
 | Blastproof Ceramic | 16 iron for 4 | Regular TNT and fireballs can't break it |
 | Obsidian | 1 emerald for 4 | The strongest blastproof block in the shop. Needs a pickaxe |
 
-> **[ALLAN]** Screenshot: the Item Shop blocks tab in a Ranked match, showing the wool, wood, stone brick, ceramic and obsidian prices.
+![The Item Shop in one of my Ranked matches in October 2024, with White Wool at 8 iron for 16. This is an older season, so check your own shop for today's prices. From my video, October 2024.](bw-mistakes-item-shop.webp)
 
 Two things catch new players out. **Fireballs** (75 iron) set flammable blocks on fire, so a wood layer can burn away. **Siege TNT** (350 iron) is a much bigger blast, and it breaks ceramic too.
 
@@ -38,7 +37,9 @@ So a bed covered in one kind of block only needs one answer, like shears for woo
 
 Ranked beds do get some cover early on. They start with bed plating, and bed shields came back to Ranked on May 8. That only lasts the first few minutes, though, so build your defense before it runs out. And watch the clock: when the timer hits 20:00, every bed breaks on its own.
 
-> **[ALLAN]** Your fix (2-3 sentences): what your usual Ranked bed defense looks like, and when in the match you build it.
+In [my video](https://www.youtube.com/watch?v=YNUrJbKp6b8) from October 2024, an older Ranked season, I waited for emeralds so I could put obsidian around the bed. In the first match it went down about two and a half minutes in, with wool on top. In a later match that video I got two emeralds in the first minute and spent them on obsidian right away.
+
+![My bed in a Ranked match with obsidian around it and blue wool on top, about two and a half minutes into the game. From my video, October 2024.](bw-mistakes-obsidian-bed.webp)
 
 ## 2. Not buying armor
 
@@ -55,13 +56,15 @@ Armor stays with you. You respawn wearing the last armor you bought, and each pu
 
 For comparison, the Iron Sword is 70 iron for 30 damage, up from 20 with the free Wood Sword. Iron armor cuts the damage you take by more than half, and you keep it.
 
-> **[ALLAN]** Your take (2-3 sentences): what you buy with your first iron in a Ranked game and in what order. If you've seen the iron tax (section 3) kick in this season, say so.
+In [my video](https://www.youtube.com/watch?v=QdP6uzFsTAs) from October 2023, a Solos game from an older season, I lost my bed late in the match. My plan, said out loud, was to get iron armor first and then go for the last player.
 
 ## 3. Carrying all your resources into a fight
 
 When someone kills you, they get every iron, diamond and emerald you're carrying. If you're in diamond armor or better, they get emeralds for the kill too. Running into a fight with a pile of unspent iron hands it to the other team if you lose.
 
 Spend it before you leave base.
+
+In my October 2024 video a teammate took the diamonds from our generator. I said I would cry if he died with all of them. A little later my team was feeding the other team loot.
 
 The generator matters too. Your team's iron generator stops once it's holding 100 iron at tier 1, 150 at tier 2 or 225 at tier 3, and it only restarts when someone picks it up. Iron sitting on a full generator is iron your team never gets.
 
@@ -83,7 +86,9 @@ Tier 3 Team Generator also drops emeralds at your base. The **Bed Alarm** costs 
 
 A diamond generator drops 1 diamond every 40 seconds and stops at 5. At that rate, one generator on its own takes about 2 minutes 40 seconds to make the 4 diamonds for a first upgrade, and it makes nothing more once it's full and nobody's picking them up.
 
-> **[ALLAN]** Screenshot: the Team Upgrades menu in a Season 17 Ranked match, with the bonus for each tier visible. Plus 1-2 sentences: which upgrade your Ranked teams usually buy first, and why.
+![The team upgrades menu in one of my Ranked matches in October 2024. It was a Team Level menu back then, with Damage, Speed, Armor and Destruction, so it does not match the table above. From my video, October 2024.](bw-mistakes-team-upgrades.webp)
+
+In that October 2024 video I picked up diamonds early and kept putting them into upgrades for the team. That was an older season, so read what your own NPC shows.
 
 ## 5. Bridging with no way back
 
@@ -98,7 +103,9 @@ Balloons were a rotating item until this year, and limited-time items have been 
 
 Bridging also feels a lot harder when your game stutters. My [BedWars FPS post](/blog/bedwars-1000-fps-then-and-now/) covers what still helps in 2026.
 
-> **[ALLAN]** Clip or screenshot: a void death from a bad bridge in Ranked (yours or a teammate's). Plus 2-3 sentences: how you bridge in Ranked, and what you carry in case it goes wrong.
+I fall into the void a lot myself. In [my video](https://www.youtube.com/watch?v=D6KIlz9SLh0) from March 2023 I gave away a kit every time I fell in, and I counted around 13 falls by the end. In my October 2023 video I said out loud that bridges scare me.
+
+![Bridging toward the middle of the map in a Ranked match, with the void on both sides of a one-block bridge. From my video, October 2024.](bw-mistakes-bridge.webp)
 
 ## 6. Forgetting that the map falls apart late
 

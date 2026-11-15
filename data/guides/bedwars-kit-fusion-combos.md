@@ -4,19 +4,14 @@ seoTitle: Best BedWars Kit Fusion Combos After the 2026 Nerfs
 short: BedWars Kit Fusion combos
 description: The March 2026 nerfs hit Eldertree + Void Knight and Uma + Aery. How BedWars Kit Fusion works now, and which two-kit combos still hold up.
 summary: How Kit Fusion works in BedWars, what the 2026 nerfs hit, and the two-kit combos worth knowing now, explained kit by kit.
-published: 2026-10-28
-updated: 2026-10-28
+published: 2026-11-26
+updated: 2026-11-26
 series: Game guides
 order: 38
-draft: true
 ---
 Kit Fusion is the BedWars mode where you pick two kits and use both in the same match. The pairs that got the mode called "unplayable" were nerfed in 2026, so a lot of older combo advice is out of date.
 
 Everything below is based on the BedWars patch notes up to the **September 4, 2026** update. Notes for the later September updates hadn't been written up yet at the time of writing. BedWars usually updates on Fridays, so numbers can move fast.
-
-> **[ALLAN]** Before publishing (2 quick checks): did any update after September 4 change a kit in this post? Add a line here if so. And in-game: can you pick kits you don't own in Kit Fusion, or only ones you own? Put the answer in one line under "How Kit Fusion works".
-
-> **[ALLAN]** Your intro (1-2 sentences): how much you play Kit Fusion and what keeps you coming back to it.
 
 ## How Kit Fusion works
 
@@ -25,8 +20,6 @@ Kit Fusion came out in the May 9, 2025 "Fusion" update, back when it was called 
 You'll find it through the Play button in the lobby. Matches run on the normal Squads setup (4 teams of 4). Once you load in, you get **30 seconds** to pick two kits, and then you can use both kits' items and abilities for the whole match.
 
 Pick order matters. **Kit 1** decides which character you show up as, and **Kit 2** adds its skills and items on top. The wiki gives a clear example: put another kit first and Eldertree second, and you'll look like that first kit, not a giant tree.
-
-> **[ALLAN]** Screenshot: the Kit Fusion pick screen with both kit slots filled.
 
 ### Fusions that don't work (or act weird)
 
@@ -71,13 +64,13 @@ Both kits have been changed a lot in 2026:
 | May 8 | Buff: Eldertree picks up orbs just by walking over them |
 | Sep 4 | Orbs spawn less near team bases, and early orbs give a bit less health |
 
-> **[ALLAN]** Your take (2-3 sentences): does Eldertree + Void Knight still feel strong after all these changes? Which kit do you put in slot 1?
-
 ### Vanessa + Archer
 
 Vanessa's charged bow, crossbow or headhunter fires a triple shot, with the three arrows hitting for 100%, 133% and 58% damage. Archer brings the tactical crossbow and tactical headhunter, **+12.5% damage** on all projectiles, and headshots with most projectiles. Put together, every charged shot is three arrows with Archer's bonus behind them.
 
 This pair never got a real stat nerf. The March change was a bug fix, and Vanessa's changes since then have been buffs: a small ranged knockback buff on March 27, 2026, and her arrows dropping from 12 to 10 iron on July 17.
+
+I played Archer on his own in [my video](https://www.youtube.com/watch?v=sj3kY7CdVnQ) from February 2023, rushing the middle for emeralds to buy a crossbow. In that video I also named Vanessa as a kit that was doing well at the time. That was the Archer and Vanessa of 2023, more than two years before Kit Fusion existed, so it isn't a test of this fusion.
 
 If you're running a bow combo on PC, my [custom crosshair guide](/guides/roblox-custom-crosshair/) shows how to swap the default cursor for a crosshair.
 
@@ -88,6 +81,10 @@ Aery gets 2 spirit butterflies per kill, and has to wait 25 seconds before the s
 Uma's spirit staff throws beetles that deal damage over time to enemies or heal teammates. She can have up to 10 summon stones and beetles in total, gets a free stone every 20 seconds, and can buy more for 30 iron.
 
 Uma hasn't been changed at all in 2026, so this pair only got weaker through the March butterfly nerf. Aery even got a small buff on April 10, when her butterfly stacks started counting for 80% on ranged weapons instead of 50%.
+
+Aery scaling off someone else's damage isn't a new idea. In [my video](https://www.youtube.com/watch?v=D-QBFAX7u9Q) from July 2023 I gave Aery a Diamond Great Hammer, starting in the hyper gen mode. The end screens showed 61 kills and 57,107 damage in the first game, then 63 kills and 123,938 damage in the second. That was the 2023 Aery with a strong weapon, not Kit Fusion, and she has been changed many times since.
+
+![Aery holding a Diamond Great Hammer at the Item Shop. This is 2023 Aery, long before Kit Fusion. From my video, July 2023.](bw-fusion-aery-great-hammer-2023.webp)
 
 ## Popular combos after the nerfs
 
@@ -108,20 +105,18 @@ Silas got buffed on April 24, 2026. His max Triumph stacks went from 10 to 20, a
 
 AnWare called this possibly the best combo in the game in an August 27, 2026 video. Bounty Hunter gets iron and emeralds for each bounty, and since his August 14, 2026 rework he levels up as he finishes bounties, which raises the rewards (bounties don't pay diamonds anymore). Baker turns that loot into staying alive: health apples cost 40 iron and heal 20 HP, golden apples cost 3 emeralds and give healing, regen and 5% damage reduction, and speed pies cost 2 emeralds.
 
+I showed off Baker's speed pies in [my video](https://www.youtube.com/watch?v=4V2qNyNVOk0) from December 2022. I went to the middle for emeralds, bought a pie, and used the speed to chase players down. That was the 2022 Baker on his own, so today's prices and timers may be different.
+
 ### Trinity + Adetunde
 
 Milyon said this fusion makes you "unkillable" in a kit tier list from December 2025. Keep in mind that was before the 2026 changes. Adetunde's frosty hammer swings every 0.35 seconds, and its Shield upgrade gives shield on hits, which stacks with Trinity's Light Angel shield. Since April 10, 2026, the hammer's shield caps at 50 HP, so it's not as endless as it used to be.
+
+I played Adetunde on his own in [my video](https://www.youtube.com/watch?v=fgvuM6iyYes) from November 2023, just after a buff that gave him more crystals for kills. That was the 2023 kit in normal matches, not a fusion.
 
 ### Yuzi + Yamini
 
 Yuzi's dao dash lunges 8 blocks for 18 to 34 damage to everyone in front of her, with 4 charges and half the energy refunded when it hits. Yamini climbs walls and pounces 9 to 11 blocks for 10 damage plus decay. His pounce cooldown dropped to 5 seconds on January 2, 2026, the same update that gave him a stamina bar for climbing.
 
 Some YouTube and TikTok clips call it the best combo, but no bigger source backs that up yet.
-
-## My picks
-
-> **[ALLAN]** Your combos and ranking (3-5 sentences): 2-4 fusions you've actually run, which kit you put in slot 1 and how they went. Then, out of Trinity + Silas, Bounty Hunter + Baker and Uma + Aery, which one you'd pick first right now and why.
-
-> **[ALLAN]** Screenshot: a match with one of your fusions, with both kits' items showing in the hotbar.
 
 If a combo here got changed or I got something wrong, tell me through the [contact](/contact/) page and I'll fix it.

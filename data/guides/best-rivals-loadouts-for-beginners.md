@@ -4,19 +4,18 @@ seoTitle: Best RIVALS Loadouts for Beginners (Roblox, 2026)
 short: RIVALS beginner loadouts
 description: "Cheap RIVALS loadouts for new players: the four slots, which weapons are worth your first Keys, the buffed Wildcat SMG and good picks for each map."
 summary: The four RIVALS loadout slots, the cheap weapons worth your first Keys, what the buffed Wildcat is good at, and which weapons suit each type of map.
-published: 2026-10-26
-updated: 2026-10-26
+published: 2026-11-22
+updated: 2026-11-22
 series: Game guides
 cover: rivals
 order: 37
 games: rivals
-draft: true
 ---
 A RIVALS loadout is the four weapons you take into every duel. You start with a free set, and every other weapon costs Keys, so your first few buys matter.
 
 This page covers how the slots work, the cheap weapons worth buying, the Wildcat SMG after its buff and which weapons suit which maps.
 
-> **[ALLAN]** Your intro (1-2 sentences): how long you've been playing RIVALS and which modes you play most.
+In [my March 2026 Rivals video](https://www.youtube.com/watch?v=h2nPTqlMyYo) I said on stream that I don't play RIVALS, and then I lost a first to 5 against a viewer. So this page is written with new players in mind.
 
 Prices, stats and map info are from Update 23 (September 18, 2026), the patch that buffed the Wildcat.
 
@@ -45,6 +44,14 @@ Mostly, yes. The fan wiki lists "great for beginners" as one of the Assault Rifl
 
 So you don't need to rush to replace it. Your first Keys go further on weapons that do a different job, like winning close-range fights.
 
+The game's own weapon screen calls the Assault Rifle "a standard rifle useful in all scenarios".
+
+![The Assault Rifle in my weapons menu, with a wrap on it. From my video, March 2026.](rivals-loadouts-assault-rifle.webp)
+
+In that same video I played a rematch with the default loadout only. You can see all four starter weapons in the bottom right.
+
+![A default loadout only duel on Docks: Assault Rifle, Handgun, Fists and Grenade. From my video, March 2026.](rivals-loadouts-default-loadout.webp)
+
 ## Cheap weapons worth your Keys
 
 These are the cheapest weapons in each slot, with prices checked in late September 2026.
@@ -64,10 +71,6 @@ Four of these have a very clear job:
 - **Katana (45 Keys).** A melee that can deflect bullets back at the enemy for a short window. It can't deflect splash damage or projectiles like the RPG, Bow or Crossbow.
 
 That same tier list names the Uzi and Shotgun as the first cheap upgrades to buy. It also puts the Katana and Scythe in A tier.
-
-> **[ALLAN]** Screenshot: the RIVALS weapon shop showing a few cheap weapons and their Key prices. While you're in there, check the prices above still match, and that Update 23 is still the newest update. If a newer one is out, change the update number at the top and bottom of this page.
-
-> **[ALLAN]** Your pick (2-3 sentences): which cheap weapon you'd tell a new player to buy first and why, and whether you still run the Assault Rifle yourself or swapped it out early.
 
 ### Where prices jump
 
@@ -110,8 +113,6 @@ The Wildcat does full damage inside about 40 studs, so it's a close-range gun. I
 
 Its Eliminations and Playtime contracts each give 1 Key at the first tier (5 kills and 5 minutes of use), so you get 2 of your 35 Keys back quickly. The later contract rewards are cosmetics like wraps, a finisher and a charm.
 
-> **[ALLAN]** Your Wildcat take (2-3 sentences): after the Update 23 buff, is it worth 35 Keys for a beginner? When do you pick it over the Assault Rifle?
-
 ## Which weapons fit which maps
 
 One loadout guide sums it up with a simple rule. On large maps, run a Sniper plus a pistol. On medium maps, the Assault Rifle plus a pistol. On small maps, an SMG or Shotgun plus a pistol.
@@ -136,10 +137,12 @@ The Big maps (Big Arena, Big Backrooms, Big Crossroads, Big Graveyard, Big Onyx,
 - **Station** is a train station with breakable windows.
 - **Splash** is an inflatable arena floating on water. Step outside the ring around it and you're eliminated.
 
-## My loadouts
+## My loadout
 
-> **[ALLAN]** Screenshot: your everyday loadout screen, with all four slots showing.
+In [my other March 2026 Rivals video](https://www.youtube.com/watch?v=A-FtAq2-AcI) I mostly ran the Assault Rifle, Energy Pistols, Knife and Freeze Ray. The Knife was the point of that video: I was trying to get knife kills on other YouTubers to earn their charms.
 
-> **[ALLAN]** Your loadouts (a short line each): your everyday setup (all 4 slots) and why you run it, what you swap in on tight maps like Backrooms, what you swap in on big open maps, and which backup weapons you keep for ranked in case your main gets banned.
+![Picking my melee before a duel on Arena, with the Assault Rifle and Energy Pistols already chosen. From my video, March 2026.](rivals-loadouts-melee-pick.webp)
+
+The free Assault Rifle was still my primary. The Knife (20 Keys) and Freeze Ray (45 Keys) are both on the cheap list above. The Energy Pistols are the expensive part at 400 Keys.
 
 Prices, stats and map details here are from Update 23 (September 2026). If something's different in your game, [let me know](/contact/).

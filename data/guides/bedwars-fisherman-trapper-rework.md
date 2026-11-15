@@ -4,19 +4,16 @@ seoTitle: "BedWars Fisherman & Trapper Rework: How Both Kits Work Now"
 short: Fisherman and Trapper rework
 description: "How the reworked Fisherman and Trapper kits work in Roblox BedWars after the September 2026 update: traps, Fish Coins, rod tiers and how to get them."
 summary: What changed when BedWars brought back the Fisherman and Trapper in September 2026, how each kit works now, and how to get them.
-published: 2026-10-05
-updated: 2026-10-05
+published: 2026-11-24
+updated: 2026-11-24
 series: Game guides
 order: 30
-draft: true
 ---
 The Fisherman and the Trapper are back in BedWars. Both kits first came out on October 23, 2021 as Season 2 Battle Pass rewards: the Trapper at level 3 (the lowest level for a kit in any Battle Pass) and the Fisherman at level 25. Once Season 2 ended on December 17, 2021, nobody could get them anymore.
 
 That changed on Friday, September 25, 2026. The official announcement was titled "Trapper & Fisherman Return!", and both kits came back reworked.
 
 **Version note:** everything below is from the September 25, 2026 update and the Trapper balance patch that followed on September 26. A Balance Changes update was scheduled for October 2, with no details shared ahead of time.
-
-> **[ALLAN]** Quick in-game check. Did the October 2 Balance Changes touch either kit? If yes, list the changes in a line or two. Also: which fishing rod do you start with, do you still get free Snap Traps at the start, and roughly how many seconds does a Snap Trap hold someone in place?
 
 ## How to get the Fisherman and Trapper
 
@@ -42,8 +39,6 @@ Only the Trapper can buy traps, and there are three:
 | Explosive Trap | 24 iron | Goes off when you detonate it, damaging enemies and nearby blocks |
 
 What each trap does comes from the official notes. The prices come from the community BedWars wiki.
-
-> **[ALLAN]** Screenshot: the trap shop with all three prices showing.
 
 ### Snap Trap changes
 
@@ -96,8 +91,6 @@ The wiki lists three rods:
 
 The official notes say the Fisherman "now starts with a novice fishing rod", though. So either the names or the starting rod are off on one side.
 
-> **[ALLAN]** Screenshot: the Fisherman's rod upgrades in the Item Shop, with the Fish Coin prices showing. Fix the table above if the names or prices are different.
-
 Fish Coin numbers are messy right now. The wiki's Fish Coin page says a catch sometimes gives 1 to 2 coins along with the resources, but the Fisherman page says 1 to 10, depending on the fish and the pond. Some special fish only drop coins.
 
 ### Ponds and loot
@@ -120,8 +113,6 @@ The wiki also says the Fisherman is the only kit with access to the Rocket Launc
 
 Bait price, Shark odds and what a Shark actually gives you haven't been posted officially.
 
-> **[ALLAN]** Your best Fisherman game so far: what did you catch? Rough totals are fine, plus a Shark if you hooked one. Add a screenshot of the best catch.
-
 ## What changed from the old kits
 
 | | Before the rework | Now |
@@ -132,13 +123,21 @@ Bait price, Shark odds and what a Shark actually gives you haven't been posted o
 | Where you fish | Into the void | Fishing spots and ponds |
 | Bait and Sharks | None | Bait unlocks with the top rod |
 
+### The old Fisherman in my 2023 video
+
+I haven't got footage of the reworked kits yet. What I do have is the old Fisherman. In January 2023 the Fisherman was the free kit of the week, so my squad took three of them into Ranked for [my video](https://www.youtube.com/watch?v=xOat1P8_jFI). Everything in this part is the Fisherman before the rework.
+
+![The old Fisherman holding his fishing rod in a Ranked match. This is the kit before the rework. From my video, January 2023.](bw-fisherman-old-rod-2023.webp)
+
+Back then, a bite started a small minigame. A bar came up that said "Hold down to keep the red box within the fish zone", with a timer next to it. In one match I landed a catch about a minute in, and the game told me "You caught a diamond fish!"
+
+![The old fishing minigame, with the red box, the fish zone and the "Time Left" counter. This is the kit before the rework. From my video, January 2023.](bw-fisherman-old-minigame-2023.webp)
+
+In the video I said the old Fisherman could fish up things like balloons, a rocket launcher and a charge shield. Rocket launchers and charge shields are still on the wiki's loot list for the new ponds, so that part of the kit hasn't gone away.
+
 ## Who each kit suits
 
-The notes don't say who these kits are for, so this part is my own take.
-
-> **[ALLAN]** Your take (2 or 3 sentences): is the Trapper better in solos or squads, and why?
-
-> **[ALLAN]** Your take (2 or 3 sentences): is the Fisherman better in solos or squads, and why? Then one line: if someone can only get one bundle, which should it be?
+The notes don't say who these kits are for, and I haven't played enough of the reworked kits to rank them yet. The roles are a good starting point. The Trapper is a Defender kit, so he fits players who like guarding a bed or setting up ambushes. The Fisherman is an Economy kit, so he fits players who are happy to spend the early game fishing for loot.
 
 More BedWars from me: [looking back at Crypt's Trials from Halloween 2022](/blog/bedwars-crypts-trials-2022/), and [how I got 1,000 FPS in BedWars, and what still works now](/blog/bedwars-1000-fps-then-and-now/).
 

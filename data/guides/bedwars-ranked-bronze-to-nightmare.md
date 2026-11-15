@@ -1,22 +1,21 @@
 ---
-title: How I Climbed BedWars Ranked from Bronze to Nightmare
-seoTitle: "BedWars Ranked Guide: Bronze to Nightmare (Season 17)"
-short: Bronze to Nightmare in BedWars
-description: "How BedWars Ranked works in Season 17 (ranks, RP, placements, kit bans, rewards) and how I climbed solo from Bronze to Nightmare, rank by rank."
-summary: How BedWars Ranked works in Season 17, from the level requirement and RP to season rewards, and what changed at each rank on my solo climb to Nightmare.
-published: 2026-10-12
-updated: 2026-10-12
+title: "BedWars Ranked Explained: Ranks, RP and My Climbs to Nightmare"
+seoTitle: "BedWars Ranked Guide: Ranks, RP and Nightmare (Season 17)"
+short: BedWars Ranked explained
+description: "How BedWars Ranked works in Season 17 (ranks, RP, placements, kit bans, rewards), plus my own climbs to Nightmare and my solo queue series."
+summary: How BedWars Ranked works in Season 17, from the level requirement and RP to season rewards, with what my own ranked videos from 2023 and 2024 show.
+published: 2026-11-18
+updated: 2026-11-18
 series: Game guides
 order: 33
-draft: true
 ---
-I climbed BedWars Ranked in solo queue from Bronze all the way to Nightmare. Ranked changes almost every season, though, so this post starts with how it works right now. My own climb comes after that.
+I have reached Nightmare in BedWars Ranked more than once, and in 2024 I filmed a solo queue climb too. Ranked changes almost every season, though, so this post starts with how it works right now. My own climbs come after that.
 
 Everything below is for **Season 17**, which started with the August 21, 2026 update. It was checked against the BedWars wiki's update pages at the end of September 2026. BedWars gets small updates most weeks, so numbers can shift in the middle of a season.
 
-> **[ALLAN]** Screenshot: your Nightmare rank (profile or end-of-season screen), or a frame from one of your videos that shows it.
+![My stats board in the lobby showing Nightmare with 14 RP and leaderboard rank 26, back in Season 8. From my video, July 2023.](ranked-climb-nightmare-season-8.webp)
 
-> **[ALLAN]** Your intro (2-3 sentences): which season the climb happened in, roughly how long it took, and why you went for Nightmare. Add a link to your ranked video if there is one, and say if any rule was different back then (Squads instead of 5v5, demotion shields, rank skipping).
+My own ranked videos are all from older seasons, so read them as a look back. I reached Nightmare three times on video in 2023, each time in a party with friends. My solo queue series is from October 2024, in Season 11. The stats boards in my July 2023, October 2023 and October 2024 videos all say Ranked was 5v5, like it is now. None of them are from Season 17.
 
 ## How BedWars Ranked works right now
 
@@ -91,23 +90,51 @@ Since May 22, 2026, rewards are based on the **highest rank you reached** during
 
 ## My climb, rank by rank
 
-This is how it went for me, from placements to Nightmare.
+This is what my videos show. It comes in three parts, because I never filmed one climb from the bottom to the top. The Gold and Platinum parts are solo queue in Season 11. The Nightmare part is from 2023.
 
-> **[ALLAN]** Screenshot: a rank from partway up (Diamond or Emerald is best), or your placement result.
+### Gold, solo queue (October 2024)
 
-> **[ALLAN]** Your climb in 4 short parts (2-3 sentences each, they'll go under their own headings): Placements, Bronze to Gold, Platinum and Diamond, Emerald to Nightmare. For each part: the kits you played, what you banned, roughly how much RP a win gave you, and what you changed to keep climbing.
+In [part one of my solo queue series](https://www.youtube.com/watch?v=e2OYwOlTa5E) from October 2024, I started in Gold. My goal was Nightmare by the end of Season 11, and the season had about 7 weeks left. I picked the Metal Detector kit because I wanted the loot. One win in that video gave me 16 RP in Gold 3.
+
+In [part two](https://www.youtube.com/watch?v=U1puLie_gQw), also from October 2024, I was still in Gold 3 and a win gave me 14 RP. By the end of that video I was Platinum 1.
+
+![The screen after a Ranked win in Gold 3, with +14 RP and the bar moving toward Gold 4. This was Season 11. From my video, October 2024.](ranked-climb-gold-3-win.webp)
+
+### Platinum, solo queue (October 2024)
+
+[Part three](https://www.youtube.com/watch?v=YNUrJbKp6b8), from October 2024, starts at Platinum 1 with 16 RP. It ends at Platinum 1 with 20 RP. In between, I won some matches and lost some, one match was cancelled, and I played one game on 300 ping. Twice the queue popped and I never got loaded into the match. I got a queue dodge warning for it, but I did not lose any RP.
+
+That is as far as the solo queue videos go. They do not show Diamond, Emerald or Nightmare.
+
+![My stats board at the start of part three, showing Platinum 1 with 16 RP out of 100. This was Season 11. From my video, October 2024.](ranked-climb-platinum-1.webp)
+
+### Emerald to Nightmare, with a party (2023)
+
+In [my February 2023 video](https://www.youtube.com/watch?v=_41U0XMcUAw), I said I got Emerald in the video before it. Then my party went on a win streak of about nine games and I got Nightmare really quick.
+
+In [my July 2023 video](https://www.youtube.com/watch?v=_ycor2KXRp0), from Season 8, I showed my last two matches before Nightmare. A win in Emerald gave me 16 RP. I ended up in Nightmare with 14 RP, at rank 26 on the leaderboard.
+
+In [my October 2023 video](https://www.youtube.com/watch?v=oslftoj6-6g), I played on my old account and started in Emerald with 102 RP. Wins gave me 11 RP each. At 124 RP I was still Emerald, and the rank only changed to Nightmare after one more match.
 
 A few rules from above matter more the higher you go. From Diamond 1 up, decay means you can't take a week off.
 
 Getting out of Emerald is the big one. Older wiki text says Nightmare needs a spot in the global top 200 plus 101 or more RP in Emerald. That was written before Emerald got 4 divisions, so check the current rule in-game. And once you're in Nightmare, extra RP above the rank makes losses cost more (a rule since October 2025).
 
-## The hardest part of the climb
+## Where the solo climb slowed down
 
-> **[ALLAN]** Your take (2-3 sentences): which rank was the hardest wall for you in solo queue and why, plus the 2 kits you'd ban right now (or back then, if you haven't played Season 17).
+My videos do not name one rank as the hardest. But the October 2024 series shows where it got slow. In Gold, a win moved me 14 to 16 RP at a time and I reached Platinum in two videos. In Platinum, a whole video of matches only moved me from 16 RP to 20 RP.
 
-## Mistakes I fixed on the way up
+Solo queue also meant playing against full teams. In part one I said my team beat a full squad while I was solo queuing, and I was surprised we won.
 
-> **[ALLAN]** 3-5 mistakes, one or two lines each: what you were doing wrong, then what you did instead.
+## What I did in those solo queue matches
+
+These habits show up again and again in the October 2024 videos. They are from Season 11, so the kits and prices may be different now.
+
+- **Loot first.** I played Metal Detector and collected my metals before I looked for fights.
+- **Upgrades for the team.** I spent my diamonds on team upgrades early.
+- **Protect the bed.** I put stone on the bed when I saw a full team, and I bought obsidian once I had the emeralds.
+- **Share emeralds.** In one match I gave my emeralds to teammates, and one of them got a crossbow with them.
+- **Go in together.** I told my team to stay back when one player ran in alone. Later I said we had to team rush before the other team got stacked.
 
 ## Before your first Ranked match
 

@@ -1,20 +1,19 @@
 ---
-title: My RIVALS Settings and Crosshair (and How to Copy Them)
+title: RIVALS Settings and Crosshair Explained (and How to Copy a Setup)
 seoTitle: RIVALS Settings, Crosshair and FOV Guide (Roblox 2026)
 short: RIVALS settings and crosshair
-description: "Every key RIVALS setting explained: sensitivity, FOV, the crosshair editor and how to import or share a settings string, plus my own values."
-summary: What every key RIVALS setting does, good starting values for sensitivity, FOV and the crosshair, and how to copy my settings with a share string.
-published: 2026-10-09
-updated: 2026-10-09
+description: "Every key RIVALS setting explained: sensitivity, FOV, the crosshair editor and how to import or share a settings string, plus the crosshair I use."
+summary: What every key RIVALS setting does, good starting values for sensitivity, FOV and the crosshair, and how to copy a setup with a share string.
+published: 2026-11-28
+updated: 2026-11-28
 series: Game guides
 order: 32
-draft: true
 ---
-RIVALS has a lot of settings now, and most of them sit in tabs you'd never open by accident. This post covers the ones that change how the game feels: sensitivity, field of view and the crosshair editor. It also shows how to copy someone's whole setup in one go. My own settings are further down.
+RIVALS has a lot of settings now, and most of them sit in tabs you'd never open by accident. This post covers the ones that change how the game feels: sensitivity, field of view and the crosshair editor. It also shows how to copy someone's whole setup in one go. The crosshair from my own videos is further down.
 
 Everything here is based on Update 23 (September 2026). The Settings page was rebuilt in Update 18 (the Labor of Love update, February 2026), and Updates 19 to 21 added most of the newer crosshair and hitmarker options. Updates 22 and 23 were mostly fixes and weapon balance, so if an older guide uses names that don't match your screen, it's probably from before Update 18.
 
-> **[ALLAN]** Your setup (1-2 sentences): do you play RIVALS on PC, controller or mobile, and which mode do you play most?
+In [my March 2026 Rivals video](https://www.youtube.com/watch?v=h2nPTqlMyYo) I played on PC with a keyboard and mouse, and every match was a 1v1 duel.
 
 ## Where everything is after Update 18
 
@@ -37,13 +36,7 @@ Two things catch people out. Import only accepts the string the game makes, so a
 
 To share yours, open the same popup and copy the string next to **Share your entire settings by copying this.** The line under it shares a single section.
 
-> **[ALLAN]** Screenshot: the share popup open, with profiles 1 to 3 visible behind it. Check the button icon and the two labels match the steps above, and note anything named differently on your screen.
-
-## Copy my settings
-
-> **[ALLAN]** Your full settings string and your crosshair-only string, both copied from the share popup (they'll go in code blocks).
-
-Crosshair strings sometimes break when they're copied. If mine won't import, copy the values from my crosshair screenshot further down.
+Crosshair strings sometimes break when they're copied. If one won't import, enter the values by hand.
 
 ## Sensitivity
 
@@ -71,8 +64,6 @@ A wider FOV shows more of the map but makes enemies look smaller.
 | 101 to 110 | Wider view, smaller targets |
 
 Some settings guides suggest 90 to 100 for 1v1 and 2v2, and 105 to 110 for TDM and FFA. It's also worth turning **Gameplay Effects** off, which keeps your FOV from shifting around mid-fight.
-
-> **[ALLAN]** Your numbers and your take: mouse DPI, Roblox camera sensitivity, your three RIVALS sensitivity values, and your non-scoped and scoped FOV. Then 1-2 sentences: how did you land on them, and do you keep scoped sensitivity lower than normal?
 
 ## The crosshair editor
 
@@ -114,9 +105,11 @@ If you already aim well, try a small cyan #00ffff cross and dot with a dark blue
 
 ### My crosshair
 
-> **[ALLAN]** Screenshot: your crosshair tab with the values showing, plus one in-match shot of the crosshair on a bright map.
+In both of my March 2026 Rivals videos I used a small red cross. Here it is on Docks, sitting on the yellow container in the middle of the screen.
 
-> **[ALLAN]** Your take (2-3 sentences): why you picked this crosshair, and do you keep Override Special Crosshairs on or off?
+![My small red crosshair on Docks, with my keyboard and mouse in the corner. From my video, March 2026.](rivals-settings-crosshair-docks.webp)
+
+You can see it on the grey Arena walls and in the dark Backrooms in [my other Rivals video](https://www.youtube.com/watch?v=A-FtAq2-AcI) from the same month. I didn't open the crosshair editor in either video, so I can't give you the exact values. The classic cross above is a good place to start if you want something close.
 
 For other Roblox games, I've got a separate [custom crosshair guide](/guides/roblox-custom-crosshair/).
 

@@ -14,8 +14,6 @@ Ranked in RIVALS got a lot harder to get into this year. If the button is locked
 
 This guide is based on Season 3 ("The Fame Season") up to Update 23 (September 18, 2026). Season 4 could be close, so double check rewards in-game.
 
-> **[ALLAN]** Screenshot: the Ranked requirements list in-game (the locked view, if you can get one).
-
 ## Ranked requirements in Season 3
 
 You need all five of these:
@@ -61,7 +59,9 @@ Ranked has three formats: 1v1, 2v2 and 3v3. Each has its own pool of competitive
 - You can swap your loadout twice per duel at most.
 - Your win streak is safe while you play Ranked.
 
-> **[ALLAN]** Your take (2-3 sentences): which Ranked format do you play most, and what do you usually ban?
+For comparison, this is the map vote before a normal 1v1 duel in [my March 2026 Rivals video](https://www.youtube.com/watch?v=A-FtAq2-AcI).
+
+![The map vote before a normal 1v1 duel, with both players picking Arena. From my video, March 2026.](rivals-ranked-map-vote.webp)
 
 ## Ranks and ELO
 
@@ -79,12 +79,6 @@ Your rank comes from your ELO. Each rank below Nemesis has three divisions (I is
 
 Unranked is below 0. Archnemesis isn't an ELO number: it's the top 200 players on the leaderboard.
 
-For reference, this is where I'm at right now:
-
-> **[ALLAN]** Screenshot: your RIVALS rank card.
-
-> **[ALLAN]** Your rank (1-2 sentences): what you placed into this season, your current rank and your peak so far.
-
 The ELO you win or lose depends on who you play. Beat someone much lower and you get very little. Lose to them and it hurts. The wiki's example is a Platinum III beating a Silver II for about +3, or losing about 38 to 40.
 
 Since Update 21 (June 26, 2026), enemy ranks stay hidden until the duel ends. The devs did it so players don't mentally give up at the start. Private-server Ranked duels have shown enemy ranks since Update 22.
@@ -94,8 +88,6 @@ Since Update 21 (June 26, 2026), enemy ranks stay hidden until the duel ends. Th
 Update 22 tried a new ELO formula. Players above 3,600 were no longer treated as equal, and winning a very lopsided match could give +0 ELO. If that happened, you got a "Stomp" charm for a random weapon instead.
 
 Two weeks later, Update 23 undid it. The devs said changing ELO mid-season "was not the right move" and that the changes should come back next season, when everyone starts fresh.
-
-> **[ALLAN]** Your experience (1-2 sentences): did you play Ranked while the Update 22 ELO formula was live? What did you notice?
 
 ### Placements
 
@@ -144,11 +136,11 @@ Every weapon also has a Glory Track you buy in order: Glory Coin charm (100), Gl
 
 As of late September 2026, Season 4 had no announced date. In June the devs admitted Ranked "has its issues" and promised work on matchmaking, ELO gain and the Glory Shop. They said most of those fixes wouldn't make the next update but would be ready in time for Season 4, so expect some of this guide to change.
 
-## My tips for climbing
+## My own RIVALS duels so far
 
-I climbed BedWars ranked solo from Bronze to Nightmare, and lately I've been playing RIVALS.
+I've reached Nightmare in BedWars Ranked, and in 2026 I started making RIVALS videos. My RIVALS videos so far are normal 1v1 duels, not Ranked, so I don't have climbing tips to share yet.
 
-> **[ALLAN]** Your tips in your own words (3-5 sentences): what from your BedWars ranked climb helps you in RIVALS Ranked, and what would you tell someone just out of placements?
+In [my other March 2026 Rivals video](https://www.youtube.com/watch?v=h2nPTqlMyYo) a viewer with a 91% win rate challenged me to a first to 5, and I lost. I also fell off the Chess map in that one, because I didn't know you could.
 
 For free rewards while you level up, check the [RIVALS codes](/rivals-codes/) page.
 
