@@ -1,7 +1,7 @@
 {
   "slug": "lineage-piece",
   "name": "Lineage Piece",
-  "robloxName": "[🍀x2 Luck & EXP] Lineage Piece",
+  "robloxName": "[Maintenance] Lineage Piece",
   "placeId": 104761395312874,
   "universeId": 9382839773,
   "gameUrl": "https://www.roblox.com/games/104761395312874/Lineage-Piece",
@@ -222,17 +222,17 @@
     }
   ],
   "stats": {
-    "playing": 412,
-    "visits": 37253416,
-    "favorites": 91371,
-    "updated": "2026-11-13T22:54:29.49Z",
+    "playing": 0,
+    "visits": 37262392,
+    "favorites": 91390,
+    "updated": "2026-11-15T10:01:50.062Z",
     "created": "2025-12-19T13:19:19.257Z",
     "maxPlayers": 12,
-    "upVotes": 292784,
+    "upVotes": 292822,
     "downVotes": 3453
   },
   "added": "2026-09-29T18:35:59.136Z",
-  "lastChecked": "2026-11-15T01:00:13.051Z",
+  "lastChecked": "2026-11-15T10:45:49.657Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {

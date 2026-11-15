@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-11 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+12 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -12,7 +12,8 @@ node scripts/review.mjs
 | Anime Fighting Simulator (draft) | `SSJGOD` | FREE rewards | 2026-11-08 05:55 UTC | Use Code "SSJGOD" for FREE rewards! |
 | Bubble Gum Simulator (draft) | `winter` | 8 Hours of 2x Luck & Hatch Speed | 2026-11-07 00:53 UTC | Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed! |
 | Bubble Gum Simulator (draft) | `yeti` | 8 Hours of 2x Luck & Hatch Speed | 2026-11-07 00:53 UTC | Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed! |
-| Dream Car Collection | `KingComing` |  | 2026-11-08 19:38 UTC | LIMITED CODE: "KingComing" |
+| Dream Car Collection | `CROWNDOWN` |  | 2026-11-15 10:45 UTC | UPDATE CODES: "CROWNDOWN" & "CRATERUSH" |
+| Dream Car Collection | `CRATERUSH` |  | 2026-11-15 10:45 UTC | UPDATE CODES: "CROWNDOWN" & "CRATERUSH" |
 | Gym Star Simulator (draft) | `HALLOGYMSTAR` | 1250x FREE Halloween Candy Corns | 2026-10-22 17:06 UTC | Redeem Code: Use the code "HALLOGYMSTAR" to claim 1250x FREE Halloween Candy Corns! |
 | Midnight Chasers: Highway Racing (draft) | `ThanksFor1M` |  | 2026-11-07 17:43 UTC | Current Code: "ThanksFor1M" |
 | +1 Hacker Evolve | `600LIKES` | FREE rewards | 2026-11-08 19:38 UTC | Use code "600LIKES" for FREE rewards! |
