@@ -1,7 +1,7 @@
 {
   "slug": "knife-duels",
   "name": "Knife Duels",
-  "robloxName": "[CLANS] KNIFE DUELS",
+  "robloxName": "[ZOMBIES] KNIFE DUELS",
   "placeId": 112731528776884,
   "universeId": 9641502068,
   "gameUrl": "https://www.roblox.com/games/112731528776884/KNIFE-DUELS",
@@ -122,17 +122,17 @@
     }
   ],
   "stats": {
-    "playing": 13804,
-    "visits": 177974104,
-    "favorites": 309191,
-    "updated": "2026-11-13T18:47:45.3Z",
+    "playing": 13722,
+    "visits": 178636749,
+    "favorites": 310005,
+    "updated": "2026-11-15T18:23:53.497Z",
     "created": "2026-01-29T12:11:21.933Z",
     "maxPlayers": 60,
-    "upVotes": 356798,
-    "downVotes": 23697
+    "upVotes": 357446,
+    "downVotes": 23756
   },
   "added": "2026-09-29T18:35:57.472Z",
-  "lastChecked": "2026-11-15T10:45:49.657Z",
+  "lastChecked": "2026-11-15T18:47:28.060Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
