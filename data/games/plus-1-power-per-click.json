@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-power-per-click",
   "name": "+1 Power Per Click",
-  "robloxName": "+1 Power Per Click [ADMIN ABUSE]",
+  "robloxName": "+1 Power Per Click [2X]",
   "placeId": 74889851913797,
   "universeId": 10485201326,
   "gameUrl": "https://www.roblox.com/games/74889851913797/1-Power-Per-Click",
@@ -25,7 +25,7 @@
       "reward": "100 Luck Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "2x Wins Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-14T19:54:41.628Z",
+      "lastSeen": "2026-11-15T01:00:13.051Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -83,17 +83,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 782,
-    "visits": 24179693,
-    "favorites": 685965,
-    "updated": "2026-11-14T17:48:12.399Z",
+    "playing": 747,
+    "visits": 24188878,
+    "favorites": 686087,
+    "updated": "2026-11-14T20:53:18.346Z",
     "created": "2026-07-11T13:59:06.188Z",
     "maxPlayers": 12,
-    "upVotes": 22989,
-    "downVotes": 1169
+    "upVotes": 22993,
+    "downVotes": 1170
   },
   "added": "2026-09-29T16:13:50.695Z",
-  "lastChecked": "2026-11-14T19:54:41.628Z",
+  "lastChecked": "2026-11-15T01:00:13.051Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

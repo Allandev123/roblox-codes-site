@@ -1,7 +1,7 @@
 {
   "slug": "fish-it",
   "name": "Fish It!",
-  "robloxName": "[6 HRS] Fish It! 🐟",
+  "robloxName": "[1 HOUR] Fish It! 🐟",
   "placeId": 121864768012064,
   "universeId": 6701277882,
   "gameUrl": "https://www.roblox.com/games/121864768012064/Fish-It",
@@ -174,17 +174,17 @@
     }
   ],
   "stats": {
-    "playing": 67504,
-    "visits": 4827160721,
-    "favorites": 1289649,
-    "updated": "2026-11-14T19:13:53.071Z",
+    "playing": 86755,
+    "visits": 4827419411,
+    "favorites": 1289724,
+    "updated": "2026-11-15T00:33:27.613Z",
     "created": "2024-10-21T00:25:27.823Z",
     "maxPlayers": 20,
-    "upVotes": 1349776,
+    "upVotes": 1349806,
     "downVotes": 279791
   },
   "added": "2026-09-29T17:52:23.693Z",
-  "lastChecked": "2026-11-14T19:54:41.628Z",
+  "lastChecked": "2026-11-15T01:00:13.051Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
