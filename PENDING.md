@@ -1,6 +1,6 @@
 # Codes waiting for approval
 
-12 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
+13 code(s) found by the scraper that are not on the site yet. Approve or reject them with:
 
 ```
 node scripts/review.mjs
@@ -18,5 +18,6 @@ node scripts/review.mjs
 | Midnight Chasers: Highway Racing (draft) | `ThanksFor1M` |  | 2026-11-07 17:43 UTC | Current Code: "ThanksFor1M" |
 | +1 Hacker Evolve | `600LIKES` | FREE rewards | 2026-11-08 19:38 UTC | Use code "600LIKES" for FREE rewards! |
 | +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:HALLOWEEN\PET\1BVISITS |
-| Roll a Fisherman | `INFERNO` | 2 FREE SPINS | 2026-11-09 00:49 UTC | NEW CODE: INFERNO — 2 FREE SPINS! |
+| Roll a Fisherman | `INFERNO` | 2 FREE SPINS | 2026-11-09 00:49 UTC | CODES: … INFERNO |
+| Roll a Fisherman | `MARKET` |  | 2026-11-16 00:58 UTC | NEW CODE: MARKET |
 | Saber Simulator (draft) | `FRIDAYTHE13TH` |  | 2026-11-13 23:29 UTC | New code "FRIDAYTHE13TH" |
