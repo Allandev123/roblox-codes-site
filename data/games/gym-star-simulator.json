@@ -25,7 +25,7 @@
       "reward": "1250x FREE Halloween Candy Corns",
       "status": "active",
       "firstSeen": "2026-10-22T17:06:44.312Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": false,
       "context": "Redeem Code: Use the code \"HALLOGYMSTAR\" to claim 1250x FREE Halloween Candy Corns!"
@@ -42,17 +42,17 @@
     }
   ],
   "stats": {
-    "playing": 4557,
-    "visits": 741168906,
-    "favorites": 7208490,
+    "playing": 3487,
+    "visits": 741348576,
+    "favorites": 7210408,
     "updated": "2026-11-13T08:29:34.682Z",
     "created": "2024-08-20T06:12:32.837Z",
     "maxPlayers": 16,
-    "upVotes": 259274,
-    "downVotes": 21222
+    "upVotes": 259300,
+    "downVotes": 21224
   },
   "added": "2026-09-29T16:13:35.455Z",
-  "lastChecked": "2026-11-16T11:06:23.438Z",
+  "lastChecked": "2026-11-16T21:57:46.436Z",
   "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

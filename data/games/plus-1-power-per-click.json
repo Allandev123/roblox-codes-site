@@ -25,7 +25,7 @@
       "reward": "100 Luck Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "2x Wins Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -65,7 +65,7 @@
       "reward": "2x Power Potion (30 minutes)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -75,7 +75,7 @@
       "reward": "100 Title Rolls",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:50.695Z",
-      "lastSeen": "2026-11-16T11:06:23.438Z",
+      "lastSeen": "2026-11-16T21:57:46.436Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -83,17 +83,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 511,
-    "visits": 24246739,
-    "favorites": 686987,
-    "updated": "2026-11-15T21:49:54.693Z",
+    "playing": 531,
+    "visits": 24262948,
+    "favorites": 687208,
+    "updated": "2026-11-16T21:52:56.858Z",
     "created": "2026-07-11T13:59:06.188Z",
     "maxPlayers": 12,
-    "upVotes": 23015,
-    "downVotes": 1170
+    "upVotes": 23026,
+    "downVotes": 1172
   },
   "added": "2026-09-29T16:13:50.695Z",
-  "lastChecked": "2026-11-16T11:06:23.438Z",
+  "lastChecked": "2026-11-16T21:57:46.436Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "tower-defense-x",
   "name": "Tower Defense X",
-  "robloxName": "[+50% SHARDS] Tower Defense X: BETA",
+  "robloxName": "Tower Defense X: BETA",
   "placeId": 9503261072,
   "universeId": 3541611379,
   "gameUrl": "https://www.roblox.com/games/9503261072/TB-II-COLLAB-Tower-Defense-X-BETA",
@@ -140,17 +140,17 @@
     }
   ],
   "stats": {
-    "playing": 2632,
-    "visits": 433313715,
-    "favorites": 342576,
-    "updated": "2026-11-14T05:42:42.812Z",
+    "playing": 2602,
+    "visits": 433458189,
+    "favorites": 342618,
+    "updated": "2026-11-16T19:31:01.015Z",
     "created": "2022-04-30T06:57:56.987Z",
     "maxPlayers": 50,
-    "upVotes": 336417,
-    "downVotes": 20588
+    "upVotes": 336461,
+    "downVotes": 20590
   },
   "added": "2026-09-29T18:36:12.827Z",
-  "lastChecked": "2026-11-16T11:06:23.438Z",
+  "lastChecked": "2026-11-16T21:57:46.436Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
