@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-11-16T21:57:46.436Z",
+      "lastSeen": "2026-11-17T07:50:00.397Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-15T10:45:49.657Z",
-      "lastSeen": "2026-11-16T21:57:46.436Z",
+      "lastSeen": "2026-11-17T07:50:00.397Z",
       "source": "description",
       "approved": false,
       "context": "UPDATE CODES: \"CROWNDOWN\" & \"CRATERUSH\""
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-15T10:45:49.657Z",
-      "lastSeen": "2026-11-16T21:57:46.436Z",
+      "lastSeen": "2026-11-17T07:50:00.397Z",
       "source": "description",
       "approved": false,
       "context": "UPDATE CODES: \"CROWNDOWN\" & \"CRATERUSH\""
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3413,
-    "visits": 33898942,
-    "favorites": 419086,
+    "playing": 2294,
+    "visits": 34011549,
+    "favorites": 420360,
     "updated": "2026-11-16T21:15:25.712Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 58279,
-    "downVotes": 3595
+    "upVotes": 58423,
+    "downVotes": 3610
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-11-16T21:57:46.436Z",
+  "lastChecked": "2026-11-17T07:50:00.397Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
