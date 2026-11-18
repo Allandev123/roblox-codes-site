@@ -7,6 +7,7 @@ summary: Which BedWars kits every new player gets for free, how the weekly rotat
 published: 2026-11-20
 updated: 2026-11-20
 series: Game guides
+card: bw-kits-archer-tactical-crossbow.webp
 order: 34
 ---
 New to BedWars? The kit shop is full of 10,000 BedCoins price tags, but you can play plenty of kits without buying one. This guide covers the free kits first, then what the rest cost. Everything here is checked against the **September 25, 2026 update** (the one that brought back Fisherman and Trapper).

@@ -7,6 +7,7 @@ summary: What every key RIVALS setting does, good starting values for sensitivit
 published: 2026-11-28
 updated: 2026-11-28
 series: Game guides
+card: rivals-settings-crosshair-docks.webp
 order: 32
 ---
 RIVALS has a lot of settings now, and most of them sit in tabs you'd never open by accident. This post covers the ones that change how the game feels: sensitivity, field of view and the crosshair editor. It also shows how to copy someone's whole setup in one go. The crosshair from my own videos is further down.

@@ -7,6 +7,7 @@ summary: How BedWars Ranked works in Season 17, from the level requirement and R
 published: 2026-11-18
 updated: 2026-11-18
 series: Game guides
+card: ranked-climb-gold-3-win.webp
 order: 33
 ---
 I have reached Nightmare in BedWars Ranked more than once, and in 2024 I filmed a solo queue climb too. Ranked changes almost every season, though, so this post starts with how it works right now. My own climbs come after that.

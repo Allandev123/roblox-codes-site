@@ -7,6 +7,7 @@ summary: What changed when BedWars brought back the Fisherman and Trapper in Sep
 published: 2026-11-24
 updated: 2026-11-24
 series: Game guides
+card: bw-fisherman-old-rod-2023.webp
 order: 30
 ---
 The Fisherman and the Trapper are back in BedWars. Both kits first came out on October 23, 2021 as Season 2 Battle Pass rewards: the Trapper at level 3 (the lowest level for a kit in any Battle Pass) and the Fisherman at level 25. Once Season 2 ended on December 17, 2021, nobody could get them anymore.

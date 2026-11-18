@@ -7,6 +7,7 @@ summary: Six common BedWars beginner mistakes, from one-layer wool beds to void 
 published: 2026-11-16
 updated: 2026-11-16
 series: Game guides
+card: bw-mistakes-obsidian-bed.webp
 order: 35
 ---
 BedWars has one rule that decides most games, and the official game description puts it simply: "Protect your bed. Once it's gone, you can no longer respawn!" Almost every beginner mistake below comes back to that bed, or to the iron and diamonds you spend keeping it alive.

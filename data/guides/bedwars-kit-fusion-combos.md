@@ -7,6 +7,7 @@ summary: How Kit Fusion works in BedWars, what the 2026 nerfs hit, and the two-k
 published: 2026-11-26
 updated: 2026-11-26
 series: Game guides
+card: bw-fusion-aery-great-hammer-2023.webp
 order: 38
 ---
 Kit Fusion is the BedWars mode where you pick two kits and use both in the same match. The pairs that got the mode called "unplayable" were nerfed in 2026, so a lot of older combo advice is out of date.

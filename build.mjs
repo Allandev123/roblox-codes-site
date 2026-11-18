@@ -241,8 +241,8 @@ function loadArticles(section) {
         slug, section, path: `/${section}/${slug}/`, ...meta,
         updated: meta.updated ?? meta.published, published: meta.published,
         games, order: Number(meta.order ?? 99),
-        // card picture: the article's own image, else the first game's thumbnail
-        cover: meta.image ? `/img/guides/${meta.image}` : thumbOf.get(meta.cover ?? games[0]) ?? null,
+        // card picture: the article's own image, else a card-only picture (not shown at the top of the article), else the first game's thumbnail
+        cover: meta.image ? `/img/guides/${meta.image}` : meta.card ? `/img/guides/${meta.card}` : thumbOf.get(meta.cover ?? games[0]) ?? null,
         onGamePages: meta.onGamePages === 'true', draft: meta.draft === 'true',
         html: r.html, headings: r.headings, words: r.words, minutes: Math.max(2, Math.round(r.words / 220)),
       };

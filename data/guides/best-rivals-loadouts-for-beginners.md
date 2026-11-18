@@ -7,7 +7,7 @@ summary: The four RIVALS loadout slots, the cheap weapons worth your first Keys,
 published: 2026-11-22
 updated: 2026-11-22
 series: Game guides
-cover: rivals
+card: rivals-loadouts-default-loadout.webp
 order: 37
 games: rivals
 ---
