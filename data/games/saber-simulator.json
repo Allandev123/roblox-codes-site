@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-13T23:29:47.718Z",
-      "lastSeen": "2026-11-17T18:31:17.971Z",
+      "lastSeen": "2026-11-18T02:52:43.876Z",
       "source": "description",
       "approved": false,
       "context": "New code \"FRIDAYTHE13TH\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 1410,
-    "visits": 648113350,
-    "favorites": 2038009,
+    "playing": 1454,
+    "visits": 648130537,
+    "favorites": 2038012,
     "updated": "2026-11-13T18:10:15.589Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 570945,
+    "upVotes": 570946,
     "downVotes": 90810
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-11-17T18:31:17.971Z",
+  "lastChecked": "2026-11-18T02:52:43.876Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
