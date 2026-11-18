@@ -59,7 +59,7 @@
       "reward": "FREE rewards",
       "status": "active",
       "firstSeen": "2026-11-08T19:38:47.031Z",
-      "lastSeen": "2026-11-18T11:33:34.606Z",
+      "lastSeen": "2026-11-18T20:27:00.899Z",
       "source": "description",
       "approved": false,
       "context": "Use code \"600LIKES\" for FREE rewards!"
@@ -75,17 +75,17 @@
     }
   ],
   "stats": {
-    "playing": 927,
-    "visits": 3831919,
-    "favorites": 99759,
+    "playing": 1020,
+    "visits": 3878153,
+    "favorites": 101122,
     "updated": "2026-11-15T22:17:16.494Z",
     "created": "2026-10-20T20:52:43.241Z",
     "maxPlayers": 9,
-    "upVotes": 3467,
-    "downVotes": 339
+    "upVotes": 3507,
+    "downVotes": 345
   },
   "added": "2026-11-07T19:58:58.754Z",
-  "lastChecked": "2026-11-18T11:33:34.606Z",
+  "lastChecked": "2026-11-18T20:27:00.899Z",
   "lastChanged": "2026-11-07T21:00:00.000Z",
   "codeChannels": "The game description says a new code comes when the game reaches 250 likes, so liking the game helps unlock the next one",
   "redeemImage": "plus-1-hacker-evolve-redeem.webp",
