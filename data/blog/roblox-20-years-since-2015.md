@@ -7,6 +7,7 @@ summary: "A short timeline of Roblox's biggest changes from 2015 to 2026, from L
 published: 2026-10-14
 updated: 2026-10-14
 series: From my channel
+card: roblox-20-my-avatar.webp
 order: 7
 ---
 Roblox turned 20 on **September 1, 2026**. I've been playing since 2015, so I've been around for more than half of those 20 years.
