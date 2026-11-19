@@ -25,7 +25,7 @@
       "reward": "8 Hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-11-07T00:53:47.137Z",
-      "lastSeen": "2026-11-19T11:31:14.714Z",
+      "lastSeen": "2026-11-19T20:29:46.328Z",
       "source": "description",
       "approved": false,
       "context": "Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed!"
@@ -35,7 +35,7 @@
       "reward": "8 Hours of 2x Luck & Hatch Speed",
       "status": "active",
       "firstSeen": "2026-11-07T00:53:47.137Z",
-      "lastSeen": "2026-11-19T11:31:14.714Z",
+      "lastSeen": "2026-11-19T20:29:46.328Z",
       "source": "description",
       "approved": false,
       "context": "Use code 'winter' & 'yeti' for 8 Hours of 2x Luck & Hatch Speed!"
@@ -76,17 +76,17 @@
     }
   ],
   "stats": {
-    "playing": 909,
-    "visits": 1254709958,
-    "favorites": 3319989,
+    "playing": 958,
+    "visits": 1254720894,
+    "favorites": 3319990,
     "updated": "2026-11-07T03:02:38.165Z",
     "created": "2018-10-23T13:18:21.007Z",
     "maxPlayers": 10,
-    "upVotes": 1055891,
-    "downVotes": 136827
+    "upVotes": 1055893,
+    "downVotes": 136828
   },
   "added": "2026-09-29T16:13:47.948Z",
-  "lastChecked": "2026-11-19T11:31:14.714Z",
+  "lastChecked": "2026-11-19T20:29:46.328Z",
   "lastChanged": "2026-10-22T17:06:44.312Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

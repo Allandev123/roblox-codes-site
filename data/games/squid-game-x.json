@@ -25,7 +25,7 @@
       "reward": "Coins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:15.443Z",
-      "lastSeen": "2026-11-19T11:31:14.714Z",
+      "lastSeen": "2026-11-19T20:29:46.328Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 11234,
-    "visits": 2384336240,
-    "favorites": 1991634,
-    "updated": "2026-11-16T01:59:05.816Z",
+    "playing": 14707,
+    "visits": 2385212472,
+    "favorites": 1992713,
+    "updated": "2026-11-19T13:46:27.531Z",
     "created": "2021-09-24T23:38:34.723Z",
     "maxPlayers": 80,
-    "upVotes": 1604189,
-    "downVotes": 107650
+    "upVotes": 1604925,
+    "downVotes": 107690
   },
   "added": "2026-09-29T16:13:15.443Z",
-  "lastChecked": "2026-11-19T11:31:14.714Z",
+  "lastChecked": "2026-11-19T20:29:46.328Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
