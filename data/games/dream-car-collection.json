@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-11-19T02:31:28.392Z",
+      "lastSeen": "2026-11-19T11:31:14.714Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-19T02:31:28.392Z",
-      "lastSeen": "2026-11-19T02:31:28.392Z",
+      "lastSeen": "2026-11-19T11:31:14.714Z",
       "source": "description",
       "approved": false,
       "context": "UPDATE CODES: \"GTA6\""
@@ -43,17 +43,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3075,
-    "visits": 34517404,
-    "favorites": 425391,
+    "playing": 3820,
+    "visits": 34630002,
+    "favorites": 426594,
     "updated": "2026-11-18T22:48:57.73Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 58928,
-    "downVotes": 3652
+    "upVotes": 59030,
+    "downVotes": 3657
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-11-19T02:31:28.392Z",
+  "lastChecked": "2026-11-19T11:31:14.714Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
