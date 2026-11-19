@@ -1,7 +1,7 @@
 {
   "slug": "dream-car-collection",
   "name": "Dream Car Collection",
-  "robloxName": "[1HR] 💭Dream Car Collection ",
+  "robloxName": "[🍀] [GTA 6]💭Dream Car Collection",
   "placeId": 76841016201110,
   "universeId": 10667357873,
   "gameUrl": "https://www.roblox.com/games/76841016201110/Dream-Car-Collection",
@@ -25,45 +25,35 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-11-18T20:27:00.899Z",
+      "lastSeen": "2026-11-19T02:31:28.392Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
     },
     {
-      "code": "CROWNDOWN",
+      "code": "GTA6",
       "reward": null,
       "status": "active",
-      "firstSeen": "2026-11-15T10:45:49.657Z",
-      "lastSeen": "2026-11-18T20:27:00.899Z",
+      "firstSeen": "2026-11-19T02:31:28.392Z",
+      "lastSeen": "2026-11-19T02:31:28.392Z",
       "source": "description",
       "approved": false,
-      "context": "UPDATE CODES: \"CROWNDOWN\" & \"CRATERUSH\""
-    },
-    {
-      "code": "CRATERUSH",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-11-15T10:45:49.657Z",
-      "lastSeen": "2026-11-18T20:27:00.899Z",
-      "source": "description",
-      "approved": false,
-      "context": "UPDATE CODES: \"CROWNDOWN\" & \"CRATERUSH\""
+      "context": "UPDATE CODES: \"GTA6\""
     }
   ],
   "expired": [],
   "stats": {
-    "playing": 3349,
-    "visits": 34411727,
-    "favorites": 424301,
-    "updated": "2026-11-18T19:42:21.641Z",
+    "playing": 3075,
+    "visits": 34517404,
+    "favorites": 425391,
+    "updated": "2026-11-18T22:48:57.73Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 58809,
-    "downVotes": 3644
+    "upVotes": 58928,
+    "downVotes": 3652
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-11-18T20:27:00.899Z",
+  "lastChecked": "2026-11-19T02:31:28.392Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
