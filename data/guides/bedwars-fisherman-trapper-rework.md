@@ -4,8 +4,8 @@ seoTitle: "BedWars Fisherman & Trapper Rework: How Both Kits Work Now"
 short: Fisherman and Trapper rework
 description: "How the reworked Fisherman and Trapper kits work in Roblox BedWars after the September 2026 update: traps, Fish Coins, rod tiers and how to get them."
 summary: What changed when BedWars brought back the Fisherman and Trapper in September 2026, how each kit works now, and how to get them.
-published: 2026-11-24
-updated: 2026-11-24
+published: 2026-11-27
+updated: 2026-11-27
 series: Game guides
 card: bw-fisherman-old-rod-2023.webp
 order: 30

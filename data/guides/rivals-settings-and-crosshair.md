@@ -4,8 +4,8 @@ seoTitle: RIVALS Settings, Crosshair and FOV Guide (Roblox 2026)
 short: RIVALS settings and crosshair
 description: "Every key RIVALS setting explained: sensitivity, FOV, the crosshair editor and how to import or share a settings string, plus the crosshair I use."
 summary: What every key RIVALS setting does, good starting values for sensitivity, FOV and the crosshair, and how to copy a setup with a share string.
-published: 2026-11-28
-updated: 2026-11-28
+published: 2026-12-01
+updated: 2026-12-01
 series: Game guides
 card: rivals-settings-crosshair-docks.webp
 order: 32

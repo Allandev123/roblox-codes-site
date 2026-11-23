@@ -4,8 +4,8 @@ seoTitle: Best RIVALS Loadouts for Beginners (Roblox, 2026)
 short: RIVALS beginner loadouts
 description: "Cheap RIVALS loadouts for new players: the four slots, which weapons are worth your first Keys, the buffed Wildcat SMG and good picks for each map."
 summary: The four RIVALS loadout slots, the cheap weapons worth your first Keys, what the buffed Wildcat is good at, and which weapons suit each type of map.
-published: 2026-11-22
-updated: 2026-11-22
+published: 2026-11-25
+updated: 2026-11-25
 series: Game guides
 card: rivals-loadouts-default-loadout.webp
 order: 37

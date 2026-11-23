@@ -4,8 +4,8 @@ seoTitle: Best BedWars Kit Fusion Combos After the 2026 Nerfs
 short: BedWars Kit Fusion combos
 description: The March 2026 nerfs hit Eldertree + Void Knight and Uma + Aery. How BedWars Kit Fusion works now, and which two-kit combos still hold up.
 summary: How Kit Fusion works in BedWars, what the 2026 nerfs hit, and the two-kit combos worth knowing now, explained kit by kit.
-published: 2026-11-26
-updated: 2026-11-26
+published: 2026-11-29
+updated: 2026-11-29
 series: Game guides
 card: bw-fusion-aery-great-hammer-2023.webp
 order: 38

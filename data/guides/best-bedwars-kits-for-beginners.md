@@ -2,10 +2,10 @@
 title: Best BedWars Kits for Beginners (Free Kits and What to Buy First)
 seoTitle: "Best BedWars Kits for Beginners: Free Kits and Prices (2026)"
 short: Best beginner BedWars kits
-description: Which BedWars kits are free, how the weekly rotation and level unlocks work, what every kit tier costs in BedCoins, and the simple kits I've played in my videos.
+description: Which BedWars kits are free, how the weekly rotation and level unlocks work, what each kit tier costs in BedCoins, and simple kits from my videos.
 summary: Which BedWars kits every new player gets for free, how the weekly rotation and level kits work, and what to rent or buy first with BedCoins.
-published: 2026-11-20
-updated: 2026-11-20
+published: 2026-11-23
+updated: 2026-11-23
 series: Game guides
 card: bw-kits-archer-tactical-crossbow.webp
 order: 34
