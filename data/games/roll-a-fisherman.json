@@ -1,7 +1,7 @@
 {
   "slug": "roll-a-fisherman",
   "name": "Roll a Fisherman",
-  "robloxName": "[🔥HELL 2 + MARKETS] Roll a Fisherman 🎣",
+  "robloxName": "[🏴‍☠️PIRATES] Roll a Fisherman 🎣",
   "placeId": 90920025162454,
   "universeId": 10636331438,
   "gameUrl": "https://www.roblox.com/games/90920025162454/Roll-a-Fisherman",
@@ -21,120 +21,95 @@
   "notes": "Roll a Fisherman is an idle fishing tycoon from the FISH X SPEEDI group, released on Roblox in August 2026. You roll for fishermen of different rarities, place them on your dock, and they reel in fish that you set on stands to earn cash. That cash goes into upgrades and more rolls, and your fish keep earning while you are offline.\n\nThe game uses two currencies, cash and gold, plus spins for extra rolls, and its codes hand out a mix of all three. Free spins are the most useful early on because they give more chances at better fishermen. New codes have arrived with each numbered update and new feature, and the developers list them on the game's Roblox page and in their Discord.",
   "codes": [
     {
-      "code": "RELEASE",
-      "reward": "5,000 cash",
+      "code": "AHOY",
+      "reward": null,
       "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
+      "firstSeen": "2026-11-23T21:29:10.890Z",
+      "lastSeen": "2026-11-23T21:29:10.890Z",
       "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
+      "approved": false,
+      "context": "NEW CODE: AHOY"
+    }
+  ],
+  "expired": [
     {
-      "code": "UPDATE1",
-      "reward": "3 spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
+      "code": "DEVS_SUCK",
+      "reward": null,
+      "removed": "2026-11-23",
+      "firstSeen": "2026-10-04T21:20:16.715Z",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "2 spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "GOLD",
-      "reward": "300 gold",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "UPGRADES",
-      "reward": "500 gold",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
-      "code": "FISHING",
-      "reward": "2 spins",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     },
     {
       "code": "SEAL",
       "reward": "3 spins",
-      "status": "active",
+      "removed": "2026-11-23",
       "firstSeen": "2026-09-29T16:13:32.278Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
+      "reason": "no longer listed by the game"
     },
     {
-      "code": "DEVS_SUCK",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-04T21:20:16.715Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
+      "code": "FISHING",
+      "reward": "2 spins",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
       "approved": true,
-      "approvedAt": "2026-10-13T01:59:59.115Z"
+      "reason": "no longer listed by the game"
     },
     {
-      "code": "INFERNO",
-      "reward": "2 FREE SPINS",
-      "status": "active",
-      "firstSeen": "2026-11-09T00:49:41.286Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": false,
-      "context": "CODES: … INFERNO"
+      "code": "UPGRADES",
+      "reward": "500 gold",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
     },
     {
-      "code": "MARKET",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-11-16T00:58:49.711Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
-      "source": "description",
-      "approved": false,
-      "context": "NEW CODE: MARKET"
+      "code": "GOLD",
+      "reward": "300 gold",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "UPDATE2",
+      "reward": "2 spins",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "3 spins",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "5,000 cash",
+      "removed": "2026-11-23",
+      "firstSeen": "2026-09-29T16:13:32.278Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
     }
   ],
-  "expired": [],
   "stats": {
-    "playing": 114,
-    "visits": 16724521,
-    "favorites": 449472,
-    "updated": "2026-11-16T02:33:40.827Z",
+    "playing": 129,
+    "visits": 16762818,
+    "favorites": 449345,
+    "updated": "2026-11-23T06:53:13.899Z",
     "created": "2026-08-05T14:47:20.106Z",
     "maxPlayers": 6,
-    "upVotes": 103604,
-    "downVotes": 1927
+    "upVotes": 103651,
+    "downVotes": 1929
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-11-19T20:29:46.328Z",
-  "lastChanged": "2026-10-13T01:59:59.115Z",
+  "lastChecked": "2026-11-23T21:29:10.890Z",
+  "lastChanged": "2026-11-23T21:29:10.890Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming Roll a Fisherman codes?",

@@ -1,7 +1,7 @@
 {
   "slug": "rivals",
   "name": "Rivals",
-  "robloxName": "[🎯] RIVALS",
+  "robloxName": "[🛡️] RIVALS",
   "placeId": 17625359962,
   "universeId": 6035872082,
   "gameUrl": "https://www.roblox.com/games/17625359962/RIVALS",
@@ -259,17 +259,17 @@
     }
   ],
   "stats": {
-    "playing": 100824,
-    "visits": 19382756454,
-    "favorites": 97812053,
-    "updated": "2026-11-19T05:57:17.406Z",
+    "playing": 105194,
+    "visits": 19450396087,
+    "favorites": 98141896,
+    "updated": "2026-11-23T17:42:48.471Z",
     "created": "2024-05-26T16:47:48.617Z",
     "maxPlayers": 40,
-    "upVotes": 11021114,
-    "downVotes": 751482
+    "upVotes": 11042057,
+    "downVotes": 754481
   },
   "added": "2026-09-29T17:09:03.441Z",
-  "lastChecked": "2026-11-19T20:29:46.328Z",
+  "lastChecked": "2026-11-23T21:29:10.890Z",
   "lastChanged": "2026-09-29T19:32:36.997Z",
   "faq": [
     {

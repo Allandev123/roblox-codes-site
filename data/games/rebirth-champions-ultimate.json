@@ -1,7 +1,7 @@
 {
   "slug": "rebirth-champions-ultimate",
   "name": "Rebirth Champions: Ultimate",
-  "robloxName": "[🎉] Rebirth Champions: Ultimate",
+  "robloxName": "[🦃] Rebirth Champions: Ultimate",
   "placeId": 74260430392611,
   "universeId": 7178032757,
   "gameUrl": "https://www.roblox.com/games/74260430392611/Rebirth-Champions-Ultimate",
@@ -25,7 +25,7 @@
       "reward": "Free boost (Luck Potion, Grape and Apple)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:38.732Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
+      "lastSeen": "2026-11-23T21:29:10.890Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:58.945Z"
@@ -33,16 +33,16 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 5799,
-    "visits": 254729742,
-    "favorites": 154619,
-    "updated": "2026-11-19T12:51:15.094Z",
+    "playing": 6287,
+    "visits": 255657161,
+    "favorites": 154692,
+    "updated": "2026-11-22T10:27:03.945Z",
     "created": "2025-02-01T08:45:07.927Z",
     "maxPlayers": 10,
-    "upVotes": 232850,
-    "downVotes": 5989
+    "upVotes": 232919,
+    "downVotes": 5997
   },
   "added": "2026-09-29T16:13:38.732Z",
-  "lastChecked": "2026-11-19T20:29:46.328Z",
+  "lastChecked": "2026-11-23T21:29:10.890Z",
   "lastChanged": "2026-10-13T01:59:58.945Z"
 }

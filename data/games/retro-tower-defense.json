@@ -1,7 +1,7 @@
 {
   "slug": "retro-tower-defense",
   "name": "Retro Tower Defense",
-  "robloxName": "☣️ ACT 3 | Retro Tower Defense",
+  "robloxName": "Retro Tower Defense",
   "placeId": 98936097545088,
   "universeId": 7738524573,
   "gameUrl": "https://www.roblox.com/games/98936097545088/Retro-Tower-Defense",
@@ -25,7 +25,7 @@
       "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:14:03.031Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
+      "lastSeen": "2026-11-23T21:29:10.890Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
+      "lastSeen": "2026-11-23T21:29:10.890Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "100 Tix",
       "status": "active",
       "firstSeen": "2026-09-29T16:15:34.324Z",
-      "lastSeen": "2026-11-19T20:29:46.328Z",
+      "lastSeen": "2026-11-23T21:29:10.890Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 701,
-    "visits": 186233623,
-    "favorites": 173788,
-    "updated": "2026-11-13T17:01:16.457Z",
+    "playing": 1859,
+    "visits": 187447361,
+    "favorites": 174546,
+    "updated": "2026-11-23T03:17:47.757Z",
     "created": "2025-05-20T16:48:11.753Z",
     "maxPlayers": 30,
-    "upVotes": 108754,
-    "downVotes": 9975
+    "upVotes": 109175,
+    "downVotes": 10021
   },
   "added": "2026-09-29T16:14:03.031Z",
-  "lastChecked": "2026-11-19T20:29:46.328Z",
+  "lastChecked": "2026-11-23T21:29:10.890Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

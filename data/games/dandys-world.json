@@ -1,7 +1,7 @@
 {
   "slug": "dandys-world",
   "name": "Dandy's World",
-  "robloxName": "🌻 Dandy's World [ALPHA]",
+  "robloxName": "🌻 Dandy's World [1.0]",
   "placeId": 16116270224,
   "universeId": 5569032992,
   "gameUrl": "https://www.roblox.com/games/16116270224/Dandys-World",
@@ -89,17 +89,17 @@
     }
   ],
   "stats": {
-    "playing": 67744,
-    "visits": 7987383466,
-    "favorites": 4862921,
-    "updated": "2026-11-19T04:11:18.053Z",
+    "playing": 141501,
+    "visits": 8048599304,
+    "favorites": 5058075,
+    "updated": "2026-11-23T15:34:36.233Z",
     "created": "2024-01-26T03:52:09.063Z",
     "maxPlayers": 35,
-    "upVotes": 1818956,
-    "downVotes": 235528
+    "upVotes": 1845564,
+    "downVotes": 230749
   },
   "added": "2026-09-29T17:52:15.810Z",
-  "lastChecked": "2026-11-19T20:29:46.328Z",
+  "lastChecked": "2026-11-23T21:29:10.890Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
