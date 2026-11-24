@@ -1,7 +1,7 @@
 {
   "slug": "deep-fishing",
   "name": "Deep Fishing",
-  "robloxName": "[⚓] Deep Fishing🎣",
+  "robloxName": "Deep Fishing🎣",
   "placeId": 132239307080610,
   "universeId": 10526853622,
   "gameUrl": "https://www.roblox.com/games/132239307080610/Deep-Fishing",
@@ -320,17 +320,17 @@
     }
   ],
   "stats": {
-    "playing": 6225,
-    "visits": 32081330,
-    "favorites": 379236,
-    "updated": "2026-11-24T03:28:54.788Z",
+    "playing": 5598,
+    "visits": 32256657,
+    "favorites": 381255,
+    "updated": "2026-11-24T18:02:17.336Z",
     "created": "2026-07-18T22:34:37.651Z",
     "maxPlayers": 12,
-    "upVotes": 65720,
-    "downVotes": 2027
+    "upVotes": 65985,
+    "downVotes": 2037
   },
   "added": "2026-09-29T18:35:44.339Z",
-  "lastChecked": "2026-11-24T13:35:52.915Z",
+  "lastChecked": "2026-11-24T23:52:07.750Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
