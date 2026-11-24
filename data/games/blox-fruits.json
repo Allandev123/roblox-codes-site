@@ -1,7 +1,7 @@
 {
   "slug": "blox-fruits",
   "name": "Blox Fruits",
-  "robloxName": "[🎃] Blox Fruits",
+  "robloxName": "Blox Fruits",
   "placeId": 2753915549,
   "universeId": 994732206,
   "gameUrl": "https://www.roblox.com/games/2753915549/Blox-Fruits",
@@ -422,17 +422,17 @@
     }
   ],
   "stats": {
-    "playing": 257446,
-    "visits": 65636031345,
-    "favorites": 20287128,
-    "updated": "2026-11-17T04:25:20.147Z",
+    "playing": 256074,
+    "visits": 65643098165,
+    "favorites": 20289271,
+    "updated": "2026-11-24T02:40:08.981Z",
     "created": "2019-01-16T03:29:19.433Z",
     "maxPlayers": 12,
-    "upVotes": 12898603,
-    "downVotes": 1074542
+    "upVotes": 12899932,
+    "downVotes": 1074584
   },
   "added": "2026-09-29T17:52:11.048Z",
-  "lastChecked": "2026-11-24T02:10:09.089Z",
+  "lastChecked": "2026-11-24T13:35:52.915Z",
   "lastChanged": "2026-09-29T17:51:58.319Z",
   "faq": [
     {
