@@ -19,19 +19,16 @@
     "Type or paste the code into the Enter Code box and press Redeem Code."
   ],
   "notes": "Drift 36 is a car game from AutoBlox Games set in an open city where you race other players, practice drifting and cruise around between events. Winning races pays out cash, which goes toward a garage of more than 80 cars and over 30 tuning and visual modifications. It runs on PC, mobile, Xbox and PlayStation 5, and joining the AutoBlox group adds a Group Member tag to your name.\n\nCodes in Drift 36 pay out cash, usually tens of thousands of dollars per code, which is a quick way to afford a better car early on. AutoBlox tends to release them when the game hits visit, like or group-member milestones, and posts them in the game description and on its Discord.",
-  "codes": [
+  "codes": [],
+  "expired": [
     {
       "code": "HALLOWENUPDATE",
       "reward": "+$35.000",
-      "status": "active",
+      "removed": "2026-11-24",
       "firstSeen": "2026-10-11T12:43:54.410Z",
-      "lastSeen": "2026-11-23T21:29:10.890Z",
-      "source": "description",
       "approved": true,
-      "approvedAt": "2026-10-13T01:59:57.968Z"
-    }
-  ],
-  "expired": [
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "75MVISIT",
       "reward": "$40,000 Cash",
@@ -42,18 +39,18 @@
     }
   ],
   "stats": {
-    "playing": 473,
-    "visits": 84903117,
-    "favorites": 226429,
-    "updated": "2026-10-26T13:07:26.495Z",
+    "playing": 232,
+    "visits": 84911939,
+    "favorites": 226448,
+    "updated": "2026-11-23T21:49:59.701Z",
     "created": "2025-09-05T20:17:45.04Z",
     "maxPlayers": 20,
-    "upVotes": 142060,
-    "downVotes": 8492
+    "upVotes": 142067,
+    "downVotes": 8493
   },
   "added": "2026-09-29T16:13:58.046Z",
-  "lastChecked": "2026-11-23T21:29:10.890Z",
-  "lastChanged": "2026-10-13T01:59:57.968Z",
+  "lastChecked": "2026-11-24T02:10:09.089Z",
+  "lastChanged": "2026-11-24T02:10:09.089Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
