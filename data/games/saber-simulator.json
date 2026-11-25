@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-23T21:29:10.890Z",
-      "lastSeen": "2026-11-25T08:24:16.740Z",
+      "lastSeen": "2026-11-25T19:12:20.052Z",
       "source": "description",
       "approved": false,
       "context": "New code \"TURKEYTURKEY\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 1844,
-    "visits": 648559049,
-    "favorites": 2038262,
+    "playing": 2024,
+    "visits": 648587998,
+    "favorites": 2038272,
     "updated": "2026-11-20T18:59:23.93Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 571017,
+    "upVotes": 571024,
     "downVotes": 90815
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-11-25T08:24:16.740Z",
+  "lastChecked": "2026-11-25T19:12:20.052Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
