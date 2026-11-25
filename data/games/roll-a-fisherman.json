@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-23T21:29:10.890Z",
-      "lastSeen": "2026-11-24T23:52:07.750Z",
+      "lastSeen": "2026-11-25T08:24:16.740Z",
       "source": "description",
       "approved": false,
       "context": "NEW CODE: AHOY"
@@ -98,17 +98,17 @@
     }
   ],
   "stats": {
-    "playing": 102,
-    "visits": 16771913,
-    "favorites": 449321,
+    "playing": 93,
+    "visits": 16774451,
+    "favorites": 449314,
     "updated": "2026-11-23T06:53:13.899Z",
     "created": "2026-08-05T14:47:20.106Z",
     "maxPlayers": 6,
-    "upVotes": 103663,
+    "upVotes": 103666,
     "downVotes": 1931
   },
   "added": "2026-09-29T16:13:32.278Z",
-  "lastChecked": "2026-11-24T23:52:07.750Z",
+  "lastChecked": "2026-11-25T08:24:16.740Z",
   "lastChanged": "2026-11-23T21:29:10.890Z",
   "faq": [
     {
