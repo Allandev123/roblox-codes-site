@@ -25,7 +25,7 @@
       "reward": "250 Race Points",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:52.325Z",
-      "lastSeen": "2026-11-25T19:12:20.052Z",
+      "lastSeen": "2026-11-26T03:31:06.905Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "2,500 Wins",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:52.325Z",
-      "lastSeen": "2026-11-25T19:12:20.052Z",
+      "lastSeen": "2026-11-26T03:31:06.905Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-10-04T20:49:46.347Z",
-      "lastSeen": "2026-11-25T19:12:20.052Z",
+      "lastSeen": "2026-11-26T03:31:06.905Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-13T01:59:58.774Z"
@@ -53,9 +53,9 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 20,
-    "visits": 9151902,
-    "favorites": 28709,
+    "playing": 11,
+    "visits": 9152867,
+    "favorites": 28710,
     "updated": "2026-11-24T06:42:13.028Z",
     "created": "2026-08-16T22:22:25.302Z",
     "maxPlayers": 16,
@@ -63,7 +63,7 @@
     "downVotes": 1790
   },
   "added": "2026-09-29T16:13:52.325Z",
-  "lastChecked": "2026-11-25T19:12:20.052Z",
+  "lastChecked": "2026-11-26T03:31:06.905Z",
   "lastChanged": "2026-10-13T01:59:58.774Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

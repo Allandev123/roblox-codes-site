@@ -25,7 +25,7 @@
       "reward": "$500 cash (new players only)",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:13.775Z",
-      "lastSeen": "2026-11-25T19:12:20.052Z",
+      "lastSeen": "2026-11-26T03:31:06.905Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -33,17 +33,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 18630,
-    "visits": 1360828210,
-    "favorites": 1012003,
+    "playing": 13850,
+    "visits": 1361422117,
+    "favorites": 1012139,
     "updated": "2026-11-25T08:19:47.395Z",
     "created": "2024-11-06T14:19:35.68Z",
     "maxPlayers": 28,
-    "upVotes": 292553,
-    "downVotes": 77980
+    "upVotes": 292660,
+    "downVotes": 78015
   },
   "added": "2026-09-29T16:13:13.775Z",
-  "lastChecked": "2026-11-25T19:12:20.052Z",
+  "lastChecked": "2026-11-26T03:31:06.905Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "faq": [
     {
