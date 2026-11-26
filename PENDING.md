@@ -16,6 +16,6 @@ node scripts/review.mjs
 | Dream Car Collection | `FINALHALLOWEEN` |  | 2026-11-23 21:29 UTC | CODES: "LASTSPIN" + "FINALHALLOWEEN" |
 | Midnight Chasers: Highway Racing (draft) | `ThanksFor1M` |  | 2026-11-07 17:43 UTC | Current Code: "ThanksFor1M" |
 | +1 Hacker Evolve | `600LIKES` | FREE rewards | 2026-11-08 19:38 UTC | Use code "600LIKES" for FREE rewards! |
-| +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:HALLOWEEN\PET\1BVISITS |
+| +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:PET\1BVISITS |
 | Roll a Fisherman (draft) | `AHOY` |  | 2026-11-23 21:29 UTC | NEW CODE: AHOY |
 | Saber Simulator (draft) | `TURKEYTURKEY` |  | 2026-11-23 21:29 UTC | New code "TURKEYTURKEY" |

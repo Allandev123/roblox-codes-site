@@ -1,7 +1,7 @@
 {
   "slug": "plus-1-loot-to-forge",
   "name": "+1 Loot To Forge",
-  "robloxName": "[🎃]+1 Loot To Forge",
+  "robloxName": "[🦃]+1 Loot To Forge",
   "placeId": 118805555015549,
   "universeId": 10684750879,
   "gameUrl": "https://www.roblox.com/games/118805555015549/1-Loot-To-Forge",
@@ -25,34 +25,32 @@
       "reward": "2 Race Rolls and 1 Watermelon",
       "status": "active",
       "firstSeen": "2026-10-15T13:39:01.221Z",
-      "lastSeen": "2026-11-26T03:31:06.905Z",
+      "lastSeen": "2026-11-26T16:48:55.222Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-10-15T13:39:08.781Z",
       "tested": "2026-10-15"
     },
     {
-      "code": "HALLOWEEN",
-      "reward": null,
-      "status": "active",
-      "firstSeen": "2026-10-17T10:37:13.721Z",
-      "lastSeen": "2026-11-26T03:31:06.905Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-10-18T14:00:44.747Z"
-    },
-    {
       "code": "1BVISITS",
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-06T10:47:23.429Z",
-      "lastSeen": "2026-11-26T03:31:06.905Z",
+      "lastSeen": "2026-11-26T16:48:55.222Z",
       "source": "description",
       "approved": false,
-      "context": "NEW CODE:HALLOWEEN\\PET\\1BVISITS"
+      "context": "NEW CODE:PET\\1BVISITS"
     }
   ],
   "expired": [
+    {
+      "code": "HALLOWEEN",
+      "reward": null,
+      "removed": "2026-11-26",
+      "firstSeen": "2026-10-17T10:37:13.721Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    },
     {
       "code": "100000CCU",
       "reward": "2 Season Tickets and 2 Race Rolls",
@@ -79,18 +77,18 @@
     }
   ],
   "stats": {
-    "playing": 1127,
-    "visits": 99918501,
-    "favorites": 3796976,
-    "updated": "2026-11-18T05:40:55.072Z",
+    "playing": 1639,
+    "visits": 99978041,
+    "favorites": 3799002,
+    "updated": "2026-11-26T07:00:23.231Z",
     "created": "2026-08-12T01:10:29.354Z",
     "maxPlayers": 8,
-    "upVotes": 179402,
-    "downVotes": 6417
+    "upVotes": 179456,
+    "downVotes": 6421
   },
   "added": "2026-09-29T16:13:10.553Z",
-  "lastChecked": "2026-11-26T03:31:06.905Z",
-  "lastChanged": "2026-10-18T14:00:44.747Z",
+  "lastChecked": "2026-11-26T16:48:55.222Z",
+  "lastChanged": "2026-11-26T16:48:55.222Z",
   "faq": [
     {
       "q": "Do you need anything before redeeming +1 Loot To Forge codes?",
