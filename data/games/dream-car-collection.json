@@ -25,7 +25,7 @@
       "reward": "3 Crate Luck Potions",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:28.540Z",
-      "lastSeen": "2026-11-27T01:41:37.712Z",
+      "lastSeen": "2026-11-27T12:08:04.253Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-23T21:29:10.890Z",
-      "lastSeen": "2026-11-27T01:41:37.712Z",
+      "lastSeen": "2026-11-27T12:08:04.253Z",
       "source": "description",
       "approved": false,
       "context": "CODES: \"LASTSPIN\" + \"FINALHALLOWEEN\""
@@ -45,7 +45,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-23T21:29:10.890Z",
-      "lastSeen": "2026-11-27T01:41:37.712Z",
+      "lastSeen": "2026-11-27T12:08:04.253Z",
       "source": "description",
       "approved": false,
       "context": "CODES: \"LASTSPIN\" + \"FINALHALLOWEEN\""
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 3199,
-    "visits": 38004713,
-    "favorites": 460961,
+    "playing": 5218,
+    "visits": 38179614,
+    "favorites": 462447,
     "updated": "2026-11-26T22:56:28.437Z",
     "created": "2026-08-09T20:58:41.401Z",
     "maxPlayers": 6,
-    "upVotes": 62540,
-    "downVotes": 3901
+    "upVotes": 62701,
+    "downVotes": 3908
   },
   "added": "2026-09-29T16:13:28.540Z",
-  "lastChecked": "2026-11-27T01:41:37.712Z",
+  "lastChecked": "2026-11-27T12:08:04.253Z",
   "lastChanged": "2026-09-29T16:27:49.271Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
