@@ -19,4 +19,4 @@ node scripts/review.mjs
 | +1 Hacker Evolve | `600LIKES` | FREE rewards | 2026-11-08 19:38 UTC | Use code "600LIKES" for FREE rewards! |
 | +1 Loot To Forge | `1BVISITS` |  | 2026-11-06 10:47 UTC | NEW CODE:PET\1BVISITS |
 | Roll a Fisherman (draft) | `AHOY` |  | 2026-11-23 21:29 UTC | NEW CODE: AHOY |
-| Saber Simulator (draft) | `TURKEYTURKEY` |  | 2026-11-23 21:29 UTC | New code "TURKEYTURKEY" |
+| Saber Simulator (draft) | `BLACKFRIDAY26` |  | 2026-11-27 21:11 UTC | New code "BLACKFRIDAY26" |

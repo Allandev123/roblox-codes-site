@@ -1,7 +1,7 @@
 {
   "slug": "elemental-magic-arena",
   "name": "Elemental Magic Arena",
-  "robloxName": "Elemental Magic Arena [2vs2 ⚔️]",
+  "robloxName": "Elemental Magic Arena [⚙️]",
   "placeId": 7243409883,
   "universeId": 2822776643,
   "gameUrl": "https://www.roblox.com/games/7243409883/Elemental-Magic-Arena",
@@ -139,17 +139,17 @@
     }
   ],
   "stats": {
-    "playing": 3407,
-    "visits": 162964422,
-    "favorites": 270364,
-    "updated": "2026-11-27T11:45:34.799Z",
+    "playing": 3329,
+    "visits": 163138247,
+    "favorites": 270594,
+    "updated": "2026-11-27T20:33:26.517Z",
     "created": "2021-08-12T14:53:33.093Z",
     "maxPlayers": 11,
-    "upVotes": 172697,
-    "downVotes": 16814
+    "upVotes": 172810,
+    "downVotes": 16833
   },
   "added": "2026-09-29T18:35:51.052Z",
-  "lastChecked": "2026-11-27T12:08:04.253Z",
+  "lastChecked": "2026-11-27T21:11:01.597Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
