@@ -1,7 +1,7 @@
 {
   "slug": "dudes-battlegrounds",
   "name": "Dudes Battlegrounds",
-  "robloxName": "Dudes Battlegrounds",
+  "robloxName": "[QUEEN!] Dudes Battlegrounds",
   "placeId": 14835828495,
   "universeId": 5112244393,
   "gameUrl": "https://www.roblox.com/games/14835828495/Dudes-Battlegrounds",
@@ -21,21 +21,11 @@
   "notes": "Dudes Battlegrounds is a superhero fighting game from the verified group Fantastic! Games, with a character roster inspired by the TV series The Boys. You pick a hero, drop into a shared arena, and fight other players using punches, blocks, dashes, and four character abilities, then build up to an ultimate. The game is still labelled as a beta, and new characters and mastery skins arrive through regular numbered updates.\n\nCodes usually give Vialites, the premium currency used on characters and cosmetics, along with Tokens and Fortune Wheel spins. The developers release one code per update, named after the update number, plus codes for like, favorite, and group-member milestones, and they announce them on Discord and in the game description.",
   "codes": [
     {
-      "code": "UPD72",
-      "reward": "72 Tokens",
-      "status": "active",
-      "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-26T16:48:55.222Z",
-      "source": "description",
-      "approved": true,
-      "approvedAt": "2026-09-29T16:27:49.271Z"
-    },
-    {
       "code": "2MFAVS",
       "reward": "1,000 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-26T16:48:55.222Z",
+      "lastSeen": "2026-11-27T01:41:37.712Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +35,7 @@
       "reward": "800 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-26T16:48:55.222Z",
+      "lastSeen": "2026-11-27T01:41:37.712Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,26 +45,45 @@
       "reward": "1 Fortune Wheel spin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-26T16:48:55.222Z",
+      "lastSeen": "2026-11-27T01:41:37.712Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
+    },
+    {
+      "code": "UPD76",
+      "reward": null,
+      "status": "active",
+      "firstSeen": "2026-11-27T01:41:37.712Z",
+      "lastSeen": "2026-11-27T01:41:37.712Z",
+      "source": "description",
+      "approved": false,
+      "context": "CODES: UPD76 | 2MFAVS | 190KLIKES | 2MGROUP"
     }
   ],
-  "expired": [],
+  "expired": [
+    {
+      "code": "UPD72",
+      "reward": "72 Tokens",
+      "removed": "2026-11-27",
+      "firstSeen": "2026-09-29T16:13:54.726Z",
+      "approved": true,
+      "reason": "no longer listed by the game"
+    }
+  ],
   "stats": {
-    "playing": 1479,
-    "visits": 411693517,
-    "favorites": 2953456,
-    "updated": "2026-11-25T12:59:17.121Z",
+    "playing": 943,
+    "visits": 411758117,
+    "favorites": 2953619,
+    "updated": "2026-11-26T17:57:53.071Z",
     "created": "2023-09-21T06:28:35.55Z",
     "maxPlayers": 16,
-    "upVotes": 202788,
-    "downVotes": 48330
+    "upVotes": 202804,
+    "downVotes": 48332
   },
   "added": "2026-09-29T16:13:54.726Z",
-  "lastChecked": "2026-11-26T16:48:55.222Z",
-  "lastChanged": "2026-09-29T16:27:49.271Z",
+  "lastChecked": "2026-11-27T01:41:37.712Z",
+  "lastChanged": "2026-11-27T01:41:37.712Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
     {

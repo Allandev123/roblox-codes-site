@@ -56,17 +56,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 182,
-    "visits": 4572646,
-    "favorites": 215903,
+    "playing": 122,
+    "visits": 4581342,
+    "favorites": 216212,
     "updated": "2026-11-23T18:09:15.412Z",
     "created": "2026-08-05T20:47:53.336Z",
     "maxPlayers": 12,
-    "upVotes": 13183,
-    "downVotes": 233
+    "upVotes": 13215,
+    "downVotes": 234
   },
   "added": "2026-10-11T15:00:28.759Z",
-  "lastChecked": "2026-11-26T16:48:55.222Z",
+  "lastChecked": "2026-11-27T01:41:37.712Z",
   "lastChanged": "2026-10-11T15:00:00.000Z",
   "codeChannels": "The Codes box asks you to join the Clean Strike group and their server, which is linked on the game page for players 13 and up",
   "checkedInGame": "2026-10-11",
