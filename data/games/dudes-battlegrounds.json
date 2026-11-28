@@ -25,7 +25,7 @@
       "reward": "1,000 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-28T03:16:37.651Z",
+      "lastSeen": "2026-11-28T11:50:16.054Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -35,7 +35,7 @@
       "reward": "800 Vialites",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-28T03:16:37.651Z",
+      "lastSeen": "2026-11-28T11:50:16.054Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -45,7 +45,7 @@
       "reward": "1 Fortune Wheel spin",
       "status": "active",
       "firstSeen": "2026-09-29T16:13:54.726Z",
-      "lastSeen": "2026-11-28T03:16:37.651Z",
+      "lastSeen": "2026-11-28T11:50:16.054Z",
       "source": "description",
       "approved": true,
       "approvedAt": "2026-09-29T16:27:49.271Z"
@@ -55,7 +55,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-27T01:41:37.712Z",
-      "lastSeen": "2026-11-28T03:16:37.651Z",
+      "lastSeen": "2026-11-28T11:50:16.054Z",
       "source": "description",
       "approved": false,
       "context": "CODES: UPD76 | 2MFAVS | 190KLIKES | 2MGROUP"
@@ -72,17 +72,17 @@
     }
   ],
   "stats": {
-    "playing": 1063,
-    "visits": 411891145,
-    "favorites": 2954035,
+    "playing": 1191,
+    "visits": 411933019,
+    "favorites": 2954145,
     "updated": "2026-11-26T17:57:53.071Z",
     "created": "2023-09-21T06:28:35.55Z",
     "maxPlayers": 16,
-    "upVotes": 202843,
-    "downVotes": 48340
+    "upVotes": 202855,
+    "downVotes": 48343
   },
   "added": "2026-09-29T16:13:54.726Z",
-  "lastChecked": "2026-11-28T03:16:37.651Z",
+  "lastChecked": "2026-11-28T11:50:16.054Z",
   "lastChanged": "2026-11-27T01:41:37.712Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [

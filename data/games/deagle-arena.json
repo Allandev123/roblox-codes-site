@@ -1,7 +1,7 @@
 {
   "slug": "deagle-arena",
   "name": "Deagle Arena",
-  "robloxName": "[12H] Deagle Arena",
+  "robloxName": "[3H] Deagle Arena",
   "placeId": 84556640895285,
   "universeId": 10057403337,
   "gameUrl": "https://www.roblox.com/games/84556640895285/Deagle-Arena",
@@ -53,17 +53,17 @@
   ],
   "expired": [],
   "stats": {
-    "playing": 11565,
-    "visits": 345786161,
-    "favorites": 10986677,
-    "updated": "2026-11-27T19:58:10.656Z",
+    "playing": 13766,
+    "visits": 346482423,
+    "favorites": 11000995,
+    "updated": "2026-11-28T10:32:04.255Z",
     "created": "2026-04-19T14:40:37.58Z",
     "maxPlayers": 8,
-    "upVotes": 118743,
-    "downVotes": 17073
+    "upVotes": 118943,
+    "downVotes": 17102
   },
   "added": "2026-09-29T18:35:41.154Z",
-  "lastChecked": "2026-11-28T03:16:37.651Z",
+  "lastChecked": "2026-11-28T11:50:16.054Z",
   "lastChanged": "2026-09-29T18:35:26.812Z",
   "faq": [
     {
