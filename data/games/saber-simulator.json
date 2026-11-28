@@ -25,7 +25,7 @@
       "reward": null,
       "status": "active",
       "firstSeen": "2026-11-27T21:11:01.597Z",
-      "lastSeen": "2026-11-27T21:11:01.597Z",
+      "lastSeen": "2026-11-28T03:16:37.651Z",
       "source": "description",
       "approved": false,
       "context": "New code \"BLACKFRIDAY26\""
@@ -58,17 +58,17 @@
     }
   ],
   "stats": {
-    "playing": 1946,
-    "visits": 648723981,
-    "favorites": 2038362,
+    "playing": 1810,
+    "visits": 648741274,
+    "favorites": 2038374,
     "updated": "2026-11-27T18:34:11.916Z",
     "created": "2019-09-07T00:35:42.387Z",
     "maxPlayers": 20,
-    "upVotes": 571048,
-    "downVotes": 90815
+    "upVotes": 571050,
+    "downVotes": 90814
   },
   "added": "2026-09-29T16:14:11.984Z",
-  "lastChecked": "2026-11-27T21:11:01.597Z",
+  "lastChecked": "2026-11-28T03:16:37.651Z",
   "lastChanged": "2026-10-24T04:31:09.217Z",
   "published": "2026-09-29T16:27:49.271Z",
   "faq": [
